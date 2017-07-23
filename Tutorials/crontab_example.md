@@ -14,14 +14,13 @@ Guide to time format. See `man crontab` for more details.
 
 ## File structure
 
-This is an example of lines to include in a crontab file.
+This is an example of lines to include in a crontab file, setting environment and then jobs.
 ```
-# Set environment and mail settings.
 SHELL=/bin/bash
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 MAILTO=michael
 
-# place jobs here
+# m h dom mon dow command
 0 * * * * echo "test"
 * * * * 1-4 path/to/file.sh
 ```
