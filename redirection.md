@@ -19,14 +19,14 @@ Redirect both to a file:
 ## Appending
 
 To append to a file using _both_ stdout and stderr, one can to do this, according to this [SO question](https://stackoverflow.com/questions/876239/how-can-i-redirect-and-append-both-stdout-and-stderr-to-a-file-with-bash)
+
 `command >> out.txt 2>&1`
 
 Because this does _not_ work
+
 `command &>> out.txt`
 
-The solution is repeated in a similar form at [[HELP] what does "2>&1" do in crontab?](http://www.unix.com/solaris/207049-help-what-does-2-1-do-crontab.html), but in the context of crontab mail.
-
-"If all output from a cron is redirected to a file, it will not generate an email of the output to Stdout or Stderr."
+The solution is repeated in a similar form at [[HELP] what does "2>&1" do in crontab?](http://www.unix.com/solaris/207049-help-what-does-2-1-do-crontab.html), but in the context of crontab mail. "If all output from a cron is redirected to a file, it will not generate an email of the output to Stdout or Stderr."
 
 Add output to file. Stop mail being sent on success or failure.
 
