@@ -123,7 +123,7 @@ $ sudo mail -u root
 $ sudo mail
 ```
 
-Accoring to http://www.linuxintro.org/wiki/Set_up_a_mail_server
+You can also do this, according to http://www.linuxintro.org/wiki/Set_up_a_mail_server
 ```
 $ sudo cat /var/spool/mail/michael
 $ sudo cat /var/spool/mail/root
@@ -144,7 +144,7 @@ Add logged in user to mail group as recommended by https://askubuntu.com/questio
 sudo adduser $USER mail
 ```
 
-## Add account
+## 3.1 Add account
 
 Open Thunderbird Mail from applications.
 
@@ -154,7 +154,7 @@ Click _Account Actions_ in the bottom left.
 
 Click _Add Other Account..._
 
-Then select "Unix Mailspool". Based on this article - https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird
+Then select "Unix Mailspool", according to this post. https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird
 
 Enter name as you wish to be displayed. 
 
@@ -172,7 +172,7 @@ e.g. `michael@myDeviceName`
 
 Leave the outgoing server details blank for now. If you wish to send mail, that is covered by other tutorials online.
 
-## View messages
+## 3.2 View messages
 Click "Get Messages" in Thunderbird Mail.
 
 The mails in mbox detailing crontab output should now be available in Thunderbird Mail.
