@@ -23,13 +23,15 @@ sudo apt-get install cron
 ```
 Choose or create a script you want run on a schedule. For example, create  `~/Documents/test.sh` and make it executable with `chmod +x test.sh`. For this tutorial you can just use `echo "Test"` directly without creating a script.
 
-Before setting up the crontab job, make a note of what your shell and path values. These will need to be set explicitly in crontab to make a script perform in the same environment as it did when executed in the terminal.
+Before setting up the crontab job, make a note of what your shell and path values. These will need to be set explicitly in crontab to make a script executre in the same environment as it did when executed in the terminal.
 ```
 $ echo $SHELL
 e.g. /bin/bash
 $ echo $PATH
 e.g. /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 ```
+Alternatively, view the variables which are already set in the system-wide crontab.
+`$ view /etc/crontab`
 
 ### 1.2 Create a job
 
