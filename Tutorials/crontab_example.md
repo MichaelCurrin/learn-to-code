@@ -1,6 +1,6 @@
 # Crontab Example
 
-
+## Times
 Guide to time format. See `man crontab` for more details.
 ```
 * * * * *
@@ -12,19 +12,29 @@ Guide to time format. See `man crontab` for more details.
 * day of week (0 - 7 with Sunday as 0 and 7)
 ```
 
+## File structure
+
 This is an example of lines to include in a crontab file.
 ```
+# Set environment and mail settings.
 SHELL=/bin/bash
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 MAILTO=michael
 
-# Disk usage
-0 * * * 1-5 du -h --max-depth=1 /
-
-# Example of how to hide stdout output and redirect any errors to an error file.
-# Based on answer here: https://superuser.com/questions/122246/how-can-i-view-results-of-my-cron-jobs
-0 5 * * * /path/to/job.sh 1> /dev/null 2> /path/to/file.err
-
-# Run at 9:30am. Activate virtual environment and run python script.
-30 9 * * 1,4 source activate myenv && cd path/to/folder && python report.py
+# place jobs here
+0 * * * * echo "test"
+* * * * 1-4 path/to/file.sh
 ```
+
+## Example jobs
+Disk usage
+`0 * * * 1-5 du -h --max-depth=1 /`
+
+Run at 9:30am on Mondays and Thursdays. Activate virtual environment and run python script.
+`30 9 * * 1,4 source activate myenv && cd path/to/folder && python report.py`
+
+Based on answer here: https://superuser.com/questions/122246/how-can-i-view-results-of-my-cron-jobs
+Hide stdout output and redirect any errors to an error file. 
+`0 5 * * * /path/to/job.sh 1> /dev/null 2> /path/to/file.err`
+Send output to mail other than set in MAILTO. Stdout is absorbed, then stderr is redirected to stdout and is then piped to mail.
+`33 3 * * * /path/to/job.sh 1> /dev/null 2>&1 | mail -s "My Subject" user@domain.com`
