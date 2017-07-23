@@ -26,14 +26,28 @@ MAILTO=michael
 ```
 
 ## Example jobs
+
 Disk usage
 `0 * * * 1-5 du -h --max-depth=1 /`
 
 Run at 9:30am on Mondays and Thursdays. Activate virtual environment and run python script.
+
 `30 9 * * 1,4 source activate myenv && cd path/to/folder && python report.py`
 
 Based on answer here: https://superuser.com/questions/122246/how-can-i-view-results-of-my-cron-jobs
+
 Hide stdout output and redirect any errors to an error file. 
+
 `0 5 * * * /path/to/job.sh 1> /dev/null 2> /path/to/file.err`
-Send output to mail other than set in MAILTO. Stdout is absorbed, then stderr is redirected to stdout and is then piped to mail.
-`33 3 * * * /path/to/job.sh 1> /dev/null 2>&1 | mail -s "My Subject" user@domain.com`
+
+Send output to mail other than set in MAILTO.
+
+`* * 2 * * /path/to/script.sh | /usr/bin/mail -s "My Subject" user@domain.com`
+
+Another mail example. Stdout is absorbed, then stderr is redirected to stdout and is then piped to mail.
+
+`30 12 * * * /path/to/script.sh 1> /dev/null 2>&1 | mail -s "My Subject" user@domain.com`
+
+Send stderror to mail address. This should be equivalent to the above but I've not tested. 
+
+`30 12 * * * /path/to/script.sh 1> /dev/null 2> mail -s "My Subject" user@domain.com`
