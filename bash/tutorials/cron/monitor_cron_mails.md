@@ -141,7 +141,7 @@ For help on mail
 
 I found that Thunderbird Mail on Ubuntu was straightforward to setup but I haven't figured out Kmail on Debian yet.
 
-## 3.1 Add account
+### 3.1 Add account
 
 Add logged in user to mail group (as recommended by https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird)
 ```
@@ -174,7 +174,7 @@ e.g. `michael@myDeviceName`
 
 Leave the outgoing server details blank for now. If you wish to send mail, that is covered by other tutorials online.
 
-## 3.2 View messages
+### 3.2 View messages
 Click "Get Messages" in Thunderbird Mail.
 
 The mails in mbox detailing crontab output should now be available in Thunderbird Mail.
