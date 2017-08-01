@@ -141,12 +141,12 @@ For help on mail
 
 I found that Thunderbird Mail on Ubuntu was straightforward to setup but I haven't figured out Kmail on Debian yet.
 
-Add logged in user to mail group as recommended by https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird
+## 3.1 Add account
+
+Add logged in user to mail group (as recommended by https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird)
 ```
 sudo adduser $USER mail
 ```
-
-## 3.1 Add account
 
 Open Thunderbird Mail from applications.
 
