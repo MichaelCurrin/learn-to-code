@@ -24,7 +24,7 @@ $ git config --global user.email user@domain.com
 $ git config --global core.editor nano
 ```
 
-Edit the whole files of values.
+Edit the whole files of global values.
 ```
 $ git config --global -e
 # edit in text editor and save
