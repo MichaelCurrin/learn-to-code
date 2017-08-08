@@ -69,9 +69,9 @@ My preferred style combined from a few others.
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-# Use blue (1st) or red (2nd) for hostname colour.
+# Use blue (1st) or red (2nd) for hostname background colour, with bold text.
 BLOCK="\[\033[1;44m\]"
-#BLOCK="\[\033[1;31m\]"
+#BLOCK="\[\033[1;41m\]"
 
 YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
