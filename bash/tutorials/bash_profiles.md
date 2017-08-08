@@ -4,7 +4,7 @@ Here are some recommended settings for bash console.
 
 If you want to test something temporarily for the terminal session, you can run it directly.
 
-e.g. `PS1="\u"` or `export PS1="\u"`
+e.g. `PS1="\u \$ "` or `export PS1="\u \$ "`
 
 If you want to preview colours, you can do the following in the console.
 ```
@@ -69,7 +69,7 @@ My preferred style combined from a few others.
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-# Use blue (1st) or red (2nd) as hostname.
+# Use blue (1st) or red (2nd) for hostname colour.
 BLOCK="\[\033[1;44m\]"
 #BLOCK="\[\033[1;31m\]"
 
