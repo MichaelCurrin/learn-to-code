@@ -78,3 +78,28 @@ Search contents of a file using regex.
 ```
 $ cat filename.txt | grep "inp.*1"
 ```
+
+View contents of all files in current directory. Or replace wildcard asterisk with a rule or filename.
+```
+# Get all contents at once, with no breaks between files.
+$ cat *
+import argparse
+print 'done'
+import datetime
+import os
+print 'done'
+
+# Get contents one file at a time, then using enter to go to next file and the next line.
+$ more *
+::::::::::::::
+fileA.py
+::::::::::::::
+import argparse
+print 'done'
+::::::::::::::
+fileB.py
+::::::::::::::
+import datetime
+import os
+print 'done'
+```
