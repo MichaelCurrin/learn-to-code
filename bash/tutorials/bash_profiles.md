@@ -21,7 +21,12 @@ If you'd like settings be loaded on all new terminal sessions, then add them to 
 
 ## Command prompt decoration
 
-User value on Debian, from `echo $PS1`. (If you use single quotes then you don't have to escape hard brackets or dollar sign).
+User value on Ubuntu, from `echo $PS1`. This keeps a space between optional virtualenv and username. Change the `w` to uppercase if you want the shorter version.
+```
+PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+```
+
+User value on Debian, from `echo $PS1`. (If you use single quotes then you don't have to escape the outside hard brackets or dollar sign).
 ```
 PS1='[\u@\[\033[1;41m\]\h\[\033[0m\]:\W]$ '
 ```
