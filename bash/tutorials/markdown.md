@@ -4,3 +4,5 @@
 See this article on how to setup markdown previewing in Sublime. http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html
 
 Then `alt+m` to preview in browser.
+
+`ctrl+shift+p` then search "Preview"
