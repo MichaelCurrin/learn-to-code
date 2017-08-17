@@ -31,3 +31,20 @@ $ cp -i -R A B
 cp: overwrite ‘B/A/d/d2/file.txt’?
 ...
 ```
+
+How to copy to destination directory with appropriate name,
+
+Given directory `sub/D`
+
+```
+# Use default
+$ cp A sub/D/
+=> results in sub/D/A/
+
+# Use custom
+$ cp A sub/D/Z/
+=> results in sub/D/Z/
+
+```
+
+
