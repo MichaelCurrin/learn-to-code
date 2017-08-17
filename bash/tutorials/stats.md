@@ -5,12 +5,18 @@
 
 Get disk usage with human-readable flag for current dir and below.
 ```
-$ du -H
+$ du -h
 ```
 
-Apply to selected dir and its contents.
+Get size of a file
 ```
-$ du -H etc/
+$ du -h abc.py
+4.0K abc.py
+```
+
+Get size of selected dir and its contents.
+```
+$ du -h etc/
 ...
 20K     etc/systemd
 16K     etc/analog
@@ -18,8 +24,8 @@ $ du -H etc/
 188K    etc/
 ```
 
-Apply to a file
+Get one line summary of selected dir's size.
 ```
-$ du -H abc.py
-4.0K abc.py
+$ du -s -h etc/
+188K    etc/
 ```
