@@ -1,8 +1,7 @@
 # Introduction
 
 Based on the book
-    Beginning Linux Programming (Worx PRess)
-    bt Neil Matthew & Richard Stones
+    Beginning Linux Programming (Worx Press) by Neil Matthew & Richard Stones
 
 
 ## Structure
@@ -78,7 +77,6 @@ $ more < file.txt
 
 # Exceute query.
 $ sqlite3 myDatabase.db < myQuery.sql
-
 ```
 
 ### Piping
@@ -87,5 +85,4 @@ $ sqlite3 myDatabase.db < myQuery.sql
 $ echo "SELECT * FROM myTable;" | sqlite3 myDatabase.db
 
 $ grep -irn abc | sort
-
 ```
