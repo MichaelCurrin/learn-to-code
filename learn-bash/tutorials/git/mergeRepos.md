@@ -1,9 +1,9 @@
-# Merge Repos
+# Merge Repositories While Keeping Histories
 
-Guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
+My guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
 tracking history of the original repos.
 
-Thanks to these articles:
+Thanks to approach and commands from these articles:
  - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
  - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the the allow unrelated histories flag
 
@@ -25,7 +25,7 @@ Thanks to these articles:
     $ git commit README.md -m "Initial commit"
     ```
 
-2. Prepare oldRepoaA for merging
+2. Prepare oldRepoA for merging
 
     This step is optional.
 
@@ -96,5 +96,9 @@ Thanks to these articles:
 7. Continue working in newRepo
 
     In newRepo you can continue to update files, do commits and push.
-
+    
+    ```bash
+    $ git push -u origin master
+    ```
+    
     Delete the old repos on Github and on your machine, if you are sure you don't need them anymore.
