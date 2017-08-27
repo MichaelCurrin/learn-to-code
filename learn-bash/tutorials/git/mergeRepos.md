@@ -17,12 +17,11 @@ Thanks to approach and commands from these articles:
     ```
     You should have now the remote origin pointing to that remote repo URI.
 
-    I recommend creating and committing a file to start the history, if you haven't already. 
-
+    Optionally create README.md describing your repo.
     ```bash
     $ cd newRepo
     $ touch README.md
-    $ git commit README.md -m "Initial commit"
+    $ git commit README.md -m "Create README.md"
     ```
 
 2. Prepare oldRepoA for merging
@@ -45,11 +44,14 @@ Thanks to approach and commands from these articles:
     $ git commit -m "Move all oldRepoA objects into oldRepoA dir.
     $ git push
     ```
-
+  
     Commit message will be something like `Merge remote-tracking branch 'oldRepoA/master'`.
 
-    Consider that your rules in .gitignore might need modification at this point if they are 
-    relative to the top level dirs which are one level down.
+    Using this style, each old repo will have its README.md file in the same subdir as other files.
+    So you can use one short top-level README.md file for the newRepo which can describe the repo.
+    
+    Consider that your rules in .gitignore might need modification at this point, if they are 
+    relative to the top level dirs which are now one level down.
 
 3. Add oldRepoA as remote on the newRepo
 
