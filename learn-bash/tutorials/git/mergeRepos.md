@@ -3,22 +3,26 @@
 Guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
 tracking history of the original repos.
 
+Thanks to these articles:
+ - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
+ - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the the allow unrelated histories flag
 
-1. Clone the target main repo after choosing one or creating it on Github/Bitbucker.
+
+1. Clone the target main repo after choosing one or creating it on Github/Bitbucket.
 
     ```bash
     # Make the repos dir or choose your preferred dir.
     $ cd ~/repos
     $ git clone git@github.com:myUsername/newRepo.git
     ```
-    You should have now remote origin pointing to that remote repo.
+    You should have now the remote origin pointing to that remote repo URI.
 
     I recommend creating and committing a file to start the history, if you haven't already. 
 
     ```bash
     $ cd newRepo
     $ touch README.md
-    $ git commit README.md -m "Create README.md"
+    $ git commit README.md -m "Initial commit"
     ```
 
 2. Prepare oldRepoaA for merging
@@ -50,7 +54,7 @@ tracking history of the original repos.
 3. Add oldRepoA as remote on the newRepo
 
     ```bash
-    $ cd ~repos/newRepo
+    $ cd ~/repos/newRepo
     # -f flag will do a fetch
     $ git remote add -f oldRepoA git@github.com:myUsername/oldRepoA.git
     ```
@@ -64,30 +68,33 @@ tracking history of the original repos.
     # add a flag to ignore this.
     $ git merge oldRepoA/master --no-ff --allow-unrelated-histories
     ```
-    All the objects in oldRepoA will now be in the top level of newRepo.
+    All the objects in oldRepoA will now be in the top level of newRepo, with their tracking
+    history. They still exist in oldRepoA.
 
 5. Repeat steps 2 to 4 for oldRepoB.
 
 6. View the commit history tree visually.
 
+    Example ouput:
+    
     ```bash
     $  log --graph --decorate --pretty=oneline --abbrev-commit
     *   10473f8 (HEAD -> master, origin/master) Merge remote-tracking branch 'oldRepoB/master'
     |\  
     | * e21ea58 (oldRepoB/master) Move all objects in oldRepoB to oldRepoB dir.
     | * 3498d95 Create myFile.py
-    | * 1fd7a6c Initial commit
+    | * 1fd7a6c Initial commit # oldRepoB
     *   696c2f5 Merge remote-tracking branch 'oldRepoA/master'
     |\
     | * 48e8819 (oldRepoA/master) Move all object in oldRepoA to oldRepoA dir.
     | * 5fb5e05 create file2.py
     | * c0aed49 create file1.py
-    | * c0ae124 Initial commit
-    * 379a6bd Initial commit
+    | * c0ae124 Initial commit # oldRepoA
+    * 379a6bd Initial commit # newRepoA
     ```
 
-7. Continue working in newRepp
+7. Continue working in newRepo
 
-    Update files, do commits and push.
+    In newRepo you can continue to update files, do commits and push.
 
-    Delete the old repos on Github and on your machine if you don't need them anymore.
+    Delete the old repos on Github and on your machine, if you are sure you don't need them anymore.
