@@ -73,7 +73,7 @@ GREEN="\[\033[0;32m\]"
 PS1="$RED\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$GREEN\$ "
 ```
 
-My preferred style combined from a few others.
+My preferred style, combined from a few above.
 
 ```bash
 # Show current git branch in prompt.
@@ -87,12 +87,14 @@ BLOCK="\[\033[1;44m\]"
 YELLOW="\[\033[0;33m\]"
 GREEN="\[\033[0;32m\]"
 WHITE="\[\033[0m\]"
-PS1="$(date +%H:%M) [\u@$BLOCK\h$WHITE:\W]$YELLOW \$(parse_git_branch)$GREEN\$ $WHITE"
+PS1="\$(date +%H:%M) [\u@$BLOCK\h$WHITE:\W]$YELLOW \$(parse_git_branch)$GREEN\$ $WHITE"
 ```
-Notes '\W' is for last part of current working directory, while lowercase '\w' will give the full path.
 
-Double quotes need to be used on the last line above so that colour can be substituted in with $. But then symbols need to be escaped - in this case only dollar signs since hard brackets are handled in colour variables.
-I found that the hard brackets before username and after working directory did need to be escaped as they will be shown explictly. ANd if they are escaped, then unfortunatey, the commands cut into the prompt on the left when scrolling through history of commands with keyword arrows.
+Notes '\W' is for the last part of current working directory, while lowercase '\w' will give the full path.
+
+Double quotes need to be used on the last line above so that colour can be substituted in with $. But then symbols need to be escaped - in this case only dollar signs since hard brackets are handled in colour variables. If a $ is not escaped, the value is calculated immediately and is not dynamic - in particular, the date will become frozen as time of starting the console.
+
+I found that the _hard brackets_ before username and after working directory did need to be escaped as they will be shown explictly. And if they are escaped, then unfortunatey, the commands cut into the prompt on the left when scrolling through history of commands with keyword arrows.
 
 
 ## Other
