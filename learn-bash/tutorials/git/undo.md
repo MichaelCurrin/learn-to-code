@@ -2,21 +2,24 @@
 
 ## Files
 
-Remove uncommited changes in a specific file (this works on modified files which are staged or unstaged).
-```
-$ git checkout -- path/to/file
-```
-
 Remove file from _staging_ so it will not be included in next commit. Does _not_ undo the modifications on the file.
 ```
 $ git reset HEAD path/to/file
 ```
 
-Remove uncommitted changes in only _unstaged_ files, to match the current revision.
+Remove uncommited changes on a file or dir (this works on modified files whether staged or unstaged).
 ```
-$ git checkout myDirectory
+$ git checkout -- path/to/file
 
-## Example:
+$ git checkout -- path/to/dir
+```
+
+_TODO: confirm difference between -- and not, using dir._
+
+Example of how to remove changes in a dir which are _not staged_.
+```
+$ git checkout path/to/dir
+
 $ git status
 ...
 Changes to be committed:
@@ -25,7 +28,6 @@ Changes to be committed:
 Changes not staged for commit:
         modified:   modified.txt
         
-# Use full stop for current directory.
 $ git checkout .
 $ git status
 Changes to be committed:
