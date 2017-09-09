@@ -2,7 +2,15 @@
 
 ## Verbosity
 
-You can set bash verbosity mode on, so that all received commands are repeated on stdout before the result of the command.
+You can set bash verbosity mode on, such that each command is printed to stdout before its result.
+
+### Once off
+
+```bash
+$ bash --verbose my_file.sh
+```
+
+### Configure bash session
 
 ```bash
 $ # Set verbose on (yes, with a minus sign)
@@ -34,4 +42,20 @@ myDir myFile.py text.txt
 $ cd !!:$
 cd ~/Documents
 $
+```
+
+## Debugging
+
+Bash has a debugger - TODO investigate this.
+
+```bash
+$ bash --help
+GNU bash, version 4.4.12(1)-release-(x86_64-pc-linux-gnu)
+Usage:  bash [GNU long option] [option] ...
+        bash [GNU long option] [option] script-file ...
+GNU long options:
+        --debug
+        --debugger
+        --dump-po-strings
+        ...
 ```
