@@ -64,6 +64,10 @@ $ python
 
 After dowloading resource `stopwords` for`nltk.corpous.stopwords()` and `punkt` for `nltk.word_tokenize()`, you can use those functions without a lookup error.
 
+Further reading on implementation of stopwords and tokenization.
+- https://stackoverflow.com/questions/17390326/getting-rid-of-stop-words-and-document-tokenization-using-nltk
+- https://stackoverflow.com/questions/19130512/stopword-removal-with-nltk
+- https://stackoverflow.com/questions/10464265/effects-of-stemming-on-the-term-frequency
 
 ## Configuration
 
@@ -80,3 +84,10 @@ $ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
 ```
 
 Alternatively, use interactive downloader and use the prompts to get to configuration and setting a new data directory.
+
+Check the paths where data can be read from.
+```
+>>> import nltk
+>>> nltk.data.path
+['/home/myUser/nltk_data', '/usr/share/nltk_data', '/usr/local/share/nltk_data', '/usr/lib/nltk_data', '/usr/local/lib/nltk_data']
+```
