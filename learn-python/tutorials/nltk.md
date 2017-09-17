@@ -36,7 +36,12 @@ LookupError:
   Resource u'tokenizers/punkt/english.pickle' not found.
 ```
 
-So it's a good idea to install resources which you need. See the configuration section in this doc if you want to customise the resource locations.
+Install the resources you need - the default location is `~/nltk_data`, at least on Linux when in a virtualenv. Note that the directory exists at the user level outside of a virtualenv, which means all new and existing virtualenvs with `nltk` package installed and using default data directory should be able to access the resources you intall now.
+
+See the configuration section in this doc if you want to customise the resource locations.
+
+
+Follow the prompts to see the list of available resources. And use the downloader to install them by name. 
 
 ```
 $ python -m nltk.downloader
@@ -54,9 +59,6 @@ $ python
 >>> import nltk
 >>> nltk.downloader()
 ```
-
-Follow the prompts to see the list of available resources. And use the downloader to install them by name. 
-
 
 ## Use the resources
 
