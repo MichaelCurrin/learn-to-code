@@ -85,9 +85,12 @@ $ sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
 
 Alternatively, use interactive downloader and use the prompts to get to configuration and setting a new data directory.
 
-Check the paths where data can be read from.
+Check the paths where data can be read from and the path to your installed nltk package. 
 ```
 >>> import nltk
 >>> nltk.data.path
 ['/home/myUser/nltk_data', '/usr/share/nltk_data', '/usr/local/share/nltk_data', '/usr/lib/nltk_data', '/usr/local/lib/nltk_data']
+>>> nltk.__path__
+['/home/myUser/.local/virtualenvs/myVirtual/local/lib/python2.7/site-packages/nltk']
+>>>
 ```
