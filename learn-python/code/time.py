@@ -10,10 +10,6 @@ import time
 import pytz
 
 
-# Get pytz.UTC class object.
-tzStr = 'utc'
-tzObj = pytz.timezone(tzStr)
-
 print 'Today (date)'
 print datetime.date.today()
 print
@@ -40,6 +36,10 @@ print (nowDT - todayDT)
 print
 
 print 'Now with tz set'
+# Get timezone object.
+# Or simply, `pytz.UTC`.
+tzObj = pytz.timezone('utc')
+
 # According to help, it takes optional argument.
 #   [tz] -> new datetime with tz's local day and time.
 nowDTtimezone = datetime.datetime.now(tzObj)
@@ -77,3 +77,12 @@ duration = datetime.timedelta(1.5)
 print str(duration)
 print '{0} seconds'.format(duration.total_seconds())
 print
+
+print 'ctime'
+print datetime.datetime(1970, 1, 1).ctime()
+# => Fri Jan  1 00:00:00 2010'
+print datetime.datetime.now().ctime()
+
+print 'more on timezone'
+# Create a timezone aware datetime object.
+d = datetime.datetime(2017, 1, 2, 12, 3, 40, tzinfo=pytz.UTC)
