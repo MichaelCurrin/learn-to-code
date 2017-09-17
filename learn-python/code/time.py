@@ -1,8 +1,8 @@
-#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-Time and timezones.
+Demonstrate use of datetime and time modules.
 
-Requires installation of pytz.
+Requires installation of pytz for working with timezones.
 """
 import datetime
 import time
@@ -25,20 +25,31 @@ print 'Today (datetime)'
 #       self.__class__.fromtimestamp(time.time()).
 # Meaning that the time module is used to generate a float and this is used
 # to create a datetime object.
-print datetime.datetime.today()
+todayDT = datetime.datetime.today()
+print todayDT
 print
 
 print 'Now (datetime) without tz set'
 # Current time as datetime object.
 # According to help, it takes optional argument.
 #   [tz] -> new datetime with tz's local day and time.
-print datetime.datetime.now()
+nowDT = datetime.datetime.now()
+print nowDT
+# Expect these two to be equal, both using system's timezone by default.
+print (nowDT - todayDT)
 print
 
 print 'Now with tz set'
 # According to help, it takes optional argument.
 #   [tz] -> new datetime with tz's local day and time.
-print datetime.datetime.now(tzObj)
+nowDTtimezone = datetime.datetime.now(tzObj)
+print nowDTtimezone
+# Expect these two hour values to differ, unless your system's timezone
+# is actually utc.
+print '{0} hrs difference'.format(nowDT.hour - nowDTtimezone.hour)
+# This would raise an error.
+# >>> print nowDT - nowDTtimezone
+# => TypeError: can't subtract offset-naive and offset-aware datetimes
 print
 
 print 'Time'
