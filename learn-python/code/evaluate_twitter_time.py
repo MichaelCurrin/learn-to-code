@@ -2,8 +2,11 @@
 """
 Evaluate time from Twitter API as datetime object.
 
-Based on
+Based on:
     https://stackoverflow.com/questions/29147941/convert-time-zone-format-in-python-from-twitter-api
+
+See also `datetime.datetime.ctime`, which is the same as below
+expect that Twitter time includes a timezone as '+0000'.
 """
 import datetime
 from email.utils import mktime_tz, parsedate_tz
