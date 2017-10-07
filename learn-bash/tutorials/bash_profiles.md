@@ -21,19 +21,19 @@ If you'd like settings be loaded on all new terminal sessions, then add them to 
 
 ## Command prompt decoration
 
-User value on Ubuntu, from `echo $PS1`. This keeps a space between optional virtualenv and username. Change the `w` to uppercase if you want the shorter version.
-
-```bash
-PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
-```
-
-User value on Debian, from `echo $PS1`. (If you use single quotes then you don't have to escape the outside hard brackets or dollar sign).
+A user value on Ubuntu, from `echo $PS1`. (If you use single quotes then you don't have to escape the outside hard brackets or dollar sign).
 
 ```bash
 PS1='[\u@\[\033[1;41m\]\h\[\033[0m\]:\W]$ '
 ```
 
-Root value on Debian, from `/etc/bash.bashrc` file.
+A user value on Debian, from `echo $PS1`. This keeps a space between optional virtualenv and username. Change the `w` to uppercase if you want the shorter version.
+
+```bash
+PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+```
+
+The root user's value on Debian, from `/etc/bash.bashrc` file.
 
 ```bash
 # set a fancy prompt (non-color, overwrite the one in /etc/profile)
@@ -90,9 +90,9 @@ WHITE="\[\033[0m\]"
 PS1="\$(date +%H:%M) [\u@$BLOCK\h$WHITE:\W]$YELLOW \$(parse_git_branch)$GREEN\$ $WHITE"
 ```
 
-Notes '\W' is for the last part of current working directory, while lowercase '\w' will give the full path.
+Note that `\W` is for the last part of current working directory and that a lowercase `\w` will give the full path.
 
-Double quotes need to be used on the last line above so that colour can be substituted in with $. But then symbols need to be escaped - in this case only dollar signs since hard brackets are handled in colour variables. If a $ is not escaped, the value is calculated immediately and is not dynamic - in particular, the date will become frozen as time of starting the console.
+The double quotes need to be used on the last line above instead of single quotes, so that colour can be substituted in with $. But then symbols need to be escaped - in this case only dollar signs since hard brackets are handled in colour variables. If a $ is not escaped, the value is calculated immediately and is not dynamic - in particular, the date will become frozen as time of starting the console.
 
 I found that the _hard brackets_ before username and after working directory did need to be escaped as they will be shown explictly. And if they are escaped, then unfortunatey, the commands cut into the prompt on the left when scrolling through history of commands with keyword arrows.
 
