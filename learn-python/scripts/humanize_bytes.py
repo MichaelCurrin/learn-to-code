@@ -30,7 +30,12 @@ performance using %timeit in ipython, though the recursive approach is slower.
 
 The calculation for length of UNITS tuple could be moved to the global
 level so it does not have to be repeated in a while loop or recursion loop.
-However, we are only a few iterations, so the saving in processing time would be negligible.
+However, we are only a few iterations, so the saving in processing time
+would be negligible.
+
+This script could be extended to process negative values by using abs(), however
+I didn't feel that feature would be used enough to make it worth changing
+the code now.
 
 The inspiration for this script and some further reading:
  - I like the loop in Fred Cirera's answer and wrote my log logic
@@ -39,6 +44,8 @@ The inspiration for this script and some further reading:
  - a few other approaches https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python
 """
 from __future__ import division, print_function
+
+import argparse
 import math
 
 
@@ -123,6 +130,27 @@ def humanize_bytes_log(v):
     return v, exp
 
 
+def format_as_str(v):
+    """
+    Convert integer in bytes to a human-readable value in an appropriate unit
+    and return a string.
+
+    Use this function when calling this script externally, since this is
+    the only function besides `test` which does string handling.
+
+    This function uses the log approach as it has maximum complexity O(1),
+    due to not iterating.
+
+    @param v: number of bytes, as zero or a positive integer.
+
+    @return: string containing the the input value converted to appropriate unit
+        to two decimal places and shown with the symbol.
+    """
+    newValue, index = humanize_bytes_log(v)
+
+    return "{0:,.2f} {1}".format(newValue, UNITS[index])
+
+
 def test():
     """
     Check at that all functions give the same output value and unit for
@@ -151,5 +179,23 @@ def test():
         print()
 
 
+def main():
+    """
+    Run script with command-line arguments.
+    """
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('bytes',
+                        type=int,
+                        help="Positive integer value in bytes to convert to"
+                             " human-readable value then print to stdout."
+                             " Output is rounded two decimal places and shown"
+                             " with the unit of measurement.")
+
+    args = parser.parse_args()
+
+    print(format_as_str(args.bytes))
+
+
 if __name__ == '__main__':
-    test()
+    main()
