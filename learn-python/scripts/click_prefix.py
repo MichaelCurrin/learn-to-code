@@ -52,7 +52,7 @@ from __future__ import print_function
 
 import click
 
-# Enviroment variable names must start with this.
+# Environment variable names must start with this.
 ENVVAR_PREFIX = 'CLICKTEST'
 
 
