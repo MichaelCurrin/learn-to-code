@@ -43,7 +43,9 @@ $ git branch -av
 Delete a feature branch which is no longer required, such as it was deleted on the remote repo after it was merged into develop.
 
 ```bash
+$ # Delete invidually.
 $ git branch -d feature_branch_C feature_branch_D
+$ # Result.
 $ git branch -a
 * develop
 feature_branch_F
@@ -56,10 +58,14 @@ remotes/origin/feature_branch_A
 master
 ```
 
-Consider branches A and B above. These were pushed to the remote repo by other users but were never worked on using the local machine. Yet they were added as remotes by a fetch or pull. If they are no longer in the remote repo but still on your local repo, they are considered stale and can be removed using a prune command.
+Consider branches A and B above. These were pushed to the remote repo by other users but were never worked on using the local machine. Yet they were added as remotes by a fetch or pull. If they are no longer in the remote repo but still on your local repo, they are considered stale and can be deleted.
 
 ```bash
+$ # Delete individually.
+$ git branch -rd origin/feature_branch_A origin/feature_branch_B
+$ # OR use prune command.
 $ git remote prune origin
+$ # Result.
 $ git branch -a
 * develop
 feature_branch_F
