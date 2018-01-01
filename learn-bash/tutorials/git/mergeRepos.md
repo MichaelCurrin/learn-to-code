@@ -39,8 +39,7 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     $ mkdir oldRepoA
     # Move everything in oldRepoA/ to oldRepoA/oldRepoA/, though you will get a harmless error 
     # saying the dir could not be moved into itself.
-    $ mv * oldRepoA
-    $ git add .
+    $ git mv * oldRepoA
     $ git commit -m "Move all oldRepoA objects into oldRepoA dir.
     $ git push
     ```
