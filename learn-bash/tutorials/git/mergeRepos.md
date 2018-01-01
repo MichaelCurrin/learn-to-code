@@ -3,31 +3,27 @@
 My guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
 tracking history of the original repos.
 
+Note: this lesson requires git version 2.11 or higher, for access to the `--allow-unrelated-histories` flag on git merge. This is fine on Debian. But Linux lite and certain Ubuntu distributions only have older versions of git at time of writing, so you might want to add alternative sources for your package updates.
+
 With thanks to these articles for the approach and commands which I based this lesson on:
  - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
- - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the flag to allow unrelated histories
+ - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for `--allow-unrelated-histories` flag
  
-There is probably a way to do the same thing in the lesson using rebase to make two repos appear to share a sequential history when merged. But I am wary of doing a rebase without any experience with it.
+There is probably a way to do the same thing in the lesson using rebase to make two repos appear to share a sequential history when merged. But I am wary of doing a rebase without any experience with that.
 
 
-1. Create the newRepo on Github/Bitbucket then get a local copy of it.
+1. Create the newRepo on Github/Bitbucket and create a REAMD.md file there.
+
+2. Get a local copy of it.
 
     ```bash
     # This is my preferred directory.
     $ cd ~/repos
     $ git clone git@github.com:myUsername/newRepo.git
     ```
-    You should have now the remote origin pointing to that remote repo URI.
+    You should have now the origin remote pointing to that remote repo URI.
 
-    Optionally create README.md describing your repo.
-    ```bash
-    $ cd newRepo
-    $ touch README.md
-    $ git add README.md
-    $ git commit -m 'Create README.md'
-    ```
-
-2. Prepare oldRepoA for merging
+3. Prepare oldRepoA for merging
 
     This step is optional but is recommended. It ensures the contents of repo oldRepoA are moved to its own directory named oldRepoA. This is especially useful to do _before_ the merge, since any files with shared names across the repos (e.g. README.md) will be placed in separate directories so they will not conflict.
 
@@ -39,20 +35,14 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     $ mkdir oldRepoA
     # Move everything in oldRepoA/ to oldRepoA/oldRepoA/, though you will get a harmless error 
     # saying the dir could not be moved into itself.
-    $ git mv * oldRepoA
-    $ git commit -m "Move all oldRepoA objects into oldRepoA dir.
+    $ git mv * oldRepoA/
+    # Hidden files need to moved separately.
+    $ git mv .gitignore oldRepoA/
+    $ git commit -m 'Move all oldRepoA objects into oldRepoA dir.'
     $ git push
     ```
-  
-    Commit message will be something like `Merge remote-tracking branch 'oldRepoA/master'`.
 
-    Using this style, each old repo will have its README.md file in the same subdir as other files.
-    So you can use one short top-level README.md file for the newRepo which can describe the repo.
-    
-    Consider that your rules in .gitignore might need modification at this point, if they are 
-    relative to the top level dirs which are now one level down.
-
-3. Add oldRepoA as remote on the newRepo
+4. Add oldRepoA as remote on the newRepo
 
     ```bash
     $ cd ~/repos/newRepo
@@ -60,21 +50,19 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     $ git remote add -f oldRepoA git@github.com:myUsername/oldRepoA.git
     ```
 
-4. Merge oldRepoA into newRepo
+5. Merge oldRepoA into newRepo
 
     ```bash
-    # Use no fastforward flag to preserve history (I usually do this for merginng branches, 
-    # not sure if it makes a difference when merging repos).
-    # You will get an error that the histories are different with no commits in common, so 
+    # You could get an error that the histories are different with no commits in common, therefore 
     # add a flag to ignore this.
-    $ git merge oldRepoA/master --no-ff --allow-unrelated-histories
+    $ git merge oldRepoA/master --allow-unrelated-histories
     ```
-    All the objects in oldRepoA will now be in the top level of newRepo, with their tracking
-    history. They still exist in oldRepoA.
+    All the objects in oldRepoA repo will now be in the top level of the newRepo repo, with their tracking
+    history. They will still exist in oldRepoA.
 
-5. Repeat steps 2 to 4 for oldRepoB.
+6. Repeat steps 3 to 5 for oldRepoB.
 
-6. View the commit history tree visually.
+7. Optionally view the commit history tree visually.
 
     Example ouput:
     
@@ -94,12 +82,14 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     * 379a6bd Initial commit # newRepoA
     ```
 
-7. Continue working in newRepo
+8. Continue working in newRepo
 
     In newRepo you can continue to update files, do commits and push.
+
+    You will probably want to combine the README.md, LICENCE and .gitignore files from the subdirectories into single files for the new repo.
     
     ```bash
     $ git push -u origin master
     ```
-    
-    Delete the old repos on Github and on your machine, if you are sure you don't need them anymore.
+
+9. Optionally delete the local and remote copies of your old repos which are no longer needed.
