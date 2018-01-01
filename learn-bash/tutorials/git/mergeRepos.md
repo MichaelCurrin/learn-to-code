@@ -28,10 +28,7 @@ There is probably a way to do the same thing in the lesson using rebase to make 
 
 2. Prepare oldRepoA for merging
 
-    This step is optional.
-
-    Follow this step if you want to oldRepoA to be in its own dir called oldRepoA in the newRepoA 
-    and if you prefer to do the moving before the merge.
+    This step is optional but is recommended. It ensures the contents of repo oldRepoA are moved to its own directory named oldRepoA. This is especially useful to do _before_ the merge, since any files with shared names across the repos (e.g. README.md) will be placed in separate directories so they will not conflict.
 
     ```bash
     $ git clone git@github.com:myUsername/oldRepoA.git
