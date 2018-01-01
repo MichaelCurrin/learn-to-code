@@ -23,7 +23,8 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     ```bash
     $ cd newRepo
     $ touch README.md
-    $ git commit README.md -m "Create README.md"
+    $ git add README.md
+    $ git commit -m 'Create README.md'
     ```
 
 2. Prepare oldRepoA for merging
