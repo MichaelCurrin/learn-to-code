@@ -1,60 +1,53 @@
 # Introduction
 
-Based on the book
-    Beginning Linux Programming (Worx Press) by Neil Matthew & Richard Stones
-
+From the introduction chapter.
 
 ## Structure
 
 ### bin
 
 Standard places where system programs are stored.
-```
-/bin # binaries, programes used on boot
-/usr/bin # user binaries, standard programs available to users
-/usr/local/bin # local binaries, programs specific to an installation
+```bash
+# Binaries, programs used on boot
+/bin
+# User binaries, standard programs available to users
+/usr/bin
+# Local binaries, programs specific to an installation
+/usr/local/bin
 ```
 
 ### usr
 
-On an upgrade
-```
-# It seems files in here could be overwritten.
+On an OS upgrade
+```bash
+# From what I've read, it seems files in here could be overwritten.
 /usr
 # While files here are preserved.
 /usr/local
 
-# But his requires more research to confirm.
+# But citation is needed.
+```
+
+### library files
+
+Collections of precompiled functions to be resuable. Typically consists
+of a sets of related functions to perform a common task.
+
+```bash
+/lib
+/usr/lib
 ```
 
 Header files for C
-```
+
+```bash
 /usr/include
 /usr/include/sys
 /usr/include/linux
 ```
 
 
-Get help on the GNU C Compiler
-
-```
-$ man cc
-$ info cc
-```
-
-
-### library files
-
-Collections of precompiled functions to be resuable. Typically consists
-of a sets of related functions to perform a common task.
-```
-/lib
-/usr/lib
-```
-
-
-
-## Redirecting
+## Redirection
 
 ### Redirecting output
 
