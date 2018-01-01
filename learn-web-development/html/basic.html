@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+This is a demo of some HTML basics in action, as reference and as practice.
+For more detail, I recommend https://www.w3schools.com/
+-->
+     
+<head>
+    <title>My Title</title>
+</head>
+
+<body>
+  <h1>HTML Basics</h1>
+  
+  <h2>Text</h2>
+    This is some text not in a parapraph tag.
+    <p>
+        This is some text in a paragraph tag. This is a line break... <br> This is the next line.
+        And this is a new line in the source code but without br tag it will stay on the same line as the previous.
+    </p>
+    <p>
+        This sentence contains a link to <a href="https://google.com">Google</a>. 
+         And this sentence links to an image which if it fails will 
+         use alt - <img src="smiley.gif" alt="my alt text" height="100" width="42">. 
+         And this one has no alt text - <img src="smiley.gif" height="100" width="42">.
+         This one has an image as a link: <a href="https://mysite.com"><img border="0" alt="alt" src="path/to/image.jpg" width="100" height="100"></a>
+    </p>
+    <p>
+        Here are types of formatting <br>
+        <b>bold</b>, <i>italics</i>, <strong>strong</strong>, <em>emphasised</em>. <br>
+        Also - <big>big</big>, <small>small</small>, <small>nested <small>small</small></small>. <br>
+        Here are some more - <sup>superscript</sup>, <sub>subscript</sub>
+    </p>
+    <p>
+        Next comes a horizontal rule.
+    </p>
+    <hr>
+    
+  <h2>Lists</h2>
+  
+    <h3>Bullet</h3>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+      
+    <h3>Numbered</h3>
+       <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol> 
+      
+      <ol reversed>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol> 
+      
+      <ol type="A">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+      
+      <ol type="a">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+      
+  <h2>Table</h2>
+    <!--Table row, table header and table row-->
+    <table>
+      <tr>
+        <th>Col A</th>
+        <th>Col B</th>
+      </tr>
+      <tr>
+        <td>1000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>3000</td>
+        <td>4000</td>
+      </tr>
+    </table>
+    
+    <!--Default above was 0-->
+    <table border="1">
+      <tr>
+        <th>Col A</th>
+        <th>Col B</th>
+      </tr>
+      <tr>
+        <td>1000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>3000</td>
+        <td>4000</td>
+      </tr>
+    </table> 
+    
+  <h2>Form</h2>
+    
+    <h3>Form 1</h3>
+    <form action="thank_you.html">
+        Text: <input type="text" name="my_text" value="default value"></input> <br><br>
+        Password: <input type="password" name="my_pass"> <br><br>
+        Submit <input type="submit" name="my_submit">
+    </form>
+    <br>
+    
+    <hr>
+    
+    <h3>Form 2</h3>
+    <form>
+        Button: <input type="button" name="my_button"> no action yet <br><br>
+        Text area: <textarea rows="4" cols="50">This is some text in a textarea tag which has been set to height of 4 rows and width of 50 characters</textarea> <br> <br>
+        Submit 2 <input type="submit" name="my_second_submit">  
+    </form>
+</body>
+</html>
+
