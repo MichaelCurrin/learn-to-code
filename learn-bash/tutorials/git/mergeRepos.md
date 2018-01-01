@@ -5,7 +5,7 @@ tracking history of the original repos.
 
 Thanks to approach and commands from these articles:
  - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
- - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the the allow unrelated histories flag
+ - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the flag to allow unrelated histories
 
 
 1. Clone the target main repo after choosing one or creating it on Github/Bitbucket.
