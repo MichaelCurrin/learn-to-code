@@ -8,10 +8,10 @@ Thanks to approach and commands from these articles:
  - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the flag to allow unrelated histories
 
 
-1. Clone the repo you want to have as the new combined repo. This might already exist on Github/Bitbucket or you must create it still.
+1. Create the newRepo on Github/Bitbucket then get a local copy of it.
 
     ```bash
-    # Make the repos dir or choose your preferred dir.
+    # This is my preferred directory.
     $ cd ~/repos
     $ git clone git@github.com:myUsername/newRepo.git
     ```
