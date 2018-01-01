@@ -8,16 +8,19 @@ Improve your coding skills in various languages by going through the content of 
 
 ## Python
 
-Read and run the [scripts](learn-python/scripts/) written as python scripts and read the [tutorials](learn-python/tutorials) written in markdown format.
+Read and run the [scripts](python/scripts/) written as python scripts and read the [tutorials](python/tutorials/) written in markdown format.
 
 
 ## Bash
 
 Learn how to use the **bash command-line** and write **bash scripts**.
 
-See [scripts](learn-bash/bashScripting) and some [tutorials](learn-bash/tutorials) around *git* and *cron*.
+See [scripts](bash/bashScripting/) and some [tutorials](bash/tutorials/) around *git* and *cron*.
 
 
 ## Web Development
 
-HTML, CSS, JavaScript, PHP.
+* [HTML](html/)
+* CSS
+* JavaScript
+* [PHP](php/).
