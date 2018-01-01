@@ -8,7 +8,7 @@ Thanks to approach and commands from these articles:
  - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the flag to allow unrelated histories
 
 
-1. Clone the target main repo after choosing one or creating it on Github/Bitbucket.
+1. Clone the repo you want to have as the new combined repo. This might already exist on Github/Bitbucket or you must create it still.
 
     ```bash
     # Make the repos dir or choose your preferred dir.
@@ -29,7 +29,7 @@ Thanks to approach and commands from these articles:
     This step is optional.
 
     Follow this step if you want to oldRepoA to be in its own dir called oldRepoA in the newRepoA 
-    and if you prefer to the moving before the merge when it is simpler.
+    and if you prefer to do the moving before the merge.
 
     ```bash
     $ git clone git@github.com:myUsername/oldRepoA.git
