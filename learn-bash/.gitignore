@@ -1,0 +1,5 @@
+# Anaconda Spyder project
+.spyproject
+
+# Vim swap files
+*.swp
