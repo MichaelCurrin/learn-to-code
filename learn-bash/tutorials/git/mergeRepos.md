@@ -3,9 +3,11 @@
 My guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
 tracking history of the original repos.
 
-Thanks to approach and commands from these articles:
+With thanks to these articles for the approach and commands which I based this lesson on:
  - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
  - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for the flag to allow unrelated histories
+ 
+There is probably a way to do the same thing in the lesson using rebase to make two repos appear to share a sequential history when merged. But I am wary of doing a rebase without any experience with it.
 
 
 1. Create the newRepo on Github/Bitbucket then get a local copy of it.
