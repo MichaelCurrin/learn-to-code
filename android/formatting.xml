@@ -1,0 +1,56 @@
+<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="16dp"
+   android:paddingRight="16dp"
+   android:gravity="center">
+
+   <TextView
+        android:text="Plain block"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textColor="#fff"
+        android:background="@android:color/darker_gray" />
+
+   <TextView
+        android:text="Squashed block"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:textColor="#000"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Color from https://material.io/guidelines/style/color.html#color-color-palette -->
+    <!-- scape independent pixels based on device small, medium large or huge-->
+    <TextView
+
+        android:text="Block with a lot of a text but auto wrapped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:background="#E91E63" />
+
+     <TextView
+
+        android:text="Block with wrapping and some padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="100dp"
+        android:textSize="30sp"
+        android:background="#E9E" />
+
+
+    <!-- Template example from http://labs.udacity.com/android-visualizer/ -->
+
+    <TextView
+        android:text="Hi there!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:background="#ccddff"
+        android:padding="20dp"/>
+
+</LinearLayout>

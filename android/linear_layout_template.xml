@@ -1,0 +1,17 @@
+<!--
+    From https://developer.android.com/reference/android/widget/LinearLayout.html
+
+    android:gravity - specifies how an object should position its content, on both the X and Y axes, within its own bounds.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:paddingLeft="16dp"
+   android:paddingRight="16dp"
+   android:orientation="horizontal"
+   android:gravity="center">
+
+   <!-- Include other widget or layout tags here. These are considered
+           "child views" or "children" of the linear layout -->
+
+ </LinearLayout>
