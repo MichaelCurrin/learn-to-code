@@ -1,6 +1,11 @@
-# Crontab Example
+# Cron Example
+
+The following are lines which can be placed in a cron files.
+
+Such as editing your crontab schedule with `crontab -e` or placing files in `/etc/cron.d`.
 
 ## Times
+
 Guide to time format. See `man crontab` for more details.
 ```
 * * * * *
@@ -20,9 +25,9 @@ SHELL=/bin/bash
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 MAILTO=michael
 
-# m h dom mon dow command
-0 * * * * echo "test"
-* * * * 1-4 path/to/file.sh
+# m h dom mon dow  command
+0 * * *   *   *    echo "test"
+* * * *   *   1-4  path/to/file.sh
 ```
 
 ## Example jobs
