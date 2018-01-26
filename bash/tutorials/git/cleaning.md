@@ -2,6 +2,9 @@
 
 Cleaning up git repos.
 
+
+## Display
+
 For more info see answers on StackOverflow question - [Remove old remote branches from git](https://stackoverflow.com/questions/17470691/remove-old-remote-branches-from-git).
 
 ```bash
@@ -42,6 +45,9 @@ Or get more info on what commit each branch is at using
 $ git branch -av
 ```
 
+## Remove unused branches
+
+Feature branches may accumulate in your repo over time, from your own work or when doing a `git fetch` to get branches of other users working on the repo.
 
 Delete a feature branch which is no longer required, such as it was deleted on the remote repo after it was merged into develop.
 
@@ -67,12 +73,26 @@ remotes/origin/master
 
 Consider branches A and B above which were pushed to the remote repo by other users but were never worked on using the local machine. Yet they were added as remotes by a fetch or pull. If they are no longer in the _remote_ repo but still on your local repo, they are considered stale and can be deleted. The prune command can be used to delete the stale remotes without affecting the active ones.
 
+Delete branches by name.
 ```bash
-$ # Delete individually.
 $ git branch -rd origin/feature_branch_A origin/feature_branch_B origin/feature_branch_C origin/feature_branch_D
-$ # OR use prune command.
+```
+
+Use `-r` is to act remote track branches. Otherwise, `feature_branch_A` would be removed but `remotes/origin/feature_branch_A` would remain in your repo.
+
+Note that `-d` is a saf option which may raise an error like this and can be overridden using `-D`.
+```
+error: The branch 'feature_branch_A' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D feature_branch_A'.
+```
+
+Instead of deleting b name, you can use the prune command to delete all the remote branches.
+```bash
 $ git remote prune origin
-$ # Result.
+```
+
+Check the result after using either of the delete processes above.
+```bash
 $ git branch -a
 * develop
 feature_branch_E
