@@ -1,14 +1,18 @@
 # Cleaning
 
-Cleaning up git repos.
+Clean up a git repo.
 
+Do one of the following before continuing with the rest of this document.
+```bash
+$ git fetch
+$ git pull
+```
 
 ## Display
 
 For more info see answers on StackOverflow question - [Remove old remote branches from git](https://stackoverflow.com/questions/17470691/remove-old-remote-branches-from-git).
 
 ```bash
-$ git checkout develop
 $ git branch
 feature_branch_C
 feature_branch_D
