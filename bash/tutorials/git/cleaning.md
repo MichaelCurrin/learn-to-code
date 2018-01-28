@@ -75,22 +75,20 @@ remotes/origin/feature_branch_F
 remotes/origin/master
 ```
 
-Consider branches A and B above which were pushed to the remote repo by other users but were never worked on using the local machine. Yet they were added as remotes by a fetch or pull. If they are no longer in the _remote_ repo but still on your local repo, they are considered stale and can be deleted. The prune command can be used to delete the stale remotes without affecting the active ones.
-
-Delete branches by name.
-```bash
-$ git branch -rd origin/feature_branch_A origin/feature_branch_B origin/feature_branch_C origin/feature_branch_D
-```
-
-Use `-r` is to act remote track branches. Otherwise, `feature_branch_A` would be removed but `remotes/origin/feature_branch_A` would remain in your repo.
-
-Note that `-d` is a saf option which may raise an error like this and can be overridden using `-D`.
+Note that `-d` is a safe option which may raise an error like this and can be overridden using `-D`.
 ```
 error: The branch 'feature_branch_A' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D feature_branch_A'.
 ```
 
-Instead of deleting b name, you can use the prune command to delete all the remote branches.
+Consider branches A and B above which were pushed to the remote repo by other users but were never worked on using the local machine. Yet they were added as remotes by a fetch or pull. If they are no longer in the _remote_ repo but still on your local repo, they are considered stale and can be deleted. The prune command can be used to delete the stale remotes without affecting the active ones.
+
+Delete remote branches by name, using `-r` option.
+```bash
+$ git branch -dr origin/feature_branch_A origin/feature_branch_B origin/feature_branch_C origin/feature_branch_D
+```
+
+Instead of deleting by name, you can use the prune command to delete all the remote branches.
 ```bash
 $ git remote prune origin
 ```
