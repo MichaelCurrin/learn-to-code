@@ -24,3 +24,8 @@ See [scripts](bash/bashScripting/) and some [tutorials](bash/tutorials/) around 
 * CSS
 * JavaScript
 * [PHP](php/).
+
+## Other
+
+* [C](c/)
+* [Ruby](ruby/)
