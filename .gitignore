@@ -8,3 +8,6 @@ __pycache__/
 
 # Vim swap files
 *.swp
+
+# Compiled C files.
+c/*.out
