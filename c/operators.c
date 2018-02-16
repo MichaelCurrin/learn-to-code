@@ -15,7 +15,6 @@ void arithmetic_operators() {
 
 
 void increment_decrement_operators() {
-    // Increment and decrement operators.
     int a = 1;
     int b = 2;
     a++;
@@ -23,6 +22,9 @@ void increment_decrement_operators() {
     printf("%d\n", a);
     printf("%d\n", b);
 
+    // Store value after the action by using the opereator after
+    // the variable, otherwise store value before the action by including it
+    // before the variable.
     a = 9;
     b = a++ + 5;
     // => a=10 b=14
@@ -47,30 +49,31 @@ void relational_operators(){
     else {
         c = 0;
     }
-
     // Equivalent to above.
     c = (a > b);
 
-
+    // Check equal to.
     if(a == b) {
        printf("Line 1 - a is equal to b\n" );
     } else {
        printf("Line 1 - a is not equal to b\n" );
     }
 
+    // Check not equal to.
     if(a != b) {
        printf("Line 1 - a is equal to b\n" );
     } else {
        printf("Line 1 - a is not equal to b\n" );
     }
 
-
+    // Check less than.
     if (a < b) {
        printf("Line 2 - a is less than b\n" );
     } else {
        printf("Line 2 - a is not less than b\n" );
     }
 
+    // Check greater than or equal to.
     if (a >= b) {
        printf("Line 3 - a is greater than b\n" );
     } else {
@@ -89,6 +92,7 @@ void logic_operators() {
     } else {
        printf("Line 1 - a is not greater b or a not equal to 2\n" );
     }
+
     // OR
     if((a >= b) || (a == 21)) {
        printf("Line 1 - a is greater b or a is equal to 21\n" );
