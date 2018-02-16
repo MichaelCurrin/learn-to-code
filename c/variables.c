@@ -56,7 +56,7 @@ void numeric_variables() {
      * See them below, their min and max values as well as their storage size.
      */
 
-    // Short integer - 1 byte
+    // Short integer - 1 byte.
     short int si_a = -128;
     short int si_b = 127;
     unsigned short int si_c = 0;
@@ -68,7 +68,7 @@ void numeric_variables() {
     printf("%d\n\n", si_d);
 
 
-    // Integer - 2 bytes
+    // Integer - 2 bytes.
     int i_a = -32768;
     int i_b = 32767;
     unsigned int i_c = 0;
@@ -80,7 +80,7 @@ void numeric_variables() {
     printf("%d\n\n", i_d);
 
 
-    // Long integer - 4 bytes
+    // Long integer - 4 bytes.
     long int li_a = -2147483648;
     long int li_b = -2147483647;
     unsigned long int li_c = 0;
