@@ -50,7 +50,10 @@ void relational_operators(){
         c = 0;
     }
     // Equivalent to above.
-    c = (a > b);
+    int d = (a > b);
+
+    // Ternary operator where true and false values can be defined.
+    int e = (a > b) ? 20 : 30;
 
     // Check equal to.
     if(a == b) {
