@@ -23,7 +23,7 @@ See [scripts](bash/bashScripting/) and some [tutorials](bash/tutorials/) around 
 * [HTML](html/)
 * CSS
 * JavaScript
-* [PHP](php/).
+* [PHP](php/)
 
 ## Other
 
