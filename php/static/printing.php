@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <body>
+    <?php
+        echo "<h1>Printing</h1><br>";
+        // The `echo` and `print` commands can be used to output data.
+        // `echo` returns no value.
+        // `print` returns 1, so can be used in expressions.
 
-<?php
+        echo "Line 1<br>";
+        print "Line 2<br>";
+        echo print "Line 3<br><br>";
 
-echo "<h1>Printing</h1><br>";
+        $x = 5;
+        // Concatenate values, without a space between.
 
-// echo returns no value but print returns 1 so can be used in expressions.
+        // With either a comma.
+        echo "A", "B", "C<br>";
+        // Or a full-stop.
+        echo "D" . $x , "E", $x, "<br>";
+        // Though `print` only accepts a full-stop.
+        print "F" . "G<br>";
 
-$x = 5;
-echo "A", "B", "C<br>";
-echo "D" . $x , "E", $x, "<br>";
-
-// print accepts . not but not ,
-print "F" . "G";
-
-?>
-
+    ?>
 </body>
 </html>
-
