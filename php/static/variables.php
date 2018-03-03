@@ -47,7 +47,7 @@
         $color = "red";
         echo "color: " . $color . " (was set)<br>";
         echo "COLOR: " . $COLOR . " (not set) <br>";
-        echo "color: $color in a single string<br>";
+        echo "color: $color interpolated in a string<br>";
     ?>
 </body>
 </html>
