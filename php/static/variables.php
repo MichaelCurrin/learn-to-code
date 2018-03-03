@@ -4,50 +4,63 @@
     <?php
         echo "<h1>Variables</h1>";
 
-        echo "<h2>Operation</h2>";
-        // int (with comment)
-        $x = 5 /* + 15 */ + 5;
+        echo "<h2>Operations</h2>";
+        $x = 5;
         $y = 10;
-        // printing variables.
         echo $x . "<br>";
-        echo $y . "<br>";
         echo $x + $y . "<br><br>";
 
         echo "<h2>Types</h2>";
-        $x = 5999;
-        $y = 10.1;
-        $z = true;
-        $my_array = array("A", "B", "C");
+        $null1 = null;
+        $boolean1 = 1;
+        $int1 = 5999;
+        $float1 = 10.1;
+        $string1 = 'A';
+        $string2 = "B";
+        $array1 = array("A", "B", "C");
+        $array2 = array("A", 2, "C");
+
+        echo '$boolean1: ' . $boolean1 . "<br>";
+        // Return 'Array'
+        echo '$array2: ' . $array2 . "<br>";
+        // String will be cast as numeric before doing sum.
+        $sum = "5" + 6;
+        echo '$sum: '. $sum . "<br>";
 
         echo "<h2>Return</h2>";
-        // Return type and value.
-        echo 'x: $x<br>';
+        echo 'echo $x: ' . $x . "<br>";
+
+        echo 'var_dump($x):  ';
         var_dump($x);
+        // int(9)
         echo '<br>';
-        var_dump($y);
-        echo '<br>';
+
+        // $z is not created yet, which is the same as setting $z = null;
+        echo 'var_dump($z):  ';
         var_dump($z);
+        // NULL
         echo '<br>';
-        var_dump($my_array);
+        echo '$z:' . $z . " (empty string because NULL)<br>";
+
+        var_dump($array2);
+        // array(3) { [0]=> string(1) "A" [1]=> int(2) [2]=> string(1) "C" }
         echo "<br>";
-        $x = null;
-        echo "new x:" . $x . " (empty string because NULL)<br>";
-        var_dump($x);
-        echo '<br><br>';
+
 
         echo "<h2>Case</h2>";
 
         echo "<h3>Functions</h3>";
-        // functions are not case sensitive.
+        // functions are NOT case sensitive.
         ECHO "command ECHO<br>";
         echo "command echo<br><br>";
 
         echo "<h3>Variables</h3>";
-        // variables are case sensitive.
+        // Variables are case sensitive.
         $color = "red";
-        echo "color: " . $color . " (was set)<br>";
-        echo "COLOR: " . $COLOR . " (not set) <br>";
-        echo "color: $color interpolated in a string<br>";
+
+        echo "color: " . $color . " <br>";
+        // The value is null so empty string will be used.
+        echo "COLOR: " . $COLOR . " <br>";
     ?>
 </body>
 </html>
