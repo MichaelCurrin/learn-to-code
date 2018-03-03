@@ -23,7 +23,8 @@
         echo '$boolean1: ' . $boolean1 . "<br>";
         // Return 'Array'
         echo '$array2: ' . $array2 . "<br>";
-        // String will be cast as numeric before doing sum.
+        // String will be cast as numeric before doing sum and it will be
+        // logged as 'PHP Notice:  Array to string conversion'.
         $sum = "5" + 6;
         echo '$sum: '. $sum . "<br>";
 
@@ -39,6 +40,7 @@
         echo 'var_dump($z):  ';
         var_dump($z);
         // NULL
+        // Log will say 'PHP Notice:  Undefined variable: z'.
         echo '<br>';
         echo '$z:' . $z . " (empty string because NULL)<br>";
 
