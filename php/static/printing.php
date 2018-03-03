@@ -12,15 +12,22 @@
         echo print "Line 3<br><br>";
 
         $x = 5;
-        // Concatenate values, without a space between.
 
-        // With either a comma.
-        echo "A", "B", "C<br>";
+        // Print literal text.
+        echo 'x: $x<br>';
+        // Print with interpolation.
+        echo "x: $x<br>";
+
+        // Concatenate values.
+
+        // Seperate with either a comma.
+        echo "A", $x, "B<br>";
+
         // Or a full-stop.
-        echo "D" . $x , "E", $x, "<br>";
-        // Though `print` only accepts a full-stop.
-        print "F" . "G<br>";
+        echo "A" . $x . "B<br>";
 
+        // Though, `print`  will only handle a full-stop.
+        print "A" . $x . "B<br>";
     ?>
 </body>
 </html>
