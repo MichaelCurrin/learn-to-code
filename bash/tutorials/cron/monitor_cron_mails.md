@@ -11,16 +11,20 @@ This tutorial covers how to:
 2. Install `mail` and use it to view cron job output.
 3. Use Thunderbird Mail as a mail client to the view cron job output.
 
+If you have a cron job running, you can probably skip step 1 and get to the part about mails.
+
 
 ## 1. Setup crontab
+
+Note that you do not necessarily have to use `crontab`. You can put scripts in `/etc/cron.daily` and they will run daily, provided they are executable and have no extension.
 
 ### 1.1 Install
 
 You should have `crontab` installed on Debian, Ubuntu or Mac OS. If not then follow this:
 
 ```bash
-sudo apt-get update
-sudo apt-get install cron
+$ sudo apt-get update
+$ sudo apt-get install cron
 ```
 
 Choose or create a script you want run on a schedule. For example, create  `~/Documents/test.sh` and make it executable with `chmod +x test.sh`. For this tutorial you can just use `echo "Test"` directly without creating a script.
@@ -72,8 +76,9 @@ MAILTO=abc@gmail.com
 Setup a test job in the crontab file to print the phase "Test" every minute and every hour.
 
 e.g. 
-```
-* * * * * echo "Test"
+```bash
+# m h  dom mon dow   command
+  * *  *   *   *     echo 'Test!'
 ```
 
 You can leave that job running while you get mail setup next.
@@ -83,16 +88,15 @@ For further details on crontab usage, see `$ man crontab` or [How Do I Setup A C
 
 ## 2. Setup mail utility
 
-
 ### 2.1 Install
 
 Install `mail` (this appeared to not be a default on Debian or Ubuntu).
 
 ```bash
-$ sudo apt-get mailutils
+$ sudo apt-get install mailutils
 ```
 
-You should have the `postfix` configuration prompts appear. I recommend choosing the "local" mail option for monitoring crontab output on the same machine. I've not tried the other options.
+The `postfix` configuration prompts appear. From setup types, I recommend choosing the "local" mail option if you only need to deliver mail on the local machine. Then when choosing domain name, you can leave it as the default value provided.
 
 If you need to get back to the configuration later, enter:
 
@@ -111,43 +115,86 @@ That is based on this post, which also covers setting up forwarding aliases - [H
 
 ### 2.2 View mailbox
 
-View mails for current user.
+View mails for current user. This tutorial assumes use of the `mbox` format, but `Maildir` should also work fine in Thunderbird. The differences between the systems are explained [here](https://wiki.dovecot.org/MailboxFormat).
+
+First identify the location of your user's mbox file. This will either be an "mbox" file named "mbox", in your home directory, or an mbox type file named after your user in the `/var/mail` directory.
+
+I found the `mbox` file easily on Ubuntu or Debian, but not on Linux Lite, so I provided both approaches below.
 
 ```bash
 $ cd ~
+$ ls mbox
+$ # If you get a success then you know it is stored here and you can open it.
 $ view mbox
+
+$ # Otherwise, if you get a failure, do this.
+$ cd /var/mail
+$ # This mail directory contains a file for each user. 
+$ # Initially it only has one named root, but the additional file can be created as below.
+$ ls -l
+-rw------- 1 root mail 0 Mar  7 21:38 root
+$ sudo mail -u michael
+$ ls -l
+-rw------- 1 root mail 0 Mar  7 21:40 michael
+-rw------- 1 root mail 0 Mar  7 21:38 root
+$ # That michael file is the location of mbox file. 
+$ # For convenience, create a symlink in your home directory to that file.
+$ ln -s /var/mail/michael ~/mbox
 ```
 
-I tested this on Ubuntu and Debian. On Ubuntu, I found unfortunately that `mbox` was owned by root instead of current user and gave a permissions warning when exiting `mail` after reading mails. So I changed the owner using the below - you might want to as well.
+For either of the `mbox` or `/var/mail` situations you found above, you will likely get a permissions error as I did on multiple systems.  If you run the `mail` command, it indirectly access the mail box file for your user and it will give you a permissions error as below.
+```bash
+$ mail 
+Cannot open mailbox /var/mail/michael: Permission denied
+```
+
+So change the permissions of the file, using sudo if the `/var/mail` case. Note that if you created a symlink, you can act on the symlink to change the underlying file.
 
 ```bash
-$ # Check who the owner is for mbox (ignoring other files and directories in ~).
-$ ls -l mbox 
-$ # If the owner is root then change it to your user.
-$ chmod michael:michael mbox
+$ sudo chown michael:michael mbox
 ```
 
-Open `mail`. Check that the test messages from crontab have appeared.
+Your access should be fine and if have your crontab running then a read mails should have appeared.
 
+
+Now run the `mail` command. This shows mails on separate lines.
 ```bash
 $ mail
 ```
 
-Here are some alternatives to the command above.
+You can open the mail box file directly to see the raw mail data in the single tett file. Though is of course it is harder to read and manage than using `mail` above.
 
-Open mail for a specific user.
+```
+$ view mbox
+From michael@compaq-lite  Wed Mar  7 22:25:01 2018
+...
+To: michael@compaq-lite
+Subject: Cron <michael@compaq-lite> echo 'Test!'
+...
+Date: Wed,  7 Mar 2018 22:25:01 +0200 (SAST)
+X-IMAPbase: 1520454462 3
+Status: O
+X-UID: 1
 
-```bash
-$ mail -u michael
-$ mail -u anotherUser.
+Test!
+
+From michael@compaq-lite  Wed Mar  7 22:26:01 2018
+...
+
+Test!
 ```
 
-Open root user's mailbox. This requires `sudo`.
+
+As an extra, you can view sudo's mail box like this, though you probably won't see any mails there yet.
 
 ```bash
-$ sudo mail -u root
-$ # Or simply
 $ sudo mail
+```
+
+Or the mail for other users like this.
+
+```bash
+$ sudo mail -u someotheruser
 ```
 
 You can also do this, according to [Setup A Mail Server](http://www.linuxintro.org/wiki/Set_up_a_mail_server).
@@ -157,6 +204,16 @@ $ sudo cat /var/spool/mail/michael
 $ sudo cat /var/spool/mail/root
 ```
 
+If you expect to see mails but your mail box is empty, check the system logs. This was recommended in [Where Is The Cron Crontab Log?](https://askubuntu.com/questions/56683/where-is-the-cron-crontab-log).
+
+```bash
+$ grep CRON /var/log/syslog
+...
+Mar  7 22:24:01 compaq-lite CRON[10607]: (michael) CMD (echo 'Test!')
+Mar  7 22:25:01 compaq-lite CRON[10619]: (michael) CMD (echo 'Test!')
+...
+```
+
 For help on mail, do one of these:
 
 ```bash
@@ -164,12 +221,18 @@ $ man mail
 $ mail --help
 ```
 
+If you have mails visible in your mail box file, you can continue.
+
 
 ## 3 Setup mail client
 
 I found that Thunderbird Mail on Ubuntu was straightforward to setup but I haven't figured out Kmail on Debian yet.
 
-### 3.1 Add account
+### 3.1 Install mail client
+
+If you do not have Thunderbird Mail installed, see if you can download it using your system's package manager.
+
+### 3.2 Add account
 
 Add logged in user to mail group, as recommended by [How Do I Read A Local Email In Thunderbird?](https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird).
 
@@ -206,7 +269,7 @@ e.g. `michael@myDeviceName`
 Leave the outgoing server details blank for now. If you wish to send mail, that is covered by other tutorials online.
 
 
-### 3.2 View messages
+### 3.3 View messages
 
 Click "Get Messages" in Thunderbird Mail.
 
