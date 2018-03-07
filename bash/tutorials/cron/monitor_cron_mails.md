@@ -142,7 +142,7 @@ $ sudo chown michael:michael /var/mail/michael
 
 Now run the `mail` command to get the interactive mail viewer. Press enter to go through some mails and `q` and enter to exit. 
 
-```bash
+```
 $ mail
 "/var/mail/michael": 5 messages 1 new 4 unread
  U   1 Cron Daemon        Wed Mar  7 22:44  23/701   Cron <michael@compaq-lite> echo 'Test!'
@@ -156,16 +156,17 @@ Message-Id: <20180307204801.7EA75868DB@compaq-lite>
 Date: Wed,  7 Mar 2018 22:48:01 +0200 (SAST)
 
 Test!
+
 ? q
 Saved 1 message in /home/michael/mbox
 Held 4 messages in /var/mail/michael
 ```
 
 Some more tips when in `mail`
-- `> 1` view mail ID 1
-- `> help` View the list of commands
+- `> 1`: view mail ID 1
+- `> help`: view the list of commands
 
-See more details at this [page](http://manpages.ubuntu.com/manpages/xenial/man1/bsd-mailx.1.html), which are not covered in `man mail`.
+See more details at this [page](http://manpages.ubuntu.com/manpages/xenial/man1/bsd-mailx.1.html), which don't seem to be covered in the man pages indicated below.
 
 
 For more help on `mail` command, do one of these:
