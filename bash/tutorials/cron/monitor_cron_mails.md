@@ -119,15 +119,14 @@ View mails for current user. This tutorial assumes use of the `mbox` format, but
 
 First identify the location of your user's mbox file. This will either be an "mbox" file named "mbox", in your home directory, or an mbox type file named after your user in the `/var/mail` directory.
 
-I found the `mbox` file easily on Ubuntu or Debian, but not on Linux Lite, so I provided both approaches below.
+There are two locations for your mail, as shown when exiting the `mail` assistant after viewing some mails.
+- `/home/michael/mbox`
+- `/var/mail/michael`
 
-```bash
-$ cd ~
-$ ls mbox
-$ # If you get a success then you know it is stored here and you can open it.
-$ view mbox
 
-$ # Otherwise, if you get a failure, do this.
+Ensure that your user has permissions for the mail box in `/var/mail`.
+
+```
 $ cd /var/mail
 $ # This mail directory contains a file for each user. 
 $ # Initially it only has one named root, but the additional file can be created as below.
@@ -137,53 +136,29 @@ $ sudo mail -u michael
 $ ls -l
 -rw------- 1 root mail 0 Mar  7 21:40 michael
 -rw------- 1 root mail 0 Mar  7 21:38 root
-$ # That michael file is the location of mbox file. 
-$ # For convenience, create a symlink in your home directory to that file.
-$ ln -s /var/mail/michael ~/mbox
+$ # Change the permissions on the file that was just created.
+$ sudo chown michael:michael /var/mail/michael
 ```
 
-For either of the `mbox` or `/var/mail` situations you found above, you will likely get a permissions error as I did on multiple systems.  If you run the `mail` command, it indirectly access the mail box file for your user and it will give you a permissions error as below.
-```bash
-$ mail 
-Cannot open mailbox /var/mail/michael: Permission denied
+Now run the `mail` command. Press enter to go through some mails then `q` and enter to exit. Also `help` to get help.
 ```
-
-So change the permissions of the file, using sudo if the `/var/mail` case. Note that if you created a symlink, you can act on the symlink to change the underlying file.
-
-```bash
-$ sudo chown michael:michael mbox
-```
-
-Your access should be fine and if have your crontab running then a read mails should have appeared.
-
-
-Now run the `mail` command. This shows mails on separate lines.
-```bash
 $ mail
-```
-
-You can open the mail box file directly to see the raw mail data in the single tett file. Though is of course it is harder to read and manage than using `mail` above.
-
-```
-$ view mbox
-From michael@compaq-lite  Wed Mar  7 22:25:01 2018
+"/var/mail/michael": 5 messages 1 new 4 unread
+ U   1 Cron Daemon        Wed Mar  7 22:44  23/701   Cron <michael@compaq-lite> echo 'Test!'
+ U   2 Cron Daemon        Wed Mar  7 22:45  22/676   Cron <michael@compaq-lite> echo 'Test!'
+ U   3 Cron Daemon        Wed Mar  7 22:46  22/676   Cron <michael@compaq-lite> echo 'Test!'
+ U   4 Cron Daemon        Wed Mar  7 22:47  22/676   Cron <michael@compaq-lite> echo 'Test!'
+>N   5 Cron Daemon        Wed Mar  7 22:48  20/657   Cron <michael@compaq-lite> echo 'Test!'
+?
 ...
-To: michael@compaq-lite
-Subject: Cron <michael@compaq-lite> echo 'Test!'
-...
-Date: Wed,  7 Mar 2018 22:25:01 +0200 (SAST)
-X-IMAPbase: 1520454462 3
-Status: O
-X-UID: 1
+Message-Id: <20180307204801.7EA75868DB@compaq-lite>
+Date: Wed,  7 Mar 2018 22:48:01 +0200 (SAST)
 
 Test!
-
-From michael@compaq-lite  Wed Mar  7 22:26:01 2018
-...
-
-Test!
+? q
+Saved 1 message in /home/michael/mbox
+Held 4 messages in /var/mail/michael
 ```
-
 
 As an extra, you can view sudo's mail box like this, though you probably won't see any mails there yet.
 
@@ -221,7 +196,7 @@ $ man mail
 $ mail --help
 ```
 
-If you have mails visible in your mail box file, you can continue.
+If you have mails created and visible in your mbox file, you can continue.
 
 
 ## 3 Setup mail client
