@@ -1,5 +1,5 @@
 # Read Cron Mails in a GUI
-> How to view cron job results in the Thunderbird mail client.
+_How to view cron job results in the Thunderbird mail client._
 
 ## Summary
 
@@ -238,17 +238,18 @@ Enter name as you wish to be displayed.
 
 e.g. `michael`
 
-Enter email address.
+Enter email address. 
 
 e.g. `michael@localhost`
 
-Should also be able to use your device's name for the host part. 
+You could also set the domain to be your device's name. 
 
-Set this on Ubuntu under Settings => Details => Overview => Device name => myDeviceName. 
+To read or update your device name in Unbuntu, go to `Settings => Details => Overview => Device name`. 
 
 Then set email address in Thunderbird Mail in the format:
 
 e.g. `michael@myDeviceName`
+
 
 Leave the outgoing server details blank for now. If you wish to send mail, that is covered by other tutorials online.
 
