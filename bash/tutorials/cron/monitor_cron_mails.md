@@ -124,9 +124,9 @@ There are two locations for your mail, as shown when exiting the `mail` assistan
 - `/var/mail/michael`
 
 
-Ensure that your user has permissions for the mail box in `/var/mail`.
+Ensure that your user has permissions for your user's mail box in `/var/mail`.
 
-```
+```bash
 $ cd /var/mail
 $ # This mail directory contains a file for each user. 
 $ # Initially it only has one named root, but the additional file can be created as below.
@@ -140,8 +140,9 @@ $ # Change the permissions on the file that was just created.
 $ sudo chown michael:michael /var/mail/michael
 ```
 
-Now run the `mail` command. Press enter to go through some mails then `q` and enter to exit. Also `help` to get help.
-```
+Now run the `mail` command to get the interactive mail viewer. Press enter to go through some mails and `q` and enter to exit. 
+
+```bash
 $ mail
 "/var/mail/michael": 5 messages 1 new 4 unread
  U   1 Cron Daemon        Wed Mar  7 22:44  23/701   Cron <michael@compaq-lite> echo 'Test!'
@@ -158,6 +159,20 @@ Test!
 ? q
 Saved 1 message in /home/michael/mbox
 Held 4 messages in /var/mail/michael
+```
+
+Some more tips when in `mail`
+- `> 1` view mail ID 1
+- `> help` View the list of commands
+
+See more details at this [page](http://manpages.ubuntu.com/manpages/xenial/man1/bsd-mailx.1.html), which are not covered in `man mail`.
+
+
+For more help on `mail` command, do one of these:
+
+```bash
+$ man mail
+$ mail --help
 ```
 
 As an extra, you can view sudo's mail box like this, though you probably won't see any mails there yet.
@@ -187,13 +202,6 @@ $ grep CRON /var/log/syslog
 Mar  7 22:24:01 compaq-lite CRON[10607]: (michael) CMD (echo 'Test!')
 Mar  7 22:25:01 compaq-lite CRON[10619]: (michael) CMD (echo 'Test!')
 ...
-```
-
-For help on mail, do one of these:
-
-```bash
-$ man mail
-$ mail --help
 ```
 
 If you have mails created and visible in your mbox file, you can continue.
