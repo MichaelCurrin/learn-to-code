@@ -14,7 +14,7 @@ firstTest="fish"
 echo "There were $# arguments supplied."
 
 # Check for zero arguments supplied.
-if [ $# -eq 0 ]
+if [ "$#" -eq 0 ]
   then
     usage
     exit 0
@@ -33,7 +33,7 @@ fi
 echo
 
 echo "What is 2nd arg?"
-# Based on http://stackoverflow.com/questions/6482377/check-existence-of-input-argument-in-a-bash-shell-script 
+# Based on http://stackoverflow.com/questions/6482377/check-existence-of-input-argument-in-a-bash-shell-script
 if [ ! -z "$2" ]
     then
         echo "- $2"
