@@ -320,3 +320,34 @@ Return-Path: <michael@compaq-lite>
 X-Original-To: michael
 ...
 ```
+
+If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I need to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user.
+
+```bash
+$ sudo mail
+"/var/mail/root": 7 messages 4 new 3 unread
+ U   1 Cron Daemon        Sat Mar 10 22:17  34/3199  Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+ U   2 Cron Daemon        Sat Mar 10 23:17  26/756   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+ U   3 Anacron            Sat Mar 10 23:21  21/964   Anacron job 'cron.daily' on compaq-lite
+>N   4 Cron Daemon        Sun Mar 11 13:17  24/737   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+ N   5 Cron Daemon        Sun Mar 11 14:17  24/737   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+ N   6 Cron Daemon        Sun Mar 11 15:17  24/737   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+ N   7 Cron Daemon        Sun Mar 11 16:17  24/737   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
+? 7
+...
+Message-Id: <20180311141701.B5CCD868E0@compaq-lite>
+Date: Sun, 11 Mar 2018 16:17:01 +0200 (SAST)
+Status: O
+X-UID: 11
+
+/etc/cron.hourly/test1:
+test!
+
+/etc/cron.hourly/test2:
+test2!
+
+? q
+Held 7 messages in /var/mail/root
+```
+
+Note that upon exiting `sudo mail`, no mails appear to be moved to an `mbox` file like what happened when using `mail`.
