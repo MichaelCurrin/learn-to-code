@@ -335,6 +335,10 @@ $ sudo mail
  N   7 Cron Daemon        Sun Mar 11 16:17  24/737   Cron <root@compaq-lite>    cd / && run-parts --report /etc/cron.hourly
 ? 7
 ...
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <LOGNAME=root>
 Message-Id: <20180311141701.B5CCD868E0@compaq-lite>
 Date: Sun, 11 Mar 2018 16:17:01 +0200 (SAST)
 Status: O
