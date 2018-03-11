@@ -321,7 +321,7 @@ X-Original-To: michael
 ...
 ```
 
-If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I needed to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user.
+If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I needed to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user. Or possibly better, setup  `/etc/aliases` to forward mails to root to my user, as I have seen that recommended at least twice.
 
 ```bash
 $ sudo mail
