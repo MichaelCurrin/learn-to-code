@@ -321,7 +321,7 @@ X-Original-To: michael
 ...
 ```
 
-If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I need to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user.
+If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I needed to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user.
 
 ```bash
 $ sudo mail
@@ -351,7 +351,21 @@ test!
 test2!
 
 ? q
+Saved 1 message in /home/michael/mbox
 Held 7 messages in /var/mail/root
 ```
 
-Note that upon exiting `sudo mail`, no mails appear to be moved to an `mbox` file like what happened when using `mail`.
+Note that upon exiting `sudo mail`, any mails which were expadned (by pressing enter or pressing index number and enter) are moved to you user's `mbox`.
+
+If you switch to the root user first, then the mail will be moved to the root user's mbox.
+
+```bash
+michael@compaq-lite:/etc/cron.hourly $ sudo su
+root@compaq-lite:/etc/cron.hourly # mail
+...
+? 6
+...
+? q
+Saved 1 message in /root/mbox
+Held 5 messages in /var/mail/root
+```
