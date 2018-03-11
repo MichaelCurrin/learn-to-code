@@ -123,6 +123,7 @@ There are two locations for your mail, as shown when exiting the `mail` assistan
 - `/home/michael/mbox`
 - `/var/mail/michael`
 
+As far as I can tell, when using `mail` command to check mails and pressing enter for a mail, then those mails are moved to the `mbox` file (or one is created). However, the mails are no longer available to go into Thunderbird's Inbox when checking mail. The inbox for me is at `~/.thunderbird/wzlt8wuz.default/Mail/localhost/Inbox`. So you can continue with these steps below to understand the `mail` command, but I recommended jumping to the next section on setting up a mail client.
 
 Ensure that your user has permissions for your user's mail box in `/var/mail`.
 
@@ -205,7 +206,46 @@ Mar  7 22:25:01 compaq-lite CRON[10619]: (michael) CMD (echo 'Test!')
 ...
 ```
 
-If you have mails created and visible in your mbox file, you can continue.
+To send a mail using the commandline:
+
+```bash
+$ mail -t
+To: michael@localhost
+Cc:
+Subject: This is a test
+This is a body.
+And more text.
+ctrl+d (EOF)
+```
+You can read the received mail with the `mail` command.
+```
+$ mail
+"/var/mail/michael": 1 message 1 new
+>N   1 Michael Currin     Sun Mar 11 14:16  14/467   This is a test
+? (enter)
+Return-Path: <michael@compaq-lite>
+X-Original-To: michael@localhost
+Delivered-To: michael@localhost
+Received: by compaq-lite (Postfix, from userid 1000)
+	id B6084868E0; Sun, 11 Mar 2018 14:16:18 +0200 (SAST)
+To: <michael@localhost>
+Subject: This is a test
+X-Mailer: mail (GNU Mailutils 2.99.99)
+Message-Id: <20180311121618.B6084868E0@compaq-lite>
+Date: Sun, 11 Mar 2018 14:16:18 +0200 (SAST)
+From: michael@compaq-lite (Michael Currin)
+
+This is a body.
+And more text.
+? q (enter)
+? q
+Saved 1 message in /home/michael/mbox
+Held 0 messages in /var/mail/michael
+```
+
+Or, don't use the `mail` command to read the mail. So you can leave it held in `/var/mail/michael` and then fetch the mail using Thunderbird, as covered below.
+
+ I found that if I send to `michael@localhost`, then the _To_ address is the same. And if i send to `michael`, then when reading the mail the _To_ address includes the machine's full name e.g. `michael@compaq-lite`.
 
 
 ## 3 Setup mail client
@@ -256,10 +296,27 @@ Leave the outgoing server details blank for now. If you wish to send mail, that 
 
 ### 3.3 View messages
 
-Click "Get Messages" in Thunderbird Mail.
+Click "Get Messages" in Thunderbird Mail and view the Inbox. Thunderbird by default should get new mails on application start and thereafter every 10 min.
 
-The mails in `mbox` detailing crontab output should now be available in Thunderbird Mail.
+Once you know the cron jobs are working, you can disable them or make them less frequent.
 
-If you are happy, then go back and comment it out or change the frequency, so your mailbox doesn't get cluttered.
+To find out where Thunderbird stores the mails is fetches:
+1. click _Edit_
+2. _Account Settings_
+3. Under name of account (e.g. Home), click _Server Settings_.
+4. Under _Message Storage_, see Local Directory.
 
-Add the scripts you want in crontab. Then check back in Thunderbird Mail to see that they ran and what the outcome was.
+Mine is `/home/michael/.thunderbird/wzlt8wuz.default/Mail/localhost`. Every additional account I create in Thunderbird gets named `localhost-1`, `localhost-2` etc. and will be created in the `~/.thunderbird/.../Mail/` directory. Each account's directory should contain the following, where the `.msf` files contain indexes for the text files (which have no extension but are in the mbox format).
+
+```bash
+$ cd .thunderbird/wzlt8wuz.default/Mail/localhost
+$ ls
+Drafts  Drafts.msf  Inbox  Inbox.msf  mboxtemp  msgFilterRules.dat  Trash  Trash.msf
+$ view Inbox
+From michael@compaq-lite  Wed Mar  7 22:25:01 2018
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <michael@compaq-lite>
+X-Original-To: michael
+...
+```
