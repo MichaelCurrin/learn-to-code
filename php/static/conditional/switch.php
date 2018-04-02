@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1>Switch</h1>";
+echo "<h1>Switch</h1> \n";
 
 // Syntax:
 
@@ -17,24 +17,41 @@ switch (n) {
         break;
     ...
     default:
-        code to be executed if n is different from all labels;
+        code to be executed if none of the labels match the variable.
 }
+
+Where default is an optional catch-all.
 */
 
-// Example.
+
+echo "<h2>Example with breaks</h2> \n";
 
 $value = "b";
 switch ($value) {
     case "a":
-        echo "First";
+        echo "First\n";
         break;
     case "b":
-        echo "Second";
+        echo "Second\n";
         break;
     case "c":
-        echo "Third";
+        echo "Third\n";
         break;
     default:
-        echo "No match";
+        echo "No match\n";
 }
-?>
+
+
+echo "<h2>Example without breaks</h2> \n";
+
+// If break is not used, then all conditions after the matched one
+// are executed.
+$day = 'Tues';
+switch ($day) {
+    case 'Mon':
+        echo "M\n";
+    case 'Tues':
+        echo "T\n";
+    case 'Wed':
+        echo "W\n";
+}
