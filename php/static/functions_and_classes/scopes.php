@@ -1,35 +1,39 @@
 <?php
 
-echo "<h1>Scopes</h1>";
+echo "<h1>Scopes</h1>\n";
 
-echo "<h2>using local variables</h2>";
 
-// global
+echo "<h2>using local variables</h2>\n";
+
+// Global.
 $x = 5;
 
 function myFunc() {
-    // local
-    $y = 6;
-    echo "in function scope<br>";
-    echo "<p>y is `$y`</p>";
 
     /*
     You will a warning in the log but it won't stop the script.
-    e.g. PHP Notice:  Undefined variable: x in .../static/scopes.php on line 25
+    e.g. PHP Notice:  Undefined variable: x in filename.php on line ...
     */
-    echo "out of scope<br>";
-    echo "<p>x is `$x`</p>";
+    echo "<p>x is `$x` (out of scope)</p>\n";
+
+    // Local.
+    $y = 6;
+    echo "<p>y is `$y` (in function scope)</p>\n";
+    $x = 10;
+    echo "<p>x is `$x` (in function scope)</p>\n";
+
 }
 myFunc();
 
-echo "<p>x is `$x` (same scope)</p>";
+echo "<p>x is `$x` (same scope)</p>\n";
 
 
-echo "<h2>using globals in a function.</h2>";
+echo "<h2>using globals in a function.</h2>\n";
 $a = 1;
 $b = 2;
 
 function mySum() {
+    // Make variables available in the function.
     global $a, $b;
     $b = $a + $b;
 }
@@ -38,21 +42,27 @@ function mySumAlt() {
     $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];
 }
 
-echo $b . "<br>";
+echo "b: <br>\n";
+echo $b . "<br>\n";
 mySum();
-echo $b . "<br>";
+echo $b . "<br>\n";
 mySumAlt();
-echo $b . "<br>";
+echo $b . "<br>\n";
 
-echo "<h2>using static keyword</h2>";
 
-// Mark a variable as static so that it is not deleted
-// when the function is done.
+echo "<h2>using static keyword</h2>\n";
+
+// Mark a variable as static so that it is not deleted when the function
+// is done. But it is not in the global variables.
 function myStatic() {
-    static $x = 0;
-    echo $x . "<br>";
-    $x++;
+    static $s = 0;
+    echo $s . "<br>\n";
+    $s++;
 }
+echo "s: <br>\n";
 myStatic();
 myStatic();
 myStatic();
+// Empty string.
+// PHP Notice:  Undefined variable: s
+echo $s;
