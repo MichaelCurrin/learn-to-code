@@ -1,4 +1,5 @@
 <?php
+
 echo "<h1>Loops</h1>";
 
 $x = 1;
@@ -61,4 +62,3 @@ foreach ($my_array as $v) {
     echo "$v <br>";
 }
 
-?>
