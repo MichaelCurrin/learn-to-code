@@ -3,32 +3,45 @@
 The files in this php directory are mostly based on the [PHP tutorials](https://www.w3schools.com/PhP/default.asp) at [w3schools.com](https://www.w3schools.com).
 
 
-## Installation and Usage
+## Installation
 
-The aim is to see the project's PHP files as they are rendered in the browser and to compare that to the source files in another window.
-
-1. Install PHP (from [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php))
+Install PHP (from [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php))
 
     ```bash
     $ sudo apt-get install php
     $ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
     ```
 
-2. Start a PHP webserver.
+## Usage
+
+The aim is to see the project's PHP files as they are rendered in the terminal or in the browser and to compare that to the source .php files in another window.
+
+### Terminal
+
+```bash
+php path/to/file.php
+```
+
+### Browser
+
+
+1. Start a PHP webserver.
+
+_TODO: Use public directory instead and look at how other sites separate index and public files e.g. 000webhost.com_
 
     ```bash
     $ cd learn-to-code/php/
     $ php -S 127.0.0.1:8000
     ```
 
-3. Open http://127.0.0.1:8000 in your web browser.
+2. Open http://127.0.0.1:8000 in your web browser.
     - You will see the [index.html] page rendered.
-    - Click on the link to view the result of PHP files which are in the [static] directory.
+    - Click on the links to view the result of PHP files which are in the [static] directory.
     - If you enter a bad URL you will get this error: _Not Found The requested resource /filename.ext was not found on this server._
     - If you enter the path in the browser as `/README.md`, the file will be downloaded rather than viewed.
     - There is a way to set autoindex to list the contents of the directory if there is not index page, but that seems to require installing something.
 
-4. Check the server log
+3. Check the server log
 
   - View the log of server requests, which is outputted in the terminal where the server is running. 
   - This is useful to see activity on the server and to debug and missing files or bad syntax within scripts. Here is some example output.
