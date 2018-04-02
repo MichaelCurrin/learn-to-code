@@ -1,6 +1,6 @@
 # PHP Readme
 
-The files in this php directory are mostly based on the [PHP tutorials](https://www.w3schools.com/PhP/default.asp) at [w3schools.com](https://www.w3schools.com).
+The files in this php directory of the project are based on [PHP tutorials](https://www.w3schools.com/PhP/default.asp) on [w3schools.com](https://www.w3schools.com) and the [Solo Learn](https://www.sololearn.com/) PHP course.
 
 
 ## Installation
