@@ -54,7 +54,7 @@ echo "<h3>Functions</h3>";
 ECHO "command ECHO<br>";
 echo "command echo<br><br>";
 
-echo "<h3>Variables</h3>";
+echo "<h3>Variable banes</h3>";
 // Variables are case sensitive.
 $color = "red";
 
