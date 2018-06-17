@@ -89,9 +89,9 @@ puts 'How to escape: \\ backslash'
 
 my_name = 'Sam'
 # Do string interpoliation.
-puts "Hellow #{my_name}"
+puts "Hello #{my_name}"
 # Literal, because of single quotes.
-puts 'Hellow #{my_name}'
+puts 'Hello #{my_name}'
 
 age = 42
 puts "He is #{age} years old."
@@ -103,6 +103,8 @@ puts "The sum is #{a + b}"
 puts "A" + "B"
 
 puts "A"*3
+
+puts "Here are the two numbers\n " + String(a) + "\n " + String(b)
 
 
 ### Input
