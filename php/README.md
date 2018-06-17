@@ -34,11 +34,11 @@ $ cd learn-to-code/php/
 $ php -S 127.0.0.1:8000
 ```
 
-2. Open http://127.0.0.1:8000 in your web browser.
-    - You will see the [index.html] page rendered.
+2. Open [http://127.0.0.1:8000]() in your web browser.
+    - You will see the [index.html]() page rendered.
     - Click on the links to view the result of PHP files which are in the [static] directory.
     - If you enter a bad URL you will get this error: _Not Found The requested resource /filename.ext was not found on this server._
-    - If you enter the path in the browser as `/README.md`, the file will be downloaded rather than viewed.
+    - If you enter the path in the browser as [http://127.0.0.1:8000/README.md](), the file will be downloaded rather than viewed.
     - There is a way to set autoindex to list the contents of the directory if there is not index page, but that seems to require installing something.
 
 3. Check the server log
