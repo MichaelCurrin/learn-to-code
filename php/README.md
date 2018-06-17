@@ -7,10 +7,10 @@ The files in this php directory of the project are based on [PHP tutorials](http
 
 Install PHP (from [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php))
 
-    ```bash
-    $ sudo apt-get install php
-    $ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
-    ```
+```bash
+$ sudo apt-get install php
+$ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+```
 
 ## Usage
 
@@ -29,10 +29,10 @@ php path/to/file.php
 
 _TODO: Use public directory instead and look at how other sites separate index and public files e.g. 000webhost.com_
 
-    ```bash
-    $ cd learn-to-code/php/
-    $ php -S 127.0.0.1:8000
-    ```
+```bash
+$ cd learn-to-code/php/
+$ php -S 127.0.0.1:8000
+```
 
 2. Open http://127.0.0.1:8000 in your web browser.
     - You will see the [index.html] page rendered.
@@ -46,14 +46,14 @@ _TODO: Use public directory instead and look at how other sites separate index a
   - View the log of server requests, which is outputted in the terminal where the server is running. 
   - This is useful to see activity on the server and to debug and missing files or bad syntax within scripts. Here is some example output.
 
-    ```
-    [Fri Mar  2 19:27:49 2018] 127.0.0.1:33050 [200]: /
+```
+[Fri Mar  2 19:27:49 2018] 127.0.0.1:33050 [200]: /
 
-    [Fri Mar  2 19:27:49 2018] 127.0.0.1:33054 [404]: /favicon.ico - No such file or directory
+[Fri Mar  2 19:27:49 2018] 127.0.0.1:33054 [404]: /favicon.ico - No such file or directory
 
-    [Fri Mar  2 20:10:22 2018] PHP Parse error:  syntax error, ... in /path/to/file.php on line 11
-    [Fri Mar  2 20:10:22 2018] 127.0.0.1:33554 [500]: /static/printing.php - syntax error, ... on line 11
-    ```
+[Fri Mar  2 20:10:22 2018] PHP Parse error:  syntax error, ... in /path/to/file.php on line 11
+[Fri Mar  2 20:10:22 2018] 127.0.0.1:33554 [500]: /static/printing.php - syntax error, ... on line 11
+```
 
 
 ## Further details
