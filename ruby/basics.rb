@@ -39,7 +39,7 @@ MyConst = 4
 x = 10
 y = 20
 z = 30
-x, y, z, = 10, 20, 30
+x, y, z = 10, 20, 30
 
 # Swapping values.
 x, y = y, x
