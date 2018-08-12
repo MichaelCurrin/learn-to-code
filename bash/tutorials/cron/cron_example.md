@@ -26,8 +26,9 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 MAILTO=michael
 
 # m h dom mon dow  command
-0 * * *   *   *    echo "test"
-* * * *   *   1-4  path/to/file.sh
+  0 * *   *   *    echo "test"
+  * * *   *   1-4  path/to/file.sh
+
 ```
 
 ## Example jobs
