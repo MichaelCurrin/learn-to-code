@@ -1,14 +1,9 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled Python files.
 __pycache__/
-*.py[cod]
-*$py.class
 
-# Anaconda Spyder project
-.spyproject
-
-# Vim swap files
+# Vim swap files.
 *.swp
 
 # Compiled C files.
-c/bin/*
-!c/bin/.gitkeep
+C/bin/*
+!C/bin/.gitkeep
