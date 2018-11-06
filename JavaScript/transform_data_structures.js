@@ -1,8 +1,9 @@
 /**
  * Transform data structures.
+ *
+ * Transform a dictionary of arrays to a list of dictionaries, going through output at steps
+ * for clarity.
  */
-
-// Transform a dictionary of arrays to a list of dictionaries.
 var foo = {
     'X': [
         'Value A',
@@ -18,7 +19,7 @@ var a = Object.entries(foo);
 /*
 [ [ 'X', [ 'Value A', 'Value B' ] ],
   [ 'Y', [ 'Value C', 'Value D' ] ] ]
- */
+*/
 
 b = a.map(function (x, y) {
     return 'Row: ' + y + ' Data: ' + x
@@ -26,7 +27,7 @@ b = a.map(function (x, y) {
 /*
 [ 'Row: 0 Data: X,Value A,Value B',
   'Row: 1 Data: Y,Value C,Value D' ]
- */
+*/
 
 var bar = Object.entries(foo).map(function (i) {
     return {
