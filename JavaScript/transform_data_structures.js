@@ -17,6 +17,11 @@ var foo = {
 
 var a = Object.entries(foo);
 /*
+Unpack keys and values as pairs.
+
+Get an array, where each contains element 0 as the key and element 1 as the value
+(in this case, another array).
+
 [ [ 'X', [ 'Value A', 'Value B' ] ],
   [ 'Y', [ 'Value C', 'Value D' ] ] ]
 */
