@@ -7,7 +7,8 @@ console.log();
 // This will return a map.
 var myMap = myArray.map(el => el + '!');
 console.log(myMap);
-console.log();
+
+console.log('\n=========================\n');
 
 
 const someMap = {
@@ -23,6 +24,7 @@ console.log();
 console.log(Object.keys(someMap));
 console.log();
 
+
 Object.keys(someMap).forEach(function (k) {
     console.log(k + ': ' + someMap[k]);
 });
@@ -32,7 +34,9 @@ console.log();
 for (const [key, value] of Object.entries(someMap)) {
     console.log(`${key} ${value}`);
 }
-console.log();
+console.log('\n=========================\n');
+
+
 
 /*
 Using JQuery
@@ -47,6 +51,8 @@ var keys = $.map(foo, function(item, key) {
     return key
 });
 console.log(keys);
+console.log('\n=========================\n');
+
 */
 
 
