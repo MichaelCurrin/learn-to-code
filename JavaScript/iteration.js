@@ -1,12 +1,17 @@
+/**
+ * Guide to iteration in JavaScript.
+ *
+ *The term map is used here for associative arrays, although a Map() object is something different.
+ */
 const myArray = ['a', 'b', 'c', 'd', 'e'];
 
 // This is actually a for loop and will return undefined. Use log here to see each element.
 myArray.forEach(el => console.log(el))
 console.log();
 
-// This will return a map.
-var myMap = myArray.map(el => el + '!');
-console.log(myMap);
+// This will return an array.
+var newArray = myArray.map(el => el + '!');
+console.log(newArray);
 
 console.log('\n=========================\n');
 
