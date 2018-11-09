@@ -77,3 +77,42 @@ console.log(foobar)
   { domain: 'Y', url: 'Value C' },
   { domain: 'Y', url: 'Value D' } ]
 */
+
+console.log('\n-----\n');
+
+/** Transform array to dictionary. **/
+
+// Start with an empty dictionary, then add a value to it, then pass it to the next iteration
+// using reduce.
+
+// Convert array of dictionaries to dictionary.
+// Based on this SO answer
+//   https://stackoverflow.com/questions/26264956/convert-object-array-to-hash-map-indexed-by-an-attribute-value-of-the-object
+var arr = [{
+        k: 'foo',
+        v: 'bar'
+    },
+    {
+        k: 'hello',
+        v: 'world'
+    }
+];
+var result = arr.reduce(function (map, obj) {
+    map[obj.k] = obj.v;
+    return map;
+}, {});
+
+console.log(result);
+// { foo: 'bar', hello: 'world' }
+
+// Convert array of elements to dictionary, appying a conversion rule (which could be more complex).
+const convert = i => `https://${i}.com`;
+var arr = [
+    'foo',
+    'bar',
+];
+var result = arr.reduce(function (map, el) {
+    map[el] = convert(el);
+    return map;
+}, {});
+console.log(result);
