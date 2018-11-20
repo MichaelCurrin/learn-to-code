@@ -111,6 +111,8 @@ var arr = [
     'foo',
     'bar',
 ];
+// Note that instead of using a object followed by a for loop to add to it, we have a single
+// statement to create and fill the result variable. This is the functional programming approach.
 var result = arr.reduce(function (map, el) {
     map[el] = convert(el);
     return map;
