@@ -26,7 +26,7 @@ Get an array, where each contains element 0 as the key and element 1 as the valu
   [ 'Y', [ 'Value C', 'Value D' ] ] ]
 */
 
-b = a.map(function (x, y) {
+var b = a.map(function (x, y) {
     return 'Row: ' + y + ' Data: ' + x
 });
 /*
