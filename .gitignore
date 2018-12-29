@@ -1,9 +1,15 @@
-# Byte-compiled Python files.
-__pycache__/
+# Mac file.
+.DS_Store
 
 # Vim swap files.
 *.swp
 
+# Byte-compiled Python files.
+__pycache__/
+
 # Compiled C files.
 C/bin/*
 !C/bin/.gitkeep
+
+# Ignore Rust binaries. New docs or scripts have to be added manually to get noticed by git.
+Rust/*
