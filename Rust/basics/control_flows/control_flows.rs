@@ -1,5 +1,5 @@
 /*
- * Control flows
+ * If else and matching
  */
 
 fn simple() {
