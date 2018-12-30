@@ -1,9 +1,14 @@
 # Rust
 
-Sources:
+Sources for this tutorial:
 
-- [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
+- Medium.com - [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
 - LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust)
+
+See also:
+
+- [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
+- [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) for vectors, structs, enums, generics, impls and traits.
 
 
 ## Installation
