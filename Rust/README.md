@@ -3,7 +3,7 @@
 Sources:
 
 - [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
-
+- LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust)
 
 ## Installation
 
@@ -33,26 +33,7 @@ The directory includes standard tools and will be added to your `.profile` and `
 
 On Unix this path is `$HOME/.cargo/bin` and Windows is `%USERPROFILE%\.cargo\bin`.
 
-
-Commands
-
-```bash
-$ cargo update
-$ cargo build
-$ cargo run
-$ cargo test
-$ cargo doc
-```
-
-Create a new crate at a given path.
-
-```bash
-$ # Create binary. (Default)
-$ cargo new PATH # --bin
-
-$ # Create library.
-$ cargo new PATH --lib
-```
+See the [packagment_management doc](package_management/README.md) for how to use Cargo.
 
 
 ### Rustc
