@@ -1,17 +1,40 @@
 # Package Management
-> Quickstart guide to using Cargo in Rust.
+> Quickstart guide to using Cargo for Rust package management
 
-Cargo is a package manager and can compile using `rustc`.
+Cargo is a package manager and can compile using `rustc`. Rust packages are called "crates".
 
 ```bash
 $ cargo -V
 cargo 1.32.0-beta (1b6702f22 2018-12-06)
 ```
 
+
+Some common commands:
+
+```bash
+$ cargo update
+$ cargo build
+$ cargo run
+$ cargo test
+$ cargo doc
+```
+
+
 The commands in the section below were done from within the [package_management](package_management) directory, if you want to see the result.
 
 
 ## Create
+
+
+Syntax to create a new crate at a given path.
+
+```bash
+$ # Create binary. (Default)
+$ cargo new PATH # --bin
+
+$ # Create library.
+$ cargo new PATH --lib
+```
 
 Create a new package, which is a git repo with an ignore file. The implied default `--bin` option is to create a _binary_ package with a hello world binary executable.
 
