@@ -23,7 +23,7 @@ On installation it will add the `cargo`, `rustc`, `rustup` and other commands to
 To uninstall:
 
 ```bash
-rustup self uninstall
+$ rustup self uninstall
 ```
 
 
