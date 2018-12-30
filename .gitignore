@@ -12,4 +12,5 @@ C/bin/*
 !C/bin/.gitkeep
 
 # Ignore Rust binaries. New docs or scripts have to be added manually to get noticed by git.
-Rust/*
+# This is commented to make it easy to find files which need to be commited so they aren't forgotten.
+#Rust/*
