@@ -25,8 +25,9 @@ The commands in the section below were done from within the [package_management]
 
 ## Create
 
+### Syntax
 
-Syntax to create a new crate at a given path.
+To create a crate at a given path.
 
 ```bash
 $ # Create binary. (Default)
@@ -35,6 +36,16 @@ $ cargo new PATH # --bin
 $ # Create library.
 $ cargo new PATH --lib
 ```
+
+Or, initialize an existing directory.
+
+```bash
+$ mkdir my_dir
+$ cd my_dir
+$ cargo --init
+```
+
+### Example
 
 Create a new package, which is a git repo with an ignore file. The implied default `--bin` option is to create a _binary_ package with a hello world binary executable.
 
