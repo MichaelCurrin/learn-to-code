@@ -1,5 +1,5 @@
 # Learn to Code
-My tutorials and scripts for python, bash, html, PHP and more.
+> Tutorials and scripts around old and new programming languages to keep track of what I've learnt and share with others
 
 _Author: Michael Currin_
 
@@ -8,24 +8,25 @@ Improve your coding skills in various languages by going through the content of 
 
 ## Python
 
-Read and run the [scripts](python/scripts/) written as python scripts and read the [tutorials](python/tutorials/) written in markdown format.
+Read and run the [scripts](Python/scripts/) written as python scripts and read the [tutorials](Python/tutorials/) written in markdown format.
 
 
 ## Bash
 
 Learn how to use the **bash command-line** and write **bash scripts**.
 
-See [scripts](bash/bashScripting/) and some [tutorials](bash/tutorials/) around *git* and *cron*.
+See [scripts](Bash/bashScripting/) and some [tutorials](Bash/tutorials/) around *git* and *cron*.
 
 
 ## Web Development
 
-* [HTML](html/)
-* CSS
-* JavaScript
-* [PHP](php/)
+* [HTML](HTML)
+* [JavaScript](JavaScript)
+* [PHP](PHP)
+
 
 ## Other
 
-* [C](c/)
-* [Ruby](ruby/)
+* [C](C)
+* [Ruby](Ruby)
+* [Rust](Rust)
