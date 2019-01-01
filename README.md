@@ -13,9 +13,11 @@ Read and run the [scripts](Python/scripts/) written as python scripts and read t
 
 ## Bash
 
-Learn how to use the **bash command-line** and write **bash scripts**.
+For Unix (Mac OS or Linux), learn how to use the **bash command-line** and write **bash scripts**.
 
-See [scripts](Bash/bashScripting/) and some [tutorials](Bash/tutorials/) around *git* and *cron*.
+- [Beginner Linux programming](Bash/beginner_linux_programming) guide
+- [Tutorials](Bash/tutorials)
+- Sample [scripts](Bash/bash_scripting/)
 
 
 ## Web Development
@@ -27,6 +29,7 @@ See [scripts](Bash/bashScripting/) and some [tutorials](Bash/tutorials/) around 
 
 ## Other
 
+* [Android](Android)
 * [C](C)
 * [Ruby](Ruby)
 * [Rust](Rust)
