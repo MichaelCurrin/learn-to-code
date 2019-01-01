@@ -1,6 +1,12 @@
 /*
     Primitive data types
+
+    integer
+    float
+    boolean
+    character
  */
+
 
 fn booleans() {
     let x = true;
@@ -8,26 +14,15 @@ fn booleans() {
 }
 
 
-fn strings() {
-    // char. Note single quotes.
-    let plain_char = 'x';
-    let unicode_char = '😎';
-
-    let typed_char: char = 'y';
-
-    // string.
-    let plain_string = "Hello";
-
-    let typed_string: &str = "Hello";
-}
-
-
 fn numeric() {
-    /* Signed fintegers */
+    /* Signed integers (positive or negative) */
 
+    // Rust refaults to signed 32-bit because "it’s generally the fastest, even on 64-bit systems."
+    // This is i32.
     let a = 10;
 
-    // Fixed size e.g 8-bit is -128 to 127
+    // Fixed size - 8, 16, 32 or 64 bit.
+    // e.g. 8 bit has range -128 to 127.
     let a: i8 = 10;
 
     let b: i32 = -1000;
@@ -36,7 +31,7 @@ fn numeric() {
     let c: isize = 222;
 
 
-    /* Unsigned integers */
+    /* Unsigned integers - positive only */
 
     let a: u8 = 10;
     let b: u32 = 1000;
@@ -45,7 +40,10 @@ fn numeric() {
     let c: usize = 222;
 
 
-    /* Floats */
+    /* Floats - postive or negative */
+
+    // 32 and 64 bit
+    // "The default type is f64 because on modern CPUs it’s roughly the same speed as f32 but is capable of more precision."
 
     // Single precision float. Avoid using this unless you really need to reduce memory or
     // do low-level optimization.
@@ -62,7 +60,7 @@ fn numeric() {
     println!("i8 max {}", i8::max_value());
 
     /*
-    Unsigned
+    Unsigned integer rangers
         i8 min -128
         i8 max 127
         i16 min -32768
@@ -72,7 +70,7 @@ fn numeric() {
         i64 min -9223372036854775808
         i64 max 9223372036854775807
 
-    Signed
+    Signed integer rangers
         u8 min 0
         u8 max 255
         u16 min 0
@@ -82,6 +80,20 @@ fn numeric() {
         u64 min 0
         u64 max 18446744073709551615
     */
+}
+
+
+fn strings() {
+    // char - note single quotes.
+    let plain_char = 'x';
+    let unicode_char = '😎';
+
+    let typed_char: char = 'y';
+
+    // String.
+    let plain_string = "Hello";
+
+    let typed_string: &str = "Hello";
 }
 
 
