@@ -45,6 +45,8 @@ $ cd my_dir
 $ cargo --init
 ```
 
+Using `new` initializes with a `.git` directory and `.gitignore` file, while `--init` does not.
+
 ### Example
 
 Create a new package, which is a git repo with an ignore file. The implied default `--bin` option is to create a _binary_ package with a hello world binary executable.
