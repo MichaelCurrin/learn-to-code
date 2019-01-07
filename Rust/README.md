@@ -7,8 +7,9 @@ Sources for this tutorial:
 
 See also:
 
-- [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
-- [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) for vectors, structs, enums, generics, impls and traits.
+- Official [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
+- [Learn Rust in X Minutes](https://learnxinyminutes.com/docs/rust/)
+- [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
 
 
 ## Installation
