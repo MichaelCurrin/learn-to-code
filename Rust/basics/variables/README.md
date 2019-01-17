@@ -6,6 +6,8 @@ A variable cannot change type. Types occur after a colon. They are not required 
 
 There is no null or undefined in Rust.
 
+Unlike in C, you cannot get a null pointer exception.
+
 
 ## Variable bindings
 
