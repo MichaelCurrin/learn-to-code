@@ -94,11 +94,11 @@ fn type_casting() {
 }
 
 /*
-    Borrow
-        &
-        &mut
-    Deferene
-        *
+    Borrow variable
+        `&`
+        `&mut`
+    Deference variable
+        `*`
 */
 
 fn main() {
