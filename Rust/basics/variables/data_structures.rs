@@ -1,6 +1,6 @@
 /*
-    Data structures
-
+    List data structures
+    
     Tuple
         Fixed size list of elements of different types.
 
@@ -18,7 +18,7 @@ fn tuples() {
     // Show first element.
     println!("{}", x.0);
 
-    // Define tith types.
+    // Define with types.
     let y: (u8, f32, bool, &str) = (1, 1.5, true, "Hello");
     // Get value. Must be in index range to prevent error.
     let z = y.2;
