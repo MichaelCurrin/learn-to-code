@@ -1,18 +1,24 @@
 # Variables
 
-Rust is statically typed (it checks data type at compile time).
+Rust is statically typed (it checks data type at compile time using specified or inferred types).
 
-Types are not required for variable bindings but are for const and static. Types occur after a colon.
+A variable cannot change type. Types occur after a colon. They are not required for variable bindings and can help set a different value for what the compiler would assume. Types but are for const and static though.
+
+There is no null or undefined in Rust.
 
 
 ## Variable bindings
 
-In Rust, variables are immutable by default so we call them variable bindings.
+Rust has variable bindings - an association between a variable name and a value. They declared with the `let` keyword.
+
+Variables are immutable by default but can be made mutable with the `mut` keyword. 
 
 See https://doc.rust-lang.org/rust-by-example/variable_bindings.html
 
 
 ## Constants
+
+In addition to variable bindings which are left immutable, we also have constants which come in two forms. The `const` or `static` keyword is used instead of `let`.
 
 See https://doc.rust-lang.org/rust-by-example/custom_types/constants.html
 
