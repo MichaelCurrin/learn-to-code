@@ -1,5 +1,5 @@
 /*
- * If else and matching
+ * If-else and matching control flows
  */
 
 fn simple() {
@@ -28,6 +28,7 @@ fn refactored() {
     }
     println!("{}", b);
 }
+
 
 fn assign() {
     let a = 50;
