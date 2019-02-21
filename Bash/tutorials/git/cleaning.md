@@ -43,10 +43,29 @@ remotes/origin/feature_branch_F
 remotes/origin/master
 ```
 
-Or get more info on what commit each branch is at using
+Display only remote branches.
+
+```
+$ git branch -r
+remotes/origin/develop
+remotes/origin/feature_branch_A
+remotes/origin/feature_branch_B
+remotes/origin/feature_branch_C
+remotes/origin/feature_branch_D
+remotes/origin/feature_branch_E
+remotes/origin/feature_branch_F
+remotes/origin/master
+```
+
+Get more info on what commit each branch is pointing to using this. You could also change the flag to `-av` for more branches.
 
 ```bash
-$ git branch -av
+$ git branch -v
+*   develop                                                    abcdef01 Short hash left and commit message here
+feature_branch_C                                               ........ ...
+feature_branch_D                                               ........ ...
+feature_branch_E                                               ........ ...
+feature_branch_F                                               ........ ...
 ```
 
 ## Remove unused branches
