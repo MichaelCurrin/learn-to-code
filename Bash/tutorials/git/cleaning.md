@@ -109,6 +109,9 @@ $ git branch -dr origin/feature_branch_A origin/feature_branch_B origin/feature_
 Instead of deleting by name, you can use the prune command to delete _all_ the branches on the remote which have been deleted.
 ```bash
 $ git remote prune origin
+ * [pruned] origin/feature_branch_A
+ * [pruned] origin/feature_branch_B
+ ...
 ```
 
 If you have deleted branches lingering after the above, like I did, then alternatively you can run this. It delete _all_ your origin branches from your local repo (including master). You can then bring the remote's branches back in.
