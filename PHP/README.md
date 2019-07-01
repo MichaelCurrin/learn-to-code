@@ -19,7 +19,7 @@ The aim is to see the project's PHP files as they are rendered in the terminal o
 ### Terminal
 
 ```bash
-php path/to/file.php
+$ php path/to/file.php
 ```
 
 ### Browser
@@ -35,14 +35,13 @@ $ php -S 127.0.0.1:8000
 ```
 
 2. Open [http://127.0.0.1:8000]() in your web browser.
-    - You will see the [index.html]() page rendered.
-    - Click on the links to view the result of PHP files which are in the [static] directory.
+    - You will see the [index.html](index.html) page rendered.
+    - Click on the links to view the result of PHP files which are in the [static](static) directory.
     - If you enter a bad URL you will get this error: _Not Found The requested resource /filename.ext was not found on this server._
-    - If you enter the path in the browser as [http://127.0.0.1:8000/README.md](), the file will be downloaded rather than viewed.
+    - If you enter the path in the browser as http://127.0.0.1:8000/README.md, the file will be downloaded rather than viewed.
     - There is a way to set autoindex to list the contents of the directory if there is not index page, but that seems to require installing something.
 
 3. Check the server log
-
   - View the log of server requests, which is outputted in the terminal where the server is running. 
   - This is useful to see activity on the server and to debug and missing files or bad syntax within scripts. Here is some example output.
 
