@@ -1,5 +1,5 @@
 # Learn to Code
-> Tutorials and scripts around old and new programming languages to keep track of what I've learnt and share with others
+> Tutorials and scripts around old and new programming languages to keep track of what I've learnt and to share with others
 
 _Author: Michael Currin_
 
