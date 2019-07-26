@@ -1,4 +1,4 @@
-# Bash Profiles
+# Bash profile settings
 
 Here are some recommended settings for bash console.
 
