@@ -1,7 +1,7 @@
 # Add a prefix to commit messages
 > Configure a prefix to be used for every git commit message in a repo
 
-If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode. 
+If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode.
 
 You can always edit or delete the prefix text for a particular commit and it will reppear the next time.
 
@@ -28,7 +28,7 @@ $ git config commit.template PATH/TO/template.txt
 
 ## 2. Make a commit
 
-Edit a file and stage it so you can make a commit. Then do a commit with one of the following actions: 
+Edit a file and stage it so you can make a commit. Then do a commit with one of the following actions:
 
 
 ### A. Command-line
@@ -39,16 +39,14 @@ $ git commit
 
 Then you will see the message appear in the editor, including a trailing space.
 
-```
-[PROJ-123]
-```
-
-Add to the message and save the commit.
+![Command-line](/.image/command-line.png)
 
 
 ### B. VSCode
 
-Or in VSCode go to the Source Control panel and you will see the prefix there. It does not keep the trailing space though.
+In VSCode, open the Source Control panel. You will see the prefix there. It does not keep the trailing space though.
+
+![VSCode](/.image/vs-code.png)
 
 
 ## 3. Update the template for a new project
