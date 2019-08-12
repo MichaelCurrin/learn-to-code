@@ -1,4 +1,4 @@
-# Add commit message prefix
+# Add a prefix to commit messages
 
 Save yourself time and effort writign commit messages. If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically.
 
