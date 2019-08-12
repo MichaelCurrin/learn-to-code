@@ -5,20 +5,22 @@ Save yourself time and effort writign commit messages. If your project requires 
 
 ## 1. Configure a template
 
-Add your prefix (including a training space) to a new template file.
+Choose a location for your template.
+
+_Note: The template does not need to be added version control, as you will change it locally depending on the feature you are working on. You might want to create directory set aside for just templates. If you create in the current repo, `git` will see it as a new file and you might not want that._
+
+Then add your prefix text (including a training space) to a new template file.
 
 ```bash
-$ echo "[PROJ-123] " > ~/PATH/TO/template.txt
+$ echo "[PROJ-123] " > PATH/TO/template.txt
 ```
 
 Update the config for the target repo so that it will recognize the template.
 
 ```bash
 $ cd <PATH_TO_REPO>
-$ git config commit.template ~/PATH/TO/template.txt
+$ git config commit.template PATH/TO/template.txt
 ```
-
-Note: The template does _not_ need to be added version control, as you will change it locally depending on the feature you are working on. You might want to create directory set aside for just templates. If you create in the current repo, `git` will see it as a new file and you might not want that.
 
 
 ## 2. Make a commit
