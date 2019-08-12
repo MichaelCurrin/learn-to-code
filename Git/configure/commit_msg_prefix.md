@@ -49,7 +49,7 @@ Add to the message and save the commit.
 Or in VSCode go to the Source Control panel and you will see the prefix there. It does not keep the trailing space though.
 
 
-## 3. Change it
+## 3. Update the template for a new project
 
 Every time you do a commit in that repo, you will get that prefix.
 
