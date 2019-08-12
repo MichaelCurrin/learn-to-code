@@ -1,7 +1,9 @@
 # Add a prefix to commit messages
-> Add a reusable prefix to your commit message
+> Configure a prefix to be used for every git commit message in a repo
 
-If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode.
+If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode. 
+
+You can always edit or delete the prefix text for a particular commit and it will reppear the next time.
 
 
 ## 1. Configure a template
@@ -58,3 +60,5 @@ When you are done with the current ticket or need to work on another, edit the t
 ```bash
 $ open ~/PATH/TO/template.txt
 ```
+
+If you want to stop using the template, replace the template with empty text or remove the item from the repo's git config.
