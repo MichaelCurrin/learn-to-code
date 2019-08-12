@@ -1,6 +1,7 @@
 # Add a prefix to commit messages
+> Add a reusable prefix to your commit message
 
-Save yourself time and effort writign commit messages. If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically.
+If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode.
 
 
 ## 1. Configure a template
