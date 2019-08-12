@@ -15,7 +15,7 @@ The template should not be versioned as you will change it locally depending on 
 
 ## 2. Use it
 
-With a change staged, try one of the following: 
+Edit a file and stage it so you can make a commit. Then do one of the following: 
 
 
 ### Command-line
@@ -44,6 +44,6 @@ Every time you do a commit in that repo, you will get that prefix.
 
 When you are done with the current ticket or need to work on another, edit the template with another prefix.
 
-```
+```bash
 $ open ~/PATH/TO/template.txt
 ```
