@@ -21,12 +21,12 @@ $ git config commit.template ~/PATH/TO/template.txt
 Note: The template does _not_ need to be added version control, as you will change it locally depending on the feature you are working on. You might want to create directory set aside for just templates. If you create in the current repo, `git` will see it as a new file and you might not want that.
 
 
-## 2. Use it
+## 2. Make a commit
 
 Edit a file and stage it so you can make a commit. Then do a commit with one of the following actions: 
 
 
-### Command-line
+### A. Command-line
 
 ```bash
 $ git commit
@@ -41,7 +41,7 @@ Then you will see the message appear in the editor, including a trailing space.
 Add to the message and save the commit.
 
 
-### VSCode
+### B. VSCode
 
 Or in VSCode go to the Source Control panel and you will see the prefix there. It does not keep the trailing space though.
 
