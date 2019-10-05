@@ -75,12 +75,10 @@ echo $x; // => 123.4
 echo gettype($x); // => string
 
 
-
 // Cast. Preserves original variable.
 $x = 123;
 $y = (integer) $x;
 $z = (string) $x;
-
 
 
 // Operators
