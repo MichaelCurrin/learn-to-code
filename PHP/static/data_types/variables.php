@@ -2,11 +2,13 @@
 
 echo "<h1>Variables</h1>";
 
+
 echo "<h2>Operations</h2>";
 $x = 5;
 $y = 10;
 echo $x . "<br>";
 echo $x + $y . "<br><br>";
+
 
 echo "<h2>Types</h2>";
 $null1 = null;
@@ -25,6 +27,7 @@ echo '$array2: ' . $array2 . "<br>";
 // logged as 'PHP Notice:  Array to string conversion'.
 $sum = "5" + 6;
 echo '$sum: '. $sum . "<br>";
+
 
 echo "<h2>Return</h2>";
 echo 'echo $x: ' . $x . "<br>";
@@ -55,7 +58,7 @@ ECHO "command ECHO<br>";
 echo "command echo<br><br>";
 
 echo "<h3>Variable banes</h3>";
-// Variables are case sensitive.
+// Variables ARE case sensitive.
 $color = "red";
 
 echo "color: " . $color . " <br>";
