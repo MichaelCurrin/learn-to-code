@@ -14,23 +14,35 @@ $ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
 
 ## Usage
 
-The aim is to see the project's PHP files as they are rendered in the terminal or in the browser and to compare that to the source .php files in another window.
+The aim is to see the project's PHP files as they are rendered in the terminal or in the browser and to compare that to the source `.php` files in another window.
 
-### Terminal
+### Run terminal
+
+
+Run script.
 
 ```bash
 $ php path/to/file.php
 ```
 
-### Browser
+Interactive mode.
+
+```bash
+$ php -a
+php > echo 'Hello!';
+Hello!
+php >
+```
+
+### Run in browser
 
 
-1. Start a PHP webserver.
+1. Start a PHP web server.
 
 _TODO: Use public directory instead and look at how other sites separate index and public files e.g. 000webhost.com_
 
 ```bash
-$ cd learn-to-code/php/
+$ cd learn-to-code/PHP/
 $ php -S 127.0.0.1:8000
 ```
 
@@ -39,10 +51,10 @@ $ php -S 127.0.0.1:8000
     - Click on the links to view the result of PHP files which are in the [static](static) directory.
     - If you enter a bad URL you will get this error: _Not Found The requested resource /filename.ext was not found on this server._
     - If you enter the path in the browser as http://127.0.0.1:8000/README.md, the file will be downloaded rather than viewed.
-    - There is a way to set autoindex to list the contents of the directory if there is not index page, but that seems to require installing something.
+    - There is a way to set _autoindex_ to list the contents of the directory if there is not index page, but that seems to require installing something.
 
 3. Check the server log
-  - View the log of server requests, which is outputted in the terminal where the server is running. 
+  - View the log of server requests, which is outputted in the terminal where the server is running.
   - This is useful to see activity on the server and to debug and missing files or bad syntax within scripts. Here is some example output.
 
 ```
