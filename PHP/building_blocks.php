@@ -31,8 +31,9 @@ echo abc; // prints as abc
 echo $not_set; // empty output.
 
 
-// `print` will print one string. And will return 1.
+// `print` will print one string. And will return `1` always.
 print(abc);
+
 
 // Legal variable names.
 $x;
@@ -52,14 +53,48 @@ $x = "Hello"; // string
 $x = true; // boolean
 
 // Data structures.
-// An Array is a list.
+// An Array is a list of values'
+$x = [];
 $x = [1, 2, 3];
+$x = ['1', '2', 3, 4.0];
+// An array can contain arrays.
+$x = [
+    [0, 1, 2],
+    [3, 4, 5],
+];
 
 // An Object has key-values pairs. Quotes are optional in keys.
 $x = [a=> 1, 'b'=> 2];
 // A Resource is a reference to a third-party resource e.g. a databsae.
 
+// Print is different for data structures.
+
+$x = [1, 2, 3];
+echo $x;
+// => Array
+var_dump($x);
+// => array(3) {
+//     [0]=>
+//     int(1)
+//     [1]=>
+//     int(2)
+//     [2]=>
+//     int(3)
+//   }
+
+$x = [ a => 1, 'b' => 2];
+var_dump($x);
+// array(2) {
+//   ["a"]=>
+//   int(1)
+//   ["b"]=>
+//   int(2)
+// }
+
+
 // Types
+
+
 // Check type.
 $x = 123.4;
 echo gettype($x); // => double
