@@ -202,3 +202,28 @@ $_SERVER; // Web server variables like headers, paths and script locations. Thes
 $_ENV; // Server environment.
 $_REQUEST; // Variables passed via user input.
 $_SESSION; // Variables currently registered in the session.
+
+
+// Constants
+
+// Constants cannot be modified.
+// Value must be be a scalar value (integer, float, string, boolean, or NULL).
+// https://www.php.net/manual/en/function.define.php
+
+// Note that no dollar sign is needed to set or reference.
+define("CONSTANT_NAME", 42);
+echo CONSTANT_NAME . "\n";
+// CONSTANT_NAME = 40; // => error.
+
+// New syntax.
+const A = 5;
+echo A . "\n";
+$x = 1;
+// const B = $x; // =>  fails
+// define("B", $x); // Valid.
+
+
+// Built-in constants.
+echo __FILE__ . "\n"; // Path to PHP file.
+echo __LINE__ . "\n"; // Line number of PHP file.
+echo PHP_VERSION . "\n"; // e.g. 7.1.23
