@@ -76,5 +76,6 @@ irb(main):004:0> Math.sqrt(123)
 ## Resources
 
 * [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
-* [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/)
 * [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
+* [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
+* [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
