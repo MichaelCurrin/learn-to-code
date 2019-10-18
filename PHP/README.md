@@ -3,8 +3,8 @@
 ## Resources
 
 - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com)) 
-- [Solo Learn](https://www.sololearn.com/) PHP course.
-- [Learn PHP in y minutes](https://learnxinyminutes.com/docs/php/)
+- [Solo Learn](https://www.sololearn.com/) - see their PHP course.
+- [Learn PHP in Y minutes](https://learnxinyminutes.com/docs/php/)
 
 ## Sites built on PHP
 
