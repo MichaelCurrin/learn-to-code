@@ -2,9 +2,16 @@
 
 ## Resources
 
-- [w3schools.com](https://www.w3schools.com) - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) on 
+- [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com)) 
 - [Solo Learn](https://www.sololearn.com/) PHP course.
 - [Learn PHP in y minutes](https://learnxinyminutes.com/docs/php/)
+
+## Sites built on PHP
+
+- [WordPress](https://wordpress.com/)
+- [Facebook](https://facebook.com)
+
+See this Quora answer page for a longer list - [What are the top 10 websites built with PHP?](https://www.quora.com/What-are-the-top-10-websites-built-with-PHP).
 
 ## Installation
 
