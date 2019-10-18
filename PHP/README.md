@@ -10,7 +10,7 @@
 
 ### Debian/Ubuntu
 
-Install PHP (from [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php))
+Install with `apt-get`. From [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php).
 
 ```bash
 $ sudo apt-get install php
@@ -18,13 +18,13 @@ $ sudo apt-get install php
 
 ### macOS
 
-Use brew. Upgrade to PHP 7.3+ on Mac - from [guide](https://stitcher.io/blog/php-73-upgrade-mac). See also extensions listed there.
+Use brew to upgrade to PHP 7.3+. From [guide](https://stitcher.io/blog/php-73-upgrade-mac). See also extensions listed there.
 
 ```bash
 $ brew upgrade php
 ```
 
-Install PHP 7.3 using curl and bash - from [guide](https://tecadmin.net/install-php-macos/).
+Use curl and bash to install PHP 7.3 - from [guide](https://tecadmin.net/install-php-macos/).
 
 ```bash
 $ curl -s http://php-osx.liip.ch/install.sh | bash -s 7.3
@@ -68,6 +68,7 @@ php >
 
 ### Run in browser
 
+#### PHP server
 
 1. Start a PHP web server.
 
@@ -98,10 +99,9 @@ $ php -S 127.0.0.1:8000
 [Fri Mar  2 20:10:22 2018] 127.0.0.1:33554 [500]: /static/printing.php - syntax error, ... on line 11
 ```
 
+## Other server
 
-## Further details
-
-Python's simple HTTP server is not configured by default to run PHP. However, one can use php's webserver.
+Python's simple HTTP server is not configured by default to run PHP script. However, one can use PHP's webserver.
 
 Resources:
 
