@@ -1,15 +1,33 @@
-# PHP Readme
+# PHP
 
-The files in this php directory of the project are based on [PHP tutorials](https://www.w3schools.com/PhP/default.asp) on [w3schools.com](https://www.w3schools.com) and the [Solo Learn](https://www.sololearn.com/) PHP course.
+## Resources
 
+- [w3schools.com](https://www.w3schools.com) - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) on 
+- [Solo Learn](https://www.sololearn.com/) PHP course.
+- [Learn PHP in y minutes](https://learnxinyminutes.com/docs/php/)
 
 ## Installation
+
+### Debian/Ubuntu
 
 Install PHP (from [how to install LAMP on Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu#install-php))
 
 ```bash
 $ sudo apt-get install php
-$ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+```
+
+### macOS
+
+Use brew. Upgrade to PHP 7.3+ on Mac - from [guide](https://stitcher.io/blog/php-73-upgrade-mac). See also extensions listed there.
+
+```bash
+$ brew upgrade php
+```
+
+Install PHP 7.3 using curl and bash - from [guide](https://tecadmin.net/install-php-macos/).
+
+```bash
+$ curl -s http://php-osx.liip.ch/install.sh | bash -s 7.3
 ```
 
 ## Usage
@@ -18,6 +36,20 @@ The aim is to see the project's PHP files as they are rendered in the terminal o
 
 ### Run terminal
 
+Check version.
+
+```bash
+$ php --version
+PHP 7.1.23 (cli) (built: Feb 22 2019 22:19:32) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2018 Zend Technologies
+```
+
+Pass string to PHP to execute.
+
+```bash
+$ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+```
 
 Run script.
 
