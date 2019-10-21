@@ -31,5 +31,7 @@ For Unix (Mac OS or Linux), learn how to use the **bash command-line** and write
 
 * [Android](Android)
 * [C](C)
+* [Go](Go)
 * [Ruby](Ruby)
 * [Rust](Rust)
+
