@@ -57,4 +57,17 @@ A task does not have to be finished before goign to the next one - the program c
     
 ## Installation
 
-Official Go doc on how to install for your operating system - [install](https://golang.org/doc/install#install).
+To install Go on your operating system, follow this [install guide](https://golang.org/doc/install#install) from the Go docs.
+
+## Run
+
+Run the sample scripts in this project.
+
+```bash
+$ cd Scripts
+$ # Compile the `hello.go` script into a binary named `hello`.
+$ go build
+$ # Run the binary.
+$ ./hello
+hello, world
+```
