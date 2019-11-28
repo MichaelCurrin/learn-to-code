@@ -1,5 +1,7 @@
 # Go
 
+Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
+
 ## What is _Go_?
 
 Homepage: [golang.org](https://golang.org/)
@@ -22,3 +24,6 @@ On [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
     * [repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
     
+## Installation
+
+Official Go doc on how to install for your operating system - [install](https://golang.org/doc/install#install).
