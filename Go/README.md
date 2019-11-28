@@ -4,13 +4,44 @@ Info to help you understand what Go is and how to build some basic things with i
 
 ## What is _Go_?
 
-Homepage: [golang.org](https://golang.org/)
+### Definitions
+
+The Go homepage at [golang.org](https://golang.org/) says:
 
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
-On [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
+The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
 > Go, also known as Golang,[14] is a statically typed, compiled programming language designed at Google[15] by Robert Griesemer, Rob Pike, and Ken Thompson.[12] Go is syntactically similar to C, but with memory safety, garbage collection, structural typing,[6] and CSP-style concurrency.[16] 
+
+### Main features
+ 
+Credit goes to this [article](https://making.pusher.com/my-5-favourite-features-of-go-and-how-to-use-them/).
+
+#### Concurrency
+
+What does [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) mean? 
+
+A task does not have to be finished before goign to the next one - the program can run parts in parallel and to partial completion. This can be great for performance. Example cases are running two tasks at once (such as the user interface and also processing or fetching data in the background, or fetching data from 100 webpages at once and processing them in the order that they finish.
+
+> Go offers some great concurrency primitives and makes it extremely easy to implement a concurrent system. Go offers some great concurrency primitives and makes it extremely easy to implement a concurrent system. Go supports this at the language level and concurrency is a first class citizen. The fundamental unit for this in Go is a go routine. Go routines are cheap, lightweight threads of execution. Spawning a go routine is as simple as adding the go keyword before a function. For example:
+
+#### Simplicity and Consistency
+
+> Go is a relatively simple language and was designed with a very minimalistic approach. I found it easy to pick up and get started with. The standard library contains most things including a web server!
+
+#### Go is object oriented
+
+> Coming from other languages, it may seem like Go is not object-oriented. It does not provide the class keyword and has no support for inheritance. This might seem bizarre. However, Go’s replacement for classes are structs. A struct may have any number of properties and methods defined on them.
+
+#### The Compiler
+
+> Go's compiler is super fast. It is easily possible to compile a large Go program within a few seconds. The fact that the language syntax is so simple means that compilation is much quicker. 
+
+#### Pointers
+
+> Most modern languages do not provide pointers, however I do feel pointers help solve a lot of common issues and play a far more important role when it comes to memory layout and building low level system tools.
+    
 
 ## Resources
 
