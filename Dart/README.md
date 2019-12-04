@@ -1,5 +1,6 @@
 # Dart
 
+
 ## What is Dart?
 
 > Dart is a client-optimized[clarification needed] programming language for apps on multiple platforms. It is developed by Google and is used to build mobile, desktop, backend and web applications.
@@ -20,10 +21,12 @@ From Flutter [homepage](https://flutter.dev) and [Wikipedia](https://en.wikipedi
 
 ### Dart
 
-- Dart [homepage](https://dart.dev/)
-- Dart site's [tutorials](https://dart.dev/tutorials)
-- [Top Tutorials To Learn Dart To Build Applications](https://medium.com/quick-code/top-tutorials-to-learn-dart-to-build-applications-262b946a3fc9)
-- Dart [samples](https://dart.dev/samples) - these were used in this project for the basics section.
+- Official Dart [homepage](https://dart.dev/)
+- Tutorials
+    - [Official Dart tutorials](https://dart.dev/tutorials)
+    - [Top Tutorials To Learn Dart To Build Applications](https://medium.com/quick-code/top-tutorials-to-learn-dart-to-build-applications-262b946a3fc9)
+- Dart [samples](https://dart.dev/samples) - these were copied to this project for the basics section.
+- Dart packages on [pub.dev](https://pub.dev/). These are separated into flutter and web packages.
 - VS Code
     - [Setup](https://dart.dev/tools/vs-code) for Dart.
     - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) plugin.
@@ -32,9 +35,13 @@ From Flutter [homepage](https://flutter.dev) and [Wikipedia](https://en.wikipedi
 
 ## Install
 
-For Dart web, command-line, and server apps - [Get the Dart SDK](https://dart.dev/get-dart).
+### Web
 
-For developing only mobile apps - [Install Flutter](https://flutter.dev/docs/get-started/install).
+For Dart web, command-line, and server apps, go to [Get the Dart SDK](https://dart.dev/get-dart).
+
+### Mobile
+
+For developing only mobile apps, go to [Install Flutter](https://flutter.dev/docs/get-started/install).
 
 
 ## Run
