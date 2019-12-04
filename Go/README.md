@@ -45,12 +45,19 @@ A task does not have to be finished before goign to the next one - the program c
 
 ## Resources
 
-- [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
-- [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code
+- Official Go homepage - [golang.org](https://golang.org/)
+    * [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code.
+       ```bash
+       $ go fmt
+       ````
+       Note on indentation:
+       > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
 - Tutorials
+    * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
+    * [Effective Go](https://golang.org/doc/effective_go.html) on Go homepage
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
 - [Go Packages](https://golang.org/pkg/)
-- Online playgrounds
+- Online playgrounds to run Go
     * [play.golang.org](https://play.golang.org/)
     * [repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
