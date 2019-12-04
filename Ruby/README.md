@@ -1,5 +1,17 @@
 # Ruby
 
+## What is Ruby?
+
+From the [Ruby homepage](https://www.ruby-lang.org/en/):
+
+> Ruby is...
+> A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
+
+> Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+> Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.
+
 ## Getting started
 
 ### Install and upgrade
@@ -75,7 +87,8 @@ irb(main):004:0> Math.sqrt(123)
 
 ## Resources
 
-* [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
-* [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
-* [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
-* [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
+- [Ruby homepage](https://www.ruby-lang.org/en/)
+- [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
+- [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
+- [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
+- [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
