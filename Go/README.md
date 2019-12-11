@@ -54,7 +54,7 @@ A task does not have to be finished before goign to the next one - the program c
         > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
 - Tutorials
     * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
-    * [Effective Go](https://golang.org/doc/effective_go.html) on Go homepage
+    * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the Go site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
     * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
 - Blog posts
