@@ -12,7 +12,7 @@ The Go homepage at [golang.org](https://golang.org/) says:
 
 The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
-> Go, also known as Golang,[14] is a statically typed, compiled programming language designed at Google[15] by Robert Griesemer, Rob Pike, and Ken Thompson.[12] Go is syntactically similar to C, but with memory safety, garbage collection, structural typing,[6] and CSP-style concurrency.[16] 
+> Go, also known as Golang, is a statically typed, compiled programming language designed at Google... . Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 
 ### Main features
  
@@ -50,12 +50,16 @@ A task does not have to be finished before goign to the next one - the program c
        ```bash
        $ go fmt
        ````
-       Note on indentation:
-       > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
+    * Note on indentation:
+        > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
 - Tutorials
     * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
     * [Effective Go](https://golang.org/doc/effective_go.html) on Go homepage
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
+    * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
+- Blog posts
+    * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
+        > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
 - [Go Packages](https://golang.org/pkg/)
 - Online playgrounds to run Go
     * [play.golang.org](https://play.golang.org/)
