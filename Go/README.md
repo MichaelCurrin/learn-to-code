@@ -6,7 +6,7 @@ Info to help you understand what Go is and how to build some basic things with i
 
 ### Definitions
 
-The Go homepage at [golang.org](https://golang.org/) says:
+The Go official site at [golang.org](https://golang.org/) says:
 
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
@@ -15,12 +15,12 @@ The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page sa
 > Go, also known as Golang, is a statically typed, compiled programming language designed at Google... . Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 
 ### Main features
- 
+
 Credit goes to this [article](https://making.pusher.com/my-5-favourite-features-of-go-and-how-to-use-them/).
 
 #### Concurrency
 
-What does [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) mean? 
+What does [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) mean?
 
 A task does not have to be finished before goign to the next one - the program can run parts in parallel and to partial completion. This can be great for performance. Example cases are running two tasks at once (such as the user interface and also processing or fetching data in the background, or fetching data from 100 webpages at once and processing them in the order that they finish.
 
@@ -36,16 +36,16 @@ A task does not have to be finished before goign to the next one - the program c
 
 #### The Compiler
 
-> Go's compiler is super fast. It is easily possible to compile a large Go program within a few seconds. The fact that the language syntax is so simple means that compilation is much quicker. 
+> Go's compiler is super fast. It is easily possible to compile a large Go program within a few seconds. The fact that the language syntax is so simple means that compilation is much quicker.
 
 #### Pointers
 
 > Most modern languages do not provide pointers, however I do feel pointers help solve a lot of common issues and play a far more important role when it comes to memory layout and building low level system tools.
-    
+
 
 ## Resources
 
-- Official Go homepage - [golang.org](https://golang.org/)
+- Official Go official site - [golang.org](https://golang.org/)
     * [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code.
        ```bash
        $ go fmt
@@ -54,7 +54,7 @@ A task does not have to be finished before goign to the next one - the program c
         > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
 - Tutorials
     * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
-    * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the Go site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
+    * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
     * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
 - Blog posts
@@ -65,7 +65,7 @@ A task does not have to be finished before goign to the next one - the program c
     * [play.golang.org](https://play.golang.org/)
     * [repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
-    
+
 ## Installation
 
 To install Go on your operating system, follow this [install guide](https://golang.org/doc/install#install) from the Go docs.

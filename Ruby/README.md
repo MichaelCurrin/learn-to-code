@@ -2,7 +2,7 @@
 
 ## What is Ruby?
 
-From the [Ruby homepage](https://www.ruby-lang.org/en/):
+From the [Ruby official site](https://www.ruby-lang.org/en/):
 
 > Ruby is...
 > A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
@@ -87,7 +87,7 @@ irb(main):004:0> Math.sqrt(123)
 
 ## Resources
 
-- [Ruby homepage](https://www.ruby-lang.org/en/)
+- [Ruby official site](https://www.ruby-lang.org/en/)
 - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
 - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
 - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs

@@ -14,14 +14,14 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Dart_(programming_language)):
 > Flutter is an open-source UI software development kit created by Google. It is used to develop applications for Android, iOS, Windows, Mac, Linux, Google Fuchsia and the web.
 > Flutter apps are written in the Dart language and make use of many of the language's more advanced features.
 
-From Flutter [homepage](https://flutter.dev) and [Wikipedia](https://en.wikipedia.org/wiki/Flutter_(software)#Dart_platform).
+From Flutter [official site](https://flutter.dev) and [Wikipedia](https://en.wikipedia.org/wiki/Flutter_(software)#Dart_platform).
 
 
 ## Resources
 
 ### Dart
 
-- Official Dart [homepage](https://dart.dev/)
+- Official Dart [official site](https://dart.dev/)
 - Tutorials
     - [Official Dart tutorials](https://dart.dev/tutorials)
     - [Top Tutorials To Learn Dart To Build Applications](https://medium.com/quick-code/top-tutorials-to-learn-dart-to-build-applications-262b946a3fc9)

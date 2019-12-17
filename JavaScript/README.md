@@ -69,7 +69,7 @@ Used to develop a dynamic user interface so the DOM is built on the client side.
 
 #### Links
 
-- [Homepage](https://reactjs.org/).
+- [Official site](https://reactjs.org/).
     > A JavaScript library for building user interfaces
 - [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
 - [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
@@ -90,7 +90,7 @@ ReactDOM.render(
 
 #### Links
 
-- [Homepage](https://facebook.github.io/react-native/).
+- [Official site](https://facebook.github.io/react-native/).
     > Create native apps for Android and iOS using React.
     > Written in JavaScript - rendered with native code.
     > React Native is like React, but it uses native components instead of web components as building blocks.
@@ -124,7 +124,7 @@ It is an open source project used by Google.
 
 #### Links
 
-- [Homepage](https://angular.io/).
+- [Official site](https://angular.io/).
     > One framework. Mobile & desktop.
 - [Quickstart](https://angular.io/start) to get started in 5 minutes.
 - [Github repo](https://github.com/angular/angular).
