@@ -1,4 +1,14 @@
-# JavaScript instructions
+# JavaScript
+
+## Resources
+
+- Tutorials
+    - W3 Schools [JS tutorial](https://www.w3schools.com/js/default.asp)
+- Online IDE
+    - [Runkit](https://runkit.com/home)
+      > Runkit is a node playground in your browser.
+      > ... you can require any npm package instantly.
+    - [NPM Runkit](https://npm.runkit.com/) e.g. https://npm.runkit.com/request
 
 ## Install NodeJS
 
@@ -8,7 +18,7 @@
 $ sudo apt install nodejs
 ```
 
-**Mac OS X**
+**macOS**
 
 ```bash
 $ brew install nodejs
