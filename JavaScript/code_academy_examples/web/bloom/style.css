@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 700px;
+}
+
+p {
+    text-align: center;
+    font-size: 10vw;
+    color: #1F1E2E;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}

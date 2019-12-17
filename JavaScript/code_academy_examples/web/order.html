@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Loaded and execute as soon as the HTML parser encounters it. This blocks loading of other
+    scripts and HTML. -->
+    <script src="script1.js"></script>
+    <!-- This loads the script but only executes it after HTML is done beiong parsed. This makes
+    sense if the functionality requires interaction with the DOM. -->
+    <script src="script2.js" defer></script>
+    <!-- This loads the script and it will execute immediately after it has downloaded. The
+    asynchronous execution will not block parsing of HTML - good for standalone functionality.-->
+    <script src="script3.js" async></script>
+
+</head>
+
+<body>
+    <p class="centered" id="logo">Codecademy</p>
+</body>
+
+<!-- These do not block the body from loading. This is an old convention and putting scripsts in the
+head using defer or async attributes is the new convention.-->
+<script src="script3.js"></script>
+<script src="script4.js"></script>
+
+</html>
