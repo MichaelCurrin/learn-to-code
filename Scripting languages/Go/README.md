@@ -45,13 +45,15 @@ A task does not have to be finished before going to the next one - the program c
 
 ## Resources
 
-- Official Go official site - [golang.org](https://golang.org/)
+- Official site - [golang.org](https://golang.org/)
     * [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code.
-       ```bash
-       $ go fmt
-       ````
+        ```bash
+        $ go fmt
+        ````
     * Note on indentation:
         > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
+- Github - [golang/go](https://github.com/golang/go)
+    * [Wiki](https://github.com/golang/go/wiki) - see the table of contents for tutorials.
 - Tutorials
     * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
     * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
@@ -61,9 +63,9 @@ A task does not have to be finished before going to the next one - the program c
     * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
         > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
 - [Go Packages](https://golang.org/pkg/)
-- Online playgrounds to run Go
+- Online playgrounds
     * [play.golang.org](https://play.golang.org/)
-    * [repl.it](https://repl.it/languages/go)
+    * [Go on repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
 
 ## Installation
