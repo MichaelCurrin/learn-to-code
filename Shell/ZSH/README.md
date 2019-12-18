@@ -34,7 +34,7 @@
 
 ### How to install
 
-[source]([Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH))
+[source](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 
 - macOS
     ```sh
@@ -44,6 +44,7 @@
     ```sh
     sudo apt install zsh
     ```
+
 ### Try it out
 
 Use ZSH _without_ setting it as your default shell.
