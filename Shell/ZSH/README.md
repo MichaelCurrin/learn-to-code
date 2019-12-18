@@ -15,13 +15,13 @@
 
 ### Install and configure
 
-- Oh my ZSH
+- _Oh my ZSH_
     - [Github](https://github.com/ohmyzsh/ohmyzsh)
     - [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - guide on _ohmyzsh_ Wiki.
     - [Manual installation](https://github.com/ohmyzsh/ohmyzsh#manual-installation)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
-- [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 - Guides for Mac 
+    - [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
     - [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
     - [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
 
