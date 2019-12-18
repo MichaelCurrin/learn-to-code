@@ -103,7 +103,4 @@ Run this command on the command-line. It will remove itself and revert your prev
 uninstall_oh_my_zsh
 ```
 
-Links
-
-- [Uninstall Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh#uninstalling-oh-my-zsh)
-- [medium](https://medium.com/@ryanwhocodes/you-could-uninstall-oh-my-zsh-de3e5cba031 article)
+Source - [Uninstall Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh#uninstalling-oh-my-zsh).
