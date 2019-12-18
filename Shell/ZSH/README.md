@@ -15,7 +15,10 @@
 
 ### Install and configure
 
-- [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - on _ohmyzsh_ repo. Use the links below if you need more help.
+- Oh my ZSH
+    - [Github](https://github.com/ohmyzsh/ohmyzsh)
+    - [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - guide on _ohmyzsh_ Wiki.
+    - [Manual installation](https://github.com/ohmyzsh/ohmyzsh#manual-installation)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
 - [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 - Guides for Mac 
@@ -41,14 +44,33 @@
     ```sh
     sudo apt install zsh
     ```
-  
-### Set as default
+### Try it out
+
+You can try out using ZSH _without_ setting it as your default shell.
+
+Note that if you just enter `zsh`, you'll start a subshell within your Bash shell which is not so good. Rather, start fresh shell in the current terminal window. This command will kill the old process and start a new one.
+
+```sh
+# Switch.
+exec zsh
+# Revert.
+exec bash
+```
+
+The `-l` or `--login` flag should probably used.
+
+> Make this shell act as if it had been directly invoked by login. When the shell is interactive, this is equivalent to starting a login shell with ‘exec -l bash’. When the shell is not interactive, the login shell startup files will be executed. ‘exec bash -l’ or ‘exec bash --login’ will replace the current shell with a Bash login shell. See Bash Startup Files, for a description of the special behavior of a login shell. [source](https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html)
+
+
+### Set ZSH as default
 
 ```
 chsh -s $(which zsh)  # this should resolve to /bin/zsh
 ```
 
 ### Uninstall
+
+#### Option A - just ZSH
 
 Remove ZSH config.
 
@@ -72,3 +94,16 @@ Uninstall ZSH.
     ```sh
     sudo apt-get --purge remove zsh
     ```
+
+#### Option B - Uninstall Oh my ZSH
+
+Run this command on the command-line. It will remove itself and revert your previous bash or zsh configuration.
+
+```sh
+uninstall_oh_my_zsh
+```
+
+Links
+
+- [Uninstall Oh my ZSH](https://github.com/robbyrussell/oh-my-zsh#uninstalling-oh-my-zsh)
+- [medium](https://medium.com/@ryanwhocodes/you-could-uninstall-oh-my-zsh-de3e5cba031 article)
