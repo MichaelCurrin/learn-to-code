@@ -1,15 +1,19 @@
 # ZSH
 
+## What is ZSH?
+
+- [Z Shell](https://en.wikipedia.org/wiki/Z_shell) on Wikipedia
+  > The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh.
+- [What is ZSH, and Why Should You Use It Instead of Bash?](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/)
 
 ## Resources
 
-- [Z Shell](https://en.wikipedia.org/wiki/Z_shell) on Wikipedia
-- [What is ZSH, and Why Should You Use It Instead of Bash?](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/)
-- [Oh my zsh](https://ohmyz.sh/)
+### Oh my ZSH
+
+- [Oh my zsh](https://ohmyz.sh/) official site
   > Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 
-
-## Install and configure
+### Install and configure
 
 - [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - on _ohmyzsh_ repo. Use the links below if you need more help.
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
@@ -18,7 +22,53 @@
     - [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
     - [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
 
-## Usage
+### Usage
 
 - [Learn the basics of the ZSH shell](https://linuxconfig.org/learn-the-basics-of-the-zsh-shell)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/) (repeated from above section)
+
+## Setup
+
+### How to install
+
+[source]([Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH))
+
+- macOS
+    ```sh
+    brew install zsh
+    ```
+- Debian/Ubuntu
+    ```sh
+    sudo apt install zsh
+    ```
+  
+### Set as default
+
+```
+chsh -s $(which zsh)  # this should resolve to /bin/zsh
+```
+
+### Uninstall
+
+Remove ZSH config.
+
+```sh
+rm ~/.zshrc
+```
+
+Set Bash as default shell.
+
+```
+chsh -s $(which bash)
+```
+
+Uninstall ZSH.
+
+- macOS
+    ```sh
+    brew uninstall zsh --force
+    ```
+- Debian/Ubuntu
+    ```sh
+    sudo apt-get --purge remove zsh
+    ```
