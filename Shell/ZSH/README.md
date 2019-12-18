@@ -8,22 +8,27 @@
 
 ## Resources
 
-### Oh my ZSH
+### Install and configure ZSH
+
+- [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
+
+#### ZSH Guides for Mac
+
+- [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
+- [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
+- [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
+
+#### Oh my ZSH
 
 - [Oh my zsh](https://ohmyz.sh/) official site
   > Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
+- [Github](https://github.com/ohmyzsh/ohmyzsh)
 
-### Install and configure
+_Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My ZSH_ docs, you can install _ZSH_ and _Oh my ZSH_ at once.
 
-- _Oh my ZSH_
-    - [Github](https://github.com/ohmyzsh/ohmyzsh)
-    - [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - guide on _ohmyzsh_ Wiki.
-    - [Manual installation](https://github.com/ohmyzsh/ohmyzsh#manual-installation)
-- [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
-- Guides for Mac 
-    - [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
-    - [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
-    - [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
+- [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- [Manual installation](https://github.com/ohmyzsh/ohmyzsh#manual-installation)
+
 
 ### Usage
 
