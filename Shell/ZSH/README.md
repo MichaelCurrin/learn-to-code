@@ -46,25 +46,23 @@
     ```
 ### Try it out
 
-You can try out using ZSH _without_ setting it as your default shell.
+Use ZSH _without_ setting it as your default shell.
 
-Note that if you just enter `zsh`, you'll start a subshell within your Bash shell which is not so good. Rather, start fresh shell in the current terminal window. This command will kill the old process and start a new one.
+Be sure to start a shell in a way that replaces the current shell i.e. This command will kill the old process and start a new one, ignoring any history of commands and configured values.
+
+Use the `exec` command with the `--login` flag so the shell acts as if invoked by login. [source](https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html)
+
 
 ```sh
 # Switch.
-exec zsh
+exec -l zsh
 # Revert.
-exec bash
+exec -l bash
 ```
-
-The `-l` or `--login` flag should probably used.
-
-> Make this shell act as if it had been directly invoked by login. When the shell is interactive, this is equivalent to starting a login shell with ‘exec -l bash’. When the shell is not interactive, the login shell startup files will be executed. ‘exec bash -l’ or ‘exec bash --login’ will replace the current shell with a Bash login shell. See Bash Startup Files, for a description of the special behavior of a login shell. [source](https://www.gnu.org/software/bash/manual/html_node/Invoking-Bash.html)
-
 
 ### Set ZSH as default
 
-```
+```sh
 chsh -s $(which zsh)  # this should resolve to /bin/zsh
 ```
 
