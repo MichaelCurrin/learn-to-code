@@ -78,7 +78,7 @@ rm ~/.zshrc
 
 Set Bash as default shell.
 
-```
+```sh
 chsh -s $(which bash)
 ```
 
