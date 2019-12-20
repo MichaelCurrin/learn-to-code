@@ -14,8 +14,8 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
     - Also known as VS Code. Not to be confused with _Visual Studio_.
     - [Download]((https://code.visualstudio.com/)
     - Read this guide for [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
-    - Use the Python extension
-        - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension page.
-            > Linting, Debugging (multi-threaded, remote), Intellisense, code formatting, refactoring, unit tests, snippets, and more.
+- Visual Studio Code Python extension.
+    - For _"Linting, Debugging (multi-threaded, remote), Intellisense, code formatting, refactoring, unit tests, snippets, and more."_
+    - [Download](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 - PyCharm
     - [Download](https://www.jetbrains.com/pycharm/)
