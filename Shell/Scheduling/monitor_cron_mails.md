@@ -1,9 +1,9 @@
 # Read Cron Mails in a GUI
-_How to view cron job results in the Thunderbird mail client._
+> Tutorial to setup cron job from scratch and view run log emails in Thunderbird mail client.
 
 ## Summary
 
-The aim is to automate scripts (e.g. Python or Bash), on a Linux or Mac OS, at the same time every day or week. Then to also monitor the successes or failures in a way that's easy to manage - in this case with a mail client GUI. This is especially if you have a lot of scripts to run, they run frequently, or the output of each is long and is included in the mail body.
+The aim is to automate scripts (e.g. Python or Bash), on a Linux or macOS, at the same time every day or week. Then to also monitor the successes or failures in a way that's easy to manage - in this case with a mail client GUI. This is especially if you have a lot of scripts to run, they run frequently, or the output of each is long and is included in the mail body.
 
 This tutorial covers how to:
 
@@ -75,7 +75,7 @@ MAILTO=abc@gmail.com
 
 Setup a test job in the crontab file to print the phase "Test" every minute and every hour.
 
-e.g. 
+e.g.
 ```bash
 # m h  dom mon dow   command
   * *  *   *   *     echo 'Test!'
@@ -129,7 +129,7 @@ Ensure that your user has permissions for your user's mail box in `/var/mail`.
 
 ```bash
 $ cd /var/mail
-$ # This mail directory contains a file for each user. 
+$ # This mail directory contains a file for each user.
 $ # Initially it only has one named root, but the additional file can be created as below.
 $ ls -l
 -rw------- 1 root mail 0 Mar  7 21:38 root
@@ -141,7 +141,7 @@ $ # Change the permissions on the file that was just created.
 $ sudo chown michael:michael /var/mail/michael
 ```
 
-Now run the `mail` command to get the interactive mail viewer. Press enter to go through some mails and `q` and enter to exit. 
+Now run the `mail` command to get the interactive mail viewer. Press enter to go through some mails and `q` and enter to exit.
 
 ```
 $ mail
@@ -206,7 +206,7 @@ Mar  7 22:25:01 compaq-lite CRON[10619]: (michael) CMD (echo 'Test!')
 ...
 ```
 
-To send a mail using the commandline:
+To send a mail using the command-line:
 
 ```bash
 $ mail -t
@@ -274,17 +274,17 @@ Click _Add Other Account..._
 
 Then select "Unix Mailspool", again according to [How Do I Read A Local Email In Thunderbird?](https://askubuntu.com/questions/192572/how-do-i-read-local-email-in-thunderbird).
 
-Enter name as you wish to be displayed. 
+Enter name as you wish to be displayed.
 
 e.g. `michael`
 
-Enter email address. 
+Enter email address.
 
 e.g. `michael@localhost`
 
-You could also set the domain to be your device's name. 
+You could also set the domain to be your device's name.
 
-To read or update your device name in Unbuntu, go to `Settings => Details => Overview => Device name`. 
+To read or update your device name in Unbuntu, go to `Settings => Details => Overview => Device name`.
 
 Then set email address in Thunderbird Mail in the format:
 
@@ -355,7 +355,7 @@ Saved 1 message in /home/michael/mbox
 Held 7 messages in /var/mail/root
 ```
 
-Note that upon exiting `sudo mail`, any mails which were expadned (by pressing enter or pressing index number and enter) are moved to you user's `mbox`.
+Note that upon exiting `sudo mail`, any mails which were expanded (by pressing enter or pressing index number and enter) are moved to you user's `mbox`.
 
 If you switch to the root user first, then the mail will be moved to the root user's mbox.
 
