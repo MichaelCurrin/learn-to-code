@@ -1,12 +1,13 @@
-# Cron Example
+# Crontab
 
-The following are lines which can be placed in a cron files.
+The following are lines which can be placed in a crontab files.
 
-Such as editing your crontab schedule with `crontab -e` or placing files in `/etc/cron.d`.
+Such as editing your crontab schedule with `crontab -e` and editing the file for your user.
 
 ## Times
 
 Guide to time format. See `man crontab` for more details.
+
 ```
 * * * * *
 
@@ -20,6 +21,7 @@ Guide to time format. See `man crontab` for more details.
 ## File structure
 
 This is an example of lines to include in a crontab file, setting environment and then jobs.
+
 ```
 SHELL=/bin/bash
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
@@ -34,15 +36,16 @@ MAILTO=michael
 ## Example jobs
 
 Disk usage
+
 `0 * * * 1-5 du -h --max-depth=1 /`
 
 Run at 9:30am on Mondays and Thursdays. Activate virtual environment and run python script.
 
 `30 9 * * 1,4 source activate myenv && cd path/to/folder && python report.py`
 
-Based on answer here: https://superuser.com/questions/122246/how-can-i-view-results-of-my-cron-jobs
+Based on answer here - [link](https://superuser.com/questions/122246/how-can-i-view-results-of-my-cron-jobs).
 
-Hide stdout output and redirect any errors to an error file. 
+Hide stdout output and redirect any errors to an error file.
 
 `0 5 * * * /path/to/job.sh 1> /dev/null 2> /path/to/file.err`
 
@@ -54,6 +57,6 @@ Another mail example. Stdout is absorbed, then stderr is redirected to stdout an
 
 `30 12 * * * /path/to/script.sh 1> /dev/null 2>&1 | mail -s "My Subject" user@domain.com`
 
-Send stderror to mail address. This should be equivalent to the above but I've not tested. 
+Send _stderror_ to mail address. This should be equivalent to the above but I've not tested.
 
 `30 12 * * * /path/to/script.sh 1> /dev/null 2> mail -s "My Subject" user@domain.com`
