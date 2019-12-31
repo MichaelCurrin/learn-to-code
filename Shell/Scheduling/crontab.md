@@ -1,8 +1,12 @@
 # Crontab
 
-The following are lines which can be placed in a crontab files.
+This guide covers rules and examples for adding jobs to your _crontab_ schedule file.
 
-Such as editing your crontab schedule with `crontab -e` and editing the file for your user.
+Edit the schedule with `crontab -e`.
+
+Tutorials:
+- [computerhope.com](https://www.computerhope.com/unix/ucrontab.htm)
+
 
 ## Times
 
