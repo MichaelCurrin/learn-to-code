@@ -13,6 +13,8 @@ Tutorials:
 
 Guide to time format. See `man crontab` for more details.
 
+### Five stars time
+
 ```
 * * * * *
 
@@ -22,6 +24,15 @@ Guide to time format. See `man crontab` for more details.
 * month (1-12)
 * day of week (0 - 7 with Sunday as 0 and 7)
 ```
+
+### Words
+
+- `@hourly`
+- `@daily`
+- `@weekly`
+- `@monthly`
+- `@yearly`
+- `@reboot` - On machine restart. You may want to add a sleep command in your script to wait a few minutes, unless this might be done automatically.
 
 ## File structure
 
