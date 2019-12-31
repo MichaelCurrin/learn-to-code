@@ -29,14 +29,16 @@ Use one of the four directories watched by the _cron.d_ process. Place an execut
 
 A config file can be placed in the `/etc/cron.d` directory for more control.
 
-## What is the at command?
+
+## at?
 
 The `at` command lets you schedule tasks _once_ at a particular time in the future.
 
 A task can resubmit itself to `at` to give the effect of period scheduling.
 
-Tutorial on using `at` - [link](https://www.linuxjournal.com/content/schedule-one-time-commands-unix-tool).
-
+Tutorials:
+- [linuxjournal.com](https://www.linuxjournal.com/content/schedule-one-time-commands-unix-tool).
+- [computerhope.com](https://www.computerhope.com/unix/uat.htm)
 
 ## anacron
 
