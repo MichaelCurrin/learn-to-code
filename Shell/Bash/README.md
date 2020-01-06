@@ -1,8 +1,8 @@
 # Bash
 
-Bash (Bourne Again Shell) is shell and command language. It is commonly used on Linux systems. The default as well for macOS, until Catalina made ZSH the default.
+Bash (Bourne Again Shell) is a programming language using as a shell (operating system and interacting with the OS) and a scripting language. 
 
-Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
+It is commonly used on Linux systems. The default as well for macOS, until Catalina made ZSH the default. Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
 
 Wikipedia definition:
 
