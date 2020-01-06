@@ -10,7 +10,7 @@ Wikipedia definition:
 
 Bash can be powerful and elegant to do fancy stuff in a one-line command or handling text or CSV succinctly without writing a Node or Python etc. I use it every day and the more I know about it and use it, the more I can do and the faster I get at it.
 
-But, Bash has some things which are not so intuitive - variables are global by default, a script will keep executing commands even if one of them has an error code, there are no data types as everything is text. So think carefully before writing Bash script - perhaps you want to write it in another language. That can make development, debugging and maintenance a lot easier.
+But, Bash has some things which are not so intuitive - variables are global by default, a script will keep executing commands even if one of them has an error code, there are no data types as everything is text. So think carefully before choosing to write a Bash script to solve your problem - perhaps write it in another language that can make development, debugging and maintenance a lot easier.
 
 <!-- TODO how to run bash -->
 
