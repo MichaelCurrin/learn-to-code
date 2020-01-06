@@ -1,15 +1,18 @@
 # Bash
 
-Bash (Bourne Again Shell) - common on Linux systems. The default as well for macOS, until Catalina made ZSH the default.
+Bash (Bourne Again Shell) is shell and command language. It is commonly used on Linux systems. The default as well for macOS, until Catalina made ZSH the default.
 
-Bash is what your system boots and logs in with. It is what you configure and run other programs on top of.
+Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
 
-You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
+Wikipedia definition:
+
+> GNU Bash or simply Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been used widely as the default login shell for most Linux distributions and Apple's macOS Mojave and earlier versions. [source](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 
 Bash can be powerful and elegant to do fancy stuff in a one-line command or handling text or CSV succinctly without writing a Node or Python etc. I use it every day and the more I know about it and use it, the more I can do and the faster I get at it.
 
 But, Bash has some things which are not so intuitive - variables are global by default, a script will keep executing commands even if one of them has an error code, there are no data types as everything is text. So think carefully before writing Bash script - perhaps you want to write it in another language. That can make development, debugging and maintenance a lot easier.
 
+<!-- TODO how to run bash -->
 
 ## Resources
 
