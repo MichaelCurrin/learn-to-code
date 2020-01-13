@@ -93,7 +93,16 @@ Below are summaries of popular JavaScript frameworks with links and hello world 
 
 ### React
 
-Used to develop a dynamic user interface so the DOM is built on the client side. This scales well for high volume traffic.
+Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
+
+Instagram is an example of a React site. You can find something like this on the HTML source.
+
+```html
+<div id="react-root">
+</div>
+```
+
+If you disable JavaScript, you just see and empty page with the Instagram logo.
 
 #### Links
 
