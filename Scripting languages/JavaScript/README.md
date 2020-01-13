@@ -118,7 +118,7 @@ export default class HelloWorldApp extends Component {
 
 ### Angular
 
-Used for developing a Single Page Application (SPA). It allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding.
+It allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
 
 It is an open source project used by Google.
 
@@ -162,13 +162,16 @@ From [AngularJS Hello World Application: Your First Example Program ](https://ww
 
 ### Vue
 
+A progressive framework for building user interfaces. It used for developing Single Page Applications (SPA).
+
+> Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
+
 #### Links
 
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
 - [Introduction](https://vuejs.org/v2/guide/index.html)
 - [Github repo](https://github.com/vuejs/vue)
-
 
 #### Hello world
 
