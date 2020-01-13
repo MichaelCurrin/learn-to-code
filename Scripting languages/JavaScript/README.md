@@ -192,6 +192,13 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
         </style>
 
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+
+    <body>
+        <div id="app">
+            {{ message }}
+        </div>
+
         <script>
             var app = new Vue({
                 el: '#app',
@@ -200,14 +207,6 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
                 }
             });
         </script>
-    </head>
-
-    <body>
-        <div id="app">
-            {{ message }}
-        </div>
-
-        <script src="index.js"></script>
     </body>
 
 </html>
