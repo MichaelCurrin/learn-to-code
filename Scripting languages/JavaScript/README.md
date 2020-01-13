@@ -20,11 +20,12 @@ Summarized from article [here](https://medium.com/duomly-blockchain-online-cours
 4. Big community
 5. Lots of sources to learn
 
-## Server-side JavaScript
+## NodeJS
+> Server-side JavaScript
 
 NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
 
-### Install NodeJS
+### Install
 
 **Linux**
 
@@ -38,16 +39,21 @@ $ sudo apt install nodejs
 $ brew install nodejs
 ```
 
-### Run
+## Run
 
-#### Type commands in the Node console
+### Interactive console
 
-Use one of the following approaches:
+Follow one of the following approaches:
 
-* Command-line:
+* Command-line (this approach requires [NodeJS](#nodejs) to be installed)
     1. Start the interactive console.
         ```bash
         $ node
+        ```
+        ```
+        Welcome to Node.js v12.1.0.
+        Type ".help" for more information.
+        >
         ```
 * Browser
     1. Open a browser.
@@ -64,7 +70,7 @@ For example:
 
 Press `CTRL`+`D` to exit the console.
 
-#### Run project scripts
+### Run project scripts
 
 How to run scripts in this project using Node.
 
