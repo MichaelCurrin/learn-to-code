@@ -74,7 +74,7 @@ Used to develop a dynamic user interface so the DOM is built on the client side.
 - [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
 - [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
 - [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
-- [Github repo](https://github.com/facebook/react/).
+- [Github repo](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 
 #### Hello world
@@ -98,6 +98,7 @@ ReactDOM.render(
     > This page will help you install and build your first React Native app.
 - Tutorials
     - [Learn the basics](https://facebook.github.io/react-native/docs/tutorial).
+- [Github repo](https://github.com/facebook/react-native)
 
 #### Hello world
 
@@ -171,6 +172,7 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
 - [Introduction](https://vuejs.org/v2/guide/index.html)
+- [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
 
 #### Hello world
