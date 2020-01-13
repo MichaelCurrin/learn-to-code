@@ -155,5 +155,55 @@ From [AngularJS Hello World Application: Your First Example Program ](https://ww
     </script>
 
 </body>
+
+</html>
+```
+
+
+### Vue
+
+#### Links
+
+- [Official site](https://vuejs.org)
+- [Installation](https://vuejs.org/v2/guide/installation.html)
+- [Introduction](https://vuejs.org/v2/guide/index.html)
+- [Github repo](https://github.com/vuejs/vue)
+
+
+#### Hello world
+
+In this simplified example, all the CSS and JS are in the single HTML file.
+
+Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
+
+```html
+<html>
+    <head>
+        <style>
+            html, body {
+                margin: 5px;
+                padding: 0;
+            }
+        </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello World'
+                }
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="app">
+            {{ message }}
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+
 </html>
 ```
