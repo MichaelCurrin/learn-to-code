@@ -10,7 +10,21 @@
       > ... you can require any npm package instantly.
     - [NPM Runkit](https://npm.runkit.com/) e.g. https://npm.runkit.com/request
 
-## Install NodeJS
+## Why learn JavaScript - 5 good reasons
+
+Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
+
+1. Easy to start with.
+2. Great career opportunities
+3. Wide range of usage
+4. Big community
+5. Lots of sources to learn
+
+## Server-side JavaScript
+
+NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
+
+### Install NodeJS
 
 **Linux**
 
@@ -24,9 +38,9 @@ $ sudo apt install nodejs
 $ brew install nodejs
 ```
 
-## Run
+### Run
 
-### Console
+#### Type commands in the Node console
 
 Use one of the following approaches:
 
@@ -48,20 +62,28 @@ For example:
 > console.log('Hello!');
 ```
 
+Press `CTRL`+`D` to exit the console.
 
-### Run project scripts
+#### Run project scripts
+
+How to run scripts in this project using Node.
 
 ```bash
-$ cd <PATH_TO_REPO>/JavaScript
-$ node FILE
+$ cd <PATH_TO_REPO>
+$ cd 'Scripting languages/JavaScript'
+$ node my_file.js
 $ # e.g.
 $ node iteration.js
 ```
 
 ## Frameworks
 
+Javascript frameworks let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low level JavaScript.
+
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
+
+Below are summaries of popular JavaScript frameworks with links and hello world code snippets.
 
 ### React
 
@@ -79,11 +101,15 @@ Used to develop a dynamic user interface so the DOM is built on the client side.
 
 #### Hello world
 
-```javascript
-ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
-);
+```html
+<div id="root"></div>
+
+<script>
+    ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('root')
+    );
+</script>
 ```
 
 ### React Native
@@ -151,7 +177,7 @@ From [AngularJS Hello World Application: Your First Example Program ](https://ww
     <script src="https://code.angularjs.org/1.6.9/angular.js"></script>
     <script>
         angular.module("app", []).controller("HelloWorldCtrl", function($scope) {
-            $scope.message="Hello World"
+            $scope.message="Hello, world!"
         });
     </script>
 
@@ -203,7 +229,7 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
             var app = new Vue({
                 el: '#app',
                 data: {
-                    message: 'Hello World'
+                    message: 'Hello, world!'
                 }
             });
         </script>
