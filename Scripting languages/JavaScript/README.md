@@ -1,14 +1,32 @@
 # JavaScript
 
+
+## What is JavaScript?
+
+> JavaScript is the Programming Language for the Web
+>
+> JavaScript can update and change both HTML and CSS
+>
+> JavaScript can calculate, manipulate and validate data
+>
+> [source](https://www.w3schools.com/whatis/whatis_js.asp)
+
 ## Resources
 
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
+    > JavaScript (/ˈdʒɑːvəˌskrɪpt/),[9] often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
+- [NodeJS](https://en.wikipedia.org/wiki/Node.js) on Wikipedia.
+    > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+- [NodeJS official site](https://nodejs.org)
 - Tutorials
-    - W3 Schools [JS tutorial](https://www.w3schools.com/js/default.asp)
+    - [JavaScript](https://www.javascript.com/) by Pluralsite
+    - W3 Schools [JS tutorial](https://www.w3schools.com/js/default.asp) and [What is JavaScript?] quickstart.
 - Online IDE
     - [Runkit](https://runkit.com/home)
       > Runkit is a node playground in your browser.
       > ... you can require any npm package instantly.
     - [NPM Runkit](https://npm.runkit.com/) e.g. https://npm.runkit.com/request
+    - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
 ## Why learn JavaScript - 5 good reasons
 
