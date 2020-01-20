@@ -12,15 +12,19 @@ Python has a rich friendly growing community.
 
 > Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. Source: [Tutorial on the Python docs](https://docs.python.org/3/tutorial/index.html)
 
-### Types
+### Typing
 
 Python is a **dynamically** typed language. This means that a variable can change data types (though this can cause headaches when catching bugs, so adding type checking is useful). 
 
 It is also a **strongly** typed language. Youu do not need to specify the data type of a variable explicily as it can be inferred - this check is done at runtime, unlike languages like _Java_ and _C++_ which check types at a compile time. 
 
-Since Python is dynamically typed, people often incorrectly think Python is weakly typed. It is strongly typed - if you add an `int` and `str` together or try run a `str` method on an `int` object, you will get an error. Contrast with JavaScript which is "weakly typed" or "untyped" such that `1 + '1'` is allowed and `'11'`. Resource on [types](https://hackernoon.com/actually-understand-statically-dynamically-strongly-weakly-typed-languages-axbpi3za2).
+Since Python is dynamically typed, some people incorrectly think Python is weakly typed. But it is strongly typed - if you add an `int` and `str` together or try run a `str` method on an `int` object, you will get an error. Contrast with JavaScript which is "weakly typed" or "untyped" such that `1 + '1'` is allowed and `'11'`. Resource on [types](https://hackernoon.com/actually-understand-statically-dynamically-strongly-weakly-typed-languages-axbpi3za2).
 
 Fortunately, Python allows groups of data types - for example, to get the count of elements you run `len(iterable)` where the iterable could be a `str` or `list` for example.
+
+Extract from Typing heading on [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language)):
+
+> Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
 
 ### Libraries
 
