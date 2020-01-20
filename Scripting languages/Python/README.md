@@ -2,7 +2,7 @@
 
 ## What is Python?
 
-Python is an elegant, easy to ready language. It was named after _Monty Python_.
+Python is an elegant, easy to learn and read yet powerful programming language. It was named after _Monty Python_.
 
 It can be used for functional and object-oriented programming.
 
@@ -11,6 +11,8 @@ In Python, to separate logical blocks in conditionals and loops we use indentati
 Python has a rich friendly growing community. 
 
 Python is a weakly and dynamically typed language i.e. A variable can also change data types (though this can cause headaches when catching bugs, so adding type checking is useful) and you do not need to specify the data type of a variable as this can be inferred and is checked at runtime not compile time. About [types](https://hackernoon.com/actually-understand-statically-dynamically-strongly-weakly-typed-languages-axbpi3za2).
+
+> Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. Source: [Tutorial on the Python docs](https://docs.python.org/3/tutorial/index.html)
 
 ### Libraries
 
@@ -37,8 +39,14 @@ Another approach is create an API which processes web requests and return serves
 ## Resources
 
 - [Official site](https://python.org)
+- [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Python 3 Documentation](https://docs.python.org/3/)
+- PEP (Python Enhancement Proposal) documents
+    - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+    - [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 - [Python Package Index](https://pypi.org/) for libraries
 - Tutorials
+    - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html) on the Python Documentation site
     - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
 - Courses
     - Udemy - [Python courses](https://www.udemy.com/topic/python/)
