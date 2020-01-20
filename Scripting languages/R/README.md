@@ -23,13 +23,16 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))
 ## Resources
 
 - [Official site](https://www.r-project.org/)
-- [Learn R in Y minutes](https://learnxinyminutes.com/docs/r/)
 - [R Programming](https://en.wikibooks.org/wiki/R_Programming) guide on Wikibooks
-- Tutorials for beginners
+- Tutorials
+    - [Learn R in Y minutes](https://learnxinyminutes.com/docs/r/)
     - [R Tutorial ](https://www.statmethods.net/r-tutorial/index.html)
     - [R Tutorial for Beginners: A Quick Start-Up Kit](https://www.datasciencecentral.com/profiles/blogs/r-tutorial-for-beginners-a-quick-start-up-kit)
 - Courses
     - Codecademy - [Learn R](https://www.codecademy.com/learn/learn-r)
     - Datacamp - [Free Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+    - Udemy - [R Courses](https://www.udemy.com/topic/r-programming-language/)
     - Coursera - [R Programming](https://www.coursera.org/learn/r-programming)
     - Edx - [R Programming courses](https://www.edx.org/learn/r-programming)
+- Blog
+    [Data Feed Toolbox](http://datafeedtoolbox.com/)
