@@ -24,6 +24,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))
 
 - [Official site](https://www.r-project.org/)
 - [Learn R in Y minutes](https://learnxinyminutes.com/docs/r/)
+- [R Programming](https://en.wikibooks.org/wiki/R_Programming) guide on Wikibooks
 - Tutorials for beginners
     - [R Tutorial ](https://www.statmethods.net/r-tutorial/index.html)
     - [R Tutorial for Beginners: A Quick Start-Up Kit](https://www.datasciencecentral.com/profiles/blogs/r-tutorial-for-beginners-a-quick-start-up-kit)
