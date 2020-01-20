@@ -126,3 +126,14 @@ print(head(externalData))
 ## Get average of a column within a dataset with multiple columns and omit NA rows:
 print(mean(externalData$mass,na.rm=TRUE))
 ```
+
+## Packages
+
+Packages are stored on the CRAN - the [Comprehensive R Archive Network](https://cran.r-project.org/).
+
+Download then load a package.
+
+```r
+install.packages("data.table")
+require(data.table)
+```
