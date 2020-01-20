@@ -36,10 +36,15 @@ Another approach is create an API which processes web requests and return serves
 
 ## Resources
 
+- [Official site](https://python.org)
+- [Python Package Index](https://pypi.org/) for libraries
 - Tutorials
-    - Codecademy [Python course](https://www.codecademy.com/catalog/language/python).
-    - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/).
-- [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github.
+    - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
+- Courses
+    - Udemy - [Python courses](https://www.udemy.com/topic/python/)
+    - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python)
+- [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github
+
 
 ### Coding software
 
