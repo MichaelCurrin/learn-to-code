@@ -37,11 +37,35 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))
 - Blog
     [Data Feed Toolbox](http://datafeedtoolbox.com/)
 
-## How to Run R
+## Download
+
+### Programming language
+
+_R_ can be installed on Windows, Linux and Mac. From the official site, there is a link to a [download](https://cran.r-project.org/mirrors.html) page.
+
+See also this guide - [How to install R on Windows, Mac OS X and Ubuntu](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu).
+
+Using a package manager:
+
+- Linux
+    ```sh
+    $ sudo apt-get update
+    $ sudo apt-get install r-base
+    ```
+- macOS
+    ```sh
+    $ brew install r
+    ```
 
 ### IDE
 
 Download [R Studio](https://rstudio.com/products/rstudio/download/) - a programming environment for R.
+
+## How to run
+
+### IDE
+
+Open a script in R Studio and press the run button.
 
 ### Online
 
