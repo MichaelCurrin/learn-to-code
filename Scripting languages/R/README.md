@@ -75,6 +75,17 @@ Open a script in R Studio and press the run button.
 
 ### Command-line
 
+#### Interactive mode
+
+```sh
+$ r
+>
+```
+
+Exit with `CTRL+D` or `q()`.
+
+#### Scripts
+
 Given executable script `main.r`:
 
 ```r
@@ -89,16 +100,16 @@ sayHello()
 Execute using one of these commands:
 
 ```sh
-R main.r
+Rscript main.r
 ./main.r
 ```
 
 You can also run one-liner commands without a script file.
 
 ```sh
-R -e "getwd()"
+Rscript -e "getwd()"
 
-R -e 'install.packages(c("package1", "package2"))'
+Rscript -e 'install.packages(c("package1", "package2"))'
 ```
 
 ## Example code
