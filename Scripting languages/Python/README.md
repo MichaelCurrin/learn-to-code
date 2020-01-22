@@ -63,6 +63,7 @@ Another approach is create an API which processes web requests and return serves
 - Courses
     - Udemy - [Python courses](https://www.udemy.com/topic/python/)
     - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python)
+    - Coursera - [Python courses](https://www.coursera.org/courses?query=python)
 - [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github
 
 
