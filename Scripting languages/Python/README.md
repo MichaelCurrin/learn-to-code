@@ -92,7 +92,7 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
 Alternatives - I don't recommend these but they are provided for completeness.
 
 - Spyder
-    * You might come this for Data Science work - I read that it is deprecated i.e. no longer maintained and may be unavailable. When I used it I found that it did not work so well for virtual environments. I also had Spyder itself stop working when Python upgraded on the system and it took some looking on Stack Overflow to fix this.
+    * You might come acroos this in tutorials related to Data Science work. I read that it is deprecated i.e. no longer maintained and may be unavailable. When I used it I found that it did not work so well for virtual environments. I also had Spyder itself stop working when Python upgraded on the system and it took some looking on Stack Overflow to fix this.
     * [Homepage](https://www.spyder-ide.org/)
 - Sublime Text
     * "A sophisticated text editor for code, markup and prose."
