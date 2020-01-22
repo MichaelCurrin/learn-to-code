@@ -23,7 +23,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))
 ## Resources
 
 - [Official site](https://www.r-project.org/)
-- [R Programming](https://en.wikibooks.org/wiki/R_Programming) guide on Wikibooks
+- The [R Programming](https://en.wikibooks.org/wiki/R_Programming) guide on Wikibooks
 - Tutorials
     - [Learn R in Y minutes](https://learnxinyminutes.com/docs/r/)
     - [R Tutorial ](https://www.statmethods.net/r-tutorial/index.html)
@@ -59,7 +59,11 @@ Using a package manager:
 
 ### IDE
 
-Download [R Studio](https://rstudio.com/products/rstudio/download/) - a programming environment for R.
+- [R Studio](https://rstudio.com/products/rstudio/download/) - a programming environment for R
+- [VS Code](https://code.visualstudio.com/)
+    - Plugins:
+        - [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
+        - [R Tools](https://marketplace.visualstudio.com/items?itemName=Mikhail-Arkhipov.r)
 
 ## How to run
 
@@ -77,12 +81,39 @@ Open a script in R Studio and press the run button.
 
 #### Interactive mode
 
+In the shell terminal, you can open an interactive _R_ console like this.
+
 ```sh
 $ r
 >
 ```
 
+Enter comamnds in the console. For example, text with and without the print command.
+
+```r
+> print('Hello')
+[1] "Hello"
+> 'World!'
+[1] "World!"
+```
+
+Array examples:
+
+```r
+> c(1, 2, 4)
+[1] 1 2 4
+> 1:10
+ [1]  1  2  3  4  5  6  7  8  9 10
+> chars = c('A', 'B', 'C')
+> chars
+[1] "A" "B" "C"
+> # Slicing. Note indexing starts at 1 not 0, unlike other programming languages.
+> chars[1]
+[1] "A"
+```
+
 Exit with `CTRL+D` or `q()`.
+
 
 #### Scripts
 
