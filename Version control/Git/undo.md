@@ -2,6 +2,13 @@
 
 Understaging git checkout, reset and revert.
 
+## Commitish
+
+Note that where `<COMMIT>` appears in this guide, you can use something like the following:
+
+- A hash e.g. `abcdef1`
+- A relative reference. e.g. `HEAD` for latest. Or `HEAD~` for the previous commit. `HEAD@{1}` for the next commit.
+
 ## Files
 
 ### Unstage
@@ -66,9 +73,11 @@ Throw away **uncommitted** changes. No commit is made and the history is not aff
 $ git reset
 ```
 
-### Revert (add new commit to undo)
+### Revert
 
-Undo commits. This is a good for a public branch, where you want to keep the history and add a new commit which applies the reverse of a particular commit.
+Pick a commit to reverse by undoing the changes and creating a new commit. This only requires one step.
+
+This is a good for a public branch, where you want to keep the history and add a new commit which applies the reverse of a particular commit.
 
 ```bash
 $ git revert <COMMIT>
@@ -88,8 +97,6 @@ Thanks to https://stackoverflow.com/questions/4114095/how-to-revert-git-reposito
 
 (I found this useful when I had an unpublished commit I no longer wanted because of a merge conflict, so I rewound to the hash id of the previous commit I was happy with and then did a `git pull` with no issues. The means the unpublished commit will not be part of the tree going forwards.)
 
-
-
 ```bash
 $ # If you have any staged files, unstage them as reset will not affect them otherwise.
 $ git checkout .
@@ -97,14 +104,33 @@ $ git checkout .
 
 ```bash
 $ # Restore files to a certain commit. 
-$ # For <COMMIT>, use a hash, or HEAD for latest, or HEAD~ for commit before the curren one.
-$ git reset --hard <COMMIT>
+$ git reset <COMMIT> --hard
+
+$ # Step back one commit, keeping your changes.
+$ git reset HEAD~1
+
+$ # Step back one commit, deleting your changes.
+$ git reset HEAD~1 --hard
+```
+
+Note that if you keep repeating a reset using `HEAD~1`, each time you'll move back another commit.
+
+To step forwards:
+
+```bash
+git reset HEAD@{1}
 ```
 
 If you have modifications to keep, you have to stash them first. For example:
 
 ```bash
 git stash
-git reset --hard 0d1d7fc32
+git reset <COMMIT> --hard
 git stash pop
+```
+
+If you have messed up your local branch and haven't pushed yet, you can make your local branch reflect the remote on Github and lose any local commits. For example:
+
+```bash
+$ git reset origin/master --hard
 ```
