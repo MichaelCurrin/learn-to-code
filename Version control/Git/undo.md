@@ -7,7 +7,7 @@ Understaging git checkout, reset and revert.
 Note that where `<COMMIT>` appears in this guide, you can use something like the following:
 
 - A hash e.g. `abcdef1`
-- A relative reference. e.g. `HEAD` for latest. Or `HEAD~` for the previous commit. `HEAD@{1}` for the next commit.
+- A relative reference. e.g. `HEAD` for latest. Or `HEAD~` for the previous commit. `HEAD@{1}` for the next commit. From [StackOverflow answer](https://stackoverflow.com/questions/6759791/how-do-i-move-forward-and-backward-between-commits-in-git)
 
 ## Files
 
