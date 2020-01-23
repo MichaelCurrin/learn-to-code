@@ -1,6 +1,6 @@
 # Merge Repositories While Keeping Histories
 
-My guide on how to merging two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
+My guide on how to merge two git repos (oldRepoA and oldRepoB) into a new one (newRepo) while keeping the
 tracking history of the original repos.
 
 Note: this lesson requires git version 2.11 or higher, for access to the `--allow-unrelated-histories` flag on git merge. This is fine on Debian. But Linux lite and certain Ubuntu distributions only have older versions of git at time of writing, so you might want to add alternative sources for your package updates.
