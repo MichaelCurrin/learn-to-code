@@ -3,13 +3,9 @@
 
 ## What is JavaScript?
 
-> JavaScript is the Programming Language for the Web
->
-> JavaScript can update and change both HTML and CSS
->
-> JavaScript can calculate, manipulate and validate data
->
-> [source](https://www.w3schools.com/whatis/whatis_js.asp)
+> - JavaScript is the Programming Language for the Web
+> - JavaScript can update and change both HTML and CSS
+> - JavaScript can calculate, manipulate and validate data - [source](https://www.w3schools.com/whatis/whatis_js.asp)
 
 ## Resources
 
