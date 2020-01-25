@@ -88,7 +88,10 @@ irb(main):004:0> Math.sqrt(123)
 ## Resources
 
 - [Ruby official site](https://www.ruby-lang.org/en/)
-- [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
-- [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
-- [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
-- [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
+- [RubyGems](https://rubygems.org/) where gems can be uploaded and downloaded
+- Tutorials
+    - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
+    - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
+    - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
+    - [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
+    - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
