@@ -1,6 +1,6 @@
 # Rust
 
-Sources for this tutorial:
+Sources for this guide:
 
 - Medium.com - [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7)
 - LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust)
@@ -8,8 +8,9 @@ Sources for this tutorial:
 See also:
 
 - Official [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
-- [Learn Rust in X Minutes](https://learnxinyminutes.com/docs/rust/)
-- [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
+- Tutorials
+    - [Learn Rust in Y Minutes](https://learnxinyminutes.com/docs/rust/)
+    - [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
 
 
 ## Installation
@@ -49,7 +50,7 @@ cargo 1.32.0-beta (1b6702f22 2018-12-06)
 
 ### Rustc
 
-Check your Rustc version
+Check your _Rustc_ version
 
 ```bash
 $ rustc -V
@@ -82,12 +83,12 @@ $ rustc file.rs
 Execute the binary output file.
 
 ```bash
-$ # Unix. No extension.
+$ # On Unix. No extension.
 $ ./file
 ```
 
 ```
-> # Windows
+> # On Windows
 > file.exe
 ```
 
