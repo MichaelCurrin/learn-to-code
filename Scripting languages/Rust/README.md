@@ -35,6 +35,10 @@ Source: [link](https://www.rust-lang.org/)
     - [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
     - Medium.com - [Rust Basics](https://medium.com/learning-rust/rust-basics-e73304ab35c7) - this was used in writing this tutorial.
     - LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust) - this was used in writing this tutorial.
+- Run Rust online
+    - [Rust Playground](https://play.rust-lang.org/) on official site
+    - [Repl](https://repl.it/languages/rust)
+    - [Tutorials Point](https://www.tutorialspoint.com/compile_rust_online.php)
 
 
 ## Installation
@@ -42,7 +46,7 @@ Source: [link](https://www.rust-lang.org/)
 Install [Rustup](https://rustup.rs/) - the Rust toolchain manager.
 
 ```
-# Unix
+# On Unix
 $ curl https://sh.rustup.rs -sSf | sh
 ```
 
@@ -107,12 +111,12 @@ $ rustc file.rs
 Execute the binary output file.
 
 ```bash
-$ # On Unix. No extension.
+$ # On Unix.
 $ ./file
 ```
 
 ```
-> # On Windows
+> # On Windows.
 > file.exe
 ```
 
