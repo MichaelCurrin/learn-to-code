@@ -16,14 +16,21 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 
 ### Install and upgrade
 
+Check where Ruby in installed, if at all.
+
 ```bash
 $ which ruby
 /usr/bin/ruby
+```
+
+Check which version you have installed.
+
+```bash
 $ ruby -v
 ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]
 ```
 
-From installation guide in Ruby docs [here](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems)
+Install Ruby using one of the commands below or follow this [installation guide](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems).
 
 #### Debian/Ubuntu
 
@@ -42,6 +49,7 @@ $ sudo apt-get upgrade ruby-full
 ### Mac
 
 Install or upgrade.
+
 ```bash
 $ brew install ruby
 ```
