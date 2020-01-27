@@ -65,7 +65,9 @@ Another approach is create an API which processes web requests and return serves
     - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python)
     - Coursera - [Python courses](https://www.coursera.org/courses?query=python)
 - [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github
-
+- Blog posts
+    - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) - examples of using Python basics including classes, lambdas, conditional statements and loops.
+    - [Learn to be a developer](https://michaelcurrin.github.io/coding-blog/2020/01/27/learn-to-be-developer.html) - one of my own blog posts which focuses on Python. Not just what to learn about it, but how. And how to find a motivation.
 
 ### Coding software
 
