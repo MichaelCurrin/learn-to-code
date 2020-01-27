@@ -60,6 +60,9 @@ Another approach is create an API which processes web requests and return serves
 - Tutorials
     - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html) on the Python Documentation site
     - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
+    - [Automate the Boring Stuff](https://automatetheboringstuff.com/) - available to view on the website or to buy as a book or Ebook
+    - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) - an Ebook downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com). 
+        - This is a great way to start doing something useful within Python even if you are just a beginner. It takes you from the basics to doing data science tasks with Python, such as reading from a database, posting a tweet or visualizing data. The sections contain info and practical code and they aren't tool detailed or long. Also, you don't have to read it in sequence - you can skip to a later section that interests you if you want to build that thing.
 - Courses
     - Udemy - [Python courses](https://www.udemy.com/topic/python/)
     - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python)
