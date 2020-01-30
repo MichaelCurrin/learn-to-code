@@ -10,7 +10,7 @@
 ## Resources
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
-    > JavaScript (/ˈdʒɑːvəˌskrɪpt/),[9] often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
+    > JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
 - [NodeJS](https://en.wikipedia.org/wiki/Node.js) on Wikipedia.
     > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
 - [NodeJS official site](https://nodejs.org)
@@ -96,7 +96,7 @@ $ # e.g.
 $ node iteration.js
 ```
 
-## Libaries
+## Libraries
 
 - jQuery
     - [Official page](https://jquery.com/) 
@@ -114,7 +114,14 @@ $ node iteration.js
     - [npm](https://www.npmjs.com/package/mustache)
     - CDN
         - [Cloudfare](https://cdnjs.com/libraries/mustache.js/)
-
+- Dataviz libraries
+    - [D3.js](https://d3js.org/)
+    - [ApexCharts.js](https://apexcharts.com/)
+    - [Highcharts](https://www.highcharts.com/)
+    - roughViz
+        - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github
+        - [roughviz](https://pypi.org/project/roughviz/) as a Python package
+        - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post
 See more below in [Frameworks](#frameworks).
 
 ### CDNs
