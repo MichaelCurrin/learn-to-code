@@ -36,6 +36,8 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/R_(programming_language))
     - Edx - [R Programming courses](https://www.edx.org/learn/r-programming)
 - Blog
     [Data Feed Toolbox](http://datafeedtoolbox.com/)
+- Build stuff with R
+    - Dataviz with _ggplot2_ - [Top 50 ggplot2 Visualizations - The Master List (With Full R Code)](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
 
 ## Download
 
