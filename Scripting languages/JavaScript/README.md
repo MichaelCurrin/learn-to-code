@@ -96,9 +96,43 @@ $ # e.g.
 $ node iteration.js
 ```
 
+## Libaries
+
+- jQuery
+    - [Official page](https://jquery.com/) 
+        - _"The Write Less, Do More, JavaScript Library"_
+        - The homepage also shows example uses.
+    - [Wikipedia](https://en.wikipedia.org/wiki/JQuery)
+        - _"jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax."_
+    - Tutorials
+        - [W3 schools](https://www.w3schools.com/jquery/default.asp)
+        - [JQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
+- Moustache
+    - [Official page](https://mustache.github.io/)
+        > Logic-less templates.
+    - HTML templating on the server or browser side
+    - [npm](https://www.npmjs.com/package/mustache)
+    - CDN
+        - [Cloudfare](https://cdnjs.com/libraries/mustache.js/)
+
+
+See more below in [Frameworks](#frameworks).
+
+### CDNs
+
+Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) where libraries can be downloaded.
+
+- CloudFare
+    - Homepage [cdnjs.com/](https://cdnjs.com/)
+    - e.g. [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js)
+- Unpkg
+    - Homepage [unpkg.com/](https://unpkg.com/)
+    - e.g. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
+
+
 ## Frameworks
 
-Javascript frameworks let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low level JavaScript.
+Javascript framework are libraries (usually available as _npm_ packages) let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
 
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
