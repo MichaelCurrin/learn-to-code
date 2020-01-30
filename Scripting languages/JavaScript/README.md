@@ -100,13 +100,13 @@ $ node iteration.js
 
 - jQuery
     - [Official page](https://jquery.com/) 
-        - _"The Write Less, Do More, JavaScript Library"_
-        - The homepage also shows example uses.
+        - >The Write Less, Do More, JavaScript Library
+        - The homepage shows example uses.
     - [Wikipedia](https://en.wikipedia.org/wiki/JQuery)
-        - _"jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax."_
+        - > jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
     - Tutorials
         - [W3 schools](https://www.w3schools.com/jquery/default.asp)
-        - [JQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
+        - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
 - Moustache
     - [Official page](https://mustache.github.io/)
         > Logic-less templates.
@@ -114,7 +114,6 @@ $ node iteration.js
     - [npm](https://www.npmjs.com/package/mustache)
     - CDN
         - [Cloudfare](https://cdnjs.com/libraries/mustache.js/)
-
 
 See more below in [Frameworks](#frameworks).
 
