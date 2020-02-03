@@ -39,17 +39,23 @@ $ git checkout -b <name>
 
 See article at https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
+Ensure your remote tracking is up todate.
+
+```
+$ git fetch
+```
+
 After creating a feature (or develop) branch, it can diverge from master. Then you can bring changes from the feature branch with a merge and commit.
 
 ```
 $ git checkout master
-$ git merge features
+$ git merge origin/my-feature
 $ git branch -d features # delete branch if it's no longer needed.
 ```
 
 Or you can bring changes in master (or develop) into feature. Either regularly so features gets the changes from master, or once off just before features in merged into master.
 
 ```
-$ git checkout features
-$ git merge master
+$ git checkout my-feature
+$ git merge origin/master
 ```
