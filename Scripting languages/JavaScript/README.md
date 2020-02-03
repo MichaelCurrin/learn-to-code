@@ -306,3 +306,25 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
 </html>
 ```
+
+### Redux
+
+A predictable state container for JavaScript apps. 
+
+> Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly. [source](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
+
+> Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark. [source](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
+
+It is an application data-flow architecture, not a framework. Created in 2015, inspired by Facebook's Flux and functional programming language Elm.
+
+#### Links
+
+- [Official homepage](https://redux.js.org/)
+    - [Getting started](https://redux.js.org/introduction/getting-started)
+    - [Examples](https://redux.js.org/introduction/examples)
+- [Docs](https://devdocs.io/redux/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
+- [An introduction to Redux](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
+- Blogs
+    - [Hello world in React-Redux](https://medium.com/@lavitr01051977/easy-redux-b29391b499cb) on Medium
+    - [Hello world in React Redux](https://riptutorial.com/react-redux/example/22907/hello-world-using-react-redux) from Rip Tutorial
