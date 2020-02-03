@@ -7,6 +7,12 @@ Each language folder has a README explaining how to get the language setup on yo
 
 ## Resources
 
+### Roadmaps
+
+Don't know where to start? Pick a roadmap (learning path) based on your chosen direction.
+
+- [roadmap.sh](https://roadmap.sh/). Github: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+
 ### Rosetta code
 
 The [Rosetta Code](https://rosettacode.org/) website provides tasks solved in various languages for easy comparison. This can be useful whether you are a new or familar with a language. The examples here tend to be minimal and follow a similar pattern, for example if you understand what the Python one is doing you can make sense of the equivalent logic in Ruby or PHP.
