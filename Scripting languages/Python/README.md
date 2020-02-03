@@ -60,17 +60,22 @@ Another approach is create an API which processes web requests and return serves
 - Tutorials
     - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html) on the Python Documentation site
     - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
-    - [Automate the Boring Stuff](https://automatetheboringstuff.com/) - available to view on the website or to buy as a book or Ebook
-    - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) - an Ebook downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com). 
+- Ebooks
+    - [Automate the Boring Stuff](https://automatetheboringstuff.com/) ebook - available to view on the website or to buy as a book or Ebook
+    - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) ebook - downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com). 
         - This is a great way to start doing something useful within Python even if you are just a beginner. It takes you from the basics to doing data science tasks with Python, such as reading from a database, posting a tweet or visualizing data. The sections contain info and practical code and they aren't tool detailed or long. Also, you don't have to read it in sequence - you can skip to a later section that interests you if you want to build that thing.
+- Cheatsheets
+    - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet)
+    - [8 Best Python Cheat Sheets for Beginners and Intermediate Learners](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
 - Courses
     - Udemy - [Python courses](https://www.udemy.com/topic/python/)
     - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python)
     - Coursera - [Python courses](https://www.coursera.org/courses?query=python)
 - [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github
-- Blog posts
-    - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) - examples of using Python basics including classes, lambdas, conditional statements and loops.
-    - [Learn to be a developer](https://michaelcurrin.github.io/coding-blog/2020/01/27/learn-to-be-developer.html) - one of my own blog posts which focuses on Python. Not just what to learn about it, but how. And how to find a motivation.
+- Blogs
+    - [Real Python](https://realpython.com/) blog - I really enjoy this site, which has a few authors writing Python tutorials. Subscribe to their mailing list for regularly updates on a few posts.
+    - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) post - examples of using Python basics including classes, lambdas, conditional statements and loops.
+    - [Learn to be a developer](https://michaelcurrin.github.io/coding-blog/2020/01/27/learn-to-be-developer.html) post - one of my own blog posts which focuses on Python. Not just what to learn about it, but how. And how to find a motivation.
 
 ### Coding software
 
