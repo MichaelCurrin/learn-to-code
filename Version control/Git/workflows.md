@@ -27,3 +27,33 @@ Run a command over a directory of repos. Replace the `CMD` value with a command 
 $ CMD='git status'
 $ for DIR in *; do echo $DIR; (cd $DIR && $CMD); echo '---'; done
 ```
+
+## Delete
+
+### Delete branch
+
+```sh
+$ git branch -d BRANCH_NAME
+```
+
+If the branch is not yet merged, you'll get an error. So you the capital form as below.
+
+```sh
+$ git branch -D BRANCH_NAME
+```
+
+### Delete tag locally
+
+Replace `TAG_NAME` with a value like `v0.0.1`.
+
+```sh
+$ git tag -d TAG_NAME
+```
+
+### Delete tagon remote
+
+```sh
+$ git push -d origin TAG_NAME
+```
+
+That can be used on branch names too.
