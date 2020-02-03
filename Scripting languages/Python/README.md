@@ -123,3 +123,15 @@ Alternatives - I don't recommend these but they are provided for completeness.
     * Python Indent extension. 
         + "Correct Python indentation"
         + [Download page](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent).
+
+## Run
+
+### Online
+
+- Online code playgrounds
+    - [repl.it](https://repl.it/languages/python3)
+    - [Tutorials Point](https://www.tutorialspoint.com/execute_python_online.php)
+- Jupyter notebooks
+    - [Jupyter](https://jupyter.org/try) for a choice notebooks through My Binder
+    - [My binder](https://mybinder.org/)
+    - [Google Colab](https://colab.research.google.com/)
