@@ -50,6 +50,41 @@ Force push - use with **caution**.
 $ git push -f
 ```
 
+## Merge and cleanup
+
+First, merge your feature branch in master on Github.
+
+Go to your master branch.
+
+```bash
+$ cd master
+```
+
+Delete the feature branch locally.
+
+```bash
+$ git branch -d my-feature
+```
+
+Delete the branch on the remote.
+
+```bash
+$ git push --delete origin my-feature
+```
+
+Or, if already deleted on the remote, you can prune your origin so it stops tracking that non-existent branch.
+
+```bash
+$ git remote prune origin
+```
+
+Update your master branch with changes on the remote - you will see merge commit come in.
+
+```bash
+$ git pull
+```
+
+
 ## Sync branch
 
 You need to pull in changes from the remote before you push. If do you a plain `pull` you may get a merge commit which may be unwanted for your history (and makes the git tree look weird. So use the `--rebase` flag to move your local unpushed commits to _after_ the remote commits.
