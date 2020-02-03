@@ -47,15 +47,43 @@ $ git push --tags
 
 ## Annotated tag
 
-An annotated tag includes a message with a tag, in addition to the message of a merge.
+Standard tags are "lightweight" tags. You also get "annotated tags", which have tagger info, date and a message.
 
-See https://stackoverflow.com/questions/11514075/what-is-the-difference-between-an-annotated-and-unannotated-tag
+According to Git docs:
 
-### Question
+> Annotated tags, however, are stored as full objects in the Git database. 
+>
+> They’re checksummed; contain the tagger name, email, and date; have a tagging message; and can be signed and verified with GNU Privacy Guard (GPG). 
+>
+> It’s generally recommended that you create annotated tags so you can have all this information; but if you want a temporary tag or for some reason don’t want to keep the other information, lightweight tags are available too.
 
-> "What is the difference between an annotated and unannotated tag?"
+### Create
 
-### Answer
+```sh
+$ git tag -a v1.4 -m "my version 1.4"
+```
+
+### View
+
+```sh
+$ git tag
+v1.4
+```
+
+```sh
+$ git show v1.4
+tag v1.4
+Tagger: ...
+Date:   ...
+
+my version 1.4
+
+commit ...
+```
+
+See [StackOverflow answer](https://stackoverflow.com/questions/11514075/what-is-the-difference-between-an-annotated-and-unannotated-tag).
+
+### More about annotated tags
 
 > "TL;DR
 > 
@@ -70,7 +98,3 @@ See https://stackoverflow.com/questions/11514075/what-is-the-difference-between-
 > When you use git tag -a -m <msg> <tagname>, Git will tag the commit and annotate it with the provided message.
 > When you use git tag -m <msg> <tagname>, Git will behave as if you passed the -a flag for annotation and use the provided message.
 > Basically, it just amounts to whether you want the lightweight tag to have an annotation associated with it or not."
-
-### A comment
-
-"... an annotated tag always has tagger (author) and date."
