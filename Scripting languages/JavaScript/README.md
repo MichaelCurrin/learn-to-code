@@ -278,31 +278,32 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
 ```html
 <html>
-    <head>
-        <style>
-            html, body {
-                margin: 5px;
-                padding: 0;
+
+<head>
+    <style>
+        html, body {
+            margin: 5px;
+            padding: 0;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello, world!'
             }
-        </style>
-
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    </head>
-
-    <body>
-        <div id="app">
-            {{ message }}
-        </div>
-
-        <script>
-            var app = new Vue({
-                el: '#app',
-                data: {
-                    message: 'Hello, world!'
-                }
-            });
-        </script>
-    </body>
+        });
+    </script>
+</body>
 
 </html>
 ```
