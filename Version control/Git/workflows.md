@@ -10,14 +10,16 @@ The rebasing covered here is focused on relatively simple re-ordering. If you wa
 ### How to rebase
 
 ```sh
-$ git rebase origin/<BRANCH>
+$ # e.g. Replace REMOTE_BRANCH with origin/master
+$ git rebase REMOTE_BRANCH 
 
 $ # Rebase a feature branch (or master) on the remote content.
 $ git pull --rebase
 
 $ # If you want to rebase your feature branch on master.
 $ git checkout my-feat
-$ git pull --rebase origin master
+$ # e.g. Replace BRANCH_NAME with master
+$ git pull --rebase origin BRANCH_NAME
 ```
 
 If you get any conflicts:
