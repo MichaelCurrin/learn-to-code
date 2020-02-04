@@ -54,7 +54,6 @@ Install or upgrade.
 $ brew install ruby
 ```
 
-
 ### Run a script
 
 Based on [How to Install Ruby on Linux](https://www.thoughtco.com/instal-ruby-on-linux-2908370).
@@ -95,11 +94,14 @@ irb(main):004:0> Math.sqrt(123)
 
 ## Resources
 
-- [Ruby official site](https://www.ruby-lang.org/en/)
-- [RubyGems](https://rubygems.org/) where gems can be uploaded and downloaded
+- [Official site](https://www.ruby-lang.org/en/)
 - Tutorials
     - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
     - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
     - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
     - [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
     - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
+- Ruby libraries
+    - [RubyGems](https://rubygems.org/) website, where gems can be uploaded and downloaded.
+    - [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.
+    - [Jekyll](https://jekyllrb/com) - static site generator.
