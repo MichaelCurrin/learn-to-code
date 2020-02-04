@@ -16,7 +16,8 @@
 - [NodeJS official site](https://nodejs.org)
 - Tutorials
     - [JavaScript](https://www.javascript.com/) by Pluralsite
-    - W3 Schools [JS tutorial](https://www.w3schools.com/js/default.asp)
+    - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
+    - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools
 - Online IDE
     - [Runkit](https://runkit.com/home)
       > Runkit is a node playground in your browser.
