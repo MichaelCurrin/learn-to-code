@@ -8,6 +8,7 @@ From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) m
 
 ## Resources
 
+- [PHP official site](https://www.php.net/)
 - Libaries
     - [Composer](https://getcomposer.org/) - dependency manager
     - [Laravel](https://laravel.com/) - web framework
@@ -71,13 +72,13 @@ Pass string to PHP to execute.
 $ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
 ```
 
-Run script.
+Run a script.
 
 ```bash
 $ php path/to/file.php
 ```
 
-Interactive mode.
+Start an interactive console.
 
 ```bash
 $ php -a
@@ -92,14 +93,14 @@ php >
 
 1. Start a PHP web server.
 
-_TODO: Use public directory instead and look at how other sites separate index and public files e.g. 000webhost.com_
+<!--TODO: Use public directory instead and look at how other sites separate index and public files e.g. 000webhost.com-->
 
 ```bash
 $ cd learn-to-code/PHP/
 $ php -S 127.0.0.1:8000
 ```
 
-2. Open [http://127.0.0.1:8000]() in your web browser.
+2. Open [127.0.0.1:8000](http://127.0.0.1:8000) in your web browser.
     - You will see the [index.html](index.html) page rendered.
     - Click on the links to view the result of PHP files which are in the [static](static) directory.
     - If you enter a bad URL you will get this error: _Not Found The requested resource /filename.ext was not found on this server._
@@ -123,7 +124,7 @@ $ php -S 127.0.0.1:8000
 
 Python's simple HTTP server is not configured by default to run PHP script. However, one can use PHP's webserver.
 
-Resources:
+See resources:
 
 - [How to run PHP with simple HTTP server](https://serverfault.com/questions/338394/how-to-run-php-with-simplehttpserver)
 - [Python simple HTTP server with PHP](https://stackoverflow.com/questions/12235876/python-simplehttpserver-with-php)
