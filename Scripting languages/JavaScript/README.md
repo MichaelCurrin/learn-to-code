@@ -87,7 +87,9 @@ Press `CTRL`+`D` to exit the console.
 
 ### Run project scripts
 
-How to run scripts in this project using Node.
+#### Node
+
+How to run scripts in this project using `node`.
 
 ```bash
 $ cd <PATH_TO_REPO>
@@ -96,6 +98,25 @@ $ node my_file.js
 $ # e.g.
 $ node iteration.js
 ```
+
+#### NPM
+
+How to run arbitrary package scripts using `npm`.
+
+Using [run-script](https://docs.npmjs.com/cli/run-script).
+
+```
+$ npm run-script COMMAND
+$ # Alias:
+$ npm run COMMAND
+```
+
+Using [npm-run](https://www.npmjs.com/package/npm-run)
+
+```
+$ npm-run COMMAND
+```
+
 
 ## Libraries
 
