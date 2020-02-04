@@ -7,6 +7,23 @@ Each language folder has a README explaining how to get the language setup on yo
 
 ## Resources
 
+### Software design
+
+- Functional programming
+- [Object-orientated programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [SOLID](https://en.wikipedia.org/wiki/SOLID) principles for Object-orientated programming
+    - Single responsibility principle
+    - Open-close principle
+    - Liskov substitution principle
+    - Interface segregation principle
+- Web application design
+    - RESTful APIs
+    - GraphQL
+    - MVC
+    - Server-side rendering
+    - Client-side rendering
+    - Single-page application
+
 ### Roadmaps
 
 Don't know where to start? Pick a roadmap (learning path) based on your chosen direction.
