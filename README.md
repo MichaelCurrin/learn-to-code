@@ -16,9 +16,13 @@ Each language folder has a README explaining how to get the language setup on yo
     - Open-close principle
     - Liskov substitution principle
     - Interface segregation principle
+- Databases
+    - SQL
+    - NoSQL
+    - ORM
 - Web application design
-    - RESTful APIs
-    - GraphQL
+    - RESTful API
+    - GraphQL API
     - MVC
     - Server-side rendering
     - Client-side rendering
