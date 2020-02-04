@@ -98,12 +98,14 @@ $ git pull --rebase && git push
 The fetch will update all branch remotes without merging them. Note tags are excluded by default for fetch and push.
 
 ```sh
-git fetch --tags && git push --tags
+$ git fetch --tags && git push --tags
 ```
 
 ## Iterate
 
-Run a command over a directory of repos. Replace the `CMD` value with a command from one of the sections above between quotes. The one show below will not make any changes.
+Run a command over a directory of _git_ repos. 
+
+You can replace the `CMD` value with a sync command from one of the sections.
 
 ```sh
 $ CMD='git status'
