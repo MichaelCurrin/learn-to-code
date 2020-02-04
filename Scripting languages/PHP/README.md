@@ -1,10 +1,23 @@
 # PHP
 
+## What is PHP?
+
+From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) manual:
+
+> PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+
 ## Resources
 
-- [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com)) 
-- [Solo Learn](https://www.sololearn.com/) - see their PHP course.
-- [Learn PHP in Y minutes](https://learnxinyminutes.com/docs/php/)
+- Libaries
+    - [Composer](https://getcomposer.org/) - dependency manager
+    - [Laravel](https://laravel.com/) - web framework
+    - [Top 40 PHP Libraries of 2020 Every Developer Should Know](https://www.cloudways.com/blog/php-libraries/)
+- Tutorials
+    - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com)) 
+    - [Solo Learn](https://www.sololearn.com/) - see their PHP course.
+    - [Learn PHP in Y minutes](https://learnxinyminutes.com/docs/php/)
+- Blogs
+    - [PHP in 2020](https://stitcher.io/blog/php-in-2020)
 
 ## Sites built on PHP
 
