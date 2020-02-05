@@ -33,7 +33,7 @@ Each language folder has a README explaining how to get the language setup on yo
 > In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
 - [Design Patterns](/Scripting%20languages/Python/README.md#design-patterns) in Python.
-- [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm) on Tutorials Point website - see the patterns listed on the left.
+- [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm) on Tutorials Point website - the the patterns listed on the sidebar menu there.
 
 ### Roadmaps
 
