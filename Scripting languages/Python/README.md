@@ -82,7 +82,7 @@ Another approach is create an API which processes web requests and return serves
 - [Python Patterns](https://github.com/faif/python-patterns) - collection on Github with a great summary and links to code.
 - [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - another catalogue of Python examples in website format.
 - [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns) blog post.
-- [Python Patterns guide](https://python-patterns.guide/)
+- [Python Patterns guide](https://python-patterns.guide/) website.
 
 ### Coding software
 
