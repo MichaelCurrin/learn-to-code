@@ -189,6 +189,7 @@ If you disable JavaScript, you just see and empty page with the Instagram logo.
 - [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
 - [Github repo](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
 
 #### Hello world
 
