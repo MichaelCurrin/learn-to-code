@@ -77,6 +77,13 @@ Another approach is create an API which processes web requests and return serves
     - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) post - examples of using Python basics including classes, lambdas, conditional statements and loops.
     - [Learn to be a developer](https://michaelcurrin.github.io/coding-blog/2020/01/27/learn-to-be-developer.html) post - one of my own blog posts which focuses on Python. Not just what to learn about it, but how. And how to find a motivation.
 
+### Design patterns
+
+- [Python Patterns](https://github.com/faif/python-patterns) - collection on Github with a great summary and links to code.
+- [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - another catalogue of Python examples in website format.
+- [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns) blog post.
+- [Python Patterns guide](https://python-patterns.guide/)
+
 ### Coding software
 
 An IDE is a text editor for viewing and editing code that provides additional functionality to make development easier. Many provide some kind of autocomplete based on text already in the file. And syntax highlighting and raising errors and warnings, specific to the specific language you are coding it. They also let you run code, such as with a run button or an integrated terminal pane.
