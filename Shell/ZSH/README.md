@@ -28,7 +28,10 @@ _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My Z
 
 - [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - [Manual installation](https://github.com/ohmyzsh/ohmyzsh#manual-installation)
-
+- Upgrade ZSH
+    ```sh
+    upgrade_oh_my_zsh
+    ```
 
 ### Usage
 
