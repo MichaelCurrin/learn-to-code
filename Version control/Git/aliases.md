@@ -1,12 +1,17 @@
-# Git Shortcuts
+# Git Aliases
 
 Referenced from this [article](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
-Add aliases for git
-```
+## Add aliases
+
+Edit global `git` config.
+
+```sh
 $ git config --global -e
 ```
+
 Add the following (from http://cheat.errtheblog.com/s/git).
+
 ```
 [alias]
     st = status
@@ -25,6 +30,23 @@ Add the following (from http://cheat.errtheblog.com/s/git).
 ```
 
 Test alias.
-```
+
+```sh
 $ git lola
 ```
+
+## View aliases
+
+Enable once.
+
+```sh
+git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
+```
+
+Run.
+
+```sh
+git alias
+```
+
+[source](https://stackoverflow.com/questions/7066325/list-git-aliases)
