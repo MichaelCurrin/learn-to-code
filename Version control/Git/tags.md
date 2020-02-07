@@ -37,6 +37,15 @@ $ git describe --tags `git rev-list --tags --max-count=1`
 
 [source](https://gist.github.com/rponte/fdc0724dd984088606b0)
 
+Or use the shell built-in to sort by version number.
+
+```sh
+$ git tag | sort -V
+
+$ # ZSH alias
+$ gtv
+```
+
 ## Push
 
 Push current branch, plus all tags.
