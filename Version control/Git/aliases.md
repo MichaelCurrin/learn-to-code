@@ -1,8 +1,8 @@
 # Git Aliases
 
-Referenced from this [article](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
-
 ## Add aliases
+
+Referenced from this [article](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 Edit global `git` config.
 
@@ -29,7 +29,9 @@ Add the following (from http://cheat.errtheblog.com/s/git).
     ign = ls-files -o -i --exclude-standard
 ```
 
-Test alias.
+Note that aliases do not need to be reloaded - they are available immediately in the terminal after any updates.
+
+Test an alias.
 
 ```sh
 $ git lola
