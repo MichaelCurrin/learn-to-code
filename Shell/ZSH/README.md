@@ -37,6 +37,9 @@ _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My Z
 
 - [Learn the basics of the ZSH shell](https://linuxconfig.org/learn-the-basics-of-the-zsh-shell)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/) (repeated from above section)
+- Cheat sheets
+    - On [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) wiki.
+    - On [Devhint.io](https://devhints.io/zsh)
 
 ## Setup
 
