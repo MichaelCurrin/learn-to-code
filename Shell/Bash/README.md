@@ -22,3 +22,5 @@ But, Bash has some things which are not so intuitive - variables are global by d
     - [The Bash Guide](https://guide.bash.academy/)
         > A quality-driven guide through the shell's many features.
     - [Learn Shell](https://www.learnshell.org/). Includes basic and advanced sections.
+    - [Cheat sheet](https://devhints.io/bash)
+    
