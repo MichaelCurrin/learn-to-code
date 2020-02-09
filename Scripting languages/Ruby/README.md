@@ -97,6 +97,8 @@ $ gem install --user-install bundler
 
 #### Check paths
 
+Reload your shell or start a new terminal, then check where the installed versions are. For example:
+
 ```
 $ which ruby
 /usr/local/opt/ruby/bin/ruby
