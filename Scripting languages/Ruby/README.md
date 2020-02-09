@@ -16,7 +16,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 
 ### Install and upgrade
 
-Check where Ruby in installed, if at all.
+Check where Ruby in installed, if at all. For example:
 
 ```bash
 $ which ruby
@@ -46,12 +46,66 @@ Upgrade.
 $ sudo apt-get upgrade ruby-full
 ```
 
-### Mac
+### macOS
 
-Install or upgrade.
+_Note that since Catalina, the system Ruby's dependencies are locked, so running this below will install a **separate** version of Ruby with its own dependecies. Running the steps below may cause **problems** on earlier version of macOS._
+
+Based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
+
+#### Install or upgrade Ruby
+
+Install `ruby` and `gem` commands using [Homebrew](https://brew.sh/).
 
 ```bash
 $ brew install ruby
+
+# Alternatively:
+$ brew reinstall ruby
+```
+
+In the output, you will something like this:
+
+> ruby is keg-only, which means it was not symlinked into /usr/local, > because macOS already provides this software and installing another version in parallel can cause all kinds of trouble.
+
+Then it gives a suggestion to add to your shell config, which we do next.
+
+#### Enable your custom Ruby
+
+Add the following to your `~/.bashrc` or `~/.zshrc` file. This will ensure so that your user (Homebrew) install of Ruby will be found before the system Ruby. The first line is not necessary but makes it easy to show the value later.
+
+```sh
+export RUBY_HOME=/usr/local/opt/ruby/bin
+export PATH="$RUBY_HOME:$PATH"
+```
+
+#### Make custom Ruby's gems runable
+
+If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. So add the following:
+
+```sh
+export GEM_PATH="$HOME/.gem/ruby/2.6.0/bin"
+export PATH="$GEM_PATH:$PATH"
+```
+
+#### Install a gem
+
+You might want install bundler, a Ruby dependency manager that lets you install gems that are isolated for each project.
+
+```sh
+$ gem install --user-install bundler
+```
+
+#### Check paths
+
+```
+$ which ruby
+/usr/local/opt/ruby/bin/ruby
+
+$ which gem
+/usr/local/opt/ruby/bin/gem
+
+$ which bundler
+/Users/foo-bar/.gem/ruby/2.6.0/bin/bundler
 ```
 
 ### Run a script
@@ -78,6 +132,8 @@ Based on [How to Install Ruby on Linux](https://www.thoughtco.com/instal-ruby-on
         ```
 
 ### Interactive mode
+
+If you just enter `ruby` on the command-line with no filename or stdin, _Ruby_ will wait for input. So rather use the interactive _Ruby_ which lets you get a response each time you press enter.
 
 ```bash
 $ irb
