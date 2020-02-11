@@ -1,6 +1,8 @@
 # Logs
 
-## Log graph
+## View the git commit tree graph
+
+### Use lol
 
 Using this git alias to show log as oneline and as a tree graph view.
 
@@ -21,12 +23,13 @@ You can view the log of branch without switching to it.
 $ git lol my-feature
 ```
 
-Note when you use the `log` (or `lol`) command, you only see _up to the tip of the current branch_ and not after. This is usually useful to do on a feature branch to compare against `master`.
+### Use Git History plugin
 
+If you don't like viewing that in the command-line, you can see a more visual view using the VS Code [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) plugin.
 
-### Fix unwanted diverges with help of lol
+### Inspect divergent branches using lol
 
-In some cases, simple usage is not enough.
+Note when you use the `log` (or `lol`) command with one or zero aguments, you only see _up to the tip of the current branch_ and not after. This is usually useful to do on a feature branch to compare against `master`. In some cases, simple usage is not enough.
 
 What about if the current branch is **behind** master? You won't see the master commits.
 
