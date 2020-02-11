@@ -131,6 +131,58 @@ Alternatives - I don't recommend these but they are provided for completeness.
         + "Correct Python indentation"
         + [Download page](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent).
 
+## Installation
+
+### Install Python
+
+#### Use a package manager
+
+Follow steps 1 and 2 on this [gist](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7).
+
+#### Download source
+
+If you package manager does not support the latest version, you can dowload the source and install it manually.
+
+- [Download Python](https://www.python.org/downloads/) from _python.org_.
+
+
+### Install addition Python versions
+
+For managing multiple versions of Python which are all installed, use the `pyenv` tool.
+
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
+
+Example usage:
+
+- Install Python version 2.7.15.
+    ```sh
+    $ pyenv install -v 2.7.15
+    ```
+- Run Python.
+    ```
+    $ $(pyenv root)/versions/2.7.15/bin/python -v
+    Python 2.7.15
+    
+    $ $(pyenv root)/versions/2.7.15/bin/python
+    >>> print 'Hello, world!'
+    Hello, world!
+    ```
+- Run pip, if installed.
+    ```sh
+    $ $(pyenv root)/versions/2.7.15/bin/pip list
+    ...
+    ```
+
+### Install pip
+
+The Python package manager - from the recursive abbreviation "Pip install packages".
+
+```sh
+$ cd ~/Downloads
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python get-pip.py
+```
+
 ## Run
 
 ### Online
