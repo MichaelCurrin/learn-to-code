@@ -84,11 +84,19 @@ Another approach is create an API which processes web requests and return serves
 - [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns) blog post.
 - [Python Patterns guide](https://python-patterns.guide/) website.
 
-### Coding software
+### Code editors
+
+#### What is an IDE?
+
+To write code with more than just notepad, you can find a text editor that supports some limited code functionality. For more advanced use (but common for every development), you probably want to find an IDE (Integrated Developer Environment).
 
 An IDE is a text editor for viewing and editing code that provides additional functionality to make development easier. Many provide some kind of autocomplete based on text already in the file. And syntax highlighting and raising errors and warnings, specific to the specific language you are coding it. They also let you run code, such as with a run button or an integrated terminal pane.
 
 They also usually offer an additional level of _intellisense_, which may require extensions for a certain language. This sense uses code definitions (from your own code and other libraries) to give you better hints as you type and also can show you what inputs the function or class takes. This is a tool to augment your coding and make you faste. Based on advice from an article _ read - be case of relying too much on this though, as it can hamper your ability to solve problems and ability to code in a plain text editor. Basically its like you never get to learn to how to spell a word like "accessibility" because you rely on your phone or Word or Gmail to correct the word for you.
+
+#### Recommended options
+
+I like this article, which covers the [Top 10 Python IDE and Code Editors in 2020](https://www.geeksforgeeks.org/top-10-python-ide-and-code-editors-in-2020/). Alternatively, see my own notes on IDEs covered below.
 
 These IDEs are free and available on Windows, Mac and Linux and I recommend them for Python development.
 
@@ -107,10 +115,12 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
     * Available a free "Community Edition" which does a lot. There is also a paid "Professional Edition".
     * [Download](https://www.jetbrains.com/pycharm/)
 
-Alternatives - I don't recommend these but they are provided for completeness.
+#### More options
+
+Alternatives - I don't use or recommend these but they are provided for completeness.
 
 - Spyder
-    * You might come acroos this in tutorials related to Data Science work. I read that it is deprecated i.e. no longer maintained and may be unavailable. When I used it I found that it did not work so well for virtual environments. I also had Spyder itself stop working when Python upgraded on the system and it took some looking on Stack Overflow to fix this.
+    * You might come across this in tutorials related to Data Science work. I read that it is deprecated i.e. no longer maintained and may be unavailable. When I used it I found that it did not work so well for virtual environments. I also had Spyder itself stop working when Python upgraded on the system and it took some looking on Stack Overflow to fix this.
     * [Homepage](https://www.spyder-ide.org/)
 - Sublime Text
     * "A sophisticated text editor for code, markup and prose."
