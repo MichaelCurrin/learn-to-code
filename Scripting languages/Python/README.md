@@ -248,6 +248,8 @@ Example usage for installing a version of Python 2, if you _really_ need to use 
 
 The Python package manager - from the recursive abbreviation "Pip install packages".
 
+You probably do not need to install `pip` as it comes with newer PY2 and PY3 versions. But in case you need to:
+
 ```sh
 $ cd ~/Downloads
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
