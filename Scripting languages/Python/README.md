@@ -162,11 +162,14 @@ For managing multiple versions of Python which are all installed, use the `pyenv
 
 - [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
 
-Example usage:
+Example usage for Python 2, if you _really_ need to use it:
 
-- Install Python version 2.7.15.
+- Install Python version `2.7.15`.
     ```sh
     $ pyenv install -v 2.7.15
+    
+    $ # On macOS Catalina, set flag as per https://github.com/pyenv/pyenv/wiki/common-build-problems
+    $ CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.15
     ```
 - Run Python.
     ```
@@ -181,6 +184,11 @@ Example usage:
     ```sh
     $ $(pyenv root)/versions/2.7.15/bin/pip list
     ...
+    ```
+- Create a virtual environment.
+    ```sh
+    $ $(pyenv root)/versions/2.7.15/bin/python -m virtualenv <NEW_ENV_NAME>
+    $ source <NEW_ENV_NAME>/bin/activate
     ```
 
 ### Install pip
