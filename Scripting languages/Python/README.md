@@ -50,7 +50,8 @@ Another approach is create an API which processes web requests and return serves
 
 ## Resources
 
-- [Official site](https://python.org)
+- [python.org](https://python.org) official site
+- [Python topic](https://github.com/topics/python) on _Github.com_
 - [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Python 3 Documentation](https://docs.python.org/3/)
 - PEP (Python Enhancement Proposal) documents
