@@ -158,9 +158,11 @@ If you package manager does not support the latest version, you can dowload the 
 
 ### Install addition Python versions
 
-For managing multiple versions of Python which are all installed, use the `pyenv` tool.
+For managing multiple versions of Python which are all installed, install and use the `pyenv` tool.
 
 - [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
+
+### Python 2
 
 Example usage for Python 2, if you _really_ need to use it:
 
