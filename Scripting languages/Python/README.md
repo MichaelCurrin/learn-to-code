@@ -171,7 +171,7 @@ Example usage for Python 2, if you _really_ need to use it:
     $ # On macOS Catalina, set flag as per https://github.com/pyenv/pyenv/wiki/common-build-problems
     $ CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.15
     ```
-- Run Python.
+- Run target Python version.
     ```
     $ $(pyenv root)/versions/2.7.15/bin/python -v
     Python 2.7.15
@@ -180,12 +180,12 @@ Example usage for Python 2, if you _really_ need to use it:
     >>> print 'Hello, world!'
     Hello, world!
     ```
-- Run pip, if installed.
+- Run pip for target Python version (`pip` comes with newer versions of PY2 and PY3).
     ```sh
     $ $(pyenv root)/versions/2.7.15/bin/pip list
     ...
     ```
-- Create a virtual environment.
+- Create a virtual environment using target Python version.
     ```sh
     $ $(pyenv root)/versions/2.7.15/bin/python -m virtualenv <NEW_ENV_NAME>
     $ source <NEW_ENV_NAME>/bin/activate
