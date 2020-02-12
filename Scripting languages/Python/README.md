@@ -158,20 +158,68 @@ If you package manager does not support the latest version, you can dowload the 
 
 ### Install addition Python versions
 
-For managing multiple versions of Python which are all installed, install and use the `pyenv` tool.
+For managing multiple versions of Python which are all installed but don't conflict, I recommend that you install and use the `pyenv` tool.
 
 - [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
 
+See this Real Python guide as an [Intro to pyenv](https://realpython.com/intro-to-pyenv/).
+
+In particular, see the heading - [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv).
+
+Once you have `pyenv` installed, continue below.
+
+### List available versions to install.
+
+Note this list is long.
+
+```sh
+$ pyenv install --list
+
+```
+
+To filter to Python 3 only (note the leading space):
+
+```sh
+pyenv install --list | grep ' 3'
+```
+
+### Python 3
+
+Example usage for installing a version of Python 2
+
+- Install Python version `3.8-dev`. This must be done before any of the commands below.
+    ```sh
+    $ pyenv install 3.8-dev
+    ```
+- Use the installed Python version.
+    ```sh
+    $ $(pyenv root)/versions/3.8-dev/bin/python
+    ```
+- Create a virtual environment for that Python version.
+    ```sh
+    $ $(pyenv root)/versions/3.8-dev/bin/python -m venv <NEW_ENV_NAME>
+    
+    $ source <NEW_ENV_NAME>/bin/activate
+    $ python -V
+    3.8.dev
+    ```
+
 ### Python 2
 
-Example usage for Python 2, if you _really_ need to use it:
+Example usage for installing a version of Python 2, if you _really_ need to use it:
 
-- Install Python version `2.7.15`.
+- Install Python version `2.7.15`. This must be done before any of the commands below.
     ```sh
     $ pyenv install -v 2.7.15
     
     $ # On macOS Catalina, set flag as per https://github.com/pyenv/pyenv/wiki/common-build-problems
     $ CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.15
+    ```
+- List installed versions (this initially started with system only):
+    ```sh
+    $ pyenv versions
+      system
+    * 2.7.15 (set by /Users/my-user/.python-version)
     ```
 - Run target Python version.
     ```
@@ -187,10 +235,13 @@ Example usage for Python 2, if you _really_ need to use it:
     $ $(pyenv root)/versions/2.7.15/bin/pip list
     ...
     ```
-- Create a virtual environment using target Python version.
+- Create a virtual environment using target Python version. Normally you would pass a version with the `--python <PYTHON>` flag, but this works fine below.
     ```sh
     $ $(pyenv root)/versions/2.7.15/bin/python -m virtualenv <NEW_ENV_NAME>
+    
     $ source <NEW_ENV_NAME>/bin/activate
+    $ python -V
+    2.7.15
     ```
 
 ### Install pip
