@@ -24,10 +24,10 @@
 
 ```css
 .my-class {
-  width: 100%;
-  height: 100px;
-  stroke: red;
-  fill: red;
+    width: 100%;
+    height: 100px;
+    stroke: red;
+    fill: red;
 }
 ```
 
@@ -37,8 +37,44 @@
 
 ```css
 svg:hover {
-  fill: red;
+    fill: red;
 }
 ```
 
 See also [source](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element).
+
+## !Important
+
+A CSS modifier to give a low-specificity style higher priority.
+
+From [When using !important is the right choice](https://css-tricks.com/when-using-important-is-the-right-choice/)
+
+
+```html
+<section id="content">
+    <p>  text text blah <a href="#" class="button">Do Thing</a>  </p>
+</section>
+```
+
+With this styling, the button class item get underlined when that is not desired.
+
+```css
+#content a {
+    border-bottom: 1px dotted blue;
+}
+```
+
+So we add this to the styling to ensure the button's class styling takes precedence over the ID styling. A few extra things have been included to protect the item.
+
+```css
+.button {
+    background: red            !important;
+    color: white               !important;
+    padding: 3px               !important;
+    border-radius: 5px         !important;
+    border: 1px solid black    !important;
+
+    /* For good measure */     
+    text-decoration: none      !important;
+}
+```
