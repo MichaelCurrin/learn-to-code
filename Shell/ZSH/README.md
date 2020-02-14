@@ -10,13 +10,20 @@
 
 ### Install and configure ZSH
 
+#### ZSH Guides
+
+- ZSH docs on SourceForge site
+    - [Intro to ZSH](http://zsh.sourceforge.net/Intro/intro_toc.html)
+    - [Startup files](http://zsh.sourceforge.net/Intro/intro_3.html)
+    - [Table of contents](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html) for the docs
+- [Jazz Up Your “ZSH” Terminal In Seven Steps — A Visual Guide](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
-
-#### ZSH Guides for Mac
-
-- [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
-- [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
-- [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
+- [ZSH Configuration](https://github.com/topics/zsh-configuration) topic on _Github_.
+- macOS
+    - [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
+    - [My Terminal Setup: iTerm + Zsh](https://welearncode.com/terminal-setup/)
+    - [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
+    - [Moving to ZSH](https://scriptingosx.com/2019/06/moving-to-zsh/) on _Scripting OS X_ site.
 
 #### Oh my ZSH
 
