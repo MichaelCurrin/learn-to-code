@@ -8,9 +8,9 @@
 
 ## Resources
 
-### Install and configure ZSH
+### ZSH
 
-#### ZSH Guides
+#### Install and configure ZSH
 
 - ZSH docs on SourceForge site
     - [Intro to ZSH](http://zsh.sourceforge.net/Intro/intro_toc.html)
@@ -25,11 +25,13 @@
     - [Moving to zsh – MacSysAdmin 2019](https://scriptingosx.com/zsh/)
     - [Moving to ZSH](https://scriptingosx.com/2019/06/moving-to-zsh/) on _Scripting OS X_ site.
 
-#### Oh my ZSH
+### Oh my ZSH
 
 - [Oh my zsh](https://ohmyz.sh/) official site
   > Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
 - [Github](https://github.com/ohmyzsh/ohmyzsh)
+
+#### Install Oh my ZSH
 
 _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My ZSH_ docs, you can install _ZSH_ and _Oh my ZSH_ at once.
 
@@ -39,6 +41,11 @@ _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My Z
     ```sh
     upgrade_oh_my_zsh
     ```
+    
+#### Use Oh my ZSH
+
+- [Cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+
 
 ### Usage
 
