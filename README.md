@@ -59,5 +59,5 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 
 - [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) on Wikipedia.
 - [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps) - If you are interested in writing unit tests, you might find some bootstrap code here for a certain language.
-- [Test Driven Development (TDD): Example Walkthrough] https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/ blog post.
+- [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/) blog post.
 - [Introduction to Test Driven Development (TDD)](http://agiledata.org/essays/tdd.html) essay on Agile Data website.
