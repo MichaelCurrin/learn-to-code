@@ -12,6 +12,8 @@
 
 #### Install and configure ZSH
 
+Jump to [Setup](#setup) section below to follow the links here to some articles and docs.
+
 - ZSH docs on SourceForge site
     - [Intro to ZSH](http://zsh.sourceforge.net/Intro/intro_toc.html)
     - [Startup files](http://zsh.sourceforge.net/Intro/intro_3.html)
@@ -43,18 +45,15 @@ _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My Z
     upgrade_oh_my_zsh
     ```
     
-#### Use Oh my ZSH
-
-- [Cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
-
-
 ### Usage
 
 - [Learn the basics of the ZSH shell](https://linuxconfig.org/learn-the-basics-of-the-zsh-shell)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/) (repeated from above section)
 - Cheat sheets
-    - On [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) wiki.
-    - On [Devhint.io](https://devhints.io/zsh)
+    - ZSH
+        - [Cheatsheet](https://devhints.io/zsh) on the _Devhint.io_.
+    - Oh my ZSH
+        - [Cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) on the official wiki.
 
 ## Setup
 
