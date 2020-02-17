@@ -30,7 +30,7 @@ false
 
 You need a triple equality sign for strict comparison, otherwise you are just checking two values are both truthy or both falsy.
 
-```
+```javascript
 > 1 == true
 true
 > 1 === true
@@ -53,7 +53,7 @@ false
 Thrown:
 ReferenceError: number is not defined
 
-> Number // But this is a thing. But its a function, not a class.
+> Number // But this is a thing. But it is a function, not a class.
 [Function: Number]
 ```
 
@@ -69,6 +69,7 @@ ReferenceError: number is not defined
 
 ```javascript
 > var x = [] // This is an array.
+
 > x[1] = 'foo' // Yes, you can skip assigning item 0
 'foo'
 > x
@@ -77,13 +78,14 @@ ReferenceError: number is not defined
 'bar'
 > x
 [ 'bar', 'foo' ]
+
 > x.y = 'baz' // Yes, you can add an attribute as a value or function an array.
 'baz'
 > x
 [ 'bar', 'foo', y: 'baz' ]
 > x.y
 'baz'
-> 
+
 > x.length = 10 // Yes you can assign a new length to array.
 10
 > x
