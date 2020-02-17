@@ -68,9 +68,9 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 - [Why coding style matters](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/) blog post
 - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
 
-### Webpages
+## Recommended websites
 
-#### My favourite websites and blogs
+### My favourite websites and blogs
 
 - [opensource.com](https://opensource.com)
 - [Free Code Camp](http://freeCodeCamp.org)
@@ -82,8 +82,8 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 - [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
 - [Flowing Data](https://flowingdata.com)
 
-#### Tools
+### Tools
 
-- https://gitpod.com
-- https://pythonanywhere.com
-- https://pages.github.com/
+- [Git Pod](https://gitpod.io) - A cloud-based IDE that runs Github repos in a container environment
+- [Python Anywhere](https://pythonanywhere.com) - Free Python hosting. Includes web server with easy configuration along with a MySQL database if you need. Run cron jobs, edit files editing and use consoles for Python, Bash and SQL.
+- [Github pages](https://pages.github.com/) - Free hosting for static sites built with Jekyll or plain HTML
