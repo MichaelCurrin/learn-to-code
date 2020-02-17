@@ -76,7 +76,7 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 - [Free Code Camp](http://freeCodeCamp.org)
 - [dev.to](https://dev.to)
 - [Medium.com](https://medium.com) topics
-    - [Programming(]https://medium.com/topic/programming)
+    - [Programming](https://medium.com/topic/programming)
     - [Software engineering](https://medium.com/topic/software-engineering)
     - [Data Science](https://medium.com/topic/data-science)
 - [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
