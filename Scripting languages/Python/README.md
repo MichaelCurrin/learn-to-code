@@ -50,14 +50,11 @@ Another approach is create an API which processes web requests and return serves
 
 ## Resources
 
-- [python.org](https://python.org) official site
-- [Python topic](https://github.com/topics/python) on _Github.com_
+- [python.org](https://python.org) official site.
+- [Python topic](https://github.com/topics/python) on Github.
 - [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Python 3 Documentation](https://docs.python.org/3/)
-- PEP (Python Enhancement Proposal) documents
-    - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
-    - [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-- [Python Package Index](https://pypi.org/) for libraries
+- [Python Package Index](https://pypi.org/) for downloading libraries.
 - Tutorials
     - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html) on the Python Documentation site
     - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
@@ -65,6 +62,10 @@ Another approach is create an API which processes web requests and return serves
     - [Automate the Boring Stuff](https://automatetheboringstuff.com/) ebook - available to view on the website or to buy as a book or Ebook
     - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) ebook - downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com). 
         - This is a great way to start doing something useful within Python even if you are just a beginner. It takes you from the basics to doing data science tasks with Python, such as reading from a database, posting a tweet or visualizing data. The sections contain info and practical code and they aren't tool detailed or long. Also, you don't have to read it in sequence - you can skip to a later section that interests you if you want to build that thing.
+- PEP (Python Enhancement Proposal) documents and other style guides
+    - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+    - [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+    - [PyGuide](https://google.github.io/styleguide/pyguide.html) page by Google on Github.
 - Cheatsheets
     - [Python](https://devhints.io/python) on _devhints.io_.
     - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) on Github.
