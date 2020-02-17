@@ -70,7 +70,7 @@ Learn how to write code that follows the style guide for the language or project
 - [Why coding style matters](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/) blog post
 - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
 
-## Code review
+### Code review
 
 Learn to review other developers' code.
 
