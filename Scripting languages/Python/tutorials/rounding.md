@@ -28,7 +28,7 @@ Python string formatting guides.
 
 ## Dangers when rounding
 
-Certain decimal fractions cannot be stored accurately in binary so approximations are used. These usually don't matter, but can lead to unexpected results sometimes when doing operations or rounding.
+Certain decimal fractions cannot be stored accurately in binary so approximations are used. These usually don't matter, but can lead to unexpected results when doing arithmetic or rounding. This can make a difference when doing a report (e.g. what was the conversation rate?) or when you set an exact condition in your control flow that will never be met.
 
 Addition:
 
@@ -41,6 +41,13 @@ True
 False
 >>> 0.3 + 0.6
 0.8999999999999999
+```
+
+```python
+>>> 0.1 + 0.1
+0.2
+>>> 0.1 + 0.1 + 0.1
+0.30000000000000004
 ```
 
 Rounding:
@@ -86,5 +93,6 @@ If you want to understand this storage issue more, I suggest reading about the "
 
 - [Significand](https://en.wikipedia.org/wiki/Significand) on Wikipedia.
 - [Fundamentals of Data Representation: Floating point numbers](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_2/Fundamentals_of_data_representation/Floating_point_numbers).
+- [Floating-Point Binary](http://cstl-csm.semo.edu/xzhang/Class%20Folder/CS280/Workbook_HTML/FLOATING_tut.htm)
 
 See also the Python 3 [decimal](https://docs.python.org/3/library/decimal.html) module's documentation.
