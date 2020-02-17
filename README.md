@@ -67,3 +67,23 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 - [Programming style](https://en.wikipedia.org/wiki/Programming_style)
 - [Why coding style matters](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/) blog post
 - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
+
+### Webpages
+
+#### My favourite websites and blogs
+
+- [opensource.com](https://opensource.com)
+- [Free Code Camp](http://freeCodeCamp.org)
+- [dev.to](https://dev.to)
+- [Medium.com](https://medium.com) topics
+    - [Programming(]https://medium.com/topic/programming)
+    - [Software engineering](https://medium.com/topic/software-engineering)
+    - [Data Science](https://medium.com/topic/data-science)
+- [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
+- [Flowing Data](https://flowingdata.com)
+
+#### Tools
+
+- https://gitpod.com
+- https://pythonanywhere.com
+- https://pages.github.com/
