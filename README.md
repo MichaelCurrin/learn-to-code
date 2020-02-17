@@ -1,5 +1,5 @@
 # Learn to Code
-> Tutorials and scripts around old and new programming languages to keep track of what I've learnt and to share with others
+> Tutorials, scripts, code snippets and resources to help you learn about various languages and become a better dev
 
 Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit. If you want to contribute, I welcome any corrections or enhancements.
 
@@ -61,3 +61,9 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 - [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps) - If you are interested in writing unit tests, you might find some bootstrap code here for a certain language.
 - [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/) blog post.
 - [Introduction to Test Driven Development (TDD)](http://agiledata.org/essays/tdd.html) essay on Agile Data website.
+
+### Code style
+
+- [Programming style](https://en.wikipedia.org/wiki/Programming_style)
+- [Why coding style matters](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/) blog post
+- [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
