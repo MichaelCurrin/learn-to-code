@@ -64,9 +64,18 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 
 ### Code style
 
+Learn how to write code that follows the style guide for the language or project/team.
+
 - [Programming style](https://en.wikipedia.org/wiki/Programming_style)
 - [Why coding style matters](https://www.smashingmagazine.com/2012/10/why-coding-style-matters/) blog post
 - [Style guides for Google-originated open-source projects](https://github.com/google/styleguide)
+
+## Code review
+
+Learn to review other developers' code.
+
+- [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
+- [Code review](https://github.com/features/code-review/) feature guide Github.
 
 ## Recommended websites
 
