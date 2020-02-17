@@ -84,6 +84,6 @@ See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%2
 
 ### Tools
 
-- [Git Pod](https://gitpod.io) - A cloud-based IDE that runs Github repos in a container environment
+- [Git Pod](https://gitpod.io) - A free cloud-based IDE that runs Github repos. Edit code with a VS Code editor, run in the terminal and save your changes to Github. Also includes a way to view and manager Pull Requests. Runs in a container environment and can be configured with a Git Pod file in your repo.
 - [Python Anywhere](https://pythonanywhere.com) - Free Python hosting. Includes web server with easy configuration along with a MySQL database if you need. Run cron jobs, edit files editing and use consoles for Python, Bash and SQL.
 - [Github pages](https://pages.github.com/) - Free hosting for static sites built with Jekyll or plain HTML
