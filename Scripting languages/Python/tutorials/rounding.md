@@ -1,7 +1,7 @@
 # Rounding
 > A guide to rounding in Python.
 
-## Represent floats
+## Represent floats as strings
 
 Using the builtin `format` function or `str.format` method.
 ```python
@@ -26,11 +26,11 @@ Python string formatting guides.
 - [Using % and .format() for great good!](https://pyformat.info/)
 - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
 
-## Dangers when rounding
+## Loss of float precision
 
 Certain decimal fractions cannot be stored accurately in binary so approximations are used. These usually don't matter, but can lead to unexpected results when doing arithmetic or rounding. This can make a difference when doing a report (e.g. what was the conversation rate?) or when you set an exact condition in your control flow that will never be met.
 
-Addition:
+### Addition
 
 ```python
 >>> (0.3 + 0.3) == 0.6
@@ -50,7 +50,7 @@ False
 0.30000000000000004
 ```
 
-Rounding:
+### Rounding
 
 ```python
 >>> # Use a builtin to round to one decimal place.
@@ -62,7 +62,13 @@ True
 False
 >>> round(1.45, 1)
 1.4
+
+>>> # Yet with a small change it rounds as expected.
+>>> round(1.451, 1)
+1.5
 ```
+
+### Decimal approach
 
 One solution it to use a decimal type in place of the float type.
 
