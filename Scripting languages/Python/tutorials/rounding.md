@@ -76,9 +76,9 @@ One solution it to use a decimal type in place of the float type.
 >>> from decimal import Decimal as D
 >>> D(3) / D(10)
 D('0.3')
->>> str(D(3) / D(10))
+>>> str( D(3) / D(10) )
 '0.3'
->>> (D(3) / D(10)).as_integer_ratio()
+>>> ( D(3) / D(10) ).as_integer_ratio()
 (3, 10)
 
 >>> # Now we are able to get the expected result.
@@ -87,7 +87,7 @@ D('0.3')
 Decimal('0.9')
 
 >>> # Shift point to places to the right.
->>> (D(3) / D(10)).shift(2)
+>>> ( D(3) / D(10) ).shift(2)
 Decimal('30.0')
 ```
 
