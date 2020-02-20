@@ -125,3 +125,9 @@ Or, compile and run in one line.
 ```bash
 $ rustc file.rs && ./file
 ```
+
+## Examples
+
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) on the docs. Learn Rust with examples (live code editor included). This site runs on the Github repo [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example).
+- [Fibonacci sequence](https://gist.github.com/mjs/d5770f0b0f440eb67687100929f1335a) as a gist.
+- [Rust examples](https://github.com/eliovir/rust-examples) repo on Github.
