@@ -3,18 +3,19 @@
 
 Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit. If you want to contribute, I welcome any corrections or enhancements.
 
-## Language-specific guides
+## ⌨ Language-specific guides
 
 See the language-specific folders in this repo to learn about a language. Each has a README file, with with instructions to install and run the language and links to resources. Some include tutorials or scripts to run locally.
 
-## Resources
+## 📚 Resources
 
 [Resources](/resources.md) for learning concepts in programming, with some links.
 
-## Recommended websites
+## 🌐 Recommended websites
 
 Links I enjoy and would like share.
-### My favorite websites and blogs
+
+### ⭐ My favorite websites and blogs
 
 - [OpenSource.com](https://opensource.com)
 - [Free Code Camp](http://freeCodeCamp.org)
@@ -26,7 +27,7 @@ Links I enjoy and would like share.
 - [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
 - [Flowing Data](https://flowingdata.com)
 
-### Tools
+### 🏗 Tools
 
 - [Git Pod](https://gitpod.io) - A free cloud-based IDE that runs Github repos. Edit code with a VS Code editor, run in the terminal and save your changes to Github. Also includes a way to view and manager Pull Requests. Runs in a container environment and can be configured with a Git Pod file in your repo.
 - [Python Anywhere](https://pythonanywhere.com) - Free Python hosting. Includes web server with easy configuration along with a MySQL database if you need. Run cron jobs, edit files editing and use consoles for Python, Bash and SQL.
