@@ -62,7 +62,7 @@ A task does not have to be finished before going to the next one - the program c
 - Blog posts
     * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
         > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
-- [Go Packages](https://golang.org/pkg/)
+- [Go Packages](https://golang.org/pkg/) index
 - Online playgrounds
     * [play.golang.org](https://play.golang.org/)
     * [Go on repl.it](https://repl.it/languages/go)
@@ -84,3 +84,11 @@ $ # Run the binary.
 $ ./hello
 hello, world
 ```
+
+## Packages
+
+- [Web scraping guide](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md)
+- [Web scraping library](https://github.com/gocolly/colly)
+- [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1)
+- [Awesome go](https://github.com/avelino/awesome-go)
+   > A curated list of awesome Go frameworks, libraries and software
