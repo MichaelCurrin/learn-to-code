@@ -32,16 +32,15 @@ Conda is similar to `pip`. Conda references its own index packages of mostly Dat
 
 _Note: I found it frustrating when trying install things with Conda that are missing but available on `pip`, so that's one reason I prefer `pip`, but there might be ways around this._
 
+### Installation
+
+- [Installation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) instructions in the User guide doc.
+
 ### Usage
 
-- [User guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+- [User guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html) doc.
 
-These sections are included there:
-
-- _Create your first conda project in 20 minutes._
-- _View system requirements and installation directions._
-
-Here are some highlights from the [Getting Started](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) page. Note, only the macOS / Linux instructions are covered below - the Windows instructions are slightly different.
+Below are some highlights from the [Getting Started](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) page. Note, only the macOS / Linux instructions are covered below - the Windows instructions are slightly different.
 
 #### Check installed version
 
