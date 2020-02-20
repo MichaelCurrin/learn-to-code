@@ -3,6 +3,23 @@
 
 Some of these can be memorized, or even added to an alias or shortcut script. If you look it up here, then this is a cheatsheet really.
 
+## Aliases
+
+Simple commands can be added to `.gitconfig` as such:
+
+```
+[alias]
+    st = status -s
+```
+
+But chained commands that need shell syntax should be setup using a bang (`!`). For example, this alias is two commands.
+
+```
+[alias]
+    ! sync = git pull --rebase && git push
+```
+
+
 ## Rebase
 
 The rebasing covered here is focused on relatively simple re-ordering. If you want to something more advanced, you should lookup an interactive rebase.
