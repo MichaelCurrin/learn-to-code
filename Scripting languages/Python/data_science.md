@@ -1,5 +1,7 @@
-# Python for Data Sciencist
-> A guide focused on using Anaconda and conda for managing Python versions and libraries
+# Python for Data Sciencists
+
+If you want to use Python for Data Science proejct, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debuggin and viewing in the output of the code close to the code.
+
 
 ## Anaconda
 
@@ -11,12 +13,18 @@ It includes things to save you install them, such as:
 
 - Open source Python libraries
 - Programs 
-    - Jupyter - To run Jupyter Notebooks (aka iPython Notebooks) - [jupyter.org](https://jupyter.org/)
-        > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
-    - Spyder IDE - [spyder-ide.org](https://www.spyder-ide.org/)
-        > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
-    - Conda command-line tool - [docs.conda.io](https://docs.conda.io/en/latest/)
-        > Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN, and more.
+    - Jupyter 
+        - Run Jupyter Notebooks (aka iPython Notebooks) - these include markdown, code and output (text and graphics) and so are ideal for iterating on code and presenting results.
+        - [jupyter.org](https://jupyter.org/)
+            > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
+    - Spyder IDE 
+        - [spyder-ide.org](https://www.spyder-ide.org/)
+            - IDE for running and debugging code interactively and presenting results.
+            > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
+    - Conda 
+        - Command-line tool for managing Python libraries inside virtual environments.
+        - [docs.conda.io](https://docs.conda.io/en/latest/)
+            > Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN, and more.
 
 There is an enterprise version and a free version known as "Anaconda Distribution".
 
