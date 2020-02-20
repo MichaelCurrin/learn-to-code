@@ -10,8 +10,13 @@ Anaconda is a platform which makes it easy to setup an environment for running P
 It includes things to save you install them, such as:
 
 - Open source Python libraries
-- Programs like Jupyter Notebooks / iPython Notebooks and Spyder
-- `conda` command-line tool 
+- Programs 
+    - Jupyter - To run Jupyter Notebooks (aka iPython Notebooks) - [jupyter.org](https://jupyter.org/)
+        > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
+    - Spyder IDE - [spyder-ide.org](https://www.spyder-ide.org/)
+        > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
+    - Conda command-line tool - [docs.conda.io](https://docs.conda.io/en/latest/)
+        > Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN, and more.
 
 There is an enterprise version and a free version known as "Anaconda Distribution".
 
