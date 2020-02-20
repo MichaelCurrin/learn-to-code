@@ -1,5 +1,5 @@
-# Data Science
-> Python datas science guide focused on using Anaconda and conda for managing Python versions and libraries
+# Python for Data Sciencist
+> A guide focused on using Anaconda and conda for managing Python versions and libraries
 
 ## Anaconda
 
