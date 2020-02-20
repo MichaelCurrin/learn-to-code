@@ -40,6 +40,15 @@ See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/
 - [Design Patterns](/Scripting%20languages/Python/README.md#design-patterns) in Python.
 - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm) on Tutorials Point website - the the patterns listed on the sidebar menu there.
 
+### Architecture
+
+- [Software Architecture Fundamentals](https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video316989) on O’Reilly Online Learning. 9 hour course.
+
+#### Domain driven design
+
+- [Domain-Driven Design Fundamentals](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents) on Pluralsight. 4 hour course.
+- [Software Architecture - Domain Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/) on LinkedIn Learning. 1 hour course.
+
 ### Roadmaps
 
 Don't know where to start? Pick a roadmap (learning path) based on your chosen direction.
