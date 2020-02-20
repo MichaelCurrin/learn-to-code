@@ -6,7 +6,7 @@ From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) m
 
 > PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
-## Resources
+## 📚 Resources
 
 - [PHP official site](https://www.php.net/)
 - Libraries
