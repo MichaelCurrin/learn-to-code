@@ -11,14 +11,16 @@ Below are summaries of popular JavaScript frameworks with links and hello world 
 
 Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
 
-Instagram is an example of a React site. You can find something like this on their HTML source.
+It is the very popular (5th most starred JS library on Github) and used on major sites Facebook, Netflix, and Khan Academy.
+
+On the Instagram site, you will find something like this on their HTML source:
 
 ```html
 <div id="react-root">
 </div>
 ```
 
-If you disable JavaScript and reload the page, you will only see the Instagram logo display as everything else is rendered by JavaScript.
+If you disable JavaScript and reload the page, you will only see the Instagram logo display, since everything else is rendered by JavaScript.
 
 ### Links
 
@@ -32,6 +34,7 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
 - Courses
     - [Pluralsight](https://app.pluralsight.com/) (requires a subscription)
+        - [React path](https://app.pluralsight.com/paths/skill/react) of courses
         - [A practical start with React](https://app.pluralsight.com/library/courses/react-practical-start/table-of-contents)
         - [React: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)
         - [React Fundamentals](https://app.pluralsight.com/library/courses/react-fundamentals-update/table-of-contents)
