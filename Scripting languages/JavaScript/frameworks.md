@@ -5,7 +5,7 @@ Javascript framework are libraries (usually available as _npm_ packages) let you
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
 
-Below are summaries of popular JavaScript frameworks with links and hello world code snippets.
+Below are summaries of popular JavaScript frameworks with links and hello world code snippets. The focus of this list is on frameworks for building web apps, on the frontend (client-side rendering) or backend (server-sider rendering)
 
 ## React
 

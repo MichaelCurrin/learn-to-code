@@ -44,13 +44,13 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 
 **Linux**
 
-```bash
+```sh
 $ sudo apt install nodejs
 ```
 
 **macOS**
 
-```bash
+```sh
 $ brew install nodejs
 ```
 
@@ -62,7 +62,7 @@ Follow one of the following approaches:
 
 * Command-line (this approach requires [NodeJS](#nodejs) to be installed)
     1. Start the interactive console.
-        ```bash
+        ```sh
         $ node
         ```
         ```
@@ -91,7 +91,7 @@ Press `CTRL`+`D` to exit the console.
 
 How to run scripts in this project using `node`.
 
-```bash
+```sh
 $ cd <PATH_TO_REPO>
 $ cd 'Scripting languages/JavaScript'
 $ node my_file.js
@@ -105,7 +105,7 @@ How to run arbitrary package scripts using `npm`.
 
 Using [run-script](https://docs.npmjs.com/cli/run-script).
 
-```
+```sh
 $ npm run-script COMMAND
 $ # Alias:
 $ npm run COMMAND
@@ -113,14 +113,14 @@ $ npm run COMMAND
 
 Using [npm-run](https://www.npmjs.com/package/npm-run)
 
-```
+```sh
 $ npm-run COMMAND
 ```
 
 
 ## Libraries
 
-- jQuery
+- _jQuery_
     - [Official page](https://jquery.com/)
         - >The Write Less, Do More, JavaScript Library
         - The homepage shows example uses.
@@ -129,22 +129,28 @@ $ npm-run COMMAND
     - Tutorials
         - [W3 schools](https://www.w3schools.com/jquery/default.asp)
         - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
-- Moustache
-    - [Official page](https://mustache.github.io/)
-        > Logic-less templates.
-    - HTML templating on the server or browser side
-    - [npm](https://www.npmjs.com/package/mustache)
-    - CDN
-        - [Cloudfare](https://cdnjs.com/libraries/mustache.js/)
+- Frameworks
+    - See [Frameworks](frameworks.md) doc in this project for frontend and backend JS frameworks.
+- Templating libraries
+    - Mustache JS
+        - [Official page](https://mustache.github.io/)
+            > Logic-less templates.
+        - HTML templating on the server or browser side.
+        - [npm](https://www.npmjs.com/package/mustache)
+        - [Cloudfare CDN](https://cdnjs.com/libraries/mustache.js/)
+    - Handlebars JS
+        - [Official page](https://handlebarsjs.com/)
+            > Minimal templating on steroids
+        - [npm](https://www.npmjs.com/package/handlebars)
+        - [Github repo](https://github.com/wycats/handlebars.js)
 - Dataviz libraries
     - [D3.js](https://d3js.org/)
     - [ApexCharts.js](https://apexcharts.com/)
     - [Highcharts](https://www.highcharts.com/)
     - roughViz
-        - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github
-        - [roughviz](https://pypi.org/project/roughviz/) as a Python package
-        - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post
-See more below in [Frameworks](#frameworks).
+        - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github.
+        - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
+        - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
 
 ### CDNs
 
