@@ -15,9 +15,12 @@
     > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
 - [NodeJS official site](https://nodejs.org)
 - Tutorials
-    - [JavaScript](https://www.javascript.com/) by Pluralsite
+    - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
     - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
     - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools
+- Courses
+    - [Scotch.io](https://scotch.io)
+        - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
 - Online IDE
     - [Runkit](https://runkit.com/home)
       > Runkit is a node playground in your browser.
@@ -129,8 +132,6 @@ $ npm-run COMMAND
     - Tutorials
         - [W3 schools](https://www.w3schools.com/jquery/default.asp)
         - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
-- Frameworks
-    - See [Frameworks](frameworks.md) doc in this project for frontend and backend JS frameworks.
 - Templating libraries
     - Mustache JS
         - [Official page](https://mustache.github.io/)
@@ -151,6 +152,10 @@ $ npm-run COMMAND
         - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github.
         - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
         - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
+
+#### Frameworks
+
+See [JS Frameworks](frameworks.md) doc in this project for frontend and backend JS frameworks.
 
 ### CDNs
 

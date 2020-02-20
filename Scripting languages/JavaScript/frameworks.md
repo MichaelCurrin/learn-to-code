@@ -1,4 +1,4 @@
-# Frameworks
+# JS Frameworks
 
 Javascript framework are libraries (usually available as _npm_ packages) let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
 
@@ -36,6 +36,9 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
         - [React: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)
         - [React Fundamentals](https://app.pluralsight.com/library/courses/react-fundamentals-update/table-of-contents)
         - [Advanced React.js](https://app.pluralsight.com/library/courses/reactjs-advanced/table-of-contents)
+    - [Scotch.io](https://scotch.io/) (free courses)
+        - [Getting started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition?ref=home-start-here)
+
 
 ### Hello world
 
@@ -138,6 +141,9 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Introduction](https://vuejs.org/v2/guide/index.html)
 - [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
+- Courses
+    - [Scotch.io](https://scotch.io)
+        - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
 
 ### Hello world
 
