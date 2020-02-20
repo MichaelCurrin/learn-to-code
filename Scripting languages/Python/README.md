@@ -151,7 +151,7 @@ Alternatives - I don't use or recommend these but they are provided for complete
 
 #### Use a package manager
 
-Follow steps 1 and 2 on this [gist](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7).
+Follow steps 1 and 2 on this [gist](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7) to install Python using your preferred package manager for your OS. e.g. Homebrew or APT.
 
 #### Download source
 
@@ -178,13 +178,12 @@ Note this list is long.
 
 ```sh
 $ pyenv install --list
-
 ```
 
 To filter to Python 3 only (note the leading space):
 
 ```sh
-pyenv install --list | grep ' 3'
+$ pyenv install --list | grep ' 3'
 ```
 
 ### Python 3
@@ -252,7 +251,7 @@ Example usage for installing a version of Python 2, if you _really_ need to use 
 
 The Python package manager - from the recursive abbreviation "Pip install packages".
 
-You probably do not need to install `pip` as it comes with newer PY2 and PY3 versions. But in case you need to:
+You probably **do not need** to install `pip` as it comes with newer PY2 and PY3 versions. But in case you need to:
 
 ```sh
 $ cd ~/Downloads
