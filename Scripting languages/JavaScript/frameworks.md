@@ -1,4 +1,4 @@
-## Frameworks
+# Frameworks
 
 Javascript framework are libraries (usually available as _npm_ packages) let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
 
@@ -7,7 +7,7 @@ https://hackr.io/blog/10-best-javascript-frameworks-2019).
 
 Below are summaries of popular JavaScript frameworks with links and hello world code snippets.
 
-### React
+## React
 
 Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
 
@@ -20,7 +20,7 @@ Instagram is an example of a React site. You can find something like this on the
 
 If you disable JavaScript, you just see and empty page with the Instagram logo.
 
-#### Links
+### Links
 
 - [Official site](https://reactjs.org/).
     > A JavaScript library for building user interfaces
@@ -31,7 +31,7 @@ If you disable JavaScript, you just see and empty page with the Instagram logo.
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
 
-#### Hello world
+### Hello world
 
 ```html
 <div id="root"></div>
@@ -44,9 +44,9 @@ If you disable JavaScript, you just see and empty page with the Instagram logo.
 </script>
 ```
 
-### React Native
+## React Native
 
-#### Links
+### Links
 
 - [Official site](https://facebook.github.io/react-native/).
     > Create native apps for Android and iOS using React.
@@ -58,7 +58,7 @@ If you disable JavaScript, you just see and empty page with the Instagram logo.
     - [Learn the basics](https://facebook.github.io/react-native/docs/tutorial).
 - [Github repo](https://github.com/facebook/react-native)
 
-#### Hello world
+### Hello world
 
 ```javascript
 import React, { Component } from 'react';
@@ -75,13 +75,13 @@ export default class HelloWorldApp extends Component {
 }
 ```
 
-### Angular
+## Angular
 
 It allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
 
 It is an open source project used by Google.
 
-#### Links
+### Links
 
 - [Official site](https://angular.io/).
     > One framework. Mobile & desktop.
@@ -90,7 +90,7 @@ It is an open source project used by Google.
     > Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.
 - [Cheatsheet](https://angular.io/guide/cheatsheet)
 
-#### Hello world
+### Hello world
 
 From [AngularJS Hello World Application: Your First Example Program ](https://www.guru99.com/angularjs-first-program.html).
 
@@ -119,13 +119,13 @@ From [AngularJS Hello World Application: Your First Example Program ](https://ww
 ```
 
 
-### Vue
+## Vue
 
 A progressive framework for building user interfaces. It used for developing Single Page Applications (SPA).
 
 > Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
 
-#### Links
+### Links
 
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
@@ -133,7 +133,7 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
 
-#### Hello world
+### Hello world
 
 In this simplified example, all the CSS and JS are in the single HTML file.
 
@@ -171,7 +171,7 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 </html>
 ```
 
-### Redux
+## Redux
 
 A predictable state container for JavaScript apps.
 
@@ -181,7 +181,7 @@ A predictable state container for JavaScript apps.
 
 It is an application data-flow architecture, not a framework. Created in 2015, inspired by Facebook's Flux and functional programming language Elm.
 
-#### Links
+### Links
 
 - [Official homepage](https://redux.js.org/)
     - [Getting started](https://redux.js.org/introduction/getting-started)
@@ -193,7 +193,7 @@ It is an application data-flow architecture, not a framework. Created in 2015, i
     - [Hello world in React-Redux](https://medium.com/@lavitr01051977/easy-redux-b29391b499cb) on Medium
     - [Hello world in React Redux](https://riptutorial.com/react-redux/example/22907/hello-world-using-react-redux) from Rip Tutorial
 
-#### Basic example
+### Basic example
 
 ```javascript
 import { createStore } from 'redux'
