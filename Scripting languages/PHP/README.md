@@ -9,21 +9,27 @@ From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) m
 ## Resources
 
 - [PHP official site](https://www.php.net/)
-- Libaries
+- Libraries
     - [Composer](https://getcomposer.org/) - dependency manager
     - [Laravel](https://laravel.com/) - web framework
-    - [Top 40 PHP Libraries of 2020 Every Developer Should Know](https://www.cloudways.com/blog/php-libraries/)
+    - PHP CMS's
+        - [WordPress.org](http://wordpress.org/)
+        - [Moodle](https://moodle.org/) - [Wikipedia page](https://en.wikipedia.org/wiki/Moodle)
+        - [Joomla](https://www.cloudways.com/blog/best-php-cms/#joomla)
+        - [Drupal](https://www.cloudways.com/blog/best-php-cms/#drupal)
 - Tutorials
-    - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com)) 
+    - [PHP tutorials](https://www.w3schools.com/PhP/default.asp) ([w3schools.com](https://www.w3schools.com))
     - [Solo Learn](https://www.sololearn.com/) - see their PHP course.
     - [Learn PHP in Y minutes](https://learnxinyminutes.com/docs/php/)
-- Blogs
+- Blog posts
     - [PHP in 2020](https://stitcher.io/blog/php-in-2020)
+    - [Top 40 PHP Libraries of 2020 Every Developer Should Know](https://www.cloudways.com/blog/php-libraries/)
+    - [Top 14 Best PHP CMS In Market For Developers in 2020](https://www.cloudways.com/blog/best-php-cms/) post)
 
 ## Sites built on PHP
 
-- [WordPress](https://wordpress.com/)
-- [Facebook](https://facebook.com)
+- [WordPress.com](https://wordpress.com/) - hosting, built on free open-source WordPress.org tech.
+- [Facebook.com](https://facebook.com)
 
 See this Quora answer page for a longer list - [What are the top 10 websites built with PHP?](https://www.quora.com/What-are-the-top-10-websites-built-with-PHP).
 
