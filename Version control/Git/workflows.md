@@ -19,7 +19,6 @@ But chained commands that need shell syntax should be setup using a bang (`!`). 
     ! sync = git pull --rebase && git push
 ```
 
-
 ## Rebase
 
 The rebasing covered here is focused on relatively simple re-ordering. If you want to something more advanced, you should lookup an interactive rebase.
@@ -61,11 +60,22 @@ $ git rebase --abort
 
 When you rebase, you are changing the order, metadata and hashes of commits, therefore when you push you will get an error saying that your branch's tip does not match the remote. Therefore overwrite the remote with this command.
 
-Force push - use with **caution**.
+_Proceed with **caution** as you are altering the existing commits on the remote which may cause conflicts for anyone note aware of the changes._
+
+#### Force push
 
 ```sh
 $ git push -f
 ```
+
+#### Force push with lease
+
+```sh
+$ git push --force-with-lease
+```
+
+The latter is a safer option that makes sure do not override any work on the remote that you do not have locally. You might want to do a pull or rebase then after the error.
+
 
 ## Merge and cleanup
 
@@ -77,7 +87,7 @@ Go to your master branch.
 $ cd master
 ```
 
-Delete the feature branch locally.
+Delete the feature branch locally. If you want to delete a branch not merged into the current branch, you will get an error so use `-D` as a force delete.
 
 ```bash
 $ git branch -d my-feature
@@ -86,7 +96,7 @@ $ git branch -d my-feature
 Delete the branch on the remote.
 
 ```bash
-$ git push --delete origin my-feature
+$ git push -d origin my-feature
 ```
 
 Or, if already deleted on the remote, you can prune your origin so it stops tracking that non-existent branch.
