@@ -23,11 +23,16 @@ Each language folder has a README explaining how to get the language setup on yo
 - Web application design
     - RESTful API
     - GraphQL API
-    - MVC
-    - Server-side rendering
-    - Client-side rendering
+    - Model View Controller (MVC)
+    - Server-side rendering (SSR)
+        - Such as PHP and Python applications.
+    - Client-side rendering (CSR), such JavaScript Single-Page Application (SPA)
     - Single-page application
-    
+
+### Backend vs frontend
+
+See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/02/20/backend-vs-frontend.html) which explains the difference between these two areas.
+
 ### Design patterns
 
 > In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
