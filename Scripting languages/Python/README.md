@@ -36,11 +36,12 @@ There are many Python libraries available for download for free. You can use som
 
 - Once-off short scripts
 - Automating repetive tasks
-- Web servers
+- Web servers (website, API, CMS)
 - Web scraping
-- Data science (fetching, processing and visualizing data)
-- Machine learning
-- Games on desktop
+- Data Science (fetching, processing and visualizing data)
+- Machine Learning
+- Games
+- Special effects
 
 Python can even be used for mobile apps and build a static website.
 
@@ -80,6 +81,8 @@ Another approach is create an API which processes web requests and return serves
     - [Real Python](https://realpython.com/) blog - I really enjoy this site, which has a few authors writing Python tutorials. Subscribe to their mailing list for regularly updates on a few posts.
     - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) post - examples of using Python basics including classes, lambdas, conditional statements and loops.
     - [Learn to be a developer](https://michaelcurrin.github.io/coding-blog/2020/01/27/learn-to-be-developer.html) post - one of my own blog posts which focuses on Python. Not just what to learn about it, but how. And how to find a motivation.
+
+If you want to setup a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
 
 ### Design patterns
 
