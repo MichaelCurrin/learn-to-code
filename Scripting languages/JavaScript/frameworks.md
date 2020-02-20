@@ -5,20 +5,20 @@ Javascript framework are libraries (usually available as _npm_ packages) let you
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
 
-Below are summaries of popular JavaScript frameworks with links and hello world code snippets. The focus of this list is on frameworks for building web apps, on the frontend (client-side rendering) or backend (server-sider rendering)
+Below are summaries of popular JavaScript frameworks with links and hello world code snippets. The focus of this list is on frameworks for building web apps, on the frontend (client-side rendering) or backend (server-sider rendering).
 
 ## React
 
 Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
 
-Instagram is an example of a React site. You can find something like this on the HTML source.
+Instagram is an example of a React site. You can find something like this on their HTML source.
 
 ```html
 <div id="react-root">
 </div>
 ```
 
-If you disable JavaScript, you just see and empty page with the Instagram logo.
+If you disable JavaScript and reload the page, you will only see the Instagram logo display as everything else is rendered by JavaScript.
 
 ### Links
 
@@ -30,6 +30,12 @@ If you disable JavaScript, you just see and empty page with the Instagram logo.
 - [Github repo](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
+- Courses
+    - [Pluralsight](https://app.pluralsight.com/) (requires a subscription)
+        - [A practical start with React](https://app.pluralsight.com/library/courses/react-practical-start/table-of-contents)
+        - [React: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)
+        - [React Fundamentals](https://app.pluralsight.com/library/courses/react-fundamentals-update/table-of-contents)
+        - [Advanced React.js](https://app.pluralsight.com/library/courses/reactjs-advanced/table-of-contents)
 
 ### Hello world
 
