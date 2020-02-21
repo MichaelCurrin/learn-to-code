@@ -9,11 +9,15 @@ If you want to use Python for Data Science proejct, I recommend installing [Anac
 
 Anaconda is a platform which makes it easy to setup an environment for running Python (and other languages like R).
 
-It includes things to save you install them, such as:
+It includes things to save you time:
 
-- Open source Python libraries
-- Programs 
-    - Jupyter 
+- Anaconda Navigator
+    - A GUI for installing and managing programs and environment, to let you to what you need without using the terminal.
+    - [docs](https://docs.anaconda.com/anaconda/navigator/)
+        > Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda® distribution that allows you to launch applications and easily manage conda packages, environments, and channels without using command-line commands
+- Open source Python libraries in base environment
+- One-click installs of managed programs, including:
+    - Jupyter
         - Run Jupyter Notebooks (aka iPython Notebooks) - these include markdown, code and output (text and graphics) and so are ideal for iterating on code and presenting results.
         - [jupyter.org](https://jupyter.org/)
             > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
@@ -21,7 +25,10 @@ It includes things to save you install them, such as:
         - [spyder-ide.org](https://www.spyder-ide.org/)
             - IDE for running and debugging code interactively and presenting results.
             > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
-    - Conda 
+    - VS Code (Visual Studio Code) IDE.
+- Virtual environments
+    - Manage through the Anaconda Navigator GUI, or
+    - Use Conda in the shell.
         - Command-line tool for managing Python libraries inside virtual environments.
         - [docs.conda.io](https://docs.conda.io/en/latest/)
             > Package, dependency and environment management for any language—Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN, and more.
