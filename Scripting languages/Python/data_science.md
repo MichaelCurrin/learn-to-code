@@ -84,7 +84,9 @@ He we create a virtual environment with a given name and optional list of libari
 
 ```sh
 $ conda create --name snowflakes biopython
+```
 
+```sh
 $ conda activate snowflakes
 (snowflakes) $
 (snowflakes) $ conda info --envs
@@ -92,25 +94,37 @@ conda environments:
 
     base           /home/username/Anaconda3
     snowflakes   * /home/username/Anaconda3/envs/snowflakes
+```
 
+Deactivate
+
+```sh
 $ conda activate
 $
 ```
 
 #### Manage Python
 
+Optionall specify a version of Python to use:
+
 ```sh
 $ conda create --name snakes python=3.5
+```
 
+```sh
 $ conda activate snakes
 (snakes) $
 
-(snakes) $  conda info --envs
+(snakes) $ conda info --envs
 ...
 
 (snakes) $ python --version
 ...
+```
 
+Deactivate
+
+```sh
 (snakes) $ conda activate
 $
 ```
@@ -119,13 +133,21 @@ $
 
 Install a Python package/library with a virtual environment. 
 
+Optionally check for packages with a similar name and available versions in the libraries repository.
+
 ```sh
 $ conda search beautifulsoup4
 ```
 
+Install a package, using optional version. See [conda install](https://docs.conda.io/projects/conda/en/latest/commands/install.html) docs.
+
 ```sh
 $ conda install beautifulsoup4
+
+$ conda install bitarray=0.8
 ```
+
+Show installed packages.
 
 ```sh
 $ conda list
