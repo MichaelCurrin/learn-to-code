@@ -1,7 +1,7 @@
 # JavaScript Wat
 > What? Quirks of JavaScript.
 
-For more info, see this blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db) or search "js wat" on Youtube.
+For more info, see this blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db), watch the second half the video [here](https://www.destroyallsoftware.com/talks/wat) or search "js wat" on Youtube.
 
 ## Types and objects
 
