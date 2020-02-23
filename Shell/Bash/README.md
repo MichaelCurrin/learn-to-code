@@ -1,8 +1,8 @@
 # Bash
 
-Bash (Bourne Again Shell) is a programming language using as a shell (operating system and interacting with the OS) and a scripting language. 
+Bash is the shell  (command-line interpreter) for the GNU operating system. The name is an acronym for the "Bourne-Again SHell" and is a pun on Stephen Bourne's name. [source](https://devdocs.io/bash/html_node/what-is-bash_003f#What-is-Bash_003f).
 
-It is commonly used on Linux systems. The default as well for macOS, until Catalina made ZSH the default. Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
+It is commonly used on Linux systems. It was default shell for macOS, until Catalina made [ZSH](../ZSH/README.md) the default. Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
 
 Wikipedia definition:
 
@@ -16,7 +16,8 @@ But, Bash has some things which are not so intuitive - variables are global by d
 
 ## Resources
 
-- [Homepage](https://www.gnu.org/software/bash/)
+- [Bash](https://www.gnu.org/software/bash/) page on _gnu.org_.
+- [Bash reference manual](https://devdocs.io/bash/) on _devdocs.io_.
 - Tutorials
     - [Learn Bash in Y Minutes](https://learnxinyminutes.com/docs/bash/)
     - [The Bash Guide](https://guide.bash.academy/)
