@@ -1,6 +1,86 @@
 # Python for Data Sciencists
 
-If you want to use Python for Data Science proejct, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debuggin and viewing in the output of the code close to the code.
+If you want to use Python for Data Science project, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debuggin and viewing in the output of the code close to the code.
+
+## IPython
+
+- [ipython.org](https://ipython.org/) homepage.
+- Python for interactive computing.
+- It includes features like tab autocomplete, doc previews, inline graphs and extended help.
+
+Install IPython globally for a particular version of Python. Or install it in a virtual environment.
+
+Start IPython.
+
+```bash
+$ ipython
+Python 3.7.6 (default, Dec 30 2019, 19:38:26)
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.5.0 -- An enhanced Interactive Python. Type '?' for help.
+```
+
+```
+In [1]: print('Hello from IPython')
+Hello from IPython
+```
+
+Get help using single <kbd>?</kbd> or double <kbd>??</kbd> for more detail in certain cases.
+
+```
+In [2]: print?
+Docstring:
+print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Prints the values to a stream, or to sys.stdout by default.
+Optional keyword arguments:
+file:  a file-like object (stream); defaults to the current sys.stdout.
+sep:   string inserted between values, default a space.
+end:   string appended after the last value, default a newline.
+flush: whether to forcibly flush the stream.
+Type:      builtin_function_or_method
+```
+
+Press <kbd>?</kbd> and enter to view help.
+
+```
+In []: ?
+
+IPython -- An enhanced Interactive Python
+=========================================
+
+IPython offers a fully compatible replacement for the standard Python
+interpreter, with convenient shell features, special commands, command
+history mechanism and output results caching.
+
+At your system command line, type 'ipython -h' to see the command line
+options available. This document only describes interactive features.
+
+GETTING HELP
+------------
+...
+```
+
+## Jupyter
+
+- [jupyter.org](https://jupyter.org/)
+    > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
+- Run Jupyter notebooks.
+    - These include markdown, code and output (text and inline graphs and tables) and so are ideal for iterating on code and presenting results.
+    - Previously known as iPython notebooks but now they run more than just iPython. They run Julia, Python and R (hence the name) plus Bash.
+- How it works:
+    - Jupyter runs a Jupyter server with a Python kernel in a specific environment (such as one for your project) - this works locally.
+    - Run and edit the notebook in the browser.
+    - The result can be saved as as `.ipnb` file, so when you start up again you keep the code and output. The notebook file can also be viewed as non-interactive HTML format in an IDE (such as Pycharm) or on Github, making it easy to share your output without needing Python setup to view the notebook.
+- Use with IDEs
+    - Pycharm - see the [Jupyter notebook support](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) doc.
+    - VS Code - see the [Jupyter support](https://code.visualstudio.com/docs/python/jupyter-support) doc.
+
+## Spyder
+
+- [spyder-ide.org](https://www.spyder-ide.org/)
+    > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
+- IDE for running and debugging code interactively and presenting results. 
+- Spyder includes an [IPython](#ipython) console which renders output similar to [Jupyter](#jupyter)
 
 
 ## Anaconda
@@ -17,14 +97,8 @@ It includes things to save you time:
         > Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda® distribution that allows you to launch applications and easily manage conda packages, environments, and channels without using command-line commands
 - Open source Python libraries in base environment
 - One-click installs of managed programs, including:
-    - Jupyter
-        - Run Jupyter Notebooks (aka iPython Notebooks) - these include markdown, code and output (text and graphics) and so are ideal for iterating on code and presenting results.
-        - [jupyter.org](https://jupyter.org/)
-            > Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages.
-    - Spyder IDE 
-        - [spyder-ide.org](https://www.spyder-ide.org/)
-            - IDE for running and debugging code interactively and presenting results.
-            > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
+    - [Jupyter](#jupyter)
+    - [Spyder](#spyder) IDE 
     - VS Code (Visual Studio Code) IDE.
 - Virtual environments
     - Manage through the Anaconda Navigator GUI, or
