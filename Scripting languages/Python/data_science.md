@@ -8,7 +8,21 @@ If you want to use Python for Data Science project, I recommend installing [Anac
 - Python for interactive computing.
 - It includes features like tab autocomplete, doc previews, inline graphs and extended help.
 
+### Install
 Install IPython globally for a particular version of Python. Or install it in a virtual environment.
+
+See the [install](https://ipython.org/install.html) guide on official docs.
+
+Check your version and installed location. For example:
+
+```sh
+$ ipython -V
+7.5.0
+$ which ipython
+/usr/local/bin/ipython
+```
+
+## Usage
 
 Start IPython.
 
@@ -24,7 +38,7 @@ In [1]: print('Hello from IPython')
 Hello from IPython
 ```
 
-Get help using single <kbd>?</kbd> or double <kbd>??</kbd> for more detail in certain cases.
+Get help on an object using the object name and a single <kbd>?</kbd> or double <kbd>??</kbd> for more detail in certain cases.
 
 ```
 In [2]: print?
@@ -40,7 +54,7 @@ flush: whether to forcibly flush the stream.
 Type:      builtin_function_or_method
 ```
 
-Press <kbd>?</kbd> and enter to view help.
+Press <kbd>?</kbd> and enter to view IPython help.
 
 ```
 In []: ?
