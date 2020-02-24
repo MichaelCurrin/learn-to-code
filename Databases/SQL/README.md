@@ -1,5 +1,5 @@
 # SQL
-> Guide for SQL database queries
+> Guide for SQL databases
 
 ## Basic SQL
 
@@ -8,3 +8,12 @@
 ## Intermediate SQL
 
 - https://mode.com/sql-tutorial/sql-aggregate-functions/
+
+## Postgres
+
+- https://www.postgresqltutorial.com/
+
+## MySQL
+
+- https://www.mysqltutorial.org/
+- https://www.tutorialspoint.com/mysql/index.htm
