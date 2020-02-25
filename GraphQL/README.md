@@ -4,7 +4,7 @@ GraphQL is a specification for requesting and returning resources using an API r
 
 ## How to use it
 
-### Serve
+### Serve data
 
 GraphQL is often implemented as a library in languages like Ruby, Python or Node. You can then install and import that library to act as a GraphQL server for local or network requests, similar to a REST API.
 
@@ -12,7 +12,7 @@ A GraphQL server can use anything as a datasource - a SQL or NoSQL database, a s
 
 The data is returned as JSON. The structure is dynamic - it is based on the user's input query. So objects can be nested and paginated.
 
-### Access
+### Request as a client
 
 You can consume a GraphQL in various ways on the client side.
 
