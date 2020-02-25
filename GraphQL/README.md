@@ -16,6 +16,8 @@ From [graphql.org/](https://graphql.org/):
 From [Wikipedia](https://en.wikipedia.org/wiki/GraphQL)
 > GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.[2] GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015
 
+See this blog post - [What is GraphQL and Why I should care](https://medium.com/@javier.ramos1/what-is-graphql-and-why-should-i-care-914138ea039c).
+
 ## How to use it
 
 ### Serve data
