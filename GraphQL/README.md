@@ -32,3 +32,15 @@ You can consume a GraphQL in various ways on the client side.
     - Watch on [Youtube](https://www.youtube.com/watch?v=783ccP__No8) or [Honeypot.io](https://videos.honeypot.io/graphql-documentary-2019/)
     - This covers the history of GraphQL starting in Facebook, around 2012 when they had to keep up with a major shift of their audience to mobile. 
     - I'd highly recommend this video for frontend developers as it makes API queries in React and mobile apps much easier. Or anyone looking to build a REST or GraphQL API.
+- Tutorials
+    - [graphql.org](graphql.org/)
+        - [Introduction to GraphQL](https://graphql.org/learn/)
+        - [Tutorials](https://www.graphql.com/tutorials/) on general, server and client topics.
+            > This is your GraphQL study guide. Learn the fundamentals of schemas and queries, then implement some apps with hands-on step-by-step tutorials.
+    - [How to build a web app with GraphQL and React](https://www.sitepoint.com/how-to-build-a-web-app-with-graphql-and-react/) on Sitepoint.
+- Courses
+    - [GraphQL with React](https://www.udemy.com/course/graphql-with-react-course) on [Udemy](www.udemy.com).
+    - [How to GraphQL](https://www.howtographql.com/)
+        - [Introduction](https://www.howtographql.com/basics/0-introduction/) course on fundamentals.
+        - See also their menu for advanced GraphQL, frontend or backend courses. 
+    - [GraphQL scalable APIs](https://www.pluralsight.com/courses/graphql-scalable-apis) on PluralSight
