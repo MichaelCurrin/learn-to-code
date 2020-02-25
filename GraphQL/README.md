@@ -1,5 +1,8 @@
 # GraphQL
 
+<img width="100px" src="https://raw.githubusercontent.com/graphql/graphql-spec/master/resources/GraphQL%20Logo.svg?sanitize=true">
+<!-- Image link from Wikipedia icon: https://en.wikipedia.org/wiki/GraphQL -->
+
 ## What is GraphQL?
 
 GraphQL is a **specification** - is not a coding or query language or framework.
