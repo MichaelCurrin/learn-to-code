@@ -1,6 +1,6 @@
 # GraphQL
 
-GraphQL is specification for requesting and returning resources using an API request to a single endpoint which only returns the objects and fields requested in the query. It was created by Facebook around 2012 and many services are migrating from using a REST API to GraphQL API for the easy of maintaining GraphQL API and consuming the data.
+GraphQL is a specification for requesting and returning resources using an API request to a single endpoint which only returns the objects and fields requested in the query. It was created by Facebook around 2012 and many services are migrating from using a REST API to GraphQL API for the easy of maintaining GraphQL API and consuming the data.
 
 ## How to use it
 
