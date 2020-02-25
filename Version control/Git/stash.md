@@ -50,13 +50,14 @@ If you omit the stash reference, this is the same as the most recent.
 $ git stash show 
 ```
 
-Or, show a stash by index, where the most recent stash index zero. 
+Show a stash by index, where zero is the most recent.
 
 ```sh
 $ git stash show stash@{0}
-$ git stash show 0  # shorthand
+$ git stash show 0
+```
 
-Show actual modified lines stashed.
+Show actual modified lines in the stash.
 
 ```sh
 $ git stash show -p STASH_REF
@@ -74,6 +75,8 @@ Apply stash and also remove it from the list.
 $ git stash pop STASH_REF
 ```
 
+Note that the number of stashes will decrease. And indexes will change - if you pop stash 0, then stash 1 will be the new stash 0 and so on.
+
 ### Apply
 
 Apply stash _without_ removing it from the list.
@@ -81,6 +84,17 @@ Apply stash _without_ removing it from the list.
 ```sh
 $ git stash apply STASH_REF
 ```
+
+This is useful if you are expecting conflicting changes, as you can make adjustments to your files (such as revert some files to the versioned state, or change to a differnent branch) then try again.
+
+Example:
+
+```sh
+$ git stash apply 2
+$ git checkout .
+$ git stash apply 2
+```
+
 
 ### Create branch
 
