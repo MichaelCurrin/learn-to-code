@@ -144,6 +144,10 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Introduction](https://vuejs.org/v2/guide/index.html)
 - [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
+- Videos
+    - _Vue.js: The Documentary_
+        - [Trailer](https://www.youtube.com/watch?v=2EmYw-O-WLI)
+        - [Full](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 - Courses
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
