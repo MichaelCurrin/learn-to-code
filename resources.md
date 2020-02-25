@@ -16,7 +16,7 @@
     - ORM
 - Web application design
     - RESTful API
-    - GraphQL API
+    - [GraphQL](GraphQL/) API
     - Model View Controller (MVC)
     - Server-side rendering (SSR)
         - Such as PHP and Python applications.
