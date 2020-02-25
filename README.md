@@ -15,6 +15,17 @@ See the folders in this repo to learn about a language such as JavaScript or Pyt
 
 Links I enjoy and would like share.
 
+### 🤩 Popular repos
+
+Lists of Github repos, sorted by various criteria.
+
+- Repos I have [starred](https://github.com/MichaelCurrin?tab=stars) 
+- [Most starred](https://github.com/search?q=stars%3A%3E100&s=stars&type=Repositories)
+- [Most forked](https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
+- [Git most wanted](http://gitmostwanted.com/) - covers the most interesting repos on [GH Archive](https://www.gharchive.org/)
+
+Some links above sourced from [here](https://stackoverflow.com/questions/19855552/how-to-find-out-the-most-popular-repositories-on-github).
+
 ### ⭐ My favorite websites and blogs
 
 - [OpenSource.com](https://opensource.com)
