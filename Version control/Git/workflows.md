@@ -1,4 +1,4 @@
-# Workflows
+# Git Workflows
 > Common sequences of commands to know
 
 Some of these can be memorized, or even added to an alias or shortcut script. If you look it up here, then this is a cheatsheet really.
