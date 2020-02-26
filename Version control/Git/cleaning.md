@@ -2,7 +2,31 @@
 
 Clean up a git repo.
 
-## Remove files
+## Remove unversioned changes using reset and checkout
+
+This is useful if you have paused during a merge or rebase and want to restore to clean files.
+
+Unstage changes. Note that reset is non-destructive to files. This should be done _before_ checkout.
+
+```sh
+$ git reset
+```
+
+Revert files to their version-control state. This is destructive (you'll lose any changes).
+
+```sh
+$ git checkout .
+```
+
+Run that from the root using `.` for current directory, as omitted the path will not do anything. 
+
+You can also specify directories or filenames. Example:
+
+```sh
+$ git checkout foo/ bar/ baz
+```
+
+## Remove files using clean command
 
 Help:
 
