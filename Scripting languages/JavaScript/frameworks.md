@@ -163,6 +163,8 @@ A progressive framework for building user interfaces. It used for developing Sin
         - [Vue](https://egghead.io/browse/frameworks/vue) courses.
     - [Frontend Masters](https://frontendmasters.com)
         - [Vue path](https://frontendmasters.com/learn/vue/).
+    - [Pluralsight](https://app.pluralsight.com/)
+        - [Vue path](https://app.pluralsight.com/paths/skills/vue)
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
 
