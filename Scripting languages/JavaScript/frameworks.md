@@ -33,8 +33,10 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
 - Courses
+    - [Frontend Masters](https://frontendmasters.com/)
+        - [React path](https://frontendmasters.com/learn/react/).
     - [Pluralsight](https://app.pluralsight.com/) (requires a subscription)
-        - [React path](https://app.pluralsight.com/paths/skill/react) of courses
+        - [React path](https://app.pluralsight.com/paths/skill/react).
         - [A practical start with React](https://app.pluralsight.com/library/courses/react-practical-start/table-of-contents)
         - [React: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)
         - [React Fundamentals](https://app.pluralsight.com/library/courses/react-fundamentals-update/table-of-contents)
@@ -100,7 +102,11 @@ It is an open source project used by Google.
 - [Quickstart](https://angular.io/start) to get started in 5 minutes.
 - [Github repo](https://github.com/angular/angular).
     > Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.
+- Courses
+    - [Frontend Masters](https://frontendmasters.com)
+        - [Angular path](https://frontendmasters.com/learn/angular/).
 - [Cheatsheet](https://angular.io/guide/cheatsheet)
+
 
 ### Hello world
 
@@ -142,6 +148,9 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
 - [Introduction](https://vuejs.org/v2/guide/index.html)
+- Courses
+    - [Frontend Masters](https://frontendmasters.com)
+        - [Vue path](https://frontendmasters.com/learn/vue/).
 - [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
 - Videos
