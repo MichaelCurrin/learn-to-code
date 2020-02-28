@@ -154,12 +154,40 @@ irb(main):004:0> Math.sqrt(123)
 
 - [Official site](https://www.ruby-lang.org/en/)
 - Tutorials
-    - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) - the preface recommends a few resources
-    - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html)
-    - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from Ruby docs
+    - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) on _Ruby Monstas_ site - the preface recommends a few resources.
+    - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html) on [rubylearning.com](http://rubylearning.com). There are also tutorials on that site by topic or concept, but I found the site not so friendly so read.
+    - [ruby-lang.org](www.ruby-lang.org) 
+        - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from the Ruby docs.
+        - [To Ruby from Python](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
     - [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
-    - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
-- Ruby libraries
-    - [RubyGems](https://rubygems.org/) website, where gems can be uploaded and downloaded.
-    - [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.
-    - [Jekyll](https://jekyllrb/com) - static site generator.
+    - [Ruby book](https://launchschool.com/books/ruby) on _LaunchSchool.com_. This includes references to loops, hashes, strings and so on in the sidebar.
+    - [culttt.com](https://culttt.com) blog.
+        - [Structs in Ruby](https://culttt.com/2015/04/15/working-with-structs-in-ruby/)
+        - [Symbols in Ruby](https://culttt.com/2015/04/22/what-are-symbols-in-ruby/)
+    - [rubyguides.com](https://www.rubyguides.com) 
+        - Covers topics like how to use queues, how to use methods and from Java to Ruby.
+        - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
+
+
+## Ruby packages
+
+aka "gems"
+
+### Managing gems
+
+- RubyGems
+    - [rubygems.org](https://rubygems.org/) homepage. Gems are uploaded here and can be installed from here. Typically a `Gemfile` will include the line `source "https://rubygems.org”`.
+    - [RubyGem basics](https://guides.rubygems.org/rubygems-basics/).
+    - [Publishing your Gem](https://guides.rubygems.org/publishing/) on RubyGems listing.
+- Bundler
+    - [bundler.io](https://bundler.io/) homepage.
+        > Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
+    - [Bundler Gemfile](https://bundler.io/gemfile.html) guide.
+    - [How to install gems from git repositories](https://bundler.io/guides/git.html)
+- [Github packages documentation](https://help.github.com/en/packages)
+    - [Configuring RubyGems for use with Github pacakges](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages). From list of packages in the Github ecosystem [here](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem).
+ 
+### Recommended gems
+
+- [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.
+- [Jekyll](https://jekyllrb/com) - static site generator.
