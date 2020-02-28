@@ -5,9 +5,13 @@
 
 ## What is GraphQL?
 
-GraphQL is a **specification** - is not a coding or query language or framework.
+GraphQL is a specification for requesting and returning resources using an API request to a single endpoint which only returns the objects and fields requested in the query and in a way that follows the data structure of the query.
 
-It is a specification for requesting and returning resources using an API request to a single endpoint which only returns the objects and fields requested in the query. It was created by Facebook around 2012 and many services are migrating from using a REST API to GraphQL API for the easy of maintaining GraphQL API and consuming the data.
+It includes functionality that makes it flexible like variables (parameters subsituted into your query), pagination and also schema and type validation
+
+It was created by Facebook around 2012 and many services are migrating from using a REST API to GraphQL API for the easy of maintaining GraphQL API and consuming the data.
+
+GraphQL itself only a **specification** which can be implemented - it is not a database or a programming or query language.
 
 From [graphql.org/](https://graphql.org/):
 
@@ -56,7 +60,9 @@ You can consume a GraphQL in various ways on the client side.
     - [How to build a web app with GraphQL and React](https://www.sitepoint.com/how-to-build-a-web-app-with-graphql-and-react/) on Sitepoint.
 - Courses
     - [GraphQL with React](https://www.udemy.com/course/graphql-with-react-course) on [Udemy](www.udemy.com).
+    - [Frontend Masters](https://frontendmasters.com)
+        - [Client-side GraphQL with React](https://frontendmasters.com/courses/client-graphql-react/
     - [How to GraphQL](https://www.howtographql.com/)
         - [Introduction](https://www.howtographql.com/basics/0-introduction/) course on fundamentals.
-        - See also their menu for advanced GraphQL, frontend or backend courses. 
+        - See also their menu for topics like advanced GraphQL, frontend or backend courses. 
     - [GraphQL scalable APIs](https://www.pluralsight.com/courses/graphql-scalable-apis) on PluralSight
