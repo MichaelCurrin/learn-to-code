@@ -33,6 +33,8 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
 - Courses
+    - [Egghead](https://egghead.io/)
+        - [React](https://egghead.io/browse/frameworks/react) courses.
     - [Frontend Masters](https://frontendmasters.com/)
         - [React path](https://frontendmasters.com/learn/react/).
     - [Pluralsight](https://app.pluralsight.com/) (requires a subscription)
@@ -103,6 +105,8 @@ It is an open source project used by Google.
 - [Github repo](https://github.com/angular/angular).
     > Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.
 - Courses
+    - [Egghead](https://egghead.io/)
+        - [Angular](https://egghead.io/browse/frameworks/angular) courses.
     - [Frontend Masters](https://frontendmasters.com)
         - [Angular path](https://frontendmasters.com/learn/angular/).
 - [Cheatsheet](https://angular.io/guide/cheatsheet)
@@ -148,9 +152,6 @@ A progressive framework for building user interfaces. It used for developing Sin
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
 - [Introduction](https://vuejs.org/v2/guide/index.html)
-- Courses
-    - [Frontend Masters](https://frontendmasters.com)
-        - [Vue path](https://frontendmasters.com/learn/vue/).
 - [Examples](https://vuejs.org/v2/examples/)
 - [Github repo](https://github.com/vuejs/vue)
 - Videos
@@ -158,6 +159,10 @@ A progressive framework for building user interfaces. It used for developing Sin
         - [Trailer](https://www.youtube.com/watch?v=2EmYw-O-WLI)
         - [Full](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 - Courses
+    - [Egghead](https://egghead.io/)
+        - [Vue](https://egghead.io/browse/frameworks/vue) courses.
+    - [Frontend Masters](https://frontendmasters.com)
+        - [Vue path](https://frontendmasters.com/learn/vue/).
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
 
