@@ -38,7 +38,7 @@ See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/
 
 - [Software Architecture Fundamentals](https://learning.oreilly.com/videos/software-architecture-fundamentals/9781491998991/9781491998991-video316989) on O’Reilly Online Learning. 9 hour course.
 
-#### 🗼 Domain driven design
+#### 🗼 Domain-driven design
 
 - [Domain-Driven Design Fundamentals](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents) on Pluralsight. 4 hour course.
 - [Software Architecture - Domain Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/) on LinkedIn Learning. 1 hour course.
@@ -84,3 +84,6 @@ Learn to review other developers' code.
 
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMzEwODE4MjBdfQ==
+-->
