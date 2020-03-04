@@ -90,6 +90,8 @@ $ r
 >
 ```
 
+_Note: The above works fine in Bash, but ZSH sees `r` as `Rscript` so doesn't not work as expected._
+
 Enter comamnds in the console. For example, text with and without the print command.
 
 ```r
