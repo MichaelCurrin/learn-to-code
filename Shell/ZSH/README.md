@@ -44,7 +44,17 @@ _Oh my ZSH_ is a config manager for ZSH. By following these guides from _Oh My Z
     ```sh
     upgrade_oh_my_zsh
     ```
-    
+
+### Disable ZSH features
+
+When using ZSH, some things might be unexpected or annoying like case-insenstive autocomplete.
+
+Open your `.zshrc` and change the config lines there.
+
+See also:
+
+- [Disabling Autocorrect in Zsh](https://coderwall.com/p/jaoypq/disabling-autocorrect-in-zsh) blog post.
+
 ### Usage
 
 - [Learn the basics of the ZSH shell](https://linuxconfig.org/learn-the-basics-of-the-zsh-shell)
