@@ -83,14 +83,12 @@ Open a script in R Studio and press the run button.
 
 #### Interactive mode
 
-In the shell terminal, you can open an interactive _R_ console like this.
+In the shell terminal, you can open an interactive _R_ console like this using uppercase or lowercase letter.
 
 ```sh
 $ r
 >
 ```
-
-_Note: The above works fine in Bash, but ZSH sees `r` as `Rscript` so doesn't not work as expected._
 
 Enter comamnds in the console. For example, text with and without the print command.
 
