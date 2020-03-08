@@ -11,14 +11,14 @@ Dir.pwd
 
 Note that is where a script is executed **from** in the terminal and not where the target script lives, which is covered next.
 
-Absolute directory of the current script. [docs](https://www.rubydoc.info/stdlib/core/Kernel:__dir__).
+Absolute directory of the current script. [`__dir__` docs](https://www.rubydoc.info/stdlib/core/Kernel:__dir__).
 
 ```ruby
 __dir__
-"/home/user/foo/bar"
+# => "/home/user/foo/bar"
 ```
 
-Path to current file.
+Path to current file, relative to working directory.
 
 ```ruby
 __FILE__
@@ -28,9 +28,23 @@ __FILE__
 Name of current file.
 
 ```ruby
-File.basename _FILE__
+File.basename __FILE__
 # => "baz.rb"
 
+# Arbitrary path.
 File.basename 'foo/bar/baz.rb'
 # => "baz.rb"
+```
+
+Parent directory of file or directory. [`dirname` docs](https://apidock.com/ruby/v2_5_5/File/dirname/class)
+
+```ruby
+File.dirname __FILE__
+# => "foo/bar"
+
+File.dirname 'foo/bar/baz.rb'
+=> "foo/bar"
+
+File.dirname 'foo/bar/'
+=> "foo"
 ```
