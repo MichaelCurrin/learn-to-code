@@ -71,20 +71,21 @@ It also makes it easier to manage work when multiple people are working on a pro
     - You can still make changes on `master` directly. This is useful for changes to a few lines or one file, where a feature branch feels like unnecessary admin and where the risk is low.
     - You can even enforce a rule on Github to prevent editing directly on the `master` branch, requiring a pull request. 
         - This is useful to avoid contributors committing to `master` when that is unwanted. If you use automated tests (Github actions) and restrict a PR to only be mergeable when the tests pass, this also means that `master` will always be in a passing state (no work-in-progress or buggy work).
-        
-## Squashing
 
-Another option is to do trunk-based development but put a large amount of changes in each commit. Either by adding a lot of changes before committing, or squashing a bunch of commits (on master or a feature branch) into a single commit. You can even use the Squash Merge option on a Pull Request.
-
-The problem is that you lose the granularity of changes made and you can't roll back to a certain point in the change feature or see when a bug was introduced, since everything is reduce to a single commit with one message explaning the whole feature.
-
-### How to add branch protection rules:
+### How to add branch protection rules
 
 - Go to Settings page for the repo, then Branches and add or edit a branch protection rule for `master`.
 - _Require pull request reviews before merging_ - This might be good for working with collaborators or non-collaborator pull requests, however if this option is on it is also enforced for you as the repo owner. And since you cannot review your own pull request, it becomes impossible to merge a PR alone.
 - _Require status checks to pass before merging_ - A more useful option that ensures all checks on commit pass before merging (more practically, the Pull Request's latest commit must pass the check).. This works well if you have Github Actions setup, such as linting and unit tests for a Python project, or Github Pages build check (which can run on a feature branch even if not actually deployey to a live site. You can check one or more check options below. I find sometimes that the same check can appear multiple times with slighltly different names, so this should be cleaned up manually sometimes.
 - _Include administrators_ - I recommended keeping this ticked too, so that the rule applies to you as the owner.
 - Note that on the free tier that some you cannot apply _any_ branch protection rules. You can add private collaborators, but make sure you trust them as you can't stop them from deleting branches, force-pushing to master or adding to master without a Pull Request.
+       
+### Squash merging
+
+Another approach is to do trunk-based development but put a large amount of changes in each commit. Either by adding a lot of changes before committing, or squashing a bunch of commits (on master or a feature branch) into a single commit. You can even use the Squash Merge option on a Pull Request.
+
+The problem is that you lose the granularity of changes made and you can't roll back to a certain point in the change feature or see when a bug was introduced, since everything is reduce to a single commit with one message explaning the whole feature.
+
 
 ## Tagging
 
