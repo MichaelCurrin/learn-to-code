@@ -12,7 +12,7 @@ When you make a change (such as add, remove or modify or more files), you have t
 
 Commits means you can choose to deploy a certain version of your code (sometimes marked with a _tag_ for ease. And roll back to a certain commit.
 
-## Version control hosting services
+## Repo hosting services
 
 You can use an online service to interact with a `git` repository and use that service to share your work publically or in a private team. A public project can optionally allow open-source contributions from the dev community.
 
@@ -47,13 +47,15 @@ Github on the free tier lets you have unlimited repos and contributors on your p
 - [Self-hosted](https://about.gitlab.com/pricing/#self-managed) option.
 
 
-## Trunk-based development vs feature branches
+## Branches
 
-### Why trunk-based?
+### What is trunk-based development?
 
 If you do all development on your `master` branch and commit directly to it, that is trunk-based development. This is convenient for small pieces of work or if you are working alone, as the admin of managing a feature branch and Pull Request might outweight the benefit of just getting a new change in.
 
-### Why a feature branch?
+### What is feature branch development?
+
+Create a new branch starting from `master`, make changes (bug fixes or feature), add the changes as commits on your branch (keeping `master` clean) and then merge back to `master` when you are ready. The flow usually involves pushing the feature branch to Github, creating a Pull Request and getting it reviewed by others, then only after it has passsed reviews you merge the Pull Request (and therefore merging the feature branch to `master`. Even alone, it is still good practice to go through the Pull Request in the browser though you can't actually leave a review on your own Pull Request. It is usually safe to delete the feature branch after that. Any new development will probaby be done on a new branch name.
 
 The advantange of a feature branch and Pull Request is that is all related work across many commits is grouped together. Which is easy to review before merging. Also Pull Requests do not get deleted even if feature branches do, so you can always go back to an old Pull Request and see what happened in it. 
 
@@ -83,3 +85,15 @@ The problem is that you lose the granularity of changes made and you can't roll 
 - _Require status checks to pass before merging_ - A more useful option that ensures all checks on commit pass before merging (more practically, the Pull Request's latest commit must pass the check).. This works well if you have Github Actions setup, such as linting and unit tests for a Python project, or Github Pages build check (which can run on a feature branch even if not actually deployey to a live site. You can check one or more check options below. I find sometimes that the same check can appear multiple times with slighltly different names, so this should be cleaned up manually sometimes.
 - _Include administrators_ - I recommended keeping this ticked too, so that the rule applies to you as the owner.
 - Note that on the free tier that some you cannot apply _any_ branch protection rules. You can add private collaborators, but make sure you trust them as you can't stop them from deleting branches, force-pushing to master or adding to master without a Pull Request.
+
+## Tagging
+
+The git tool and the online version control systems let you add a _tag_ to a specific commit. This is usually to mark a certain commit on `master` with a label such as `v1.2.0`. This is a way to mark a working state of your code with a milestone, usually including one or more significant changes since the previous tag.
+
+A tag is immutable (cannot be edited), though it can be deleted and recreated (both locally and on Github), though you should generally think of a tag as permanent.
+
+While deploying `master` will give you the latest changes, deploying a certain _tag_ allows you to pick a commit on `master` that is safe (considered ready for deployment).
+
+Tagging also helps when making your project installable as a versioned package. If you mark your code as version `v1.2.0` and publish that code on a Ruby or Python package index under the same version, then other projects can install that version and choose to lock their project to use a specific tag. Which means you can keep adding to `master` and keep creating new tags which might cause breaking changes for backwards-compatibility, but other projects will only get a newer tag if they choose to. Say you release `v2.0.0` with a breaking changing, then another project can update their package list to pull in `v2.0.0`. But the project owners will make sure it works with their project properly before committing to the new locked version.
+
+Omitting a tag version when installing external dependencies means the latest version on `master` will be used whenever you deploy or install - this is fine for some hobby projects but introduces risk for more important projects that people rely on (whether the end-product or the code).
