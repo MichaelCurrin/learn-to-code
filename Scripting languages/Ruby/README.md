@@ -153,13 +153,14 @@ irb(main):004:0> Math.sqrt(123)
 ## Resources
 
 - [Official site](https://www.ruby-lang.org/en/)
-- Tutorials
+- Tutorials for starting Ruby.
     - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) on _Ruby Monstas_ site - the preface recommends a few resources.
     - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html) on [rubylearning.com](http://rubylearning.com). There are also tutorials on that site by topic or concept, but I found the site not so friendly so read.
     - [ruby-lang.org](www.ruby-lang.org) 
         - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from the Ruby docs.
         - [To Ruby from Python](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
     - [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
+- Tutorials beyond the basics
     - [Ruby book](https://launchschool.com/books/ruby) on _LaunchSchool.com_. This includes references to loops, hashes, strings and so on in the sidebar.
     - [culttt.com](https://culttt.com) blog.
         - [Structs in Ruby](https://culttt.com/2015/04/15/working-with-structs-in-ruby/)
@@ -167,11 +168,12 @@ irb(main):004:0> Math.sqrt(123)
     - [rubyguides.com](https://www.rubyguides.com) 
         - Covers topics like how to use queues, how to use methods and from Java to Ruby.
         - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
-
+    - [Mastering ruby blocks](https://mixandgo.com/learn/mastering-ruby-blocks-in-less-than-5-minutes) on _Mix and Go_ site.
+    - [Blocks, procs and lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) on _Ruby Guides_ site.
 
 ## Ruby packages
 
-aka "gems"
+Also known as "gems".
 
 ### Managing gems
 
