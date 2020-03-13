@@ -5,17 +5,27 @@ const sites = {
     b: 'def'
 };
 
+// Using `in` for associative array gives keys.
+for(let key in sites) {
+    let value = sites[key];
+    console.log(key, value);
+}
+// a abc
+// b def
+
+
 // This is functional programming style but not so readable.
-var pagesList = Object.keys(sites).reduce(function(arr, domain) {
-    arr.push({
-        domain: domain,
-        url: sites[domain]
-    });
-    return arr;
-}, []);
+var pagesList = Object.keys(sites)
+    .reduce(function(arr, domain) {
+        arr.push({
+            domain: domain,
+            url: sites[domain]
+        });
+        return arr;
+    }, []);
 console.log(pagesList);
 
-// Iterate over keys and then lookup value using keys.
+// Iterate over keys and then lookup value using keys. Note that forEach does not return like map does.
 var pagesList = [];
 Object.keys(sites).forEach(function(domain) {
     let value = sites[domain];
