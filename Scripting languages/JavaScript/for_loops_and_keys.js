@@ -44,3 +44,22 @@ const obj = { a: 5, b: 7, c: 9 };
 for (const [ key, value ] of Object.entries(obj)) {
     console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
 }
+
+
+// Get values and indexes of an array.
+console.log( ['a','b','c'].map((x, y) => [x, y]) )
+// [ [ 'a', 0 ], [ 'b', 1 ], [ 'c', 2 ] ]
+
+
+// Unpack associative array (hash) as keys and values.
+var myHash = { a: 10, b: 200 };
+
+Object.entries(myHash))
+// [ [ 'a', 10 ], [ 'b', 200 ] ]
+
+> Object.entries(myHash).map((x) => `${x[0]}=${x[1]}`)
+[ 'a=10', 'b=200' ]
+
+// Note that entries gives an array of pairs, so if you try and use two parameters in the map function you'll get the index rather than split key and value.
+// Therefore using 0 and 1 indexing is easiest.
+
