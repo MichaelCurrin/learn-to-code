@@ -14,7 +14,7 @@ Some highlights:
 - [Bash](/Shell/Bash)
 - [Git](/Version\ control/Git)
 
-Each section has a README file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally if you clone this repo.
+Each section has a _README_ file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally if you clone this repo.
 
 ## 📚 Resources
 
@@ -24,9 +24,9 @@ Each section has a README file, with instructions to install and run the languag
 
 - [Recommended](/recommended.md) - External links I enjoy and would like share with others.
 
-
+##  Absolute intro to coding
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI4MTgwMjYsLTYxODM5MzU1NCwxMz
-E4MjYxNTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2
-MTczXX0=
+eyJoaXN0b3J5IjpbMTY2NjQ2MDAzMiwtNjE4MzkzNTU0LDEzMT
+gyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYx
+NzNdfQ==
 -->
