@@ -18,13 +18,13 @@ Below are some departments or careers within tech that I am familiar with. These
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up. 
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
 - The popular modern languages are:
-	- Java - server-side applications and user interfaces, also websites
+	- Java - server-side applications and user interfaces, also websites.
 	- C# (C Sharp) - as above
 	- Python - as above, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
-	- Ruby - Fullstack web development, but also capable of 
-	- PHP
-	- JavaScript- 
+	- Ruby - Fullstack web development
+	- PHP - also fullstack.
+	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both.
 
 ### Web development
 
@@ -174,6 +174,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTIwNTcwODA3LC05ODU3NzEx
-MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstMjA3MjU0MjMxMywtOTg1Nzcx
+MTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
 -->
