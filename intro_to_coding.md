@@ -83,7 +83,10 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 - On the visual side, a company might have some people who specialize in design.
 - They might make flat images and graphics, which the web developers slice up and turn into a website.
-- Or the designers might actually make a mock-up that actually works as basic website or app, or a least serves 
+- Or the designers might actually make a mock-up that actually works as basic website or app, or a least serves as a design that can be converted into HTML and CSS.
+- There are tools out there which allow you to focus completely on the design and content without having to code. These are also g For example:
+	- [Wordpress](https://wordpress.com)
+	- [Wix](https://wix.com)
 
 ### Data Science
 
@@ -134,6 +137,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjYzNDc2NTk1LC05ODU3NzEx
-MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOls3NzQ5Njc2MTIsLTk4NTc3MTEw
+MywtODM3OTMyMTY0LC0xNzc5MTQzMjg2XX0=
 -->
