@@ -21,7 +21,13 @@
 
 ### Courses
 
-- [Learn SQL](https://www.codecademy.com/learn/learn-sql) on *codecademy.com*.
+- [Learn SQL](https://www.codecademy.com/learn/learn-sql) interactive course with coding environment. On *codecademy.com*.
+
+### Books
+
+Ebook
+
+- [Database System Concepts](https://www.db-book.com/db6/toc-dir/toc.pdf) from https://www.db-book.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODgzMDIyOV19
+eyJoaXN0b3J5IjpbLTU3OTkzNTAwN119
 -->
