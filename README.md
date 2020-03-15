@@ -16,7 +16,7 @@ Improve your coding skills in various languages by going through the content of 
 
 ## Who am I, what is my background?
 
-- I studied and start
+- I studied and started working in Marketing with a focus on digital marketing, so have a good idea of advertising, social media, digital marketing, measuring success and how to analyze and visualize data around brand an
 - While working in the field of marketing, I started learning Python for free on [codecademy.com/](https://www.codecademy.com/).
 - 
 
@@ -25,7 +25,7 @@ Improve your coding skills in various languages by going through the content of 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODk5MzY4OSwtNzI5NjA5Nzg3LC02MT
+eyJoaXN0b3J5IjpbMTY5MTkzMzA0MSwtNzI5NjA5Nzg3LC02MT
 gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
 NjUsMTY4MTgxNjE3M119
 -->
