@@ -11,7 +11,9 @@ Specify properties like dimensions, color and text and generate an image using a
 
 - [placeholder.pics](https://placeholder.pics/)
 
-This site has an easy form to generate URLs. 
+Generate links to custom SVG images.
+
+> The lightest way to include placeholder pictures in your designs. All images are lovingly served up as sub-kilobyte, fully optimized Scalable Vector Graphics (SVG) in any size or color you need. You can even add a short label to keep track of what goes where in your designs and mockups. 
 
 Examples:
 
