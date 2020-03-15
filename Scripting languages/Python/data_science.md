@@ -6,20 +6,19 @@ If you want to use Python for Data Science project, I recommend installing [Anac
 
 Python libraries commonly used for data science. A lot of these are very popular and come up often in tutorials. They are often optimized for performance (often with C code written to fine tune them).
 
-Data processing
+- Data processing
 	- Numpy
 		- For working with arrays and similar data structures.
 	- Pandas
-		- Particularly for dataframes
+		- Particularly used for its dataframes, which actually come from the [R](/Scripting%20languages/R) language.
+		- Built on Numpy.
 		- Used for reading or writing a tabular source like a CSV.
-		- Used performing tasks file sorting, filtering or searching a table or a vector. Doing
-		- Based on R's dataframes.
-		- Built on Numpy
-- Machine Learning topic:
+		- Used for performing tasks file sorting, filtering or searching a table or a vector. These would be tedious and less performant if done without use of the library.
+- Machine Learning:
 	- Sci-kit learn
 	- TensorFlow
 	- Keras
-- Dataviz topic
+- Dataviz:
 	- NetworkX
 	- Bokeh
 
@@ -263,5 +262,5 @@ Show installed packages.
 $ conda list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDE4NTg4XX0=
+eyJoaXN0b3J5IjpbMTgzOTc3NzMzXX0=
 -->
