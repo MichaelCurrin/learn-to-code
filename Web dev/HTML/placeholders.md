@@ -1,11 +1,47 @@
-# Placeholder images
-> List of providers of placeholder image URLs for your web app
+# Placeholders
+> List of providers of placeholder content for your web app
+
+
+## Images
+
+Specify properties like dimensions, color and text and generate an image using a URL.
+
+
+### Placeholder pics site
+
+- [placeholder.pics](https://placeholder.pics/)
+
+This site has an easy form to generate URLs. 
+
+Examples:
+
+`https://placeholder.pics/svg/150`
+
+![placeholder.pics 150](https://placeholder.pics/svg/150)
+       
+
+`https://placeholder.pics/svg/150/FF8D42-FFE2F1/000000-000000/Sample%20label`
+
+![placeholder.pics custom](https://placeholder.pics/svg/150/FF8D42-FFE2F1/000000-000000/Sample%20label)
+  
+
+If you look around their site they also have guides on other content such as text. This one covers how to generate Lorem ipsum using IDE extensions. [placeholder.com/text/lorem-ipsum](https://placeholder.com/text/lorem-ipsum/)
+
+
+### Placeholder site
 
 - [placeholder.com](https://placeholder.com/)
-    > The Free Image Placeholder Service Favoured By Designers
-    >
-    > You can specify image size & format (.GIF, .JPG, .PNG, .WEBP), background color & text color, as well as the text
-    - e.g. 
-        - `http://via.placeholder.com/640x360`
-        - ![placeholder 640x360](http://via.placeholder.com/640x360)
-- [21 placeholder image generators](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)
+
+> The Free Image Placeholder Service Favoured By Designers
+>
+> You can specify image size & format (.GIF, .JPG, .PNG, .WEBP), background color & text color, as well as the text
+
+Example:
+
+`http://via.placeholder.com/200x150`
+
+![placeholder 200x150](http://via.placeholder.com/200x150)
+
+### Other
+
+[21 placeholder image generators](https://loremipsum.io/21-of-the-best-placeholder-image-generators/)
