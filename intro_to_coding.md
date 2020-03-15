@@ -8,7 +8,7 @@ Below are some departments or careers within tech that I am familiar with. These
 
 ### Programming
 
-- As a central way to start, "programming", "development", "software engineering" and "
+- As a central way to start, "programming", "development", "software engineering" and "coding" are all the same thing. Though, one could argue that a _developer_ just develops based on specifications they are given, while an _engineer_ looks at the wider architecture before deciding on a solution.
 
 ### Web development
 
@@ -158,6 +158,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTc2MDE4NTQ3OSwtOTg1Nzcx
-MTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNzg5NDMyMDAwLC05ODU3NzEx
+MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
 -->
