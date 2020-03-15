@@ -3,23 +3,20 @@
 
 Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit. If you want to contribute, I welcome any corrections or enhancements.
 
-## ⌨ Language-specific guides
+## Structure of this project
 
+- ⌨ Language-specific guides
+- 📚  [Resources](/resources.md) - for learning concepts in programming. Includes some external links.
 
+## Recommended
 
-## 📚 Resources
-
-- [Resources](/resources.md) - for learning concepts in programming. Includes some external links.
-
-## 🌐 Recommended
-
-- [Recommended](/recommended.md) - External links I enjoy and would like share with others.
+- 🌐 [Recommended](/recommended.md) - External links I enjoy and would like share with others.
 
 ## 👨‍🏫 Absolute intro to coding
 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4OTg0MjE5LC02MTgzOTM1NTQsMTMxOD
+eyJoaXN0b3J5IjpbLTg1ODA1OTAyLC02MTgzOTM1NTQsMTMxOD
 I2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0NjUsMTY4MTgxNjE3
 M119
 -->
