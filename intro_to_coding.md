@@ -79,6 +79,10 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- Wordpress is an open-source library available for building a blog, which you can host somewhere or on the Wordpress website itself.
 		- Moodle is similar to Wordpress.
 
+### Design
+
+- On the visual side, a company mg
+
 ### Data Science
 
 - Data Scientists deal with **pulling** in data from a variety of data sources which might be things like text files or CSV files, Google Sheets, images on a server, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
@@ -128,6 +132,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTg1NzcxMTAzLC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNzY5MTE0OTI2LC05ODU3NzEx
+MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
 -->
