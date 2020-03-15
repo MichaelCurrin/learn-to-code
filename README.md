@@ -3,7 +3,7 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/learn-to-code/blob/master/LICENSE)
 
-Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit. 
+Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit.
 
 ## Structure of this project
 
@@ -22,7 +22,7 @@ Improve your coding skills in various languages by going through the content of 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDM3MTQ5MCwtNzI5NjA5Nzg3LC02MT
-gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
-NjUsMTY4MTgxNjE3M119
+eyJoaXN0b3J5IjpbMTUzNjcxMzg3MCwtMzYwMzcxNDkwLC03Mj
+k2MDk3ODcsLTYxODM5MzU1NCwxMzE4MjYxNTg1LDI4Nzc1NzEx
+NSwtMTk4OTQ5MTQ2NSwxNjgxODE2MTczXX0=
 -->
