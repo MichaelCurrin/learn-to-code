@@ -12,12 +12,12 @@ The roadmaps can get long and detailed, but pick starting point and few steps af
 Sometimes you can learn a few topics at once when topics complement each other e.g. HTML + CSS, or HTML + JavaScript.
 
 
-|  |  |
+| Link | Description |
 |--|--|
-|https://roadmap.sh/  |  |
-[Web Developer Roadmaps: All In One Place](https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0) on [medium.com](https://medium.com) blog. This page has a couple of roadmaps to choose from.
+| [roadmap.sh/](https://roadmap.sh/) | Developer roadmaps  |
+| [Web Developer Roadmaps: All In One Place](https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0) | This page has a couple of roadmaps to choose from. On [medium.com](https://medium.com) blog.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTc0MDk0NTQ4NiwtMTc3OTE0
-MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxNjEwMzI5MTc4LC0xNzc5MTQz
+Mjg2XX0=
 -->
