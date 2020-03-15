@@ -9,7 +9,7 @@ Improve your coding skills in various languages by going through the content of 
 
 | Title | Description  |
 | -- | -- |
-| 👨‍🏫 [Absolute intro to coding](/intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.
+| 🤷 [Absolute intro to coding](/intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.
 | 📚 [Resources](/resources.md) | For learning concepts in programming. Includes some external links. |
 | ⌨ [Language-specific guides](/language_guides.md)  | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses |
 | 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
@@ -19,7 +19,7 @@ Improve your coding skills in various languages by going through the content of 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDcyNjYxNCwtNzI5NjA5Nzg3LC02MT
+eyJoaXN0b3J5IjpbLTY5MzUzNDQ4OCwtNzI5NjA5Nzg3LC02MT
 gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
 NjUsMTY4MTgxNjE3M119
 -->
