@@ -5,8 +5,6 @@
 
 Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit.
 
-## Structure of this project
-
 | Title | Description  |
 | -- | -- |
 | 🤷 [Absolute intro to coding](/intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.
@@ -26,8 +24,8 @@ Read more about my experience and histoy on my blog [michaelcurrin.github.io/cod
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjAwOTAwNywtNTQ0NzczNDg2LC0zNj
-AzNzE0OTAsLTcyOTYwOTc4NywtNjE4MzkzNTU0LDEzMTgyNjE1
-ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYxNzNdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MDkwNjQxODQsLTU0NDc3MzQ4NiwtMz
+YwMzcxNDkwLC03Mjk2MDk3ODcsLTYxODM5MzU1NCwxMzE4MjYx
+NTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2MTczXX
+0=
 -->
