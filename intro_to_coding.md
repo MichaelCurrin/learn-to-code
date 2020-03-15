@@ -75,13 +75,13 @@ These descriptions are very simplified but aims to give info someone starting ou
 			4. Read an HTML template for page to return.
 			5. Insert the data into the template.
 			6. Return the page as finished HTML.
-		- There may be an admin view which for autho
+		- There may be an admin view which for authorized users to create and edit web pages.
 		- Wordpress is an open-source library available for building a blog, which you can host somewhere or on the Wordpress website itself.
 		- Moodle is similar to Wordpress.
 
 ### Data Science
 
-- Data Scientists deal with **pulling** in data from a variety of data sources which might be things like text or CSV files, images, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
+- Data Scientists deal with **pulling** in data from a variety of data sources which might be things like text files or CSV files, Google Sheets, images on a server, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
 - A lot of the work is often **processing** the data - understanding the structure and cleaning it so it is consistent and easy work with.
 - Data Scientists create reports from the data so that they can make sense of it and give recommendations, or they make the data available for other departments to use. Output might be a CSV, a web report or dashboard, graphs, a PDF or an email report.
 - With Data Science, you might also find more specialized positions like Data Engineers or Data Analysts.
@@ -92,7 +92,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- For example: Stata, Statistica
 		- [List of Statiscal Software](https://en.wikipedia.org/wiki/List_of_statistical_software)
 	- Dashboarding tools
-		- For example: Excel, Google Sheets, Tableau, Google Data Studio
+		- For example: Google Sheets, Tableau, Google Data Studio
 	- Scripting languages
 		- [R](/Scripting\ languages/R)
 		- [Python](/Scripting\ languages/Python)
@@ -128,6 +128,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTYxNjQxMDE4NywtODM3OTMy
-MTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstOTg1NzcxMTAzLC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
