@@ -25,7 +25,7 @@
 
 ### Books
 
-- Database System Concepts](https://www.db-book.com/db6/toc-dir/toc.pdf) from [db-book.com/](https://www.db-book.com/).
+- Database System Concepts on [db-book.com/](https://www.db-book.com/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDQzNTY2MV19
+eyJoaXN0b3J5IjpbLTgwODcxOTAwMF19
 -->
