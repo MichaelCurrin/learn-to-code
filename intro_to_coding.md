@@ -18,13 +18,13 @@ Below are some departments or careers within tech that I am familiar with. These
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up. 
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
 - The popular modern languages are:
-	- Java - server-side applications and user interfaces, also websites.
-	- C# (C Sharp) - as above
+	- Java - server-side applications and desktop user interfaces, also websites.
+	- C# (C Sharp) - as above.
 	- Python - as above, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
 	- Ruby - Fullstack web development
 	- PHP - also fullstack.
-	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both.
+	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as with Electron) or mobile appl
 
 ### Web development
 
@@ -55,7 +55,7 @@ Below are some departments or careers within tech that I am familiar with. These
 		- For styling.
 		- This adds styling to the website, such font, color, background image, layout.
 		- Styling can be added on a certain element or at the top of the page, but often some base CSS styling is applied to the entire website. Using an existing or custom-built theme. 
-	- [JavaScript](/Scripting\ languages/JavaScript)
+	- [JavaScript](/Scripting%20languages/JavaScript)
 		- For behavior
 		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed, all without having to reload the entire page, but just the part that needs to change.
 		- While HTML has elements which can do validation (such as a username must match a regex pattern), JavaScript can be used to do validation which is more complex and give you live feedback. For example, you can type a username to register and web requests are fired in the background to check if it exists and then you get a green indicator say that it is not taken, all before you actually click a submit button. 
@@ -72,7 +72,7 @@ Below are some departments or careers within tech that I am familiar with. These
 	- React Native
 		- Based on the JavaScript _React_ framework.
 		- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
-	- [Dart](/Scripting\ languages/Dart)
+	- [Dart](/Scripting%20languages/Dart)
 		- The Dart language includes Flutter - a library for making mobile apps and UI components.
 		- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
 
@@ -122,8 +122,8 @@ Below are some departments or careers within tech that I am familiar with. These
 	- Dashboarding tools
 		- For example: Google Sheets, Tableau, Google Data Studio
 	- Scripting languages
-		- [R](/Scripting\ languages/R)
-		- [Python](/Scripting\ languages/Python)
+		- [R](/Scripting%20languages/R)
+		- [Python](/Scripting%20languages/Python)
 
 ### Artificial Intelligence
 
@@ -174,7 +174,7 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDk2OTY2NTk3LC0yMDcyNTQy
-MzEzLC05ODU3NzExMDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl
-19
+BnZm1cbiIsImhpc3RvcnkiOls2MTU2MTYxNTMsMjA5Njk2NjU5
+NywtMjA3MjU0MjMxMywtOTg1NzcxMTAzLC04Mzc5MzIxNjQsLT
+E3NzkxNDMyODZdfQ==
 -->
