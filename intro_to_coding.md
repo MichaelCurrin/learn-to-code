@@ -19,9 +19,9 @@ Sometimes you can learn a few topics at once when topics complement each other e
 |--|--|
 | [roadmap.sh/](https://roadmap.sh/) | Developer roadmaps  |
 | [Web Developer Roadmaps: All In One Place](https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0) | This page has a couple of roadmaps to choose from. On [medium.com](https://medium.com) blog. |
-| [Web developer roadmaps](https://www.w3schools.com/whatis/) | On [w3schools.com](www.w3schools.com).
+| [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML"This guides you through some things to learn and then links to them on the same site. This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzA1MzE1NDA4LC0xNzc5MTQz
+BnZm1cbiIsImhpc3RvcnkiOlstMzIzMTA3NTA5LC0xNzc5MTQz
 Mjg2XX0=
 -->
