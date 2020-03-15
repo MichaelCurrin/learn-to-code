@@ -14,28 +14,15 @@ Improve your coding skills in various languages by going through the content of 
 | ⌨ [Language-specific guides](/language_guides.md)  | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses |
 | 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
 
-## Who am I, what is my background?
 
-- I studied and started working in Marketing with a focus on digital marketing, so have a good idea of advertising, social media, digital marketing, measuring success and how to analyze and visualize performance data of brands.
-- While working in the field of marketing, I started learning Python for free on [codecademy.com/](https://www.codecademy.com/).
-- In 2017, I started my first tech job as Backend Developer.
-- I have since picked up a lot of experienced in work projects and continue to keep my skills sharp with personal projects and community projects and learning new languages, libraries and concepts.
-- Some of my favorite topics 
-	- Web scraping (Using Python)
-	- Social media data analysis (Using social media APIs and Pythong)
-	- Data viz (with Google Data Studio, D3 and Python libraries)
-	- Static site building (Using mostly Jekyll and a bit of Hugo)
-	- Web applications (I've worked with Flask, CherryPy and Django)
-	- Databases (I've worked with MySQL, Postgres, SQLite and MongoDB)
-	- GraphQL (Fetching data from APIs like Github V4 API and a bit of setting up my own API).
-	- DevOps (I've work with deploy and backup pipelines and containerizing an application
+
 
 ## Contributing
 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Nzk5MzQxMiwtNzI5NjA5Nzg3LC02MT
+eyJoaXN0b3J5IjpbLTM2MDM3MTQ5MCwtNzI5NjA5Nzg3LC02MT
 gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
 NjUsMTY4MTgxNjE3M119
 -->
