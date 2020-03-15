@@ -8,6 +8,11 @@ Below are some departments or careers within tech, what they do or are responsib
 
 These descriptions are very simplified but aims to give info someone starting out with a tech career, or someone with a business background to wants to understand their tech colleagues better or pick a technology to learn.
 
+### Web development
+
+- This includes building websites and mobile apps.
+- One might focus on the backend 
+
 ### Data Science
 
 - Data Scientists deal with **pulling** in data from a variety of data sources which might be things like text or CSV files, images, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
@@ -28,14 +33,14 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 ### Artificial Intelligence
 
-- Within Data Science is the field of Artificial Intelligence or _AI_. This will still involve a lot of stats and fetching and processing data. The output might be a report or recommendation, or it might a script or a website service which can give answers to a problem using inputs you give it and using the logic and data which the algorithm was trained on.
+- Within Data Science is the field of Artificial Intelligence or _AI_. This will still involve a lot of statistical techniques and  also fetching and processing data. The output might be a report or recommendation, or it might a script or a website service which can give answers to a problem using inputs you give it and using the logic and data which the algorithm was trained on.
 - AI covers things like anomaly detection, financial forecasting, weather prediction, image recognition, self-driving cars, robots and detecting errors in production lines.
 - One part of AI is Machine Learning or _ML_, which usually means training an algorithm to generate a score or probability or categorize an item. Usually there is a define outcome and some rule which a human writes and tweaks. A lot of Machine Learning can be done using stats techniques which are decades old. One way to get started is using the Python [Scikit-Learn](https://scikit-learn.org/)  library.
 - A newer area of AI is Neural Networks, which deals with a kind of learning which is similar to how connections build up between neurons in the brain in training and then when a condition is met later then the neurons fire. This is good for tasks which are hard to define using rules. 
 - There are many approaches to training algorithms.
 	- Supervized learning means that humans label the training data and then the algorithm has go get accurate and making predictions based on that data. 
 	- Unsupervized learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label. Or you don't know what you are looking for out of hundreds of columns of data but you want to do data mining where algorithm figures out what is important and how data points relate to each other.
-	- Reinforcement learning is a reward-based system where the algorithm is given a goal and when it gets closer to that it is rewarded and so the behavior is reinforced. For example, training a robot car to drive at the right speed and ma
+	- Reinforcement learning is a reward-based system where the algorithm is given a goal and when it gets closer to that it is rewarded and so the behavior is reinforced. For example, training a robot car to drive at the right speed, turn corners and recognize objects in order to get the fastest lap time and not crash.
 
 
 ## Roadmaps
@@ -57,6 +62,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTgxNDk5OTQ2LC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTAyMzgwODgyNCwtODM3OTMy
+MTY0LC0xNzc5MTQzMjg2XX0=
 -->
