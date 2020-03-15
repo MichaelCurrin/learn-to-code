@@ -22,7 +22,7 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
     - [Programming](https://medium.com/topic/programming)
     - [Software engineering](https://medium.com/topic/software-engineering)
     - [Data Science](https://medium.com/topic/data-science)
-- [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
+- [Towards Data Science](https://towardsdatascience.com/) (see topics like Data Science, AI, Python, Machine Learning)
 - [Flowing Data](https://flowingdata.com)
 
 ## 🛠 Online tools
@@ -56,5 +56,5 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyODU4OTcwMjJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNTgyNjA0OTIwXX0=
 -->
