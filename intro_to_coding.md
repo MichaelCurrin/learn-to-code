@@ -41,7 +41,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- For behavior
 		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed without having to reload the entire page, but just the part that needs to change. 
 		- JavaScript is also what creates pop-ups (pleasant or annoying) on a website.
-		- Some websites are built with a focus 
+		- Some websites are built with such as reliance on JavaScript that the page may lose its main functionality and it may even be reduced or a white page or placeholder icon (see Instagram with JS disabled). Sometimes there is a message which says you need to enable JavaScript to
 - For mobile app development, there are many choices.
 	- Android apps
 		- Java (The traditional Android language)
@@ -112,6 +112,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODMwODg0NDk2LC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTAxMDE3Mzc2NiwtODM3OTMy
+MTY0LC0xNzc5MTQzMjg2XX0=
 -->
