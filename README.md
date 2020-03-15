@@ -5,7 +5,7 @@ Improve your coding skills in various languages by going through the content of 
 
 ## ⌨ Language-specific guides
 
-See the folders in this repo to learn about a language such as JavaScript or Python. Each has a README file, with with instructions to install and run the language and links to resources. Some include tutorials or scripts to run locally.
+See the folders in this repo to learn about a language such as JavaScript or Python. Each has a README file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally.
 
 ## 📚 Resources
 
@@ -13,7 +13,7 @@ See the folders in this repo to learn about a language such as JavaScript or Pyt
 
 ## 🌐 Recommended websites
 
-Links I enjoy and would like share.
+Links I enjoy and would like share with others.
 
 ### 🤩 Popular repos
 
@@ -68,6 +68,7 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 	    - Use `CTRL+SHIFT+V` to paste without formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using a codeblock, you may want to keep the pasted line breaks, as the double spacing is needed for line breaks to render in Markdown.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODM5MzU1NCwxMzE4MjYxNTg1LDI4Nz
-c1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2MTczXX0=
+eyJoaXN0b3J5IjpbLTMxODQ1OTg1NSwtNjE4MzkzNTU0LDEzMT
+gyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYx
+NzNdfQ==
 -->
