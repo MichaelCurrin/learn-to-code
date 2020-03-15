@@ -40,7 +40,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 	- [JavaScript](/Scripting\ languages/JavaScript)
 		- For behavior
 		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed, all without having to reload the entire page, but just the part that needs to change.
-		- While HTML has elements which can do validation (such as a username must match a regex pattern), JavaScript can be used to do validation which is more complex and give you live feedback. For example, you can type a username to register and web requests are fired in the background to check if it exist  
+		- While HTML has elements which can do validation (such as a username must match a regex pattern), JavaScript can be used to do validation which is more complex and give you live feedback. For example, you can type a username to register and web requests are fired in the background to check if it exists and then you get a green indicator say that it is not taken, all before you actually click a submit button. 
 		- JavaScript is also what creates pop-ups (pleasant or annoying) and manages cookies on a website.
 		- Some JavaScript frameworks go in the direction of [Progress web apps](https://en.wikipedia.org/wiki/Progressive_web_application) and allow to navigate within a "shell", much like a mobile application, such that any page loads are seamless. These application and all its page may even work completely offline once the initial page has loaded, though you will of course lose the ability to pull in the latest content or push content or profile changes.
 		- Some websites are built with such as reliance on JavaScript that the page may lose its main functionality and it may even be reduced or a white page or placeholder icon (see Instagram with JS disabled). Sometimes there is a message which says you need to enable JavaScript.
@@ -62,8 +62,12 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 - Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - Programming languages
+	- [Python](/Scripting languages/Python)
+		- Using libraries like Jinja and Flask, or Django, to do templating
 	- [Ruby](/Scripting languages/Ruby)
 		- "Ruby on Rails" - this common approach means using the popular _Rails_ framework to build the backend database and server logic and also the frontend.
+	- [PHP](/Scripting languages/Python)
+		- Wordpress is an open-source librar
 
 ### Data Science
 
@@ -114,6 +118,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTY3NjAyMTYxLC04Mzc5MzIx
+BnZm1cbiIsImhpc3RvcnkiOlstNjQxNDk1Njg1LC04Mzc5MzIx
 NjQsLTE3NzkxNDMyODZdfQ==
 -->
