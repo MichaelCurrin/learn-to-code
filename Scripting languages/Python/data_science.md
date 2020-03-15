@@ -8,9 +8,11 @@ Python libraries commonly used for data science. A lot of these are very popular
 
 Data processing
 	- Numpy
-		- For working with arrays and similar data structures
+		- For working with arrays and similar data structures.
 	- Pandas
-		- Dataframes - reading and writing tab
+		- Particularly for dataframes
+		- Used for reading or writing a tabular source like a CSV.
+		- Used performing tasks file sorting, filtering or searching a table or a vector. Doing
 		- Based on R's dataframes.
 		- Built on Numpy
 - Machine Learning topic:
@@ -261,5 +263,5 @@ Show installed packages.
 $ conda list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxOTIyMjAyXX0=
+eyJoaXN0b3J5IjpbMTM3NDE4NTg4XX0=
 -->
