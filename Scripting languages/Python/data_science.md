@@ -2,6 +2,8 @@
 
 If you want to use Python for Data Science project, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debuggin and viewing in the output of the code close to the code.
 
+
+
 ## IPython
 
 - [ipython.org](https://ipython.org/) homepage.
@@ -240,3 +242,6 @@ Show installed packages.
 ```sh
 $ conda list
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTQ3NDEwOTcxXX0=
+-->
