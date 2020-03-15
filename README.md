@@ -57,8 +57,9 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
         4. Select "Add a Github workspace".
         5. Enter a repo path. Optionally set folder path and branch.
         6. You will see your folder tree on the left. Note that files will give a data error initially while content is being pulled in. Note that `.md` extension will be hidden. And although the Welcome file shows in the tree, it is not actually stored in the repo. You can delete it from the editor view, but it can be useful to keep open as a quick reference.
-        7. You may add more repos using steps above and then switch between then.
+        7. Edit files. You do not have to press save - changes will be saved and synced for you.
+        8. You may add more repos using steps above and then switch between then.
     - Help - select Table of Contents from the menu on the right.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzQ5NTY4XX0=
+eyJoaXN0b3J5IjpbLTQ5MjAyMDEwNF19
 -->
