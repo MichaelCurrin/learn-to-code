@@ -69,11 +69,13 @@ These descriptions are very simplified but aims to give info someone starting ou
 	- [PHP](/Scripting languages/Python)
 		- PHP is the last part of the "LAMP stack" of Linux, Apache, MySQL and PHP.
 		- PHP is often used with this flow:
-			1. A request comes in o .
-			2. Get data from the database.
-			3. Read an HTML template for page to return.
-			4. Insert the data into the template.
-			5. Return the page as finished HTML.
+			1. A request comes in to Apache, which PHP handles.
+			2. If there is an data on the request (such as creating an account or post), validate and insert it into the database.
+			3. Get data from the database.
+			4. Read an HTML template for page to return.
+			5. Insert the data into the template.
+			6. Return the page as finished HTML.
+		- There may be an admin view which for autho
 		- Wordpress is an open-source library available for building a blog, which you can host somewhere or on the Wordpress website itself.
 		- Moodle is similar to Wordpress.
 
@@ -126,6 +128,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTgzNjY5OTY0LC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTYxNjQxMDE4NywtODM3OTMy
+MTY0LC0xNzc5MTQzMjg2XX0=
 -->
