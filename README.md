@@ -50,3 +50,10 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
         - Github - When you link these, you can choose to include or exclude private repo access.
         - Gitlab
         - Google Drive
+    - Use:
+        1. Go to [stackedit.io](https://stackedit.io/). You will start at a welcome page.
+        1. Sign in with Github.
+        1. From the menu on the right, select Workspaces.
+        1. Select "Add a Github workspace".
+        1. Enter a repo path. Optionally set folder path and branch.
+    - Help - select Table of Contents from the menu on the right.
