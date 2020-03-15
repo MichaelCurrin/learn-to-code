@@ -29,8 +29,13 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- JavaScript
 	- For mobile app development, there are many choices
 		- Android
-			- Java (
-			- Kotlin (A new 
+			- Java (The traditional Android language)
+			- Kotlin (A newer language, which Google created because of legal issues of using and modifying Java code).
+		- Apple / iOS
+			- Objective C (The traditional iOS language)
+			- Swift (A newer language).
+		- React Native
+		- Dart and Flutte
 - Fullstack development is becoming more common - where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - - Ruby (usually using "Ruby on Rails", where Rails is the framework).
 
@@ -83,6 +88,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA0ODk2ODcwMSwtODM3OTMy
-MTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxODYzOTk1Mjk5LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
