@@ -4,12 +4,13 @@ Stuck with what to learn to, what order to learn it and how things fit together 
 
 ## Tech overview
 
-These description are very simplified but aims to give info on the topics and how they related for someone with a business background to wants to understand tech or pick a tech
-- Data Science -
+These description are very simplified but aims to give info on the topics and how they related for someone with a business background to wants to understand tech or pick a technology to learn.
+
+## Data Science
 
 ## Roadmaps
 
-If you know you want go become a developer and want to pick a directory or a learning path, here are some links to roadmaps. 
+If you know you want to become a developer or get grow into a less familiar area, these roadmaps can help you pick a dirand want to pick a direction or a learning path, here are some links to roadmaps. 
 
 ### Notes
 
@@ -26,6 +27,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTk3NTM1NDEwNCwtMTc3OTE0
-MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstNzk1MTA3MDMzLC0xNzc5MTQz
+Mjg2XX0=
 -->
