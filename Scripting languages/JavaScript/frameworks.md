@@ -91,6 +91,12 @@ export default class HelloWorldApp extends Component {
 }
 ```
 
+## Proton Native
+
+>  Create desktop applications  through a React syntax, on all platforms.
+
+- [Official site](https://proton-native.js.org/#/)
+
 ## Angular
 
 It allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
@@ -258,3 +264,6 @@ store.dispatch({ type: 'INCREMENT' })
 store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEzODU5NzA3M119
+-->
