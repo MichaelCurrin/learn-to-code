@@ -50,17 +50,21 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
         - Github - When you link these, you can choose to include or exclude private repo access.
         - Gitlab
         - Google Drive
-    - Use:
+    - How to edit a repo:
         1. Go to [stackedit.io](https://stackedit.io/). You will start at a welcome page.
         2. Sign in with Github.
         3. From the menu on the right, select Workspaces.
         4. Select "Add a Github workspace".
         5. Enter a repo path. Optionally set folder path and branch.
-        6. You will see your folder tree on the left. Note that files will give a data error initially while content is being pulled in. Note that `.md` extension will be hidden. And although the Welcome file shows in the tree, it is not actually stored in the repo. You can delete it from the editor view, but it can be useful to keep open as a quick reference.
+        6. You will see your folder tree on the left. Note that files will give a data error initially while content is being pulled in.
         7. Edit files. You do not have to press save - changes will be saved and synced for you and these will appear as commits in Github.
         8. You may add more repos using steps above and then switch between then.
-    - Help - select Table of Contents from the menu on the right.
+    - Usage notes:
+	    - The `.md` extension will be hidden.
+	    - Although the Welcome file shows in the tree, it is not actually stored in the repo. You can delete it from the editor view, but it can be useful to keep open as a quick reference.
+	    - For help, select Table of Contents from the menu on the right.
+	    - Click Settings in the right menu. You can overr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTgxNjE3M119
+eyJoaXN0b3J5IjpbMTQwNzk5NTc1OCwxNjgxODE2MTczXX0=
 -->
