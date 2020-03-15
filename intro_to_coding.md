@@ -126,8 +126,10 @@ These descriptions are very simplified but aims to give info someone starting ou
 	- If you are interesting in serverless applications - this is what you need to know:
 		- They still do run on a server somewhere, you just treat is as somewhere in the cloud.
 		- You can spin up as many as needed especially for a high volume of requests.
+		- Serverless applications are task-based.
+		- They run based on event - such as a certain time or when triggered by a web request.
 		- The server is disposable and is turned off when it is not needed, which saves on the cost of running a server continuously even when not needed.
-		- The server is managed by configuration - if there is something wrong or you ne
+		- The server is managed by configuration - if there is something wrong or you need to change the version of a library, you don't modifiy the server. You modify the config, tear down the server and then start another server.
 	- See links:
 		- [AWS Lambda](https://aws.amazon.com/lambda/) - event-driven serverless computing.
 		- [Backend as a Service](https://backendless.com/)
@@ -154,6 +156,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzkyNTU3MzI4LC05ODU3NzEx
+BnZm1cbiIsImhpc3RvcnkiOlstOTU3ODMxODAyLC05ODU3NzEx
 MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
 -->
