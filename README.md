@@ -5,9 +5,7 @@
 
 Improve your coding skills in various languages by going through the content of this repo. I document topics here as I learn and explore, so that I have an easy reference or how-to guide for myself, or in case anyone else might benefit. 
 
-If you want to contribute, I welcome any corrections or enhancements.
-
-**Structure of this project**
+## Structure of this project
 
 | Title | Description  |
 | -- | -- |
@@ -16,8 +14,12 @@ If you want to contribute, I welcome any corrections or enhancements.
 | ⌨ [Language-specific guides](/language_guides.md)  | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses |
 | 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
 
+## Contributing
+
+If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTYwOTc4NywtNjE4MzkzNTU0LDEzMT
-gyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYx
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTY0NDcyNjYxNCwtNzI5NjA5Nzg3LC02MT
+gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
+NjUsMTY4MTgxNjE3M119
 -->
