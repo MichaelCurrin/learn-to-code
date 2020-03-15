@@ -1,8 +1,17 @@
-# Python for Data Sciencists
+# Python for Data Scientists
 
-If you want to use Python for Data Science project, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debuggin and viewing in the output of the code close to the code.
+If you want to use Python for Data Science project, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debugging and viewing in the output of the code close to the code.
 
+## Libraries
 
+Python libraries commonly used for data science. These are popular and used as part 
+
+- Sci-kit learn
+- Numpy (
+- Pandas (dataframes)
+- Machine Learning:
+	- TensorFlow
+	- Keras
 
 ## IPython
 
@@ -243,5 +252,5 @@ Show installed packages.
 $ conda list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NDEwOTcxXX0=
+eyJoaXN0b3J5IjpbLTM0MDcwMjU5N119
 -->
