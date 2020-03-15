@@ -11,15 +11,16 @@ These descriptions are very simplified but aims to give info someone starting ou
 ### Web development
 
 - This includes building websites and mobile apps.
-- You could focus on backend development
+- Backend development might be developer's focus.
 	- The logic that happens on the server and the database that the user can't see. This is where your business logic and security can be handled, to keep it private.
 	- Programming skills are varied but are the popular choices
 		- C# (Csharp)
 		- Java
 		- Python
 		- Node (JavaScript that runs on a server).
-		- Ruby (usually using "Ruby
-- You could instead focus on frontend development
+- Frontend development could be a the focus.
+- Fullstack development is a - where you work in the backend and the frontend of one service (or product).
+- - Ruby (usually using "Ruby on Rails", where Rails is the framework).
 
 ### Data Science
 
@@ -70,6 +71,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTI5NzIyNzU1LC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNDE5NzQxOSwtODM3OTMyMTY0
+LC0xNzc5MTQzMjg2XX0=
 -->
