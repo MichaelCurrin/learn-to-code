@@ -39,7 +39,9 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- Styling can be added on a certain element or at the top of the page, but often some base CSS styling is applied to the entire website. Using an existing or custom-built theme. 
 	- [JavaScript](/Scripting\ languages/JavaScript)
 		- For behavior
-		- This adds interactivity to the website. I
+		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed without having to reload the entire page, but just the part that needs to change. 
+		- JavaScript is also what creates pop-ups (pleasant or annoying) on a website.
+		- Some websites are built with a focus 
 - For mobile app development, there are many choices.
 	- Android apps
 		- Java (The traditional Android language)
@@ -110,6 +112,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjEwNjg1NDYsLTgzNzkzMjE2
-NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxODMwODg0NDk2LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
