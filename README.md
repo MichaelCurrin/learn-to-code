@@ -16,14 +16,16 @@ Improve your coding skills in various languages by going through the content of 
 
 ## Who am I, what is my background?
 
-- I started a Python developer
+- I studied and start
+- While working in the field of marketing, I started learning Python for free on [codecademy.com/](https://www.codecademy.com/).
+- 
 
 ## Contributing
 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTUzNDY0NTAsLTcyOTYwOTc4NywtNj
-E4MzkzNTU0LDEzMTgyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkx
-NDY1LDE2ODE4MTYxNzNdfQ==
+eyJoaXN0b3J5IjpbLTQ0ODk5MzY4OSwtNzI5NjA5Nzg3LC02MT
+gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
+NjUsMTY4MTgxNjE3M119
 -->
