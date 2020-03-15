@@ -15,6 +15,9 @@ Improve your coding skills in various languages by going through the content of 
 | 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
 
 
+## Who am I?
+
+Read more about my experience and histoy on my blog [michaelcurrin.github.io/coding-blog/](https://michaelcurrin.github.io/coding-blog/).
 
 
 ## Contributing
@@ -22,7 +25,7 @@ Improve your coding skills in various languages by going through the content of 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjcxMzg3MCwtMzYwMzcxNDkwLC03Mj
+eyJoaXN0b3J5IjpbLTU0NDc3MzQ4NiwtMzYwMzcxNDkwLC03Mj
 k2MDk3ODcsLTYxODM5MzU1NCwxMzE4MjYxNTg1LDI4Nzc1NzEx
 NSwtMTk4OTQ5MTQ2NSwxNjgxODE2MTczXX0=
 -->
