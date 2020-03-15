@@ -50,7 +50,9 @@ These descriptions are very simplified but aims to give info someone starting ou
 #### Frontend
 
 - Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
-- - Ruby (usually using "Ruby on Rails", where Rails is the framework).
+- Programming languages
+	- [Ruby](/Scripting languages/Ruby)
+		- "Ruby on Rails" - this common approach means using the _Rails_ framework to buil for an application that includes a backend and ).
 
 ### Data Science
 
@@ -101,6 +103,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjkxOTg1MTIxLC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTE5Njk2ODkyOCwtODM3OTMy
+MTY0LC0xNzc5MTQzMjg2XX0=
 -->
