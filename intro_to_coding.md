@@ -169,12 +169,12 @@ Sometimes you can learn a few topics at once when topics complement each other e
 
 | Link | Description |
 |--|--|
-| [roadmap.sh/](https://roadmap.sh/) | Developer roadmaps  |
+| [roadmap.sh](https://roadmap.sh/) | Developer roadmaps  |
 | [Web Developer Roadmaps: All In One Place](https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0) | This page has a couple of roadmaps to choose from. On [medium.com](https://medium.com) blog. |
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0MzM0NzExMzUsMjA5Njk2NjU5
-NywtMjA3MjU0MjMxMywtOTg1NzcxMTAzLC04Mzc5MzIxNjQsLT
-E3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTMzMjM1ODc2OCwyMDk2OTY2
+NTk3LC0yMDcyNTQyMzEzLC05ODU3NzExMDMsLTgzNzkzMjE2NC
+wtMTc3OTE0MzI4Nl19
 -->
