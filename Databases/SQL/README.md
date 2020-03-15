@@ -9,18 +9,19 @@
 - [Basic SQL](https://mode.com/sql-tutorial/introduction-to-sql/) on _mode.com_.
 - [Intermediate SQL](https://mode.com/sql-tutorial/sql-aggregate-functions/) on _mode.com_.
 
-### Courses
-
-- [Learn SQL](https://www.codecademy.com/learn/learn-sql) on *codecademy.com*.
-
-### Postgres
+#### Postgres
 
 - [postgresqltutorial.com](https://www.postgresqltutorial.com/)
 
-### MySQL
+#### MySQL
 
 - [mysqltutorial.org](https://www.mysqltutorial.org/)
 - [tutorialspoint.com](https://www.tutorialspoint.com/mysql/index.htm)
+
+
+### Courses
+
+- [Learn SQL](https://www.codecademy.com/learn/learn-sql) on *codecademy.com*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDI3NDQzOV19
+eyJoaXN0b3J5IjpbLTM1ODgzMDIyOV19
 -->
