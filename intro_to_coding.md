@@ -2,7 +2,7 @@
 
 Stuck with what to learn to, what order to learn it and how things fit together in the world of tech? This guide is for you.
 
-## Tech overview
+## Tech departments
 
 Below are some departments or careers within tech, what they do or are responsible for and how they relate or differ from each other.
 
@@ -10,9 +10,14 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 ### Data Science
 
-- Data Scientists deal with **pulling** in data from a variety of datasources which might be things like text or CSV files, images, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
+- Data Scientists deal with **pulling** in data from a variety of data sources which might be things like text or CSV files, images, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
 - A lot of the work is often **processing** the data - understanding the structure and cleaning it so it is consistent and easy work with.
 - Data Scientists create reports from the data so that they can make sense of it and give recommendations, or they make the data available for other departments to use. Output might be a CSV, a web report or dashboard, graphs, a PDF or an email report.
+- With Data Science, you might also find more specialized positions like Data Engineers or Data Analysts.
+
+### Artificial Intelligence
+
+- Within Data
 
 
 ## Roadmaps
@@ -34,6 +39,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0NjczMzU1NjIsLTE3NzkxNDMy
-ODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMzYwMTI3NzgyLC0xNzc5MTQz
+Mjg2XX0=
 -->
