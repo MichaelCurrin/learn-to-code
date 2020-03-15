@@ -1,6 +1,6 @@
 # Web development
 
-For JavaScript, see [link](</Scripting\ languages/JavaScript/README.md>).
+For JavaScript, see [link](</Scripting%20languages/JavaScript/README.md>).
 
 ## Tools
 
@@ -9,3 +9,6 @@ For JavaScript, see [link](</Scripting\ languages/JavaScript/README.md>).
     - https://www.tablesgenerator.com/html_tables
 - Markdown table generator.
     - https://www.tablesgenerator.com/markdown_tables
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzA1NTg4NjY0XX0=
+-->
