@@ -25,9 +25,7 @@
 
 ### Books
 
-Ebook
-
-- [Database System Concepts](https://www.db-book.com/db6/toc-dir/toc.pdf) from https://www.db-book.com/
+- Database System Concepts](https://www.db-book.com/db6/toc-dir/toc.pdf) from [db-book.com/](https://www.db-book.com/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTkzNTAwN119
+eyJoaXN0b3J5IjpbMTU2MDQzNTY2MV19
 -->
