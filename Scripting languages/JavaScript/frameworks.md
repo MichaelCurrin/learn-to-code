@@ -91,6 +91,15 @@ export default class HelloWorldApp extends Component {
 }
 ```
 
+## Electron
+
+> Electron is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies.
+
+
+- [Official homepage](https://www.electronjs.org/)
+	- > Build cross-platform desktop apps with JavaScript, HTML, and CSS
+	- > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
+
 ## Proton Native
 
 >  Create desktop applications  through a React syntax, on all platforms.
@@ -265,5 +274,5 @@ store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODU5NzA3M119
+eyJoaXN0b3J5IjpbLTUxNTIxNTg2XX0=
 -->
