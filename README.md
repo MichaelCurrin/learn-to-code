@@ -21,12 +21,13 @@ Improve your coding skills in various languages by going through the content of 
 - In 2017, I started my first tech job as Backend Developer.
 - I have since picked up a lot of experienced in work projects and continue to keep my skills sharp with personal projects and community projects and learning new languages, libraries and concepts.
 - Some of my favorite topics 
-	- Web scraping
-	- Social media data analysis
-	- Data viz (with Google Data Stud
+	- Web scraping (Using Python)
+	- Social media data analysis (Using social media APIs and Pythong)
+	- Data viz (with Google Data Studio, D3 and Python libraries)
 	- Static site building (Using mostly Jekyll and a bit of Hugo)
 	- Web applications (I've worked with Flask, CherryPy and Django)
 	- Databases (I've worked with MySQL, Postgres, SQLite and MongoDB)
+	- GraphQL (Fetching data from APIs like Github V4 API and a bit of setting up my own API).
 	- DevOps (I've work with deploy and backup pipelines and containerizing an application
 
 ## Contributing
@@ -34,7 +35,7 @@ Improve your coding skills in various languages by going through the content of 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTgxMTgyMSwtNzI5NjA5Nzg3LC02MT
+eyJoaXN0b3J5IjpbLTk0Nzk5MzQxMiwtNzI5NjA5Nzg3LC02MT
 gzOTM1NTQsMTMxODI2MTU4NSwyODc3NTcxMTUsLTE5ODk0OTE0
 NjUsMTY4MTgxNjE3M119
 -->
