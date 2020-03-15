@@ -5,17 +5,15 @@ Improve your coding skills in various languages by going through the content of 
 
 Structure of this project:
 
-|  |  |
+|Title| Description  |
 |--|--|
-|  |  |
-
-- ⌨ [Language-specific guides](/language_guides.md) - overview of programming language guides in this project.
-- 📚  [Resources](/resources.md) - for learning concepts in programming. Includes some external links.
-- 🌐 [Recommended](/recommended.md) - External links I enjoy and would like share with others.
-- 👨‍🏫 [Absolute intro to coding](/intro_to_coding.md)
+| 👨‍🏫 [Absolute intro to coding](/intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.
+| ⌨ [Language-specific guides](/language_guides.md)  | Overview of programming language guides in this project, whether you are a beginner or want to dive into some mor |
+| 📚 [Resources](/resources.md) | For learning concepts in programming. Includes some external links. |
+| 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDczMTI2OTUsLTYxODM5MzU1NCwxMz
-E4MjYxNTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2
-MTczXX0=
+eyJoaXN0b3J5IjpbMTkzNjI1NTY4NiwtNjE4MzkzNTU0LDEzMT
+gyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYx
+NzNdfQ==
 -->
