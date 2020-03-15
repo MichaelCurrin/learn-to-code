@@ -63,8 +63,9 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 	    - The `.md` extension will be hidden.
 	    - Although the Welcome file shows in the tree, it is not actually stored in the repo. You can delete it from the editor view, but it can be useful to keep open as a quick reference.
 	    - For help, select Table of Contents from the menu on the right.
-	    - Click Settings in the right menu. You can overr
+	    - Auto sync defaults to 90 seconds and the minimum is 60 seconds.
+	    - Click Settings in the right menu. You can override default settings. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzk5NTc1OCwxNjgxODE2MTczXX0=
+eyJoaXN0b3J5IjpbLTE5ODk0OTE0NjUsMTY4MTgxNjE3M119
 -->
