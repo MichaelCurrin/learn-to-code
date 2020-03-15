@@ -19,14 +19,18 @@ Improve your coding skills in various languages by going through the content of 
 - I studied and started working in Marketing with a focus on digital marketing, so have a good idea of advertising, social media, digital marketing, measuring success and how to analyze and visualize performance data of brands.
 - While working in the field of marketing, I started learning Python for free on [codecademy.com/](https://www.codecademy.com/).
 - In 2017, I started my first tech job as Backend Developer.
-- I have since picked up a lot 
+- I have since picked up a lot of experienced in work projects and continue to keep my skills sharp with personal projects and community projects and learning new languages, libraries and concepts.
+- Some of my favorite topics 
+	- Web scraping
+	- Social media data analysis
+	- 
 
 ## Contributing
 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE5ODk5NDgsLTcyOTYwOTc4NywtNj
+eyJoaXN0b3J5IjpbLTE2ODYyOTQ3NjksLTcyOTYwOTc4NywtNj
 E4MzkzNTU0LDEzMTgyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkx
 NDY1LDE2ODE4MTYxNzNdfQ==
 -->
