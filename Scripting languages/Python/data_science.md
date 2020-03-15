@@ -21,6 +21,7 @@ Python libraries commonly used for data science. A lot of these are very popular
 - Dataviz:
 	- NetworkX
 	- Bokeh
+	- Matplotlib
 
 
 ## IPython
@@ -262,5 +263,5 @@ Show installed packages.
 $ conda list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTc3NzMzXX0=
+eyJoaXN0b3J5IjpbMTMzNjA3MzE1OF19
 -->
