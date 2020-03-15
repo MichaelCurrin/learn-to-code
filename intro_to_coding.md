@@ -31,7 +31,10 @@ These descriptions are very simplified but aims to give info someone starting ou
 - The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling problems on certain screen sizes or devices or making the movement around the application smooth and easy.
 - The programming skills for browser-based development are usually
 	- HTML
+		- This is the base of the structure, elements and appearance of a website.
 	- CSS
+		- This adds styling to the website, such font, color, background image, layout.
+		- CSS can be
 	- [JavaScript](/Scripting\ languages/JavaScript)
 - For mobile app development, there are many choices.
 	- Android apps
@@ -52,7 +55,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 - Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - Programming languages
 	- [Ruby](/Scripting languages/Ruby)
-		- "Ruby on Rails" - this common approach means using the _Rails_ framework to buil for an application that includes a backend and ).
+		- "Ruby on Rails" - this common approach means using the popular _Rails_ framework to build the backend database and server logic and also the frontend.
 
 ### Data Science
 
@@ -103,6 +106,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTE5Njk2ODkyOCwtODM3OTMy
-MTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMjcyOTkwOTQ1LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
