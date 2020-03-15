@@ -104,13 +104,16 @@ export default class HelloWorldApp extends Component {
 
 ## Proton Native
 
->  Create desktop applications  through a React syntax, on all platforms.
 
- - [Official site](https://proton-native.js.org/#/)
-	 - Same syntax & components as React Native 
-	 - Works with existing React libraries such as Redux 
-	 - Cross platform No more Electron Compatible
-   with all normal Node.js packages Hot reloading
+ - [Official homepage](https://proton-native.js.org/#/)
+	 - >  Create desktop applications  through a React syntax, on all platforms.
+	 - Features
+	    > - Same syntax & components as React Native 
+	    > - Works with existing React libraries such as Redux 
+	    > - Cross platform 
+	    > - No more Electron 
+	    > - Compatible with all normal Node.js packages 
+	    > - Hot reloading
 
 ## Angular
 
@@ -280,5 +283,5 @@ store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTA5NzE5MV19
+eyJoaXN0b3J5IjpbMTcxNTAwNzAxOF19
 -->
