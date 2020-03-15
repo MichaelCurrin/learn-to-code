@@ -11,7 +11,7 @@ Below are some departments or careers within tech that I am familiar with. These
 - As a central way to start, "programming", "development", "software engineering" and "coding" are all the same thing. Though, one could argue that a _developer_ just develops based on specifications they are given, while an _engineer_ looks at the wider architecture before deciding on a solution.
 - As with other careers, one can progress from junior to mid-level (or intermediate) to senior engineer. The more senior you become, the influence and responsibility you have over the department and company, managing others and mentoring others. One could decide to go the route of a directory of engineering and do a lot less coding and more people-management compared with a senior engineer.
 - Programming generally is about building something to solve a problem, whether it is a tool, a game, a report, a website, or some automation of tasks.
-- Traditionally, programmers learnt the _C_ programming language or a "functional programming languge
+- Traditionally, programmers learnt the _C_ programming language or a "functional" programming language. More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real world entities like users and images)
 
 ### Web development
 
@@ -161,6 +161,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5NzgyNTgyNCwtOTg1NzcxMTAz
-LC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls2MDk3NDE0NjgsLTk4NTc3MTEw
+MywtODM3OTMyMTY0LC0xNzc5MTQzMjg2XX0=
 -->
