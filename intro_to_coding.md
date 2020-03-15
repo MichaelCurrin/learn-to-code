@@ -12,7 +12,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 - Data Scientists deal with **pulling** in data from a variety of datasources which might be things like text or CSV files, images, survey answers, external API data (Google Ad spend, social media mentions) and internal database data (such marketing data or customer or sales data).
 - A lot of the work is often **processing** the data - understanding the structure and cleaning it so it is consistent and easy work with.
-- Data Scientists create reports from the data so that they can make sense of it and give recommendations, or they make 
+- Data Scientists create reports from the data so that they can make sense of it and give recommendations, or they make the data available for other departments to use. Output might be a CSV, a web report or dashboard, graphs, a PDF or an email report.
 
 
 ## Roadmaps
@@ -34,6 +34,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4OTA4MTUyNDYsLTE3NzkxNDMy
+BnZm1cbiIsImhpc3RvcnkiOls0NjczMzU1NjIsLTE3NzkxNDMy
 ODZdfQ==
 -->
