@@ -5,20 +5,20 @@ Improve your coding skills in various languages by going through the content of 
 
 ## ⌨ Language-specific guides
 
-See the folders in this repo to learn about a language.
+See the folders in this repo to learn about a specific language.
 
 Some highlights:
 
-- [JavaScript]('/Scripting languages/JavaScript)
-- [Python](/Scripting languages/Python/)
+- [JavaScript](/Scripting\ languages/JavaScript)
+- [Python](/Scripting\ languages/Python)
 - [Bash](/Shell/Bash)
-- [Git](/Version control/Git)
+- [Git](/Version\ control/Git)
 
-Each has a README file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally.
+Each section has a README file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally if you clone this repo.
 
 ## 📚 Resources
 
-- [Resources](/resources.md) - for learning concepts in programming, with some links.
+- [Resources](/resources.md) - for learning concepts in programming. Includes some external links.
 
 ## 🌐 Recommended
 
@@ -26,7 +26,7 @@ Each has a README file, with instructions to install and run the language locall
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjczNDA3NDAsLTYxODM5MzU1NCwxMz
+eyJoaXN0b3J5IjpbLTE1MjI4MTgwMjYsLTYxODM5MzU1NCwxMz
 E4MjYxNTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2
 MTczXX0=
 -->
