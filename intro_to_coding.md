@@ -125,9 +125,13 @@ These descriptions are very simplified but aims to give info someone starting ou
 - The way to do infrastructure is changing, so DevOps engineers now also have to be capable of handling security, containers and serverless applications. 
 	- If you are interesting in serverless applications - understand that 
 		- They still do run on a server somewhere
-		- The server is disposable
-		- You can spin up as many as needed especially for a high volume requests.
-- See [Backend as a Service](https://backendless.com/), [Serverless](https://serverless.com) or AWS Lambda).
+		- You can spin up as many as needed especially for a high volume of requests.
+		- The server is disposable and is turned off when it is not needed, which saves on the cost of running a server continuously even when not needed.
+	- See links
+		- [Backend as a Service](https://backendless.com/)
+		- [Serverless](https://serverless.com) 
+		- AWS Lambda
+		- [Backend as a service blog post](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/) o
 
 ## Roadmaps
 
@@ -148,6 +152,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszNjQ2Mzc1NTcsLTk4NTc3MTEw
-MywtODM3OTMyMTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTY0NTk2ODg4OCwtOTg1Nzcx
+MTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
 -->
