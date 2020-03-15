@@ -7,12 +7,12 @@
 
 ## Postgres
 
-- https://www.postgresqltutorial.com/
+- [postgresqltutorial.com](https://www.postgresqltutorial.com/)
 
 ## MySQL
 
-- [mysqltutorial.orghttps://www.mysqltutorial.org/
+- [mysqltutorial.org](https://www.mysqltutorial.org/)
 - [tutorialspoint.com](https://www.tutorialspoint.com/mysql/index.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk4MDgzNzVdfQ==
+eyJoaXN0b3J5IjpbLTE0MTcyNzg4MTddfQ==
 -->
