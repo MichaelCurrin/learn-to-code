@@ -11,7 +11,10 @@ These descriptions are very simplified but aims to give info someone starting ou
 ### Web development
 
 - This includes building websites and mobile apps.
-- One might focus on the backend 
+- You could focus on backend development
+	- The logic that happens on the server and the database that the user can't see. This is where your business logic and security can be handled, to keep it private.
+	- Skill
+- You could instead focus on frontend development
 
 ### Data Science
 
@@ -62,6 +65,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTAyMzgwODgyNCwtODM3OTMy
+BnZm1cbiIsImhpc3RvcnkiOlstMTUwNzM2ODUyNywtODM3OTMy
 MTY0LC0xNzc5MTQzMjg2XX0=
 -->
