@@ -118,6 +118,11 @@ These descriptions are very simplified but aims to give info someone starting ou
 	- Unsupervized learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label. Or you don't know what you are looking for out of hundreds of columns of data but you want to do data mining where algorithm figures out what is important and how data points relate to each other.
 	- Reinforcement learning is a reward-based system where the algorithm is given a goal and when it gets closer to that it is rewarded and so the behavior is reinforced. For example, training a robot car to drive at the right speed, turn corners and recognize objects in order to get the fastest lap time and not crash.
 
+### DevOps
+
+- The DevOps members of an organization deal with _Developer Operations_. 
+- They make the lives of developers easier, such as setting up and managing infrastructure on physical servers or remote servers (such as on AWS).
+- The way to do infrastructure is changing, so D
 
 ## Roadmaps
 
@@ -138,6 +143,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTgyODAyNjM0NywtOTg1Nzcx
+BnZm1cbiIsImhpc3RvcnkiOlstMTkxMjc5MjU0NiwtOTg1Nzcx
 MTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
 -->
