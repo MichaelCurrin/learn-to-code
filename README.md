@@ -52,8 +52,13 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
         - Google Drive
     - Use:
         1. Go to [stackedit.io](https://stackedit.io/). You will start at a welcome page.
-        1. Sign in with Github.
-        1. From the menu on the right, select Workspaces.
-        1. Select "Add a Github workspace".
-        1. Enter a repo path. Optionally set folder path and branch.
+        2. Sign in with Github.
+        3. From the menu on the right, select Workspaces.
+        4. Select "Add a Github workspace".
+        5. Enter a repo path. Optionally set folder path and branch.
+        6. You will see your folder tree on the left. Note that files will give a data error ini
+        7. You may add more repos and then switch between then.
     - Help - select Table of Contents from the menu on the right.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwMzI1OTg0MzldfQ==
+-->
