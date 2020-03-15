@@ -24,7 +24,7 @@ Below are some departments or careers within tech that I am familiar with. These
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
 	- Ruby - Fullstack web development
 	- PHP - also fullstack.
-	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as with Electron) or mobile appl
+	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
 
 ### Web development
 
@@ -174,7 +174,7 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls2MTU2MTYxNTMsMjA5Njk2NjU5
-NywtMjA3MjU0MjMxMywtOTg1NzcxMTAzLC04Mzc5MzIxNjQsLT
-E3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTEwMTc4MjkzNywyMDk2OTY2
+NTk3LC0yMDcyNTQyMzEzLC05ODU3NzExMDMsLTgzNzkzMjE2NC
+wtMTc3OTE0MzI4Nl19
 -->
