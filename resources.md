@@ -43,12 +43,6 @@ See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/
 - [Domain-Driven Design Fundamentals](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents) on Pluralsight. 4 hour course.
 - [Software Architecture - Domain Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/) on LinkedIn Learning. 1 hour course.
 
-### 🛣 Roadmaps
-
-Don't know where to start? Pick a roadmap (learning path) based on your chosen direction.
-
-- [roadmap.sh](https://roadmap.sh/). Github: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-
 ### 🔁 Rosetta code
 
 The [Rosetta Code](https://rosettacode.org/) website provides tasks solved in various languages for easy comparison. This can be useful whether you are a new or familar with a language. The examples here tend to be minimal and follow a similar pattern, for example if you understand what the Python one is doing you can make sense of the equivalent logic in Ruby or PHP.
@@ -85,5 +79,5 @@ Learn to review other developers' code.
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzEwODE4MjBdfQ==
+eyJoaXN0b3J5IjpbMjEwNDMxNjA3MiwtMTAzMTA4MTgyMF19
 -->
