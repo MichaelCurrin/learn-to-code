@@ -18,7 +18,12 @@ These descriptions are very simplified but aims to give info someone starting ou
 - A Data Scientist typically learns some of the following:
 	- Stats software 
 		- These have a visual interface and produce graphs and reports and some programming skills may be needed to run scripts.
-		- For example: Stata
+		- For example: Stata, Statistica
+		- [List of Statiscal Software](https://en.wikipedia.org/wiki/List_of_statistical_software)
+	- Dashboarding tools
+		- For example: Excel, Google Sheets, Tableau, Google Data Studio
+	- Scripting languages
+		- 
 
 ### Artificial Intelligence
 
@@ -44,6 +49,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTAwOTM0MTQ4LC0xNzc5MTQz
-Mjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMTE4NzU1OTMsLTE3NzkxNDMy
+ODZdfQ==
 -->
