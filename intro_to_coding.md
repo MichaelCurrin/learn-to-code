@@ -22,9 +22,9 @@ Below are some departments or careers within tech that I am familiar with. These
 	- C# (C Sharp) - as above.
 	- Python - as above, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
-	- Ruby - Fullstack web development
-	- PHP - also fullstack.
-	- JavaScript - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
+	- [Ruby](/Scripting%20languages/Ruby) - Fullstack web development
+	- [PHP](/Scripting%20languages/PHP) - also fullstack.
+	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
 
 ### Web development
 
@@ -80,11 +80,11 @@ Below are some departments or careers within tech that I am familiar with. These
 
 - Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - Programming languages
-	- [Python](/Scripting languages/Python)
+	- [Python](/Scripting%20languages/Python)
 		- Using libraries like Jinja and Flask, or Django, to do templating
-	- [Ruby](/Scripting languages/Ruby)
+	- [Ruby](/Scripting%20languages/Ruby)
 		- "Ruby on Rails" - this common approach means using the popular _Rails_ framework to build the backend database and server logic and also the frontend.
-	- [PHP](/Scripting languages/Python)
+	- [PHP](/Scripting%20languages/Python)
 		- PHP is the last part of the "LAMP stack" of Linux, Apache, MySQL and PHP.
 		- PHP is often used with this flow:
 			1. A request comes in to Apache, which PHP handles.
@@ -174,7 +174,7 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTEwMTc4MjkzNywyMDk2OTY2
-NTk3LC0yMDcyNTQyMzEzLC05ODU3NzExMDMsLTgzNzkzMjE2NC
-wtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOls0MzM0NzExMzUsMjA5Njk2NjU5
+NywtMjA3MjU0MjMxMywtOTg1NzcxMTAzLC04Mzc5MzIxNjQsLT
+E3NzkxNDMyODZdfQ==
 -->
