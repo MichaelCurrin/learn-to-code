@@ -7,10 +7,12 @@ Improve your coding skills in various languages by going through the content of 
 
 See the folders in this repo to learn about a language.
 
-Highlights:
+Some highlights:
 
-- [JavaScript](/Script
-- Python
+- [JavaScript]('/Scripting languages/JavaScript)
+- [Python](/Scripting languages/Python/)
+- [Bash](/Shell/Bash)
+- [Git](/Version control/Git)
 
 Each has a README file, with instructions to install and run the language locally and some links to external resources. Some folders include tutorials or scripts to run locally.
 
@@ -24,7 +26,7 @@ Each has a README file, with instructions to install and run the language locall
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDI2MjAwMCwtNjE4MzkzNTU0LDEzMT
-gyNjE1ODUsMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2ODE4MTYx
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTE1NjczNDA3NDAsLTYxODM5MzU1NCwxMz
+E4MjYxNTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2
+MTczXX0=
 -->
