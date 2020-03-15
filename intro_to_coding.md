@@ -39,7 +39,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 			- Build performant Android and iOS apps using a single codebase.
 		- Dart
 			- The Dart language includes Flutter - a library for making mobile apps and UI components.
-			- The strength is that Dart can compile to performant Android and iOS code and can also run on desktop.
+			- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
 - Fullstack development is becoming more common - where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - - Ruby (usually using "Ruby on Rails", where Rails is the framework).
 
@@ -92,6 +92,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMDkwNTY0NzgwLC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTI1MDYwMjkwMSwtODM3OTMy
+MTY0LC0xNzc5MTQzMjg2XX0=
 -->
