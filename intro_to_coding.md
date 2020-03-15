@@ -31,7 +31,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 - Within Data Science is the field of Artificial Intelligence or _AI_. This will still involve a lot of stats and fetching and processing data. The output might be a report or recommendation, or it might a script or a website service which can give answers to a problem using inputs you give it and using the logic and data which the algorithm was trained on.
 - AI covers things like anomaly detection, financial forecasting, weather prediction, image recognition, self-driving cars, robots and detecting errors in production lines.
 - One part of AI is Machine Learning or _ML_, which usually means training an algorithm to generate a score or probability or categorize an item. Usually there is a define outcome and some rule which a human writes and tweaks. A lot of Machine Learning can be done using stats techniques which are decades old. One way to get started is using the Python [Scikit-Learn](https://scikit-learn.org/)  library.
-- A newer area of AI is Neural Networks, which deals with a kind of learning which is similar to how neurons in the brain 
+- A newer area of AI is Neural Networks, which deals with a kind of learning which is similar to how connections build up between neurons in the brain in training and then when a condition is met later then the neurons fire. This is good for tasks which are hard to define using rules. Supervized learning means that humans label the training data and then the algorithm has go get accurate 
 
 
 ## Roadmaps
@@ -53,6 +53,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjUyNjQyMzkzLC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls3MDgyNjYzMzYsLTgzNzkzMjE2
+NCwtMTc3OTE0MzI4Nl19
 -->
