@@ -28,7 +28,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 
 ### Artificial Intelligence
 
-- Within Data Science
+- Within Data Science is the field of Artificial Intelligence. This will still involve a lot of stats and fetching and processing data. The output might be a report 
 
 
 ## Roadmaps
@@ -50,6 +50,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls2MjE0MTY0NDgsLTgzNzkzMjE2
-NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxNDMyMDQ5NDM2LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
