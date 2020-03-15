@@ -2,11 +2,13 @@
 
 Stuck with what to learn to, what order to learn it and how things fit together in the world of tech? This guide is for you.
 
-## Tech departments
+## Overview of tech
 
-Below are some departments or careers within tech, what they do or are responsible for and how they relate or differ from each other.
+Below are some departments or careers within tech that I am familiar with. These descriptions are very simplified but aims to give info someone starting out with a tech career, or someone with a business background to wants to understand their tech colleagues better or pick a technology to learn.
 
-These descriptions are very simplified but aims to give info someone starting out with a tech career, or someone with a business background to wants to understand their tech colleagues better or pick a technology to learn.
+### Programming
+
+- As a central way to start, "programming", "development", "software engineering" and "
 
 ### Web development
 
@@ -156,6 +158,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTU3ODMxODAyLC05ODU3NzEx
-MDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstMTc2MDE4NTQ3OSwtOTg1Nzcx
+MTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
 -->
