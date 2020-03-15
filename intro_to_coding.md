@@ -34,7 +34,8 @@ These descriptions are very simplified but aims to give info someone starting ou
 - A newer area of AI is Neural Networks, which deals with a kind of learning which is similar to how connections build up between neurons in the brain in training and then when a condition is met later then the neurons fire. This is good for tasks which are hard to define using rules. 
 - There are many approaches to training algorithms.
 	- Supervized learning means that humans label the training data and then the algorithm has go get accurate and making predictions based on that data. 
-	- Unsupervized learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label, or you don't know what you are looking for out of hundreds of columns of data
+	- Unsupervized learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label. Or you don't know what you are looking for out of hundreds of columns of data but you want to do data mining where algorithm figures out what is important and how data points relate to each other.
+	- Reinforcement learning is a reward-based system where the algorithm is given a goal and when it gets closer to that it is rewarded and so the behavior is reinforced. For example, training a robot car to drive at the right speed and ma
 
 
 ## Roadmaps
@@ -56,6 +57,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTIzOTcwNTI3OSwtODM3OTMy
-MTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTgxNDk5OTQ2LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
