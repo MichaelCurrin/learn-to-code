@@ -31,11 +31,15 @@ These descriptions are very simplified but aims to give info someone starting ou
 - The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling problems on certain screen sizes or devices or making the movement around the application smooth and easy.
 - The programming skills for browser-based development are usually
 	- HTML
+		- For content
 		- This is the base of the structure, elements and appearance of a website.
 	- CSS
+		- For styling.
 		- This adds styling to the website, such font, color, background image, layout.
-		- CSS can be
+		- Styling can be added on a certain element or at the top of the page, but often some base CSS styling is applied to the entire website. Using an existing or custom-built theme. 
 	- [JavaScript](/Scripting\ languages/JavaScript)
+		- For behavior
+		- This adds interactivity to the website. I
 - For mobile app development, there are many choices.
 	- Android apps
 		- Java (The traditional Android language)
@@ -106,6 +110,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMjcyOTkwOTQ1LC04Mzc5MzIx
-NjQsLTE3NzkxNDMyODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNjEwNjg1NDYsLTgzNzkzMjE2
+NCwtMTc3OTE0MzI4Nl19
 -->
