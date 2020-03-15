@@ -43,4 +43,10 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 - [Git Pod](https://gitpod.io) - A free cloud-based IDE that runs Github repos. Edit code with a VS Code editor, run in the terminal and save your changes to Github. Also includes a way to view and manager Pull Requests. Runs in a container environment and can be configured with a Git Pod file in your repo.
 - [Python Anywhere](https://pythonanywhere.com) - Free Python hosting. Includes web server with easy configuration along with a MySQL database if you need. Run cron jobs, edit files editing and use consoles for Python, Bash and SQL.
 - [Github pages](https://pages.github.com/) - Free hosting for static sites built with Jekyll or plain HTML
-- [StackEdit](https://stackedit.io/) - Edit markdown files on Github using your browser. The editor makes it easy to apply formatting using buttons rather than typing it up. It includes a preview alongside the edit view, unlike Github's editor which switches between edit and preview modes.
+- [StackEdit](https://stackedit.io/) - Edit markdown files on Github using your browser. 
+    - The editor makes it easy to apply formatting using buttons rather than typing it up. It includes a preview alongside the edit view, unlike Github's editor which switches between edit and preview modes. 
+    - Edit and sync files on the following platforms
+        - Dropbox
+        - Github - When you link these, you can choose to include or exclude private repo access.
+        - Gitlab
+        - Google Drive
