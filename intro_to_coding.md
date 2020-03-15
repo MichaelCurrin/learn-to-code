@@ -14,7 +14,7 @@ These descriptions are very simplified but aims to give info someone starting ou
 - A lot of the work is often **processing** the data - understanding the structure and cleaning it so it is consistent and easy work with.
 - Data Scientists create reports from the data so that they can make sense of it and give recommendations, or they make the data available for other departments to use. Output might be a CSV, a web report or dashboard, graphs, a PDF or an email report.
 - With Data Science, you might also find more specialized positions like Data Engineers or Data Analysts.
-- A Data Scientist may be required to make predictions using graphs or statistical techniques, which require a mix of programming, stats stats skil skills
+- A Data Scientist may be required to make predictions using graphs or statistical techniques, such as using existing data to make a forecast on future performance  grouping cust
 
 ### Artificial Intelligence
 
@@ -40,6 +40,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ5NjMyMTUwNiwtMTc3OTE0
-MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxNzEwNTcwMDQ5LC0xNzc5MTQz
+Mjg2XX0=
 -->
