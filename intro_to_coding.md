@@ -23,7 +23,8 @@ These descriptions are very simplified but aims to give info someone starting ou
 	- Dashboarding tools
 		- For example: Excel, Google Sheets, Tableau, Google Data Studio
 	- Scripting languages
-		- 
+		- [R](/Scripting\ languages/R)
+		- [Python](/Scripting\ languages/Python)
 
 ### Artificial Intelligence
 
@@ -49,6 +50,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTE4NzU1OTMsLTE3NzkxNDMy
-ODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstODM3OTMyMTY0LC0xNzc5MTQz
+Mjg2XX0=
 -->
