@@ -1,14 +1,14 @@
 # 🌐 Recommended
 
-Links I enjoy and would like share with others.
+External links I enjoy and would like share with others.
 
 ## 🤩 Popular repos
 
 Lists of Github repos, sorted by various criteria.
 
 - Repos I have [starred](https://github.com/MichaelCurrin?tab=stars) 
-- [Most starred](https://github.com/search?q=stars%3A%3E100&s=stars&type=Repositories)
-- [Most forked](https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
+- [Most starred](https://github.com/search?q=stars%3A%3E100&s=stars&type=Repositories) on all Github.
+- [Most forked](https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories) on all Github.
 - [Git most wanted](http://gitmostwanted.com/) - covers the most interesting repos on [GH Archive](https://www.gharchive.org/)
 
 Some links above sourced from [here](https://stackoverflow.com/questions/19855552/how-to-find-out-the-most-popular-repositories-on-github).
@@ -25,7 +25,7 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 - [Towards Data Science](https://towardsdatascience.com/) (see topics like DataScience, AI, Python, Machine Learning)
 - [Flowing Data](https://flowingdata.com)
 
-## 🛠 Tools
+## 🛠 Online tools
 
 - [Git Pod](https://gitpod.io) - A free cloud-based IDE that runs Github repos. Edit code with a VS Code editor, run in the terminal and save your changes to Github. Also includes a way to view and manager Pull Requests. Runs in a container environment and can be configured with a Git Pod file in your repo.
 - [Python Anywhere](https://pythonanywhere.com) - Free Python hosting. Includes web server with easy configuration along with a MySQL database if you need. Run cron jobs, edit files editing and use consoles for Python, Bash and SQL.
@@ -56,5 +56,5 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyNDUwMzY3NTZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsyODU4OTcwMjJdfQ==
 -->
