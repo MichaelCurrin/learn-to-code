@@ -11,36 +11,45 @@ These descriptions are very simplified but aims to give info someone starting ou
 ### Web development
 
 - This includes building websites and mobile apps.
+
+#### Backend
+
 - Backend development might be developer's focus.
-	- The logic that happens on the server and the database that the user can't see. This is where your business logic and security can be handled, to keep it private. 
-	- One might work on tasks around database queries, serving requests to users or handling users signing up and changing their details.
-	- Programming skills are varied but here are some popular choices:
-		- C# (Csharp)
-		- Java
-		- Python
-		- Node (JavaScript that runs on a server).
+- The logic that happens on the server and the database that the user can't see. This is where your business logic and security can be handled, to keep it private. 
+- One might work on tasks around database queries, serving requests to users or handling users signing up and changing their details.
+- Programming skills are varied but here are some popular choices:
+	- C# (Csharp)
+	- Java
+	- Python
+	- Node (JavaScript that runs on a server).
+
+#### Frontend
+
 - Frontend development could be a developer's focus.
-	- This is the part that the user does see. This is the web page that user sees in the browser, or the mobile app they download and use on their mobile device.
-	- This areas covers User Interface (UI) which is the elements the user see and interacts. As well as User Experience (UX) which deals with the movement around the page and movement between pages of the application - this is where one talks about the flow or the customer journey and design.
-	- The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling problems on certain screen sizes or devices or making the movement around the application smooth and easy.
-	- The programming skills for browser-based development are usually
-		- HTML
-		- CSS
-		- [JavaScript](/Scripting\ languages/JavaScript)
-	- For mobile app development, there are many choices.
-		- Android
-			- Java (The traditional Android language)
-			- Kotlin (A newer language, which Google created because of legal issues of using and modifying Java code).
-		- iOS
-			- Objective C (The traditional iOS language)
-			- Swift (A newer language also by Apple).
-		- React Native
-			- Based on the JavaScript _React_ framework.
-			- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
-		- [Dart](/Scripting\ languages/Dart)
-			- The Dart language includes Flutter - a library for making mobile apps and UI components.
-			- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
-- Fullstack development is becoming more common - where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
+- This is the part that the user does see. This is the web page that user sees in the browser, or the mobile app they download and use on their mobile device.
+- This areas covers User Interface (UI) which is the elements the user see and interacts. As well as User Experience (UX) which deals with the movement around the page and movement between pages of the application - this is where one talks about the flow or the customer journey and design.
+- The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling problems on certain screen sizes or devices or making the movement around the application smooth and easy.
+- The programming skills for browser-based development are usually
+	- HTML
+	- CSS
+	- [JavaScript](/Scripting\ languages/JavaScript)
+- For mobile app development, there are many choices.
+	- Android apps
+		- Java (The traditional Android language)
+		- Kotlin (A newer language, which Google created because of legal issues of using and modifying Java code).
+	- iOS apps
+		- Objective C (The traditional iOS language)
+		- Swift (A newer language also by Apple).
+	- React Native
+		- Based on the JavaScript _React_ framework.
+		- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
+	- [Dart](/Scripting\ languages/Dart)
+		- The Dart language includes Flutter - a library for making mobile apps and UI components.
+		- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
+
+#### Frontend
+
+- Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - - Ruby (usually using "Ruby on Rails", where Rails is the framework).
 
 ### Data Science
@@ -92,6 +101,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTQ1NDQ4MzUxLC04Mzc5MzIx
+BnZm1cbiIsImhpc3RvcnkiOlsxNjkxOTg1MTIxLC04Mzc5MzIx
 NjQsLTE3NzkxNDMyODZdfQ==
 -->
