@@ -65,7 +65,9 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
 	    - For help, select Table of Contents from the menu on the right.
 	    - Auto sync defaults to 90 seconds and the minimum is 60 seconds.
 	    - Click Settings in the right menu. You can override default settings. 
+	    - Use `CTRL+SHIFT+V` to paste without formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using code, you may want to keep the line breaks, as the double spacing is needed for line breaks to render in Markdown.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk0OTE0NjUsMTY4MTgxNjE3M119
+eyJoaXN0b3J5IjpbMjg3NzU3MTE1LC0xOTg5NDkxNDY1LDE2OD
+E4MTYxNzNdfQ==
 -->
