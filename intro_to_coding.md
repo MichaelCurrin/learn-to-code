@@ -21,7 +21,8 @@ These descriptions are very simplified but aims to give info someone starting ou
 		- Node (JavaScript that runs on a server).
 - Frontend development could be a developer's focus.
 	- This is the part that the user does see - on the the website or the mobile app.
-	- This covers User Interface (UI) which is the elements the user see and interacts, as well as User Experience (UX) which deals with the movement around the page and movement 
+	- This covers User Interface (UI) which is the elements the user see and interacts. As well as User Experience (UX) which deals with the movement around the page and movement between pages of the application - this is where one talks about the flow or the customer journey and design.
+	- The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling 
 - Fullstack development is becoming more common - where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - - Ruby (usually using "Ruby on Rails", where Rails is the framework).
 
@@ -74,6 +75,6 @@ Sometimes you can learn a few topics at once when topics complement each other e
 | [Web developer roadmaps](https://www.w3schools.com/whatis/) | This guide assumes you don't know the basics and covers topics like "What is HTML". The roadmap takes you through a few things and lets you click through to learn more This guide is on [w3schools.com](www.w3schools.com) - this site frequently comes up when you do a Google search for HTML, CSS or JS tutorials.
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQyNTI3OTkwNCwtODM3OTMy
-MTY0LC0xNzc5MTQzMjg2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMzk5NjQ2NjI4LC04Mzc5MzIx
+NjQsLTE3NzkxNDMyODZdfQ==
 -->
