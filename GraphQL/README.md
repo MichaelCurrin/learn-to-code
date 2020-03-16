@@ -61,7 +61,7 @@ You can consume a GraphQL in various ways on the client side.
 - Courses
     - [GraphQL with React](https://www.udemy.com/course/graphql-with-react-course) on [Udemy](www.udemy.com).
     - [Frontend Masters](https://frontendmasters.com)
-        - [Client-side GraphQL with React](https://frontendmasters.com/courses/client-graphql-react/
+        - [Client-side GraphQL with React](https://frontendmasters.com/courses/client-graphql-react/)
     - [How to GraphQL](https://www.howtographql.com/)
         - [Introduction](https://www.howtographql.com/basics/0-introduction/) course on fundamentals.
         - See also their menu for topics like advanced GraphQL, frontend or backend courses. 
