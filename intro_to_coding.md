@@ -14,7 +14,7 @@ Below are some departments or careers within tech that I am familiar with. These
 
 #### Programming languages
 
-- Traditionally, programmers learnt the _C_ programming language or a "functional" programming language. These are typically not beginner-friendly.
+- Traditionally, programmers learnt the [C](/Scripting%20languages/C) programming language or a "functional" programming language. These are typically not beginner-friendly.
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up. 
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
 - Here are some popular or commonly used modern languages are:
