@@ -17,13 +17,13 @@ Below are some departments or careers within tech that I am familiar with. These
 - Traditionally, programmers learnt the _C_ programming language or a "functional" programming language. These are typically not beginner-friendly.
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up. 
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
-- The popular modern languages are:
-	- Java - server-side applications and desktop user interfaces, also websites.
-	- C# (C Sharp) - as above.
-	- Python - as above, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
+- Here are some popular or commonly used modern languages are:
+	- [Ruby](/Scripting%20languages/Ruby) - for Fullstack or Backend development. 
+	- [PHP](/Scripting%20languages/PHP) - also Fullstack or Backend.
+	- C# (C Sharp) - also Fullstack or Backend.
+	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
+	- Python - as above for java, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
-	- [Ruby](/Scripting%20languages/Ruby) - Fullstack web development
-	- [PHP](/Scripting%20languages/PHP) - also fullstack.
 	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
 
 ### Web development
