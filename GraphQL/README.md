@@ -66,3 +66,14 @@ You can consume a GraphQL in various ways on the client side.
         - [Introduction](https://www.howtographql.com/basics/0-introduction/) course on fundamentals.
         - See also their menu for topics like advanced GraphQL, frontend or backend courses. 
     - [GraphQL scalable APIs](https://www.pluralsight.com/courses/graphql-scalable-apis) on PluralSight
+
+## Libraries
+
+### Python
+
+- [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) on Github. GraphQL library for Python.
+
+### Ruby
+
+- [github/graphql-client](https://github.com/github/graphql-client) - There is a nice example in their docs using the Star Wars API. Note this gem requires Ruby `2.4.4` or higher.
+- [rmosolgo/graphql-ruby](https://github.com/rmosolgo/graphql-ruby)
