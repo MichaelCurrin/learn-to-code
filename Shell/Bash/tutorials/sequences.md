@@ -97,7 +97,7 @@ z
 
 From [source](https://stackoverflow.com/questions/7300070/looping-through-alphabets-in-bash). Using `nl` for line numbering.
 
-<!-- FIXME: This use of double and then single brackets causes Jekyll error, so escape it or see if a codeblock tag in Jekyll will solve it. -->
+<!-- FIXME: This use of double and then single brackets causes Jekyll error, so escape it or see if a codeblock tag in Jekyll will solve it. --> filter.
 
 ```sh
 echo -e {{a..n},ñ,{o..z}}"\n" | nl
@@ -129,3 +129,6 @@ echo -e {{a..n},ñ,{o..z}}"\n" | nl
     26	 y
     27	 z
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkwMDYzNDM2OF19
+-->
