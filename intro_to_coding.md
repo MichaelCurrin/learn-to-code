@@ -22,7 +22,7 @@ Below are some departments or careers within tech that I am familiar with. These
 	- [PHP](/Scripting%20languages/PHP) - also Fullstack or Backend.
 	- C# (C Sharp) - also Fullstack or Backend.
 	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
-	- Python - as above for java, but with particular growing interest around Data Science, web scraping, automation, machine learning and the Internet of Things (IoT).
+	- [Python](/Scripting%20languages/Python) - as above for Java, but with particular growing interest in recent years around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
 	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
 
@@ -38,8 +38,8 @@ Below are some departments or careers within tech that I am familiar with. These
 - Programming skills are varied but here are some popular choices:
 	- C# (C sharp)
 	- Java
-	- Python
-	- Node (JavaScript that runs on a server).
+	- [Python](/Scripting%20languages/Python)
+	- Node ([JavaScript](/Scripting%20languages/JavaScript) that runs on a server).
 
 #### Frontend
 
@@ -94,8 +94,8 @@ Below are some departments or careers within tech that I am familiar with. These
 			5. Insert the data into the template.
 			6. Return the page as finished HTML.
 		- There may be an admin view which for authorized users to create and edit web pages.
-		- Wordpress is an open-source library available for building a blog, which you can host somewhere or on the Wordpress website itself.
-		- Moodle is similar to Wordpress.
+		- WordPress is an open-source library available for building a blog, which you can host somewhere or on the WordPress website itself.
+		- Moodle is similar to WordPress.
 
 ### Design
 
@@ -118,7 +118,7 @@ Below are some departments or careers within tech that I am familiar with. These
 	- Stats software 
 		- These have a visual interface and produce graphs and reports and some programming skills may be needed to run scripts.
 		- For example: Stata, Statistica
-		- [List of Statiscal Software](https://en.wikipedia.org/wiki/List_of_statistical_software)
+		- [List of Statistical Software](https://en.wikipedia.org/wiki/List_of_statistical_software)
 	- Dashboarding tools
 		- For example: Google Sheets, Tableau, Google Data Studio
 	- Scripting languages
@@ -132,8 +132,8 @@ Below are some departments or careers within tech that I am familiar with. These
 - One part of AI is Machine Learning or _ML_, which usually means training an algorithm to generate a score or probability or categorize an item. Usually there is a define outcome and some rule which a human writes and tweaks. A lot of Machine Learning can be done using stats techniques which are decades old. One way to get started is using the Python [Scikit-Learn](https://scikit-learn.org/)  library.
 - A newer area of AI is Neural Networks, which deals with a kind of learning which is similar to how connections build up between neurons in the brain in training and then when a condition is met later then the neurons fire. This is good for tasks which are hard to define using rules. 
 - There are many approaches to training algorithms.
-	- Supervized learning means that humans label the training data and then the algorithm has go get accurate and making predictions based on that data. 
-	- Unsupervized learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label. Or you don't know what you are looking for out of hundreds of columns of data but you want to do data mining where algorithm figures out what is important and how data points relate to each other.
+	- Supervised learning means that humans label the training data and then the algorithm has go get accurate and making predictions based on that data. 
+	- Unsupervised learning lets the algorithm figure out patterns in the data by itself. This is good when the data is difficult to label. Or you don't know what you are looking for out of hundreds of columns of data but you want to do data mining where algorithm figures out what is important and how data points relate to each other.
 	- Reinforcement learning is a reward-based system where the algorithm is given a goal and when it gets closer to that it is rewarded and so the behavior is reinforced. For example, training a robot car to drive at the right speed, turn corners and recognize objects in order to get the fastest lap time and not crash.
 
 ### DevOps
@@ -147,7 +147,7 @@ Below are some departments or careers within tech that I am familiar with. These
 		- Serverless applications are task-based.
 		- They run based on event - such as a certain time or when triggered by a web request.
 		- The server is disposable and is turned off when it is not needed, which saves on the cost of running a server continuously even when not needed.
-		- The server is managed by configuration - if there is something wrong or you need to change the version of a library, you don't modifiy the server. You modify the config, tear down the server and then start another server.
+		- The server is managed by configuration - if there is something wrong or you need to change the version of a library, you don't modify the server. You modify the config, tear down the server and then start another server.
 	- See links:
 		- [AWS Lambda](https://aws.amazon.com/lambda/) - event-driven serverless computing.
 		- [Backend as a Service](https://backendless.com/)
@@ -157,7 +157,8 @@ Below are some departments or careers within tech that I am familiar with. These
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI2Mzk1NzA1MywtMTMzMjM1
-ODc2OCwyMDk2OTY2NTk3LC0yMDcyNTQyMzEzLC05ODU3NzExMD
-MsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstMTQwNTgwMTE1OSwtMTI2Mzk1
+NzA1MywtMTMzMjM1ODc2OCwyMDk2OTY2NTk3LC0yMDcyNTQyMz
+EzLC05ODU3NzExMDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+
 -->
