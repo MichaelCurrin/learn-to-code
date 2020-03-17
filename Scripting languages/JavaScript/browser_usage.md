@@ -10,7 +10,7 @@
 
 ### Read URL
 
-Window [location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location)  docs.
+See window [location](https://developer.mozilla.org/en-US/docs/Web/API/Window/location) docs for more details.
 
 ```js
 > window.location
@@ -31,26 +31,33 @@ Window [location](https://developer.mozilla.org/en-US/docs/Web/API/Window/locati
 
 ### Read query parameters
 
+This property will give you query parameter string.
+
 ```js
 > window.location.search
-// "?foo=bar"
+// "?foo=bar&fizz=123"
 ```
 
 ### Parse query parameters
 
-There is a builtin function `URLSearchParams` for parsing the values.
+How to lookup a value by key from the search params string.
 
-- [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) docs
+There is a builtin class `URLSearchParams`. Note you need to use the `new` keyword.
+
+- [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) docs.
+- [Get URL parameters with JavaScript](https://www.sitepoint.com/get-url-parameters-with-javascript/) tutorial.
+
 
 Example:
 
 ```js
-> var paramsString = "q=URLUtils.searchParams&foo=bar";
+> var paramsString = "?foo=bar&fizz=123";
 > var searchParams = new URLSearchParams(paramsString);
 > 
 > searchParams.get("foo");
 // "bar"
 ```
+
 
 ### Encoding and decoding
 
@@ -63,8 +70,8 @@ Encode to percent-encoded string.
 - [encodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent) docs
 
 ```js
-> encodeURIComponent('?x=test');
-// "%3Fx%3Dtest"
+> encodeURIComponent('Foo Bar');
+// "Foo%20Bar"
 ```
 
 There is also `encodeURI` which is for use on an entire URL, not just a component. This is useful as it will keep certain characters like `?` and `=` as plain text.
@@ -81,8 +88,8 @@ Decode to plain string.
 - [decodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent) docs
 
 ```js
-> decodeURIComponent('%3Fx%3Dtest');
-"?x=test"
+> decodeURIComponent('Foo%20Bar');
+"Foo Bar"
 ```
 
 There is also `decodeURIComponent` which is for use on an entire URL, not just a component.
