@@ -24,7 +24,7 @@ Below are some departments or careers within tech that I am familiar with. These
 	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
 	- [Python](/Scripting%20languages/Python) - as above for Java, but with particular growing interest in recent years around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
-	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using Electron) or mobile applications (such using React Native).
+	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using [Electron](/Scripting%20languages/JavaScript/frameworks.md#electron)) or mobile applications (such using [React Native](/Scripting%20languages/JavaScript/frameworks.md#react-native)).
 
 ### Web development
 
@@ -49,14 +49,14 @@ Below are some departments or careers within tech that I am familiar with. These
 - The tasks might involve updating the visual elements, add a new flow, changing styles or images, updating content,  fixing styling problems on certain screen sizes or devices or making the movement around the application smooth and easy.
 - The programming skills for browser-based development are usually
 	- HTML
-		- For content
+		- For defining **content**
 		- This is the base of the structure, elements and appearance of a website.
 	- CSS
-		- For styling.
+		- For defining **styling**.
 		- This adds styling to the website, such font, color, background image, layout.
 		- Styling can be added on a certain element or at the top of the page, but often some base CSS styling is applied to the entire website. Using an existing or custom-built theme. 
 	- [JavaScript](/Scripting%20languages/JavaScript)
-		- For behavior
+		- For defining **behavior**
 		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed, all without having to reload the entire page, but just the part that needs to change.
 		- While HTML has elements which can do validation (such as a username must match a regex pattern), JavaScript can be used to do validation which is more complex and give you live feedback. For example, you can type a username to register and web requests are fired in the background to check if it exists and then you get a green indicator say that it is not taken, all before you actually click a submit button. 
 		- JavaScript is also what creates pop-ups (pleasant or annoying) and manages cookies on a website.
@@ -69,8 +69,8 @@ Below are some departments or careers within tech that I am familiar with. These
 	- iOS apps
 		- Objective C (The traditional iOS language)
 		- Swift (A newer language also by Apple).
-	- React Native
-		- Based on the JavaScript _React_ framework.
+	- [React Native](/Scripting%20languages/JavaScript/frameworks.md#react-native)
+		- Based on the JavaScript [React](/Scripting%20languages/JavaScript/frameworks.md#react) framework.
 		- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
 	- [Dart](/Scripting%20languages/Dart)
 		- The Dart language includes Flutter - a library for making mobile apps and UI components.
@@ -157,8 +157,8 @@ Below are some departments or careers within tech that I am familiar with. These
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQwNTgwMTE1OSwtMTI2Mzk1
-NzA1MywtMTMzMjM1ODc2OCwyMDk2OTY2NTk3LC0yMDcyNTQyMz
-EzLC05ODU3NzExMDMsLTgzNzkzMjE2NCwtMTc3OTE0MzI4Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxMzgxODY3NDAsLTEyNjM5NTcw
+NTMsLTEzMzIzNTg3NjgsMjA5Njk2NjU5NywtMjA3MjU0MjMxMy
+wtOTg1NzcxMTAzLC04Mzc5MzIxNjQsLTE3NzkxNDMyODZdfQ==
 
 -->
