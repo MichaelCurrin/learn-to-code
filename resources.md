@@ -1,8 +1,31 @@
-## 📚 Resources
+# 📚 Resources
 > Outline of some key dev ideas with external links to dive deeper
+
+## How to use this guide
+
+This guide assumes you already are familiar coding concepts and want to do something like the following:
+
+- You want to explore some areas you have heard of but don't know much about. Or
+- You learnt tech by doing and want to find some more formal definitions and explanations. Or,
+- You want find out what there is to know and how these things fit together.
+
+In my experience in software engineering interviews (both being interviewed and giving interviews), these are the kind of topics that come up a lot and so knowing about these at least at a conceptual level will help you greatly.
+
+You do not have to actually code in all of these topics, but ideally you should know what most of these items are and when and why you would use them. Where links are not provided below, you can look these up yourself on Wikipedia, blogs or tutorials.
+
+## Topics
 
 ### 💡 Software design concepts
 
+- Operating system
+	- Unix
+	- Linux
+	- macOS
+	- Windows
+- Shell
+	- Bash
+	- ZSH
+	- PowerShell
 - Functional programming
 - [Object-orientated programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID) principles for Object-orientated programming
@@ -79,5 +102,5 @@ Learn to review other developers' code.
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMxNjA3MiwtMTAzMTA4MTgyMF19
+eyJoaXN0b3J5IjpbMTM2NTM4NTcxOSwtMTAzMTA4MTgyMF19
 -->
