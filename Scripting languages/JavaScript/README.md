@@ -28,6 +28,19 @@
     - [NPM Runkit](https://npm.runkit.com/) e.g. https://npm.runkit.com/request
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
+
+## Tools
+
+Quick reference of links to help you install and use command-line tools relating to JavaScript.
+
+- [NodeJS](https://nodejs.org/) homepage.
+- NPM (Node Package Manager).
+    - [NPM homepage](npmjs.com/).
+    - [NPM Docs](https://docs.npmjs.com/)
+- [Yarn](https://classic.yarnpkg.com/) homepage.
+- [Webpack](https://webpack.js.org/) homepage.
+
+
 ## Why learn JavaScript - 5 good reasons
 
 Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
