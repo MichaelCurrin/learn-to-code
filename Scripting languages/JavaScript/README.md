@@ -39,6 +39,7 @@ If you want to run JavaScript in the command-line, skip ahead to [NodeJS](#nodej
 - Docs
     - [JavaScript](https://devdocs.io/javascript/) docs on [devdocs.io](https://devdocs.io/).
     - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) docs on [developer.mozilla.org](https://developer.mozilla.org/). Includes guides for beginner, intermediate and advanced users and also function references.
+        - [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 - Courses
     - [Scotch.io](https://scotch.io)
         - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
