@@ -81,6 +81,51 @@ Using [npm-run](https://www.npmjs.com/package/npm-run)
 $ npm-run COMMAND
 ```
 
+## Node packages
+
+### NPM
+
+Node comes with `npm`.
+
+This will install node packages in a folder which should be ignored in `git`, called `node_modules`.
+
+Install packages in the current project - requires `package.json` to exist.
+
+```sh
+$ npm install
+```
+
+```sh
+$ npm install PACKAGE
+```
+
+Install a package globally.
+
+```sdh
+$ npm install -g PACKAGE
+```
+
+View globally installed packages.
+
+```sh
+$ npm list
+```
+
+That is very verbose, so try this, based on [post](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
+
+```sh
+$ npm list -g --depth 0
+├── bower@1.8.8
+├── bower-away@1.1.2
+├── docsify-cli@4.4.0
+├── grunt-cli@1.3.2
+├── http-server@0.11.1
+├── npm@6.9.0
+└── npx@10.2.0
+```
+
+
+
 ### NVM
 
 If you want to install multiple versions of Node and NPM on your machine, consider using NVM.
@@ -125,5 +170,5 @@ You can switch between version in the terminal and set a global default.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTMxODk5N119
+eyJoaXN0b3J5IjpbMTY0NzgzODY1OF19
 -->
