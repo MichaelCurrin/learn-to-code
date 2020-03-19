@@ -92,7 +92,7 @@ Follow the instructions here:
 - [nvm-sh/nvm](https://github.com/nvm-sh/nvm) Github repo
 - [NVM, the Easiest Way to Switch Node.js Environments on Your Machine in a Flas](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b?gi=74712a4b1ad)
 
-Note you will have to install `nvm` command and also update your shell RC file to ensure it is picked 
+Note you will have to install `nvm` command and also update your shell RC file to ensure it is picked up.
 
 #### Usage
 
@@ -125,5 +125,5 @@ You can switch between version in the terminal and set a global default.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI1NDA4XX0=
+eyJoaXN0b3J5IjpbLTIxNTMxODk5N119
 -->
