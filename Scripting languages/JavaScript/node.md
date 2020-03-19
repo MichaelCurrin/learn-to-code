@@ -28,18 +28,15 @@ $ brew install nodejs
 
 ### Interactive console
 
-Follow one of the following approaches:
-
-* Command-line (this approach requires [NodeJS](#nodejs) to be installed)
-    1. Start the interactive console.
-        ```sh
-        $ node
-        ```
-        ```
-        Welcome to Node.js v12.1.0.
-        Type ".help" for more information.
-        >
-        ```
+Start the interactive console.
+```sh
+$ node
+```
+```
+Welcome to Node.js v12.1.0.
+Type ".help" for more information.
+>
+```
 
 Enter commands and press enter.
 
@@ -51,9 +48,10 @@ For example:
 
 Press `CTRL`+`D` to exit the console.
 
-### Run project scripts
 
-#### Node
+## Run project scripts
+
+### Node
 
 How to run scripts in this project using `node`.
 
@@ -65,7 +63,7 @@ $ # e.g.
 $ node iteration.js
 ```
 
-#### NPM
+### NPM
 
 How to run arbitrary package scripts using `npm`.
 
@@ -83,6 +81,9 @@ Using [npm-run](https://www.npmjs.com/package/npm-run)
 $ npm-run COMMAND
 ```
 
+### NVM
+
+Repo: [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNDMzMjkxXX0=
+eyJoaXN0b3J5IjpbLTE2NjI2ODU0NTNdfQ==
 -->
