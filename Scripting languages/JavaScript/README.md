@@ -34,9 +34,9 @@
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
 
-## Tools
+### Command-line tools
 
-Quick reference of links to help you install and use command-line tools relating to JavaScript.
+Quick reference of links to help you install and use CLI tools relating to JavaScript.
 
 - NodeJS
     - [Homepage](https://nodejs.org/)
@@ -58,6 +58,14 @@ Quick reference of links to help you install and use command-line tools relating
     - [CLI](https://eslint.org/docs/user-guide/command-line-interface)
     - [Rules](https://eslint.org/docs/rules/)
 
+### Libaries
+
+- jQuery
+    - [Homepage](https://jquery.com/).
+    - [Get Started](https://www.w3schools.com/jquery/jquery_get_started.asp)
+    - [Download](https://jquery.com/download/).
+    - [Tutorial](https://www.w3schools.com/jquery/) on W3 Schools. The sidebar covers common usecases.
+    - [API](https://api.jquery.com/) in docs.
 
 ## Why learn JavaScript - 5 good reasons
 
