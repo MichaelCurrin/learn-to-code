@@ -11,13 +11,18 @@
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
     > JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
-- [NodeJS](https://en.wikipedia.org/wiki/Node.js) on Wikipedia.
-    > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
-- [NodeJS official site](https://nodejs.org)
+- Node
+    - [NodeJS](https://en.wikipedia.org/wiki/Node.js) on Wikipedia.
+        > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+    - [NodeJS official site](https://nodejs.org)
+    - [Node docs](https://nodejs.org/en/docs/)
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
     - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
     - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools
+- Docs
+    - [JavaScript](https://devdocs.io/javascript/) docs on [devdocs.io](https://devdocs.io/).
+    - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) docs on [developer.mozilla.org](https://developer.mozilla.org/). Includes guides for beginner, intermediate and advanced users and also function references.
 - Courses
     - [Scotch.io](https://scotch.io)
         - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
@@ -33,12 +38,25 @@
 
 Quick reference of links to help you install and use command-line tools relating to JavaScript.
 
-- [NodeJS](https://nodejs.org/) homepage.
-- NPM (Node Package Manager).
-    - [NPM homepage](npmjs.com/).
-    - [NPM Docs](https://docs.npmjs.com/)
-- [Yarn](https://classic.yarnpkg.com/) homepage.
-- [Webpack](https://webpack.js.org/) homepage.
+- NodeJS
+    - [Homepage](https://nodejs.org/)
+    - [About](https://nodejs.org/en/about/)
+    - [Download](https://nodejs.org/en/download/)
+    - [Releases](https://nodejs.org/en/about/releases)
+- NPM (Node Package Manager)
+    - [Homepage](npmjs.com/)
+    - [About](https://www.npmjs.com/about)
+    - [Docs](https://docs.npmjs.com/)
+- Yarn
+    - [Homepage](https://classic.yarnpkg.com/)
+- Webpack
+    - [Homepage](https://webpack.js.org/)
+- ESLint
+    - [Homepage](https://eslint.org/)
+    - [Getting started](https://eslint.org/docs/user-guide/getting-started)
+    - [Configuring](https://eslint.org/docs/user-guide/configuring)
+    - [CLI](https://eslint.org/docs/user-guide/command-line-interface)
+    - [Rules](https://eslint.org/docs/rules/)
 
 
 ## Why learn JavaScript - 5 good reasons
