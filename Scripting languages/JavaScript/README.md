@@ -7,15 +7,31 @@
 > - JavaScript can update and change both HTML and CSS
 > - JavaScript can calculate, manipulate and validate data - [source](https://www.w3schools.com/whatis/whatis_js.asp)
 
+## Why learn JavaScript - 5 good reasons
+
+Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
+
+1. Easy to start with.
+2. Great career opportunities
+3. Wide range of usage
+4. Big community
+5. Lots of sources to learn
+
+## How to run
+
+If you have a browser installed, then you can already run JavaScript through webpages which run scripts. 
+
+Or through the console - open the dev tools panel from settings or right-click on the page and click Inspect Element and look for the _Console_ tab.
+
+If you want to run JavaScript in the command-line, skip ahead to [NodeJS](#nodejs) section.
+
 ## Resources
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
     > JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
 - Node
-    - [NodeJS](https://en.wikipedia.org/wiki/Node.js) on Wikipedia.
-        > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
-    - [NodeJS official site](https://nodejs.org)
-    - [Node docs](https://nodejs.org/en/docs/)
+    - Run JavaScript on the server, as backend scripts or for build frontend applications.
+    - Skip ahead to [Node](#nodejs) section.
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
     - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
@@ -43,6 +59,7 @@ Quick reference of links to help you install and use CLI tools relating to JavaS
     - [About](https://nodejs.org/en/about/)
     - [Download](https://nodejs.org/en/download/)
     - [Releases](https://nodejs.org/en/about/releases)
+    - Skip ahead to [NodeJS](#nodejs) section.
 - NPM (Node Package Manager)
     - [Homepage](npmjs.com/)
     - [About](https://www.npmjs.com/about)
@@ -58,29 +75,18 @@ Quick reference of links to help you install and use CLI tools relating to JavaS
     - [CLI](https://eslint.org/docs/user-guide/command-line-interface)
     - [Rules](https://eslint.org/docs/rules/)
 
-### Libaries
-
-- jQuery
-    - [Homepage](https://jquery.com/).
-    - [Get Started](https://www.w3schools.com/jquery/jquery_get_started.asp)
-    - [Download](https://jquery.com/download/).
-    - [Tutorial](https://www.w3schools.com/jquery/) on W3 Schools. The sidebar covers common usecases.
-    - [API](https://api.jquery.com/) in docs.
-
-## Why learn JavaScript - 5 good reasons
-
-Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
-
-1. Easy to start with.
-2. Great career opportunities
-3. Wide range of usage
-4. Big community
-5. Lots of sources to learn
 
 ## NodeJS
 > Server-side JavaScript
 
 NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
+
+- [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
+    > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+- Repository: [nodejs/node](github.com/nodejs/node)
+- Initial release: 2009
+
+This section covers how to install and run NodeJS.
 
 ### Install
 
@@ -162,14 +168,21 @@ $ npm-run COMMAND
 
 ## Libraries
 
-- _jQuery_
+JavaScript libraries can be loaded and run in the browser and also on the command-line. They can often run on both, though you may get limited benefit from running backend code in a browser or trying to build a frontend with no browser to view it in.
+
+- jQuery
     - [Official page](https://jquery.com/)
         - >The Write Less, Do More, JavaScript Library
         - The homepage shows example uses.
     - [Wikipedia](https://en.wikipedia.org/wiki/JQuery)
         - > jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+    - [Download](https://jquery.com/download/).
+    - [API](https://api.jquery.com/) in docs.
     - Tutorials
-        - [W3 schools](https://www.w3schools.com/jquery/default.asp)
+        - W3 Schools
+            - [Get Started](https://www.w3schools.com/jquery/jquery_get_started.asp).
+            - [jQuery](https://www.w3schools.com/jquery/default.asp).
+            - [Tutorial](https://www.w3schools.com/jquery/). The sidebar covers common usecases.
         - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
 - Templating libraries
     - Mustache JS
