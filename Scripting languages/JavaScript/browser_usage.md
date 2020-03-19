@@ -6,6 +6,13 @@
 - [JS global](https://www.w3schools.com/jsref/jsref_obj_global.asp) function docs on W3 Schools.
 - JS [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)  docs Mozilla. Covers to work with areas like DOM, Geolocation API, Push API and Fetch API.
 
+## Run
+
+1. Open a browser.
+2. Right-click and click _Inspect_.
+3. Open the _Console_ tab.
+
+
 ## URL query strings
 
 ### Read URL
@@ -94,5 +101,5 @@ Decode to plain string.
 
 There is also `decodeURIComponent` which is for use on an entire URL, not just a component.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjIxMTAxM119
+eyJoaXN0b3J5IjpbNzQ2OTE3MzQzLDE5NDIyMTEwMTNdfQ==
 -->
