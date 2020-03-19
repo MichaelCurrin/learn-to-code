@@ -19,11 +19,17 @@ Summarized from article [here](https://medium.com/duomly-blockchain-online-cours
 
 ## How to run
 
+### Browser
+
 If you have a browser installed, then you can already run JavaScript through webpages which run scripts. 
 
 Or through the console - open the dev tools panel from settings or right-click on the page and click Inspect Element and look for the _Console_ tab.
 
-If you want to run JavaScript in the command-line, skip ahead to [NodeJS](#nodejs) section.
+Jump to [browser_usage](browser_usage.md).
+
+### Command-line
+
+If you want to run JavaScript in the command-line, jump ahead to [Node](node.md) doc.
 
 ## Resources
 
@@ -31,7 +37,7 @@ If you want to run JavaScript in the command-line, skip ahead to [NodeJS](#nodej
     > JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
 - Node
     - Run JavaScript on the server, as backend scripts or for build frontend applications.
-    - Skip ahead to [Node](#nodejs) section.
+    - Skip ahead to [Node](node.md) doc.
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
     - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
@@ -51,7 +57,7 @@ If you want to run JavaScript in the command-line, skip ahead to [NodeJS](#nodej
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
 
-### Command-line tools
+## Command-line tools
 
 Quick reference of links to help you install and use CLI tools relating to JavaScript.
 
@@ -75,9 +81,6 @@ Quick reference of links to help you install and use CLI tools relating to JavaS
     - [Configuring](https://eslint.org/docs/user-guide/configuring)
     - [CLI](https://eslint.org/docs/user-guide/command-line-interface)
     - [Rules](https://eslint.org/docs/rules/)
-
-
-
 
 
 ## Libraries
@@ -127,11 +130,11 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
     - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
     - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
 
-#### Frameworks
+### Frameworks
 
 See [JS Frameworks](frameworks.md) doc in this project for frontend and backend JS frameworks.
 
-### CDNs
+## CDNs
 
 Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) where libraries can be downloaded.
 
@@ -142,5 +145,5 @@ Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_del
     - Homepage [unpkg.com/](https://unpkg.com/)
     - e.g. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2ODM2NDldfQ==
+eyJoaXN0b3J5IjpbLTE4NTU5NTk4MzNdfQ==
 -->
