@@ -171,7 +171,11 @@ $ npm-run COMMAND
 
 JavaScript libraries can be loaded and run in the browser and also on the command-line. They can often run on both, though you may get limited benefit from running backend code in a browser or trying to build a frontend with no browser to view it in.
 
+### Convenience
+
 - jQuery
+    - Widely used, as jQuery makes it easy to do actions like selecting and updating elements or fetching resources, by using light code. 
+    - the JavaScript executed internally by jQuery works great across browsers (which each have their own implementation of how things work in JS). So you don't have to worry about that.
     - [Official page](https://jquery.com/)
         - >The Write Less, Do More, JavaScript Library
         - The homepage shows example uses.
@@ -185,26 +189,30 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
             - [jQuery](https://www.w3schools.com/jquery/default.asp).
             - [Tutorial](https://www.w3schools.com/jquery/). The sidebar covers common usecases.
         - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
-- Templating libraries
-    - Mustache JS
-        - [Official page](https://mustache.github.io/)
-            > Logic-less templates.
-        - HTML templating on the server or browser side.
-        - [npm](https://www.npmjs.com/package/mustache)
-        - [Cloudfare CDN](https://cdnjs.com/libraries/mustache.js/)
-    - Handlebars JS
-        - [Official page](https://handlebarsjs.com/)
-            > Minimal templating on steroids
-        - [npm](https://www.npmjs.com/package/handlebars)
-        - [Github repo](https://github.com/wycats/handlebars.js)
-- Dataviz libraries
-    - [D3.js](https://d3js.org/)
-    - [ApexCharts.js](https://apexcharts.com/)
-    - [Highcharts](https://www.highcharts.com/)
-    - roughViz
-        - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github.
-        - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
-        - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
+
+### Templating libraries
+
+- Mustache JS
+    - [Official page](https://mustache.github.io/)
+        > Logic-less templates.
+    - HTML templating on the server or browser side.
+    - [npm](https://www.npmjs.com/package/mustache)
+    - [Cloudfare CDN](https://cdnjs.com/libraries/mustache.js/)
+- Handlebars JS
+    - [Official page](https://handlebarsjs.com/)
+        > Minimal templating on steroids
+    - [npm](https://www.npmjs.com/package/handlebars)
+    - [Github repo](https://github.com/wycats/handlebars.js)
+
+### Dataviz libraries
+
+- [D3.js](https://d3js.org/)
+- [ApexCharts.js](https://apexcharts.com/)
+- [Highcharts](https://www.highcharts.com/)
+- roughViz
+    - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github.
+    - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
+    - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
 
 #### Frameworks
 
