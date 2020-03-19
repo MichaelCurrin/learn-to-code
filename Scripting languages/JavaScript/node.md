@@ -83,7 +83,47 @@ $ npm-run COMMAND
 
 ### NVM
 
-Repo: [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+If you want to install multiple versions of Node and NPM on your machine, consider using NVM.
+
+#### Setup
+
+Follow the instructions here:
+
+- [nvm-sh/nvm](https://github.com/nvm-sh/nvm) Github repo
+- [NVM, the Easiest Way to Switch Node.js Environments on Your Machine in a Flas](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b?gi=74712a4b1ad)
+
+Note you will have to install `nvm` command and also update your shell RC file to ensure it is picked 
+
+#### Usage
+
+After setup, you can use it to install and switch to a target Node version (and associated NPM version).
+
+For example, here I install a new version of Node, without specifying the full version.
+
+```sh
+$ nvm install 13
+Downloading and installing node v13.11.0...
+...
+$ nvm use 13
+```
+
+View available versions:
+
+```
+        v6.11.2
+         v8.0.0
+        v8.15.0
+        v10.0.0
+       v10.15.0
+        v11.0.0
+        v12.1.0
+->     v13.11.0
+         system
+ ```   
+
+You can switch between version in the terminal and set a global default.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI2ODU0NTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNjI1NDA4XX0=
 -->
