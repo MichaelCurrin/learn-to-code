@@ -2,6 +2,8 @@
 
 Configure `git` to use a preset commit message in repo.
 
+See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template).
+
 ## Setup
 
 ### Create template
