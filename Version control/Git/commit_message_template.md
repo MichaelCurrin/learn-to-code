@@ -8,13 +8,22 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 ### Create template
 
-Create a template file with an arbitrary name and path. This should not be in the repo unless it is ignored. You could pick a location in your user directory or Documents.
+Create a template file with an arbitrary name. Here the repo is _foo_, so this is included in the template name. 
 
-e.g. `.gitmessage`. Here with a Jira ticket number and a space.
+You could pick any a location in your user directory or Documents. This file should not be in the repo unless it is ignored (e.g. `.gitmessage`) in your ignore file.
+
+e.g. `foo-message.txt`, here with a Jira ticket number.
 
 ```sh
 [ABC-123] 
 ```
+
+Using the command-line:
+
+```sh
+echo '[ABC-123] ' > ~/foo-message.txt
+```
+
 
 ### Link to template
 
@@ -30,7 +39,7 @@ Set a config such as the following, using a tab for indentation.
 
 ```
 [commit]
-		template = ~/.gitmessage
+		template = ~/foo-message.txt
 ```
 
 ## Usage
