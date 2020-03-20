@@ -7,8 +7,8 @@ You can browse and search the Unsplash site, which provides images which are fre
 
 Options for embedding images:
 
-- [Source](#source) - basic
-- [API](#api) - advanced
+- [Source](#source) - basic.
+- [API](#api) - advanced.
 
 
 ## Source
@@ -24,13 +24,13 @@ Their docs are more complete, but some cases are covered here.
 
 ### Load a specific image
 
-Set the dimensions - note that you can easily choose a small size and the image will be a cropped (not stretched). A square also works well.
+Set the dimensions to resize the server on CDN to give fast load time. If you choose a different aspect ratio to the original, the image will be cropepd but not distorted. A square also works well.
 
 ```
 https://source.unsplash.com/{IMAGE_ID}/{WIDTH}x{HEIGHT}
+```
 
 https://source.unsplash.com/3DOybxD2hMo/1600x900
-```
 
 Example:
 
@@ -43,17 +43,15 @@ Example:
 
 ### Random image
 
-```
 https://source.unsplash.com/random
-```
 
-### Random image from a user
+### Random image by a user
 
 ```
 https://source.unsplash.com/user/{USERNAME}
+```
 
 https://source.unsplash.com/user/erondu
-```
 
 ### Search
 
@@ -61,17 +59,19 @@ Pick a random word from a search of one or more keywords.
 
 ```
 https://source.unsplash.com/featured/?{KEYWORDS}
-
-https://source.unsplash.com/featured/?nature,water
 ```
 
-To specify size for the search:
+https://source.unsplash.com/featured/?nature,water
+
+
+Specify dimensions for the search:
 
 ```
 https://source.unsplash.com/{WIDTH}x{HEIGHT}/?{KEYWORDS}
+```
 
 https://source.unsplash.com/600x600/?water
-```
+
 
 ## API
 
