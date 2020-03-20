@@ -1,7 +1,8 @@
 # Stock Images
-> How to link to free stock images in your application, using Unsplash
+> How to embed free stock images in your website
 
-You can browse and search this site. You can download high resolution images, collect content by other users and also upload your own.
+You can browse and search the Unsplash site, which provides images which are free to use but that require links back to the author. You can download high resolution images, collect content by other users and also upload your own.
+
 - [unsplash.com](https://unsplash.com) site
 
 Use [source](#source) domain for simple embedding. Use the [API](#api) domain for more advanced usage.
