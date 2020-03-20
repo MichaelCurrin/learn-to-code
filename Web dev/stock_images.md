@@ -5,34 +5,43 @@ You can browse and search the Unsplash site, which provides images which are fre
 
 - [unsplash.com](https://unsplash.com) site
 
-Use [source](#source) domain for simple embedding. Use the [API](#api) domain for more advanced usage.
+Options for embedding:
+
+- [Source](#source) - basic
+- [API](#api) - advanced
 
 
-#### Source
+## Source
 
-- [Source](https://source.unsplash.com/) doc page.
+For simple embedding, use the _source_ domain.
 
-For simple embedding you can use the _source_ domain.
+- [Source](https://source.unsplash.com/) page.
 
-Load a specific image.
+That includes instructions and is the domain for serving images as covered below.
+
+### Load a specific image
 
 ```
 https://source.unsplash.com/IMAGE_ID/WIDTHxHEIGHT
+
+https://source.unsplash.com/3DOybxD2hMo/1600x900
 ```
 
-Random image:
+### Random image
 
 ```
 https://source.unsplash.com/random
 ```
 
-Random image from a user:
+### Random image from a user
 
 ```
 https://source.unsplash.com/user/USERNAME
 ```
 
-#### API
+## API
+
+For more advanced usage, use the API.
 
 - [API](https://unsplash.com/developers) docs.
 
