@@ -7,9 +7,11 @@
 > - JavaScript can update and change both HTML and CSS
 > - JavaScript can calculate, manipulate and validate data - [source](https://www.w3schools.com/whatis/whatis_js.asp)
 
-JavaScript was design to run a host environment such as the browser, with support added later as "Node" to run in a standalone environment like many other languages do.
+JavaScript was design to run a host environment such as the browser, with support added later as "Node" to run in a standalone environment like many other languages do. This is done through modifications (updates) to the [Document Object Model](https://en.m.wikipedia.org/wiki/Document_Object_Model) or _DOM_, which a tree structure of elements on the page. The DOM might initially match the initial HTML fetched and that can be seen with View Source, but when content changes you'll have to look at the DOM in your browser's dev tools.
 
-In the browser, JavaScript takes care of the behavior part of the experience, while HTML handles the content and CSS is the styling. JavaScript allows you to read and manipulate the DOM to make a page dynamic, such as pulling in photos as a user scrolls, creating a pop-up when a condition is met or making a game. While JavaScript typically exists as a script directly on the page or pulled in as a standalone file, an internet connection is not needed to execute JavaScript. As it runs on the browser, independent of the server which initially sent the HTML and JavaScript. However, you may see reduced functionality or errors especially around creating or reading content on the server such as an image, post or user details. 
+In the browser, JavaScript takes care of the behavior (interactivity) part of the experience, while HTML handles the content and CSS is the styling. JavaScript allows you to read and manipulate the page to make a it dynamic. Such as pulling in photos as a user scrolls, adding a style or CSS class to an element on a condition, creating a pop-up when a condition is met or even making a game.
+
+While JavaScript typically exists as a script directly on the page or pulled in as a standalone file, an internet connection is not needed to execute JavaScript. As it runs on the browser, independent of the server which initially sent the HTML and JavaScript. However, you may see reduced functionality or errors especially around creating or reading content on the server such as an image, post or user details. 
 
 JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript).
 
