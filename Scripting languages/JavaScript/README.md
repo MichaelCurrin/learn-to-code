@@ -7,15 +7,24 @@
 > - JavaScript can update and change both HTML and CSS
 > - JavaScript can calculate, manipulate and validate data - [source](https://www.w3schools.com/whatis/whatis_js.asp)
 
+JavaScript was design to run a host environment such as the browser, with support added later as "Node" to run in a standalone environment like many other languages do.
+
+In the browser, JavaScript takes care of the behavior part of the experience, while HTML handles the content and CSS is the styling. JavaScript allows you to read and manipulate the DOM to make a page dynamic, such as pulling in photos as a user scrolls, creating a pop-up when a condition is met or making a game. While JavaScript typically exists as a script directly on the page or pulled in as a standalone file, an internet connection is not needed to execute JavaScript. As it runs on the browser, independent of the server which initially sent the HTML and JavaScript. However, you may see reduced functionality or errors especially around creating or reading content on the server such as an image, post or user details. 
+
+JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript).
+
+
+
 ## Why learn JavaScript - 5 good reasons
 
 Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
 
-1. Easy to start with.
-2. Great career opportunities
-3. Wide range of usage
-4. Big community
-5. Lots of sources to learn
+1. Easy to start with
+2. Great career opportunities 
+3. Wide range of usage.
+4. A large community
+5. Plenty of sources to learn from.
+
 
 ## How to run
 
@@ -31,13 +40,14 @@ Jump to [browser_usage](browser_usage.md).
 
 If you want to run JavaScript in the command-line, jump ahead to [Node](node.md) doc.
 
+
 ## Resources
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
     > JavaScript, often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.
 - Node
     - Run JavaScript on the server, as backend scripts or for build frontend applications.
-    - Skip ahead to [Node](node.md) doc.
+    - Jump to [Node](node.md) doc.
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
     - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
@@ -46,6 +56,7 @@ If you want to run JavaScript in the command-line, jump ahead to [Node](node.md)
     - [JavaScript](https://devdocs.io/javascript/) docs on [devdocs.io](https://devdocs.io/).
     - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) docs on [developer.mozilla.org](https://developer.mozilla.org/). Includes guides for beginner, intermediate and advanced users and also function references.
         - [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+        - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - Courses
     - [Scotch.io](https://scotch.io)
         - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
