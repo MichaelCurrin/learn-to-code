@@ -5,7 +5,7 @@ You can browse and search the Unsplash site, which provides images which are fre
 
 - [unsplash.com](https://unsplash.com) site
 
-Options for embedding:
+Options for embedding images:
 
 - [Source](#source) - basic
 - [API](#api) - advanced
@@ -19,10 +19,12 @@ For simple embedding, use the _source_ domain.
 
 That includes instructions and is the domain for serving images as covered below.
 
+Their docs are more complete, but some cases are covered here.
+
 ### Load a specific image
 
 ```
-https://source.unsplash.com/IMAGE_ID/WIDTHxHEIGHT
+https://source.unsplash.com/{IMAGE_ID}/{WIDTH}x{HEIGHT}
 
 https://source.unsplash.com/3DOybxD2hMo/1600x900
 ```
@@ -36,7 +38,27 @@ https://source.unsplash.com/random
 ### Random image from a user
 
 ```
-https://source.unsplash.com/user/USERNAME
+https://source.unsplash.com/user/{USERNAME}
+
+https://source.unsplash.com/user/erondu
+```
+
+### Search
+
+Pick a random word from a search of one or more keywords.
+
+```
+https://source.unsplash.com/featured/?{KEYWORDS}
+
+https://source.unsplash.com/featured/?nature,water
+```
+
+To specify size for the search:
+
+```
+https://source.unsplash.com/{WIDTH}x{HEIGHT}/?{KEYWORDS}
+
+https://source.unsplash.com/600x600/?water
 ```
 
 ## API
