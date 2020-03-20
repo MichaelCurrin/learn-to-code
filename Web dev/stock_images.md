@@ -21,13 +21,25 @@ That includes instructions and is the domain for serving images as covered below
 
 Their docs are more complete, but some cases are covered here.
 
+
 ### Load a specific image
+
+Set the dimensions - note that you can easily choose a small size and the image will be a cropped (not stretched). A square also works well.
 
 ```
 https://source.unsplash.com/{IMAGE_ID}/{WIDTH}x{HEIGHT}
 
 https://source.unsplash.com/3DOybxD2hMo/1600x900
 ```
+
+Example:
+
+```markdown
+<img src="https://source.unsplash.com/user/erondu/300x300">
+```
+
+<img src="https://source.unsplash.com/user/erondu/300x300">
+
 
 ### Random image
 
