@@ -40,7 +40,10 @@ Jump to [browser_usage](browser_usage.md).
 
 ### Command-line
 
-If you want to run JavaScript in the command-line, jump ahead to [Node](node.md) doc.
+If you want to run JavaScript in the command-line, see these docs:
+
+- [Node](node.md)
+- [Node packages](node_packages.md) - covers NPM and NVM.
 
 
 ## Resources
