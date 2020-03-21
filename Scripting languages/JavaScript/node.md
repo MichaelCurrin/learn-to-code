@@ -56,7 +56,7 @@ Press `CTRL`+`D` to exit the console.
 
 ## Run project scripts
 
-### Node
+### Run with Node
 
 How to run scripts in this project using `node`.
 
@@ -68,7 +68,7 @@ $ # e.g.
 $ node iteration.js
 ```
 
-### NPM
+### Run with NPM
 
 How to run arbitrary package scripts using `npm`.
 
@@ -90,21 +90,71 @@ $ npm-run COMMAND
 
 ### NPM
 
-Node comes with `npm`.
+Node comes with the `npm` command.
 
-This will install node packages in a folder which should be ignored in `git`, called `node_modules`.
+- [NPM](https://npmjs.com/) homepage.
+- [An introduction to the npm package manager](https://flaviocopes.com/npm/) on a blog.
 
-Install packages in the current project - requires `package.json` to exist.
+#### Initialize
+
+Before you can install packages in a project, you need a `package.json` file.
+
+If you don't have one, run this:
+
+```sh
+$ npm init
+```
+
+#### Node modules directory
+
+Running the install command will install node packages in a directory called `node_modules`.
+
+In a project, this is at the project root.
+
+For a global install, this is here on Unix systems:
+
+```
+/usr/local/lib/node_modules
+```
+
+You can check this with the `root` command.
+
+```
+# Project
+npm root
+
+# Global
+npm root -g
+```
+
+#### Project install
+
+If install in a project, add that directory to your `.gitignore` file.
+
+Install packages in the current project - if you omit a package name here, then the `package.json` file must exist.
 
 ```sh
 $ npm install
 ```
 
 ```sh
-$ npm install PACKAGE
+$ npm install PACKAGE_NAME
 ```
 
-Install a package globally.
+If you want to `package.json` file to be updated, use the `--save` or `--save-dev` flags.
+
+List installed packages:
+
+```sh
+$ npm list --depth=0
+```
+
+The depth limits showing subdepedencies and so makes the output shorter.
+
+
+#### Global install
+
+Install a package globally, so that is available from any directory. Note that if you run a project on another machine, then that package might not be available, so typically on a few packages should be installed globally.
 
 ```sdh
 $ npm install -g PACKAGE
@@ -130,10 +180,17 @@ $ npm list -g --depth 0
 ```
 
 
-
 ### NVM
 
 If you want to install multiple versions of Node and NPM on your machine, consider using NVM.
+
+You can switch between Node versions easily and you can install packages in a specific NPM environment.
+
+If you run `npm install PACKAGE` with a certain version, packages will go here for example (on Unix systems).
+
+```
+~/.nvm/versions/node/v8.9.0/lib/node_modules
+```
 
 #### Setup
 
