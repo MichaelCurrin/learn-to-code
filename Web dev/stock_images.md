@@ -11,6 +11,24 @@ Options for embedding images:
 - [API](#api) - advanced.
 
 
+## Original
+
+Format of links on the main site domain. These are not for embedding but you can visit them.
+
+
+### Search 
+
+- https://unsplash.com/s/photos/nature
+
+### Lookup photo 
+
+- https://unsplash.com/photos/6nRierJz200
+
+### Lookup user
+
+- https://unsplash.com/@crawford
+
+
 ## Source
 
 For simple embedding, use the _source_ domain.
