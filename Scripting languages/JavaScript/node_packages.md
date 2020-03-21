@@ -10,6 +10,8 @@ Node comes with the `npm` command.
 - [NPM](https://npmjs.com/) homepage.
 - [An introduction to the npm package manager](https://flaviocopes.com/npm/) on a blog.
 
+See also my [NPM cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/package_managers/npm.md) if you are already familiar with NPM.
+
 ### Initialize
 
 Before you can install packages in a project, you need a `package.json` file.
