@@ -64,6 +64,9 @@ Example:
 
 https://source.unsplash.com/random
 
+Note if using the browser to view that in a separate tab. you will get redirected to a specific image which is fixed. If you embed the URL in an image tag, you can refresh the page to get a new random choice. 
+
+
 ### Random image by a user
 
 ```
