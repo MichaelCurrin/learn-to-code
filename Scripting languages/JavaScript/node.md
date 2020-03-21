@@ -8,27 +8,32 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 - Repository: [nodejs/node](github.com/nodejs/node)
 - Initial release: 2009
 
-This section covers how to install and run NodeJS.
+This section covers how to install and run NodeJS. This will also come with a version of NPM.
 
 ## Install
 
-**Linux**
+### Linux
 
 ```sh
 $ sudo apt install nodejs
 ```
 
-**macOS**
+### macOS
 
 ```sh
 $ brew install nodejs
 ```
+
+### Windows
+
+Download and run the Windows installer from the [Download](https://nodejs.org/en/download/) page.
 
 ## Run
 
 ### Interactive console
 
 Start the interactive console.
+
 ```sh
 $ node
 ```
