@@ -19,13 +19,19 @@ Format of links on the main site domain. These are not for embedding but you can
 
 ### Search 
 
+Keyword search
+
 - https://unsplash.com/s/photos/nature
 
-### Lookup photo 
+Using the _Explore_ tab and find keyword tags, in a hierarchy.
+
+- https://unsplash.com/images/nature/solar-eclipse
+
+### Lookup a specific image
 
 - https://unsplash.com/photos/6nRierJz200
 
-### Lookup user
+### Lookup a specific user's profile
 
 - https://unsplash.com/@crawford
 
@@ -74,6 +80,7 @@ https://source.unsplash.com/user/{USERNAME}
 ```
 
 https://source.unsplash.com/user/erondu
+
 
 ### Search
 
