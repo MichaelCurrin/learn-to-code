@@ -4,6 +4,7 @@
 You can browse and search the Unsplash site, which provides images which are free to use but that require links back to the author. You can download high resolution images, collect content by other users and also upload your own.
 
 - [unsplash.com](https://unsplash.com) site
+- [license](https://unsplash.com) page
 
 Options for embedding images:
 
