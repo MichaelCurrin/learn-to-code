@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration of ListJS</title>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+</head>
+
+<body>
+    <h1>Demonstration of ListJS with filtering</h1>
+
+    <p>Based on <a href="https://jsfiddle.net/79878t4g/24/">fiddle</a></p>
+
+    <div id="piece-search">
+        <div class="filter">
+            <button class="btn" id="filter-none">All</button>
+            <button class="btn" id="filter-scientific" value="category">scientific</button>
+            <button class="btn" id="filter-artsy" value="category">artsy</button>
+        </div>
+
+        <ul class="list">
+
+            <li class="item">
+                <p class="sorting-info hide-this">
+                    <p class="material">plastic</p>
+                    <p class="category">artsy</p>
+            </li>
+
+            <li class="item">
+                <p class="sorting-info hide-this">
+                    <p class="material">glass</p>
+                    <p class="category">scientific</p>
+            </li>
+
+            <li class="item">
+                <p class="sorting-info hide-this">
+                    <p class="material">paper</p>
+                    <p class="category">artsy</p>
+            </li>
+        </ul>
+
+    </div>
+
+    <script>
+        var options = {
+            valueNames: ['material', 'category']
+        };
+
+        var featureList = new List('piece-search', options);
+
+        $('#filter-scientific').click(function () {
+            featureList.filter((item) => item.values().category == "scientific")
+        });
+
+        $('#filter-artsy').click(function () {
+            featureList.filter((item) => item.values().category == "artsy")
+        });
+
+        $('#filter-none').click(function () {
+            featureList.filter();
+        });
+
+    </script>
+</body>
