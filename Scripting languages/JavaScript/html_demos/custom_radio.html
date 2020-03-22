@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom radio buttons</title>
+
+    <style>
+        .radio-toolbar {
+            margin: 10px;
+        }
+
+        /* Hide circles. */
+        .radio-toolbar input[type="radio"] {
+            opacity: 0;
+            position: fixed;
+            width: 0;
+        }
+
+        /* Unseleted default view. */
+        .radio-toolbar label {
+            display: inline-block;
+            background-color: #ddd;
+            padding: 10px 20px;
+            font-family: sans-serif, Arial;
+            font-size: 16px;
+            border: 2px solid #444;
+            border-radius: 4px;
+        }
+
+        /* Hover view. */
+        .radio-toolbar label:hover {
+            background-color: #dfd;
+        }
+
+        /* Change label which follows a checked input */
+        .radio-toolbar input[type="radio"]:checked+label {
+            background-color: #bfb;
+            border-color: #4c4;
+        }
+
+        /* Add border for accessibility reasons. */
+        .radio-toolbar input[type="radio"]:focus+label {
+            border: 2px dashed #444;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Custom radio buttons</h1>
+
+    <p>From <a href="https://markheath.net/post/customize-radio-button-css">tutorial.</a></p>
+
+    <div class="radio-toolbar">
+        <input type="radio" id="radioApple" name="radioFruit" value="apple" checked>
+        <label for="radioApple">Apple</label>
+
+        <input type="radio" id="radioBanana" name="radioFruit" value="banana">
+        <label for="radioBanana">Banana</label>
+
+        <input type="radio" id="radioOrange" name="radioFruit" value="orange">
+        <label for="radioOrange">Orange</label>
+    </div>
+</body>
+
+</html>
