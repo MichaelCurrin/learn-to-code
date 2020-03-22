@@ -1,5 +1,20 @@
 # JavaScript
 
+- [What is JavaScript?](#what-is-javascript)
+    - [What can you do with JavaScript?](#what-can-you-do-with-javascript)
+    - [Why learn JavaScript - 5 good reasons](#why-learn-javascript---5-good-reasons)
+- [How to run](#how-to-run)
+    - [Browser](#browser)
+    - [Command-line](#command-line)
+    - [Run project scripts](#run-project-scripts)
+- [Resources](#resources)
+    - [Command-line tools](#command-line-tools)
+- [Libraries](#libraries)
+    - [Convenience](#convenience)
+    - [Templating libraries](#templating-libraries)
+    - [Dataviz libraries](#dataviz-libraries)
+    - [Frameworks](#frameworks)
+- [CDNs](#cdns)
 
 ## What is JavaScript?
 
@@ -16,19 +31,33 @@ While JavaScript typically exists as a script directly on the page or pulled in 
 JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript).
 
 
+### What can you do with JavaScript?
 
-## Why learn JavaScript - 5 good reasons
+Here are some examples cases using JavaScript in the browser or on the server.
+
+- make a webpage dynamic (fetching and load data, add validation and transitions)
+- single-page application
+- web server
+- API
+- game design
+- mobile apps
+- machine learning
+- automation
+
+
+### Why learn JavaScript - 5 good reasons
 
 Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
 
 1. Easy to start with
 2. Great career opportunities
-3. Wide range of usage.
+3. Wide range of usage
 4. A large community
-5. Plenty of sources to learn from.
+5. Plenty of sources to learn from
 
 
 ## How to run
+
 
 ### Browser
 
@@ -45,6 +74,18 @@ If you want to run JavaScript in the command-line, see these docs:
 - [Node](node.md)
 - [Node packages](node_packages.md) - covers NPM and NVM.
 
+### Run project scripts
+
+See the [scripts](scripts) directory.
+
+You can run the `.js` files there using instructions below, if you have [node](node.md) installed.
+
+```sh
+$ cd <PATH_TO_REPO>
+$ # Note the space means quotes are needed.
+$ cd 'Scripting languages/JavaScript/scripts'
+$ node basics/iteration.js
+```
 
 ## Resources
 
@@ -73,7 +114,7 @@ If you want to run JavaScript in the command-line, see these docs:
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
 
-## Command-line tools
+### Command-line tools
 
 Quick reference of links to help you install and use CLI tools relating to JavaScript.
 
@@ -160,17 +201,3 @@ Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_del
 - Unpkg
     - Homepage [unpkg.com/](https://unpkg.com/)
     - e.g. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
-
-
-## Run project scripts
-
-See the [scripts](scripts) directory.
-
-You can run the `.js` files there using instructions below, if you have [node](node.md) installed.
-
-```sh
-$ cd <PATH_TO_REPO>
-$ # Note the space means quotes are needed.
-$ cd 'Scripting languages/JavaScript/scripts'
-$ node basics/iteration.js
-```
