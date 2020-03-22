@@ -51,17 +51,17 @@
 
         var featureList = new List('piece-search', options);
 
-        document.getElementById('filter-scientific').onclick = function () {
-            featureList.filter((item) => item.values().category == "scientific")
-        };
+        function filter(category) {
+            if (category) {
+                featureList.filter(item => item.values().category == category)
+            } else {
+                featureList.filter()
+            }
+        }
 
-        document.getElementById('filter-artsy').onclick = function () {
-            featureList.filter((item) => item.values().category == "artsy")
-        };
-
-        document.getElementById('filter-none').onclick = function () {
-            featureList.filter();
-        };
+        document.getElementById('filter-scientific').onclick = () => filter('scientific')
+        document.getElementById('filter-artsy').onclick = () => filter('artsy')
+        document.getElementById('filter-none').onclick = () => filter()
 
     </script>
 </body>
