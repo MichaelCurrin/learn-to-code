@@ -53,6 +53,7 @@
             margin: 0 3px;
         }
 
+        /* This makes a checked button look active, even though there is no checked attribute like for radio or checkbox. */
         .jplist-selected {
             background-color: #007bff;
             border-color: #007bff;
@@ -144,6 +145,7 @@
         <h2>Sorting</h2>
 
         <div>
+            <!-- These are buttons that act like checkboxes because of the CSS styling changing their appearance. -->
             <button data-jplist-control="sort-buttons" data-path=".title" data-group="group2" data-order="asc"
                 data-type="text" data-name="sort1" data-selected="true" data-mode="radio">
                 Sort by title asc
