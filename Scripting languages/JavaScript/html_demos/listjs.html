@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration of ListJS</title>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+</head>
+
+<body>
+    <h1>Demonstration of ListJS</h1>
+
+    <i>Tiny, invisible and simple, yet powerful and incredibly fast vanilla JavaScript that adds search, sort, filters
+        and flexibility to plain HTML lists, tables, or anything. </i>
+
+    <p>Using <a href="https://listjs.com/">ListJS</a>. See <a href="https://listjs.com/docs/">examples</a> in the docs
+        and <a href="https://listjs.com/overview/download/">Download</a> page.</p>
+
+
+    <h2>Search and sort basic example</h2>
+
+    <div id="my-users">
+        <!-- Controls -->
+        <div>
+            <!-- Search by name or born! -->
+            <input class="search" placeholder="Search" />
+
+            <button class="sort" data-sort="name">
+                Sort by name
+            </button>
+
+            <button class="sort" data-sort="born">
+                Sort by born
+            </button>
+        </div>
+
+        <!-- Output -->
+        <ul class="list">
+
+            <!-- Here the inner HTML is used as the value to search or sort on. -->
+            <li>
+                <h3 class="name">Foo</h3>
+                <p class="born">1986</p>
+            </li>
+            <li>
+                <h3 class="name">Bar</h3>
+                <p class="born">1983</p>
+            </li>
+            <li>
+                <h3 class="name">Baz</h3>
+                <p class="born">1984</p>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var options = {
+            valueNames: ['name', 'born']
+        };
+
+        // You can also specify values to add on initialization.
+        // new List(id/element, options, values);
+        var userList = new List('my-users', options);
+
+    </script>
+
+
+    <h2>Using data attributes and other custom attributes</h2>
+
+    <div id="hacker-list">
+        <!-- Controls -->
+        <div>
+            <input class="search" placeholder="Search" />
+
+            <button class="sort" data-sort="name">
+                Sort by name
+            </button>
+
+            <button class="sort" data-sort="born">
+                Sort by born
+            </button>
+
+            <button class="sort" data-sort="timestamp">
+                Sort by timestamp
+            </button>
+
+            <button class="sort" data-sort="id">
+                Sort by id
+            </button>
+        </div>
+
+        <!-- Output -->
+        <ul class="list">
+            <li data-id="1">
+                <!-- Sorting by link (indicated by class name) uses href attribute. -->
+                <a href="http://javve.com" class="link name">Foo</a>
+                <!-- Sorting my timestamp uses data-timestame attr. -->
+                <p class="born timestamp" data-timestamp="1000">1986</p>
+            </li>
+
+            <li data-id="2">
+                <a href="http://example.com" class="link name">Bar</a>
+                <p class="born timestamp" data-timestamp="500">1983</p>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var options = {
+            valueNames: [
+                'name',
+                'born',
+                // Sort data-id
+                {
+                    data: ['id']
+                },
+                // Sorts data-timestamp field
+                {
+                    name: 'timestamp',
+                    attr: 'data-timestamp'
+                },
+                // Sorts href attribute.
+                {
+                    name: 'link',
+                    attr: 'href'
+                },
+            ]
+        };
+
+        var hackerList = new List('hacker-list', options);
+
+        hackerList.add({
+            name: 'Baz',
+            born: '1999',
+            id: 3,
+            timestamp: '1500',
+            link: 'http://arnklint.com',
+        });
+
+    </script>
+</body>
+
+</html>
