@@ -6,7 +6,9 @@
 - [How to run](#how-to-run)
     - [Browser](#browser)
     - [Command-line](#command-line)
-    - [Run project scripts](#run-project-scripts)
+- [Run project files](#run-project-files)
+    - [Scripts](#scripts)
+    - [HTML demos](#html-demos)
 - [Resources](#resources)
     - [Command-line tools](#command-line-tools)
 - [Libraries](#libraries)
@@ -33,7 +35,7 @@ JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs
 
 ### What can you do with JavaScript?
 
-Here are some examples cases using JavaScript in the browser or on the server.
+Here are some typical cases for JavaScript. Some are in the browser, some are on the server side, some are mix of both.
 
 - make a webpage dynamic (fetching and load data, add validation and transitions)
 - single-page application
@@ -42,7 +44,8 @@ Here are some examples cases using JavaScript in the browser or on the server.
 - game design
 - mobile apps
 - machine learning
-- automation
+- web scraping
+- automation (fetching, transforming and exporting CSV, JSON or database data)
 
 
 ### Why learn JavaScript - 5 good reasons
@@ -74,7 +77,9 @@ If you want to run JavaScript in the command-line, see these docs:
 - [Node](node.md)
 - [Node packages](node_packages.md) - covers NPM and NVM.
 
-### Run project scripts
+## Run project files
+
+### Scripts
 
 See the [scripts](scripts) directory.
 
@@ -87,6 +92,14 @@ $ cd 'Scripting languages/JavaScript/scripts'
 $ node basics/iteration.js
 ```
 
+### HTML demos
+
+See the [scripts](html_demos) directory.
+
+Start a web server in that directory or use VS Code's Live Server extensions.
+
+Note that you cannot simply open an HTML page in your browser without a server first, otherwise the JS will not run.
+
 ## Resources
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
@@ -96,8 +109,11 @@ $ node basics/iteration.js
     - Jump to [Node](node.md) doc.
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
-    - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools
-    - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools
+    - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools.
+    - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools.
+    - Mozilla docs
+        - [Tutorials](https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials). See also on that page _Tools and resources_.
+        - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). This starts with the basics.
 - Docs
     - [JavaScript](https://devdocs.io/javascript/) docs on [devdocs.io](https://devdocs.io/).
     - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) docs on [developer.mozilla.org](https://developer.mozilla.org/). Includes guides for beginner, intermediate and advanced users and also function references.
@@ -162,6 +178,11 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
             - [jQuery](https://www.w3schools.com/jquery/default.asp).
             - [Tutorial](https://www.w3schools.com/jquery/). The sidebar covers common usecases.
         - [jQuery FAQs](https://www.tutorialrepublic.com/faq.php#javascript-jquery) on a tutorial website
+- ListJS
+    - [listjs.com](https://listjs.com)
+        > Tiny, invisible and simple, yet powerful and incredibly fast vanilla JavaScript that adds search, sort, filters and flexibility to plain HTML lists, tables, or anything.
+    - Add search, sort and filter to your HTML page.
+
 
 ### Templating libraries
 

@@ -11,7 +11,141 @@
 1. Open a browser.
 2. Right-click and click _Inspect_.
 3. Open the _Console_ tab.
+4. Enter command and press enter.
 
+
+## Execute on body loaded
+
+Various ways to execute JS only after the body is loaded.
+
+If you run JS to soon, you can get an error that an element with a certain ID does not exist yet.
+
+Run anonymous function using `window.onload`.
+
+```html
+<head>
+    <script>
+        window.onload = function () {
+            var el = document.getElementById('foo');
+            console.log(el.innerHTML)
+        }
+    </script>
+</head>
+
+<body>
+    <p id="foo">Hello, world!</p>
+</body>
+```
+
+Variation, using `addEventListener`.
+
+```html
+<head>
+    <script>
+        window.addEventListener('load', function () {
+            var el = document.getElementById('foo');
+            console.log(el.innerHTML);
+        });
+    </script>
+</head>
+
+<body>
+    <p id="foo">Hello, world!</p>
+</body>
+```
+
+Attach named function directly to body element event.
+
+```html
+<head>
+    <script>
+        function run() {
+            var el = document.getElementById('foo');
+            console.log(el.innerHTML);
+        }
+    </script>
+</head>
+
+<body onload="run()">
+    <p id="foo">Hello, world!</p>
+</body>
+```
+
+Place script after content in the body.
+
+```html
+<head>
+</head>
+
+<body onload="run()">
+    <p id="foo">Hello, world!</p>
+
+    <script>
+        var el = document.getElementById('foo');
+        console.log(el.innerHTML)
+    </script>
+</body>
+```
+
+If you want to keep the script in scope, then use an [IIFE](#immediately-invoked-function-expression).
+
+## Immediately Invoked Function Expression
+
+Also known as _IIFE_. This is a function that executes immediately and keeps all its objects limited to its scope, which avoids polluting or overwriting in global namespace. These functions are typically not named.
+
+- Plain function
+    ```js
+    function () {}
+    ```
+- Adding a call at the end will give a syntax error.
+    ```js
+    function () {}()
+    ```
+- Surround the function in brackets before calling it will work.
+    ```js
+    (function () {})()
+    ```
+- Or instead of brackets, use use the not `!` operator at the start. This will treat the function as an expression and return `true` (since the opposite of `!undefined` is `true`).
+    ```js
+    !function () {}()
+    ```
+
+The examples below using the bracket style.
+
+From [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) doc on Mozilla site. See also [IIFE on Wikipedia](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression).
+
+## Syntax
+
+```js
+(function () {
+    statements
+})();
+```
+
+### Examples
+
+> The function becomes a function expression which is immediately executed. The variable within the expression can not be accessed from outside it.
+
+```js
+(function () {
+    var aName = "Barry";
+})();
+
+// Variable aName is not accessible from the outside scope
+aName // throws "Uncaught ReferenceError: aName is not defined"
+```
+
+> Assigning the IIFE to a variable stores the function's return value, not the function definition itself.
+
+```js
+var result = (function () {
+    var name = "Barry";
+    return name;
+})();
+
+// Immediately creates the output:
+result; // "Barry">
+```
 
 ## URL query strings
 
@@ -60,7 +194,7 @@ Example:
 ```js
 > var paramsString = "?foo=bar&fizz=123";
 > var searchParams = new URLSearchParams(paramsString);
-> 
+>
 > searchParams.get("foo");
 // "bar"
 ```
