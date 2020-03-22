@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demonstration of ListJS</title>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 </head>
 
@@ -54,17 +51,17 @@
 
         var featureList = new List('piece-search', options);
 
-        $('#filter-scientific').click(function () {
+        document.getElementById('filter-scientific').onclick = function () {
             featureList.filter((item) => item.values().category == "scientific")
-        });
+        };
 
-        $('#filter-artsy').click(function () {
+        document.getElementById('filter-artsy').onclick = function () {
             featureList.filter((item) => item.values().category == "artsy")
-        });
+        };
 
-        $('#filter-none').click(function () {
+        document.getElementById('filter-none').onclick = function () {
             featureList.filter();
-        });
+        };
 
     </script>
 </body>
