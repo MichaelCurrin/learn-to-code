@@ -11,7 +11,7 @@ JavaScript was design to run a host environment such as the browser, with suppor
 
 In the browser, JavaScript takes care of the behavior (interactivity) part of the experience, while HTML handles the content and CSS is the styling. JavaScript allows you to read and manipulate the page to make a it dynamic. Such as pulling in photos as a user scrolls, adding a style or CSS class to an element on a condition, creating a pop-up when a condition is met or even making a game.
 
-While JavaScript typically exists as a script directly on the page or pulled in as a standalone file, an internet connection is not needed to execute JavaScript. As it runs on the browser, independent of the server which initially sent the HTML and JavaScript. However, you may see reduced functionality or errors especially around creating or reading content on the server such as an image, post or user details. 
+While JavaScript typically exists as a script directly on the page or pulled in as a standalone file, an internet connection is not needed to execute JavaScript. As it runs on the browser, independent of the server which initially sent the HTML and JavaScript. However, you may see reduced functionality or errors especially around creating or reading content on the server such as an image, post or user details.
 
 JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript).
 
@@ -22,7 +22,7 @@ JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs
 Summarized from article [here](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
 
 1. Easy to start with
-2. Great career opportunities 
+2. Great career opportunities
 3. Wide range of usage.
 4. A large community
 5. Plenty of sources to learn from.
@@ -32,7 +32,7 @@ Summarized from article [here](https://medium.com/duomly-blockchain-online-cours
 
 ### Browser
 
-If you have a browser installed, then you can already run JavaScript through webpages which run scripts. 
+If you have a browser installed, then you can already run JavaScript through webpages which run scripts.
 
 Or through the console - open the dev tools panel from settings or right-click on the page and click Inspect Element and look for the _Console_ tab.
 
@@ -106,7 +106,7 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
 ### Convenience
 
 - jQuery
-    - Widely used, as jQuery makes it easy to do actions like selecting and updating elements or fetching resources, by using light code. 
+    - Widely used, as jQuery makes it easy to do actions like selecting and updating elements or fetching resources, by using light code.
     - the JavaScript executed internally by jQuery works great across browsers (which each have their own implementation of how things work in JS). So you don't have to worry about that.
     - [Official page](https://jquery.com/)
         - >The Write Less, Do More, JavaScript Library
@@ -160,6 +160,17 @@ Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_del
 - Unpkg
     - Homepage [unpkg.com/](https://unpkg.com/)
     - e.g. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU5NTk4MzNdfQ==
--->
+
+
+## Run project scripts
+
+See the [scripts](scripts) directory.
+
+You can run the `.js` files there using instructions below, if you have [node](node.md) installed.
+
+```sh
+$ cd <PATH_TO_REPO>
+$ # Note the space means quotes are needed.
+$ cd 'Scripting languages/JavaScript/scripts'
+$ node basics/iteration.js
+```

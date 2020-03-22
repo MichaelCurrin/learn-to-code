@@ -30,6 +30,7 @@ Download and run the Windows installer from the [Download](https://nodejs.org/en
 
 ## Run
 
+
 ### Interactive console
 
 Start the interactive console.
@@ -54,19 +55,20 @@ For example:
 Press `CTRL`+`D` to exit the console.
 
 
-## Run project scripts
+### Run script with Node
 
-### Run with Node
-
-How to run scripts in this project using `node`.
+Use `node` command and the path to a script. For example:
 
 ```sh
-$ cd <PATH_TO_REPO>
-$ cd 'Scripting languages/JavaScript'
-$ node my_file.js
-$ # e.g.
-$ node iteration.js
+echo "console.log('Hello!');" > filename.js
 ```
+
+```sh
+$ node filename.js
+```
+
+You can also add a shebang to the script and make it executable, though that is not a common pattern.
+
 
 ### Run with NPM
 
