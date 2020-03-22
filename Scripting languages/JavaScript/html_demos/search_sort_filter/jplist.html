@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JPList demo</title>
+
+    <style>
+        /**
+        * demo styles
+        */
+        html,
+        body {
+            background: #efefef;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0 0 10px 0;
+            padding: 0;
+            color: #212529;
+        }
+
+        [data-jplist-group] {
+            font-size: 16px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        button {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            user-select: none;
+            border: 1px solid transparent;
+            padding: .2rem .6rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            margin: 0 3px;
+        }
+
+        .jplist-selected {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+    </style>
+
+    <!-- This is available through NPM install but no through CDN on NPM. But this was grabbed from an example. -->
+    <script src="https://codepen.io/1rosehip/pen/zJYbPV.js"></script>
+</head>
+
+<body>
+    <h1>Demo of JPList</h1>
+
+    <p><a href="https://www.jplist.org/documentation/">Docs</a> | <a href="jplist-es6">NPM</a></p>
+
+    <p>Search, filter and sort. Case insensitive.</p>
+
+    <div>
+        <h2>Textbox control</h2>
+
+        <p>From <a href="https://www.jplist.org/documentation/controls/textbox-filter">Textbox filter tutorial</a></p>
+
+        <!-- Control -->
+        <div>
+            <span>Search:</span> <input data-jplist-control="textbox-filter" data-group="group1"
+                data-name="textbox-test" data-path=".title" type="text" value="" placeholder="Filter by Title" />
+        </div>
+
+        <!-- Output -->
+        <ul data-jplist-group="group1">
+
+            <li data-jplist-item>
+                <div class="title">Foo</div>
+                foo content
+            </li>
+
+            <li data-jplist-item>
+                <div class="title">Bar</div>
+                bar content
+            </li>
+
+            <li data-jplist-item>
+                <div class="title">Baz</div>
+                More content
+            </li>
+
+        </ul>
+    </div>
+
+    <div>
+        <h2>Checkbox control</h2>
+
+        <!-- Control -->
+        <div>
+            <label>
+                <input type="checkbox" data-jplist-control="checkbox-text-filter" data-path=".title" data-group="group2"
+                    data-name="checkbox-test" value="car" checked />
+                Filter by 'car'
+            </label>
+
+            <label>
+                <input type="checkbox" data-jplist-control="checkbox-text-filter" data-group="group2"
+                    data-name="checkbox-test" data-path=".title" value="tree" />
+                Filter by 'tree'
+            </label>
+        </div>
+
+        <!-- Output -->
+        <ul data-jplist-group="group2">
+            <li data-jplist-item>
+                <div class="title">Carriage</div>
+                Content
+            </li>
+
+            <li data-jplist-item>
+                <div class="title">Car</div>
+                Anything here
+            </li>
+
+            <li data-jplist-item>
+                <div class="title">Lemon tree</div>
+                This car content is ignored by the filter.
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Sorting</h2>
+
+        <div>
+            <button data-jplist-control="sort-buttons" data-path=".title" data-group="group2" data-order="asc"
+                data-type="text" data-name="sort1" data-selected="true" data-mode="radio">
+                Sort by title asc
+            </button>
+
+            <button data-jplist-control="sort-buttons" data-path=".title" data-group="group2" data-order="desc"
+                data-type="text" data-name="sort1" data-mode="radio">
+                Sort by title desc
+            </button>
+        </div>
+
+        <p>Here we reference the content from the previous section</p>
+
+    </div>
+    <script>
+        jplist.init();
+
+    </script>
+</body>
+
+</html>
