@@ -27,6 +27,8 @@
             <!-- Search by name or born! -->
             <input class="search" placeholder="Search" />
 
+            <!-- Multiple presses will switch asc and desc order. -->
+            <!-- Use 'list-name' or similar if 'name' is confusing. -->
             <button class="sort" data-sort="name">
                 Sort by name
             </button>
@@ -39,7 +41,9 @@
         <!-- Output -->
         <ul class="list">
 
-            <!-- Here the inner HTML is used as the value to search or sort on. -->
+            <!-- Here the inner HTML is used as the value to search or sort on.
+                 Be careful - if you have anchor which is not visible is still searched as text.
+                 So consider data elements as near the bottom of this page. -->
             <li>
                 <h3 class="name">Foo</h3>
                 <p class="born">1986</p>
@@ -96,7 +100,7 @@
             <li data-id="1">
                 <!-- Sorting by link (indicated by class name) uses href attribute. -->
                 <a href="http://javve.com" class="link name">Foo</a>
-                <!-- Sorting my timestamp uses data-timestame attr. -->
+                <!-- Sorting my timestamp uses data-timestamp attr. -->
                 <p class="born timestamp" data-timestamp="1000">1986</p>
             </li>
 
