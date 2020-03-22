@@ -17,8 +17,8 @@
     <div id="piece-search">
         <div class="filter">
             <button class="btn" id="filter-none">All</button>
-            <button class="btn" id="filter-scientific" value="category">scientific</button>
-            <button class="btn" id="filter-artsy" value="category">artsy</button>
+            <button class="btn" id="filter-scientific" value="scientific">Scientific</button>
+            <button class="btn" id="filter-artsy" value="artsy">Artsy</button>
         </div>
 
         <ul class="list">
@@ -59,6 +59,7 @@
             }
         }
 
+        // These could be added to the elements in the HTML directly, for readibility and maintaintibility. Even better, use a for loop and use the value attribute.
         document.getElementById('filter-scientific').onclick = () => filter('scientific')
         document.getElementById('filter-artsy').onclick = () => filter('artsy')
         document.getElementById('filter-none').onclick = () => filter()
