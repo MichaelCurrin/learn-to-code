@@ -1,6 +1,8 @@
 # Add a prefix to commit messages
 > Configure a prefix to be used for every git commit message in a repo
 
+_This guide is replaced by [commit_message_template.md]commit_message_template.md)_.
+
 If your project requires adding a prefix (such as a Jira ticket number) to all commits on a feature branch, you can get this inserted automatically, for commits made on the command-line or VSCode.
 
 You can always edit or delete the prefix text for a particular commit and it will reppear the next time.
