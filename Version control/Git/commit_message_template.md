@@ -10,7 +10,7 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 Create a template file with an arbitrary name. Here the repo is _foo_, so this is included in the template name. 
 
-You could pick any a location in your user directory or Documents. This file should not be in the repo unless it is ignored (e.g. `.gitmessage`) in your ignore file.
+You could pick any a location in your user directory or Documents. This file should not be in the repo unless it is ignored (e.g. `.gitmessage`) in your ignore file of the repo. Or even better, add `.gitmessage` or `.GIT_MESSAGE` to a global ignore file so it applies to all your repos (and you don't have update a repo's specific ignore file.
 
 e.g. `foo-message.txt`, here with a Jira ticket number.
 
@@ -39,7 +39,7 @@ Set a config such as the following, using a tab for indentation.
 
 ```
 [commit]
-		template = ~/foo-message.txt
+	template = ~/foo-message.txt
 ```
 
 ## Usage
