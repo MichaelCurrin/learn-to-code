@@ -28,21 +28,30 @@ The file should not be added to version control.
 
 Therefore add `_COMMIT_MESSAGE` to your local ignore file (which will then appear for others too. Or even better, add `_COMMIT_MESSAGE` to your [Global ignore file](global_ignore_file.md), so that the repo's ignore file is unaffected and _all_ your repos will ignore this file.
 
-### Link to template
+
+### Setup the repo to use the template
 
 Navigate to a repo.
 
-Open the local config edit view.
+Edit the repos config.
+
+Either do it in one line.
+
+```sh
+$ git config --local commit.template _COMMIT_MESSGE
+```
+
+Or, open the local config edit view.
 
 ```sh
 git config --local -e
 ```
 
-Set a config such as the following, using a tab for indentation.
+Then set a config such as the following, using a tab for indentation.
 
 ```
 [commit]
-	template = ~/foo-message.txt
+	template = _COMMIT_MESSGE
 ```
 
 ## Usage
