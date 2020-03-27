@@ -8,24 +8,25 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 ### Create template
 
-Create a template file with an arbitrary name. Here the repo is _foo_, so this is included in the template name. 
+Create a commit message template file named `_COMMIT_MESSAGE`. Add `.txt` if you want.
 
-You could pick any a location in your user directory or Documents. This file should not be in the repo unless it is ignored (e.g. `.gitmessage`) in your ignore file of the repo. 
-
-Or even better, add `.gitmessage` or `GIT_MESSAGE` to a global ignore file so it applies to all your repos (and you don't have update a repo's specific ignore file. See [Global ignore file](global_ignore_file.md) guide.
-
-e.g. `foo-message.txt`, here with a Jira ticket number.
+For example, with a Jira ticket number used for the prefix:
 
 ```sh
 [ABC-123] 
 ```
 
-Using the command-line:
+Then use the command-line:
 
 ```sh
-echo '[ABC-123] ' > ~/foo-message.txt
+echo '[ABC-123] ' > _COMMIT_MESSAGE
 ```
 
+### Exclude version version control
+
+The file should not be added to version control.
+
+Therefore add `_COMMIT_MESSAGE` to your local ignore file (which will then appear for others too. Or even better, add `_COMMIT_MESSAGE` to your [Global ignore file](global_ignore_file.md), so that the repo's ignore file is unaffected and _all_ your repos will ignore this file.
 
 ### Link to template
 
