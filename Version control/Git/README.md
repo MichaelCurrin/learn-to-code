@@ -2,9 +2,7 @@
 
 ## What is Git?
 
-> Git is a type of version control system (VCS) that makes it easier to track changes to files. For example, when you edit a file, git can help you determine exactly what changed, who changed it, and why. - [source](https://hackernoon.com/understanding-git-fcffd87c15a3)
-
-- [Git docs](https://git-scm.com/doc)
+> Git is a type of version control system (VCS) that makes it easier to track changes to files. For example, when you edit a file, git can help you determine exactly what changed, who changed it, and why. - [source](https://hackernoon.com/understanding-git-fcffd87c15a3) 
 
 Git is a command-line tool for managing files, maintaining history and who made the changes. This makes it easy to see when a bug or feature was introduced and by whom. 
 
@@ -12,39 +10,14 @@ When you make a change (such as add, remove or modify or more files), you have t
 
 Commits means you can choose to deploy a certain version of your code (sometimes marked with a _tag_ for ease. And roll back to a certain commit.
 
-## Repo hosting services
 
-You can use an online service to interact with a `git` repository and use that service to share your work publically or in a private team. A public project can optionally allow open-source contributions from the dev community.
+- [Git homepage](https://git-scm.com/)
 
-Github is the most well-known, but there are few options. These tools work similar to Github:
 
-- You can view and manage repos, including editing code.
-- Users can be managed.
-- They all work with `git` version control. 
-- Available for free, with additional benefits on subscription.
+## Commands
 
-See services below.
 
-### Github
-
-GitHub is a web-based hosting service for version control using Git. Mostly it is used for computer code. It offers all of the distributed version control and source code management functionality of Git, as well as adding its own features. Such as reviewing the code of other contributors.
-
-- [Github guides](https://guides.github.com/) hosted by Github
-- [Github pricing](https://github.com/pricing)
-
-Github on the free tier lets you have unlimited repos and contributors on your projects (great for open source projects). You are limited to 3 contributors on private repos (previously this was zero, before the acquisition by Microsoft). You also get o
-
-### BitBucket
-
-- [bitbucket.org](https://bitbucket.org/) homepage.
-- [Pricing](https://bitbucket.org/product/pricing).
-- [Self-hosted](https://bitbucket.org/product/enterprise) option
-
-### Gitlab
-
-- [gitlab.com](https://gitlab.com) homepage.
-- [Pricing](https://about.gitlab.com/pricing/).
-- [Self-hosted](https://about.gitlab.com/pricing/#self-managed) option.
+See the Reference section on [Git docs](https://git-scm.com/doc).
 
 
 ## Branches
