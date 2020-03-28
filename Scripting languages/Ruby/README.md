@@ -80,12 +80,16 @@ export PATH="$RUBY_HOME:$PATH"
 
 #### Make custom Ruby's gems runable
 
-If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. So add the following:
+If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
+
+So add the following:
 
 ```sh
 export GEM_PATH="$HOME/.gem/ruby/2.6.0/bin"
 export PATH="$GEM_PATH:$PATH"
 ```
+
+Adjust the version above from `2.6.0` to your Ruby version if necessary.
 
 #### Install a gem
 
