@@ -19,18 +19,19 @@ This also allows you put your code online as a backup, for the public to see or 
 - Bazaar
 
 
-## Repo hosting services
+## Code hosting services
 
 You can use an online service to interact with a `git` repository and use that service to share your work publically or in a private team. A public project can optionally allow open-source contributions from the dev community.
 
-Github is the most well-known, but there are few options. These tools work similar to Github:
+These services usually the following features:
 
 - You can view and manage repos, including editing code.
 - Users can be managed.
-- They all work with `git` version control. 
+- Works with `git` version control. 
 - Available for free, with additional benefits on subscription.
 
 See details of services below.
+
 
 ### Github
 
