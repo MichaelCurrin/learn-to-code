@@ -84,6 +84,10 @@ https://source.unsplash.com/user/erondu
 
 ### Search
 
+Note that keywords are option - if no value provided for keywords below, then any random image will be returned.
+
+#### Any dimensions
+
 Pick a random word from a search of one or more keywords.
 
 ```
@@ -92,8 +96,9 @@ https://source.unsplash.com/featured/?{KEYWORDS}
 
 https://source.unsplash.com/featured/?nature,water
 
+### Set dimensions.
 
-Specify dimensions for the search:
+Specify dimensions for the search and the image will be cropped.
 
 ```
 https://source.unsplash.com/{WIDTH}x{HEIGHT}/?{KEYWORDS}
