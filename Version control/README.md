@@ -1,11 +1,20 @@
 # Version control
 
-This section covers managing your code with version control, such that you can maintain code history, authorship and branches of your projects. This also allows you put your code online as a backup, for the public to see or for your team of developers in your organization to work on privately.
+This section covers managing your source code with a Version Control System (VCS), such that you can maintain code history, authorship and branches of your projects. This also allows you put your code online as a backup, for the public to see or for your team of developers in your organization to work on privately. While the tools used are based in the command-line, there are often web services, desktop applications and IDE extensions to make managing code easier.
 
-Topics in this guide:
+
+## Guides in this directory
 
 - [Git](Git/)
 - [Github](Github/)
+
+
+## Command-line VCS tools
+
+- Git
+- Mercurial 
+- SVN (short for Subversion)
+- Bazaar
 
 
 ## Repo hosting services
