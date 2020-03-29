@@ -131,6 +131,7 @@ This section deals with looking at the structure of the website using the sitema
 
 Examples of usual pages from the above:
 
-- [/sitemaps/searches/popular.xml](https://unsplash.com/sitemaps/searches/popular.xml) - a sample link.
-- [/s/photos/aboriginal](https://unsplash.com/s/photos/aboriginal) - a sample popular search.
+- [/sitemaps/collections/popular.xml](https://unsplash.com/sitemaps/collections/popular.xml) - popular collections.
+- [/sitemaps/searches/popular.xml](https://unsplash.com/sitemaps/searches/popular.xml) - popular searches.
+    - [/s/photos/aboriginal](https://unsplash.com/s/photos/aboriginal) - one of the items under popular searches.
 
