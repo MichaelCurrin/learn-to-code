@@ -1,7 +1,9 @@
 # Stock Images
-> How to embed free stock images in your website
+> How to embed free stock images in your website using Unsplash
 
-You can browse and search the Unsplash site, which provides images which are free to use but that require links back to the author. You can download high resolution images, collect content by other users and also upload your own.
+You can browse and search the _Unsplash_ site, which provides images which are free to use but that require links back to the author. The site prides itself on not just showing cheesy stock images, but more authentic and often artistic images.
+
+You can download high resolution images, collect content by other users and also upload your own. 
 
 - [unsplash.com](https://unsplash.com) site
 - [license](https://unsplash.com) page
@@ -118,3 +120,17 @@ For more advanced usage, use the API.
 Queries are done via:
 
 - [api.unsplash.com/](https://api.unsplash.com/)
+
+
+## Site structure
+
+This section deals with looking at the structure of the website using the sitemaps, in order to find the known pages or images available. This is useful in order to provide searches or collections from a droplist, rather than letting a user use free text that might have few or no image results.
+
+- [/robots.txt](https://unsplash.com/robots.txt) - this points to the main sitemap.
+- [/sitemaps/sitemap.xml](https://unsplash.com/sitemaps/sitemap.xml) - a list of sitemaps.
+
+Examples of usual pages from the above:
+
+- [/sitemaps/searches/popular.xml](https://unsplash.com/sitemaps/searches/popular.xml) - a sample link.
+- [/s/photos/aboriginal](https://unsplash.com/s/photos/aboriginal) - a sample popular search.
+
