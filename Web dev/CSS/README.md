@@ -2,17 +2,21 @@
 
 ## Resources
 
-- W3 Schools [CSS](https://www.w3schools.com/css/default.asp).
-- [How to center things with style in CSS](https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/)
-- Images
-    - [Basics of CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/)
-    - [Mix blend mode](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
-    - [Blend modes in practical use](https://www.atomicsmash.co.uk/blog/blend-modes-in-practical-use/)
-    - [Isolation](https://css-tricks.com/almanac/properties/i/isolation/)
-    - [Mix colors](https://stackoverflow.com/questions/39144056/how-to-mix-colors-in-css)
-    - How to overlay images
-        - [How to overlay images](https://stackoverflow.com/questions/403478/how-to-overlay-images)
-        - [How can we overlap two images using css style?](https://stackoverflow.com/questions/1782601/how-can-we-overlap-two-images-using-css-style)
+- Docs and tutorials
+    - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) on Mozilla dev docs site.
+    - [CSS Tricks](https://css-tricks.com/) website.
+    - [CSS](https://www.w3schools.com/css/default.asp) topic on W3 Schools.
+- Tutorials on specific topics
+    - [How to center things with style in CSS](https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/)
+    - Images
+        - [Basics of CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/)
+        - [Mix blend mode](https://css-tricks.com/almanac/properties/m/mix-blend-mode/)
+        - [Blend modes in practical use](https://www.atomicsmash.co.uk/blog/blend-modes-in-practical-use/)
+        - [Isolation](https://css-tricks.com/almanac/properties/i/isolation/)
+        - [Mix colors](https://stackoverflow.com/questions/39144056/how-to-mix-colors-in-css)
+        - How to overlay images
+            - [How to overlay images](https://stackoverflow.com/questions/403478/how-to-overlay-images)
+            - [How can we overlap two images using css style?](https://stackoverflow.com/questions/1782601/how-can-we-overlap-two-images-using-css-style)
 
 ## Positioning
 
