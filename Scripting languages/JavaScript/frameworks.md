@@ -60,6 +60,29 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
 </script>
 ```
 
+### Routing
+
+If you add React Router library you can handle switching between browser paths easily. Here is a quickstart for that.
+
+
+```javascript
+import React from "react"; 
+import ReactDOM from "react-dom"; 
+import { BrowserRouter } from "react-router-dom"; 
+
+function App() {
+  return <h1>Hello, world! This is React Router</h1>;
+} 
+
+ReactDOM.render(
+  <BrowserRouter> 
+    <App /> 
+  </BrowserRouter>, 
+  document.getElementById("root")
+);
+```
+
+
 ## React Native
 
 ### Links
