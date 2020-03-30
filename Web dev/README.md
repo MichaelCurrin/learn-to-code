@@ -1,6 +1,6 @@
 # Web development
 
-For JavaScript, see [link](</Scripting%20languages/JavaScript/README.md>).
+See also the [JavaScript](/Scripting%20languages/JavaScript/) topic.
 
 ## Tools
 
