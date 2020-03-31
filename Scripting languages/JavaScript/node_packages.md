@@ -10,6 +10,7 @@ Command-line tools covered here:
 - [NVM](#nvm)
     - Manage multiple NodeJS versions.
 
+It is worth knowing how to use both NPM _and_ Yarn. Some projects will have a preferences towards the one, but often they are interchangeable within one project. Yarn has some benefits on top of NPM which makes it worth using.
 
 ## NPM
 
