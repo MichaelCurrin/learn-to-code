@@ -1,6 +1,14 @@
 # Node packages
+> How to manage your Node environment and Node packages
 
-How Node packages work and how to use [NPM](#npm) and [NVM](#nvm).
+Command-line tools covered here:
+
+- [NPM](#npm)
+    - Install NodeJS dependencies.
+- [Yarn](#yarn)
+    - Install NodeJS dependencies the modern way.
+- [NVM](#nvm)
+    - Manage multiple NodeJS versions.
 
 
 ## NPM
@@ -95,6 +103,34 @@ $ npm list -g --depth 0
 └── npx@10.2.0
 ```
 
+## Yarn
+
+### Features
+
+- Can install packages from the local cache.
+- Strongly binds package versions.
+- Parallel packages installation.
+- Active user community.
+
+### How to use it
+
+Yarn is built on NPM so mostly you can treat it the same.
+
+- Requires `yarn` command to be installed globally or in your project, using NPM.
+- It uses the same `package.json` as NPM.
+- Uses `yarn.lock` instead of `package.lock.json`.
+- Familiar NPM commands like `install` and `start` still work.
+
+
+### Resources
+
+- [yarnpkg.com](https://yarnpkg.com)
+    > Safe, stable, reproducible projects
+    >
+    > Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.
+- [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
+- Tutorials
+    - [Why and how to migrate from NPM to YARN](https://waverleysoftware.com/blog/yarn-vs-npm/)
 
 
 ## NVM
