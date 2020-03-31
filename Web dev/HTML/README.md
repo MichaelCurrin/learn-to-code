@@ -2,6 +2,7 @@
 
 ## Resources
 
+- [HTML](https://en.wikipedia.org/wiki/HTML) on Wikipedia.
 - Tutorials
     - [FAQ on HTML and CSS](https://www.tutorialrepublic.com/faq.php#html-css)
     - W3 Schools [HTML](https://www.w3schools.com/html/default.asp).
