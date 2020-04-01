@@ -80,14 +80,18 @@ And I can run it from anywhere.
 $ grunt
 ```
 
-### Execute a script in the use's bin directories
+### Execute a script in the user's bin directories
 
-If you want to use your own user's `~/bin` directory, this is common, but just not part of the standard installation. 
+How to use your user's `~/bin` director.
 
 Benefits include:
 
 - Not shared by other users.
 - Will not get overridden by updating programs or your operating system.
+
+This is common, but just not part of the standard installation. So follow steps below to set it up.
+
+#### Test userbin directory
 
 Create it.
 
@@ -102,6 +106,8 @@ In `.bashrc`, set this.
 ```
 export PATH="$HOME/bin:$PATH"
 ```
+
+#### Run user bin script
 
 Place a file in your user's `bin` dir and make it executable. Then you can call it from anywhere. Alternatively, place a symlink to an existing file in the bin dir.
 
