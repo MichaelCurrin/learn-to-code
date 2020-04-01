@@ -13,7 +13,9 @@ In my experience in software engineering interviews (both being interviewed and 
 
 You do not have to actually code in all of these topics, but ideally you should know what most of these items are and when and why you would use them. Where links are not provided below, you can look these up yourself on Wikipedia, blogs or tutorials.
 
+
 ## Topics
+
 
 ### 💡 Software design concepts
 
@@ -33,7 +35,19 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Open-close principle
     - Liskov substitution principle
     - Interface segregation principle
-    - Dependency inversion principle 
+    - Dependency inversion principle
+- Linux philosophy
+    - [The 9 major tenets and how they affect you](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
+    - The list
+        - Small is Beautiful
+        - Each Program Does One Thing Well
+        - Prototype as Soon as Possible
+        - Choose Portability Over Efficiency
+        - Store Data in Flat Text Files
+        - Use Software Leverage
+        - Use Shell Scripts to Increase Leverage and Portability
+        - Avoid Captive User Interfaces
+        - Make Every Program a Filter
 - Databases
     - SQL
     - NoSQL
@@ -51,9 +65,11 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Naming things 
     - [Off-by-one errors](https://en.m.wikipedia.org/wiki/Fencepost_error)
 
+
 ### ↔️ Backend vs frontend
 
 See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/02/20/backend-vs-frontend.html) which explains the difference between these two areas.
+
 
 ### 🌸 Design patterns
 
@@ -61,6 +77,7 @@ See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/
 
 - [Design Patterns](/Scripting%20languages/Python/README.md#design-patterns) in Python.
 - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm) on Tutorials Point website - the the patterns listed on the sidebar menu there.
+
 
 ### 🏟 Architecture
 
@@ -70,6 +87,7 @@ See a blog post I wrote [here](https://michaelcurrin.github.io/coding-blog/2020/
 
 - [Domain-Driven Design Fundamentals](https://app.pluralsight.com/library/courses/domain-driven-design-fundamentals/table-of-contents) on Pluralsight. 4 hour course.
 - [Software Architecture - Domain Driven Design](https://www.linkedin.com/learning/software-architecture-domain-driven-design/) on LinkedIn Learning. 1 hour course.
+
 
 ### 🔁 Rosetta code
 
@@ -85,12 +103,14 @@ Topics:
 
 See also, "Hello, world" program on [Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program).
 
+
 ### 📏 Test Driven Development
 
 - [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) on Wikipedia.
 - [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps) - If you are interested in writing unit tests, you might find some bootstrap code here for a certain language.
 - [Test Driven Development (TDD): Example Walkthrough](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/) blog post.
 - [Introduction to Test Driven Development (TDD)](http://agiledata.org/essays/tdd.html) essay on Agile Data website.
+
 
 ### 🖌 Code style
 
