@@ -8,9 +8,9 @@ Note that an extension may or may not be used, but it has no impact on how the s
 
 ## Bash shebangs
 
-Include a shebang in the first 2 lines of a file so that is 
+Include a _shebang_ in the first line of a file.
 
-See http://stackoverflow.com/questions/16365130/the-difference-between-usr-bin-env-bash-and-usr-bin-bash
+Recommended:
 
 - The most common
     - `#!/bin/bash`
@@ -18,8 +18,17 @@ See http://stackoverflow.com/questions/16365130/the-difference-between-usr-bin-e
     - `#!/usr/bin/env bash`
 - Gives you explicit control on a given system of what executable is called
     - `#!/usr/bin/bash`     
+    
+[source](http://stackoverflow.com/questions/16365130/the-difference-between-usr-bin-env-bash-and-usr-bin-bash)
 
-You can also use `#!/bin/sh` but the results an unpredictable. On some systems, this will be aliased to `bash` or `dash`.
+Other options, not recommend
+
+- Use `#!/bin/sh`
+    - The results an unpredictable. On some systems, this will be aliased to `bash` or `dash`.
+- Omit the shebang 
+    - The current shell will be used. this may lead to unexpected results.
+    - e.g. Executing a script written for Bash from within ZSH shell in the terminal.
+
 
 ## How to execute
 
@@ -128,25 +137,24 @@ It works from bin!
 
 Consider a script `scriptname.sh` which activates a virtualenv env and changes directories.
 
+Example contents:
+
 ```sh
-$ cat scriptname # example contents below
 cd ~/Documents/scripts
 source virtualenv/bin/activate
 ```
 
-To run the script and continue from virtualenv and directory in use when the script finishes.
+Here we use `source` to run the contents on a shell script in the current process. Any changes to virtual environment or directory will be persisted.
 
 ```sh
 source scriptname.sh
 ```
 
-To run script but continue from the original virtualenv state and directory from before the script ran.
+Here we run the script as a subprocess. So we do **not** perist and changes to the current directory or virtual environment which the script makes.
 
 ```sh
 bash scriptname.sh
-# OR
-scriptname.sh
-# OR
+# OR if it an executable
 ./scriptname.sh
 ```
 
