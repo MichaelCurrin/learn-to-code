@@ -144,10 +144,15 @@ scriptname.sh
 ./scriptname.sh
 ```
 
-### Execute from another directory
+### Execute without changing directory
 
-Within a subprocess, change directory and execute file, while the outer process does not change directory. Use brackets.
+Sometimes you need to be in a different directory to execute a script correctly, but you don't want to stay that directory afterwards. 
+
+But if you use **brackets** around the commands, you use a subprocess such that your directory does not change outside the command.
 
 ```sh
-$ (cd Foo && ./bar.sh)
+$ cd ~/Foo
+$ (cd Bar && ./baz.sh)
+$ pwd
+/home/my-user/Foo
 ```
