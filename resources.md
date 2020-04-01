@@ -33,6 +33,7 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Open-close principle
     - Liskov substitution principle
     - Interface segregation principle
+    - Dependency inversion principle 
 - Databases
     - SQL
     - NoSQL
@@ -45,6 +46,10 @@ You do not have to actually code in all of these topics, but ideally you should 
         - Such as PHP and Python applications.
     - Client-side rendering (CSR), such JavaScript Single-Page Application (SPA)
     - Single-page application
+- [There are only two hard things in programming](https://www.martinfowler.com/bliki/TwoHardThings.html)
+    - Cache invalidation
+    - Naming things 
+    - [Off-by-one errors](https://en.m.wikipedia.org/wiki/Fencepost_error)
 
 ### ↔️ Backend vs frontend
 
