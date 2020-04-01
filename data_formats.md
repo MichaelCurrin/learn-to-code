@@ -8,9 +8,9 @@
 ### Implementation
 
 - Python
-    - [csv](https://docs.python.org/3/library/csv.html) built-in library.
+    - [csv](https://docs.python.org/3/library/csv.html) - abuilt-in library.
 - NodeJS
-    - [csv](https://csv.js.org/) NPM package.
+    - [csv](https://csv.js.org/) - an NPM package.
 - Bash
     - [Bash Read Comma Separated CSV File on Linux / Unix](https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile/) tutorial.
 
