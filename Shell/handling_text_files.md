@@ -27,13 +27,3 @@
     - It even gives you the shortcuts available at the bottom of the screen.
 - Emacs
 
-
-## Modify in place
-
-- sed
-  - Example
-    - Replace `foo` with `bar` in _hello.txt_, from [tutorial](https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/)
-      ```sh
-      sed 's/foo/bar/g' hello.txt
-      ```
-- awk
