@@ -17,7 +17,7 @@ Types are checked at compile time. Types must be specified in the code inputs an
     - As performance as C in most-cases.
     - Great for parallel and high-computation intense tasks.
 - Rust variables are statically typed and checked at compile time. e.g. A variable can be declare as a 32-bit integer.
-- Rust does not have a null value.
+- Rust does not have a null value - this avoids the error of performing a method on a variable which is `None` or `null`, such as in Python or Javascript.
 - Variables in Rust are immutable by default.
 - An immutable variable (including a structure) means that a pointer cannot be reassigned and also the contents cannot be changed (unlike `const` keyword in JavaScript which only takes care of the former).
 - A variable can be declared mutable.
