@@ -12,6 +12,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 > Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
 > Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp.
 
+
 ## Getting started
 
 ### Install and upgrade
@@ -156,7 +157,8 @@ irb(main):004:0> Math.sqrt(123)
 
 ## Resources
 
-- [Official site](https://www.ruby-lang.org/en/)
+- [ruby-lang.org](https://www.ruby-lang.org/) Ruby homepage.
+- [ruby/ruby](https://github.com/ruby/ruby) on Github.
 - Tutorials for starting Ruby.
     - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) on _Ruby Monstas_ site - the preface recommends a few resources.
     - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html) on [rubylearning.com](http://rubylearning.com). There are also tutorials on that site by topic or concept, but I found the site not so friendly so read.
@@ -174,6 +176,7 @@ irb(main):004:0> Math.sqrt(123)
         - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
     - [Mastering ruby blocks](https://mixandgo.com/learn/mastering-ruby-blocks-in-less-than-5-minutes) on _Mix and Go_ site.
     - [Blocks, procs and lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) on _Ruby Guides_ site.
+
 
 ## Ruby packages
 
@@ -197,3 +200,33 @@ Also known as "gems".
 
 - [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.
 - [Jekyll](https://jekyllrb/com) - static site generator.
+
+
+## Syntax
+
+Ruby uses indentation of 2 spaces, though tabs are used occasionally. Ruby does not require indentation to work though. Unlike C-like languages, blocks are defined using words rather than braces.
+
+e.g.
+
+```ruby
+def greet name
+  if name
+    puts "Hello, #{name}!"
+  else
+    puts "Hello, world!"
+  end
+end
+```
+
+```ruby
+> greet 'Ruby student'
+Hello, Ruby student!
+
+> greet nil
+Hello, world!
+```
+
+The Ruby syntax is light:
+
+- Functions can be called even with arguments, but the brackets are _optional_. The brackets usually not used for functions but are used for methods (on classes).
+- The return statement in a function is implied - the last variable name or the function call result will be returned.
