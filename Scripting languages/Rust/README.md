@@ -10,7 +10,21 @@ Rust is compiled language - it creates a binary executable.
 
 Types are checked at compile time. Types must be specified in the code inputs and outputs, but can be inferred for variables in functions allowing lighter code that doesn't need types specified everywhere. Rust allows a null type, but requires at compile time that you handle the null case - this avoids errors where you code tries to perform actions on a null object.
 
-Variables in Rust are immutable by default.
+
+## Features
+
+- Highly performant
+    - As performance as C in most-cases.
+    - Great for parallel and high-computation intense tasks.
+- Rust variables are statically typed and checked at compile time. e.g. A variable can be declare as a 32-bit integer.
+- Rust does not have a null value.
+- Variables in Rust are immutable by default.
+- An immutable variable (including a structure) means that a pointer cannot be reassigned and also the contents cannot be changed (unlike `const` keyword in JavaScript which only takes care of the former).
+- A variable can be declared mutable.
+- Memory management is a new paradigm.
+    - Variables can have only one owner at a time (a process which can mutate it).
+    - Another process can borrow the variable, so the original loses the ability to mutate it.
+    - A variable can also be moved to another process.
 
 
 ## Why Rust?
