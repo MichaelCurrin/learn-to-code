@@ -1,6 +1,9 @@
 # Move and Copy
 > Guide to `mv` and `cp` shell commands
 
+
+## Move
+
 ### Move a file
 
 Move to a directory. The filename will be the same.
@@ -9,7 +12,7 @@ Move to a directory. The filename will be the same.
 mv foo.txt bar
 ```
 
-Move and rename.
+Move and rename at once.
 
 ```sh
 mv foo.txt bar/baz.txt
@@ -46,8 +49,28 @@ Or more conventiently, use a **subshell**.
 (cd foo/bar && mv fizz.txt buzz.txt)
 ```
 
-### Copy directory
+### Rename multiple files
 
+Use `find` and a command.
+
+Example:
+
+```sh
+find . -type f -name 'file*' -exec mv {} {}_renamed \;
+```
+
+[source](https://unix.stackexchange.com/questions/227662/how-to-rename-multiple-files-using-find)
+
+## Copy
+
+### Copy file
+
+```sh
+$ cp foo.txt bar.txt
+```
+
+
+### Copy directory
 
 Copying a directory must be done _recursively_ using the `-R` flag.
 
