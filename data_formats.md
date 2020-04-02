@@ -36,6 +36,25 @@
 - [Jsonnet](https://jsonnet.org/)
 - [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
 
+### Implementation
+
+- Python
+    - [json]((https://docs.python.org/3/library/json.html)
+        - Builtin library.
+        - Can also be used as a command-line tool to validate and pretty-print JSON. See [json.tool](https://docs.python.org/3/library/json.html#module-json.tool) docs.
+            ```sh
+            $ echo '{"json": "obj"}' | python -m json.tool
+            {
+                "json": "obj"
+            }
+            ```
+- NodeJS
+    - [json](https://github.com/trentm/json)
+        - NPM library for use on command-line.
+        - Parse JSON text such as from a file and return requested data. Example:
+            ```sh
+            $ echo '{"fred":{"age":42}}' | json fred.age
+            ```
 
 ## XML
 
