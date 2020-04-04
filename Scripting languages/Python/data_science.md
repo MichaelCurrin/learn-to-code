@@ -118,6 +118,19 @@ GETTING HELP
 - IDE for running and debugging code interactively and presenting results. 
 - Spyder includes an [IPython](#ipython) console which renders output similar to [Jupyter](#jupyter)
 
+Spyder can be installed using [Anaconda](#anaconda), covered below. Spyder can also be installed alone, either globally or inside a virtual environment.
+
+### Spyder and virtual environments
+
+Note that each new virtual environment you create with `conda` will not have Spyder installed. So when you switch to an environment in the terminal or Ananconda Navigator, you'll find Spyder missing. So to solve this, follow steps below to install Spyder in each new environment.
+
+```sh
+$ conda activate env_name
+$ conda install spyder
+$ spyder
+```
+
+Alternatively, you can update the environment config in Spyder. Update the paths where libraries are loaded to include a virtual environment. This is not ideal if you have many virtual environments and it will keep looking through each and find the first matched library. And this approach might not work with conda envs. But it does work on pip envs while the conda env is set to the base.
 
 ## Anaconda
 
