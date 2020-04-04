@@ -2,7 +2,7 @@
 
 If you want to use Python for Data Science projects, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debugging and viewing in the output of the code close to the code.
 
-You can also ignore the Spyder and Anaconda parts of this guide. Using VS Code or Pycharm as an IDE and pip to manage your virtual environments is perfectly fine for Python data science projects. Either way, you're likely to come across IPython notebooks, which are a great way to develop and show work, regardless of the IDE and env manager used.
+You can also ignore the Spyder and Anaconda parts of this guide. Using VS Code or Pycharm as an IDE and pip to manage your virtual environments is perfectly fine for Python data science projects. Either way, you're likely to come across [Jupyter](#jupyter) notebooks, which are a great way to develop and show work, regardless of the IDE and env manager used.
 
 ## Libraries
 
