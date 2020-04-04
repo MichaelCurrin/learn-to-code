@@ -14,7 +14,7 @@ Python libraries commonly used for data science. A lot of these are very popular
 	- Pandas
 		- Particularly used for its dataframes, which actually come from the [R](/Scripting%20languages/R) language.
 		- Built on Numpy.
-		- Used for reading or writing a tabular source like a CSV.
+		- Used for reading or writing a tabular source like a CSV. It can also read from a database.
 		- Used for performing tasks file sorting, filtering or searching a table or a vector. These would be tedious and less performant if done without use of the library.
 - Machine Learning:
 	- Sci-kit learn
