@@ -14,17 +14,34 @@ Tutorials:
 
 Guide to time format. See `man crontab` for more details.
 
-### Five stars time
+### Cron expression
+
+
+Set the frequency using the cron system of five points.
+
+
+```
+m h dom mon dow
+```
+
+From left to right:
+
+- minute (0 - 59)
+- hours (0 - 23)
+- day of month (1 - 31)
+- month (1 - 12)
+- day of week (0 - 6 is Sunday is Saturday, but Sunday is also 7. Names can be used here too)
+
+The most frequently you can run is every minute of every day:
 
 ```
 * * * * *
-
-* minute (0-59)
-* hours (0-23)
-* day (1-31)
-* month (1-12)
-* day of week (0 - 7 with Sunday as 0 and 7)
 ```
+
+You can specify less frequent times by adjusting those points to be a value or a range.
+
+See online tool to edit crontab expressions - [crontab.guru](https://crontab.guru).
+
 
 ### Words
 
