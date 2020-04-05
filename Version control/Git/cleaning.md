@@ -4,6 +4,8 @@ Clean up a git repo.
 
 ## Remove unversioned changes using reset and checkout
 
+_Note: This section will only affect files which are **already** in version control. To remove unversioned files, skip to the next section._
+
 This is useful if you have paused during a merge or rebase and want to restore to clean files.
 
 Unstage changes. Note that reset is non-destructive to files. This should be done _before_ checkout.
@@ -45,14 +47,14 @@ usage: git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <paths>.
     -X                    remove only ignored files
 ```
 
-### Tips
+### Flags
 
 - Add `-n` or `--dry-run` to preview changes, then rerun the command without that flag.
 - Use `-f` to do a whole batch as below, unless you prefer interactive mode.
 
 ### Commands
 
-- Remove untracked files. Optionally add `-d`.
+- Remove untracked files. The `-d` is optional, for directories.
     ```sh
     $ git clean -f -d
     ```
