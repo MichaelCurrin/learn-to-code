@@ -2,7 +2,17 @@
 
 Running a task on schedule is great when you need to run automated background tasks like backing up a database or web scraping.
 
-## What is cron?
+## Summary of utilities
+
+I read some tutorials and conversations online around scheduling tasks on Unix-like systems with `cron`, `crontab`, `anacron` and `at`. These tools are summarized below.
+
+- [cron](#cron) - Run tasks at a varying frequencies, from every minute to once a year. If the machine is off during a schedule time, the job will not run.
+- [anacron](#anacron) - Run tasks up to once per day using `cron` configuration, except this `anacron` expects that the machine may not be on all the time so is able catch up on any missed tasks. The downside though is that if a daily task fails, `anacron` will not retry it.
+- [at](#at) - Schedule a task in the future in a queue of tasks, when system resources allow.
+- `anacron` with `at` - It has been suggested online to use `anacron` to kick off the jobs when the machine comes online. Then every time there is a failure, use `at` to get the job to schedule another run off itself later in the day. Repeat this until a success.
+
+
+## Cron
 
 Cron is a time-based job scheduler in Unix-like systems such as _Linux_ and _macOS_. It runs scheduled tasks to run periodically. If the machine is not running at that time, the task will **not** run.
 
@@ -10,7 +20,7 @@ Wikipedia definition:
 
 > The software utility cron is a time-based job scheduler in Unix-like computer operating systems. Users that set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files from the Internet and downloading email at regular intervals. [source](https://en.wikipedia.org/wiki/Cron)
 
-There are several main approaches for scheduling tasks with _cron_.
+Cron.d is the "daemon" or background process which runs cron tasks. These tasks can be setup using approaches covered below:
 
 ### Crontab
 
@@ -20,7 +30,7 @@ See [crontab](crontab.md) guide for more details.
 
 ### Cron files
 
-#### Cron directories
+#### Fixed frequency
 
 Use one of the four directories watched by the _cron.d_ process. Place an executable file _without_ extension in one of these directories. Instead of the actual script, you could create symlink (_without_ extension) which points to your executable.
 
@@ -29,9 +39,9 @@ Use one of the four directories watched by the _cron.d_ process. Place an execut
 - Monthly - `/etc/cron.monthly/`
 - Yearly - `/etc/cron.yearly/`
 
-#### Crond
+#### Cron.d directory
 
-A config file can be placed in the `/etc/cron.d` directory for more control.
+A file can be placed in the `/etc/cron.d` directory - this can give more control but takes more effort to setup.
 
 
 ## at
