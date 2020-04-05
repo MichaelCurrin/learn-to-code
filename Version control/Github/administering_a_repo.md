@@ -14,3 +14,18 @@ From the docs:
 > Releases are deployable software iterations you can package and make available for a wider audience to download and use.
 >
 > Releases are based on _Git tags_, which mark a specific point in your repository's history. A tag date may be different than a release date since they can be created at different times. ...
+
+## Renaming
+
+- [Rename a repo](https://help.github.com/en/github/administering-a-repository/renaming-a-repository) doc
+
+When a renaming a repo, the following will be maintained:
+
+- Wiki
+- Issues
+- Stars
+- Followers
+
+Using the _old_ repo name will redirect to the new one (unless you actually create a new repo which fills the space of the old name). Any forks will continue to point to the old repo name.
+
+Github docs recommending updating any local repo's remote URLs to point to the new URL.
