@@ -59,14 +59,6 @@ https://source.unsplash.com/{IMAGE_ID}/{WIDTH}x{HEIGHT}
 
 https://source.unsplash.com/3DOybxD2hMo/1600x900
 
-Example:
-
-```markdown
-<img src="https://source.unsplash.com/user/erondu/300x300">
-```
-
-<img src="https://source.unsplash.com/user/erondu/300x300">
-
 
 ### Random image
 
@@ -77,28 +69,57 @@ Note if using the browser to view that in a separate tab. you will get redirecte
 
 ### Random image by a user
 
+#### Unrestricted dimensions
+
 ```
 https://source.unsplash.com/user/{USERNAME}
 ```
 
 https://source.unsplash.com/user/erondu
 
+#### Set dimensions
+
+```
+https://source.unsplash.com/user/{USERNAME}/{WIDTH}x{HEIGHT}
+```
+
+Example:
+
+```markdown
+<img src="https://source.unsplash.com/user/erondu/300x300">
+```
+
+<img src="https://source.unsplash.com/user/erondu/300x300">
+
 
 ### Search
 
-Note that keywords are option - if no value provided for keywords below, then any random image will be returned.
+Use one or more comma-separated keywords using lowercase. These map to keyword pages on the site.
 
-#### Any dimensions
+Avoid using badly-typed or obscure words as you will get few results, or even no results which results in an image showing including an error notice.
 
-Pick a random word from a search of one or more keywords.
+Error page:
+
+- https://images.unsplash.com/source-404
+
+Note that keywords are optional - if no value is provided for keywords below, then any _random_ image will be returned.
+
+
+#### Unrestricted dimensions
 
 ```
 https://source.unsplash.com/featured/?{KEYWORDS}
 ```
 
+e.g.
+
+https://source.unsplash.com/featured/?nature
+
 https://source.unsplash.com/featured/?nature,water
 
-### Set dimensions.
+
+
+### Set dimensions
 
 Specify dimensions for the search and the image will be cropped.
 
