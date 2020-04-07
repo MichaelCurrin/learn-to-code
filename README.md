@@ -25,9 +25,4 @@ Read more about my experience and histoy on my blog [michaelcurrin.github.io/cod
 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA1NTU1MDYsLTU0NDc3MzQ4NiwtMz
-YwMzcxNDkwLC03Mjk2MDk3ODcsLTYxODM5MzU1NCwxMzE4MjYx
-NTg1LDI4Nzc1NzExNSwtMTk4OTQ5MTQ2NSwxNjgxODE2MTczXX
-0=
--->
+[Contributing](/CONTRIBUTING.md)
