@@ -81,7 +81,14 @@ Usage notes:
 - Click Settings in the right menu. You can override default settings.
 - Use `CTRL+SHIFT+V` in the docs to paste *without* formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using a codeblock, you may want to keep the pasted line breaks, as the double spacing is needed for line breaks to render in Markdown.
 
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjAyMjU5MDI5NV19
--->
+
+## API testing
+
+
+- [Insomnia](https://insomnia.rest/)
+	- Downloadable
+	- Do API requests from the application.
+- [Postman](https://www.postman.com/)
+	- Downloadable
+
+	- Do API requests from the application.
