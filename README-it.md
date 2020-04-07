@@ -24,3 +24,5 @@ Maggiori informazioni sulla mia esperienza e sulla mia storia sul mio blog [mich
 ## Contribuire
 
 Se vuoi contribuire, accolgo con piacere eventuali correzioni o miglioramenti. esegui il fork del repository e effettua una richiesta pull.
+
+[Contributing](/CONTRIBUTING.md) doc
