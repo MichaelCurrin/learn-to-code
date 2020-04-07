@@ -25,4 +25,4 @@ Read more about my experience and histoy on my blog [michaelcurrin.github.io/cod
 
 If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
 
-[Contributing](/CONTRIBUTING.md)
+[Contributing](/CONTRIBUTING.md) doc
