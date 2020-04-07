@@ -34,4 +34,4 @@ If you want to contribute to this project, these kind of things would help.
 
 ## Contributors
 
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - [/README-it.md)
+- [alessiobenvenuti](https//github.com/alessiobenvenuti) - [README-it](/README-it.md)
