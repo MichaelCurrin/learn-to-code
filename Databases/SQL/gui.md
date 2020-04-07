@@ -30,6 +30,7 @@ Extensions:
 
 - [vscode-database](https://marketplace.visualstudio.com/items?itemName=bajdzis.vscode-database)
 - [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools)
+- [PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-postgresql)
 - [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 
 Extensions search:
