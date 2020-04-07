@@ -1,15 +1,17 @@
-# SQL with IDE
+# GUI programs for SQL
 
 
-## DB programs
+## Specialized databe programs
 
 - Postgres
     - [Postico](https://eggerapps.at/postico/) - Postgres client for Mac.
     - [PGAdmin](https://www.pgadmin.org/)
+    - [PostgreSQL clients](https://wiki.postgresql.org/wiki/PostgreSQL_Clients) wiki list of available clines
 - MySQL
     - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - SQLite
     - [SQLite Studio](https://sqlitestudio.pl/index.rvt)
+
 
 ## Connect to a database through IDE
 
