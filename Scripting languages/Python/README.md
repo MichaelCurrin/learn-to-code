@@ -179,7 +179,8 @@ For managing multiple versions of Python which are all installed but don't confl
 
 #### Links
 
-- [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) repo on Github.
+- [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) repo on Github.
 - [Intro to pyenv](https://realpython.com/intro-to-pyenv/) tutorial on RealPython.
 
 
@@ -187,7 +188,9 @@ For managing multiple versions of Python which are all installed but don't confl
 
 Install dev dependencies and then `pyenv` using this guide:
 
-- [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv) on RealPython.
+- [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv) section of Intro to PyEnv guide on RealPython.
+
+Or use the `pyenv-installer` repo linked above.
 
 
 #### List available versions
