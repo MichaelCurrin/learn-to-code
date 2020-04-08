@@ -165,17 +165,20 @@ If you package manager does not support the latest version, you can dowload the 
 
 ### Install addition Python versions
 
-For managing multiple versions of Python which are all installed but don't conflict, I recommend that you install and use the `pyenv` tool.
+For managing multiple versions of Python which are all installed but don't conflict, I recommend PyEnv. 
+
+For **macOS Catalina** - if you are unable to make changes to the system Python 2 (in order to use `pip` or `virtualenv`), then PyEvn is your solution to install a custom Python 2 for your user.
 
 - [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
+- [Intro to pyenv](https://realpython.com/intro-to-pyenv/) tutorial on RealPython
+    - [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv).
 
-See this Real Python guide as an [Intro to pyenv](https://realpython.com/intro-to-pyenv/).
+#### Install PyEnv
 
-In particular, see the heading - [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv).
+Follow the install steps in the linked tutorial above to install `pyenv`.
 
-Once you have `pyenv` installed, continue below.
 
-### List available versions to install.
+#### List available versions to install.
 
 Note this list is long.
 
@@ -212,7 +215,9 @@ Example usage for installing a version of Python 2
 
 ### Python 2
 
-Example usage for installing a version of Python 2, if you _really_ need to use it:
+Only if you _really_ need to use it, since Python 2 was deprecated on 1 Jan 2020.
+
+Example usage for installing a version of Python 2:
 
 - Install Python version `2.7.15`. This must be done before any of the commands below.
     ```sh
