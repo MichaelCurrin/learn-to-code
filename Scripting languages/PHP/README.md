@@ -2,9 +2,10 @@
 
 ## What is PHP?
 
-From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) manual:
+From the PHP [Getting started](https://www.php.net/manual/en/intro-whatis.php) manual:
 
 > PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+
 
 ## 📚 Resources
 
@@ -25,6 +26,8 @@ From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) m
     - [PHP in 2020](https://stitcher.io/blog/php-in-2020)
     - [Top 40 PHP Libraries of 2020 Every Developer Should Know](https://www.cloudways.com/blog/php-libraries/)
     - [Top 14 Best PHP CMS In Market For Developers in 2020](https://www.cloudways.com/blog/best-php-cms/) post)
+    - [Evolution of PHP — v5.6 to v8.0](https://medium.com/@meskis/evolution-of-php-v5-6-to-v8-0-c3514ebb7f28)
+
 
 ## Sites built on PHP
 
@@ -32,6 +35,7 @@ From the PHP [getting started](https://www.php.net/manual/en/intro-whatis.php) m
 - [Facebook.com](https://facebook.com)
 
 See this Quora answer page for a longer list - [What are the top 10 websites built with PHP?](https://www.quora.com/What-are-the-top-10-websites-built-with-PHP).
+
 
 ## Installation
 
@@ -84,10 +88,12 @@ Run a script.
 $ php path/to/file.php
 ```
 
-Start an interactive console.
+Start an interactive console. Then run PHP commands.
 
 ```bash
 $ php -a
+```
+```
 php > echo 'Hello!';
 Hello!
 php >
@@ -128,9 +134,9 @@ $ php -S 127.0.0.1:8000
 
 ## Other server
 
-Python's simple HTTP server is not configured by default to run PHP script. However, one can use PHP's webserver.
+Python's simple HTTP server is not configured by default to run PHP scripts. However, one can use PHP's webserver.
 
-See resources:
+See these resources:
 
 - [How to run PHP with simple HTTP server](https://serverfault.com/questions/338394/how-to-run-php-with-simplehttpserver)
 - [Python simple HTTP server with PHP](https://stackoverflow.com/questions/12235876/python-simplehttpserver-with-php)
