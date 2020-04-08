@@ -39,7 +39,7 @@
 ### Implementazioni
 
 - Python
-    - [json]((https://docs.python.org/3/library/json.html)
+    - [json](https://docs.python.org/3/library/json.html)
 		- Libreria integrata.
         - Può essere utilizzato anche come strumento da riga di comando per convalidare e stampare graziosamente JSON. Vedi la documentazione [json.tool](https://docs.python.org/3/library/json.html#module-json.tool).
             ```sh
