@@ -16,9 +16,11 @@ What can you do with it? Here are a few things, copied from [Quickstart](https:/
 > - **Fork a repo** - A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 > - **Be social** - You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your personal dashboard.
 
+
 ## Resources
 
-- [help.github.com](help.github.com) - Github docs, broken down here by product.
+- Github docs.
+    - Home page - [help.github.com](help.github.com). See docs by product below.
     - Github
         - [Getting started with Github](https://help.github.com/en/github/getting-started-with-github)
         - [Creating, cloning and archiving](https://help.github.com/en/github/creating-cloning-and-archiving-repositories)
@@ -31,3 +33,5 @@ What can you do with it? Here are a few things, copied from [Quickstart](https:/
         - [GitHub Actions Documentation](https://help.github.com/en/actions)
     - Packages
         - [Github Packages Documentation](https://help.github.com/en/packages)
+- [Github Status](https://www.githubstatus.com/)
+    - Look for errors or degraded services such as Github Pages.
