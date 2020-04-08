@@ -270,11 +270,17 @@ Example usage for installing a custom version of Python 2:
     $ python --version
     2.7.15
     ```
-- Create an alias for `virtualenv`
-    - Optional step.
-    - If you cannot install `virtualenv` globally in system Python 2, then you can create an alias for using your custom PY2 verion's virtualenv.
+- Create an alias for `virtualenv`.
+    - An optional step.
+    - If you cannot install `virtualenv` globally in system Python 2, then you can create an alias for using your custom PY2 verion's virtualenv. Add the alias to `~/.aliases` or a Bash/ZSH config file then reload the shell.
+    - Example:
         ```sh
-        alias virtualenv='~/.pyenv/versions/2.7.15/bin/python -m virtualenv'
+        $ alias virtualenv='~/.pyenv/versions/2.7.15/bin/python -m virtualenv'
+        ```
+    - Usage:
+        ```sh
+        $ virtualenv <NEW_ENV_NAME>
+        $ source <NEW_ENV_NAME>/bin/activate
         ```
 
 ### Install pip
