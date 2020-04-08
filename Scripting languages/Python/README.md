@@ -14,6 +14,8 @@ Python has a rich friendly growing community.
 
 ### Typing
 
+Some detailed notes on _typing_ in the languages itself.
+
 Python is a **dynamically** typed language. This means that a variable can change data types (though this can cause headaches when catching bugs, so adding type checking is useful). 
 
 It is also a **strongly** typed language. Youu do not need to specify the data type of a variable explicily as it can be inferred - this check is done at runtime, unlike languages like _Java_ and _C++_ which check types at a compile time. 
@@ -50,6 +52,8 @@ One web server appoach is Wordpress style - generate HTML from templates and use
 Another approach is create an API which processes web requests and return serves JSON data for use by a web frontend or mobile apps.
 
 ## Resources
+
+See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/python.md).
 
 - [python.org](https://python.org) official site.
 - [Python topic](https://github.com/topics/python) on Github.
@@ -165,32 +169,45 @@ If you package manager does not support the latest version, you can dowload the 
 
 ### Install addition Python versions
 
-For managing multiple versions of Python which are all installed but don't conflict, I recommend PyEnv. 
+For managing multiple versions of Python which are all installed but don't conflict, I recommend **PyEnv**.
 
-For **macOS Catalina** - if you are unable to make changes to the system Python 2 (in order to use `pip` or `virtualenv`), then PyEvn is your solution to install a custom Python 2 for your user.
+**macOS Catalina note**
+
+- You are now unable to make changes to the system Python 2 (in order to use `pip` or `virtualenv`).
+- And `python@2` is no longer available in `brew`.
+- So PyEnv is a good solution to install a custom Python 2 for your user. 
+
+#### Links
 
 - [pyenv/pyenv](https://github.com/pyenv/pyenv) on Github.
-- [Intro to pyenv](https://realpython.com/intro-to-pyenv/) tutorial on RealPython
-    - [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv).
+- [Intro to pyenv](https://realpython.com/intro-to-pyenv/) tutorial on RealPython.
+
 
 #### Install PyEnv
 
-Follow the install steps in the linked tutorial above to install `pyenv`.
+Install dev dependencies and then `pyenv` using this guide:
+
+- [Installing pyenv](https://realpython.com/intro-to-pyenv/#installing-pyenv) on RealPython.
 
 
-#### List available versions to install.
+#### List available versions
 
-Note this list is long.
+View available PY versions to install.
+
+Unfiltered (very long list).
 
 ```sh
 $ pyenv install --list
 ```
 
-To filter to Python 3 only (note the leading space):
+Filter to Python 3 only (note the leading space):
 
 ```sh
 $ pyenv install --list | grep ' 3'
 ```
+
+
+
 
 ### Python 3
 
