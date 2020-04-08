@@ -206,12 +206,9 @@ Filter to Python 3 only (note the leading space):
 $ pyenv install --list | grep ' 3'
 ```
 
-
-
-
 ### Python 3
 
-Example usage for installing a version of Python 2
+Example usage for installing a custom version of Python 3:
 
 - Install Python version `3.8-dev`. This must be done before any of the commands below.
     ```sh
@@ -234,7 +231,7 @@ Example usage for installing a version of Python 2
 
 Only if you _really_ need to use it, since Python 2 was deprecated on 1 Jan 2020.
 
-Example usage for installing a version of Python 2:
+Example usage for installing a custom version of Python 2:
 
 - Install Python version `2.7.15`. This must be done before any of the commands below.
     ```sh
@@ -250,10 +247,11 @@ Example usage for installing a version of Python 2:
     * 2.7.15 (set by /Users/my-user/.python-version)
     ```
 - Run target Python version.
-    ```
-    $ $(pyenv root)/versions/2.7.15/bin/python -v
+    ```sh
+    $ $(pyenv root)/versions/2.7.15/bin/python --version
     Python 2.7.15
-    
+    ```
+    ```sh
     $ $(pyenv root)/versions/2.7.15/bin/python
     >>> print 'Hello, world!'
     Hello, world!
@@ -263,14 +261,21 @@ Example usage for installing a version of Python 2:
     $ $(pyenv root)/versions/2.7.15/bin/pip list
     ...
     ```
-- Create a virtual environment using target Python version. Normally you would pass a version with the `--python <PYTHON>` flag, but this works fine below.
+- Create a virtual environment using he target Python version. Normally you would pass a version with the `--python <PYTHON>` flag, but this works fine below.
     ```sh
     $ $(pyenv root)/versions/2.7.15/bin/python -m virtualenv <NEW_ENV_NAME>
-    
+    ```
+    ```sh
     $ source <NEW_ENV_NAME>/bin/activate
-    $ python -V
+    $ python --version
     2.7.15
     ```
+- Create an alias for `virtualenv`
+    - Optional step.
+    - If you cannot install `virtualenv` globally in system Python 2, then you can create an alias for using your custom PY2 verion's virtualenv.
+        ```sh
+        alias virtualenv='~/.pyenv/versions/2.7.15/bin/python -m virtualenv'
+        ```
 
 ### Install pip
 
