@@ -17,7 +17,7 @@ Improve your coding skills in various languages by going through the content of 
 | 📚 [Resources](/resources.md) | For learning concepts in programming. Includes some external links. |
 | ⌨ [Language-specific guides](/language_guides.md)  | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses |
 | 🌐 [Recommended](/recommended.md) | External links I enjoy and would like share with others. |
-| 🗄️ [Data formats](/data_formats.md) | CSV, JSON, XML, ... |
+| 🗄️ [Data formats](/data_formats.md) | Guide to formats like CSV, JSON, XML, ... |
 
 ## Who am I?
 
