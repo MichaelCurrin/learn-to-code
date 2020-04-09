@@ -1,5 +1,6 @@
 # Formato dei dati
 
+[:gb:](/data_formats.md)
 
 ## CSV
 
