@@ -16,7 +16,7 @@ Migliora le tue abilità di programmazione in vari linguaggi esaminando il conte
 | 📚 [Risorse](/resources.md) | Per l'apprendimento dei concetti della programmazione. Include alcuni collegamenti esterni. |
 | ⌨ [Guide specifiche dei linguaggi](/language_guides.md) | Panoramica delle guide dei linguaggi di programmazione in questo progetto, che tu sia un principiante o desideri immergerti in alcuni concetti avanzati. Numerosi collegamenti a risorse esterne come documentazione e corsi online |
 | 🌐 [Consigliati](/recommended.md) | Collegamenti esterni che mi piacciono e che vorrei condividere con gli altri. |
-| 🗄️ [Formato dei dati](/data_formats.md) | CSV, JSON, XML, ... |
+| 🗄️ [Formato dei dati](/data_formats-it.md) | CSV, JSON, XML, ... |
 
 ## Chi sono?
 
