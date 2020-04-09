@@ -40,7 +40,7 @@
 ### Implementation
 
 - Python
-    - [json]((https://docs.python.org/3/library/json.html)
+    - [json](https://docs.python.org/3/library/json.html)
         - Builtin library.
         - Can also be used as a command-line tool to validate and pretty-print JSON. See [json.tool](https://docs.python.org/3/library/json.html#module-json.tool) docs.
             ```sh
