@@ -10,8 +10,17 @@ One setup approach can let you prevent certain files from showing up with `git d
 
 - [Customizing git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes)
 
+Example:
+
+```
+# Auto detect text files and perform LF normalization
+* text=auto
+```
+
 
 ## Editor config
+
+- https://editorconfig.org
 
 Create `.editorconfig` at the root. 
 
