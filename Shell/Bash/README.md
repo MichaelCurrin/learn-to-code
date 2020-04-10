@@ -1,8 +1,14 @@
 # Bash
 
-Bash is the shell  (command-line interpreter) for the GNU operating system. The name is an acronym for the "Bourne-Again SHell" and is a pun on Stephen Bourne's name. [source](https://devdocs.io/bash/html_node/what-is-bash_003f#What-is-Bash_003f).
+Bash is the shell (command-line interpreter) for the GNU operating system. The name is an acronym for the "Bourne-Again SHell" and is a pun on Stephen Bourne's name. [source](https://devdocs.io/bash/html_node/what-is-bash_003f#What-is-Bash_003f).
 
-It is commonly used on Linux systems. It was default shell for macOS, until Catalina made [ZSH](../ZSH/README.md) the default. Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`).
+Bash is not the operating system itself - an operating system can be built on Bash, which in turn is built on C. 
+
+It is commonly used on Linux operating systems. It was the default shell for macOS, until Catalina made [ZSH](../ZSH/README.md) the default. Bash is what your system boots and logs in with. It is what you configure and run other programs on top of. You can also do programming/scripting in bash, as commands in the console or bash scripts (typically `.sh`)
+
+In the terminal, you execute Bash interactively or to execute other languages. Bash is great for high-level tasks like running a few scripts or applications in a sequence, using output from one as input of another. 
+
+Bash can be used to write short or long scripts. If you look around system, you will see a lot of Bash files. You will also see some C (.c or .h) files. And also some executables which have no extension and look garbled when you read them - these are compiled binaries which might be written in C or another language and are used in Bash. For example, `view $(which ls)` will show the contents of the `ls` executable.
 
 Wikipedia definition:
 
@@ -19,6 +25,7 @@ But, Bash has some things which are not so intuitive - variables are global by d
 - [Bash](https://www.gnu.org/software/bash/) page on _gnu.org_.
 - [Bash reference manual](https://devdocs.io/bash/) on _devdocs.io_.
 - Tutorials
+    - [BashGuide](http://mywiki.wooledge.org/BashGuide)
     - [Learn Bash in Y Minutes](https://learnxinyminutes.com/docs/bash/)
     - [The Bash Guide](https://guide.bash.academy/)
         > A quality-driven guide through the shell's many features.
