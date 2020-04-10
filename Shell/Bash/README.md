@@ -26,6 +26,8 @@ But, Bash has some things which are not so intuitive - variables are global by d
 - [Bash reference manual](https://devdocs.io/bash/) on _devdocs.io_.
 - Tutorials
     - [BashGuide](http://mywiki.wooledge.org/BashGuide)
+        - Covers an intro and links to topics.
+        - It also links to a more modern but possibly incomplete rewrite [here](https://github.com/lhunath/bash.academy).
     - [Learn Bash in Y Minutes](https://learnxinyminutes.com/docs/bash/)
     - [The Bash Guide](https://guide.bash.academy/)
         > A quality-driven guide through the shell's many features.
