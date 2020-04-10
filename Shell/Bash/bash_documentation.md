@@ -1,4 +1,4 @@
-# Bash documentation
+# How find documentation related to Bash
 
 
 ## Online man pages
