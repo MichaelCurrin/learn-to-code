@@ -88,8 +88,8 @@ hello, world
 
 ## Packages
 
-- [Web scraping guide](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md)
-- [Web scraping library](https://github.com/gocolly/colly)
-- [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1)
+- [Web scraping packages](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md) guide
+- [Colly](https://github.com/gocolly/colly) web scraping library
+- [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post 
 - [Awesome go](https://github.com/avelino/awesome-go)
    > A curated list of awesome Go frameworks, libraries and software
