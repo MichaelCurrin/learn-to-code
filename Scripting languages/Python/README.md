@@ -76,6 +76,7 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
     - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) on Github.
     - [8 Best Python Cheat Sheets for Beginners and Intermediate Learners](https://sinxloud.com/python-cheat-sheet-beginner-advanced/).
 - Courses
+    - Get certified using Google, edX, Coursera or other courses. [blog post](https://www.thecoderworld.com/how-to-become-a-certified-python-programmer/)
     - Codecademy - [Python course](https://www.codecademy.com/catalog/language/python). This is what got me into Python originally.
     - Udemy - [Python courses](https://www.udemy.com/topic/python/).
     - Udacity - see [courses](https://www.udacity.com/courses/all) then search for _Python_.
