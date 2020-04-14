@@ -51,7 +51,12 @@ Free hosting for static sites built with Jekyll or plain HTML
 
 Edit markdown files on Github using your browser. 
 
- - The editor makes it easy to apply formatting using buttons rather than typing it up. It includes a preview alongside the edit view, unlike Github's editor which switches between edit and preview modes. 
+- Features
+- Import your Github repos
+	- The editor makes it easy to apply formatting using buttons rather than typing it up. 
+	- It includes a preview alongside the edit view, unlike Github's editor which switches between edit and preview modes. 
+	- It has buttons for bold, italics, hyperlink, etc.
+	- It autosaves every few minutes (committing any changes), which takes the friction out of saving files.
 - Edit and sync files on the following platforms
 	- Dropbox
 	- Github - When you link these, you can choose to include or exclude private repo access.
