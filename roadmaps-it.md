@@ -1,8 +1,8 @@
-# 🗺️ tabelle di marcia 
+# 🗺️ Tabelle di marcia 
 
 Se sai di voler diventare uno sviluppatore o crescere in un'area meno familiare, queste tabelle di marcia possono aiutarti a scegliere una direzione in modo da coprire prima i fondamenti.
 
-## tabelle di marcia consigliate
+## Tabelle di marcia consigliate
 
 | Link | Description |
 |--|--|
