@@ -34,6 +34,4 @@ If you want to contribute to this project, these kind of things would help.
 
 ## Contributors
 
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.
-    - [README-it](/README-it.md)
-    - [data_formats-it.md](/data_formats-it.md)
+- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations. See `*-it.md` files.
