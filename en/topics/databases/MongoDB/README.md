@@ -1,4 +1,4 @@
-# Mongo DB
+# MongoDB
 
 ## What is Mongo?
 
