@@ -1,4 +1,4 @@
-# ⌨ Guide specifiche per i linguaggi
+# 💡 Guide specifiche per i linguaggi
 
 
 Per avere informazioni su un linguaggio specifico consulta le cartelle in questo repository

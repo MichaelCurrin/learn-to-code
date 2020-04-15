@@ -1,4 +1,4 @@
-# ⌨ Topics
+# 💡 Topics
 > Language-specific guides
 
 See the folders in this repo to learn about a specific language.
