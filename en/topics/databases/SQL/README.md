@@ -1,4 +1,4 @@
-# SQL
+# Databases
 > Guide for learning to use SQL databases
 
 ## Resources
