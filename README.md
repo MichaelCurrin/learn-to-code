@@ -3,8 +3,8 @@
 
 Translations:
 
-- [:gb: Core content)](/en)
-- [:it: (Help wanted to translate!)](/it)
+- [:gb: -  core content](/en)
+- [:it: - help wanted to translate](/it)
 
 
 ## License
