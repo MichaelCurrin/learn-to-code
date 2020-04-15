@@ -3,5 +3,5 @@
 
 Translations:
 
-- [:en:](/en) (Core content)
+- [:gb:](/en) (Core content)
 - [:it:](/it) (Help wanted to translate!)
