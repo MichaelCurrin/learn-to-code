@@ -3,17 +3,26 @@
 
 ## Hello world app
 
-`HelloWorld.java`
 
-```java
-public class HelloWorld {
+1. Create file `HelloWorld.java`.
+    ```java
+    public class HelloWorld {
 
-    public static void main(String[] args) {
-        System.out.println("Hello, World");
+        public static void main(String[] args) {
+            System.out.println("Hello, world!");
+        }
+
     }
+    ```
+2. Compile.
+    ```sh
+    $ javac HelloWorld.java
+    ```
+3. Execute the output binary.
+    ```sh
+    ./HelloWorld
+    ```
 
-}
-```
 
 ## Resources
 
