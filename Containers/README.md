@@ -15,3 +15,7 @@ See also my [Container cheatsheets](https://github.com/MichaelCurrin/cheatsheets
 - Docs
     - [Kubernetes Documentation](https://kubernetes.io/docs/home/) home
     - [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)
+
+## IDE integration
+
+- [container overview](https://code.visualstudio.com/docs/containers/overview) for VS Code.
