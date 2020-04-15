@@ -1,11 +1,20 @@
 # Python packaging guide
 
 
+- [packaging.python.org/](https://packaging.python.org/)
+    - [Tutorials](https://packaging.python.org/tutorials/)
+    - [Guides](https://packaging.python.org/guides/)
+
+
 ## How to package your project
 
 Make your project installable using `pip`. Through a downloaded directory, zip file, PyPI name or Github URL.
 
-See [How to Publish Your Own Python Package to PyPI](https://realpython.com/courses/how-to-publish-your-own-python-package-pypi/) guide on RealPython.com site.
+Links:
+
+- [How to Publish Your Own Python Package to PyPI](https://realpython.com/courses/how-to-publish-your-own-python-package-pypi/) guide on RealPython.com site.
+- [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/) tutorial on [packaging.python.org/](https://packaging.python.org/).
+
 
 
 ## Data directory
