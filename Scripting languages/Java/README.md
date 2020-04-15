@@ -4,7 +4,7 @@
 ## Hello world app
 
 
-1. Create file `HelloWorld.java`.
+1. Create file `hello.java`.
     ```java
     public class HelloWorld {
 
@@ -16,11 +16,12 @@
     ```
 2. Compile.
     ```sh
-    $ javac HelloWorld.java
+    $ javac hello.java
     ```
 3. Execute the output binary.
     ```sh
-    $ ./HelloWorld
+    $ ./hello
+    Hello, world!
     ```
 
 
@@ -29,6 +30,8 @@
 - [java.com](https://www.java.com/) homepage
 - Tutorials
     - [Java](https://www.geeksforgeeks.org/setting-environment-java/) tutorial on Geeks for Geeks website.
+- Courses
+    - [Learn Java](https://www.codecademy.com/learn/learn-java) on Codecademy.
 
 
 ## Install
