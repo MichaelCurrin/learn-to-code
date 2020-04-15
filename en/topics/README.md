@@ -6,12 +6,12 @@ See the folders in this repo to learn about a specific language.
 Some highlights:
 
 - Scripting with older languages
-	- [JavaScript](/Scripting%20languages/JavaScript)
-	- [Python](/Scripting%20languages/Python)
+	- [JavaScript](topics/scripting_languages/JavaScript)
+	- [Python](topics/scripting_languages/Python)
 - Scripting with newer languages
-	- [Dart](/Scripting%20languages/Dart)
-	- [Rust](/Scripting%20languages/Rust)
-	- [Go](/Scripting%20languages/Go)
+	- [Dart](topics/scripting_languages/Dart)
+	- [Rust](topics/scripting_languages/Rust)
+	- [Go](topics/scripting_languages/Go)
 - Unix command-line
 	- [Bash](/Shell/Bash)
 	- [ZSH](/Shell/ZSH)

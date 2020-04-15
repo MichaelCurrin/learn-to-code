@@ -1,6 +1,6 @@
 # Web development
 
-See also the [JavaScript](/Scripting%20languages/JavaScript/) topic.
+See also the [JavaScript](topics/scripting_languages/JavaScript/) topic.
 
 ## Tools
 
@@ -21,6 +21,6 @@ These work great for making HTML and JS look neat and all your files consistentl
 - Beautify
 - Prettier
 - Markdown All in One
-   
-  
+
+
 I found memory leaks with this on saving an HTML file with comments, especially with TODOs. VS Code would take up around 90% memory when there is a comment in the HTML. So far I've seen this in Beautify in HTML and Markdown All in One in Markdown - so maybe it is a VS Code and not an extension issue.

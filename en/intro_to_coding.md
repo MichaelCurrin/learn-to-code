@@ -14,17 +14,17 @@ Below are some departments or careers within tech that I am familiar with. These
 
 #### Programming languages
 
-- Traditionally, programmers learnt the [C](/Scripting%20languages/C) programming language or a "functional" programming language. These are typically not beginner-friendly.
+- Traditionally, programmers learnt the [C](topics/scripting_languages/C) programming language or a "functional" programming language. These are typically not beginner-friendly.
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up.
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
 - Here are some popular or commonly used modern languages are:
-	- [Ruby](/Scripting%20languages/Ruby) - for Fullstack or Backend development.
-	- [PHP](/Scripting%20languages/PHP) - also Fullstack or Backend.
+	- [Ruby](topics/scripting_languages/Ruby) - for Fullstack or Backend development.
+	- [PHP](topics/scripting_languages/PHP) - also Fullstack or Backend.
 	- C# (C Sharp) - also Fullstack or Backend.
 	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
-	- [Python](/Scripting%20languages/Python) - as above for Java, but with particular growing interest in recent years around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT).
+	- [Python](topics/scripting_languages/Python) - as above for Java, but with particular growing interest in recent years around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT).
 	- C++ (C Plus Plus) - often used for games or high-performance computing.
-	- [JavaScript](/Scripting%20languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using [Electron](/Scripting%20languages/JavaScript/frameworks.md#electron)) or mobile applications (such using [React Native](/Scripting%20languages/JavaScript/frameworks.md#react-native)).
+	- [JavaScript](topics/scripting_languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using [Electron](topics/scripting_languages/JavaScript/frameworks.md#electron)) or mobile applications (such using [React Native](topics/scripting_languages/JavaScript/frameworks.md#react-native)).
 
 ### Web development
 
@@ -38,8 +38,8 @@ Below are some departments or careers within tech that I am familiar with. These
 - Programming skills are varied but here are some popular choices:
 	- C# (C sharp)
 	- Java
-	- [Python](/Scripting%20languages/Python)
-	- Node ([JavaScript](/Scripting%20languages/JavaScript) that runs on a server).
+	- [Python](topics/scripting_languages/Python)
+	- Node ([JavaScript](topics/scripting_languages/JavaScript) that runs on a server).
 
 #### Frontend
 
@@ -55,7 +55,7 @@ Below are some departments or careers within tech that I am familiar with. These
 		- For defining **styling**.
 		- This adds styling to the website, such font, color, background image, layout.
 		- Styling can be added on a certain element or at the top of the page, but often some base CSS styling is applied to the entire website. Using an existing or custom-built theme.
-	- [JavaScript](/Scripting%20languages/JavaScript)
+	- [JavaScript](topics/scripting_languages/JavaScript)
 		- For defining **behavior**
 		- This adds interactivity to the website. It means you can do things like process requests like form submissions, searches and scrolling through images on a feed, all without having to reload the entire page, but just the part that needs to change.
 		- While HTML has elements which can do validation (such as a username must match a regex pattern), JavaScript can be used to do validation which is more complex and give you live feedback. For example, you can type a username to register and web requests are fired in the background to check if it exists and then you get a green indicator say that it is not taken, all before you actually click a submit button.
@@ -69,10 +69,10 @@ Below are some departments or careers within tech that I am familiar with. These
 	- iOS apps
 		- Objective C (The traditional iOS language)
 		- Swift (A newer language also by Apple).
-	- [React Native](/Scripting%20languages/JavaScript/frameworks.md#react-native)
-		- Based on the JavaScript [React](/Scripting%20languages/JavaScript/frameworks.md#react) framework.
+	- [React Native](topics/scripting_languages/JavaScript/frameworks.md#react-native)
+		- Based on the JavaScript [React](topics/scripting_languages/JavaScript/frameworks.md#react) framework.
 		- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
-	- [Dart](/Scripting%20languages/Dart)
+	- [Dart](topics/scripting_languages/Dart)
 		- The Dart language includes Flutter - a library for making mobile apps and UI components.
 		- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
 
@@ -80,11 +80,11 @@ Below are some departments or careers within tech that I am familiar with. These
 
 - Fullstack development is becoming more common - this is where you work in the backend and the frontend of one service (or product). This means you have to understand how to do the backend and frontend areas covered above.
 - Programming languages
-	- [Python](/Scripting%20languages/Python)
+	- [Python](topics/scripting_languages/Python)
 		- Using libraries like Jinja and Flask, or Django, to do templating
-	- [Ruby](/Scripting%20languages/Ruby)
+	- [Ruby](topics/scripting_languages/Ruby)
 		- "Ruby on Rails" - this common approach means using the popular _Rails_ framework to build the backend database and server logic and also the frontend.
-	- [PHP](/Scripting%20languages/Python)
+	- [PHP](topics/scripting_languages/Python)
 		- PHP is the last part of the "LAMP stack" of Linux, Apache, MySQL and PHP.
 		- PHP is often used with this flow:
 			1. A request comes in to Apache, which PHP handles.
@@ -122,8 +122,8 @@ Below are some departments or careers within tech that I am familiar with. These
 	- Dashboarding tools
 		- For example: Google Sheets, Tableau, Google Data Studio
 	- Scripting languages
-		- [R](/Scripting%20languages/R)
-		- [Python](/Scripting%20languages/Python)
+		- [R](topics/scripting_languages/R)
+		- [Python](topics/scripting_languages/Python)
 
 ### Artificial Intelligence
 
