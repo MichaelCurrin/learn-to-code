@@ -62,7 +62,7 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Single-page application
 - [There are only two hard things in programming](https://www.martinfowler.com/bliki/TwoHardThings.html)
     - Cache invalidation
-    - Naming things 
+    - Naming things
     - [Off-by-one errors](https://en.m.wikipedia.org/wiki/Fencepost_error)
 
 
@@ -126,6 +126,3 @@ Learn to review other developers' code.
 
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTM4NTcxOSwtMTAzMTA4MTgyMF19
--->

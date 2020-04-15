@@ -1,4 +1,4 @@
-# 🗺️ Tabelle di marcia 
+# 🗺️ Tabelle di marcia
 
 Se sai di voler diventare uno sviluppatore o crescere in un'area meno familiare, queste tabelle di marcia possono aiutarti a scegliere una direzione in modo da coprire prima i fondamenti.
 
@@ -15,8 +15,3 @@ Se sai di voler diventare uno sviluppatore o crescere in un'area meno familiare,
 Le tabelle di marcia possono essere lunghe e dettagliate, ma selezionare il punto di partenza e alcuni passaggi dopo di esso e quindi è possibile che non sia così travolgente. Inoltre, non devi diventare un esperto in un argomento prima di passare a quello successivo.
 
 A volte puoi imparare alcuni argomenti contemporaneamente quando gli argomenti si completano a vicenda, ad es. HTML + CSS o HTML + JavaScript.
-
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTcwMjcxMTA0N119
--->

@@ -45,7 +45,7 @@ $ seq 2 5
 ```sh
 $ seq FIRST INCREMENT LAST
 
-$ # e.g. 
+$ # e.g.
 $ seq 1 0.5 5
 1
 1.5
@@ -63,7 +63,7 @@ $ seq 1 0.5 5
 Iterate over a sequence and do multiplication on the value.
 
 ```sh
-for i in $(seq 1 10); do 
+for i in $(seq 1 10); do
   echo "$i $(($i * 2))"
 done
 ```
@@ -129,6 +129,3 @@ echo -e {{a..n},ñ,{o..z}}"\n" | nl
     26	 y
     27	 z
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDYzNDM2OF19
--->

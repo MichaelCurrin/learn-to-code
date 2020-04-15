@@ -66,18 +66,18 @@ If you add React Router library you can handle switching between browser paths e
 
 
 ```javascript
-import React from "react"; 
-import ReactDOM from "react-dom"; 
-import { BrowserRouter } from "react-router-dom"; 
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return <h1>Hello, world! This is React Router</h1>;
-} 
+}
 
 ReactDOM.render(
-  <BrowserRouter> 
-    <App /> 
-  </BrowserRouter>, 
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById("root")
 );
 ```
@@ -123,7 +123,7 @@ export default class HelloWorldApp extends Component {
 	- > Build cross-platform desktop apps with JavaScript, HTML, and CSS
 	- > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 - [Wikipedia](https://en.wikipedia.org/wiki/Electron_(software_framework))
-	- > Electron is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies. It combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several notable open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, and WordPress Desktop. 
+	- > Electron is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies. It combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several notable open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, and WordPress Desktop.
 
 ## Proton Native
 
@@ -131,11 +131,11 @@ export default class HelloWorldApp extends Component {
  - [Official homepage](https://proton-native.js.org/#/)
 	 - >  Create desktop applications  through a React syntax, on all platforms.
 	 - Features
-	    > - Same syntax & components as React Native 
-	    > - Works with existing React libraries such as Redux 
-	    > - Cross platform 
-	    > - No more Electron 
-	    > - Compatible with all normal Node.js packages 
+	    > - Same syntax & components as React Native
+	    > - Works with existing React libraries such as Redux
+	    > - Cross platform
+	    > - No more Electron
+	    > - Compatible with all normal Node.js packages
 	    > - Hot reloading
 
 ## Angular
@@ -305,6 +305,3 @@ store.dispatch({ type: 'INCREMENT' })
 store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTAwNzAxOF19
--->

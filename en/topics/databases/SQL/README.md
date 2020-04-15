@@ -26,6 +26,3 @@
 ### Books
 
 - Database System Concepts on [db-book.com/](https://www.db-book.com/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODcxOTAwMF19
--->

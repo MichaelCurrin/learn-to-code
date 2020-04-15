@@ -117,7 +117,7 @@ GETTING HELP
 
 - [spyder-ide.org](https://www.spyder-ide.org/)
     > Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts.
-- IDE for running and debugging code interactively and presenting results. 
+- IDE for running and debugging code interactively and presenting results.
 - Spyder includes an [IPython](#ipython) console which renders output similar to [Jupyter](#jupyter)
 
 Spyder can be installed using [Anaconda](#anaconda), covered below. Spyder can also be installed alone, either globally or inside a virtual environment.
@@ -149,7 +149,7 @@ It includes things to save you time:
 - Open source Python libraries in base environment
 - One-click installs of managed programs, including:
     - [Jupyter](#jupyter)
-    - [Spyder](#spyder) IDE 
+    - [Spyder](#spyder) IDE
     - VS Code (Visual Studio Code) IDE.
 - Virtual environments
     - Manage through the Anaconda Navigator GUI, or
@@ -173,7 +173,7 @@ How to install Anaconda Distribution
 
 Conda is for managing virtual environments. You can install it alone, without Anaconda.
 
-Conda is similar to `pip`. Conda references its own index packages of mostly Data Science packages, while pip references PyPI. 
+Conda is similar to `pip`. Conda references its own index packages of mostly Data Science packages, while pip references PyPI.
 
 _Note: I found it frustrating when trying install things with Conda that are missing but available on `pip`, so that's one reason I prefer `pip`, but there might be ways around this._
 
@@ -199,13 +199,13 @@ $ conda update conda
 
 #### Why virtual environments?
 
-A virtual environment is a disposable sandboxed location to install libraries, usually for a specific project. This means that you can recreate the same environment (set of Python libraries with locked version) on other machines, whether on your other laptop, a colleagues machine or production server. 
+A virtual environment is a disposable sandboxed location to install libraries, usually for a specific project. This means that you can recreate the same environment (set of Python libraries with locked version) on other machines, whether on your other laptop, a colleagues machine or production server.
 
 This also avoids conflicts. For example, say you have two projects (Python applications) both use the base conda environment. The one needs `requests` version `2.0.0` and the other needs `3.0.0`. But you can only have one version of `requests` installed in an environment. So one of the projects will not work. So you can create two virtual environments - one with `2.0.0` and one with `3.0.0`. You change libraries in a virtual environment and only affect that one project.
 
 #### Manage virtual environments
 
-He we create a virtual environment with a given name and optional list of libaries to install, then activate it, check what is installed and then activate the base. 
+He we create a virtual environment with a given name and optional list of libaries to install, then activate it, check what is installed and then activate the base.
 
 ```sh
 $ conda create --name snowflakes biopython
@@ -256,7 +256,7 @@ $
 
 #### Managing packages
 
-Install a Python package/library with a virtual environment. 
+Install a Python package/library with a virtual environment.
 
 Optionally check for packages with a similar name and available versions in the libraries repository.
 
@@ -277,6 +277,3 @@ Show installed packages.
 ```sh
 $ conda list
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjA3MzE1OF19
--->

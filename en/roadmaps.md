@@ -15,7 +15,3 @@ If you know you want to become a developer or get grow into a less familiar area
 The roadmaps can get long and detailed, but pick starting point and few steps after it and then you can it is not so overwhelming. You also don't have to be an expert in a topic before moving onto the next.
 
 Sometimes you can learn a few topics at once when topics complement each other e.g. HTML + CSS, or HTML + JavaScript.
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTcwMjcxMTA0N119
--->

@@ -21,7 +21,3 @@ Ogni sezione ha un file _README_, con le istruzioni per installare ed eseguire i
 
 Alcune cartelle includono esercitazioni o script da eseguire localmente se si clona questo repository.
 
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTE5Nzc2NDg0MV19
--->

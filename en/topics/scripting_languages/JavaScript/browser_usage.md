@@ -234,6 +234,3 @@ Decode to plain string.
 ```
 
 There is also `decodeURIComponent` which is for use on an entire URL, not just a component.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2OTE3MzQzLDE5NDIyMTEwMTNdfQ==
--->
