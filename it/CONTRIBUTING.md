@@ -34,4 +34,4 @@ Se vuoi contribuire a questo progetto, potresti:
 
 ## Contributori
 
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations. See `*-it.md` files.
+- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.

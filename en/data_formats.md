@@ -1,7 +1,5 @@
 # Data formats
 
-[:it: translation](/data_formats-it.md)
-
 ## CSV
 
 - [Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values) on Wikipedia.

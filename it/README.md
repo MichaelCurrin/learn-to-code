@@ -1,7 +1,7 @@
 # Impara a programmare
 > Tutorial, script, frammenti di codice e risorse per aiutarti a conoscere vari linguaggi e diventare uno sviluppatore migliore
 
-[![Licenza MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MichaelCurrin/learn-to-code/blob/master/LICENSE)
+[![Licenza MIT](https://img.shields.io/badge/Licenza-MIT-blue.svg)](https://github.com/MichaelCurrin/learn-to-code/blob/master/LICENSE)
 
 Migliora le tue abilità di programmazione in vari linguaggi esaminando il contenuto di questo repository. Documento qui gli argomenti mentre imparo ed esploro, in modo da avere un facile riferimento o una guida pratica per me stesso, o nel caso in cui qualcun altro possa trarne beneficio.
 
@@ -14,7 +14,7 @@ Migliora le tue abilità di programmazione in vari linguaggi esaminando il conte
 | 📚 [Risorse](resources.md)                                         | Per l'apprendimento dei concetti della programmazione. Include alcuni collegamenti esterni.                                                                                                                                         |
 | ⌨ [Guide specifiche dei linguaggi](language_guides.md)            | Panoramica delle guide dei linguaggi di programmazione in questo progetto, che tu sia un principiante o desideri immergerti in alcuni concetti avanzati. Numerosi collegamenti a risorse esterne come documentazione e corsi online |
 | 🌐 [Consigliati](recommended.md)                                   | Collegamenti esterni che mi piacciono e che vorrei condividere con gli altri.                                                                                                                                                       |
-| 🗄️ [Formato dei dati](data_formats-it.md)                          | CSV, JSON, XML, ...                                                                                                                                                                                                                 |
+| 🗄️ [Formato dei dati](data_formats.md)                             | CSV, JSON, XML, ...                                                                                                                                                                                                                 |
 
 ## Chi sono?
 

@@ -1,10 +1,11 @@
 # ⌨ Guide specifiche per i linguaggi
 
-Per avere informazioni su un linguaggio specifico consulta le cartelle in questo repository 
+
+Per avere informazioni su un linguaggio specifico consulta le cartelle in questo repository
 
 Alcuni punti salienti:
 
-- Scripting con vecchi linguaggi 
+- Scripting con vecchi linguaggi
 	- [JavaScript](/Scripting%20languages/JavaScript)
 	- [Python](/Scripting%20languages/Python)
 - Scripting con nuovi linguaggi
@@ -12,7 +13,7 @@ Alcuni punti salienti:
 	- [Rust](/Scripting%20languages/Rust)
 	- [Go](/Scripting%20languages/Go)
 - linea di comando Unix
-	- [Bash](/Shell/Bash) 
+	- [Bash](/Shell/Bash)
 	- [ZSH](/Shell/ZSH)
 - [Git](/Version%20control/Git)
 

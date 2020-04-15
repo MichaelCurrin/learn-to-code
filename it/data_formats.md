@@ -1,6 +1,5 @@
 # Formato dei dati
 
-[:gb:](/data_formats.md)
 
 ## CSV
 
@@ -17,12 +16,12 @@
     - [str_getcsv](https://www.php.net/manual/en/function.str-getcsv.php) manuale di funzioni.
 - Shell
     - [Bash Leggi file CSV separati da virgole su Linux / Unix](https://www.cyberciti.biz/faq/unix-linux-bash-read-comma-separated-cvsfile/) tutorial.
-    - comando `awk` 
+    - comando `awk`
         - [Usare AWK per lavorare con i file CSV](https://newfivefour.com/awk-csv-files.html)
         - [Usare il commando awk per i file .csv ](https://www.unix.com/shell-programming-and-scripting/124886-using-awk-command-csv-file.html)
-    - commando `gawk` 
+    - commando `gawk`
         - [leggere file](https://www.gnu.org/software/gawk/manual/html_node/Reading-Files.html) sulla documentazione di GNU.
-    - commando `sed` 
+    - commando `sed`
         - [sed - 10 esempi per sostituire / cancellare / stampare linee di file CSV ](https://www.theunixschool.com/2013/02/sed-examples-replace-delete-print-lines-csv-files.html)
         - [FAQ sed - Come posso analizzare un file di dati delimitato da virgole (CSV)?](https://www.linuxtopia.org/online_books/linux_tool_guides/the_sed_faq/sedfaq4_005.html)
 

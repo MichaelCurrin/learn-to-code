@@ -3,7 +3,7 @@
 
 ## Request a change
 
-Create an issue. Let's discuss details there. 
+Create an issue. Let's discuss details there.
 
 Not all issues will get done or may take time to get to. This project only has one main maintainer.
 
@@ -14,9 +14,9 @@ If you want to have a conversation about changes first, create an issue and we c
 
 1. Fork the project.
 2. Make your changes to markdown or code files.
-    - Optionally use [StackEdit](https://stackedit.io/) to edit content. It let's you preview the rendered output in the browser. It works great on markdown files and in larger repos. 
+    - Optionally use [StackEdit](https://stackedit.io/) to edit content. It let's you preview the rendered output in the browser. It works great on markdown files and in larger repos.
 3. Check your changes.
-    - Make sure files and directories follow the convention in the rest of the project. 
+    - Make sure files and directories follow the convention in the rest of the project.
     - Markdown - Make sure your changed pages render in Github and links work.
     - Scripts - Make sure they run.
 4. Add your name to the list in the next section.
@@ -34,4 +34,4 @@ If you want to contribute to this project, these kind of things would help.
 
 ## Contributors
 
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations. See `*-it.md` files.
+- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.
