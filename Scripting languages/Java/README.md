@@ -20,7 +20,7 @@
     ```
 3. Execute the output binary.
     ```sh
-    ./HelloWorld
+    $ ./HelloWorld
     ```
 
 
