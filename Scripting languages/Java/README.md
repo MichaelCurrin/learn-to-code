@@ -26,7 +26,9 @@
 
 ## Resources
 
-- [java.com](https://www.java.com/)
+- [java.com](https://www.java.com/) homepage
+- Tutorials
+    - [Java](https://www.geeksforgeeks.org/setting-environment-java/) tutorial on Geeks for Geeks website.
 
 
 ## Install
