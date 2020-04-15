@@ -205,7 +205,7 @@ This also avoids conflicts. For example, say you have two projects (Python appli
 
 #### Manage virtual environments
 
-He we create a virtual environment with a given name and optional list of libaries to install, then activate it, check what is installed and then activate the base.
+He we create a virtual environment with a given name and optional list of libraries to install, then activate it, check what is installed and then activate the base.
 
 ```sh
 $ conda create --name snowflakes biopython
