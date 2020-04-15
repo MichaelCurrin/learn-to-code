@@ -1,7 +1,7 @@
 # Impara a programmare
 > Tutorial, script, frammenti di codice e risorse per aiutarti a conoscere vari linguaggi e diventare uno sviluppatore migliore
 
-[![Licenza MIT](https://img.shields.io/badge/Licenza-MIT-blue.svg)](https://github.com/MichaelCurrin/learn-to-code/blob/master/LICENSE)
+[![Licenza MIT](https://img.shields.io/badge/Licenza-MIT-blue.svg)](https://github.com/MichaelCurrin/learn-to-code/blob/master/README.md#license)
 
 Migliora le tue abilità di programmazione in vari linguaggi esaminando il contenuto di questo repository. Documento qui gli argomenti mentre imparo ed esploro, in modo da avere un facile riferimento o una guida pratica per me stesso, o nel caso in cui qualcun altro possa trarne beneficio.
 
@@ -25,4 +25,4 @@ Maggiori informazioni sulla mia esperienza e sulla mia storia sul mio blog [mich
 
 Se vuoi contribuire, accolgo con piacere eventuali correzioni o miglioramenti. esegui il fork del repository e effettua una richiesta pull.
 
-[Contributing](CONTRIBUTING.md) doc
+[Contributing](contributing.md) doc
