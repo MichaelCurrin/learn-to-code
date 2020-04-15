@@ -24,6 +24,4 @@ Read more about my experience and history on my blog [michaelcurrin.github.io/co
 
 ## Contributing
 
-If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request.
-
-[Contributing](contributing.md) doc
+If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request. See [Contributing](contributing.md) doc.
