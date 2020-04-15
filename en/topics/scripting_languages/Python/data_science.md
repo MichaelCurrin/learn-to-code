@@ -2,7 +2,7 @@
 
 If you want to use Python for Data Science projects, I recommend installing [Anaconda](#anaconda) and/or [Conda](#conda), covered below. These are popular tools for setting up environments with specific Python versions and packages and then running the code. In particular, the programs that come with Anaconda help with development, debugging and viewing in the output of the code close to the code.
 
-You can also ignore the Spyder and Anaconda parts of this guide. Using VS Code or Pycharm as an IDE and pip to manage your virtual environments is perfectly fine for Python data science projects. Either way, you're likely to come across [Jupyter](#jupyter) notebooks, which are a great way to develop and show work, regardless of the IDE and env manager used.
+You can also ignore the Spyder and Anaconda parts of this guide. Using VS Code or PyCharm as an IDE and pip to manage your virtual environments is perfectly fine for Python data science projects. Either way, you're likely to come across [Jupyter](#jupyter) notebooks, which are a great way to develop and show work, regardless of the IDE and env manager used.
 
 ## Libraries
 
@@ -108,9 +108,9 @@ GETTING HELP
 - How it works:
     - Jupyter runs a Jupyter server with a Python kernel in a specific environment (such as one for your project) - this works locally.
     - Run and edit the notebook in the browser.
-    - The result can be saved as as `.ipnb` file, so when you start up again you keep the code and output. The notebook file can also be viewed as non-interactive HTML format in an IDE (such as Pycharm) or on Github, making it easy to share your output without needing Python setup to view the notebook.
+    - The result can be saved as as `.ipnb` file, so when you start up again you keep the code and output. The notebook file can also be viewed as non-interactive HTML format in an IDE (such as PyCharm) or on Github, making it easy to share your output without needing Python setup to view the notebook.
 - Use with IDEs
-    - Pycharm - see the [Jupyter notebook support](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) doc.
+    - PyCharm - see the [Jupyter notebook support](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) doc.
     - VS Code - see the [Jupyter support](https://code.visualstudio.com/docs/python/jupyter-support) doc.
 
 ## Spyder
@@ -230,7 +230,7 @@ $
 
 #### Manage Python
 
-Optionall specify a version of Python to use:
+Optionally specify a version of Python to use:
 
 ```sh
 $ conda create --name snakes python=3.5
