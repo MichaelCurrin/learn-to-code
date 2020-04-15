@@ -1,19 +1,12 @@
-## What does this PR do?
-
-<!-- Add a tick. -->
-<!-- e.g. [x] Foo -->
-
-- [ ] Add new content
-- [ ] Add a fix
-- [ ] Add page translation
-
-
 ## Description
 
-<!-- Add more details -->
+<!-- Add details -->
 
 
-## Related
+## Issues
 
 <!-- Link to an issue if there is one. -->
-<!-- e.g. fixes #1 -->
+<!-- e.g. closes #1 -->
+
+
+<!--  Please also add labels to the PR using Github's labelling e.g. enhancement, bug, translation
