@@ -43,34 +43,34 @@ Hosting Python gratuito. Include un server Web con una facile configurazione e u
 
 - [pages.github.com](https://pages.github.com/)
 
-hosting gratuito per siti statici creati con Jekyll o semplice HTML
+Hosting gratuito per siti statici creati con Jekyll o semplice HTML
 
 ### StackEdit
 
-- [StackEdit.io](https://stackedit.io/) site
+- Sito [StackEdit.io](https://stackedit.io/)
 
 Modifica i file markdown su Github usando il tuo browser.
 
 - Caratteristiche
 - Importa i tuoi repository Github
-- L'editor semplifica l'applicazione della formattazione utilizzando i pulsanti anziché digitarla.
-- Include un'anteprima accanto alla vista di modifica, a differenza dell'editor di Github che passa tra le modalità di modifica e anteprima.
-- Ha pulsanti per grassetto, corsivo, collegamento ipertestuale, ecc.
-- Si salva automaticamente ogni pochi minuti (eseguendo eventuali modifiche), il che elimina l'attrito dal salvataggio dei file.
+	- L'editor semplifica l'applicazione della formattazione utilizzando i pulsanti anziché digitarla.
+	- Include un'anteprima accanto alla vista di modifica, a differenza dell'editor di Github che passa tra le modalità di modifica e anteprima.
+	- Ha pulsanti per grassetto, corsivo, collegamento ipertestuale, ecc.
+	- Si salva automaticamente ogni pochi minuti (eseguendo eventuali modifiche), il che elimina l'attrito dal salvataggio dei file.
 - Modifica e sincronizza i file sulle seguenti piattaforme
-- Dropbox
-- Github: quando li colleghi, puoi scegliere di includere o escludere l'accesso al repo privato.
-- Gitlab
-- Google Drive
+	- Dropbox
+	- Github: quando li colleghi, puoi scegliere di includere o escludere l'accesso al repo privato.
+	- Gitlab
+	- Google Drive
 - Come modificare un repository:
-1. Vai a [stackedit.io] (https://stackedit.io/). Inizierai da una pagina di benvenuto.
-2. Accedi con Github.
-3. Dal menu a destra, selezionare Aree di lavoro.
-4. Seleziona "Aggiungi uno spazio di lavoro Github".
-5. Immettere un percorso repository. Facoltativamente impostare il percorso e il ramo della cartella.
-6. Vedrai l'albero delle cartelle sulla sinistra. Si noti che i file genereranno inizialmente un errore di dati durante l'estrazione del contenuto.
-7. Modifica i file. Non è necessario premere Salva: le modifiche verranno salvate e sincronizzate per te e verranno visualizzate come commit in Github.
-8. È possibile aggiungere più repository utilizzando i passaggi precedenti e quindi passare da uno all'altro.
+	1. Vai su [stackedit.io](https://stackedit.io/). Inizierai da una pagina di benvenuto.
+	2. Accedi con Github.
+	3. Dal menu a destra, selezionare Aree di lavoro.
+	4. Seleziona "Aggiungi uno spazio di lavoro Github".
+	5. Immettere un percorso repository. Facoltativamente impostare il percorso e il ramo della cartella.
+	6. Vedrai l'albero delle cartelle sulla sinistra. Si noti che i file genereranno inizialmente un errore di dati durante l'estrazione del contenuto.
+	7. Modifica i file. Non è necessario premere Salva: le modifiche verranno salvate e sincronizzate per te e verranno visualizzate come commit in Github.
+	8. È possibile aggiungere più repository utilizzando i passaggi precedenti e quindi passare da uno all'altro.
 
 Note sull'uso:
 
