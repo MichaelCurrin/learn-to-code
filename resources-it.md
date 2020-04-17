@@ -1,5 +1,6 @@
 # 📚 Risorse
 > Cenni su alcune idee chiave per gli sviluppatori con collegamenti esterni per approfondire
+
 ## Come usare questa guida
 
 Questa guida presuppone che tu abbia già delle conoscenze di programmazione e desideri fare qualcosa come:
