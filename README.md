@@ -16,9 +16,9 @@
 
 Help wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
 
-First time contributing to a Github repo? Follow this guide
+First time contributing to a Github repo? Follow this guide:
  
-- https://github.com/Syknapse/Contribute-To-This-Project
+- [Syknapse/Contribute-To-This-Project](https://github.com/Syknapse/Contribute-To-This-Project)
 
 
 ## License
