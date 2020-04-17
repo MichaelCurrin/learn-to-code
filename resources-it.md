@@ -19,7 +19,7 @@ Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente
 ### 💡 Concetti di software design 
 
 - Sistemi operativi
-  - Unix
+  	- Unix
 	- Linux
 	- macOS
 	- Windows
