@@ -94,5 +94,4 @@ Note sull'uso:
 	- Esegui richieste API dall'applicazione.
 - [Postman](https://www.postman.com/)
 	- Scaricabile
-
 	- Esegui richieste API dall'applicazione.
