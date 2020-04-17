@@ -4,8 +4,8 @@
 
 ## Translations
 
-- [:gb: English homepage](/en) - core content.
-- [:it: Italian homepage](/it) - translated.
+- [:gb: English homepage](/en) (core)
+- [:it: Italian homepage](/it)
 
 
 ## Contributing
