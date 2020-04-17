@@ -16,11 +16,15 @@
 
 Help wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
 
+First time contributing to a Github repo? Follow this guide
+ 
+- https://github.com/Syknapse/Contribute-To-This-Project
+
 
 ## License
 
 Released under [MIT](/LICENSE).
 
 - Freely use and modify.
-- The original license must be included in your project.
+- Give credit. The original license must be included in your project.
 - Please link back to the original repo if use any content.
