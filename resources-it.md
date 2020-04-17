@@ -12,6 +12,7 @@ Nella mia esperienza nei colloqui(lavorativi) di ingegneria del software (sia fa
 
 Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente dovresti sapere quali sono la maggior parte di questi elementi e quando e perché li utilizzeresti. Laddove i collegamenti non sono forniti di seguito, è possibile cercarli da soli su Wikipedia, blog o tutorial.
 
+
 ## Argomenti
 
 
