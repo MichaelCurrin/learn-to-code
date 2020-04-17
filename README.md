@@ -10,11 +10,13 @@
 
 ## Contributing
 
+See guides:
+
 - [:gb: Contributing](/en/contributing.md)
 - [:it: Contribuire](/it/contributing.md)
 
 
-Help wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
+Help is wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
 
 First time contributing to a Github repo? Follow this guide:
  
