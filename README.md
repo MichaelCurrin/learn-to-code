@@ -4,10 +4,17 @@
 
 ## Translations
 
-- [:gb: English](/en) - core content.
-- [:it: Italian](/it) - translated.
+- [:gb: English homepage](/en) - core content.
+- [:it: Italian homepage](/it) - translated.
 
-Help wanted to add more translated pages, especially for any new content. See [CONTRIBUTING.md](/CONTRIBUTING.md) guide.
+
+## Contributing
+
+- [:gb: Contributing](/en/contributing.md)
+- [:it: Contribuire](/it/contributing.md)
+
+
+Help wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
 
 
 ## License
