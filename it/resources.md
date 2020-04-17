@@ -1,6 +1,7 @@
 # 📚 Risorse
 > Cenni su alcune idee chiave per gli sviluppatori con collegamenti esterni per approfondire
 
+
 ## Come usare questa guida
 
 Questa guida presuppone che tu abbia già delle conoscenze di programmazione e desideri fare qualcosa come:
@@ -9,7 +10,7 @@ Questa guida presuppone che tu abbia già delle conoscenze di programmazione e d
 - imparare la tecnologia in maniera pratica e vuoi trovare alcune definizioni e spiegazioni più formali. O,
 - scoprire cosa c'è da sapere e come queste cose si incastrano tra di loro.
 
-Nella mia esperienza nei colloqui(lavorativi) di ingegneria del software (sia facendo dei colloqui sia affrontando dei colloqui), questi sono i tipi di argomenti che emergono molto e quindi conoscerli almeno a livello concettuale ti aiuterà molto.
+Nella mia esperienza nei colloqui (lavorativi) di ingegneria del software (sia facendo dei colloqui sia affrontando dei colloqui), questi sono i tipi di argomenti che emergono molto e quindi conoscerli almeno a livello concettuale ti aiuterà molto.
 
 Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente dovresti sapere quali sono la maggior parte di questi elementi e quando e perché li utilizzeresti. Laddove i collegamenti non sono forniti di seguito, è possibile cercarli da soli su Wikipedia, blog o tutorial.
 
@@ -125,6 +126,3 @@ Impara a revisionare il codice di altri sviluppatori.
 
 - [Abilità di revisione del codice per le persone](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Revisione del codice](https://github.com/features/code-review/) guida alle funzionalità di Github.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTM4NTcxOSwtMTAzMTA4MTgyMF19
--->
