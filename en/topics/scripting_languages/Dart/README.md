@@ -21,7 +21,8 @@ Dart is a multi-paradigm programming language which was developed by Google star
     - [Top Tutorials To Learn Dart To Build Applications](https://medium.com/quick-code/top-tutorials-to-learn-dart-to-build-applications-262b946a3fc9)
 - Dart [samples](https://dart.dev/samples) - these were copied to this project for the basics section.
 - Dart packages on [pub.dev](https://pub.dev/). These are separated into flutter and web packages.
-- VS Code
+- [Recommended IDEs](https://dart.dev/tools#ides-and-editors) for Dart
+- VS Code support
     - [Setup](https://dart.dev/tools/vs-code) for Dart.
     - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) plugin.
     - [Dart (Syntax Highlighting Only)](https://marketplace.visualstudio.com/items?itemName=oscarcs.dart-syntax-highlighting-only) plugin.
