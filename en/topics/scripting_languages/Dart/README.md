@@ -13,9 +13,13 @@ Dart is a multi-paradigm programming language which was developed by Google star
 ### Dart
 
 - Dart [official site](https://dart.dev/)
-- [Wikipedia](https://en.wikipedia.org/wiki/Dart_(programming_language))
+- [Wikipedia page](https://en.wikipedia.org/wiki/Dart_(programming_language))
     > Dart is a client-optimized[clarification needed] programming language for apps on multiple platforms. It is developed by Google and is used to build mobile, desktop, backend and web applications.
     > Dart is an object-oriented, class defined, garbage-collected language using a C-style syntax that transcompiles optionally into JavaScript. It supports interfaces, mixins, abstract classes, reified generics, static typing, and a sound type system.
+- [Web platform](https://dart.dev/web) support
+    > Dart supports the web as one of its core platforms. Dart-to-JavaScript compilers are available both for development (with a quick edit-refresh cycle) and for production (with a focus on code size and speed).
+    > 
+    > In addition to compilers, the Dart web platform provides core libraries, access to the DOM (Document Object Model), and interoperability for calling JavaScript from Dart.
 - Tutorials
     - [Official Dart tutorials](https://dart.dev/tutorials)
     - [Web app quickstart](https://dart.dev/tutorials/web/get-started). Includes install instructions.
@@ -26,10 +30,10 @@ Dart is a multi-paradigm programming language which was developed by Google star
 - Dart [samples](https://dart.dev/samples) - these were copied to this project for the basics section.
 - Dart packages on [pub.dev](https://pub.dev/). These are separated into flutter and web packages.
 - [Recommended IDEs](https://dart.dev/tools#ides-and-editors) for Dart
-- VS Code support
-    - [Setup](https://dart.dev/tools/vs-code) for Dart.
-    - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) plugin.
-    - [Dart (Syntax Highlighting Only)](https://marketplace.visualstudio.com/items?itemName=oscarcs.dart-syntax-highlighting-only) plugin.
+    - VS Code support
+        - [Setup](https://dart.dev/tools/vs-code) for Dart.
+        - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) plugin.
+        - [Dart (Syntax Highlighting Only)](https://marketplace.visualstudio.com/items?itemName=oscarcs.dart-syntax-highlighting-only) plugin.
 
 ### Flutter
 
