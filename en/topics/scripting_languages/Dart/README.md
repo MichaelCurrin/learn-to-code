@@ -18,7 +18,10 @@ Dart is a multi-paradigm programming language which was developed by Google star
     > Dart is an object-oriented, class defined, garbage-collected language using a C-style syntax that transcompiles optionally into JavaScript. It supports interfaces, mixins, abstract classes, reified generics, static typing, and a sound type system.
 - Tutorials
     - [Official Dart tutorials](https://dart.dev/tutorials)
-    - [Web app quickstart](https://dart.dev/tutorials/web/get-started). Includes install instructions. 
+    - [Web app quickstart](https://dart.dev/tutorials/web/get-started). Includes install instructions.
+    - [Dart language tour](https://dart.dev/guides/language/language-tour)
+    - [Dart library tour](https://dart.dev/guides/libraries/library-tour)
+    - [Connect Dart and HTML](https://dart.dev/tutorials/web/low-level-html/connect-dart-html) web tutorial.
     - [Top Tutorials To Learn Dart Build Applications](https://medium.com/quick-code/top-tutorials-to-learn-dart-to-build-applications-262b946a3fc9)
 - Dart [samples](https://dart.dev/samples) - these were copied to this project for the basics section.
 - Dart packages on [pub.dev](https://pub.dev/). These are separated into flutter and web packages.
