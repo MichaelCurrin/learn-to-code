@@ -1,6 +1,6 @@
 # 🌐 Consigli
+> Collegamenti esterni che mi piacciono e che vorrei condividere con gli altri.
 
-Collegamenti esterni che mi piacciono e che vorrei condividere con gli altri.
 
 ## 🤩 Repository popolari
 
@@ -25,7 +25,8 @@ Alcuni link sovrastanti provengono da [qui](https://stackoverflow.com/questions/
 - [Towards Data Science](https://towardsdatascience.com/) (guarda tra gli argomenti come: Data Science, AI, Python e Machine Learning)
 - [Flowing Data](https://flowingdata.com)
 
-## 🛠 Strumenti online 
+
+## 🛠 Strumenti online
 
 ### Git Pod
 
@@ -85,6 +86,7 @@ Note sull'uso:
 - Non hai risparmi - si salva automaticamente per te. La sincronizzazione automatica è impostata su 90 secondi e il minimo è 60 secondi. Ogni sincronizzazione che contiene modifiche provoca un commit, quindi potresti voler renderlo meno frequente ogni 5 minuti. Puoi anche fare clic sul pulsante di sincronizzazione in alto a destra per forzare una sincronizzazione, nel caso in cui sia necessario visualizzare i risultati su Github.
 - Fai clic su Impostazioni nel menu a destra. È possibile ignorare le impostazioni predefinite.
 - Usa `CTRL + MAIUSC + V` nei documenti per incollare * senza * formattazione - Ho trovato questo necessario per evitare inutili righe aperte durante la copia di codice da un IDE in un blocco di codice markdown. Quando non si utilizza un blocco codice, è possibile mantenere le interruzioni di riga incollate, poiché la doppia spaziatura è necessaria per il rendering delle interruzioni di riga in Markdown.
+
 
 ## API testing
 
