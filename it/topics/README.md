@@ -10,7 +10,7 @@ Alcuni punti salienti:
 	- [Python](/en/topics/scripting_languages/Python) 🇬🇧 
 - Scripting con linguaggi nuovi
 	- [Dart](/en/topics/scripting_languages/Dart) 🇬🇧 
-	- [Rust](scripting_languages/Rust)
+	- [Rust](/en/topics/scripting_languages/Rust) 🇬🇧 
 	- [Go](scripting_languages/Go)
 - linea di comando Unix 
 	- [Bash](Shell/Bash)
