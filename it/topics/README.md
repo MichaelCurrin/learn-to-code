@@ -13,7 +13,7 @@ Alcuni punti salienti:
 	- [Rust](/en/topics/scripting_languages/Rust) 🇬🇧 
 	- [Go](/en/topics/scripting_languages/Go) 🇬🇧 
 - linea di comando Unix 
-	- [Bash](Shell/Bash)
+	- [Bash](/en/topics/Shell/Bash) 🇬🇧 
 	- [ZSH](Shell/ZSH)
 - [Git](version_control/Git)
 
