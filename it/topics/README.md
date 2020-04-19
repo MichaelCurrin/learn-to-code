@@ -11,7 +11,7 @@ Alcuni punti salienti:
 - Scripting con linguaggi nuovi
 	- [Dart](/en/topics/scripting_languages/Dart) 🇬🇧 
 	- [Rust](/en/topics/scripting_languages/Rust) 🇬🇧 
-	- [Go](scripting_languages/Go)
+	- [Go](/en/topics/scripting_languages/Go) 🇬🇧 
 - linea di comando Unix 
 	- [Bash](Shell/Bash)
 	- [ZSH](Shell/ZSH)
