@@ -6,7 +6,7 @@ Consulta le cartelle in questo repository per conoscere una linguaggio specifico
 Alcuni punti salienti:
 
 - Scripting con linguaggi vecchi
-	- [JavaScript](scripting_languages/JavaScript)
+	- [JavaScript](/en/topics/scripting_languages/JavaScript) 🇬🇧 
 	- [Python](scripting_languages/Python)
 - Scripting con linguaggi nuovi
 	- [Dart](scripting_languages/Dart)
