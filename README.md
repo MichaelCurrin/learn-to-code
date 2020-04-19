@@ -27,6 +27,7 @@ First time contributing to a Github repo? Follow this guide:
 
 Released under [MIT](/LICENSE).
 
-- Freely use and modify.
-- Give credit. The original license must be included in your project.
-- Please link back to the original repo if use any content.
+- Use and modify the content. 
+- Ideally add back to the original repo from your fork.
+- The original license must be included in your project.
+- Please link back to the original repo if you use any content.
