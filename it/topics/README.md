@@ -7,7 +7,7 @@ Alcuni punti salienti:
 
 - Scripting con linguaggi vecchi
 	- [JavaScript](/en/topics/scripting_languages/JavaScript) 🇬🇧 
-	- [Python](scripting_languages/Python)
+	- [Python](/en/topics/scripting_languages/Python) 🇬🇧 
 - Scripting con linguaggi nuovi
 	- [Dart](scripting_languages/Dart)
 	- [Rust](scripting_languages/Rust)
