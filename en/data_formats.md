@@ -30,10 +30,14 @@
 - [json.org](https://www.json.org)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp) on W3 Schools.
 
-### Variations of JSON
+If you search "json converter" in a search engine you'll find plenty of websites and browser extensions for converting or prettifying JSON.
+
+### Variations or extensions of JSON
 
 - [Jsonnet](https://jsonnet.org/)
 - [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
+- [HJSON]()
+- [JSON5]()
 
 ### Implementation
 
