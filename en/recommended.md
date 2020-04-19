@@ -1,6 +1,6 @@
 # 🌐 Recommended
+> External links to repos, websites and tools which I enjoy and would like share with others.
 
-External links to tools and site that I enjoy and would like share with others.
 
 ## 🤩 Popular repos
 
