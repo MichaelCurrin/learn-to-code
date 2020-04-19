@@ -13,8 +13,8 @@ Alcuni punti salienti:
 	- [Rust](/en/topics/scripting_languages/Rust)
 	- [Go](/en/topics/scripting_languages/Go)
 - linea di comando Unix
-	- [Bash](/Shell/Bash)
-	- [ZSH](/Shell/ZSH)
+	- [Bash](/shell/Bash)
+	- [ZSH](/shell/ZSH)
 - [Git](/Version%20control/Git)
 
 Ogni sezione ha un file _README_, con le istruzioni per installare ed eseguire il linguaggio localmente e alcuni collegamenti a risorse esterne.
