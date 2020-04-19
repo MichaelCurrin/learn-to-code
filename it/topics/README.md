@@ -15,7 +15,7 @@ Alcuni punti salienti:
 - linea di comando Unix 
 	- [Bash](/en/topics/Shell/Bash) 🇬🇧 
 	- [ZSH](/en/topics/Shell/ZSH) 🇬🇧 
-- [Git](version_control/Git)
+- [Git](/en/topics/version_control/Git) 🇬🇧 
 
 Ogni sezione ha un file _README_, con le istruzioni per installare ed eseguire il linguaggio localmente e alcuni collegamenti a risorse esterne.
 
