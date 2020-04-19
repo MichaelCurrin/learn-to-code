@@ -1,6 +1,6 @@
 # 🌐 Recommended
 
-External links I enjoy and would like share with others.
+External links to tools and site that I enjoy and would like share with others.
 
 ## 🤩 Popular repos
 
@@ -24,6 +24,7 @@ Some links above sourced from [here](https://stackoverflow.com/questions/1985555
     - [Data Science](https://medium.com/topic/data-science)
 - [Towards Data Science](https://towardsdatascience.com/) (see topics like Data Science, AI, Python, Machine Learning)
 - [Flowing Data](https://flowingdata.com)
+
 
 ## 🛠 Online tools
 
