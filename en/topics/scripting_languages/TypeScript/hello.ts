@@ -1,4 +1,5 @@
 var greet: string = "Hello"; 
-var target: string = "World";
+var target: string = "world";
 
 console.log(greet + ", " + target + "!"); 
+// => Hello, world!
