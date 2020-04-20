@@ -16,8 +16,10 @@ It is worth knowing how to use both NPM _and_ Yarn. Some projects will have a pr
 
 Node comes with the `npm` command.
 
-- [NPM](https://npmjs.com/) homepage.
-- [An introduction to the npm package manager](https://flaviocopes.com/npm/) on a blog.
+- NPM home - [npmjs.com](https://npmjs.com/)
+- NPM docs home - [/docs.npmjs.com/](https://docs.npmjs.com/)
+- Posts
+    - [An introduction to the npm package manager](https://flaviocopes.com/npm/) on a blog.
 
 See also my [NPM cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/package_managers/npm.md) if you are already familiar with NPM.
 
