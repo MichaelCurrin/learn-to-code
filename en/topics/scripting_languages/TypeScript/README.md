@@ -28,6 +28,8 @@ $ npm install -g typescript
 
 ### Compile
 
+Run the [hello.ts](hello.ts) Hello World script in this directory.
+
 ```sh
-$ tsc helloworld.ts
+$ tsc hello.ts
 ```
