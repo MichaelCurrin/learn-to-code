@@ -40,19 +40,53 @@ First appeared: 1974
 
 #### What is SQLite?
 
-> SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day. [source](https://www.sqlite.org/matrix/)
+> SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+>
+> SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day. [sqlite.org/matrix/](https://www.sqlite.org/matrix/)
+
+> SQLite is a software library that provides a relational database management system. The lite in SQLite means light weight in terms of setup, database administration, and required resource. 
+>
+> SQLite has the following noticeable features: self-contained, serverless, zero-configuration, transactional. [What is SQLite (sqlitetutorial.net)](https://www.sqlitetutorial.net/what-is-sqlite/)
 
 #### Resources
 
 - [sqlite.org/](https://www.sqlite.org/) homepage
 - [Appropriate uses for SQLite](https://www.sqlite.org/whentouse.html)
 - [Documentation](https://www.sqlite.org/docs.html)
-
+- SQLite and Python
+    - [sqlite3](https://docs.python.org/3/library/sqlite3.html) builtin library
+    
 #### SQLite syntax
 
-- [SQL As Understood By SQLite](https://www.sqlite.org/lang.html)
+- [SQL As Understood By SQLite](https://www.sqlite.org/lang.html) on qlite.org
     > SQLite understands most of the standard SQL language. But it does omit some features while at the same time adding a few features of its own.
-- [SQLite keywords](https://www.sqlite.org/lang_keywords.html)
+- [SQLite keywords](https://www.sqlite.org/lang_keywords.html) on qlite.org
+- [SQLite commands](https://www.sqlitetutorial.net/sqlite-commands/) on sqlitetutorial.net
+- [SQLite SELECT](https://www.sqlitetutorial.net/sqlite-select/) on sqlitetutorial.net - see other commands there.
+- [SQLite data types](https://www.sqlitetutorial.net/sqlite-data-types/)
+
+#### Install
+
+SQLite might already be installed on your system. On macOS and Linux, I found `sqlite3` installed and available as a command. Use your OS package manager to update or install.
+
+Or follow these pages:
+
+- [Download](https://www.sqlite.org/download.html) page on sqlite.org site.
+- [Download and Install SQLite](https://www.sqlitetutorial.net/download-install-sqlite/) guide on sqlitetutorial.net site.
+
+#### Usage
+
+Start interactive console. Uses an in-memory databases. If you specify a filename, it will be read. If does not exist yet, it will be created.
+
+```sh
+$ sqlite3 [PATH]
+```
+
+Run commands.
+
+```sh
+$ sqlite3 [PATH] < query.sql
+```
 
 
 ### Postgres
