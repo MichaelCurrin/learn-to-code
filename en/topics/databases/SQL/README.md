@@ -98,6 +98,27 @@ $ sqlite3 [PATH] < query.sql
 - Tutorials
     - [Install and use Postgres on Ubuntu 18](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
 
+Commands:
+
+- `psql`
+    - [psql docs](https://www.postgresql.org/docs/current/app-psql.html) 
+    - [psql utility](http://postgresguide.com/utilities/psql.html) on postgresguide.com site.
+    - Postgres interactive terminal.
+- `pg_ctrl`
+    - [pg_ctl docs](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
+    - Control command for managing a database cluster.
+
+#### Installation
+
+See also [Install](http://postgresguide.com/setup/install.html) guide on postgresguide.com site.
+
+- macOS
+    - [postgresapp.com](http://www.postgresapp.com/)
+- Debian/Ubuntu
+    ```sh
+    sudo apt-get install postgresql
+    ```
+
 ### MySQL
 
 - [mysqltutorial.org](https://www.mysqltutorial.org/)
