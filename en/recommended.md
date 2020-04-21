@@ -121,7 +121,7 @@ There are some limitations especially on the free tier - like the URL is random 
 
 ### Setup
 
-1. [Signup](https://ngrok.com/) for an account.
+1. [Signup](https://ngrok.com) for an account.
 2. [Download](https://ngrok.com/download) the binary executable.
 	- Example path: `/usr/local/bin/ngrok`
 3. Configure Ngrok with your account credentials.
