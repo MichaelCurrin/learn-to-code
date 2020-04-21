@@ -1,12 +1,12 @@
 # GUI programs for SQL
 
 
-## Specialized databe programs
+## Specialized database programs
 
 - Postgres
     - [Postico](https://eggerapps.at/postico/) - Postgres client for Mac.
     - [PGAdmin](https://www.pgadmin.org/)
-    - [PostgreSQL clients](https://wiki.postgresql.org/wiki/PostgreSQL_Clients) wiki list of available clines
+    - [PostgreSQL clients](https://wiki.postgresql.org/wiki/PostgreSQL_Clients) wiki list of available clients
 - MySQL
     - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - SQLite
