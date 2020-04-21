@@ -55,7 +55,7 @@ First appeared: 1974
 - [Documentation](https://www.sqlite.org/docs.html)
 - SQLite and Python
     - [sqlite3](https://docs.python.org/3/library/sqlite3.html) builtin library
-    
+
 #### SQLite syntax
 
 - [SQL As Understood By SQLite](https://www.sqlite.org/lang.html) on qlite.org
@@ -92,6 +92,7 @@ $ sqlite3 [PATH] < query.sql
 ### Postgres
 
 - [postgresql.org](https://www.postgresql.org) homepage
+- [postgresql.org/docs/](https://www.postgresql.org/docs/)
 - [postgresqltutorial.com](https://www.postgresqltutorial.com/)
 - [Quickstart on latest version](https://www.postgresql.org/docs/current/tutorial-start.html)
 - Tutorials
