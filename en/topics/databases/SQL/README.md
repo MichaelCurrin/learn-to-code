@@ -4,7 +4,7 @@
 
 ## What is SQL? 
 
-What is a database? What is a Relational Database Management System (RDBMS)? A relation is a table.
+What is a database? A database contains tables (relations) of row and column data with data types. Data can be created, read, updated and removed - "CRUD" operations.
 
 This intro article covers the basics and some flavors of SQL:
 
