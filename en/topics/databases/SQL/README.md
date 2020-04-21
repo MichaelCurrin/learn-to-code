@@ -4,9 +4,11 @@
 
 ## What is SQL? 
 
-What is a database and an RDMS? This intro article covers the basics and some flavors of SQL:
+What is a database and an Relational Database Management System (RDMS)? This intro article covers the basics and some flavors of SQL:
 
-- [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql)
+- [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql) on codecademy.com
+
+Wikipedia:
 
 > SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables. [Wikipedia](https://en.wikipedia.org/wiki/SQL)
 
