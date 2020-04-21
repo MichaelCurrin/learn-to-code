@@ -137,6 +137,8 @@ Command help sample:
 
 ```sh
 $ ngrok
+```
+```
 NAME:
    ngrok - tunnel local ports to public URLs and inspect traffic
 
@@ -146,4 +148,5 @@ DESCRIPTION:
     webhook consumers and self-host personal services.
     Detailed help for each command is available with 'ngrok help <command>'.
     Open http://localhost:4040 for ngrok's web interface to inspect traffic.
+...
 ```
