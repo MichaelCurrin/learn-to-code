@@ -4,7 +4,9 @@
 
 ## Cosa è SQL? 
 
-Che cos'è un database e un RDMS? Questo articolo introduttivo illustra le basi e alcuni aspetti di SQL
+Che cos'è un database e un RDBMS? 
+
+Questo articolo introduttivo illustra le basi e alcuni aspetti di SQL
 
 - [Cosa è un sistema per la gestione di basi di dati relazionali (RDBMS) ?](https://www.codecademy.com/articles/what-is-rdbms-sql) su *codecademy.com*
 
