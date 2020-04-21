@@ -2,9 +2,8 @@
 
 ## What is Mongo?
 
-[source](https://www.mongodb.com/what-is-mongodb)
+> MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need [source](https://www.mongodb.com/what-is-mongodb)
 
-> MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
 
 ## Resources
 
