@@ -47,7 +47,7 @@ Upgrade.
 $ sudo apt-get upgrade ruby-full
 ```
 
-### macOS
+#### macOS
 
 _Note that since Catalina, the system Ruby's dependencies are locked, so running this below will install a **separate** version of Ruby with its own dependecies. Running the steps below may cause **problems** on earlier version of macOS._
 
