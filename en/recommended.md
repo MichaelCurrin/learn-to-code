@@ -101,10 +101,14 @@ Easy way to do GET or POST request with data through an application with a user-
 
 ## Public URL testing with Ngrok
 
-- [ngrok.com/](https://ngrok.com/)
+- [ngrok.com/](https://ngrok.com/) homepage
 	> - Public URLs for exposing your local web server
 	> - Public URLs for sending previews to clients.
 	> - Public URLs for SSH access to your Raspberry Pi.
+- [Product page](https://ngrok.com/product)
+	- > ngrok exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
+	- The sample commands and feature list there is great.
+- [Docs](https://ngrok.com/docs)
 
 ### About
 
@@ -118,7 +122,10 @@ There are some limitations especially on the free tier - like the URL is random 
 ### Setup
 
 1. [Signup](https://ngrok.com/) for an account.
-2. [Download](https://ngrok.com/download) a binary.
+2. [Download](https://ngrok.com/download) the binary executable.
+	- Example path: `/usr/local/bin/ngrok`
+3. Configure Ngrok with your account credentials.
+	- [Configuration docs](https://ngrok.com/docs#config-location)
 
 ### Usage
 
