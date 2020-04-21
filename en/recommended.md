@@ -116,7 +116,15 @@ Normally if you want to share you application on the network, you find your IP a
 
 Now Ngrok makes it easy to test your web server or mobile app backend without setting up a firewall to allow ports, or setting up an IP or port forwarding for access publically. Plus you get the benefit of SSL - for HTTPS domain.
 
-There are some limitations especially on the free tier - like the URL is random each time and only one user can connect.
+Ngrok runs as an application locally and connects with the Ngrok servers, then any visitors who come to the URL on the Ngrok site get forward to your application, but only on the port you allow and while both Ngrok and your application are running.
+
+Example URL:
+
+```
+92832de0.ngrok.io
+```
+
+There are some limitations, especially on the free tier - like the URL is random each time and only one user can connect at a time.
 
 
 ### Setup
@@ -137,7 +145,19 @@ There are some limitations especially on the free tier - like the URL is random 
 	```sh
 	$ ngrok http 8000
 	```
-3. You'll be shown a URL - access this from the same or another device - from anywhere in the world.
+3. You'll be shown a random URL (e.g. `92832de0.ngrok.io`). You can access this from the same or another device - from anywhere in the world. Sample output in the terminal:
+	```
+	ngrok by @inconshreveable
+
+	Tunnel Status                 online
+	Version                       2.0/2.0
+	Web Interface                 http://127.0.0.1:4040
+	Forwarding                    http://92832de0.ngrok.io -> localhost:8000
+	Forwarding                    https://92832de0.ngrok.io -> localhost:8000
+
+	Connnections                  ttl     opn     rt1     rt5     p50     p90
+				      0       0       0.00    0.00    0.00    0.00
+	```
 4. <kbd>CTRL+C</kbd> to stop the server.
 	
 Command help sample:
