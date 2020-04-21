@@ -90,11 +90,61 @@ Usage notes:
 
 ## API testing
 
+Easy way to do GET or POST request with data through an application with a user-friendly GUI.
 
 - [Insomnia](https://insomnia.rest/)
 	- Downloadable
 	- Do API requests from the application.
 - [Postman](https://www.postman.com/)
 	- Downloadable
-
 	- Do API requests from the application.
+
+## Public URL testing with Ngrok
+
+[Ngrok](https://ngrok.com/)
+
+> - Public URLs for exposing your local web server
+> - Public URLs for sending previews to clients.
+> - Public URLs for SSH access to your Raspberry Pi.
+
+### About
+
+Normally if you want to share you application on the network, you find your IP and share on a port then connect from another device on the network. You also have to make sure you are sharing on `0.0.0.0` not `localhost` and your firewall allows the port.
+
+Now Ngrok makes it easy to test your web server or mobile app backend without setting up a firewall to allow ports, or setting up an IP or port forwarding for access publically. Plus you get the benefit of SSL - for HTTPS domain.
+
+There are some limitations especially on the free tier - like the URL is random each time and only one user can connect.
+
+
+### Setup
+
+1. [Signup](https://ngrok.com/) for an account.
+2. [Download](https://ngrok.com/download) a binary.
+
+### Usage
+
+1. Start your webserver. e.g.
+	```sh
+	$ python3 -m http.server 8000
+	```
+2. Start Ngrok. e.g.
+	```sh
+	$ ngrok http 8000
+	```
+3. You'll be shown a URL - access this from the same or another device - from anywhere in the world.
+4. <kbd>CTRL+C</kbd> to stop the server.
+	
+Command help sample:
+
+```sh
+$ ngrok
+NAME:
+   ngrok - tunnel local ports to public URLs and inspect traffic
+
+DESCRIPTION:
+    ngrok exposes local networked services behinds NATs and firewalls to the
+    public internet over a secure tunnel. Share local websites, build/test
+    webhook consumers and self-host personal services.
+    Detailed help for each command is available with 'ngrok help <command>'.
+    Open http://localhost:4040 for ngrok's web interface to inspect traffic.
+```
