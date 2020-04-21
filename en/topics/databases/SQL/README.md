@@ -4,7 +4,7 @@
 
 ## What is SQL? 
 
-What is a database and an RDMS? This intro article covers the basics and some flavors of SQL 
+What is a database and an RDMS? This intro article covers the basics and some flavors of SQL:
 
 - [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql)
 
