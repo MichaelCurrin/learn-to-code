@@ -6,7 +6,7 @@
 
 What is a database and an Relational Database Management System (RDMS)? This intro article covers the basics and some flavors of SQL:
 
-- [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql) on codecademy.com
+- [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql) on _codecademy.com_
 
 Wikipedia:
 
