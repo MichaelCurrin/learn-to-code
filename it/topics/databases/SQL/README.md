@@ -1,13 +1,16 @@
 # SQL
 > Guida per imparare l'installazione di un database SQL e il relativo linguaggio SQL 
 
+
 ## Cosa è SQL? 
 
 Che cos'è un database e un RDMS? Questo articolo introduttivo illustra le basi e alcuni aspetti di SQL
 
-- [Cosa è un sistema per la gestione di basi di dati relazionali (RDBMS) ?](https://www.codecademy.com/articles/what-is-rdbms-sql)
+- [Cosa è un sistema per la gestione di basi di dati relazionali (RDBMS) ?](https://www.codecademy.com/articles/what-is-rdbms-sql) su *codecademy.com*
 
-> SQL (Structured Query Language) è un linguaggio progettato per la gestione dei dati contenuti in un sistema di gestione di database relazionale (RDBMS) o per l'elaborazione del flusso in un sistema di gestione del flusso di dati relazionale (RDBMS). È particolarmente utile nella gestione di dati strutturati, ovvero dati che incorporano relazioni tra entità e variabili. [Wikipedia](https://en.wikipedia.org/wiki/SQL)
+Wikipedia:
+
+> SQL (Structured Query Language) è un linguaggio progettato per la gestione dei dati contenuti in un sistema di gestione di database relazionale (RDBMS) o per l'elaborazione del flusso in un sistema di gestione del flusso di dati relazionale (RDSMS). È particolarmente utile nella gestione di dati strutturati, ovvero dati che incorporano relazioni tra entità e variabili. [Wikipedia](https://en.wikipedia.org/wiki/SQL)
 
 Apparso per la prima volta nel: 1974
 
