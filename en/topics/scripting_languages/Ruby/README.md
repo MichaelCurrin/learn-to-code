@@ -72,14 +72,14 @@ Then it gives a suggestion to add to your shell config, which we do next.
 
 #### Enable your custom Ruby
 
-Add the following to your `~/.bashrc` or `~/.zshrc` file. This will ensure so that your user (Homebrew) install of Ruby will be found before the system Ruby. The first line is not necessary but makes it easy to show the value later.
+Add the following to your `~/.bashrc` or `~/.zshrc` file. This will ensure so that your user (Homebrew) install of Ruby will be found before the system Ruby.
 
 ```sh
 export RUBY_HOME=/usr/local/opt/ruby/bin
 export PATH="$RUBY_HOME:$PATH"
 ```
 
-#### Make custom Ruby's gems runable
+#### Make the custom Ruby's gems runable
 
 If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
 
