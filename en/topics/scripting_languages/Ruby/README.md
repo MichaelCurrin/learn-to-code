@@ -49,7 +49,7 @@ $ sudo apt-get upgrade ruby-full
 
 #### macOS
 
-_Note that since Catalina, the system Ruby's dependencies are locked, so running this below will install a **separate** version of Ruby with its own dependecies. Running the steps below may cause **problems** on earlier version of macOS._
+_Note that since Catalina, the system Ruby's dependencies are locked, so running this below will install a **separate** version of Ruby with its own dependencies. Running the steps below may cause **problems** on earlier version of macOS._
 
 Based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
 
