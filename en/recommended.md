@@ -101,6 +101,16 @@ Easy way to do GET or POST request with data through an application with a user-
 
 ## Public URL testing with Ngrok
 
+Use Ngrok to access your web server publically on a temporary, public, random URL on the Ngrok domain.
+
+Example URL:
+
+```
+92832de0.ngrok.io
+```
+
+### Resources
+
 - [ngrok.com/](https://ngrok.com/) homepage
 	> - Public URLs for exposing your local web server
 	> - Public URLs for sending previews to clients.
@@ -117,12 +127,6 @@ Normally if you want to share you application on the network, you find your IP a
 Now Ngrok makes it easy to test your web server or mobile app backend without setting up a firewall to allow ports, or setting up an IP or port forwarding for access publically. Plus you get the benefit of SSL - for HTTPS domain.
 
 Ngrok runs as an application locally and connects with the Ngrok servers, then any visitors who come to the URL on the Ngrok site get forward to your application, but only on the port you allow and while both Ngrok and your application are running.
-
-Example URL:
-
-```
-92832de0.ngrok.io
-```
 
 There are some limitations, especially on the free tier - like the URL is random each time and only one user can connect at a time.
 
