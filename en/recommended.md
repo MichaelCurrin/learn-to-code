@@ -137,7 +137,12 @@ There are some limitations, especially on the free tier - like the URL is random
 2. [Download](https://ngrok.com/download) the binary executable.
 	- Example path: `/usr/local/bin/ngrok`
 3. Configure Ngrok with your account credentials.
-	- [Configuration docs](https://ngrok.com/docs#config-location)
+	- Set token.
+		```sh
+		ngrok authtoken <YOUR_AUTHTOKEN>
+		```
+	- See the [Configuration docs](https://ngrok.com/docs#config-location). This describes the OS-specific location of the one-line config file set using the command above.
+
 
 ### Usage
 
