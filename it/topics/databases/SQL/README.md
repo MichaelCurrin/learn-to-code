@@ -4,7 +4,7 @@
 
 ## Cosa è SQL? 
 
-Che cos'è un database e un RDBMS? 
+Cos'è un database? Un database contiene tabelle (relazioni) di dati in righe e colonne con tipi di dati. I dati possono essere creati, letti, aggiornati e rimossi - Operazioni "CRUD".
 
 Questo articolo introduttivo illustra le basi e alcuni aspetti di SQL
 
@@ -102,6 +102,27 @@ $ sqlite3 [PATH] < query.sql
 - [Avvio rapido sull'ultima versione](https://www.postgresql.org/docs/current/tutorial-start.html)
 - Tutorial
     - [Installa e usa Postgres su Ubuntu 18](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+comandi:
+
+- `psql`
+    - [Documentazione di psql](https://www.postgresql.org/docs/current/app-psql.html) 
+    - [utility di psql](http://postgresguide.com/utilities/psql.html) on postgresguide.com site.
+    - Terminale interattivo Postgres.
+- `pg_ctrl`
+    - [Documentazione di pg_ctl](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
+    - Comando di controllo per la gestione di un database cluster.
+
+#### Installazione
+
+Vedi anche la guida di [Installazione](http://postgresguide.com/setup/install.html) sul sito postgresguide.com.
+
+- macOS
+    - [postgresapp.com](http://www.postgresapp.com/)
+- Debian/Ubuntu
+    ```sh
+    sudo apt-get install postgresql
+    ```
 
 ### MySQL
 
