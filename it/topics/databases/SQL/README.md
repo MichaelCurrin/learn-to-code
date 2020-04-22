@@ -107,7 +107,7 @@ comandi:
 
 - `psql`
     - [Documentazione di psql](https://www.postgresql.org/docs/current/app-psql.html) 
-    - [utility di psql](http://postgresguide.com/utilities/psql.html) on postgresguide.com site.
+    - [utility di psql](http://postgresguide.com/utilities/psql.html) sul sito postgresguide.com.
     - Terminale interattivo Postgres.
 - `pg_ctrl`
     - [Documentazione di pg_ctl](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
