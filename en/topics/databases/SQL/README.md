@@ -112,7 +112,14 @@ Commands:
     - Postgres interactive terminal.
 - `pg_ctrl`
     - [pg_ctl docs](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
+        > initialize, start, stop, or control a PostgreSQL server
     - Control command for managing a database cluster.
+- `pg_dump`
+    - [pg_dump docs](https://www.postgresql.org/docs/current/app-pgdump.html)
+        > extract a PostgreSQL database into a script file or other archive file
+- `pg_restore`
+    - [pg_restore docs](https://www.postgresql.org/docs/current/app-pgdump.html)
+        > restore a PostgreSQL database from an archive file created by pg_dump
 
 #### Installation
 
