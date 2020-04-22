@@ -110,7 +110,7 @@ Commands:
     - [psql docs](https://www.postgresql.org/docs/current/app-psql.html) 
     - [psql utility](http://postgresguide.com/utilities/psql.html) on postgresguide.com site.
     - Postgres interactive terminal.
-- `pg_ctrl`
+- `pg_ctl`
     - [pg_ctl docs](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
         > initialize, start, stop, or control a PostgreSQL server
     - Control command for managing a database cluster.
