@@ -104,7 +104,7 @@ $ sqlite3 [PATH] < query.sql
 - Tutorials
     - [Install and use Postgres on Ubuntu 18](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
 
-Commands:
+#### Shell commands
 
 - `psql`
     - [psql docs](https://www.postgresql.org/docs/current/app-psql.html) 
