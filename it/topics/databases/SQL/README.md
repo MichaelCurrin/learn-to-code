@@ -104,13 +104,13 @@ $ sqlite3 [PATH] < query.sql
     - [Installa e usa Postgres su Ubuntu 18](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
     
 
-comandi:
+#### Comandi
 
 - `psql`
     - [Documentazione di psql](https://www.postgresql.org/docs/current/app-psql.html) 
     - [utility di psql](http://postgresguide.com/utilities/psql.html) sul sito postgresguide.com.
     - Terminale interattivo Postgres.
-- `pg_ctrl`
+- `pg_ctl`
     - [Documentazione di pg_ctl](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
     - Comando di controllo per la gestione di un database cluster.
 
