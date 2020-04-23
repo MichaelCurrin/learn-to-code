@@ -2,9 +2,9 @@
 > Resources for building documentation sites.
 
 - [MkDocs](https://www.mkdocs.org/)
-    - in Python
+    - Written Python.
 - [Read the Docs](https://readthedocs.org/)
-    - in Python.
+    - Writte in Python.
     - Hosted on their site or built in your own project site.
 - [Daux](https://daux.io/)
 - [Gollum](https://github.com/gollum/gollum)
