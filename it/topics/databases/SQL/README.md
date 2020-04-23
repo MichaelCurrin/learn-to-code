@@ -103,23 +103,6 @@ $ sqlite3 [PATH] < query.sql
 - Tutorial
     - [Installa e usa Postgres su Ubuntu 18](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
     
- Commands:
- 
- - `psql`
-    - [psql docs](https://www.postgresql.org/docs/current/app-psql.html) 
-    - [psql utility](http://postgresguide.com/utilities/psql.html) on postgresguide.com site.
-    - Postgres interactive terminal.
-- `pg_ctl`
-    - [pg_ctl docs](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
-        > initialize, start, stop, or control a PostgreSQL server
-    - Control command for managing a database cluster.
-- `pg_dump`
-    - [pg_dump docs](https://www.postgresql.org/docs/current/app-pgdump.html)
-        > extract a PostgreSQL database into a script file or other archive file
-- `pg_restore`
-    - [pg_restore docs](https://www.postgresql.org/docs/current/app-pgdump.html)
-        > restore a PostgreSQL database from an archive file created by pg_dump
-
 
 ### MySQL
 
