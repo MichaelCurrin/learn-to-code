@@ -2,9 +2,9 @@
 > Risorse per la costruzione di documentazione.
 
 - [MkDocs](https://www.mkdocs.org/)
-    - scritto in Python
+    - Scritto in Python.
 - [Read the Docs](https://readthedocs.org/)
-    - scritto in Python.
+    - Scritto in Python.
     - Ospitato sul loro sito o costruito nel tuo sito.
 - [Daux](https://daux.io/)
 - [Gollum](https://github.com/gollum/gollum)
