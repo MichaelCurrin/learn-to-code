@@ -5,25 +5,22 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 
-## Translations
+## Translations of this guide
 
-- [:gb: English homepage](/en) (core)
-- [:it: Italian homepage](/it)
+[![English homepage](https://img.shields.io/badge/English-green?style=for-the-badge)](/en)
+[![Italian homepage](https://img.shields.io/badge/Italian-green?style=for-the-badge)](/it)
 
 
 ## Contributing
 
-See guides:
+[![English contributing](https://img.shields.io/badge/English-blue?style=for-the-badge)](/en/contributing.md)
+[![Italian contributing](https://img.shields.io/badge/Italian-blue?style=for-the-badge)](/it/contributing.md)
 
-- [:gb: Contributing](/en/contributing.md)
-- [:it: Contribuire](/it/contributing.md)
-
-
-Help is wanted to add more translated pages, especially for any new content in English that gets added. Add another language if you want.
-
-First time contributing to a Github repo? Follow this guide:
+First time contributing to any Github repo and want to know how it works? Follow this guide:
  
 - [Syknapse/Contribute-To-This-Project](https://github.com/Syknapse/Contribute-To-This-Project)
+
+Available to translate? Help is wanted to add more translated pages so the Italian section can match the main English section (especially since the repo owner is not Italian). Add another language if you want.
 
 
 ## License
