@@ -1,10 +1,9 @@
 # URL query parameters
-> Also known as search parameters
 
 
 ## What are URL parameters?
 
-URL parameters are a way of sending data to a webpage using the URL - typically when sending data when responding to a form or doing a search.
+URL query parameters, or "search parameters" are form values in the URL when submitting data - typically when sending data when responding to a form or doing a search.
 
 Example of URL parameters:
 
@@ -12,9 +11,9 @@ Example of URL parameters:
 
 URL parameters follow a structure like this:
 
-- Start with question mark.
-- Use an equals sign to separate a key and value.
-- Use an ampersand to separate pairs.
+- Start with question mark, to separate from the the domain and path.
+- Use an **equals sign** (`=`) to separate a key and value pair.
+- Use an **ampersand** (`&`) to separate pairs.
 - Values should be percent-encoded. e.g. a space becomes `%20`.
 
 Links
