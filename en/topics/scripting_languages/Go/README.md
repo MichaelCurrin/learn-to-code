@@ -1,14 +1,19 @@
 # Go
+> Guide to learning Go (aka Golang)
 
 Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
 
+
 ## What is _Go_?
+
+Go is a modern language which feels similar to Java/JavaScript/C syntax, is statically typed and compiled to a binary (including dependencies) making it very portable. Go excels at high performance and asynchronous / concurrent tasks. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start.
 
 ### Definitions
 
 The Go official site at [golang.org](https://golang.org/) says:
 
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
 
 The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
