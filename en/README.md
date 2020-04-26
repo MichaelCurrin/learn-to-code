@@ -13,15 +13,20 @@ Improve your coding skills in various languages by going through the content of 
 | 🤷 [Absolute intro to coding](intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.                                                                                                             |
 | 🗺️ [Roadmaps](roadmaps.md)                        | Links to roadmaps so you can pick languages and frameworks to learn in a logical order.                                                                                                                      |
 | 📚 [Resources](resources.md)                      | For learning concepts in programming. Includes some external links.                                                                                                                                          |
-| 💡 [Topics](topics/README.md)                     | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses |
+| 💡 [Topics](topics/README.md)                     | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses. |
 | 🌐 [Recommended](recommended.md)                  | External links I enjoy and would like share with others.                                                                                                                                                     |
-| 🗄️ [Data formats](data_formats.md)                | Guide to formats like CSV, JSON, XML, ...                                                                                                                                                                    |
+| 🗄️ [Data formats](data_formats.md)                | Guide to formats like CSV, JSON and XML.                                                                                                                                                                    |
 
 ## Who am I?
 
-Read more about my experience and history on my blog [michaelcurrin.github.io/coding-blog](https://michaelcurrin.github.io/coding-blog/).
+Read more about my experience and history on my blog - [michaelcurrin.github.io/coding-blog](https://michaelcurrin.github.io/coding-blog/).
 
 
 ## Contributing
 
-If you want to contribute, I welcome any corrections or enhancements. Fork the repo and make a Pull Request. See [Contributing](contributing.md) doc.
+If you want to contribute, I welcome any corrections or enhancements. 
+
+Fork the repo and make a Pull Request. See [Contributing](contributing.md) doc.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODI4NzY4MjkxXX0=
+-->
