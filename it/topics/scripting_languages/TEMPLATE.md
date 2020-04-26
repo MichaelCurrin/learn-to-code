@@ -1,10 +1,11 @@
-# template dei linguaggi di scripting
+
+# Template dei linguaggi di scripting
 > Struttura consigliata per i file README.md.
 
 
 ## Cosa è ...
 
-> definizione [fonte]()
+> Definizione [fonte]()
 
 
 ## Risorse
@@ -14,9 +15,9 @@
 - [Wikipedia]()
     > Sintesi di una citazione presa da Wikipedia.
 - Tutorial
-  - ...
+    - ...
 - Corsi
-  - ...
+    - ...
 
 
 ## Installazione
