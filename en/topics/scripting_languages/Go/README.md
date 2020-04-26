@@ -11,7 +11,7 @@ Info to help you understand what Go is and how to build some basic things with i
 - Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start. 
 - Compiles to a binary executable file, making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
 - Statically typed - type checks at compile time give additional safety especially for large projects
-- Includes a file formatter to avoid style arguments amongst devs.
+- Includes a file formatter to avoid style arguments among devs.
 
 A well-known example of a Go application is the Hugo static site generator.
 
