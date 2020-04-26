@@ -6,7 +6,7 @@ Info to help you understand what Go is and how to build some basic things with i
 
 ## What is _Go_?
 
-- a modern language
+- a modern language which started in 2009 at Google
 - feels similar to Java/JavaScript/C syntax
 - Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start. 
 - compiles to a binary executable file, making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
@@ -24,7 +24,11 @@ The Go official site at [golang.org](https://golang.org/) says:
 
 The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
-> Go, also known as Golang, is a statically typed, compiled programming language designed at Google... . Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
+> Go, also known as Golang, is a statically typed, compiled programming language designed at Google... .
+>
+> Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
+>
+> The language is often referred to as "Golang" because of its domain name, golang.org, but the proper name is Go.[
 
 
 ### Main features
@@ -98,7 +102,7 @@ $ # Compile the `hello.go` script into a binary named `hello`.
 $ go build
 $ # Run the binary.
 $ ./hello
-hello, world
+Hello, world!
 ```
 
 ## Packages
