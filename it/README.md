@@ -12,7 +12,7 @@ Migliora le tue abilità di programmazione in vari linguaggi esaminando il conte
 | 🤷 [Introduzione assoluta alla programmazione](intro_to_coding.md) | Se non hai un background tecnologico e desideri una presentazione della programmazione, inizia da qui.                                                                                                                              |
 | 🗺️ [Tabella di marcia](roadmaps.md)                                | Collegamenti a tabelle di marcia in modo da poter scegliere linguaggi e framework da apprendere in un ordine logico.                                                                                                                |
 | 📚 [Risorse](resources.md)                                         | Per l'apprendimento dei concetti della programmazione. Include alcuni collegamenti esterni.                                                                                                                                         |
-| 💡 [Argomenti](topics/README.md)                                 | Panoramica delle guide e dei linguaggi di programmazione in questo progetto, che tu sia un principiante o desideri immergerti in alcuni concetti avanzati. Numerosi collegamenti a risorse esterne come documentazioni e corsi online |
+| 💡 [Argomenti](topics/README.md)                                 | Panoramica delle guide e dei linguaggi di programmazione in questo progetto, che tu sia un principiante o desideri immergerti in alcuni concetti avanzati. Numerosi collegamenti a risorse esterne come documentazioni e corsi online. |
 | 🌐 [Consigliati](recommended.md)                                   | Collegamenti esterni che mi piacciono e che vorrei condividere con gli altri.                                                                                                                                                       |
 | 🗄️ [Formato dei dati](data_formats.md)                             | CSV, JSON, XML, ...                                                                                                                                                                                                                 |
 
@@ -23,4 +23,9 @@ Maggiori informazioni sulla mia esperienza e sulla mia storia sul mio blog [mich
 
 ## Contribuire
 
-Se vuoi contribuire, accolgo con piacere eventuali correzioni o miglioramenti. esegui il fork del repository e effettua una richiesta pull. Guarda a [Contributing](contributing.md) documento.
+Se vuoi contribuire, accolgo con piacere eventuali correzioni o miglioramenti. 
+
+Esegui il fork del repository e effettua una richiesta pull. Guarda a [Contributing](contributing.md) documento.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIyMjAyMjAwMF19
+-->
