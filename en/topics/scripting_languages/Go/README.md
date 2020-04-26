@@ -6,11 +6,12 @@ Info to help you understand what Go is and how to build some basic things with i
 
 ## What is _Go_?
 
-- a modern language which started in 2009 at Google
-- feels similar to Java/JavaScript/C syntax
+- A modern language which started in 2009 at Google.
+- Feels similar to Java/JavaScript/C syntax.
 - Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start. 
-- compiles to a binary executable file, making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
-- statically typed - type checks at compile time give additional safety especially for large projects
+- Compiles to a binary executable file, making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
+- Statically typed - type checks at compile time give additional safety especially for large projects
+- Includes a file formatter to avoid style arguments amongst devs.
 
 A well-known example of a Go application is the Hugo static site generator.
 
@@ -24,11 +25,11 @@ The Go official site at [golang.org](https://golang.org/) says:
 
 The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
-> Go, also known as Golang, is a statically typed, compiled programming language designed at Google... .
+> Go, also known as Golang, is a statically typed, compiled programming language designed at Google...
 >
 > Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
 >
-> The language is often referred to as "Golang" because of its domain name, golang.org, but the proper name is Go.[
+> The language is often referred to as "Golang" because of its domain name, golang.org, but the proper name is Go.
 
 
 ### Main features
@@ -88,19 +89,21 @@ A task does not have to be finished before going to the next one - the program c
     * [Go on repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
 
+
 ## Installation
 
 To install Go on your operating system, follow this [install guide](https://golang.org/doc/install#install) from the Go docs.
 
 ## Run
 
-Run the sample scripts in this project.
+Compile and run the sample script in this project:
 
 ```bash
 $ cd Scripts
+
 $ # Compile the `hello.go` script into a binary named `hello`.
 $ go build
-$ # Run the binary.
+
 $ ./hello
 Hello, world!
 ```
