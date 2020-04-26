@@ -60,6 +60,8 @@ A task does not have to be finished before going to the next one - the program c
     * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
     * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
+    * [Golang Cookbook](https://golangcookbook.com/)
+        * [Cross-compiling](https://golangcookbook.com/chapters/running/cross-compiling/) - making binaries for Linux, macOS and Windows.
 - Blog posts
     * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
         > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
