@@ -19,6 +19,8 @@ Use either `cc` or `gcc` commands in bash. `gcc` is the GNU C Compiler from the 
 
 ```bash
 $ gcc --help
+```
+```
 Usage: gcc [options] file...
 Options:
   ...
