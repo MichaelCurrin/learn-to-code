@@ -5,6 +5,7 @@
 From the [Ruby official site](https://www.ruby-lang.org/en/):
 
 > Ruby is...
+>
 > A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
@@ -53,9 +54,9 @@ $ sudo apt-get upgrade ruby-full
 Notes:
 
 - From Catalina and onwards, the system Ruby's dependencies are **locked**, so running this below will install a **separate** version of Ruby with its own dependencies and this will fine, provided you setup PATH properly and use `--user-install` or Bundler to install gems.
-- Running the steps below may cause problems on **older** versions of macOS, if you end up upgrading your core Ruby._
+- Running the steps below may cause problems on **older** versions of macOS, if you end up upgrading your core Ruby.
 - Instructions are based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7).
-- See also the [macOS setup](https://jekyllrb.com/docs/installation/macos/) page on Jekyll docs for installing Ruby and Jekyll. In particular, note setting of `PATH` values.
+- For Jekyll, see the [macOS setup](https://jekyllrb.com/docs/installation/macos/) page on Jekyll docs for installing Ruby and Jekyll. In particular, note setting of `PATH` values which is covered here but there will be more details on the Jekyll docs.
 
 
 #### Install or upgrade Ruby
