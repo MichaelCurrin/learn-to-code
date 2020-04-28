@@ -49,9 +49,13 @@ $ sudo apt-get upgrade ruby-full
 
 #### macOS
 
-_Note that since Catalina, the system Ruby's dependencies are locked, so running this below will install a **separate** version of Ruby with its own dependencies. Running the steps below may cause **problems** on earlier version of macOS._
 
-Based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
+Notes:
+
+- From Catalina and onwards, the system Ruby's dependencies are **locked**, so running this below will install a **separate** version of Ruby with its own dependencies and this will fine, provided you setup PATH properly and use `--user-install` or Bundler to install gems.
+- Running the steps below may cause problems on **older** versions of macOS, if you end up upgrading your core Ruby._
+
+Instructions are based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7)
 
 #### Install or upgrade Ruby
 
@@ -94,10 +98,10 @@ Adjust the version above from `2.6.0` to your Ruby version if necessary.
 
 #### Install a gem
 
-You might want install bundler, a Ruby dependency manager that lets you install gems that are isolated for each project.
+Now install bundler, a Ruby dependency manager that lets you install gems that are isolated for each project. The flag here installs at Bundler for your user so it can be accessed across projects to install gems for each project.
 
 ```sh
-$ gem install --user-install bundler
+$ gem install bundler --user-install
 ```
 
 #### Check paths
