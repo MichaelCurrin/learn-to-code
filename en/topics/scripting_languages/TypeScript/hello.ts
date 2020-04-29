@@ -1,3 +1,6 @@
+// TypeScript Hello World demo
+// Using two variables.
+
 var greet: string = "Hello"; 
 var target: string = "world";
 
