@@ -97,3 +97,5 @@ Hello, world!
     - [When should I use TypeScript?](https://www.freecodecamp.org/news/when-should-i-use-typescript-311cb5fe801b/)
     - [Why TypeScript is the best way to write Front-end in 2019–2020+](https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164)
     - [Why I no longer use TypeScript with React and why you shouldn’t either](https://hackernoon.com/why-i-no-longer-use-typescript-with-react-and-why-you-shouldnt-either-e744d27452b4)
+
+See also this [Tasks](https://code.visualstudio.com/docs/editor/tasks) tutorial on VS Code codes for setting up TypeScript and other tasks.
