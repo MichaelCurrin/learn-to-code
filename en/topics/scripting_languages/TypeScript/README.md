@@ -55,22 +55,25 @@ $ npm install -g typescript
 
 ## Run
 
-This uses the [hello.ts](hello.ts) Hello World script in this directory.
+Use the [hello.ts](hello.ts) script in this direcory as a Hello World demo.
 
 
 ### 1. Compile
 
 Run TypeScript against a `.ts` file.
+
 ```sh
 $ tsc hello.ts
 ```
 
 ### 2. Execute
 
-Execute the generated `.js` file.
+Execute the generated `.js` file. Shown with output here.
 
 ```sh
 $ hello.js
+```
+```
 Hello, world!
 ```
 
