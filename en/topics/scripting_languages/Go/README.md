@@ -85,6 +85,7 @@ A task does not have to be finished before going to the next one - the program c
     * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
     * [Golang Cookbook](https://golangcookbook.com/)
         * [Cross-compiling](https://golangcookbook.com/chapters/running/cross-compiling/) - making binaries for Linux, macOS and Windows.
+    * [Understanding data types in Go](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-go)
 - Blog posts
     * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
         > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
