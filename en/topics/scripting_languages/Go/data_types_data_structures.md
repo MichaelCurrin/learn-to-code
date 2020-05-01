@@ -1,4 +1,4 @@
-# Data types - data structures
+# Data types: Data structures
 
 Based on [Learn X in Y](https://learnxinyminutes.com/docs/go/).
 
