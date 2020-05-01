@@ -9,8 +9,12 @@ Info to help you understand what Go is and how to build some basic things with i
 - A modern language which started in 2009 at Google.
 - Feels similar to Java/JavaScript/C syntax.
 - Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start. 
-- Compiles to a binary executable file, making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
-- Statically typed - type checks at compile time give additional safety especially for large projects
+- **Compiled**
+    - Go code compiles to a binary executable file (machine code), making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
+- **Typing**
+    - Types are explicit - you must give the data type, but sometime this can be inferred.
+    - Statically typed - variable types are fixed.
+    - Strongly typed checked at compile time give additional safety especially for large projects.
 - Includes a file formatter to avoid style arguments among devs.
 
 A well-known example of a Go application is the Hugo static site generator.
@@ -88,7 +92,7 @@ A task does not have to be finished before going to the next one - the program c
     * [play.golang.org](https://play.golang.org/)
     * [Go on repl.it](https://repl.it/languages/go)
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
-
+- [Go category on Rosetta code](http://rosettacode.org/wiki/Category:Go)
 
 ## Installation
 
