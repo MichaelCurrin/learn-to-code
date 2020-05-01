@@ -2,6 +2,13 @@
 
 Based on [Learn X in Y](https://learnxinyminutes.com/docs/go/).
 
+Note that is import is needed for the prints to work.
+
+```
+import (
+	"fmt"
+)
+```
 
 ## Array
 
@@ -13,13 +20,17 @@ var my_array [4]int
 
 // Infer the size. Still fixed length.
 my_array2 = [...]int{1, 2, 3, 4}
+```
 
+Arrays have _value_ semantics so values are kept separate.
+
+```
 // Copy to new instance.
-copied_array := my_array
+array_copy := my_array
 // Update value (in copy only).
-copied_array[0] = 100
-// False
-fmt.Println(my_array[0] == copied_array[0]
+array_copy[0] = 100
+// false
+fmt.Println(my_array[0] == array_copy[0]
 ```
 
 ## Slice
@@ -33,5 +44,15 @@ my_slice = []int{1, 2, 3, 4}
 my_slice2 = make([]int, 4)
 
 var float_slice = [][]float64
+```
+
+Slices have _reference_ semantics, so values are shared across instances.
+
+```go
+slice_copy := my_slice
+// Update value (in both). 
+slice_copy[0] = 100
+// true
+fmt.Println(my_slice[0] = slice_copy[0]
 ```
 
