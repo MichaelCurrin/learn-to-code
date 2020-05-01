@@ -3,26 +3,35 @@
 Inspired by [Learn X in Y](https://learnxinyminutes.com/docs/go/).
 
 
+Note that is import is needed for the prints to work.
+
+```go
+import (
+	"fmt"
+)
+```
+
 Note: Unlike Java or C, the type comes _after_ the variable name.
 
 
 ## Numeric
 
 ```go
+// Declare an int without specifying bits or signed/unsigned.
 var x int
-// Reassign
+// Reassign.
 x = 0
 
-// Unsigned int.
+// Declare and assign as unsigned int.
 var u uint = 7
 
-// Inferred type. The var keyword is not needed.
+// Inferred type. The var keyword is not needed and colon is used.
 y := 1
 ```
 
 ```go
-var my_float float32 = 0.1
-var my_float2 float64
+var my_float float32
+var my_float2 float64 = 0.1
 my_float2 := 1.234
 my_float3 := 1.
 ```
