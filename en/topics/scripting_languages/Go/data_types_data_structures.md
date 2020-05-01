@@ -4,7 +4,7 @@ Based on [Learn X in Y](https://learnxinyminutes.com/docs/go/).
 
 Note that is import is needed for the prints to work.
 
-```
+```go
 import (
 	"fmt"
 )
@@ -20,6 +20,7 @@ var my_array [4]int
 
 // Infer the size. Still fixed length.
 my_array2 = [...]int{1, 2, 3, 4}
+my_array2[0] = -1
 ```
 
 Arrays have _value_ semantics so values are kept separate.
@@ -56,3 +57,17 @@ slice_copy[0] = 100
 fmt.Println(my_slice[0] = slice_copy[0]
 ```
 
+You can append to a slice.
+
+```go
+slice3 := []int{1, 2, 3}
+
+// Append one or more values. Update in place.
+slice3 := append(slice3, 4, 5)
+
+// Extend the slice with another slice.
+slice3 := append(slice3, []int{6, 7, 8})
+
+fmt.Println(slice)
+// [1, 2, 3, 4, 5, 6, 7, 8]
+```
