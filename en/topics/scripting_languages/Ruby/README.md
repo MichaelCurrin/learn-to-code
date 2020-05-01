@@ -48,8 +48,20 @@ Upgrade.
 $ sudo apt-get upgrade ruby-full
 ```
 
-#### macOS
 
+#### Make the gems runable
+
+If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
+
+So add the following, replacing `X.X.X` with your Ruby version e.g. `2.6.0`.
+
+```sh
+export GEM_PATH="$HOME/.gem/ruby/X.X.X/bin"
+export PATH="$GEM_PATH:$PATH"
+```
+
+
+#### macOS
 
 Notes:
 
@@ -59,7 +71,7 @@ Notes:
 - For Jekyll, see the [macOS setup](https://jekyllrb.com/docs/installation/macos/) page on Jekyll docs for installing Ruby and Jekyll. In particular, note setting of `PATH` values which is covered here but there will be more details on the Jekyll docs.
 
 
-#### Install or upgrade Ruby
+##### Install or upgrade Ruby
 
 Install `ruby` and `gem` commands using [Homebrew](https://brew.sh/).
 
@@ -76,7 +88,7 @@ In the output, you will something like this:
 
 Then it gives a suggestion to add to your shell config, which we do next.
 
-#### Enable your custom Ruby
+##### Enable your custom Ruby
 
 Add the following to your `~/.bashrc` or `~/.zshrc` file. This will ensure so that your user (Homebrew) install of Ruby will be found before the system Ruby.
 
@@ -85,22 +97,21 @@ export RUBY_HOME=/usr/local/opt/ruby/bin
 export PATH="$RUBY_HOME:$PATH"
 ```
 
-#### Make the custom Ruby's gems runable
+##### Make the custom Ruby's gems runable
 
 If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
 
-So add the following:
+So add the following. Replace `X.X.X` with your own Ruby version e.g. `2.6.0`
 
 ```sh
-export GEM_PATH="$HOME/.gem/ruby/2.6.0/bin"
+export GEM_PATH="$HOME/.gem/ruby/X.X.X/bin"
 export PATH="$GEM_PATH:$PATH"
 ```
 
-Adjust the version above from `2.6.0` to your Ruby version if necessary.
 
 #### Install a gem
 
-Now install bundler, a Ruby dependency manager that lets you install gems that are isolated for each project. The flag here installs at Bundler for your user so it can be accessed across projects to install gems for each project.
+IT is recommended to install Bundler, a Ruby dependency manager that lets you install gems that are isolated for each project. The flag here installs at Bundler for your user so it can be accessed across projects to install gems for each project.
 
 ```sh
 $ gem install bundler --user-install
