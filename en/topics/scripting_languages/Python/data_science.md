@@ -4,6 +4,7 @@ If you want to use Python for Data Science projects, I recommend installing [Ana
 
 You can also ignore the Spyder and Anaconda parts of this guide. Using VS Code or PyCharm as an IDE and pip to manage your virtual environments is perfectly fine for Python data science projects. Either way, you're likely to come across [Jupyter](#jupyter) notebooks, which are a great way to develop and show work, regardless of the IDE and env manager used.
 
+
 ## Libraries
 
 Python libraries commonly used for data science. A lot of these are very popular and come up often in tutorials. They are often optimized for performance (often with C code written to fine tune them).
@@ -98,6 +99,7 @@ GETTING HELP
 ...
 ```
 
+
 ## Jupyter
 
 - [jupyter.org](https://jupyter.org/)
@@ -112,6 +114,7 @@ GETTING HELP
 - Use with IDEs
     - PyCharm - see the [Jupyter notebook support](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) doc.
     - VS Code - see the [Jupyter support](https://code.visualstudio.com/docs/python/jupyter-support) doc.
+
 
 ## Spyder
 
@@ -133,6 +136,9 @@ $ spyder
 ```
 
 Alternatively, you can update the environment config in Spyder. Update the paths where libraries are loaded to include a virtual environment. This is not ideal if you have many virtual environments and it will keep looking through each and find the first matched library. And this approach might not work with conda envs. But it does work on pip envs while the conda env is set to the base.
+
+Here is the Spyder Wiki page which address this - [Working with packages and environments in Spyder](https://github.com/spyder-ide/spyder/wiki/Working-with-packages-and-environments-in-Spyder).
+
 
 ## Anaconda
 
