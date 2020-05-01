@@ -1,9 +1,10 @@
 # Compile
 
-Use the C Compiler in the command-line to make executable binary files from the `.c` scripts (which are plain text).
+Use the C Compiler in the command-line to make executable binary files from the `.c` scripts (which are plain text). Note that that the compiled file will only run on the same OS, so often C projects will run a make command on setup to create all the binary files.
 
+## Linux and macOS
 
-## GCC vs CC Compiler
+### GCC vs CC Compiler
 
 Use either `cc` or `gcc` commands in bash. `gcc` is the GNU C Compiler from the GCC (GNU Compiler Collection). 
 
@@ -15,7 +16,7 @@ Use either `cc` or `gcc` commands in bash. `gcc` is the GNU C Compiler from the 
     > There are various differences observed as regards to using the GNU compiler collection and the CC compiler. These differences can generally be grouped into two main groups. One of these is more specific while the other group is more generic.
 
 
-## How to compile and execute
+### How to compile and execute
 
 ```bash
 $ gcc --help
@@ -42,9 +43,29 @@ Then you can execute the compiled file:
 $ ./hello
 ```
 
-Default behaviour, without specifying the output filename:
+Default behaviour, without specifying the output filename, will create `a.out` file.
 
 ```bash
 $ gcc hello.c
 $ ./a.out
+```
+
+
+## Windows
+
+### How to compile and run
+
+Based on [tutorial](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=vs-2019)
+
+Compile the script.
+```sh
+> cl hello.c
+```
+
+That will create `hello.exe`.
+
+Run it like this:
+
+```sh
+> hello
 ```
