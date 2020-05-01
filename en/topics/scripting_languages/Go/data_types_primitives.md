@@ -1,4 +1,4 @@
-# Data types - primitives
+# Data types: Primitives
 
 Inspired by [Learn X in Y](https://learnxinyminutes.com/docs/go/).
 
