@@ -22,7 +22,7 @@ y := 1
 
 ```go
 var my_float float32 = 0.1
-var my_float2 = float64
+var my_float2 float64
 my_float2 := 1.234
 my_float3 := 1.
 ```
@@ -63,6 +63,8 @@ float32    | IEEE-754 32-bit floating-point numbers
 float64    | IEEE-754 64-bit floating-point numbers
 complex64  | Complex numbers with float32 real and imaginary parts
 complex128 | Complex numbers with float64 real and imaginary parts
+
+See [IEEE-754](https://en.wikipedia.org/wiki/IEEE_754) and [Double precision floating](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).
 
 There are also a couple of alias number types, which assign useful names to specific data types:
 
