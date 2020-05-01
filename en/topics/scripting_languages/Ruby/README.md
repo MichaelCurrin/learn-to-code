@@ -53,7 +53,7 @@ $ sudo apt-get upgrade ruby-full
 
 If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
 
-So add the following, replacing `X.X.X` with your Ruby version e.g. `2.6.0`.
+So add the following, replacing `X.X.X` with your Ruby version e.g. `2.3.0` (even if you actual version is `2.3.3`).
 
 ```sh
 export GEM_PATH="$HOME/.gem/ruby/X.X.X/bin"
@@ -101,7 +101,7 @@ export PATH="$RUBY_HOME:$PATH"
 
 If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
 
-So add the following. Replace `X.X.X` with your own Ruby version e.g. `2.6.0`
+So add the following. Replace `X.X.X` with your own Ruby version e.g. `2.6.0` (even if you are on `2.6.1`).
 
 ```sh
 export GEM_PATH="$HOME/.gem/ruby/X.X.X/bin"
