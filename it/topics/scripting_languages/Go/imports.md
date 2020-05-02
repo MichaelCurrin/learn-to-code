@@ -10,7 +10,7 @@ import "fmt"
 
 Modulo di importazione.
 
-```
+```go
 import "io/ioutil"
 ```
 
