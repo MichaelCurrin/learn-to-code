@@ -18,3 +18,30 @@ A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/
 - Tutorials
     - [Intro to Crystal blog post](https://rollout.io/blog/an-introduction-to-crystal-fast-as-c-slick-as-ruby/)
     - [Learn Crystal in one video](https://www.youtube.com/watch?v=DxFP-Wjqtsc)
+
+
+## Install
+
+[Install guide](https://crystal-lang.org/install/)
+
+### Linux
+
+- [Debian](https://crystal-lang.org/install/on_debian/) guide
+- [Ubuntu](https://crystal-lang.org/install/on_ubuntu/) guide
+
+
+### macOS
+
+```sh
+$ brew update
+$ brew install crystal
+```
+
+## Run
+
+Compile and run in one command.
+
+```sh
+$ crystal hello_world.cr
+Hello World!
+```
