@@ -21,6 +21,7 @@ A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/
     - [Learn Crystal in one video](https://www.youtube.com/watch?v=DxFP-Wjqtsc)
     - [askn/crystal-by-example](https://github.com/askn/crystal-by-example) on Github
 
+Also see this [blog post](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f) which explains the pros and cons of the language and compares it to others.
 
 ## Install
 
