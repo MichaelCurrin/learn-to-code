@@ -3,24 +3,29 @@
 
 ## What is Crystal?
 
-> A language for humans and computers - [crystal-lang.org](https://crystal-lang.org/)
-
 A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/). Types are static but inferred so often you don't have to be explict when defining variables or function parameters.
 
 Sometimes the Crystal code is also valid Ruby code.
+
+From [crystal-lang.org](https://crystal-lang.org/):
+
+> A language for humans and computers
+
+From [Wikipedia](https://en.wikipedia.org/wiki/Crystal_(programming_language)):
+
+> Crystal is a general-purpose, object-oriented programming language, designed and developed by Ary Borenszweig, Juan Wajnerman, Brian Cardiff and more than 300 contributors.
+>
+> With syntax inspired by the language Ruby, it is a compiled language with static type-checking, but specifying the types of variables or method arguments is generally unneeded.
+>
+> Types are resolved by an advanced global type inference algorithm. Crystal is currently in active development. It is released as free and open-source software under the Apache License version 2.0.
 
 - First appeared: 2014
 - File extension: `.cr`
 
 
-### Is it production ready?
-
-Note that according to the homepage, the language is **not yet** production ready. It has not reached version `1.0`. Yet, however, some organizations are using in production.
-
-
 ### Language goals
 
-From the [reference](https://crystal-lang.org/reference/) page:
+From the [reference](https://crystal-lang.org/reference/) page on the Crystal website:
 
 > Crystal is a programming language with the following goals:
 >
@@ -29,6 +34,12 @@ From the [reference](https://crystal-lang.org/reference/) page:
 > - Be able to call C code by writing bindings to it in Crystal.
 > - Have compile-time evaluation and generation of code, to avoid boilerplate code.
 > - Compile to efficient native code.
+
+
+### Is it production ready?
+
+Note that according to the homepage, the language is **not yet** production ready. It has not reached version `1.0`. Yet, however, some organizations are using in production.
+
 
 
 ## Why Crystal?
