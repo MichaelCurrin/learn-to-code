@@ -85,7 +85,15 @@ $ brew install crystal
 ```
 
 
-## Run hello world
+## Run
+
+### Commands available
+
+- [Getting started](https://crystal-lang.org/reference/getting_started/) - includes output from `crystal --help`.
+- [Using the compiler](https://crystal-lang.org/reference/using_the_compiler/) - includes details on command and usage examples.
+
+
+### Compile and run in one shot
 
 Run a [hello.cr](hello.cr) script.
 
@@ -94,7 +102,24 @@ $ crystal hello.cr
 Hello World!
 ```
 
-Compile and run is in one command here.
+Or
+
+```sh
+$ crystal run hello.cr
+Hello World!
+```
+
+
+### Create an executable then run it
+
+```sh
+$ crystal build hello.cr
+```
+
+```sh
+$ ./hello
+Hello World!
+```
 
 
 ## Install dependencies
@@ -102,11 +127,11 @@ Compile and run is in one command here.
 Dependencies are called "shards".
 
 ```sh
-shards install
+$ shards install
 ```
 
 ## Run tests
 
 ```sh
-crystal spec
+$ crystal spec
 ```
