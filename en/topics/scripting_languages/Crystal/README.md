@@ -1,9 +1,16 @@
 # Crystal
 
-A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/).
+
+## What is Crystal?
+
+A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/). Types are static but inferred so often you don't have to be explict when defining variables or function parameters.
+
+Sometimes the Crystal code is also valid Ruby code.
 
 - First appeared: 2014
 - File extension: `.cr`
+
+I discovered Crystal through seeing it listed under Github Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml).
 
 
 ## Resources
@@ -23,6 +30,7 @@ A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/
 
 Also see this [blog post](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f) which explains the pros and cons of the language and compares it to others.
 
+
 ## Install
 
 [Install guide](https://crystal-lang.org/install/)
@@ -40,11 +48,27 @@ $ brew update
 $ brew install crystal
 ```
 
-## Run
 
-Compile and run in one command.
+## Run hello world
+
+Compile and run is in one command.
 
 ```sh
 $ crystal hello_world.cr
 Hello World!
+```
+
+
+## Install dependencies
+
+Dependencies are called "shards".
+
+```sh
+shards install
+```
+
+## Run tests
+
+```sh
+crystal spec
 ```
