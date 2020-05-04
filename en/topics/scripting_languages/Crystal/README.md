@@ -89,6 +89,7 @@ These are summarized here:
 - Videos
     - [Why the future of Ruby is Crystal clear](https://www.youtube.com/watch?v=4jr8aL-xMh0) from Rubyfuza
 
+
 ## Install
 
 For more info, see the [Install guide](https://crystal-lang.org/install/)
@@ -142,6 +143,13 @@ $ crystal build hello.cr
 $ ./hello
 Hello, world!
 ```
+
+
+### Web server
+
+There's a hello world web server included as [hello_server.cr](hello_server.cr).
+
+For more info, see [HTTP server](https://crystal-lang.org/reference/getting_started/http_server.html) in the Getting Started section of the reference docs.
 
 
 ## Install dependencies
