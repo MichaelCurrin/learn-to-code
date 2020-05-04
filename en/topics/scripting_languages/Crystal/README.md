@@ -12,7 +12,10 @@ Sometimes the Crystal code is also valid Ruby code.
 - First appeared: 2014
 - File extension: `.cr`
 
-I discovered Crystal through seeing it listed under Github Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml).
+
+### Is it production ready?
+
+Note that according to the homepage, the language is **not yet** production ready. It has not reached version `1.0`. Yet, however, some organizations are using in production.
 
 
 ### Language goals
@@ -150,6 +153,13 @@ Hello, world!
 There's a hello world web server included as [hello_server.cr](hello_server.cr).
 
 For more info, see [HTTP server](https://crystal-lang.org/reference/getting_started/http_server.html) in the Getting Started section of the reference docs.
+
+
+### Deployment
+
+I discovered Crystal through seeing it listed under Github Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml). Use something like that for CI/CI.
+
+See also [Commands available](#commands-available) section on this page for how to use the CLI for releases.
 
 
 ## Install dependencies
