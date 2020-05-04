@@ -56,11 +56,13 @@ From this blog post - [Why Crystal is the most promising programming language of
     - [Install](https://crystal-lang.org/install/)
     - [Introduction](https://crystal-lang.org/reference/) - summarizes the language.
     - [Getting started](https://crystal-lang.org/reference/getting_started/) in the docs/reference. Includes the CLI help.
-    - [Try online](https://play.crystal-lang.org/#/cr)
 - [Crystal](https://en.wikipedia.org/wiki/Crystal_(programming_language)) on Wikipedia
 - [crystal-lang/crystal](https://github.com/crystal-lang/crystal) on Github
 - [Releases](https://github.com/crystal-lang/crystal/releases) on Github.
 - [Learn X in Y](https://learnxinyminutes.com/docs/crystal/)
+- Run code online
+    - [Official playground](https://play.crystal-lang.org/#/cr)
+    - [REPL.it](https://repl.it/languages/crystal)
 - Tutorials
     - [Intro to Crystal blog post](https://rollout.io/blog/an-introduction-to-crystal-fast-as-c-slick-as-ruby/)
     - [Learn Crystal in one video](https://www.youtube.com/watch?v=DxFP-Wjqtsc)
