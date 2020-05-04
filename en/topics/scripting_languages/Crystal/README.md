@@ -3,6 +3,8 @@
 
 ## What is Crystal?
 
+> A language for humans and computers - [crystal-lang.org](https://crystal-lang.org/)
+
 A compiled language with the speed of [C](../C/) but the ease of [Ruby](../Ruby/). Types are static but inferred so often you don't have to be explict when defining variables or function parameters.
 
 Sometimes the Crystal code is also valid Ruby code.
@@ -28,34 +30,48 @@ From the [reference](https://crystal-lang.org/reference/) page:
 
 ## Why Crystal?
 
-From this blog post - [Why Crystal is the most promising programming language of 2018](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f). It explains the pros and cons of the language and compares it to others. These are summarized here:
+From this blog post - [Why Crystal is the most promising programming language of 2018](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f). It explains the pros and cons of the language and compares it to others. 
+
+These are summarized here:
 
 
 ### Reasons for
 
-- Performance (fast)
-- Syntax (easy)
-- Fibers (for event loops, async, etc.)
+- Performance
+    - Compiled
+    - Fast as C/C++/Rust
+- Syntax
+    - Easy
+- Fibers
+    - For event loops, async, etc.
 - Static Typing
 - Macros
 - You can still dynamically define methods
 - Nil/Null-related errors impossible
 - Shards (packages)
-- Meteoric rise in popularity ("rose from 60th place to 32nd place in the Tiobe index in a mere month.")
+- Meteoric rise in popularity
+    - "rose from 60th place to 32nd place in the Tiobe index in a mere month."
 - Cross-platform support
-- Web frameworks ("Amber" is similar to Rails but "an order of magnitude faster")
+- Web frameworks
+    - **Amber** - similar to Rails but "an order of magnitude faster"
+    - **Kemal.cr** - similar to Sinatra from Ruby
+    - **Lucky**
 
 ### Limitations
 
-- Windows support not yet complete (as of 2018)
-- No parallelism (but coming soon as of 2018)
-- Some breaking changes until `1.0`. (see [releases](https://github.com/crystal-lang/crystal/releases))
+- Windows support not yet complete
+    - As of 2018
+- No parallelism
+    - But coming soon as of 2018.
+- Not mature
+    - Some breaking changes are happening until `1.0` (see [releases](https://github.com/crystal-lang/crystal/releases)). 
+    - But "That said there are plenty of companies using Crystal in production".
 - REPL support was limited (at least in 2018). See this [issue](https://github.com/crystal-lang/crystal/issues/681)
+
 
 ## Resources
 
-- [crystal-lang.org](https://crystal-lang.org/) homepage
-    > A language for humans and computers
+- [crystal-lang.org](https://crystal-lang.org/) homepage - Gives an intro to the syntax.
     - [Install](https://crystal-lang.org/install/)
     - [Introduction](https://crystal-lang.org/reference/) - summarizes the language.
     - [Getting started](https://crystal-lang.org/reference/getting_started/) in the docs/reference. Includes the CLI help.
@@ -70,7 +86,8 @@ From this blog post - [Why Crystal is the most promising programming language of
     - [Intro to Crystal blog post](https://rollout.io/blog/an-introduction-to-crystal-fast-as-c-slick-as-ruby/)
     - [Learn Crystal in one video](https://www.youtube.com/watch?v=DxFP-Wjqtsc)
     - [askn/crystal-by-example](https://github.com/askn/crystal-by-example) on Github
-
+- Videos
+    - [Why the future of Ruby is Crystal clear](https://www.youtube.com/watch?v=4jr8aL-xMh0) from Rubyfuza
 
 ## Install
 
