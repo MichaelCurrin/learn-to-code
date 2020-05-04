@@ -74,7 +74,7 @@ From this blog post - [Why Crystal is the most promising programming language of
 
 ## Install
 
-[Install guide](https://crystal-lang.org/install/)
+For more info, see the [Install guide](https://crystal-lang.org/install/)
 
 ### Linux
 
@@ -104,14 +104,14 @@ Run a [hello.cr](hello.cr) script, which is simply a print statement with `puts`
 
 ```
 $ crystal hello.cr
-Hello World!
+Hello, world!
 ```
 
 Or
 
 ```
 $ crystal run hello.cr
-Hello World!
+Hello, world!
 ```
 
 
@@ -123,7 +123,7 @@ $ crystal build hello.cr
 
 ```
 $ ./hello
-Hello World!
+Hello, world!
 ```
 
 
