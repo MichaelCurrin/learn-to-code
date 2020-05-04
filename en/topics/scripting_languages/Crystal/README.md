@@ -12,6 +12,9 @@ Sometimes the Crystal code is also valid Ruby code.
 
 I discovered Crystal through seeing it listed under Github Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml).
 
+
+### Language goals
+
 From the [reference](https://crystal-lang.org/reference/) page:
 
 > Crystal is a programming language with the following goals:
@@ -97,16 +100,16 @@ $ brew install crystal
 
 ### Compile and run in one shot
 
-Run a [hello.cr](hello.cr) script.
+Run a [hello.cr](hello.cr) script, which is simply a print statement with `puts`. There is no `main` function needed.
 
-```sh
+```
 $ crystal hello.cr
 Hello World!
 ```
 
 Or
 
-```sh
+```
 $ crystal run hello.cr
 Hello World!
 ```
@@ -118,7 +121,7 @@ Hello World!
 $ crystal build hello.cr
 ```
 
-```sh
+```
 $ ./hello
 Hello World!
 ```
