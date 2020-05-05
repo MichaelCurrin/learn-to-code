@@ -14,7 +14,7 @@ Types are checked at compile time. Types must be specified in the code inputs an
 ## Features
 
 - Highly performant
-    - As performance as C in most-cases.
+    - As performant as C in most-cases.
     - Great for parallel and high-computation intense tasks.
 - Rust variables are statically typed and checked at compile time. e.g. A variable can be declare as a 32-bit integer.
 - Rust does not have a null value - this avoids the error of performing a method on a variable which is `None` or `null`, such as in Python or Javascript.
@@ -44,6 +44,7 @@ Source: [link](https://www.rust-lang.org/)
 - Official [Rust site](https://www.rust-lang.org/)
 - [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
 - Tutorials
+    - [What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev](https://illustrated.dev).
     - [Getting Started](https://www.rust-lang.org/learn/get-started) guide on Rust site
     - [Learn Rust in Y Minutes](https://learnxinyminutes.com/docs/rust/)
     - [Rust Beyond the Basics](https://medium.com/learning-rust/rust-beyond-the-basics-4fc697e3bf4f) - vectors, structs, enums, generics, impls and traits.
