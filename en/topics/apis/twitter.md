@@ -1,8 +1,18 @@
 # Twitter API
 
+See [Twitter libraries](https://developer.twitter.com/en/docs/developer-utilities/twitter-libraries) recommended by Twitter, across programming languages.
+
+Some quickstart snippets are shown below.
+
+
+## Python
+
+See my [Twitter Python Guide](https://michaelcurrin.github.io/python-twitter-guide/) which focuses on the Tweepy library. It covers other Python libraries on the Resources page.
+
+
 ## JavaScript
 
-See [twitter](https://www.npmjs.com/package/twitter) on NPM packages.
+Using [twitter](https://www.npmjs.com/package/twitter) on NPM packages.
 
 Example:
 
