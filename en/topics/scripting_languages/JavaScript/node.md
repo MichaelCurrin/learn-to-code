@@ -1,6 +1,9 @@
 # NodeJS
 > Server-side JavaScript
 
+This guide covers how to install and run NodeJS. 
+
+
 NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
 
 - [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
@@ -8,7 +11,6 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 - Repository: [nodejs/node](github.com/nodejs/node)
 - Initial release: 2009
 
-This section covers how to install and run NodeJS.
 
 ## Install
 
@@ -73,18 +75,80 @@ You can also add a shebang to the script and make it executable, though that is 
 
 ### Run with NPM
 
-How to run arbitrary package scripts using `npm`.
+You can run arbitrary code using `npm`. If you add a `package.json` file in your project (typical for Node projects), then you can add items to the `"scripts"` section.
+
+
+Then run them from the command line using one of the approaches below.
 
 Using [run-script](https://docs.npmjs.com/cli/run-script).
 
 ```sh
-$ npm run-script COMMAND
-$ # Alias:
+# List available commands.
+$ npm run
+```
+
+```sh
 $ npm run COMMAND
+
+# Longer form
+$ npm run-script COMMAND
 ```
 
 Using [npm-run](https://www.npmjs.com/package/npm-run)
 
 ```sh
 $ npm-run COMMAND
+```
+
+
+For example:
+
+`package.json`
+
+```
+{
+    "scripts": {
+        "foo": "echo Foo!",
+        "start: "node server",
+        "build": "echo Building site"
+    }
+}
+```
+
+```sh
+$ npm run foo
+$ npm run start
+$ npm run build
+```
+
+NPM also supports these as special commands that don't need `run`.
+
+```sh
+$ npm start
+```
+
+```sh
+$ npm build
+```
+
+### Run with bin script
+
+A less common approach is to run an NPM package without going through NPM. This may not be supported for all packages.
+
+An example would be this script which got added to `node_modules` on running `npm install` and which has executable permissions.
+
+`node_modules/.bin/hello`
+
+```node
+#!/usr/bin/env node
+console.log("Hello, world!");
+```
+
+This can then be run as:
+
+```sh
+$ node_modules/.bin/hello`
+```
+```
+Hello, world!
 ```
