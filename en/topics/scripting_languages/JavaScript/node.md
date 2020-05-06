@@ -77,17 +77,34 @@ Press `CTRL`+`D` to exit the console.
 
 ### Run script with Node
 
-Use `node` command and the path to a script. For example:
+Use `node` command and the path to a script. 
+
+For example, create a script.
 
 ```sh
-echo "console.log('Hello!');" > filename.js
+$ echo 'console.log("Hello!");' > hello.js
 ```
+
+Then run it:
 
 ```sh
-$ node filename.js
+$ node hello.js
 ```
 
-You can also add a shebang to the script and make it executable, though that is not a common pattern.
+### Run script with Node implied
+
+Create a similar script to above, but using `#!/usr/bin/env node` at the start and with executable permissions.
+
+```sh
+$ echo '#!/usr/bin/env node\nconsole.log("Hello!");' > hello_executable.js
+$ chmod +x hello_executable.js
+```
+
+Then run it:
+
+```
+./hello_executable.js
+```
 
 
 ### Run script with NPM
@@ -148,11 +165,12 @@ $ npm start
 $ npm build
 ```
 
-### Run with bin script
 
-A less common approach is to run an NPM package without going through NPM. This may not be supported for all packages.
+### Run a package's executable script
 
-An example would be this script which got added to `node_modules` on running `npm install` and which has executable permissions.
+A less common approach is to run an NPM package without going through NPM and using a file in the `.bin` directory. This may not be supported for all packages.
+
+For example, after running `npm install`, this script could have been added to `.bin` with executable permissions.
 
 `node_modules/.bin/hello`
 
@@ -168,4 +186,16 @@ $ node_modules/.bin/hello`
 ```
 ```
 Hello, world!
+```
+
+The bin script is an entry point and might be short, with most of the package contents installed here:
+
+```
+node_modules/
+    hello/
+        bin/
+        src/
+        # ...
+        README.md
+        # ...
 ```
