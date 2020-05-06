@@ -1,20 +1,20 @@
 # JavaScript
 
-- [Che cos'è JavaScript?](#What-is-javascript)
-    - [Cosa puoi fare con JavaScript?](#What-can-you-do-with-javascript)
-    - [Perché imparare JavaScript - 5 buoni motivi](#why-learn-javascript --- 5-buoni motivi)
-- [Come eseguire](#come eseguire)
+- [Che cos'è JavaScript?](#che-cos'è-javascript?)
+    - [Cosa puoi fare con JavaScript](#cosa-puoi-fare-con-javascript)
+    - [Perché imparare JavaScript - 5 buoni motivi](#Perché-imparare-JavaScript---5-buoni-motivi)
+- [Come eseguire](#Come-eseguire)
     - [Browser](#browser)
-    - [Riga di comando](#riga di comando)
-- [Esegui file di progetto](#run-project-files)
-    - [Script](#script)
-    - [Demo HTML](#html-demos)
-- [Risorse](#risorse)
-    - [Strumenti da riga di comando](#strumenti da riga di comando)
+    - [Riga di comando](#riga-di-comando)
+- [Esegui file di progetto](#esegui-file-di-progetto)
+    - [Scripts](#scripts)
+    - [Demo HTML](#demo-html)
+- [Risorse](#resources)
+    - [Strumenti da riga di comando](#Strumenti-da-riga-di-comando)
 - [Librerie](#librerie)
     - [Convenienza](#convenienza)
-    - [Librerie di template](#librerie di template)
-    - [Dataviz libraries](#dataviz-libraries)
+    - [Librerie di template](#librerie-di-template)
+    - [Librerie Dataviz](#librerie-dataviz)
     - [Frameworks](#frameworks)
 - [CDNs](#cdns)
 
@@ -24,7 +24,7 @@
 > - JavaScript può aggiornare e modificare sia HTML che CSS
 > - JavaScript può calcolare, manipolare e convalidare i dati - [fonte](https://www.w3schools.com/whatis/whatis_js.asp)
 
-JavaScript è stato progettato per eseguire un ambiente host come il browser, con il supporto aggiunto successivamente come "Nodo" per essere eseguito in un ambiente autonomo come fanno molte altre lingue. Ciò avviene attraverso modifiche (aggiornamenti) al [Document Object Model](https://en.m.wikipedia.org/wiki/Document_Object_Model) o _DOM_, che rappresenta una struttura ad albero di elementi nella pagina. Il DOM potrebbe inizialmente corrispondere al codice HTML iniziale recuperato e che può essere visto con Visualizza sorgente, ma quando i contenuti cambiano dovrai guardare il DOM negli strumenti di sviluppo del tuo browser.
+JavaScript è stato progettato per eseguire un ambiente host come il browser, con il supporto aggiunto successivamente come "Node" per essere eseguito in un ambiente autonomo come fanno molte altre lingue. Ciò avviene attraverso modifiche (aggiornamenti) al [Document Object Model](https://en.m.wikipedia.org/wiki/Document_Object_Model) o _DOM_, che rappresenta una struttura ad albero di elementi nella pagina. Il DOM potrebbe inizialmente corrispondere al codice HTML iniziale recuperato e che può essere visto con Visualizza sorgente, ma quando i contenuti cambiano dovrai guardare il DOM negli strumenti di sviluppo del tuo browser.
 
 Nel browser JavaScript si occupa del comportamento (interattività) dell'esperienza, mentre HTML gestisce il contenuto e CSS è lo stile. JavaScript ti permette di leggere e manipolare la pagina per renderla dinamica. Come tirare le foto mentre un utente scorre, aggiungere uno stile o una classe CSS a un elemento su una condizione, creare un pop-up quando viene soddisfatta una condizione o persino creare un gioco.
 
@@ -33,7 +33,7 @@ Mentre JavaScript esiste in genere come script direttamente sulla pagina o inser
 Le origini di JavaScript sono trattate [qui](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript).
 
 
-### Cosa puoi fare con JavaScript?
+### Cosa puoi fare con JavaScript
 
 Ecco alcuni casi tipici per JavaScript. Alcuni sono nel browser, altri sul lato server, altri sono entrambi.
 
@@ -70,27 +70,27 @@ Oppure tramite la console: apri il pannello degli strumenti di sviluppo dalle im
 
 Vai a [browser_usage](browser_usage.md).
 
-###Riga di comando
+### Riga di comando
 
 Se si desidera eseguire JavaScript nella riga di comando, consultare questi documenti:
 
-- [Nodo](node.md)
+- [Node](node.md)
 - [Pacchetti di nodi](node_packages.md) - copre NPM e NVM.
 
 ## Esegui file di progetto
 
-### Script
+### Scripts
 
 Vedi la directory [script](script).
 
 Puoi eseguire i file `.js` lì usando le istruzioni seguenti, se hai [node](node.md) installato.
 
-`` `Sh
+```Sh
 $ cd <PATH_TO_REPO>
-$ #Nota che lo spazio significa che sono necessarie le virgolette.
-$ cd 'Linguaggi di scripting / JavaScript / script'
-$ node basics / iteration.js
-`` `
+$ # Nota che lo spazio significa che sono necessarie le virgolette.
+$ cd 'Scripting languages/JavaScript/scripts'
+$ node basics/iteration.js
+```
 
 ### Demo HTML
 
@@ -104,9 +104,9 @@ Nota che non puoi semplicemente aprire prima una pagina HTML nel tuo browser sen
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) su Wikipedia.
     > JavaScript, spesso abbreviato in JS, è un linguaggio di programmazione multi-paradigma compilato just-in-time e conforme alle specifiche ECMAScript.
-- Nodo
+- Node
     - Esegui JavaScript sul server, come script back-end o per compilare applicazioni front-end.
-    - Vai a [Nodo](node.md) doc.
+    - Guarda la documentazione di [Node](node.md).
 - Tutorial
     - [JavaScript.com](https://www.javascript.com/) di [Pluralsite](https://www.pluralsight.com/)
     - [Che cos'è JavaScript?](Https://www.w3schools.com/whatis/whatis_js.asp) avvio rapido su W3 Schools.
@@ -115,8 +115,8 @@ Nota che non puoi semplicemente aprire prima una pagina HTML nel tuo browser sen
         - [Tutorials](https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials). Vedi anche su quella pagina _Strumenti e risorse_.
         - [Una reintroduzione a JavaScript (tutorial JS)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). Questo inizia con le basi.
 - Documenti
-    - [JavaScript](https://devdocs.io/javascript/) documenti su [devdocs.io](https://devdocs.io/).
-    - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) documenti su [developer.mozilla.org](https://developer.mozilla.org/). Include guide per utenti principianti, intermedi e avanzati e anche riferimenti alle funzioni.
+    - documentazione [JavaScript](https://devdocs.io/javascript/) su [devdocs.io](https://devdocs.io/).
+    - documentazione [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) su [developer.mozilla.org](https://developer.mozilla.org/). Include guide per utenti principianti, intermedi e avanzati e anche riferimenti alle funzioni.
         - [Riferimento](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
         - [Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - Corsi
@@ -124,7 +124,7 @@ Nota che non puoi semplicemente aprire prima una pagina HTML nel tuo browser sen
         - [Introduzione a JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
 - IDE online
     - [Runkit](https://runkit.com/home)
-      > Runkit è un parco giochi nodo nel tuo browser.
+      > Runkit è un parco giochi node nel tuo browser.
       > ... puoi richiedere qualsiasi pacchetto npm all'istante.
     - [NPM Runkit](https://npm.runkit.com/) ad esempio https://npm.runkit.com/request
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) ed esistenti [penne con tag JavaScript](https://codepen.io/tag/javascript/).
@@ -171,7 +171,7 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
     - [Wikipedia](https://en.wikipedia.org/wiki/JQuery)
         -> jQuery è una libreria JavaScript progettata per semplificare l'attraversamento e la manipolazione dell'albero HTML DOM, nonché la gestione degli eventi, l'animazione CSS e Ajax.
     - [Scarica](https://jquery.com/download/).
-    - [API](https://api.jquery.com/) nei documenti.
+    - [API](https://api.jquery.com/) nella documentazione.
     - Tutorial
         -  W3 Schools
             - [Inizia](https://www.w3schools.com/jquery/jquery_get_started.asp).
@@ -180,7 +180,7 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
         - [Domande frequenti su jQuery](https://www.tutorialrepublic.com/faq.php#javascript-jquery) su un sito Web tutorial
 - ListJS
     - [listjs.com](https://listjs.com)
-        > JavaScript vaniglia piccolo, invisibile e semplice, ma potente e incredibilmente veloce che aggiunge ricerca, ordinamento, filtri e flessibilità a semplici elenchi HTML, tabelle o altro.
+        > JavaScript vanilla piccolo, invisibile e semplice, ma potente e incredibilmente veloce che aggiunge ricerca, ordinamento, filtri e flessibilità a semplici elenchi HTML, tabelle o altro.
     - Aggiungi ricerca, ordina e filtra per la tua pagina HTML.
 
 
@@ -188,8 +188,8 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
 
 - Moustache JS
     - [Pagina ufficiale](https://mustache.github.io/)
-        > Modelli senza logica.
-    - Modello HTML sul lato server o browser.
+        > Modelli Logic-less.
+    - Modello HTML lato server o browser.
     - [npm](https://www.npmjs.com/package/mustache)
     - [Cloudfare CDN](https://cdnjs.com/libraries/mustache.js/)
 - Handlebars JS
@@ -217,8 +217,8 @@ Vedi il documento [JS Frameworks](frameworks.md) in questo progetto per i framew
 Reti per la distribuzione di contenuti ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) dove è possibile scaricare le librerie.
 
 - CloudFare
-    - Pagina iniziale [cdnjs.com/ lasting(https://cdnjs.com/)
-    - ad esempio [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js×(https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min. js)
+    - Pagina iniziale [cdnjs.com/ lasting](https://cdnjs.com/)
+    - ad esempio [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js×](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js)
 - Unpkg
-    - Pagina iniziale [unpkg.com/[(https://unpkg.com/)
-    - ad es. [unpkg.com/jquery@3.4.1/dist/jquery.js×(https://unpkg.com/jquery@3.4.1/dist/jquery.js)
+    - Homepage [unpkg.com/](https://unpkg.com/)
+    - ad es. [unpkg.com/jquery@3.4.1/dist/jquery.js×](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
