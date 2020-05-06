@@ -7,7 +7,7 @@ Some quickstart snippets are shown below.
 
 ## Python
 
-See my [Twitter Python Guide](https://michaelcurrin.github.io/python-twitter-guide/) which focuses on the Tweepy library. It covers other Python libraries on the Resources page.
+See my [Twitter Python Guide](https://michaelcurrin.github.io/python-twitter-guide/) which focuses on the Tweepy library. It covers other Python libraries too - see the Resources page.
 
 
 ## JavaScript
