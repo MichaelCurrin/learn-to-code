@@ -1,8 +1,9 @@
 # NodeJS
 > Server-side JavaScript
 
-This guide covers how to install and run NodeJS. 
+This guide covers how to install NodeJS and run NodeJS.
 
+## About
 
 NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
 
@@ -13,6 +14,10 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 
 
 ## Install
+
+Install NodeJS for your operating system using a package manager. 
+
+_Note this will install both NodeJS and [NPM (Node Package Manager)](node_packages.md#npm)._
 
 ### Linux
 
@@ -30,9 +35,21 @@ $ brew install nodejs
 
 Download and run the Windows installer from the [Download](https://nodejs.org/en/download/) page.
 
+## Check version
+
+Check what version was installed.
+
+```sh
+$ node --version
+```
+
+Example output:
+```
+13.1.0
+```
 
 ## Run
-
+> How to run NodeJS code
 
 ### Interactive console
 
@@ -73,9 +90,9 @@ $ node filename.js
 You can also add a shebang to the script and make it executable, though that is not a common pattern.
 
 
-### Run with NPM
+### Run script with NPM
 
-You can run arbitrary code using `npm`. If you add a `package.json` file in your project (typical for Node projects), then you can add items to the `"scripts"` section.
+You can run arbitrary code using `npm`. If you add a `package.json` file in your project (typical for Node projects), then you can add items to the `"scripts"` section. These can be any shell command, such as using Bash, Node or NPM to do a task.
 
 
 Then run them from the command line using one of the approaches below.
@@ -105,12 +122,12 @@ For example:
 
 `package.json`
 
-```
+```json
 {
     "scripts": {
         "foo": "echo Foo!",
         "start: "node server",
-        "build": "echo Building site"
+        "build": "echo 'Building site' && echo 'Done!'"
     }
 }
 ```
