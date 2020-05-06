@@ -126,7 +126,7 @@ For example:
 {
     "scripts": {
         "foo": "echo Foo!",
-        "start: "node server",
+        "start": "node server",
         "build": "echo 'Building site' && echo 'Done!'"
     }
 }
