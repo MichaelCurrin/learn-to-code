@@ -87,7 +87,7 @@ Puoi eseguire i file `.js` lì usando le istruzioni seguenti, se hai [node](node
 
 ```Sh
 $ cd <PATH_TO_REPO>
-$ cd 'Scripting languages/JavaScript/scripts'
+$ cd en/topics/scripting_languages/JavaScript/scripts
 $ node basics/iteration.js
 ```
 
