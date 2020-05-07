@@ -7,7 +7,7 @@ Note that this guide is for Python 3. These are split into the New API and Old A
 ## New API
 
 - `run`
-    - > Runs a command, waits for it to complete, then returns a CompletedProcess instance.
+    - > Runs a command, waits for it to complete, then returns a `CompletedProcess` instance.
     - Leave `check=False` to avoid raising an error.
     - Set `capture_output=True` to return stdout and stderr.
     - Set `text=True` to enable text mode - input and output will be of type `str` rather than the `bytes` default.
