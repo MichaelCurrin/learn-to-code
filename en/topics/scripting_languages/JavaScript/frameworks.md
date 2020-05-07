@@ -214,7 +214,10 @@ A progressive framework for building user interfaces. It used for developing Sin
         - [Vue path](https://app.pluralsight.com/paths/skills/vue)
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
-
+- VS Code extensions
+	- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for `.vue` file syntax highlighting.
+	
+	
 ### Hello world
 
 In this simplified example, all the CSS and JS are in the single HTML file.
