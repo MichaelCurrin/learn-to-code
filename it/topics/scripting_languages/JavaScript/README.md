@@ -1,6 +1,6 @@
 # JavaScript
 
-- [Che cos'è JavaScript?](#che-cos'è-javascript?)
+- [Che cos'è JavaScript?](#che-cosè-javascript)
     - [Cosa puoi fare con JavaScript](#cosa-puoi-fare-con-javascript)
     - [Perché imparare JavaScript - 5 buoni motivi](#Perché-imparare-JavaScript---5-buoni-motivi)
 - [Come eseguire](#Come-eseguire)
