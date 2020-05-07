@@ -10,6 +10,7 @@
 [![English homepage](https://img.shields.io/badge/English-green?style=for-the-badge)](/en)
 [![Italian homepage](https://img.shields.io/badge/Italian-green?style=for-the-badge)](/it)
 
+_Note: The Italian guide is incomplete and it can go out of date when changes are made to the English guide only.
 
 ## Contributing
 
