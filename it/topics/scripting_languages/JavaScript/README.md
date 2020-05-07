@@ -9,7 +9,7 @@
 - [Esegui file di progetto](#esegui-file-di-progetto)
     - [Scripts](#scripts)
     - [Demo HTML](#demo-html)
-- [Risorse](#resources)
+- [Risorse](#risorse)
     - [Strumenti da riga di comando](#Strumenti-da-riga-di-comando)
 - [Librerie](#librerie)
     - [Convenienza](#convenienza)
