@@ -155,17 +155,22 @@ $ npm run start
 $ npm run build
 ```
 
-NPM also supports these as special commands that don't need `run`.
+#### Special commands
+
+
+NPM also supports this a special commands that doesn't need `run`.
 
 ```sh
 $ npm start
 ```
 
-If you don't configure `start`, then the command above will run this for oyu:
+If you don't configure `start`, then the command above will run this for you:
 
 ```sh
 npm node server.js
 ```
+
+See [Default values](https://docs.npmjs.com/misc/scripts#default-values) for NPM scripts.
 
 
 ### Run a package's executable script
