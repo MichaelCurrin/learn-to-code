@@ -27,6 +27,9 @@ These commands are split into the New API and Old API here, as described in the 
     - This will return a [CompletedProcess](httpas://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess) instance.
 - [Popen](httpas://docs.python.org/3/library/subprocess.html#subprocess.CompletedProcess)
     - > A class for flexibly executing a command in a new process.
+    - e.g.
+        ```python
+        Popen(["/usr/bin/git", "commit", "-m", "Fixes a bug."])
     - This is used internally by `run`.
 
 
@@ -40,7 +43,7 @@ These commands are split into the New API and Old API here, as described in the 
 failed, but still know if it passed or failed.
 - This does a few thing internally:
     - It runs the `check_output` function, which in turn runs `run`.
-    - It strips newlines
+    - It strips newlines.
     - It converts input and output from `bytes` to `str`. You do not have to worry about running `.encode('utf-8')`.
     - With the `shell=True` parameter, it accepts command a string not a list.
     - It captures `stderr` for you.
@@ -51,9 +54,10 @@ failed, but still know if it passed or failed.
     - Accepts a command as a list (by default, when `shell=False`) or as a string (when `shell=True`). I don't know the actual impact of the the `shell` parameter.
 
 
-## Preparing a command
+## Tokenization
+> Breaking a string command into an args list
 
-If you want to convert a `str` into a `list` that is appropriate for a command argument, then use `shlex.split`
+It can be more intuitive to write your command as a `str`, but then it needs to be converted into a `list` to be handle. So use `shlex.split`.
 
 Example:
 
