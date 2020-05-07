@@ -2,7 +2,10 @@
 
 The `subprocess` builtin module has a few ways to running shell (e.g. bash) commands. See this guide on choosing the approach for you.
 
-Note that this guide is for Python 3. These are split into the New API and Old API, as described in `subprocess.py`.
+Note that this guide is for Python 3. 
+
+These commands are split into the New API and Old API here, as described in the `subprocess` module.
+
 
 ## New API
 
@@ -14,6 +17,7 @@ Note that this guide is for Python 3. These are split into the New API and Old A
 - `Popen`
     - > A class for flexibly executing a command in a new process.
     - This is used internally by `run`.
+
 
 ## Old API
 
