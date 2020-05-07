@@ -17,7 +17,6 @@ Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente
 
 ## Argomenti
 
-
 ### 💡 Concetti di software design 
 
 - Sistemi operativi
@@ -75,7 +74,8 @@ Vedi un post sul mio blog che ho scritto [qui](https://michaelcurrin.github.io/c
 ### 🌸 Design patterns
 
 > Nell'ingegneria del software, un modello di progettazione del software è una soluzione generale e riutilizzabile a un problema che si verifica comunemente in un determinato contesto nella progettazione del software. Non è un progetto finito che può essere trasformato direttamente in codice sorgente o macchina. Piuttosto, è una descrizione o un modello per come risolvere un problema che può essere utilizzato in molte situazioni diverse. I modelli di progettazione sono le migliori pratiche formalizzate che il programmatore può utilizzare per risolvere problemi comuni durante la progettazione di un'applicazione o di un sistema. [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
-- [Design Patterns](/Scripting%20languages/Python/README.md#design-patterns) in Python.
+
+- [Design Patterns](/en/topics/scripting_languages/Python/README.md#design-patterns) in Python.
 - [Design Patterns nel Tutorial Java](https://www.tutorialspoint.com/design_pattern/index.htm) sul sito Tutorials Point - i patterns elencati nel menu della barra laterale.
 
 
