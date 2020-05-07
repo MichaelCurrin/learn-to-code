@@ -1,6 +1,7 @@
 import shlex
 import subprocess
 
+
 # run
 
 cmd = 'echo "Here are your files:" ; ls'
@@ -33,7 +34,6 @@ print('===\n')
 
 # getstatusoutput
 
-
 cmd = 'echo "Here are your files:" ; ls'
 exitcode, data = subprocess.getstatusoutput(cmd)
 
@@ -50,7 +50,6 @@ print('===\n')
 
 
 # check_output
-
 
 # Examples are copied from the function's docstring.
 subprocess.check_output(["ls", "-l", "/dev/null"])
