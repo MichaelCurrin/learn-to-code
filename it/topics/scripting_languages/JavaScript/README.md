@@ -1,5 +1,6 @@
 # JavaScript
 
+
 - [Che cos'è JavaScript?](#che-cosè-javascript)
     - [Cosa puoi fare con JavaScript](#cosa-puoi-fare-con-javascript)
     - [Perché imparare JavaScript - 5 buoni motivi](#Perché-imparare-JavaScript---5-buoni-motivi)
@@ -17,6 +18,7 @@
     - [Librerie Dataviz](#librerie-dataviz)
     - [Frameworks](#frameworks)
 - [CDNs](#cdns)
+
 
 ## Che cos'è JavaScript?
 
@@ -76,6 +78,7 @@ Se si desidera eseguire JavaScript nella riga di comando, consultare questi docu
 
 - [Node](node.md)
 - [Pacchetti di nodi](node_packages.md) - copre NPM e NVM.
+
 
 ## Esegui file di progetto
 
@@ -211,13 +214,14 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
 
 Vedi il documento [JS Frameworks](frameworks.md) in questo progetto per i framework JS frontend e backend.
 
+
 ## CDNs
 
 Reti per la distribuzione di contenuti ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) dove è possibile scaricare le librerie.
 
 - CloudFare
-    - Pagina iniziale [cdnjs.com/ lasting](https://cdnjs.com/)
-    - ad esempio [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js×](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js)
+    - Pagina iniziale [cdnjs.com/](https://cdnjs.com/)
+    - Ad esempio [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js)
 - Unpkg
-    - Homepage [unpkg.com/](https://unpkg.com/)
-    - ad es. [unpkg.com/jquery@3.4.1/dist/jquery.js×](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
+    - Pagina iniziale [unpkg.com/](https://unpkg.com/)
+    - Ad es. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
