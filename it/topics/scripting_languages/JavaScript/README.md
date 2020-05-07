@@ -212,7 +212,7 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
 
 Vedi il documento [JS Frameworks](frameworks.md) in questo progetto per i framework JS frontend e backend.
 
-## CDN
+## CDNs
 
 Reti per la distribuzione di contenuti ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) dove è possibile scaricare le librerie.
 
