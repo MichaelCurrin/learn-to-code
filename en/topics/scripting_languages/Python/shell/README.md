@@ -1,10 +1,11 @@
 # Executing shell commands
 
-The `subprocess` builtin module has a few ways to running shell (e.g. bash) commands. See this guide on choosing the approach for you.
+The `subprocess` builtin module has a few ways to run shell (e.g. Bash) commands. See this guide on choosing the approach for you.
 
-Note that this guide is for Python 3. 
-
-These commands are split into the New API and Old API here, as described in the `subprocess` module.
+- Running a shell command inside Python is a _subprocess_, so we use the [subprocess](https://docs.python.org/3/library/subprocess.html) builtin module.
+- Note that this guide is for Python 3.
+- Also this is macOS / Linux, but hopefully this can work on Windows to except using appropriate PowerShell commands in place of Bash.
+- These commands are split into the New API and Old API here, as described in the `subprocess` module.
 
 
 ## New API
