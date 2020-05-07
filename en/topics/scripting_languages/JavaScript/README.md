@@ -87,8 +87,7 @@ You can run the `.js` files there using instructions below, if you have [node](n
 
 ```sh
 $ cd <PATH_TO_REPO>
-$ # Note the space means quotes are needed.
-$ cd 'Scripting languages/JavaScript/scripts'
+$ cd en/topics/scripting_languages/JavaScript/scripts
 $ node basics/iteration.js
 ```
 
