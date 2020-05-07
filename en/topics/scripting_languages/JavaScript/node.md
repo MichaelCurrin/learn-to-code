@@ -161,8 +161,10 @@ NPM also supports these as special commands that don't need `run`.
 $ npm start
 ```
 
+If you don't configure `start`, then the command above will run this for oyu:
+
 ```sh
-$ npm build
+npm node server.js
 ```
 
 
