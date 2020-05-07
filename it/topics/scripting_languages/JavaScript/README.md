@@ -93,7 +93,7 @@ $ node basics/iteration.js
 
 ### Demo HTML
 
-Vedi la directory [script](html_demos).
+Vedi la directory [html_demos](en/topics/scripting_languages/JavaScript/html_demos).
 
 Avviare un server Web in quella directory o utilizzare le estensioni del server live di VS Code.
 
