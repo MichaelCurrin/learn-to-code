@@ -81,7 +81,7 @@ Se si desidera eseguire JavaScript nella riga di comando, consultare questi docu
 
 ### Scripts
 
-Vedi la directory [script](script).
+Vedi la directory [scripts](/en/topics/scripting_languages/JavaScript/scripts).
 
 Puoi eseguire i file `.js` lì usando le istruzioni seguenti, se hai [node](node.md) installato.
 
