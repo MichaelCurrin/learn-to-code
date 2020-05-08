@@ -12,6 +12,7 @@ Command-line tools covered here:
 
 It is worth knowing how to use both NPM _and_ Yarn. Some projects will have a preferences towards the one, but often they are interchangeable within one project. Yarn has some benefits on top of NPM which makes it worth using.
 
+
 ## NPM
 
 Node comes with the `npm` command.
@@ -106,7 +107,8 @@ $ npm list -g --depth 0
 └── npx@10.2.0
 ```
 
-## CI
+
+### CI
 
 NPM has a `ci` command, which is used in Github Actions.
 
@@ -122,6 +124,11 @@ Example steps from the Github Actions sample workflow:
     - run: npm run build --if-present
     - run: npm test
 ```
+
+
+Note: Requires `package-lock.json` or shrink wrap file. It does not work with `yarn.lock`.
+
+Github Actions: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
 
 ## Yarn
@@ -151,6 +158,11 @@ Yarn is built on NPM so mostly you can treat it the same.
 - [Install Yarn](https://classic.yarnpkg.com/en/docs/install)
 - Tutorials
     - [Why and how to migrate from NPM to YARN](https://waverleysoftware.com/blog/yarn-vs-npm/)
+
+
+## CI
+
+[Github Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
 
 
 ## NVM
