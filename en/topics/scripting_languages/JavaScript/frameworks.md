@@ -7,6 +7,7 @@ https://hackr.io/blog/10-best-javascript-frameworks-2019).
 
 Below are summaries of popular JavaScript frameworks with links and hello world code snippets. The focus of this list is on frameworks for building web apps, on the frontend (client-side rendering) or backend (server-sider rendering).
 
+
 ## React
 
 Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
@@ -116,14 +117,12 @@ export default class HelloWorldApp extends Component {
 
 ## Electron
 
-
-
-
 - [Official homepage](https://www.electronjs.org/)
 	- > Build cross-platform desktop apps with JavaScript, HTML, and CSS
 	- > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 - [Wikipedia](https://en.wikipedia.org/wiki/Electron_(software_framework))
 	- > Electron is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies. It combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several notable open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, and WordPress Desktop.
+
 
 ## Proton Native
 
@@ -137,6 +136,7 @@ export default class HelloWorldApp extends Component {
 	    > - No more Electron
 	    > - Compatible with all normal Node.js packages
 	    > - Hot reloading
+
 
 ## Angular
 
@@ -194,6 +194,7 @@ A progressive framework for building user interfaces. It used for developing Sin
 
 > Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
 
+
 ### Links
 
 - [Official site](https://vuejs.org)
@@ -215,8 +216,12 @@ A progressive framework for building user interfaces. It used for developing Sin
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
 - VS Code extensions
-	- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for `.vue` file syntax highlighting.
-	
+	- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for `.vue` file syntax highlighting and other tooling.
+- Plugins
+	- [Plugins guide](https://vuejs.org/v2/guide/plugins.html) on Vue docs. See topics like routing, state-management and serve-side rendering.
+	- [Vuex](https://vuex.vuejs.org/)
+		- For storing and managing state. Similar to Flux or Redux of React.
+
 	
 ### Hello world
 
@@ -255,6 +260,23 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
 </html>
 ```
+
+### CLI
+
+You can build and run a Vue app without local dependencies - as Vue and plugins can be loaded in the browser.
+
+However, it is common to use the Vue CLI as it has a lot of features useful for development.
+
+- [Vue CLI](https://cli.vuejs.org/) homepage.
+
+Install this NPM package:
+
+```sh
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
 
 ## Redux
 
