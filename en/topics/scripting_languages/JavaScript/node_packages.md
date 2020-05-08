@@ -106,6 +106,24 @@ $ npm list -g --depth 0
 └── npx@10.2.0
 ```
 
+## CI
+
+NPM has a `ci` command, which is used in Github Actions.
+
+- [npm-ci](https://docs.npmjs.com/cli/ci.html)
+    > Install a project with a clean slate
+
+Example steps from the Github Actions sample workflow:
+
+```yaml
+    steps:
+    # ...
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
+```
+
+
 ## Yarn
 
 ### Features
@@ -123,7 +141,6 @@ Yarn is built on NPM so mostly you can treat it the same.
 - It uses the same `package.json` as NPM.
 - Uses `yarn.lock` instead of `package.lock.json`.
 - Familiar NPM commands like `install` and `start` still work.
-
 
 ### Resources
 
