@@ -110,16 +110,17 @@ Follow this [install guide](https://golang.org/doc/install#install) from the Go 
         - e.g. `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
     1. Download.
         ```sh
-        $ cd /usr/local && wget URL
-        $ # OR
-        $ tar -C /usr/local -xzf URL
+        $ cd ~/Downloads
+        $ wget URL
+        $ # Note root access is needed.
+        $ sudo tar -C /usr/local -xzf FILENAME
         ```
     1. Setup path in `.profile`.
         ```sh
         export PATH=/usr/local/go/bin
         ```
 - macOS
-    - Install with Brew.
+    1. Install with [Brew](https://brew.sh/).
         ```sh
         brew install go
         ```
@@ -157,6 +158,7 @@ $ go build
 $ ./hello
 Hello, world!
 ```
+
 
 ## Packages
 
