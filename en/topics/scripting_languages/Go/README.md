@@ -96,9 +96,53 @@ A task does not have to be finished before going to the next one - the program c
     * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
 - [Go category on Rosetta code](http://rosettacode.org/wiki/Category:Go)
 
+
 ## Installation
 
-To install Go on your operating system, follow this [install guide](https://golang.org/doc/install#install) from the Go docs.
+### Install Go
+
+Follow this [install guide](https://golang.org/doc/install#install) from the Go docs.
+
+
+- Debian/Ubuntu
+    1. Get download URL from [Downloads](https://golang.org/dl/) page.
+        - Pattern `go$VERSION.$OS-$ARCH.tar.gz`
+        - e.g. `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
+    1. Download.
+        ```sh
+        $ cd /usr/local && wget URL
+        $ # OR
+        $ tar -C /usr/local -xzf URL
+        ```
+    1. Setup path in `.profile`.
+        ```sh
+        export PATH=/usr/local/go/bin
+        ```
+- macOS
+    - Install with Brew.
+        ```sh
+        brew install go
+        ```
+
+
+Setup access to user-level packages by updating the profile config (`.bash_profile` or `.profile`.)
+
+```sh
+export PATH=${HOME}/go/bin:$PATH
+```
+
+
+### Test it
+
+```sh
+$ go env
+$ go version
+```
+
+### Install extra versions
+
+See [doc](https://golang.org/doc/install#extra_versions).
+
 
 ## Run
 
