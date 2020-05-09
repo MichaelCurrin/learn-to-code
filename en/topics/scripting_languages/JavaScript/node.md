@@ -15,38 +15,10 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 
 ## Install
 
-Install NodeJS for your operating system using a package manager. 
+Install NodeJS using this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
 
-_Note this will install both NodeJS and [NPM (Node Package Manager)](node_packages.md#npm)._
+See also [NPM (Node Package Manager)](node_packages.md#npm) guide.
 
-### Linux
-
-```sh
-$ sudo apt install nodejs
-```
-
-### macOS
-
-```sh
-$ brew install nodejs
-```
-
-### Windows
-
-Download and run the Windows installer from the [Download](https://nodejs.org/en/download/) page.
-
-## Check version
-
-Check what version was installed.
-
-```sh
-$ node --version
-```
-
-Example output:
-```
-13.1.0
-```
 
 ## Run
 > How to run NodeJS code
