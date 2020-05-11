@@ -160,7 +160,7 @@ Yarn è costruito su NPM, quindi per lo più puoi trattarlo allo stesso modo.
     - [Perché e come migrare da NPM a YARN](https://waverleysoftware.com/blog/yarn-vs-npm/)
 
 
-## CI
+### Yarn CI
 
 [Github Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
 
