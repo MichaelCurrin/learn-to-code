@@ -74,7 +74,7 @@ $ chmod +x hello_executable.js
 
 Then run it:
 
-```
+```sh
 ./hello_executable.js
 ```
 
