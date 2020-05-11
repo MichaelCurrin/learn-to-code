@@ -48,7 +48,7 @@ Per un'installazione globale, questo è qui sui sistemi Unix:
 
 Puoi verificarlo con il comando `root`.
 
-```
+```sh
 # Progetto
 npm root
 
