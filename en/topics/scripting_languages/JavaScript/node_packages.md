@@ -24,6 +24,10 @@ Node comes with the `npm` command.
 
 See also my [NPM cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/package_managers/npm.md) if you are already familiar with NPM.
 
+### Install NPM
+
+See my [How to install Node.js and NPM](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba) gist.
+
 ### Initialize
 
 Before you can install packages in a project, you need a `package.json` file.
@@ -48,7 +52,7 @@ For a global install, this is here on Unix systems:
 
 You can check this with the `root` command.
 
-```
+```sh
 # Project
 npm root
 
@@ -56,7 +60,7 @@ npm root
 npm root -g
 ```
 
-### Project install
+### Install node packages for project
 
 If install in a project, add that directory to your `.gitignore` file.
 
@@ -80,7 +84,7 @@ $ npm list --depth=0
 
 The depth limits showing subdepedencies and so makes the output shorter.
 
-### Global install
+### Install node packages globally
 
 Install a package globally, so that is available from any directory. Note that if you run a project on another machine, then that package might not be available, so typically on a few packages should be installed globally.
 
@@ -148,6 +152,10 @@ Yarn is built on NPM so mostly you can treat it the same.
 - It uses the same `package.json` as NPM.
 - Uses `yarn.lock` instead of `package.lock.json`.
 - Familiar NPM commands like `install` and `start` still work.
+
+### Install Yarn
+
+Follow my [Install Yarn](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee81449eb77375fcb) gist.
 
 ### Resources
 
