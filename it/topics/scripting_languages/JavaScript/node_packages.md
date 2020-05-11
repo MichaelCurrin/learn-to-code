@@ -63,11 +63,11 @@ Se installato in un progetto, aggiungi quella directory al tuo file `.gitignore`
 Installa i pacchetti nel progetto corrente - se ometti un nome di pacchetto qui, allora deve esistere il file `package.json`.
 
 ```sh
-$ npm installa
+$ npm install
 ```
 
 ```sh
-$ npm installa PACKAGE_NAME
+$ npm install PACKAGE_NAME
 ```
 
 Se vuoi aggiornare il file `package.json`, usa i flag` --save` o `--save-dev`.
@@ -75,7 +75,7 @@ Se vuoi aggiornare il file `package.json`, usa i flag` --save` o `--save-dev`.
 Elenca i pacchetti installati:
 
 ```sh
-$ npm list --depth = 0
+$ npm list --depth=0
 ```
 
 I limiti di profondità che mostrano le dipendenze secondarie riducono così l'output.
@@ -85,13 +85,13 @@ I limiti di profondità che mostrano le dipendenze secondarie riducono così l'o
 Installa un pacchetto a livello globale, in modo che sia disponibile da qualsiasi directory. Si noti che se si esegue un progetto su un altro computer, quel pacchetto potrebbe non essere disponibile, quindi in genere su alcuni pacchetti dovrebbe essere installato a livello globale.
 
 ```sh
-$ npm installa -g PACCHETTO
+$ npm install -g PACCHETTO
 ```
 
 Visualizza i pacchetti installati a livello globale.
 
 ```sh
-Elenco $ npm
+$ npm list
 ```
 
 È molto dettagliato, quindi prova questo, basato su [post](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
@@ -118,11 +118,11 @@ NPM ha un comando `ci`, che viene usato in Github Actions.
 Passaggi di esempio dal flusso di lavoro di esempio di azioni Github:
 
 ```yaml
-    passaggi:
+      steps:
     # ...
-    - esegui: npm ci
+    - run: npm ci
     - run: npm run build --if-present
-    - esegui: test npm
+    - run: npm test
 ```
 
 
@@ -144,7 +144,7 @@ Azioni Github: [Setup Node.js Environment](https://github.com/marketplace/action
 
 Yarn è costruito su NPM, quindi per lo più puoi trattarlo allo stesso modo.
 
-- Richiede il comando `Yarn` per essere installato a livello globale o nel progetto, usando NPM.
+- Richiede il comando `yarn` per essere installato a livello globale o nel progetto, usando NPM.
 - Utilizza lo stesso `package.json` di NPM.
 - Usa `yarn.lock` invece di` package.lock.json`.
 - I comandi NPM familiari come `install` e` start` funzionano ancora.
@@ -196,7 +196,7 @@ Ad esempio, qui installo una nuova versione di Node, senza specificare la versio
 
 ```sh
 $ nvm install 13
-Download e installazione di Node v13.11.0...
+Downloading and installing node v13.11.0...
 ...
 $ nvm use 13
 ```
