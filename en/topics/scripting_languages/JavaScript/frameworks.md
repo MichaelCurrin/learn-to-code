@@ -115,6 +115,7 @@ export default class HelloWorldApp extends Component {
 }
 ```
 
+
 ## Electron
 
 - [Official homepage](https://www.electronjs.org/)
@@ -278,9 +279,21 @@ yarn global add @vue/cli
 ```
 
 
+## Vue Native
+
+- [vue-native.io/](https://vue-native.io/) homepage
+
+
+## Vuex
+
+Sate management for Vue, using a central store.
+
+- [vuex.vuejs.org/](https://vuex.vuejs.org/) homepage
+
+
 ## Redux
 
-A predictable state container for JavaScript apps.
+A predictable state container for JavaScript apps - typically used for React.
 
 > Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly. [source](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
 
@@ -330,3 +343,16 @@ store.dispatch({ type: 'INCREMENT' })
 store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
+
+
+## Flux
+
+
+> - What is Flux?
+> 	- Flux is the application architecture that Facebook uses for building client-side web applications.
+> - What does it do?
+> 	- It complements React's composable view components by utilizing a unidirectional data flow.
+> - How do I use it?
+>	- It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.
+
+- [facebook.github.io/flux/](https://facebook.github.io/flux/) homepage
