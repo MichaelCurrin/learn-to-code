@@ -30,7 +30,7 @@ Prima di poter installare i pacchetti in un progetto, è necessario un file `pac
 
 Se non ne hai uno, esegui questo:
 
-```Sh
+```sh
 $ npm init
 ```
 
