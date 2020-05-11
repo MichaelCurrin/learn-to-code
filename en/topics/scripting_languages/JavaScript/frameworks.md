@@ -356,3 +356,7 @@ store.dispatch({ type: 'DECREMENT' })
 >	- It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.
 
 - [facebook.github.io/flux/](https://facebook.github.io/flux/) homepage
+	> Application architecture for building user interfaces
+- Posts
+	- [Getting To Know Flux, the React.js Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
+		> Flux is an architecture that Facebook uses internally when working with React. It is not a framework or a library. It is simply a new kind of architecture that complements React and the concept of Unidirectional Data Flow.
