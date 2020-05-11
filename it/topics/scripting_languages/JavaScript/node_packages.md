@@ -176,7 +176,7 @@ Questo non sostituisce `npm` ma consente di alternare tra le versioni di` npm`. 
 Se si esegue `npm install PACKAGE` con una determinata versione, i pacchetti andranno qui per esempio (sui sistemi Unix).
 
 ```
-~/.Nvm/version/node/v8.9.0/lib/node_modules
+~/.nvm/version/node/v8.9.0/lib/node_modules
 ```
 
 ### Impostare
