@@ -96,7 +96,7 @@ Elenco $ npm
 
 È molto dettagliato, quindi prova questo, basato su [post](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
 
-`` `Sh
+```Sh
 $ npm list -g --depth 0
 ├── bower@1.8.8
 ├── bower-away@1.1.2
@@ -105,7 +105,7 @@ $ npm list -g --depth 0
 ├── http-server@0.11.1
 ├── npm@6.9.0
 └── npx@10.2.0
-`` `
+```
 
 
 ### CI
@@ -120,7 +120,7 @@ Passaggi di esempio dal flusso di lavoro di esempio di azioni Github:
 ```Yaml
     passaggi:
     # ...
-    - corsa: npm ci
+    - esegui: npm ci
     - run: npm run build --if-present
     - esegui: test npm
 ```
@@ -176,7 +176,7 @@ Questo non sostituisce `npm` ma consente di alternare tra le versioni di` npm`. 
 Se si esegue `npm install PACKAGE` con una determinata versione, i pacchetti andranno qui per esempio (sui sistemi Unix).
 
 ```
-~ / .Nvm / versioni / node / v8.9.0 / lib / node_modules
+~/.Nvm/version/node/v8.9.0/lib/node_modules
 ```
 
 ### Impostare
