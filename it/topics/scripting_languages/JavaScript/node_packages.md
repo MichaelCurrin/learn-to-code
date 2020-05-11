@@ -85,7 +85,7 @@ I limiti di profondità che mostrano le dipendenze secondarie riducono così l'o
 Installa un pacchetto a livello globale, in modo che sia disponibile da qualsiasi directory. Si noti che se si esegue un progetto su un altro computer, quel pacchetto potrebbe non essere disponibile, quindi in genere su alcuni pacchetti dovrebbe essere installato a livello globale.
 
 ```sh
-$ npm install -g PACCHETTO
+$ npm install -g PACKAGE
 ```
 
 Visualizza i pacchetti installati a livello globale.
