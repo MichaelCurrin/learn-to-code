@@ -174,6 +174,8 @@ If you package manager does not support the latest version, you can dowload the 
 
 For managing multiple versions of Python which are all installed but don't conflict, I recommend **PyEnv**.
 
+_Not to be confused with **pyvenv** which shows a deprecated message when used in PY3_.
+
 **macOS Catalina note**
 
 - You are now unable to make changes to the system Python 2 (in order to use `pip` or `virtualenv`).
