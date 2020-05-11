@@ -62,11 +62,11 @@ Se installato in un progetto, aggiungi quella directory al tuo file `.gitignore`
 
 Installa i pacchetti nel progetto corrente - se ometti un nome di pacchetto qui, allora deve esistere il file `package.json`.
 
-```Sh
+```sh
 $ npm installa
 ```
 
-```Sh
+```sh
 $ npm installa PACKAGE_NAME
 ```
 
@@ -74,7 +74,7 @@ Se vuoi aggiornare il file `package.json`, usa i flag` --save` o `--save-dev`.
 
 Elenca i pacchetti installati:
 
-```Sh
+```sh
 $ npm list --depth = 0
 ```
 
@@ -84,19 +84,19 @@ I limiti di profondità che mostrano le dipendenze secondarie riducono così l'o
 
 Installa un pacchetto a livello globale, in modo che sia disponibile da qualsiasi directory. Si noti che se si esegue un progetto su un altro computer, quel pacchetto potrebbe non essere disponibile, quindi in genere su alcuni pacchetti dovrebbe essere installato a livello globale.
 
-```Sh
+```sh
 $ npm installa -g PACCHETTO
 ```
 
 Visualizza i pacchetti installati a livello globale.
 
-```Sh
+```sh
 Elenco $ npm
 ```
 
 È molto dettagliato, quindi prova questo, basato su [post](https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0)
 
-```Sh
+```sh
 $ npm list -g --depth 0
 ├── bower@1.8.8
 ├── bower-away@1.1.2
@@ -117,7 +117,7 @@ NPM ha un comando `ci`, che viene usato in Github Actions.
 
 Passaggi di esempio dal flusso di lavoro di esempio di azioni Github:
 
-```Yaml
+```yaml
     passaggi:
     # ...
     - esegui: npm ci
@@ -194,7 +194,7 @@ Dopo l'installazione, è possibile utilizzarlo per installare e passare a una ve
 
 Ad esempio, qui installo una nuova versione di Node, senza specificare la versione completa.
 
-```Sh
+```sh
 $ nvm install 13
 Download e installazione di Node v13.11.0...
 ...
@@ -212,7 +212,7 @@ Visualizza le versioni disponibili:
         v11.0.0
         v12.1.0
  ->    v13.11.0
-         sistema
+         system
  ```   
 
 È possibile passare dalla versione al terminale e impostare un valore predefinito globale.
