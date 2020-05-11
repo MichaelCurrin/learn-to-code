@@ -5,10 +5,11 @@ See the folders in this repo to learn about a specific language.
 
 Some highlights:
 
-- Scripting with older languages
+- Scripting with older languages (pre-2000)
 	- [JavaScript](scripting_languages/JavaScript)
 	- [Python](scripting_languages/Python)
-- Scripting with newer languages
+	- [Ruby](scripting_languages/Ruby)
+- Scripting with modern languages (post-2000s)
 	- [Dart](scripting_languages/Dart)
 	- [Rust](scripting_languages/Rust)
 	- [Go](scripting_languages/Go)
