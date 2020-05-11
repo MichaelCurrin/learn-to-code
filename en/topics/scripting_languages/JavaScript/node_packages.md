@@ -112,7 +112,7 @@ $ npm list -g --depth 0
 ```
 
 
-### CI
+### NPM CI
 
 NPM has a `ci` command, which is used in Github Actions.
 
@@ -168,7 +168,7 @@ Follow my [Install Yarn](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee
     - [Why and how to migrate from NPM to YARN](https://waverleysoftware.com/blog/yarn-vs-npm/)
 
 
-## CI
+### Yarn CI
 
 [Github Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
 
@@ -224,4 +224,3 @@ View available versions:
  ```   
 
 You can switch between version in the terminal and set a global default.
-
