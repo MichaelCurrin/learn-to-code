@@ -50,7 +50,7 @@ Puoi verificarlo con il comando `root`.
 
 ```
 # Progetto
-root npm
+npm root
 
 # Globale
 npm root -g
