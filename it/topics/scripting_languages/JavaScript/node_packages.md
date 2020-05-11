@@ -108,7 +108,7 @@ $ npm list -g --depth 0
 ```
 
 
-### CI
+### NPM CI
 
 NPM ha un comando `ci`, che viene usato in Github Actions.
 
