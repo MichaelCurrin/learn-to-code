@@ -9,7 +9,7 @@ aka "WASM"
   
  Used in:
   
-  - [Elm](../Elm/)
-  - [Rust](../Rust/)
-  - [Dart](../Dart/)
+- [Elm](../Elm/)
+- [Rust](../Rust/)
+- [Dart](../Dart/)
   
