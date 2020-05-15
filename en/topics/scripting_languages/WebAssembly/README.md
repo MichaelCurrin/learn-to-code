@@ -4,7 +4,9 @@
 
 Or "WASM" for short.
 
-A modern language which is great at high-performance operations in the browser without having to write JavaScript. You can code in another language and get Web Assembly as the output.
+- A modern language which is great at high-performance operations in the browser, without having to write JavaScript.
+- You can code in another language and get Web Assembly as the output. 
+- WebAssembly can be loaded as a module in the browser, so you can get the benefit of the performance without writing WebAssembly yourself.
 
 
 ## Resources
@@ -22,6 +24,7 @@ A modern language which is great at high-performance operations in the browser w
 	> WebAssembly is a new type of code that can be run in modern web browsers — it is a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++ and Rust with a compilation target so that they can run on the web.
 	> 
 	> It is also designed to run alongside JavaScript, allowing both to work together.
+
 
 Extensions:
 
