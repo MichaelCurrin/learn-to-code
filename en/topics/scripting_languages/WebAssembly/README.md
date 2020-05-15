@@ -109,7 +109,7 @@ Open in the browser:
 
 - [localhost:8080/hello.html](http://localhost:8080/hello.html)
 
-You should see `Hello, world!`.
+You should see `Hello, world!` printed to the Emscripten console.
 
 
 ## Run in container
