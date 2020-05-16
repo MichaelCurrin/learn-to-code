@@ -47,7 +47,7 @@ Estensioni:
 
 ## Usi
 
-Alcune linguaggi che producono WebAssembly::
+Alcune linguaggi che producono WebAssembly:
   
 - [Elm](../Elm/)
 - [Rust](../Rust/)
