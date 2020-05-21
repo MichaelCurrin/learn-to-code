@@ -10,14 +10,21 @@ Below are summaries of some popular JavaScript frameworks, including links and _
 
 ## React
 
-- React's purpose: Declaratively describer user interfacts and model the state of these interfaces.
+Why React?
+
+The main reason is that React has a declarative language to model UI and state.
+
+- React's purpose:
+	- Declaratively describe user interfaces (UI) and model the state of these interfaces.
+	- i.e. use it describe what a finished interface or state should look like and do and React will figure how to get to that.
+	- This saves developers at lot of time and as you don't have to check the state before making transaction-level adjustments.
 - It is used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA). 
 - This scales well for high volume traffic.
 - This works well for dynamic data such as reading or storing from a backend or database or querying other API services.
 - It is very popular (5th most starred JS library on Github) and used on major sites Facebook, Netflix, and Khan Academy.
 - React does not call itself a "framework" but just a "library". It is easy to extend, not opinionated and it is modular (you can use just a part you need without the whole thing).
 - React is a library for building _user interfaces_. If an environment such as the web browser can run plain JavaScript, then you can build an interface for it using React.
-- React syntax is declarative - use it describe what an interface should look like and do and React will figure how to do it by compiling to optimized low-level JavaScript code.
+- React will compiled to optimized low-level JavaScript code.
 - React is "just JavaScript" - yes you have to learn the React API but you can use plain JavaScript inside React and the result is JavaScript. i.e. After compiling to a build directory, you can serve the application _without_ React installed. And you don't have to load React on the browser side, just the bundled JavaScript file (webpack helps for this).
 
 ### Resources
