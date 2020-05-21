@@ -10,26 +10,21 @@ Below are summaries of popular JavaScript frameworks with links and hello world 
 
 ## React
 
-Used to develop a dynamic user interface so the DOM is built on the client side - a Single-Page Application (SPA). This scales well for high volume traffic.
+- Used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA). 
+- This scales well for high volume traffic.
+- This works well for dynamic data such as reading or storing from a backend or database or querying other API services.
+- It is very popular (5th most starred JS library on Github) and used on major sites Facebook, Netflix, and Khan Academy.
+- React is a library for building _user interfaces_. If an environment such as the web browser can run plain JavaScript, then you can build an interface for it using React.
+- React syntax is declaritive - use it describe what an interface should look like and do and React will figure how to do it.
 
-It is the very popular (5th most starred JS library on Github) and used on major sites Facebook, Netflix, and Khan Academy.
-
-On the Instagram site, you will find something like this on their HTML source:
-
-```html
-<div id="react-root">
-</div>
-```
-
-If you disable JavaScript and reload the page, you will only see the Instagram logo display, since everything else is rendered by JavaScript.
-
-### Links
+### Resources
 
 - [Official site](https://reactjs.org/).
     > A JavaScript library for building user interfaces
 - [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
 - [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
 - [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
+- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 - [Github repo](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
@@ -47,11 +42,25 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
     - [Scotch.io](https://scotch.io/) (free courses)
         - [Getting started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition?ref=home-start-here)
 
+### React root
+
+React runs off of a single `index.html` file with a `div` like this. Sometimes just `"root"`.
+
+```html
+<div id="react-root">
+</div>
+```
+
+On the Instagram site, you will find something like that on their HTML source:
+
+If you disable JavaScript and reload the page, you will only see the Instagram logo display, since everything else is rendered by JavaScript.
+
 
 ### Hello world
 
 ```html
-<div id="root"></div>
+<div id="root">
+</div>
 
 <script>
     ReactDOM.render(
@@ -60,6 +69,9 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
     );
 </script>
 ```
+
+That uses JSX syntax, so you'll need the React library and Babel internally to convert that to plain JavaScript and run it.
+
 
 ### Routing
 
