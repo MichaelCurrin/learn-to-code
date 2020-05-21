@@ -10,14 +10,20 @@ Below are summaries of some popular JavaScript frameworks, including links and _
 
 ## React
 
-Why React?
+### Why React?
 
 The main reason is that React has a declarative language to model UI and state.
 
-- React's purpose:
-	- Declaratively describe user interfaces (UI) and model the state of these interfaces.
-	- i.e. use it describe what a finished interface or state should look like and do and React will figure how to get to that.
-	- This saves developers at lot of time and as you don't have to check the state before making transaction-level adjustments.
+React's purpose:
+
+- Declaratively describe user interfaces (UI) and model the state of these interfaces.
+- i.e. use it describe what a finished interface or state should look like and do and React will figure how to get to that.
+- This saves developers at lot of time and as you don't have to check the state before making transaction-level adjustments.
+
+See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
+
+### Info about React
+
 - It is used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA). 
 - This scales well for high volume traffic.
 - This works well for dynamic data such as reading or storing from a backend or database or querying other API services.
@@ -29,17 +35,20 @@ The main reason is that React has a declarative language to model UI and state.
 
 ### Resources
 
-- [Official site](https://reactjs.org/).
-    > A JavaScript library for building user interfaces
-- Official tutorials and guides
-	- [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
-	- [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
-	- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
-	- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+- React official site
+	- [reactjs.org homepage](https://reactjs.org/).
+	    > A JavaScript library for building user interfaces
+	- Tutorials and guides
+		- [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
+		- [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
+		- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
+		- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 - [Github repo: facebook/react](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [NPM package: react](https://www.npmjs.com/package/react)
-- [Styled components](https://styled-components.com/docs) website - guide to style your React.js apps without stress.
+- Tutorials
+	- [Styled components](https://styled-components.com/docs) website - guide to style your React.js apps without stress.
+	- [Reaxt Beyond The Basics](https://jscomplete.com/learn/react-beyond-basics/introduction). Note "React Commonly Faced Problems" section if you are a beginner struggling with the JavaScript syntax.
 - Courses
     - [Egghead](https://egghead.io/)
         - [React](https://egghead.io/browse/frameworks/react) courses.
