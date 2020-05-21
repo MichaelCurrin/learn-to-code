@@ -5,7 +5,7 @@ Javascript framework are libraries (usually available as _npm_ packages) let you
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
 
-Below are summaries of popular JavaScript frameworks with links and hello world code snippets. The focus of this list is on frameworks for building web apps, on the frontend (client-side rendering) or backend (server-sider rendering).
+Below are summaries of some popular JavaScript frameworks, including links and _hello world_ code snippets. The focus of this list is on frameworks for building web apps, both on the frontend (client-side rendering) and backend (server-sider rendering).
 
 
 ## React
@@ -21,13 +21,15 @@ Below are summaries of popular JavaScript frameworks with links and hello world 
 
 - [Official site](https://reactjs.org/).
     > A JavaScript library for building user interfaces
-- [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
-- [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
-- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
-- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Github repo](https://github.com/facebook/react).
+- Official tutorials and guides
+	- [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
+	- [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
+	- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
+	- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [Github repo: facebook/react](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
-- [Styled components](https://styled-components.com/docs) - style your React.js apps without stress.
+- [NPM package: react](https://www.npmjs.com/package/react)
+- [Styled components](https://styled-components.com/docs) website - guide to style your React.js apps without stress.
 - Courses
     - [Egghead](https://egghead.io/)
         - [React](https://egghead.io/browse/frameworks/react) courses.
@@ -41,6 +43,7 @@ Below are summaries of popular JavaScript frameworks with links and hello world 
         - [Advanced React.js](https://app.pluralsight.com/library/courses/reactjs-advanced/table-of-contents)
     - [Scotch.io](https://scotch.io/) (free courses)
         - [Getting started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition?ref=home-start-here)
+
 
 ### React root
 
