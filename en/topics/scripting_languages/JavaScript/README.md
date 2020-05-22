@@ -1,4 +1,5 @@
 # JavaScript
+> aka "JS" or "ECMAScript"
 
 This section of the guide is aimed at JavaScript beginners or experienced devs looking for more details. 
 
