@@ -126,7 +126,10 @@ Note that you cannot simply open an HTML page in your browser without a server f
         - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
     - https://egghead.io
     - https://frontendmasters.com
-    - https://pluralsite.com
+        > Frontend Masters — Learn JavaScript, React, Vue & Angular ...
+    - PluralSight
+        - https://www.pluralsight.com/browse/software-development/javascript
+        - https://www.pluralsight.com/paths/node-js
 - Online IDE
     - [Runkit](https://runkit.com/home)
       > Runkit is a node playground in your browser.
@@ -216,6 +219,7 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
 ### Frameworks
 
 See [JS Frameworks](frameworks.md) doc in this project for frontend and backend JS frameworks.
+
 
 ## CDNs
 
