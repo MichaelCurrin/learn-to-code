@@ -1,5 +1,8 @@
 # JavaScript
 
+This section of the guide is aimed at beginners or a experience devs looking for more details. The material in this page and directory is to help you understand browser JS, command-line JS ("Node.js"), managing Node packages and some info on popular frameworks. Also I provide some links to tutorials and courses. 
+
+
 - [What is JavaScript?](#what-is-javascript)
     - [What can you do with JavaScript?](#what-can-you-do-with-javascript)
     - [Why learn JavaScript - 5 good reasons](#why-learn-javascript---5-good-reasons)
@@ -112,7 +115,7 @@ Note that you cannot simply open an HTML page in your browser without a server f
     - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools.
     - Mozilla docs
         - [Tutorials](https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials). See also on that page _Tools and resources_.
-        - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). This starts with the basics.
+        - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). This starts with the basics and is a good reminder for experienced devs as well.
 - Docs
     - [JavaScript](https://devdocs.io/javascript/) docs on [devdocs.io](https://devdocs.io/).
     - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) docs on [developer.mozilla.org](https://developer.mozilla.org/). Includes guides for beginner, intermediate and advanced users and also function references.
@@ -121,6 +124,9 @@ Note that you cannot simply open an HTML page in your browser without a server f
 - Courses
     - [Scotch.io](https://scotch.io)
         - [Getting Start with JavaScript](https://scotch.io/courses/getting-started-with-javascript-for-web-development?ref=home-start-here)
+    - https://egghead.io
+    - https://frontendmasters.com
+    - https://pluralsite.com
 - Online IDE
     - [Runkit](https://runkit.com/home)
       > Runkit is a node playground in your browser.
