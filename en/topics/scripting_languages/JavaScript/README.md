@@ -42,7 +42,7 @@ JavaScript's origins are covered [here](https://developer.mozilla.org/en-US/docs
 
 ### What can you do with JavaScript?
 
-Here are some typical cases for JavaScript. Some are in the browser, some are on the server side, some are mix of both.
+Here are some typical cases for JavaScript. Some are in the browser, some are on the server side, some are a mix of both.
 
 - make a webpage dynamic (fetching and load data, add validation and transitions)
 - single-page application
@@ -54,6 +54,7 @@ Here are some typical cases for JavaScript. Some are in the browser, some are on
 - web scraping
 - automation (fetching, transforming and exporting CSV, JSON or database data)
 
+You can also do all of those things with Python, PHP, Ruby and so on. A language is just a way of telling the computer what to do. Though JavaScript is often the preferred language for web apps especially where dynamic content and interactivity without page loads is important. Also don't neglect learning CSS and HTML - make sure you're a well-rounded web developer.
 
 ### Why learn JavaScript - 5 good reasons
 
