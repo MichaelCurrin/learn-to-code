@@ -1,6 +1,6 @@
 # JS Frameworks
 
-Javascript framework are libraries (usually available as _npm_ packages) let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
+Javascript frameworks are libraries (usually available as _npm_ packages) that let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
 
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
