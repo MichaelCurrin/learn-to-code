@@ -1,6 +1,8 @@
 # JavaScript
 
-This section of the guide is aimed at beginners or a experience devs looking for more details. The material in this page and directory is to help you understand browser JS, command-line JS ("Node.js"), managing Node packages and some info on popular frameworks. Also I provide some links to tutorials and courses. 
+This section of the guide is aimed at JavaScript beginners or experienced devs looking for more details. 
+
+The material in this page and directory is to help you understand the motivation for learning JavaScript, how to run browser-based JS, how to install and run command-line JS ("Node.js"), how to manage Node packages and some info on popular frameworks. Also I provide some links to tutorials and courses. 
 
 
 - [What is JavaScript?](#what-is-javascript)
@@ -20,6 +22,7 @@ This section of the guide is aimed at beginners or a experience devs looking for
     - [Dataviz libraries](#dataviz-libraries)
     - [Frameworks](#frameworks)
 - [CDNs](#cdns)
+
 
 ## What is JavaScript?
 
@@ -79,6 +82,7 @@ If you want to run JavaScript in the command-line, see these docs:
 
 - [Node](node.md)
 - [Node packages](node_packages.md) - covers NPM and NVM.
+
 
 ## Run project files
 
@@ -226,8 +230,8 @@ See [JS Frameworks](frameworks.md) doc in this project for frontend and backend 
 Content Delivery Networks ([Wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network)) where libraries can be downloaded.
 
 - CloudFare
-    - Homepage [cdnjs.com/](https://cdnjs.com/)
+    - Homepage [cdnjs.com](https://cdnjs.com/)
     - e.g. [cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js)
 - Unpkg
-    - Homepage [unpkg.com/](https://unpkg.com/)
+    - Homepage [unpkg.com](https://unpkg.com/)
     - e.g. [unpkg.com/jquery@3.4.1/dist/jquery.js](https://unpkg.com/jquery@3.4.1/dist/jquery.js)
