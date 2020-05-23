@@ -13,6 +13,9 @@
     - [docs.docker.com](https://docs.docker.com/) homepage
     - [Download and install](https://docs.docker.com/get-docker/) guide.
     - [Samples](https://docs.docker.com/samples/)
+    - References
+        - [Build](https://docs.docker.com/engine/reference/commandline/build/)
+        - [CMD](https://docs.docker.com/engine/reference/builder/#cmd)
 - Find images
     - Docker hub
         - [https://hub.docker.com/](https://hub.docker.com/)
@@ -24,6 +27,7 @@
 - Tutorials
     - Youtube video: [you need to learn Docker RIGHT NOW!! // Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
     - [Docker for beginners](https://github.com/docker/labs/tree/master/beginner/) (found through Docker docs)
+    - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
         
 
 See also my own project with setup intructions, commands to run and sample projects.
