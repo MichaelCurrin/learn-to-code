@@ -14,8 +14,8 @@ See also my [Container cheatsheets](https://github.com/MichaelCurrin/cheatsheets
         > Docker: Empowering App Development for Developers
 - Docker docs
     - [docs.docker.com](https://docs.docker.com/)
-- Videos
-    - [you need to learn Docker RIGHT NOW!! // Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
+- Tutorials
+    - Youtube video: [you need to learn Docker RIGHT NOW!! // Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
 
 
 ## Kubernetes
