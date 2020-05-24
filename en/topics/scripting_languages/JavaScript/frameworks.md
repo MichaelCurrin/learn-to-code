@@ -381,6 +381,7 @@ store.dispatch({ type: 'DECREMENT' })
 
 ## Flux
 
+From the homepage:
 
 > - What is Flux?
 > 	- Flux is the application architecture that Facebook uses for building client-side web applications.
