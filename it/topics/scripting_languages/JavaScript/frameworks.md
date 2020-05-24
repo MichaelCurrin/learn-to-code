@@ -36,7 +36,7 @@ Vedi [Perchè React?](https://jscomplete.com/learn/why-react) sul sito JSComplet
 ### Risorse
 
 - React sito ufficiale
-- [homepage di Reactjs.org](https://reactjs.org/).
+	- [homepage di Reactjs.org](https://reactjs.org/).
 > Una libreria JavaScript per la creazione di interfacce utente
 - Tutorial e guide
 - Tutorial [Intro to React](https://reactjs.org/tutorial/tutorial.html).
