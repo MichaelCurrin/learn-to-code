@@ -30,7 +30,7 @@ Vedi [Perchè React?](https://jscomplete.com/learn/why-react) sul sito JSComplet
 - React non si definisce un "framework" ma solo una "libreria". È facile da estendere, non supponente ed è modulare (puoi usare solo una parte di cui hai bisogno senza tutto).
 - React è una libreria per la creazione di _user interfaces_. Se un ambiente come il browser Web può eseguire JavaScript semplice, è possibile creare un'interfaccia per esso utilizzando React.
 - React verrà compilato in codice JavaScript di basso livello ottimizzato.
-- React è "solo JavaScript" - sì, devi imparare l'API React ma puoi usare JavaScript semplice all'interno di React e il risultato è JavaScript. vale a dire dopo aver compilato in una directory di build, è possibile servire l'applicazione _senza_Reagire installato. E non devi caricare React sul lato browser, ma solo il file JavaScript in bundle (webpack aiuta a questo scopo).
+- React è "solo JavaScript" - sì, devi imparare l'API React ma puoi usare JavaScript semplice all'interno di React e il risultato è JavaScript. vale a dire dopo aver compilato in una directory di build, è possibile servire l'applicazione _senza_ React installato. E non devi caricare React sul lato browser, ma solo il file JavaScript in bundle (webpack aiuta a questo scopo).
 
 
 ### Risorse
@@ -386,7 +386,7 @@ store.dispatch({ type: 'DECREMENT' })
 > - Come lo uso?
 > - È più un modello piuttosto che un framework formale e puoi iniziare a usare Flux immediatamente senza molto nuovo codice.
 
-- [facebook.github.io/flux/×](https://facebook.github.io/flux/) homepage
+- [facebook.github.io/flux/](https://facebook.github.io/flux/) homepage
 > Architettura dell'applicazione per la creazione di interfacce utente
 - Messaggi
 - [Conoscere Flux, l'architettura React.js](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
