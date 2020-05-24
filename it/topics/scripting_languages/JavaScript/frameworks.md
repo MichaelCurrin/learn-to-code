@@ -38,11 +38,11 @@ Vedi [Perchè React?](https://jscomplete.com/learn/why-react) sul sito JSComplet
 - React sito ufficiale
 	- [homepage di Reactjs.org](https://reactjs.org/).
 	    > Una libreria JavaScript per la creazione di interfacce utente
-- Tutorial e guide
-- Tutorial [Intro to React](https://reactjs.org/tutorial/tutorial.html).
-- [Guida introduttiva](https://reactjs.org/docs/getting-started.html) guida all'installazione.
-- [Concetti principali](https://reactjs.org/docs/hello-world.html), a partire da Hello world.
-- [Presentazione di JSX](https://reactjs.org/docs/introducing-jsx.html)
+	- Tutorial e guide
+		- Tutorial [Introduzione a React](https://reactjs.org/tutorial/tutorial.html).
+		- [Guida introduttiva](https://reactjs.org/docs/getting-started.html) guida all'installazione.
+		- [Concetti principali](https://reactjs.org/docs/hello-world.html), a partire da Hello world.
+		- [Presentazione di JSX](https://reactjs.org/docs/introducing-jsx.html)
 - [Repository Github:facebook/react](https://github.com/facebook/react).
     > Una libreria JavaScript dichiarativa, efficiente e flessibile per la creazione di interfacce utente.
 - [Pacchetto NPM: react](https://www.npmjs.com/package/react)
@@ -389,5 +389,5 @@ store.dispatch({ type: 'DECREMENT' })
 - [facebook.github.io/flux/](https://facebook.github.io/flux/) homepage
 	> Architettura dell'applicazione per la creazione di interfacce utente
 - Messaggi
-- [Conoscere Flux, l'architettura React.js](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
-> Flux è un'architettura che Facebook utilizza internamente quando lavora con React. Non è un framework o una libreria. È semplicemente un nuovo tipo di architettura che integra React e il concetto di flusso di dati unidirezionale.
+	- [Conoscere Flux, l'architettura React.js](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
+		> Flux è un'architettura che Facebook utilizza internamente quando lavora con React. Non è un framework o una libreria. È semplicemente un nuovo tipo di architettura che integra React e il concetto di flusso di dati unidirezionale.
