@@ -272,7 +272,7 @@ Facoltativamente, verificare la presenza di pacchetti con un nome simile e versi
 $ conda search beautifulsoup4
 ```
 
-Installa un pacchetto, usando la versione opzionale. Vedi la documentazione[installa conda](https://docs.conda.io/projects/conda/en/latest/commands/install.html).
+Installa un pacchetto, usando la versione opzionale. Vedi la documentazione [installa conda](https://docs.conda.io/projects/conda/en/latest/commands/install.html).
 
 ```sh
 $ conda install beautifulsoup4
