@@ -69,7 +69,6 @@ Summarized from article [here](https://medium.com/duomly-blockchain-online-cours
 
 ## How to run
 
-
 ### Browser
 
 If you have a browser installed, then you can already run JavaScript through webpages which run scripts.
@@ -108,6 +107,7 @@ Start a web server in that directory or use VS Code's Live Server extensions.
 
 Note that you cannot simply open an HTML page in your browser without a server first, otherwise the JS will not run.
 
+
 ## Resources
 
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) on Wikipedia.
@@ -136,10 +136,13 @@ Note that you cannot simply open an HTML page in your browser without a server f
     - PluralSight
         - https://www.pluralsight.com/browse/software-development/javascript
         - https://www.pluralsight.com/paths/node-js
+- Videos
+    - [WellPaidGeek](https://www.youtube.com/channel/UCejtQthQXQpZs3-kZCqsbrg/videos) channel on Youtube - covers introductions Node, React, Express, etc. and topics like modern JS and imports.
 - Online IDE
     - [Runkit](https://runkit.com/home)
-      > Runkit is a node playground in your browser.
-      > ... you can require any npm package instantly.
+        > Runkit is a node playground in your browser.
+        >
+        > ... you can require any npm package instantly.
     - [NPM Runkit](https://npm.runkit.com/) e.g. https://npm.runkit.com/request
     - CodePen [JS Console](https://codepen.io/idesi/pen/rLgaJO) and existing [JavaScript-tagged pens](https://codepen.io/tag/javascript/).
 
