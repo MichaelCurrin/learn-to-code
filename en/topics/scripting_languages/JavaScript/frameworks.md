@@ -62,7 +62,8 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
         - [Advanced React.js](https://app.pluralsight.com/library/courses/reactjs-advanced/table-of-contents)
     - [Scotch.io](https://scotch.io/) (free courses)
         - [Getting started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition?ref=home-start-here)
-
+- Videos
+	- [Get started with React in under 10 minutes](https://youtu.be/K02AkMbV1HM) on Youtube.
 
 ### React root
 
@@ -99,7 +100,6 @@ That uses JSX syntax, so you'll need the React library and Babel internally to c
 
 If you add React Router library you can handle switching between browser paths easily. Here is a quickstart for that.
 
-
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
@@ -120,7 +120,13 @@ ReactDOM.render(
 
 ## React Native
 
-### Links
+Use a single JavaScript codebase that runs on Node and compiles to _native_ Android and iOS mobile apps, with great performance and native elements. And it also runs as a desktop web app.
+
+Knowing some React first course will make React Native easier.
+
+As an alternative, see the [Dart](/en/topics/scripting_languages/Dart) language (similar to JavaScript and created by Google), where the "Flutter" library is used to make native mobile apps.
+
+### Resources
 
 - [Official site](https://facebook.github.io/react-native/).
     > Create native apps for Android and iOS using React.
@@ -152,15 +158,41 @@ export default class HelloWorldApp extends Component {
 
 ## Electron
 
+Build a desktop apps with [Electron.js]((https://www.electronjs.org/).
+
+
+### What can I build with Electron?
+
+See the [10 Most Popular Electron Apps of 2019](https://wiredelta.com/10-most-popular-electron-apps-2019/).
+
+- Visual Studio Code (VS Code)
+- Slack
+- Tusk
+- Mailspring
+- Skype
+- Discord
+- Streamlabs OBS
+- WordPress Desktop
+- Atom (IDE)
+- WhatsApp desktop
+
+
+See the [apps](https://www.electronjs.org/apps) list on the Electron site where you can find those and hundreds more.
+
+### Resources
+
 - [Official homepage](https://www.electronjs.org/)
 	- > Build cross-platform desktop apps with JavaScript, HTML, and CSS
 	- > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 - [Wikipedia](https://en.wikipedia.org/wiki/Electron_(software_framework))
 	- > Electron is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies. It combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several notable open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, and WordPress Desktop.
+- Videos
+	- [What is Electron? The hard parts made easy](https://youtu.be/8YP_nOCO-4Q) on Youtube.
 
 
 ## Proton Native
 
+### Resources
 
  - [Official homepage](https://proton-native.js.org/#/)
 	 - >  Create desktop applications  through a React syntax, on all platforms.
@@ -230,7 +262,7 @@ A progressive framework for building user interfaces. It used for developing Sin
 > Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
 
 
-### Links
+### Resources
 
 - [Official site](https://vuejs.org)
 - [Installation](https://vuejs.org/v2/guide/installation.html)
@@ -256,7 +288,6 @@ A progressive framework for building user interfaces. It used for developing Sin
 	- [Plugins guide](https://vuejs.org/v2/guide/plugins.html) on Vue docs. See topics like routing, state-management and serve-side rendering.
 	- [Vuex](https://vuex.vuejs.org/)
 		- For storing and managing state. Similar to Flux or Redux of React.
-
 	
 ### Hello world
 
@@ -316,82 +347,3 @@ yarn global add @vue/cli
 ## Vue Native
 
 - [vue-native.io/](https://vue-native.io/) homepage
-
-
-## Vuex
-
-Sate management for Vue, using a central store.
-
-- [vuex.vuejs.org/](https://vuex.vuejs.org/) homepage
-
-
-## Redux
-
-A predictable state container for JavaScript apps - typically used for React.
-
-> Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly. [source](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
-
-> Redux is an open-source JavaScript library for managing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Andrew Clark. [source](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
-
-It is an application data-flow architecture, not a framework. Created in 2015, inspired by Facebook's Flux and functional programming language Elm.
-
-### Links
-
-- [Official homepage](https://redux.js.org/)
-    - [Getting started](https://redux.js.org/introduction/getting-started)
-    - [Examples](https://redux.js.org/introduction/examples)
-- [Docs](https://devdocs.io/redux/)
-- [Wikipedia](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
-- [An introduction to Redux](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
-- Blogs
-    - [Hello world in React-Redux](https://medium.com/@lavitr01051977/easy-redux-b29391b499cb) on Medium
-    - [Hello world in React Redux](https://riptutorial.com/react-redux/example/22907/hello-world-using-react-redux) from Rip Tutorial
-
-### Basic example
-
-```javascript
-import { createStore } from 'redux'
-
-/**
- * This is a reducer, a pure function with (state, action) => state signature.
- * It describes how an action transforms the state into the next state.
- */
-function counter(state = 0, action) {
-  switch (action.type) {
-    case 'INCREMENT':
-      return state + 1
-    case 'DECREMENT':
-      return state - 1
-    default:
-      return state
-  }
-}
-
-let store = createStore(counter)
-store.subscribe(() => console.log(store.getState()))
-// The only way to mutate the internal state is to dispatch an action.
-store.dispatch({ type: 'INCREMENT' })
-// 1
-store.dispatch({ type: 'INCREMENT' })
-// 2
-store.dispatch({ type: 'DECREMENT' })
-// 1
-```
-
-
-## Flux
-
-From the homepage:
-
-> - What is Flux?
-> 	- Flux is the application architecture that Facebook uses for building client-side web applications.
-> - What does it do?
-> 	- It complements React's composable view components by utilizing a unidirectional data flow.
-> - How do I use it?
->	- It's more of a pattern rather than a formal framework, and you can start using Flux immediately without a lot of new code.
-
-- [facebook.github.io/flux/](https://facebook.github.io/flux/) homepage
-	> Application architecture for building user interfaces
-- Posts
-	- [Getting To Know Flux, the React.js Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
-		> Flux is an architecture that Facebook uses internally when working with React. It is not a framework or a library. It is simply a new kind of architecture that complements React and the concept of Unidirectional Data Flow.
