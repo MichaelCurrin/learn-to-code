@@ -13,6 +13,20 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 - Initial release: 2009
 
 
+## Resources
+
+- Node docs
+    - [Node docs](https://nodejs.org/en/docs/) - see 3 main sections, listed below.
+        - [API](https://nodejs.org/api/)
+        - [ES6 features](https://nodejs.org/en/docs/es6/) aka "ECMAScript 2015 (ES6) and beyond"
+            > The ES6 section describes the three ES6 feature groups, and details which features are enabled by default in Node.js, alongside explanatory links. It also shows how to find which version of V8 shipped with a particular Node.js release.
+        - [Guides](https://nodejs.org/en/docs/guides/)
+            > The Guides section has long-form, in-depth articles about Node.js technical features and capabilities.
+- Tutorials
+    - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp) on W3 schools.
+    - [Node.js](https://www.w3schools.com/nodejs/default.asp) on W3 Schools
+    
+
 ## Install
 
 Install NodeJS using this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
