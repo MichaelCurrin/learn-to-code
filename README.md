@@ -12,6 +12,7 @@
 
 _Note: The Italian guide is incomplete and it can go out of date when changes are made to the English guide only._
 
+Jump straight to the [Scripting languages :gb:](/en/topics/scripting_languages/) section.
 
 ## Contributing
 
