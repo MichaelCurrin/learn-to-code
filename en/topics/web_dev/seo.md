@@ -14,11 +14,23 @@ Note these values are paths relative to root directory and include a forward-sla
 Example:
 
 ```
+# Private user content.
 User-agent: *
+Disallow: /profile/*/drafts
 
-Disallow: /profile/private
-Allow: /foo/*/bar
-Noindex: /search
+# Search result pages.
+User-agent: *
+Disallow: /search
+
+# This page redirects to / path.
+User-agent: *
+Noindex: /home
+
+# Sitemaps section.
+Sitemap: https://example.com/sitemaps/sitemap.xml
+Sitemap: https://example.com/sitemaps/sitemap-index-foo.xml
+Sitemap: https://example.com/sitemaps/sitemap-index-bar.xml
+Sitemap: https://example.com/sitemaps/sitemap-index-baz.xml
 ```
 
 There is a way to list multiple user-agents before a single disallow statement and this should work for Google. However, it is safer to keep a separate block for each user-agent to keep with the original standard, as stated on a Stack Overflow answer [here](https://stackoverflow.com/questions/20294485/is-it-possible-to-list-multiple-user-agents-in-one-line).
@@ -43,20 +55,89 @@ See [Sitemaps XML format](https://www.sitemaps.org/protocol.html).
 
 ### Example structure
 
+How to structure files on your site.
+
 ```
- # Allow/disallow rules and points to sitemap.xml and all sitemap-index-{area}.xml files.
+ # Allow/disallow rules and points to sitemap.xml and all sitemap-index-XXX.xml files.
 /robots.txt
-# Point to pages on site not covered by areas.
+
+# Pages on site not covered by foo, bar, etc.
 /sitemaps/sitemap.xml
- # Point to gz files for foo.
+
+# Point to gz files for foo.
 /sitemaps/sitemap-index-foo.xml
 # First page of foo. Limited by crawlers  to 50 000 URIs or 50MB.
 /sitemaps/sitemap-foo-001.xml.gz # Point to URIs in area A.
 # Second page.
 /sitemaps/sitemap-foo-002.xml.gz
-```
 
+# Repeat for foo as for baz.
+```
+ 
 ### Domains
 
 - *Protocol*. All URI listed in a sitemap file must match the  **protocol** of the host where the sitemap is served.
 - *Subdomains*. A sitemap may **not** include any reference to subdomains.
+
+
+### Samples
+
+`sitemap.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://example.com/</loc>
+        <lastmod>2020-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
+```
+
+`sitemap-index-foo.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <sitemap>
+        <loc>https://example.com/sitemaps/sitemap-foo-2020-03-01-001.xml.gz</loc>
+        <lastmod>2019-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+    </sitemap>
+
+    <!-- More xml.gz links here if we cannot fit them all in the previous link -->
+
+    <sitemap>
+        <loc>https://example.com/sitemaps/sitemap-foo-2020-03-01-002.xml.gz</loc>
+        <lastmod>2019-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+    </sitemap>
+
+</sitemapindex>
+```
+
+`sitemap-foo-001.xml`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://example.com/foo/1</loc>
+        </image:image>
+        <lastmod>2018-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- And so on -->
+
+</urlset>
+```
