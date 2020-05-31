@@ -17,6 +17,20 @@ Improve your coding skills in various languages by going through the content of 
 | 🌐 [Recommended](recommended.md)                  | External links I enjoy and would like share with others.                                                                                                                                                     |
 | 🗄️ [Data formats](data_formats.md)                | Guide to formats like CSV, JSON and XML.                                                                                                                                                                    |
 
+
+## Choose a focus direction
+
+It can feel overwhelming with everything out there to learn, so it helps to set a goal or mindset based on where you are now in your coding journey. 
+
+Ask yourself - "What is your top dev-related priority right now?"
+
+- Explore new topics
+- Stay sharp in familar topics
+- Get a new job
+- Become a full-time developer
+- General dev learning
+
+
 ## Who am I?
 
 Read more about my experience and history on my blog - [michaelcurrin.github.io/coding-blog](https://michaelcurrin.github.io/coding-blog/).
@@ -27,6 +41,3 @@ Read more about my experience and history on my blog - [michaelcurrin.github.io/
 If you want to contribute, I welcome any corrections or enhancements. 
 
 Fork the repo and make a Pull Request. See [Contributing](contributing.md) doc.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NzY4MjkxXX0=
--->
