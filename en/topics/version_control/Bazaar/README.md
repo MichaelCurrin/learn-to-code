@@ -28,3 +28,7 @@ bzr revert PATH
 
 bzr ignore 
 ```
+
+```sh
+bzr whoami --email
+```
