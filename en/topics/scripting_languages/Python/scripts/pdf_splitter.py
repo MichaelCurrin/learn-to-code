@@ -1,14 +1,16 @@
 #!/usr/bin/env python2
 """
-Reads PDFs in the parent directory, creates directories based on their names, splits the PDFs and exports the pages into directories based on the original filename.
+Reads PDFs in the parent directory, creates directories based on their
+names, splits the PDFs and exports the pages into directories based on the original filename.
 
 @Author: Michael Currin
 
 Inspired by: 
-- http://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
-- http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary/14364249#14364249
+    - http://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
+    - http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary/14364249#14364249
 """
 import os
+
 from pyPdf import PdfFileWriter, PdfFileReader
 
 # List all the filenames in the parent directory and filter to PDFs only.
