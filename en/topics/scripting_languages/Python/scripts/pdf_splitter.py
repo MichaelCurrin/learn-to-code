@@ -5,6 +5,9 @@ names, splits the PDFs and exports the pages into directories based on the origi
 
 @Author: Michael Currin
 
+Required:
+    - pip install pyPdf
+
 Inspired by: 
     - http://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
     - http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary/14364249#14364249
