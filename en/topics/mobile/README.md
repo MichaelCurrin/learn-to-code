@@ -8,12 +8,12 @@ If you are interested in mobile development, here is what you should know about 
 ### Native
 
 - Android development is based on one of these (or a mix)
-    - XML
-    - Java
-    - Kotlin (more modern and Google uses this rather than Java)
+    - [XML](Android-XML)
+    - [Java](/en/topics/scripting_languages/Java/)
+    - [Kotlin](Kotlin/) (more modern and Google uses this rather than Java)
 - iOS development is based on one of these:
-    - Objective-C
-    - Swift (more modern and replaces Objective-C)
+    - [Objective-C](https://en.wikipedia.org/wiki/Objective-C)
+    - [Swift](Swift/) (more modern and replaces Objective-C)
      
 ### Cross-platform
 
