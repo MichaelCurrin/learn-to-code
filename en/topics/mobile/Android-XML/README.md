@@ -1,4 +1,4 @@
-# Android
+# Android XML
 > How to write an Android app using XML
 
 Note that Java is not used in this section.
