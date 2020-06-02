@@ -5,10 +5,16 @@ This section covers managing your source code with a Version Control System (VCS
 This also allows you put your code online as a backup, for the public to see or for your team of developers in your organization to work on privately. While the tools used are based in the command-line, there are often web services, desktop applications and IDE extensions to make managing code easier.
 
 
+## Summary of git and Github
+
+> GitHub is an online service based on Git, a code versioning system developed by Linux creator Linus Torvalds. Git lets developers take snapshots of files in their software development projects, enabling them to revert their changes later or create different branches of a project for different people to work on. GitHub lets them ‘push’ copies of those repositories to its online service so that other developers can download (clone) and work on them too.
+
+
 ## Guides in this directory
 
 - [Git](Git/)
 - [Github](Github/)
+- [Bazaar](Bazaar/)
 
 
 ## Command-line VCS tools
