@@ -3,9 +3,7 @@
 
 ## Installation
 
-### Install MySQL
-
-#### Linux
+### Linux
 
 > With the release of Debian 9, MySQL was replaced with MariaDB as the default database system.
 
@@ -40,7 +38,7 @@ Install MySQL server (fails to install without the community server installed fi
 $ sudo apt install mysql-community-server mysql-server 
 ```
 
-#### macOS
+### macOS
 
 Follow the _mysqlclient-python_ [prerequisites](https://github.com/PyMySQL/mysqlclient-python#prerequisites) instructions first.
 
@@ -49,16 +47,14 @@ Follow the _mysqlclient-python_ [prerequisites](https://github.com/PyMySQL/mysql
 $ brew install mysql
 ```
 
-To have `launchd` start `mysql` now and on login:
+Run this to have `launchd` start `mysql` now and also when logging in.
 
 ```bash
 $ brew services start mysql
 ```
 
 
-
 ## Access root database
-
 
 Login as root database user.
 
@@ -76,9 +72,11 @@ Login as root database user.
 Check your databases and users at any time.
 
 ```sql
-SELECT host, user from mysql.user;
-SHOW DATABASES;
-SHOW GRANTS FOR 'bar'@'localhost';
+> SELECT host, user from mysql.user;
+
+> SHOW DATABASES;
+
+> SHOW GRANTS FOR 'bar'@'localhost';
 \q
 ```
 
