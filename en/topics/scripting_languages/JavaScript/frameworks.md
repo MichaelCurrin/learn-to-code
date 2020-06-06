@@ -105,7 +105,7 @@ If you add React Router library you can handle switching between browser paths e
 
 Here is a quickstart for that.
 
-```javascript
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
