@@ -1,5 +1,5 @@
 # Go
-> Guide to learning Go (aka Golang)
+> Guide to learning the Go programming language
 
 Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
 
