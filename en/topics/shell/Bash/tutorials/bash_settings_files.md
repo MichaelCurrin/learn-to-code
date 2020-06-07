@@ -24,7 +24,11 @@ From article [here](https://serverfault.com/questions/261802/what-are-the-functi
 
 ### When they are run
 
-The "profile" files are read for a login shell. Note that `.profile` will be skipped if `.bash_profile` exists.
+The "profile" files are read for a login shell.
+
+According to comment in `.profile` in Bash 5:
+
+> This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login exists.
 
 The RC file is for a subshell.
 
