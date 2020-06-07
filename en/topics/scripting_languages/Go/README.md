@@ -80,6 +80,7 @@ A task does not have to be finished before going to the next one - the program c
 - [Go Packages](https://golang.org/pkg/) index
 - Tutorials
     * [Go cheatsheet](https://devhints.io/go) on DevHints site.
+    * [Learn Go by Example](https://gobyexample.com/) site.
     * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
     * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
     * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
