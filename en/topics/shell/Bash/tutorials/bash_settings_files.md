@@ -2,18 +2,19 @@
 
 From article [here](https://serverfault.com/questions/261802/what-are-the-functional-differences-between-profile-bash-profile-and-bashrc).
 
+
 ## Terms
 
 - *login shell* - When you login with username and password directly on the machine or you connect remotely via SSH.
-- *subshell* - When you start a new shell process in the current shell. e.g. when you type `bash` or `/bin/bash` in the console.
+- *Subshell* - When you start a new shell process in the current shell. e.g. when you type `bash` or `/bin/bash` in the console.
 
 
 ## User files
 
 ### Purpose
 
-- `.profile` - One time setup for shell, not `bash` specific - this existed before bash. Contains environment variables like `PATH`.
 - `.bashrc` - Configure bash interactive shell usage.
+- `.profile` - One time setup for shell, not `bash` specific - this existed before bash. Contains environment variables like `PATH`.
 - `.bash_profile` - Can be used to load `.profile` and `.bashrc`.
     e.g.
     ```bash
@@ -21,13 +22,11 @@ From article [here](https://serverfault.com/questions/261802/what-are-the-functi
     . ~/.bashrc
     ```
 
-### Run condition
+### When they are run
 
-The profile files are read for a login shell. `.profile`, `.bash_profile`. 
+The "profile" files are read for a login shell. Note that `.profile` will be skipped if `.bash_profile` exists.
 
 The RC file is for a subshell.
-
-Mac terminal GUIs might use `.bash_profile` or `.bashrc`.
 
 
 ## Root files
