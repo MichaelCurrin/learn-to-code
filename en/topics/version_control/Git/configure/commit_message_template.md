@@ -1,8 +1,9 @@
 # Git commit message template
 
-Configure `git` to use a preset commit message in repo.
+Configure `git` to use a prefill a commit message specifically for a project. This is useful for including a Jira ticket number for example. This solution relies on functionality built into `git` and works well whether committing on the command-line or with an IDE (such as VS Code, which prefills the commit message field as soon as you finish a commit).
 
 See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-with-a-gitmessage-template).
+
 
 ## Setup
 
