@@ -8,13 +8,15 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 ### Create template
 
-Create a commit message template file named `_COMMIT_MESSAGE`. Add `.txt` if you want.
+Create a commit message template file named `_COMMIT_MESSAGE`. Add `.txt` extension if you want.
 
 For example, with a Jira ticket number used for the prefix:
 
 ```sh
 [ABC-123] 
 ```
+
+Alternatively you could use a branch name.
 
 Then use the command-line:
 
@@ -38,7 +40,7 @@ Edit the repos config.
 Either do it in one line.
 
 ```sh
-$ git config --local commit.template _COMMIT_MESSGE
+$ git config --local commit.template _COMMIT_MESSAGE
 ```
 
 Or, open the local config edit view.
@@ -51,7 +53,7 @@ Then set a config such as the following, using a tab for indentation.
 
 ```
 [commit]
-	template = _COMMIT_MESSGE
+	template = _COMMIT_MESSAGE
 ```
 
 ## Usage
