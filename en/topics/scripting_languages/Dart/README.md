@@ -7,6 +7,8 @@
 
 Dart is a multi-paradigm programming language which was developed by Google started in 2011. It lets you use a single codebaes to build a web app, desktop application and Android/iOS app. Its syntax is similar or C or JavaScript.
 
+I am interested in Dart as cross-platform way of building a mobile app and also a web app, however I am not planning to learn much more about it. As I've read it is a languaged backed mostly by Google and does well as a language for Flutter for mobile apps, but it is not catching on for web apps. React Native is a good alternative. Or Java/Kotlin for Android-only development. Note Android and Kotlin also come from Google, but are popular in the market and with developers.
+
 
 ## Resources
 
