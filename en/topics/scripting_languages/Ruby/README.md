@@ -36,6 +36,8 @@ Install Ruby using one of the commands below or follow this [installation guide]
 
 #### Debian/Ubuntu
 
+##### Install or upgrade Ruby
+
 Install.
 
 ```bash
