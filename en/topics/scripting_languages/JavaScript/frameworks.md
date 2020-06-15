@@ -64,7 +64,13 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
         - [Getting started with React](https://scotch.io/starters/react/getting-started-with-react-2019-edition?ref=home-start-here)
 - Videos
 	- [Get started with React in under 10 minutes](https://youtu.be/K02AkMbV1HM) on Youtube.
-
+- Extensions for VS Code
+	- [ReactJS snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+	- [React snippets](https://marketplace.visualstudio.com/items?itemName=ugross.vscode-react-snippets)
+	- [React snippet](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-react-snippet)
+	- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/itemdetails?itemName=dsznajder.es7-react-js-snippets)
+		- Featured in [The Best React Extension](https://scotch.io/tutorials/the-best-react-extension-for-vs-code) article on Scotch.io site.
+	
 ### React root
 
 React runs off of a single `index.html` file with a `div` like this. Sometimes just `"root"`.
