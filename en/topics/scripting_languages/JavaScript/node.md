@@ -1,7 +1,8 @@
 # NodeJS
 > Server-side JavaScript
 
-This guide covers how to install NodeJS and run NodeJS.
+This guide covers how to install and run NodeJS (aka "Node" or "Node.js").
+
 
 ## About
 
@@ -50,7 +51,7 @@ Type ".help" for more information.
 >
 ```
 
-Enter commands and press enter.
+Enter commands then press enter.
 
 For example:
 
@@ -58,7 +59,7 @@ For example:
 > console.log('Hello!');
 ```
 
-Press `CTRL`+`D` to exit the console.
+Press <kbd>CTRL</kdb>+<kbd>D</kbd> to exit the console.
 
 
 ### Run script with Node
