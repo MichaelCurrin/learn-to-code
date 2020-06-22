@@ -1,7 +1,7 @@
 # Other
 > Languages or tools I have heard about and am interested in
 
-### Deno
+## Deno
 
 - Name: Deno
 - Homepage: https://deno.land/
@@ -20,7 +20,7 @@ Pros:
 
 ---
 
-### Less
+## Less
 
 - Name: Less
 - Homepage: http://lesscss.org/
@@ -29,7 +29,7 @@ Pros:
 
 ---
 
-### SASS
+## SASS
 
 - Name: Sass (Sassy Cascading Style Sheets)
 - Homepage: https://sass-lang.com/
