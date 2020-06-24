@@ -6,6 +6,9 @@
 - Name: Deno
 - Homepage: https://deno.land/
 - Install: https://deno.land/#installation
+   ```sh
+   curl -fsSL https://deno.land/x/install/install.sh | sh
+   ```
 - Getting started: https://deno.land/#getting-started
 - Tagline:
     > A secure runtime for JavaScript and TypeScript.
