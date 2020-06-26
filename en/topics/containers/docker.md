@@ -33,3 +33,27 @@
 See also my own project with setup intructions, commands to run and sample projects.
 
 - [MichaelCurrin/docker-quickstart](https://github.com/MichaelCurrin/docker-quickstart)
+
+
+## Install Docker
+
+Go to the [Get Docker](https://docs.docker.com/get-docker/) page.
+
+You'll see links to instructions for macOS, Windows or Linux.
+
+### macOS
+
+To got this page:
+
+- [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
+
+For macOS there is a file to download from the browser. Drag the downloaded `Docker.app` to your _Applications_ as per the install instuctions and you'll get Docker app.
+
+This install includes the `docker` CLI and the Docker app - the latter docks as an icon at the top of the screen and allows functionality like signing into Docker hub, changing Kubernetes environment.
+
+### Linux
+
+Follow instructions here
+
+- [Debian](https://docs.docker.com/engine/install/debian/)
+- [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
