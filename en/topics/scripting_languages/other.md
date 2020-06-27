@@ -21,6 +21,9 @@ Pros:
 - includes a webpack bundling step
 - supports typescript out the box
 
+
+See my [Deno cheatsheet](https://github.com/MichaelCurrin/cheatsheets/tree/master/cheatsheets/javascript/deno).
+
 ---
 
 ## Less
