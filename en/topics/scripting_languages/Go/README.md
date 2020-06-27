@@ -107,20 +107,37 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
 
 
 - Debian/Ubuntu
-    1. Get download URL from [Downloads](https://golang.org/dl/) page.
-        - Pattern `go$VERSION.$OS-$ARCH.tar.gz`
-        - e.g. `go1.14.2.linux-amd64.tar.gz` or full URL: `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
-    1. Download and unzip to `/usr/local/go`.
-        ```sh
-        $ cd ~/Downloads
-        $ wget URL
-        $ # Note root access is needed.
-        $ sudo tar -C /usr/local -xzf FILENAME
-        ```
-    1. Setup path in `.profile` or `.bashrc`/`.zshrc`.
-        ```sh
-        $ export PATH=/usr/local/go/bin
-        ```
+    - Using package manager
+        1. Instsall with `apt` to `/usr/bin/go`.
+            ```sh
+            sudo apt install golang-go
+            ```
+    - Download from the Go website.
+        1. Get download URL from [Downloads](https://golang.org/dl/) page.
+            - Pattern `go$VERSION.$OS-$ARCH.tar.gz`
+            - e.g. `go1.14.2.linux-amd64.tar.gz` or full URL: `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
+        1. Download.
+            ```sh
+            $ cd ~/Downloads
+
+            $ wget <url>
+            $ # OR
+            $ curl -O <url>
+        1.  Unzip - this is a directory which is a re.
+            ```sh
+            $ # Create as `/usr/local/go`
+            $ sudo tar -C /usr/local -xzf <filename>
+            
+            $ # OR as ~/.local/
+            $ tar -C ~/.local/ -xzf <filename>
+            ```
+        1. Setup path in `.profile` or `.bashrc`/`.zshrc`. There is a `go` executable in the `bin` directory which must be accessible.
+            ```sh
+            $ export PATH=/usr/local/go/bin
+            
+            $ # OR
+            $ export PATH="$HOME/.local/go/bin
+            ```
 - macOS
     1. Install with [Brew](https://brew.sh/).
         ```sh
@@ -131,21 +148,62 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
 Setup access to user-level packages by updating the profile config (`.bash_profile` or `.profile`.)
 
 ```sh
-export PATH=${HOME}/go/bin:$PATH
+export PATH="$HOME/go/bin:$PATH"
 ```
 
 
 ### Test it
 
 ```sh
-$ go env
 $ go version
+$ go env
 ```
+
+### Setting Go path
+
+The `GOPATH` is not where go is installed but where packages are.
+
+The default value for `GOPATH` is `~/go`.
+
+> The command `go env GOPATH` prints the effective current `GOPATH`; it prints the default location if the environment variable is unset.
+
+```sh
+$ go env GOPATH
+/home/michael/go
+```
+
+You can replace it as per the [docs](https://golang.org/doc/gopath_code.html#GOPATH).
+
+> For convenience, add the workspace's bin subdirectory to your `PATH`:
+> 
+> ```sh
+> $ export PATH=$PATH:$(go env GOPATH)/bin
+> ```
+
+> The scripts in the rest of this document use `$GOPATH` instead of `$(go env GOPATH)` for brevity. To make the scripts run as written if you have not set GOPATH, you can substitute `$HOME/go` in those commands or else run:
+>
+> ```sh
+> $ export GOPATH=$(go env GOPATH)
+> ```
+
 
 ### Install extra versions
 
-See [doc](https://golang.org/doc/install#extra_versions).
+From [Extra versions](https://golang.org/doc/install#extra_versions) section of install doc.
 
+Use the `get` command once Go is installed to fetch another version.
+
+```sh
+$ go get golang.org/dl/go1.10.7
+$ go1.10.7 download
+```
+
+Test it.
+
+```sh
+$ go1.10.7 version
+go version go1.10.7 linux/amd64
+```
 
 ## Run
 
