@@ -139,8 +139,8 @@ Github Actions: [Setup Node.js Environment](https://github.com/marketplace/actio
 
 ### Features
 
-- Can install packages from the local cache.
-- Strongly binds package versions.
+- Install packages from the local cache (faster installs and even run installs while offline)
+- Strongly binds package versions (uing `yarn.lock`. NPM does this too with `package-lock-json` but that was only added in 2017)
 - Parallel packages installation.
 - Active user community.
 
@@ -150,8 +150,11 @@ Yarn is built on NPM so mostly you can treat it the same.
 
 - Requires `yarn` command to be installed globally or in your project, using NPM.
 - It uses the same `package.json` as NPM.
-- Uses `yarn.lock` instead of `package.lock.json`.
+- Uses `yarn.lock` instead of `package-lock.json`.
 - Familiar NPM commands like `install` and `start` still work.
+- Running just `yarn` is the same as `yarn install`.
+- Running `yarn test` is the same as `yarn run test`.
+- Running `yarn build` is the same as `yarn run build`.
 
 ### Install Yarn
 
