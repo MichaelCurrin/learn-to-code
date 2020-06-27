@@ -103,28 +103,28 @@ A task does not have to be finished before going to the next one - the program c
 
 ### Install Go
 
-Follow this [install guide](https://golang.org/doc/install#install) from the Go docs.
+Follow the steps below, based on the [install guide](https://golang.org/doc/install#install) from the Go docs.
 
 
 - Debian/Ubuntu
     1. Get download URL from [Downloads](https://golang.org/dl/) page.
         - Pattern `go$VERSION.$OS-$ARCH.tar.gz`
-        - e.g. `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
-    1. Download.
+        - e.g. `go1.14.2.linux-amd64.tar.gz` or full URL: `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
+    1. Download and unzip to `/usr/local/go`.
         ```sh
         $ cd ~/Downloads
         $ wget URL
         $ # Note root access is needed.
         $ sudo tar -C /usr/local -xzf FILENAME
         ```
-    1. Setup path in `.profile`.
+    1. Setup path in `.profile` or `.bashrc`/`.zshrc`.
         ```sh
-        export PATH=/usr/local/go/bin
+        $ export PATH=/usr/local/go/bin
         ```
 - macOS
     1. Install with [Brew](https://brew.sh/).
         ```sh
-        brew install go
+        $ brew install go
         ```
 
 
