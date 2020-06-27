@@ -134,6 +134,25 @@ Note: Requires `package-lock.json` or shrink wrap file. It does not work with `y
 
 Github Actions: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
+### Security
+
+Disable post-install scripts of installed packages. This prevents execution of potentially malicious arbitrary scripts to be executable.
+
+Run directly.
+
+```sh
+$ npm install --ignore-scripts
+```
+
+Configure.
+
+```sh
+$ npm config set ignore-scripts true
+```
+
+
+[Blog post](https://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability) on this.
+
 
 ## Yarn
 
