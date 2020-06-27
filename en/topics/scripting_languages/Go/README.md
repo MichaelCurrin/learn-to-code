@@ -108,9 +108,9 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
 
 - Debian/Ubuntu
     - Using package manager
-        1. Instsall with `apt` to `/usr/bin/go`.
+        1. Install with `apt` to `/usr/bin/go`. NB. Requires root privileges.
             ```sh
-            sudo apt install golang-go
+            $ sudo apt install golang-go
             ```
     - Download from the Go website.
         1. Get download URL from [Downloads](https://golang.org/dl/) page.
@@ -204,6 +204,7 @@ Test it.
 $ go1.10.7 version
 go version go1.10.7 linux/amd64
 ```
+
 
 ## Run
 
