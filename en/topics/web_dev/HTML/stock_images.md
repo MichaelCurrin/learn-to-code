@@ -67,7 +67,9 @@ https://source.unsplash.com/random
 Note if using the browser to view that in a separate tab. you will get redirected to a specific image which is fixed. If you embed the URL in an image tag, you can refresh the page to get a new random choice. 
 
 
-### Random image under keywords
+### Keyword search
+
+Get a random image matching a query.
 
 Provide one or more comma-separated keywords which lowercase. These map to keyword pages on the site.
 
@@ -106,8 +108,9 @@ Error page:
 - https://images.unsplash.com/source-404
 
 
+### User's image
 
-### Random image by a user
+Get a random image by a target user.
 
 #### Unrestricted dimensions
 
