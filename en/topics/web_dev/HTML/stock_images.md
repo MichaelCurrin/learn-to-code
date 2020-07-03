@@ -67,6 +67,46 @@ https://source.unsplash.com/random
 Note if using the browser to view that in a separate tab. you will get redirected to a specific image which is fixed. If you embed the URL in an image tag, you can refresh the page to get a new random choice. 
 
 
+### Random image under keywords
+
+Provide one or more comma-separated keywords which lowercase. These map to keyword pages on the site.
+
+If a result exists, you'll get back a random image matching the query. It will be different each time though you might hit repeats on a small result yet.
+
+Note that keywords are actually optional - if no value is provided for keywords, then you will get results similar to using the [Random image](#random-image) endpoint.
+
+#### Unrestricted dimensions
+
+```
+https://source.unsplash.com/featured/?{KEYWORDS}
+```
+
+e.g.
+
+https://source.unsplash.com/featured/?nature
+
+https://source.unsplash.com/featured/?nature,water
+
+#### Set dimensions
+
+Specify dimensions for the search and the image will be cropped.
+
+```
+https://source.unsplash.com/{WIDTH}x{HEIGHT}/?{KEYWORDS}
+```
+
+https://source.unsplash.com/600x600/?water
+
+#### Error page
+
+Avoid using badly-typed or obscure words as you will get few results, or even no results which results in an image showing including an error notice.
+
+Error page:
+
+- https://images.unsplash.com/source-404
+
+
+
 ### Random image by a user
 
 #### Unrestricted dimensions
@@ -90,44 +130,6 @@ Example:
 ```
 
 <img src="https://source.unsplash.com/user/erondu/300x300">
-
-
-### Search
-
-Use one or more comma-separated keywords using lowercase. These map to keyword pages on the site.
-
-Avoid using badly-typed or obscure words as you will get few results, or even no results which results in an image showing including an error notice.
-
-Error page:
-
-- https://images.unsplash.com/source-404
-
-Note that keywords are optional - if no value is provided for keywords below, then any _random_ image will be returned.
-
-
-#### Unrestricted dimensions
-
-```
-https://source.unsplash.com/featured/?{KEYWORDS}
-```
-
-e.g.
-
-https://source.unsplash.com/featured/?nature
-
-https://source.unsplash.com/featured/?nature,water
-
-
-
-### Set dimensions
-
-Specify dimensions for the search and the image will be cropped.
-
-```
-https://source.unsplash.com/{WIDTH}x{HEIGHT}/?{KEYWORDS}
-```
-
-https://source.unsplash.com/600x600/?water
 
 
 ## API
