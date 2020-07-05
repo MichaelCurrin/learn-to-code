@@ -10,12 +10,12 @@ Improve your coding skills in various languages by going through the content of 
 
 | Title                                            | Description                                                                                                                                                                                                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 🤷 [Absolute intro to coding](intro_to_coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.                                                                                                             |
+| 🤷 [Absolute intro to coding](intro-to-coding.md) | If you don't have a tech background and want a gentle intro to the coding landscape, start here.                                                                                                             |
 | 🗺️ [Roadmaps](roadmaps.md)                        | Links to roadmaps so you can pick languages and frameworks to learn in a logical order.                                                                                                                      |
 | 📚 [Resources](resources.md)                      | For learning concepts in programming. Includes some external links.                                                                                                                                          |
 | 💡 [Topics](topics/README.md)                     | Overview of programming language guides in this project, whether you are a beginner or want to dive into some advanced concepts. Plenty of links to external resources like documentation and online courses. |
 | 🌐 [Recommended](recommended.md)                  | External links I enjoy and would like share with others.                                                                                                                                                     |
-| 🗄️ [Data formats](data_formats.md)                | Guide to formats like CSV, JSON and XML.                                                                                                                                                                    |
+| 🗄️ [Data formats](data-formats.md)                | Guide to formats like CSV, JSON and XML.                                                                                                                                                                    |
 
 
 ## Choose a focus direction
