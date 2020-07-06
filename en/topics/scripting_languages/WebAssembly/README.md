@@ -5,7 +5,7 @@
 Or "WASM" for short.
 
 - A modern language which is great at high-performance operations in the browser, without having to write JavaScript.
-- You can code in another language and get Web Assembly as the output. 
+- WebAssembly is human-readable but it is not usually written by hand. You typically use a language like one of [these](#languages-that-generate-webassembly-output) to generate WebAssembly output.
 - WebAssembly can be loaded as a module in the browser, so you can get the benefit of the performance without writing WebAssembly yourself.
 
 
@@ -45,10 +45,8 @@ Extensions:
 - `.wasm`
 
 
-## Uses
+## Languages that generate WebAssembly
 
-Some languages that output WebAssembly:
-  
 - [Elm](../Elm/)
 - [Rust](../Rust/)
 - [Dart](../Dart/)
@@ -76,7 +74,6 @@ $ ./emsdk activate latest
 ### Hello world
 
 Example based on the homepage's [Getting Started](https://webassembly.org/getting-started/developers-guide/) guide.
-
 
 Create a C file named `hello.c`.
 
