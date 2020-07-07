@@ -54,7 +54,7 @@ Elements can be repeated.
 
 ## Updating
 
-You **cannot** update a `tuple` such as append to, delete or modify elements. If you want to edit a tuple, must create a new tuple.
+You **cannot** update a `tuple` such as append to, delete or modify elements. If you want to edit a tuple, must create a new object and reassign the existing variable to point to it.
 
 ```python
 >>> x = (1, 2)
