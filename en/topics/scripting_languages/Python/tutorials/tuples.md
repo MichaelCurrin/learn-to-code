@@ -58,6 +58,7 @@ A tuple is hashable. So if you want a pair co-ordinates as a key in a `dict`, us
 {(100, 200): 'home', (300, 900): 'work'}
 ```
 
+
 ## Functions
 
 When a function returns a multiple values, it actually returns a `tuple`.
@@ -80,11 +81,10 @@ x
 # => 1
 ```
 
+
 ## Unpacking
 
-
 ```python
-# list
 >>> x = [1, 2, 3]
 
 >>> a, b, c = x
