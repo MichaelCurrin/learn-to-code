@@ -33,24 +33,6 @@ Brackets are usually best to keep in, for readability. You can omit the brackets
 1
 ```
 
-## Empty tuple
-
-Use the `tuple` keyword to make an empty one.
-
-```python
->>> tuple([])
-()
-```
-
-This will not work though - `(,)`.
-
-```python
->>> (,)
-  File "<stdin>", line 1
-    (,)
-     ^
-SyntaxError: invalid syntax
-```
 
 ## Types
 
@@ -74,7 +56,7 @@ Elements can be repeated.
 
 You **cannot** update a `tuple` such as append to, delete or modify elements. If you want to edit a tuple, must create a new tuple.
 
-```pyton
+```python
 >>> x = (1, 2)
 
 >>> # Update
@@ -86,6 +68,7 @@ You **cannot** update a `tuple` such as append to, delete or modify elements. If
 >>> # Remove
 >>> x = (1, 0)
 ```
+
 
 ## Cast
 
@@ -174,3 +157,24 @@ If you have more elements, you can put them together.
 >>> c
 5
 ```
+
+
+## Empty tuple
+
+Use the `tuple` keyword to make an empty one.
+
+```python
+>>> tuple([])
+()
+```
+
+This will not work though - `(,)`.
+
+```python
+>>> (,)
+  File "<stdin>", line 1
+    (,)
+     ^
+SyntaxError: invalid syntax
+```
+
