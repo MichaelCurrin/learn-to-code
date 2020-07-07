@@ -1,6 +1,6 @@
 # Python tuples
 
-A tuple is a frozen list of zero or more elements. These can be of the same or different types.
+A tuple is list of zero or more elements, except it is _frozen_ i.e. immutable. 
 
 
 ## Basics
@@ -14,7 +14,7 @@ Both of these are equivalents of  `tuple`.
 (1, 2)
 ```
 
-You can omit the brackets, but be sure to keep the comma - this is important for a `tuple` of one element.
+Brackets are usually best to keep in, for readability. You can omit the brackets, but be sure to keep the comma - this is important for a `tuple` of one element.
 
 ```python
 >>> 1, # tuple
@@ -23,6 +23,38 @@ You can omit the brackets, but be sure to keep the comma - this is important for
 1
 ```
 
+These can be of the same or different types.
+
+```python
+>>> x = (True, 1, 'yes')
+>>> x
+(True, 1, 'yes')
+```
+
+Elements can be repeated.
+
+```python
+>>> (1, 2, 3, 1)
+(1, 2, 3, 1)
+```
+
+
+## Modifying
+
+You cannot append to delete or modify elements - if you want to edit a tupel, must create a new tuple.
+
+```pyton
+>>> x = (1, 2)
+
+>>> # Update
+>>> x = (1, 3)
+
+>>> # Insert
+>>> x = (1, 0, 3)
+
+>>> # Remove
+>>> x = (1, 0)
+```
 
 ## Cast
 
