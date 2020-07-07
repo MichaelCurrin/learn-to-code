@@ -5,7 +5,7 @@ A tuple is list of zero or more elements, except it is _frozen_ i.e. immutable.
 
 ## Basics
 
-Both of these are equivalents of  `tuple`.
+Both of these are equivalents of `tuple` containing two `int` values.
 
 ```python
 >>> (1, 2)
@@ -14,14 +14,45 @@ Both of these are equivalents of  `tuple`.
 (1, 2)
 ```
 
+Or just one value:
+
+```python
+>>> 1, 
+(1,)
+```
+
 Brackets are usually best to keep in, for readability. You can omit the brackets, but be sure to keep the comma - this is important for a `tuple` of one element.
 
 ```python
->>> 1, # tuple
+# A tuple containing an int
+>>> 1, 
 (1,)
->>> 1 # int
+
+>>> # Just an int
+>>> 1
 1
 ```
+
+## Empty tuple
+
+Use the `tuple` keyword to make an empty one.
+
+```python
+>>> tuple([])
+()
+```
+
+This will not work though - `(,)`.
+
+```python
+>>> (,)
+  File "<stdin>", line 1
+    (,)
+     ^
+SyntaxError: invalid syntax
+```
+
+## Types
 
 These can be of the same or different types.
 
@@ -39,9 +70,9 @@ Elements can be repeated.
 ```
 
 
-## Modifying
+## Updating
 
-You cannot append to delete or modify elements - if you want to edit a tupel, must create a new tuple.
+You **cannot** update a `tuple` such as append to, delete or modify elements. If you want to edit a tuple, must create a new tuple.
 
 ```pyton
 >>> x = (1, 2)
