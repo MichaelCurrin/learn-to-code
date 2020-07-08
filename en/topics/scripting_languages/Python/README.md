@@ -116,10 +116,16 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
 
 - Visual Studio Code
     * Also known as VS Code. Not to be confused with _Visual Studio_.
-    * It takes effort to get this to work with Python for running code and handling linting and syntax highlighting.
-        * Setup your user config.
-        * Setup files in each project. `.vscode/settings.json` with environments and other settngs setup. A dotenv (`.env`) file is also needed with `PATH=...`
-    * There is only a free version of this.
+    * It takes effort to get this to work with Python for running code, handling linting and syntax highlighting and so on. So it adds friction for both new and experienced developers. If you are new to Python, consider PyCharm, covered below.
+        * Install extensions
+            * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension - this is VS Code's most popular extension overall by number of installs. You can't do much without this. See features below:
+                > ... IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets
+            * [PyLance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension - I haven't used this yet but this adds extra help. It claims to "supercharge your Python IntelliSense experience with rich type information".
+        * Setup your user-level config.
+        * Setup files in each project. 
+            - Create `.vscode/settings.json` in your project, with environments and other settings. See this template [settings.json](https://github.com/MichaelCurrin/py-project-template/blob/master/.vscode/settings.json file). Note that this should be done per-project.
+            - A dotenv file - use this to add your app folder and virtual environment folder to the `PYTHONPATH` value. Otherwise VS Code will complain that it cannot do imports when it is checking a file. See example [.env](https://github.com/MichaelCurrin/py-project-template/blob/master/.env) file.
+    * There is only a free version of this. It is open source and by MicroSoft.
     * [Download page](https://code.visualstudio.com/)
     * Read this guide for [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - PyCharm
