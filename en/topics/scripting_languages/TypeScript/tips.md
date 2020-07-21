@@ -2,7 +2,7 @@
 
 Based on this article:
 
-- [Let’s Talk About TypeScript’s Learning Curve](https://itnext.io/lets-talk-about-typescript-s-learning-curve-230d6f7eb328)
+[Let’s Talk About TypeScript’s Learning Curve](https://itnext.io/lets-talk-about-typescript-s-learning-curve-230d6f7eb328)
 
 - Remember why you're doing it
     - TypeScript makes development slower by having to specify types, but it makes it safer. And that safety means when the codebase is large, you can find issues quickly and move confidently.
