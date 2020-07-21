@@ -12,7 +12,9 @@ Based on this article:
 - Use the 'any' keyword responsibly
     - Use it in development when you are experimenting but then get rid of it as soon as you can.
 - TS config values
-    - The ES module value below means you can use default imports like `import abc from 'abc'` instead of `import * as abc from 'abc'`.
+    - The ES module value
+        - It means you can use default imports like `import abc from 'abc'`
+        - Instead of `import * as abc from 'abc'`.
     - The last two options below allow use of JSON files.
     - Sample `.tsconfig`
         ```json
