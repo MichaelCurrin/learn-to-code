@@ -1,4 +1,4 @@
-# Tips
+# Tips for TypeScript
 
 Based on this article:
 
@@ -24,4 +24,4 @@ Based on this article:
           }
         }
         ```
-        
+- Keep type interfaces in the file where they are used - unless they are use more than once.
