@@ -1,10 +1,15 @@
 # TypeScript
 
-TypeScript is an open-source language developed by Microsoft. It is a _superset_ of JavaScript - it adds features to it and transpiles (outputs, compiles) to JavaScript code. The main benefit being _type_ checks - hence the name name.
+TypeScript is an open-source language developed by Microsoft. It is not a new language - it is a _superset_ of JavaScript - it adds features to it and transpiles (outputs, compiles) to JavaScript code. The main benefit is using _type_ checks at compile time, similar to Java or C.
+
+
+## Benefits
 
 It is object-orientated with classes, objects and interfaces, like Java. Like Java, you need to be **explicit** with your types, when declaring variables, parameters and return types. This makes TypeScript slower for development, but safer, especially when maintaining a large codebase. As you will get errors at compile time if a type does not match - for example this can avoid performing a string method on number of null value, which would produce an error in standard JavaScript.
 
 TypeScript is used more and more in large application because it enforce strict type checks at compile time - this does not replace unit tests but these checks add confidence when working on large codebases. For small or experimental projects, you might find that it is easy to use plain JavaScript, then add TypeScript later. Note that TypeScript only adds safety if you use it properly and not for example `Any` as the type.
+
+Note that the type checks are optional - it is possible to compile to JS without enforcing types and producing an error.
 
 
 ## Syntax
