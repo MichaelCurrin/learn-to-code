@@ -38,7 +38,7 @@ Navigate to a repo.
 
 Edit the repos config.
 
-Either do it in one line.
+Either do it in one line. Note `--local` is implied and be left out.
 
 ```sh
 $ git config --local commit.template _COMMIT_MESSAGE
@@ -50,7 +50,7 @@ Or, open the local config edit view.
 git config --local -e
 ```
 
-Then set a config such as the following, using a tab for indentation.
+Then set a config such as the following, using a _tab_ for indentation.
 
 ```
 [commit]
