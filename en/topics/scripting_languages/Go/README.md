@@ -105,9 +105,8 @@ A task does not have to be finished before going to the next one - the program c
 
 Follow the steps below, based on the [install guide](https://golang.org/doc/install#install) from the Go docs.
 
-
 - Debian/Ubuntu
-    - Using package manager
+    - Using a package manager
         1. Install with `apt` to `/usr/bin/go`. NB. Requires root privileges.
             ```sh
             $ sudo apt install golang-go
@@ -208,14 +207,34 @@ go version go1.10.7 linux/amd64
 
 ## Run
 
-Compile and run the sample script in this project:
+For reference, see [Hello World](https://gobyexample.com/hello-world) in Go docs - you can also the run code directly there by clicking the icon in the top right of the code block.
+
+Compile and run the sample script in this project.
+
+Go to this directory:
 
 ```bash
 $ cd Scripts
+```
 
-$ # Compile the `hello.go` script into a binary named `hello`.
-$ go build
+### Run a script
 
+```bash
+$ go run hello.go
+Hello, world!
+```
+
+### Create a compiled file
+
+Run the build step to compile and then output binary executable file named `hello`.
+
+```bash
+$ go build hello.go
+```
+
+Then run the binary (no extension).
+
+```bash
 $ ./hello
 Hello, world!
 ```
