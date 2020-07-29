@@ -75,9 +75,9 @@ A task does not have to be finished before going to the next one - the program c
         ````
     * Note on indentation:
         > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
-- Github - [golang/go](https://github.com/golang/go)
+- Github repo - [golang/go](https://github.com/golang/go)
     * [Wiki](https://github.com/golang/go/wiki) - see the table of contents for tutorials.
-- [Go Packages](https://golang.org/pkg/) index
+- Go Packages index - [golang.org/pkg/](https://golang.org/pkg/)
 - Tutorials
     * [Go cheatsheet](https://devhints.io/go) on DevHints site.
     * [Learn Go by Example](https://gobyexample.com/) site.
@@ -219,7 +219,7 @@ $ cd Scripts
 
 ### Run a script
 
-```bash
+```sh
 $ go run hello.go
 Hello, world!
 ```
@@ -228,22 +228,107 @@ Hello, world!
 
 Run the build step to compile and then output binary executable file named `hello`.
 
-```bash
+```sh
 $ go build hello.go
 ```
 
 Then run the binary (no extension).
 
-```bash
+```sh
 $ ./hello
 Hello, world!
 ```
 
 
-## Packages
+## Command reference
 
-- [Web scraping packages](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md) guide
+See [go command](https://golang.org/cmd/go/) in the docs. It covers many tasks like printing a version, handling dependencies and compile and run.
+
+Usage:
+
+```sh
+go <command> [arguments]
+```
+
+The commands are:
+
+```
+bug         start a bug report
+build       compile packages and dependencies
+clean       remove object files and cached files
+doc         show documentation for package or symbol
+env         print Go environment information
+fix         update packages to use new APIs
+fmt         gofmt (reformat) package sources
+generate    generate Go files by processing source
+get         add dependencies to current module and install them
+install     compile and install packages and dependencies
+list        list packages or modules
+mod         module maintenance
+run         compile and run Go program
+test        test packages
+tool        run specified go tool
+version     print Go version
+vet         report likely mistakes in packages
+```
+
+
+## Dependency management
+
+### Add and install package
+
+Add dependencies to current module and install them.
+
+Usage:
+
+```sh
+go get [-d] [-t] [-u] [-v] [-insecure] [build flags] [packages]
+```
+
+This resolves and adds dependencies to the current development module and then builds and installs them. 
+
+
+Example:
+
+```sh
+go get -u github.com/gorilla/mux
+```
+
+The `-u` flag will also update.
+
+
+### Install packages
+
+Compile and install packages and dependencies
+
+Usage:
+
+```sh
+go install [-i] [build flags] [packages]
+```
+
+This compiles and installs the packages named by the import paths. 
+
+ The `-i` flag installs the dependencies of the named packages as well. 
+
+### List packages
+
+Usage:
+
+```sh
+go list [-f format] [-json] [-m] [list flags] [build flags] [packages]
+```
+
+This lists the named packages, one per line. The most commonly-used flags are -f and -json, which control the form of the output printed for each package. Other list flags, documented below, control more specific details. 
+
+
+### Recommended packages
+
+- List of packages
+    - [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post 
+    - [Awesome go](https://github.com/avelino/awesome-go)
+       > A curated list of awesome Go frameworks, libraries and software
+    - [Web scraping packages](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md) guide
 - [Colly](https://github.com/gocolly/colly) web scraping library
-- [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post 
-- [Awesome go](https://github.com/avelino/awesome-go)
-   > A curated list of awesome Go frameworks, libraries and software
+- [gocui](https://github.com/jroimartin/gocui) for user interface
+- [color](https://github.com/fatih/color) for colored text
