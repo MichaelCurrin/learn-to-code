@@ -116,9 +116,10 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
 
 - Visual Studio Code
     * Also known as VS Code. Not to be confused with _Visual Studio_.
-    * It takes effort to get this to work with Python for running code, handling linting and syntax highlighting and so on. So it adds friction for both new and experienced developers. If you are new to Python, consider PyCharm, covered below.
+    * This is great if you like to switch between programming languages - support is wider than PyCharm for example handling derivatives of JS like CoffeeScript or handling Jekyll. VS Code also handles nesting well such as HTML file contains HTML and inside the HTML is CSS, JS and Liquid templating.
+    * It takes effort to get this to work with Python for running code, handling linting and syntax highlighting and so on. For example you have to install a linter in your virtual environment instead of using a global one and you need extensions to handle Python in the first place plus add things like intellisense. So it adds friction for both new and experienced developers. If you are new to Python, consider PyCharm, covered below.
         * Install extensions
-            * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension - this is VS Code's most popular extension overall by number of installs. You can't do much without this. See features below:
+            * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension - this is currently VS Code's most popular extension overall by number of installs. You can't do much without this. See features below:
                 > ... IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets
             * [PyLance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension - I haven't used this yet but this adds extra help. It claims to "supercharge your Python IntelliSense experience with rich type information".
         * Setup your user-level settings file - this applies to all projects and can be overridden with per-project settings. For example change formatting and linting settings.
