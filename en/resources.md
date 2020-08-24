@@ -126,3 +126,8 @@ Learn to review other developers' code.
 
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
+
+
+### Screen sharing
+
+- [screen.so](https://screen.so) - Like Zoom but different. Works on web and as a downloaded desktop app.
