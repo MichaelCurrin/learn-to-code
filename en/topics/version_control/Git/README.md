@@ -10,17 +10,17 @@ When you make a change (such as add, remove or modify or more files), you have t
 
 Commits means you can choose to deploy a certain version of your code (sometimes marked with a _tag_ for ease. And roll back to a certain commit.
 
-
-- [Git homepage](https://git-scm.com/)
+- Git homepage - [git-scm.com](https://git-scm.com/)
 
 
 ## Commands
-
 
 See the Reference section on [Git docs](https://git-scm.com/doc).
 
 
 ## Branches
+
+[learngitbranching.js.org](https://learngitbranching.js.org/)
 
 ### What is trunk-based development?
 
