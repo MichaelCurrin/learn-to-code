@@ -62,7 +62,7 @@ Source: [link](https://www.rust-lang.org/)
 
 Install [Rustup](https://rustup.rs/) - the Rust toolchain manager.
 
-```
+```sh
 # On Unix
 $ curl https://sh.rustup.rs -sSf | sh
 ```
@@ -74,7 +74,7 @@ On installation it will add the `cargo`, `rustc`, `rustup` and other commands to
 
 To uninstall:
 
-```bash
+```sh
 $ rustup self uninstall
 ```
 
@@ -87,7 +87,7 @@ The directory includes standard tools and will be added to your `.profile` and `
 
 Check you Cargo version:
 
-```bash
+```sh
 $ cargo -V
 cargo 1.32.0-beta (1b6702f22 2018-12-06)
 ```
@@ -97,7 +97,7 @@ cargo 1.32.0-beta (1b6702f22 2018-12-06)
 
 Check your _Rustc_ version
 
-```bash
+```sh
 $ rustc -V
 rustc 1.31.1 (b6c32da9b 2018-12-18)
 ```
@@ -113,7 +113,7 @@ See the [Rust packagment_management doc](package_management/README.md) for how t
 
 ### Rustup
 
-```bash
+```sh
 $ rustup update
 ```
 
@@ -121,13 +121,13 @@ $ rustup update
 
 Compile.
 
-```bash
+```sh
 $ rustc file.rs
 ```
 
 Execute the binary output file.
 
-```bash
+```sh
 $ # On Unix.
 $ ./file
 ```
@@ -137,9 +137,9 @@ $ ./file
 > file.exe
 ```
 
-Or, compile and run in one line.
+Or, compile and run in one line (Unix).
 
-```bash
+```sh
 $ rustc file.rs && ./file
 ```
 
