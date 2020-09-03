@@ -41,22 +41,14 @@ Technical features
 
 ## Hello world app
 
-
-1. Create file `hello.java`.
-    ```java
-    public class HelloWorld {
-
-        public static void main(String[] args) {
-            System.out.println("Hello, world!");
-        }
-
-    }
-    ```
-2. Compile.
+1. Start with a `hello.java` script. 
+    - You can run the [hello.java](hello.java) script in this repo directly.
+    - Or copy the contents of it to a new file.
+2. Compile it.
     ```sh
     $ javac hello.java
     ```
-3. Execute the output binary.
+3. Execute the created binary file. In macOS/Linux, it will have no extension.
     ```sh
     $ ./hello
     Hello, world!
