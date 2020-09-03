@@ -2,9 +2,10 @@
 
 ## What is Groovy?
 
-Groovy is an object-orientated optionally-typed language. It is superset of Java, so it can run Java code. Groovy is might lighter to read (like Python or Ruby) compared to Java. It is supposed to improve productivity but still keep high performance by compiling to byte code. It designed as a companion and not a replacement for Java.
+Groovy is an object-orientated optionally-typed language. It is superset of Java, so it can run Java code inside Groovy. Groovy is much lighter to read (like Python or Ruby) compared to Java as you don't need brackets, semi-colons, class set-up. It is supposed to improve productivity but still keep high performance by compiling to byte code. It designed as a companion and not a replacement for Java.
 
 One use of Groovy is for scripting such as in deployment pipelines.
+
 
 ## Resources
 
