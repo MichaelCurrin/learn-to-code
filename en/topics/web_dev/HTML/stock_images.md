@@ -33,6 +33,14 @@ Using the _Explore_ tab and find keyword tags, in a hierarchy.
 
 - https://unsplash.com/photos/6nRierJz200
 
+### Download a specific iamge
+
+If you follow the download button in the UI, you'll get a URL like this.
+
+- https://unsplash.com/photos/6nRierJz200/download?force=true&w=640
+
+This can be used as an URL of the `img` tag, but it is cleaner and probably faster to use the [Load image directly](#load-image-directly) appraoch on the _source_ subdomain.
+
 ### Lookup a specific user's profile
 
 - https://unsplash.com/@crawford
@@ -48,16 +56,38 @@ That includes instructions and is the domain for serving images as covered below
 
 Their docs are more complete, but some cases are covered here.
 
+### Load image directly
 
-### Load a specific image
+#### Default
 
-Set the dimensions to resize the server on CDN to give fast load time. If you choose a different aspect ratio to the original, the image will be cropepd but not distorted. A square also works well.
+Use the `source` subdomain to load an optimized image.
+
+```
+https://source.unsplash.com/{IMAGE_ID}
+```
+
+Example:
+
+- https://source.unsplash.com/3DOybxD2hMo
+
+If you visit that in the browser, you'll get to a URL like this:
+
+- With parms: https://images.unsplash.com/photo-1502009285422-74e42ac2fd68?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&ixid=eyJhcHBfaWQiOjF9
+- Without parms: https://images.unsplash.com/photo-1502009285422-74e42ac2fd68
+
+#### Target dimensions
+
+For the above, optionally set the dimensions to resize the server on CDN to give a fast load time. If you choose a different aspect ratio to the original, the image will be cropepd but not distorted. A square also works well.
 
 ```
 https://source.unsplash.com/{IMAGE_ID}/{WIDTH}x{HEIGHT}
 ```
 
-https://source.unsplash.com/3DOybxD2hMo/1600x900
+Example:
+
+- https://source.unsplash.com/3DOybxD2hMo/1600x900
+
+Unfortunately you can't give just width (like when you use the download flow).
 
 
 ### Random image
