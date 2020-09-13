@@ -247,7 +247,6 @@ https://reactnative.dev/docs/0.60/getting-started
 		- Create and run apps. Even run on your mobile device.
 		- See in particular [snack.expo.io](https://snack.expo.io/)
 		
-
 ### Hello world
 
 - `App.js`
@@ -398,12 +397,13 @@ See the [apps](https://www.electronjs.org/apps) list on the Electron site where 
 
 ## Proton Native
 
-Build desktop applications - built on React Native.
+Build desktop applications - based on React Native.
 
 ### Resources
 
  - [Official homepage](https://proton-native.js.org/#/)
-	 - > Create desktop applications through a React syntax, on all platforms.
+	 - > Proton Native - React Native for the desktop, cross compatible
+         - > Create desktop applications through a React syntax, on all platforms.
 	 - Features
 	    > - Same syntax & components as React Native
 	    > - Works with existing React libraries such as Redux
