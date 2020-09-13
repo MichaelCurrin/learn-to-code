@@ -10,6 +10,10 @@ Below are summaries of some popular JavaScript frameworks, including links and _
 
 ## React
 
+Build user interfaces. Such as games, forms and websites.
+
+React was originally made for the web but it has been extended to mobile with [React Native](#react-native) and desktop with [Node GUI](https://blog.bitsrc.io/building-native-desktop-application-with-react-node-gui-2ce1b2a2164?gi=8336751480b).
+
 ### Why React?
 
 The main reason is that React has a declarative language to model UI and state.
