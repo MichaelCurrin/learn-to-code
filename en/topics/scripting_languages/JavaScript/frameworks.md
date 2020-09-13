@@ -365,8 +365,7 @@ Example `package.json`.
 
 ## Electron
 
-Build a desktop apps with [Electron.js]((https://www.electronjs.org/).
-
+Build desktop apps with [Electron.js](https://www.electronjs.org/).
 
 ### What can I build with Electron?
 
@@ -399,10 +398,12 @@ See the [apps](https://www.electronjs.org/apps) list on the Electron site where 
 
 ## Proton Native
 
+Build desktop applications - built on React Native.
+
 ### Resources
 
  - [Official homepage](https://proton-native.js.org/#/)
-	 - >  Create desktop applications  through a React syntax, on all platforms.
+	 - > Create desktop applications through a React syntax, on all platforms.
 	 - Features
 	    > - Same syntax & components as React Native
 	    > - Works with existing React libraries such as Redux
@@ -414,7 +415,7 @@ See the [apps](https://www.electronjs.org/apps) list on the Electron site where 
 
 ## Angular
 
-It allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
+This allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
 
 It is an open source project used by Google.
 
@@ -431,7 +432,6 @@ It is an open source project used by Google.
     - [Frontend Masters](https://frontendmasters.com)
         - [Angular path](https://frontendmasters.com/learn/angular/).
 - [Cheatsheet](https://angular.io/guide/cheatsheet)
-
 
 ### Hello world
 
@@ -467,7 +467,6 @@ From [AngularJS Hello World Application: Your First Example Program ](https://ww
 A progressive framework for building user interfaces. It used for developing Single Page Applications (SPA).
 
 > Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
-
 
 ### Resources
 
