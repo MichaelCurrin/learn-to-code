@@ -332,3 +332,8 @@ This lists the named packages, one per line. The most commonly-used flags are -f
 - [Colly](https://github.com/gocolly/colly) web scraping library
 - [gocui](https://github.com/jroimartin/gocui) for user interface
 - [color](https://github.com/fatih/color) for colored text
+
+
+## Examples
+
+See Go recipes in my cookbook - https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/go/README.md
