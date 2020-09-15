@@ -26,11 +26,13 @@ NodeJS is a way of running JavaScript on the server rather than in the browser. 
 - Tutorials
     - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp) on W3 schools.
     - [Node.js](https://www.w3schools.com/nodejs/default.asp) on W3 Schools
-    
+- Courses
+    - [Intro to Node.js](https://frontendmasters.com/courses/node-js/) on FrontEnd Masters.
+
 
 ## Install
 
-Install NodeJS using this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
+Install NodeJS using instructions in this [gist](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
 
 See also [NPM (Node Package Manager)](node_packages.md#npm) guide.
 
@@ -51,18 +53,19 @@ Type ".help" for more information.
 >
 ```
 
-Enter commands then press enter.
+Then enter a command and and press <kbd>Enter</kbd>.
 
 For example:
 
 ```javascript
 > console.log('Hello!');
+Hello!
 ```
 
 Press <kbd>CTRL</kdb>+<kbd>D</kbd> to exit the console.
 
 
-### Run script with Node
+### Run a script with Node
 
 Use `node` command and the path to a script. 
 
@@ -90,7 +93,7 @@ $ chmod +x hello_executable.js
 Then run it:
 
 ```sh
-./hello_executable.js
+$ ./hello_executable.js
 ```
 
 
@@ -143,7 +146,6 @@ $ npm run build
 ```
 
 #### Special commands
-
 
 NPM also supports this a special commands that doesn't need `run`.
 
