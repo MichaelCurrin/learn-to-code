@@ -23,6 +23,9 @@ Some things you could build:
 - Single-Page Applications (using server-side code to build a front-end app that could be served with a Node server or as static assets)
 - REST and GraphQL APIs, which have a database behind them
 
+Node is single-threaded and so it is great for concurrency and asynchronous tasks. 
+
+But it is not great at CPU-bound tasks like reading files or machine learning. So Python is a much better alternative for machine learning, leveraging its multiprocessing support (processes across CPUs).
 
 
 ## Resources
