@@ -69,7 +69,11 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
     - [Rust Playground](https://play.rust-lang.org/) on official site
     - [Repl](https://repl.it/languages/rust)
     - [Tutorials Point](https://www.tutorialspoint.com/compile_rust_online.php)
-
+- Rosetta code - https://rosettacode.org/wiki/Category:Rust
+- Exercism track - https://exercism.io/tracks/rust
+    - For getting assistance from real people
+    - Or for mentoring others
+    
 
 ## Installation
 
