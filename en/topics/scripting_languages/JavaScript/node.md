@@ -38,7 +38,6 @@ Still, JavaScript is not beginner-friendly like Ruby or Python and also those ha
 Node is single-threaded and so it is great for concurrency and asynchronous tasks. But it is not great at CPU-bound tasks like reading files or machine learning. So Python is a much better alternative for machine learning, leveraging its multiprocessing support (processes across CPUs).
 
 
-
 ## Resources
 
 - [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
@@ -54,10 +53,10 @@ Node is single-threaded and so it is great for concurrency and asynchronous task
             > The Guides section has long-form, in-depth articles about Node.js technical features and capabilities.
     - [Node API doc](https://nodejs.org/api/documentation.html). Also covers the standard lib.
 - Tutorials
-    - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp) on W3 schools.
     - [Node.js](https://www.w3schools.com/nodejs/default.asp) on W3 Schools
+    - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp) on W3 schools.
 - Courses
-    - [Intro to Node.js](https://frontendmasters.com/courses/node-js/) on FrontEnd Masters.
+    - [Intro to Node.js](https://frontendmasters.com/courses/node-js/) on Frontend Masters.
 
 
 ## Install
