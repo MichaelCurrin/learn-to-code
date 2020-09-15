@@ -6,16 +6,31 @@ This guide covers how to install and run NodeJS (aka "Node" or "Node.js").
 
 ## About
 
-NodeJS is a way of running JavaScript on the server rather than in the browser. This allows you do things like simple scripts in the command-line, automation tools, games and web servers which communicate with a database.
+NodeJS is a way of running JavaScript on the _server_ rather than in the browser. 
 
-- [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
-    > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
-- Repository: [nodejs/node](github.com/nodejs/node)
-- Initial release: 2009
+Where it can run:
+
+- Web (for desktop and mobile browsers)
+- Mobile app (e.g. with React Native)
+- Desktop app (e.g. with Proton Native or Electron)
+
+Some things you could build:
+
+- Simple scripts for use in the command-line
+- Automation tools (browser tests or web scrapers
+- Games
+- Web servers
+- Single-Page Applications (using server-side code to build a front-end app that could be served with a Node server or as static assets)
+- REST and GraphQL APIs, which have a database behind them
+
 
 
 ## Resources
 
+- [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
+    > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
+- Initial release: 2009
+- Repository: [nodejs/node](github.com/nodejs/node)
 - Node docs
     - [Node docs](https://nodejs.org/en/docs/) - see 3 main sections, listed below.
         - [API](https://nodejs.org/api/)
