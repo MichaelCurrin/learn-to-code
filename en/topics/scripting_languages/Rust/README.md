@@ -51,7 +51,8 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 ## Resources
 
 - Official Rust site - https://www.rust-lang.org/
-- Learn Rust - https://www.rust-lang.org/learn (you get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs work)
+- Learn Rust - https://www.rust-lang.org/learn 
+    - You get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs below work
 - Rust reference docs 
     - Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/
     - Online book "The Rust Programming Language" - https://doc.rust-lang.org/book/
