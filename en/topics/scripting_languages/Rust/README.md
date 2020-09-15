@@ -39,10 +39,22 @@ Types are checked at compile time. Types must be specified in the code inputs an
 Source: [link](https://www.rust-lang.org/)
 
 
+## How to learn Rust
+
+There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/learn) page of the Rust site
+
+- [Read the book](https://doc.rust-lang.org/book/)
+- [Do the Rustlings course](https://github.com/rust-lang/rustlings/)
+- [Check out Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+
+
 ## Resources
 
-- Official [Rust site](https://www.rust-lang.org/)
-- [Rust reference docs](https://doc.rust-lang.org/reference/introduction.html)
+- Official Rust site - https://www.rust-lang.org/
+- Learn Rust - https://www.rust-lang.org/learn (you get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs work)
+- Rust reference docs 
+    - Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/
+    - Online book "The Rust Programming Language" - https://doc.rust-lang.org/book/
 - Tutorials
     - [What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev](https://illustrated.dev).
     - [Getting Started](https://www.rust-lang.org/learn/get-started) guide on Rust site
@@ -105,11 +117,9 @@ rustc 1.31.1 (b6c32da9b 2018-12-18)
 
 ## Usage
 
-
 ### Cargo
 
 See the [Rust packagment_management doc](package_management/README.md) for how to use Cargo.
-
 
 ### Rustup
 
@@ -142,6 +152,7 @@ Or, compile and run in one line (Unix).
 ```sh
 $ rustc file.rs && ./file
 ```
+
 
 ## Examples
 
