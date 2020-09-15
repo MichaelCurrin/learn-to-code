@@ -14,6 +14,8 @@ Where it can run:
 - Mobile app (e.g. with React Native)
 - Desktop app (e.g. with Proton Native or Electron)
 
+### What can I build with Node?
+
 Some things you could build:
 
 - Simple scripts for use in the command-line
@@ -23,9 +25,16 @@ Some things you could build:
 - Single-Page Applications (using server-side code to build a front-end app that could be served with a Node server or as static assets)
 - REST and GraphQL APIs, which have a database behind them
 
-Node is single-threaded and so it is great for concurrency and asynchronous tasks. 
+### Backend and frontend
 
-But it is not great at CPU-bound tasks like reading files or machine learning. So Python is a much better alternative for machine learning, leveraging its multiprocessing support (processes across CPUs).
+Often applications are built with JavaScript on both the backend (server-side) and frontend. This is an [isomorphic](https://medium.com/capital-one-tech/why-everyone-is-talking-about-isomorphic-universal-javascript-and-why-it-matters-38c07c87905) design. It can mean you don't have to switch languages when working on both and you only need an engineer who can do JavaScript. 
+
+Still, JavaScript is not beginner-friendly like Ruby or Python and also those have been doing server-side tasks a lot longer. So just because you _can_ use JavaScript on your backend doesn't mean you should.
+
+### What not to use Node for
+
+Node is single-threaded and so it is great for concurrency and asynchronous tasks. But it is not great at CPU-bound tasks like reading files or machine learning. So Python is a much better alternative for machine learning, leveraging its multiprocessing support (processes across CPUs).
+
 
 
 ## Resources
