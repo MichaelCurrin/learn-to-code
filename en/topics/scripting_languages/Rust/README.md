@@ -73,7 +73,10 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 - Exercism track - https://exercism.io/tracks/rust
     - For getting assistance from real people
     - Or for mentoring others
-    
+- Blog posts - Rust is much loved (by 86% of developers) but only 3% currently use it.
+    - [Post-Mozilla Rust: The Future of the Rust Language](https://medium.com/the-innovation/post-mozilla-rust-the-future-of-the-rust-language-61a5cfb1f615)
+    - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
+
 
 ## Installation
 
