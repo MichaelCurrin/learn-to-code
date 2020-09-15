@@ -19,11 +19,13 @@ Where it can run:
 Some things you could build:
 
 - Simple scripts for use in the command-line
-- Automation tools (browser tests or web scrapers
+- Tooling (built, automation, linting, browser tests, web scrapers)
 - Games
-- Web servers
+- Web servers (serve pages similar to Flask or PHP)
 - Single-Page Applications (using server-side code to build a front-end app that could be served with a Node server or as static assets)
-- REST and GraphQL APIs, which have a database behind them
+- APIs - REST API, web sockets and GraphQL APIs. Thesse could have a database behind them
+- Shareable libraries
+- IoT
 
 ### Backend and frontend
 
@@ -41,7 +43,7 @@ Node is single-threaded and so it is great for concurrency and asynchronous task
 
 - [NodeJS](https://en.wikipedia.org/wiki/Node.js) page on Wikipedia.
     > Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser.
-- Initial release: 2009
+    - Initial release: 2009
 - Repository: [nodejs/node](github.com/nodejs/node)
 - Node docs
     - [Node docs](https://nodejs.org/en/docs/) - see 3 main sections, listed below.
@@ -50,6 +52,7 @@ Node is single-threaded and so it is great for concurrency and asynchronous task
             > The ES6 section describes the three ES6 feature groups, and details which features are enabled by default in Node.js, alongside explanatory links. It also shows how to find which version of V8 shipped with a particular Node.js release.
         - [Guides](https://nodejs.org/en/docs/guides/)
             > The Guides section has long-form, in-depth articles about Node.js technical features and capabilities.
+    - [Node API doc](https://nodejs.org/api/documentation.html). Also covers the standard lib.
 - Tutorials
     - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp) on W3 schools.
     - [Node.js](https://www.w3schools.com/nodejs/default.asp) on W3 Schools
@@ -221,4 +224,48 @@ node_modules/
         # ...
         README.md
         # ...
+```
+
+
+## Builtin modules
+
+How to use the standard lib - import builtin packages.
+
+- [Node Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp). 
+    > Node.js has a set of built-in modules which you can use without any further installation.
+
+See the full list above. Some are covered below.
+
+### Assert module
+
+- [W3 schools](https://www.w3schools.com/nodejs/ref_assert.asp).
+
+```javascript
+var assert = require('assert');
+assert(5 > 7);
+```
+
+### File system module
+
+- [Node docs](https://nodejs.org/api/fs.html)
+- [W3 schools](https://www.w3schools.com/nodejs/ref_fs.asp).
+
+```javascript
+var fs = require('fs');
+
+fs.readFile('demofile.txt', 'utf8', function(err, data) {
+  if (err) throw err;
+  console.log(data);
+});
+```
+
+### Path module
+
+- [Node docs](https://nodejs.org/api/path.html)
+- [W3 schools](https://www.w3schools.com/nodejs/ref_path.asp)
+
+```javascript
+var path = require('path');
+var filename = path.basename('/Users/Refsnes/demo_path.js');
+console.log(filename);
 ```
