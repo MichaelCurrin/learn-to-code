@@ -76,6 +76,15 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 - Blog posts - Rust is much loved (by 86% of developers) but only 3% currently use it.
     - [Post-Mozilla Rust: The Future of the Rust Language](https://medium.com/the-innovation/post-mozilla-rust-the-future-of-the-rust-language-61a5cfb1f615)
     - [What is Rust and why is it so popular?](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/)
+- Rust and WebAssembly
+    - Run Python in the browser using Rust and WebAssembly
+       - https://rustpython.github.io/demo/
+    - Book -  https://rustwasm.github.io/docs/book/
+        > Rust 🦀 and WebAssembly 🕸
+        >
+        > This small book describes how to use Rust and WebAssembly together.
+    - WASM on Rust website https://www.rust-lang.org/what/wasm
+    - Compiling from Rust to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
 
 
 ## Installation
