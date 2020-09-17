@@ -85,8 +85,11 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
         > This small book describes how to use Rust and WebAssembly together.
     - WASM on Rust website https://www.rust-lang.org/what/wasm
     - Compiling from Rust to WebAssembly - https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm
-
-
+- Rust vs Go
+    - [This Week in Programming: Rust Versus Go? Why Not Both!](https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/)
+        > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
+    - [Why Go and not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
+    
 ## Installation
 
 Install [Rustup](https://rustup.rs/) - the Rust toolchain manager.
