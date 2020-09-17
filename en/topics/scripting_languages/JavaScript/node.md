@@ -228,7 +228,9 @@ node_modules/
 
 ## Builtin modules
 
-How to use the standard lib - import builtin packages.
+How to use the standard lib - builtin packages.
+
+Note: Unfortunately, according a Node.js course I watched, Node.js has a **small/limited** standard library. This is intentional so that the maintainers can focus on core behavior and security and get out new releases faster, leaving the community to write custom libraries and iterate on those at their own pace. For example, Node.js and also browser JS has no `sum` function - you have to write your own or copy one off of the internet or install a library or use one that is within a larger library.
 
 - [Node Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp). 
     > Node.js has a set of built-in modules which you can use without any further installation.
