@@ -65,6 +65,7 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
     - [Working with strings in Rust](https://fasterthanli.me/blog/2020/working-with-strings-in-rust)
  - Courses
     - LinkedIn Learning - [First Look at Rust](https://www.linkedin.com/learning/first-look-rust) - this was used in writing this tutorial.
+    - [Write Your First Program in Rust](https://egghead.io/courses/write-your-first-program-with-the-rust-language) on EggHead
 - Run Rust online
     - [Rust Playground](https://play.rust-lang.org/) on official site
     - [Repl](https://repl.it/languages/rust)
