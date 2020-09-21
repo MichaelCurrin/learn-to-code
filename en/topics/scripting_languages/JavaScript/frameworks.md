@@ -56,6 +56,7 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 	- [create-react-app.dev](https://create-react-app.dev/) homepage
 	    - [Getting started](https://create-react-app.dev/docs/getting-started/)
 	- GitHub: [facebook/create-react-app](https://github.com/facebook/create-react-app)
+- GitHub: [MichaelCurrin/react-quickstart](https://github.com/MichaelCurrin/react-quickstart) - a template project to get started with React.
 - Tutorials
 	- [Styled components](https://styled-components.com/docs) website - guide to style your React.js apps without stress.
 	- [Reaxt Beyond The Basics](https://jscomplete.com/learn/react-beyond-basics/introduction). Note "React Commonly Faced Problems" section if you are a beginner struggling with the JavaScript syntax.
