@@ -12,8 +12,8 @@
     - [docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - requests
     - [docs](https://requests.readthedocs.io/en/master/)
-    - [repo](https://github.com/psf/requests)
+    - GitHub: [psf/requests](https://github.com/psf/requests)
 - requests-html
     - "Pythonic HTML Parsing for Humans™"
     - From the author of _requests_, except now you can parse DOM without worrying about setting up a virtual browser or install BeautifulSoup
-    - [repo](https://github.com/psf/requests-html)
+    - GitHub: [psf/requests-html](https://github.com/psf/requests-html)
