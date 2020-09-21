@@ -643,6 +643,10 @@ NPX will use packages that are installed or download packages needed (without pe
 A React framework for speed, scaling and security. Created by Vercel.
 
 - https://nextjs.org/
+	> The React Framework
+	> 
+	> - Visit https://nextjs.org/learn to get started with Next.js.
+	> - Visit https://nextjs.org/docs to view the full documentation.
 - https://github.com/vercel/next.js
 
 
@@ -652,6 +656,8 @@ A React framework for speed, scaling and security. Created by Vercel.
 	> The Intuitive Vue Framework
 	> 
 	> Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.
+- Repo: https://github.com/nuxt/nuxt.js
+	> Build your next Vue.js application with confidence using Nuxt.js: a framework making web development simple and powerful.
 - [Wikipedia](https://en.wikipedia.org/wiki/Nuxt.js)
 	> Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js. The framework is advertised as a "meta-framework for universal applications"
 - Courses
