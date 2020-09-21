@@ -636,3 +636,24 @@ NPX will use packages that are installed or download packages needed (without pe
 ## Vue Native
 
 - [vue-native.io/](https://vue-native.io/) homepage
+
+
+## Next.js
+
+A React framework for speed, scaling and security. Created by Vercel.
+
+- https://nextjs.org/
+- https://github.com/vercel/next.js
+
+
+## Nuxt.js
+
+- Homepage: https://nuxtjs.org/
+	> The Intuitive Vue Framework
+	> 
+	> Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.
+- [Wikipedia](https://en.wikipedia.org/wiki/Nuxt.js)
+	> Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js. The framework is advertised as a "meta-framework for universal applications"
+- Courses
+	- https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/
+	
