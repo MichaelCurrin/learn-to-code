@@ -42,14 +42,20 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 - React official site
 	- [reactjs.org homepage](https://reactjs.org/).
 	    > A JavaScript library for building user interfaces
-	- Tutorials and guides
+	- React's tutorials
 		- [Intro to React](https://reactjs.org/tutorial/tutorial.html) tutorial.
+	- React's docs
 		- [Getting started](https://reactjs.org/docs/getting-started.html) installation guide.
 		- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
 		- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Github repo: facebook/react](https://github.com/facebook/react).
+- NPM: [react](https://www.npmjs.com/package/react) package
+- GitHub: [Github repo: facebook/react](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [NPM package: react](https://www.npmjs.com/package/react)
+- Create React App
+	- [create-react-app.dev](https://create-react-app.dev/) homepage
+	    - [Getting started](https://create-react-app.dev/docs/getting-started/)
+	- GitHub: [facebook/create-react-app](https://github.com/facebook/create-react-app)
 - Tutorials
 	- [Styled components](https://styled-components.com/docs) website - guide to style your React.js apps without stress.
 	- [Reaxt Beyond The Basics](https://jscomplete.com/learn/react-beyond-basics/introduction). Note "React Commonly Faced Problems" section if you are a beginner struggling with the JavaScript syntax.
@@ -80,20 +86,17 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 React runs off of a single `index.html` file with a `div` like this. Sometimes just `"root"`.
 
 ```html
-<div id="react-root">
-</div>
+<div id="react-root"></div>
 ```
 
 On the Instagram site, you will find something like that on their HTML source:
 
 If you disable JavaScript and reload the page, you will only see the Instagram logo display, since everything else is rendered by JavaScript.
 
-
 ### Hello world
 
 ```html
-<div id="root">
-</div>
+<div id="root"></div>
 
 <script>
     ReactDOM.render(
@@ -103,7 +106,50 @@ If you disable JavaScript and reload the page, you will only see the Instagram l
 </script>
 ```
 
-That uses JSX syntax, so you'll need the React library and Babel internally to convert that to plain JavaScript and run it.
+That uses **JSX** syntax, so you'll need the React library and Babel internally to convert that to plain JavaScript and run it.
+
+### Create a fresh project
+
+Run the `npx` command to install and run `create-react-app`.
+
+```sh
+$ npx create-react-app my-app
+$ cd my-app
+```
+
+You'll get a project setup like this:
+
+<details>
+<summary>File tree</summary>
+	
+```
+my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── serviceWorker.js
+    └── setupTests.js
+```
+
+</details>
+
+Start the application.
+
+```sh
+$ npm start
+```
 
 
 ### Routing
@@ -115,6 +161,9 @@ If you add React Router library you can handle switching between browser paths e
 
 Here is a quickstart for that.
 
+<details>
+<summary>Script</summary>
+	
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
@@ -132,8 +181,13 @@ ReactDOM.render(
 );
 ```
 
+</details>
+
 See a [basic example](https://reacttraining.com/react-router/web/example/basic) on the React Router site.
 
+<details>
+<summary>Script</summary>
+	
 ```jsx
 import React from "react";
 import {
@@ -220,6 +274,9 @@ function Dashboard() {
   );
 }
 ```
+
+</details>
+
 
 ## React Native
 
@@ -487,7 +544,6 @@ If you are looking for a multi-page Vue app template, see this repo - [MichaelCu
 
 ### Resources
 
-
 - Vue homepage - [vuejs.org](https://vuejs.org) 
 - Official site [vuejs.org](https://vuejs.org)
 	- [Installation](https://vuejs.org/v2/guide/installation.html)
@@ -547,6 +603,9 @@ In this simplified example, all the CSS and JS are in the single HTML file.
 
 Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
+<details>
+<summary>Script</summary>
+	
 ```html
 <html>
 
@@ -578,6 +637,9 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
 </html>
 ```
+
+</details>
+
 
 ### Vue CLI
 
