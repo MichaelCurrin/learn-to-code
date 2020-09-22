@@ -2,7 +2,7 @@
 
 Kotlin is Google's version of Java. It arose out of legal issues when Google was using and extending Sun's Java code for Android.
 
-- [kotlinlang.org](kotlinlang.org)
+- [kotlinlang.org](https://kotlinlang.org)
     - > Why Kotlin? Concise. Drastically reduce the amount of boilerplate code.
 - [Reference](https://kotlinlang.org/docs/reference/) page on docs.
 - [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language)) on Wikipedia
