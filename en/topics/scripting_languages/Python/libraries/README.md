@@ -15,6 +15,6 @@
     - GitHub: [psf/requests](https://github.com/psf/requests)
 - requests-html
     - "Pythonic HTML Parsing for Humans™"
-    - From the author of _requests_, except now you can parse the DOM without worrying about setting up a virtual browser.
+    - From the author of _requests_, except now you can parse the DOM without worrying about setting up a virtual browser (such as using Selenium library and a browser driver for Firefox or Chrome headless).
     - This replaces using BeautifulSoup and Requests - which is historically a popular combination. 
     - GitHub: [psf/requests-html](https://github.com/psf/requests-html)
