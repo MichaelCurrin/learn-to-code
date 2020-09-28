@@ -3,6 +3,7 @@
 <img width="100px" src="https://raw.githubusercontent.com/graphql/graphql-spec/master/resources/GraphQL%20Logo.svg?sanitize=true">
 <!-- Image link from Wikipedia icon: https://en.wikipedia.org/wiki/GraphQL -->
 
+
 ## What is GraphQL?
 
 GraphQL is a specification for requesting and returning resources using an API request to a single endpoint which only returns the objects and fields requested in the query and in a way that follows the data structure of the query.
@@ -13,11 +14,12 @@ It was created by Facebook around 2012 and many services are migrating from usin
 
 GraphQL itself only a **specification** which can be implemented - it is not a database or a programming or query language.
 
-From [graphql.org/](https://graphql.org/):
+From [graphql.org](https://graphql.org/):
 
 > GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
-From [Wikipedia](https://en.wikipedia.org/wiki/GraphQL)
+From [Wikipedia](https://en.wikipedia.org/wiki/GraphQL):
+
 > GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.[2] GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015
 
 See this blog post - [What is GraphQL and Why I should care](https://medium.com/@javier.ramos1/what-is-graphql-and-why-should-i-care-914138ea039c).
