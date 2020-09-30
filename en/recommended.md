@@ -1,5 +1,5 @@
 # 🌐 Recommended
-> External links to repos, websites and tools which I enjoy and would like share with others.
+> External links to repos, websites and tools which I enjoy and would like share with others
 
 
 ## 🤩 Popular repos
@@ -86,6 +86,39 @@ Usage notes:
 - You do not have save - it autosaves for you. Auto sync defaults to 90 seconds and the minimum is 60 seconds. Every sync which contains changes causes a commit, so you might want to make this less frequent like every 5 minutes. You can also click the sync button in the top right to force a sync, in case you need to view the results on Github.
 - Click Settings in the right menu. You can override default settings.
 - Use `CTRL+SHIFT+V` in the docs to paste *without* formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using a codeblock, you may want to keep the pasted line breaks, as the double spacing is needed for line breaks to render in Markdown.
+
+
+### Screen sharing
+
+- [screen.so](https://screen.so) - Like Zoom but different. Works on web and as a downloaded desktop app.
+
+
+### Code challenges
+
+https://leetcode.com/
+
+
+### Mentoring
+
+> Exercism logoExercism
+
+> Code practice and mentorship for everyone
+>
+>Level up your programming skills with 3,423 exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors. Exercism is 100% free forever.
+
+https://exercism.io/
+
+
+### Freecodecamp
+
+- Learn to code at home.
+- Build projects.
+- Earn certifications.
+
+> Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including:
+
+- Homepage https://www.freecodecamp.org
+- Curriculum of tutorials by language and topic https://www.freecodecamp.org/learn
 
 
 ## API testing
