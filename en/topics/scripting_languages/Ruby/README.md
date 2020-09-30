@@ -113,7 +113,7 @@ export PATH="$GEM_PATH:$PATH"
 
 #### Install a gem
 
-IT is recommended to install Bundler, a Ruby dependency manager that lets you install gems that are isolated for each project. The flag here installs at Bundler for your user so it can be accessed across projects to install gems for each project.
+I recommend to install Bundler, a Ruby dependency manager that lets you install gems that are isolated for each project. The flag here installs at Bundler for your user so it can be accessed across projects to install gems for each project.
 
 ```sh
 $ gem install bundler --user-install
@@ -123,7 +123,7 @@ $ gem install bundler --user-install
 
 Reload your shell or start a new terminal, then check where the installed versions are. For example:
 
-```
+```sh
 $ which ruby
 /usr/local/opt/ruby/bin/ruby
 
