@@ -38,8 +38,11 @@ From the [reference](https://crystal-lang.org/reference/) page on the Crystal we
 
 ### Is it production ready?
 
-Note that according to the homepage, the language is **not yet** production ready. It has not reached version `1.0`. Yet, however, some organizations are using in production.
+Note that according to the homepage, the language is **not yet** production ready. 
 
+It has not reached version `1.0`. The latest version is on the homeage. However, some organizations are using in production.
+
+As listed on the Crystal Wiki - [Used in production](https://github.com/crystal-lang/crystal/wiki/Used-in-production).
 
 
 ## Why Crystal?
@@ -99,7 +102,9 @@ These are summarized here:
 - Tutorials
     - [Intro to Crystal blog post](https://rollout.io/blog/an-introduction-to-crystal-fast-as-c-slick-as-ruby/)
     - [Learn Crystal in one video](https://www.youtube.com/watch?v=DxFP-Wjqtsc)
-    - [askn/crystal-by-example](https://github.com/askn/crystal-by-example) on Github
+    - [askn/crystal-by-example](https://github.com/askn/crystal-by-example) on GitHub
+- Post
+    - [Top 5 Reasons for Ruby-ists to Use Crystal](https://crystal-lang.org/2018/01/08/top-5-reasons-for-ruby-ists-to-use-crystal.html)
 - Videos
     - [Why the future of Ruby is Crystal clear](https://www.youtube.com/watch?v=4jr8aL-xMh0) from Rubyfuza
 
