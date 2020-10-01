@@ -64,7 +64,8 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Cache invalidation
     - Naming things
     - [Off-by-one errors](https://en.m.wikipedia.org/wiki/Fencepost_error)
-
+- Cookies
+	- [Cookies](https://flaviocopes.com/cookies/) section on Flavio Copes' blog.
 
 ### ↔️ Backend vs frontend
 
