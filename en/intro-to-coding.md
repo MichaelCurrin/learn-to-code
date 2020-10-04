@@ -71,7 +71,7 @@ Below are some departments or careers within tech that I am familiar with. These
 		- Swift (A newer language also by Apple).
 	- [React Native](topics/scripting_languages/JavaScript/frameworks.md#react-native)
 		- Based on the JavaScript [React](topics/scripting_languages/JavaScript/frameworks.md#react) framework.
-		- Build performant Android and iOS apps using a single codebase. It runs on desktop to.
+		- Build performant Android and iOS apps using a single codebase. It runs on desktop too.
 	- [Dart](topics/scripting_languages/Dart)
 		- The Dart language includes Flutter - a library for making mobile apps and UI components.
 		- The strength is that Dart can compile to performant Android and iOS code using a single codebase. It can also run on desktop.
