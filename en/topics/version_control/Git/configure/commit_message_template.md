@@ -11,6 +11,7 @@ Configure your `git` repo to use a pre-filled commit message prefix for every co
 	1. Create the template file.
 	2. Exclude template from version control
 	3. Configure the repo to use the template
+- Skip ahead to [Usage](#usage) to see sample screenshots of committing with the template.
 
 
 ## About
@@ -99,7 +100,7 @@ Note that this won't work with this approach: `git commit -m 'My message'`.
 
 ### Use IDE
 
-In VS Code, open the Source Control panel. See the commit message, edit it and commit
+In VS Code, open the Source Control panel. See the commit message, edit it and commit.
 
 ![VS Code](/.image/vs-code.png)
 
