@@ -1,6 +1,6 @@
-# Git commit message template
+# Commit message template
 
-Configure `git` to use a pre-filled commit message prefix for every commit. 
+Configure your `git` repo to use a pre-filled commit message prefix for every commit. 
 
 ## Summary
 
