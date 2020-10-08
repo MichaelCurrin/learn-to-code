@@ -111,8 +111,15 @@ $ sqlite3 [PATH] < query.sql
     - [utility di psql](http://postgresguide.com/utilities/psql.html) sul sito postgresguide.com.
     - Terminale interattivo Postgres.
 - `pg_ctl`
-    - [Documentazione di pg_ctl](https://www.postgresql.org/docs/current/app-pg-ctl.html) 
+    - [Documentazione di pg_ctl](https://www.postgresql.org/docs/current/app-pg-ctl.html)
+        > inizializza, inizia, termina o controlla un server PostgreSQL
     - Comando di controllo per la gestione di un database cluster.
+- `pg_dump`
+    - [pg_dump docs](https://www.postgresql.org/docs/current/app-pgdump.html)
+        > estrae un database PostgreSQL in uno script o in un altro tipo di file 
+- `pg_restore`
+    - [pg_restore docs](https://www.postgresql.org/docs/current/app-pgdump.html)
+        > ripristina un database PostgreSQL da un file di archivio creato con pg_dump
 
 #### Installazione
 
