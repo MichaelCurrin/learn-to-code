@@ -8,13 +8,11 @@ Configure `git` to use a pre-filled commit message prefix for every commit.
 - You can use an unversioned text file in a repo to set a commit message prefix.
 - This can be used to associate all commits on a branch with a label such as ticket number.
 - All new commits in the terminal or IDE will start with this prefix template.
-
-Steps
-
-1. Create the template file.
-2. Configure the repo to use it.
-3. Add the file to your global gitignore file.
-4. Start committing.
+- Steps:
+	1. Create the template file.
+	2. Configure the repo to use it.
+	3. Add the file to your global gitignore file.
+	4. Start committing.
 
 
 ## About
