@@ -7,11 +7,10 @@ Configure `git` to use a pre-filled commit message prefix for every commit.
 - All new commits in the terminal or IDE can be made to start with a prefix template, only in the context of a repo.
 - You can use an unversioned text file in a repo to set a commit message prefix.
 - This can be used to associate all commits on a branch with a label such as ticket number.
-- Steps:
+- Setup steps:
 	1. Create the template file.
-	2. Configure the repo to use it.
-	3. Add the file to your global gitignore file.
-	4. Start committing.
+	2. Exclude template from version control
+	3. Configure the repo to use the template
 
 
 ## About
@@ -27,7 +26,7 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 ## Setup
 
-### Create template file
+### 1. Create the template file
 
 Create a commit message template file named `_COMMIT_MESSAGE`. Add `.txt` extension if you want.
 
@@ -45,14 +44,16 @@ Create the file - using the command-line here:
 $ echo '[ABC-123] ' > _COMMIT_MESSAGE
 ```
 
-### Exclude from version control
+### 2. Exclude template from version control
 
-The file should not be added to version control, as you don't want it in your history or to share it with others.
+Ignore the template in a global git ignore file.
+
+The file should not be added to version control, as you will change it locally depending on the feature you are working on and you don't need it to be in your history or repo code.
 
 Therefore add `_COMMIT_MESSAGE` to your local ignore file (which will then appear for others too. Or even better, add `_COMMIT_MESSAGE` to your [Global ignore file](global_ignore_file.md), so that the repo's ignore file is unaffected and _all_ your repos will ignore this file.
 
 
-### Setup the repo to use the template
+### 3. Configure the repo to use the template
 
 Navigate to a repo.
 
