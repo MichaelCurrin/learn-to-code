@@ -7,11 +7,8 @@ Configure your `git` repo to use a pre-filled commit message prefix for every co
 - All new commits in the terminal or IDE can be made to start with a prefix template, only in the context of a repo.
 - You can use an unversioned text file in a repo to set a commit message prefix.
 - This can be used to associate all commits on a branch with a label such as ticket number.
-- Setup steps:
-	1. Create the template file.
-	2. Exclude template from version control
-	3. Configure the repo to use the template
-- Skip ahead to [Usage](#usage) to see sample screenshots of committing with the template.
+- See [Setup](#setup) steps.
+- See [Usage](#usage)for sample screenshots of committing with the template.
 
 
 ## About
@@ -27,19 +24,25 @@ See also this [blog post](https://thoughtbot.com/blog/better-commit-messages-wit
 
 ## Setup
 
+The steps are:
+
+1. Create the template file
+2. Exclude template from version control
+3. Configure the repo to use the template
+	
 ### 1. Create the template file
 
 Create a commit message template file named `_COMMIT_MESSAGE`. Add `.txt` extension if you want.
 
-For example, with a Jira ticket number used for the prefix:
+For example, with a Jira ticket number used for the prefix.
 
 ```
 [ABC-123] 
 ```
 
-Alternatively you could use a branch name.
+Alternatively you could use a branch name or PR title like `add-foo-widget` or `Add Foo widget`. 
 
-Create the file - using the command-line here:
+Then create the file - using the command-line here:
 
 ```sh
 $ echo '[ABC-123] ' > _COMMIT_MESSAGE
@@ -47,12 +50,11 @@ $ echo '[ABC-123] ' > _COMMIT_MESSAGE
 
 ### 2. Exclude template from version control
 
-Ignore the template in a global git ignore file.
+The template file should not be added to version control, as you will change it locally depending on the feature you are working on and you don't need it to be in your history or repo code.
 
-The file should not be added to version control, as you will change it locally depending on the feature you are working on and you don't need it to be in your history or repo code.
+Therefore you should `_COMMIT_MESSAGE` to your an ignore file
 
-Therefore add `_COMMIT_MESSAGE` to your local ignore file (which will then appear for others too. Or even better, add `_COMMIT_MESSAGE` to your [Global ignore file](global_ignore_file.md), so that the repo's ignore file is unaffected and _all_ your repos will ignore this file.
-
+Add `_COMMIT_MESSAGE` to your user's [Global ignore file](global_ignore_file.md). This takes a bit more effort than a local repo file, but you only have to do it once and it gets applied _all_ your repos. Also you don't have to add `_COMMIT_MESSAGE` to each repo's ignore file.
 
 ### 3. Configure the repo to use the template
 
