@@ -2,12 +2,11 @@
 
 Configure `git` to use a pre-filled commit message prefix for every commit. 
 
-
 ## Summary
 
+- All new commits in the terminal or IDE can be made to start with a prefix template, only in the context of a repo.
 - You can use an unversioned text file in a repo to set a commit message prefix.
 - This can be used to associate all commits on a branch with a label such as ticket number.
-- All new commits in the terminal or IDE will start with this prefix template.
 - Steps:
 	1. Create the template file.
 	2. Configure the repo to use it.
@@ -19,7 +18,7 @@ Configure `git` to use a pre-filled commit message prefix for every commit.
 
 You might put a project name or branch name as the prefix. This is useful for including a Jira ticket number for example. This solution relies on functionality built into `git` and works well whether committing on the command-line or with an IDE (such as VS Code, which pre-fills the commit message field as soon as you finish a commit).
 
-At any time you remove the template from the current commit message and then on the next commit the template will be used again.
+You can always edit or delete the template text for a particular commit and it will reppear the next time.
 
 You can also make template file empty to turn the prefix behavior off.
 
