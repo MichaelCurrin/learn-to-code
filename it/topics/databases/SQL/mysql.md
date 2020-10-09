@@ -7,7 +7,7 @@
 
 > Con il rilascio di Debian 9, MySQL è stato sostituito con MariaDB come sistema di database predefinito.
 
- Potresti voler installare MariaDB. È un sostituto immediato di MySQL. Vedere le istruzioni su[Come installare MariaDB su Debian 9](https://linuxize.com/post/how-to-install-mariadb-on-debian-9/)
+ Potresti voler installare MariaDB. È un sostituto immediato di MySQL. Vedere le istruzioni su [Come installare MariaDB su Debian 9](https://linuxize.com/post/how-to-install-mariadb-on-debian-9/)
 
 Altrimenti continua con i passaggi per MySQL illustrati di seguito.
 
