@@ -14,7 +14,7 @@ Altrimenti continua con i passaggi per MySQL illustrati di seguito.
 Segui prima le istruzioni _mysqlclient-python_ [prerequisiti](https://github.com/PyMySQL/mysqlclient-python#prerequisites).
 
 
-grazie agli aggiornamenti del 2018, dovrebbe essere sufficiente.
+Grazie agli aggiornamenti del 2018, dovrebbe essere sufficiente.
 
 ```bash
 $ sudo apt install mysql-server 
