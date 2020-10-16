@@ -16,6 +16,8 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 
 ## Getting started
 
+<!-- TODO move out to gists -->
+
 ### Install and upgrade
 
 Check where Ruby in installed, if at all. For example:
