@@ -127,3 +127,19 @@ Learn to review other developers' code.
 
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
 - [Code review](https://github.com/features/code-review/) feature guide Github.
+
+
+## Shell programming on Linux
+
+- [GNU Bash](https://www.gnu.org/software/bash/) homepage. Bash can run on Linux, macOS and other Unix-like systems.
+- Linux
+	- [linux.org](https://www.linux.org/) homepage.
+	- [Linux](https://en.wikipedia.org/wiki/Linux) on Wikipedia.
+- Linux subsystem on Windows.
+	- [Overview](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/)
+	- [Enable and Install](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/2-enable-and-install)
+- Ubuntu (a Linux flavor)
+	- [ubuntu.com/](https://ubuntu.com/) homepage
+	- [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) on Wikipedia
+- Help
+	- [askubuntu.com](https://askubuntu.com/)
