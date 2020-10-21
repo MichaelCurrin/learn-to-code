@@ -1,6 +1,6 @@
 # JS Frameworks
 
-Javascript frameworks are libraries (usually available as _npm_ packages) that let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
+JavaScript frameworks are libraries (usually available as _npm_ packages) that let you build modern, dynamic, interactive, animated frontends using abstractions like components so you don't have to write low-level JavaScript.
 
 See [10 Best JavaScript Frameworks to Use in 2019](
 https://hackr.io/blog/10-best-javascript-frameworks-2019).
@@ -564,6 +564,8 @@ If you are looking for a multi-page Vue app template, see this repo - [MichaelCu
         - [Vue path](https://app.pluralsight.com/paths/skills/vue)
     - [Scotch.io](https://scotch.io)
         - [Getting Start with Vue](https://scotch.io/courses/getting-started-with-vuejs)
+- Posts
+    - [Upgrading from 2 to 3](https://dev.to/ellis22/vue-3-breaking-changes-new-features-steps-to-upgrade-from-vue-2-to-vue-3-5ee3)
 - VS Code extensions
 	- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for `.vue` file syntax highlighting and other tooling.
 - Vue CLI
