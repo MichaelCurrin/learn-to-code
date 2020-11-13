@@ -3,6 +3,7 @@
 
 For more info, see this blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db), watch the second half the video [here](https://www.destroyallsoftware.com/talks/wat) or search "js wat" on Youtube.
 
+
 ## Types and objects
 
 ```javascript
@@ -53,6 +54,7 @@ So you need to use `[].concat`.
 [ 1, 2, 3 ]
 ```
 
+
 ## Maps
 
 JavaScript has `{}` which is an associative array i.e. key-value pairs.
@@ -94,6 +96,7 @@ Map { 'foo' => 1, 'bar' => 2 }
 Map { 'foo' => 1, 'bar' => 2, 3 => 'baz' }
 ```
 
+
 ## Comparisons
 
 ```javascript
@@ -116,6 +119,7 @@ true
 false
 ```
 
+
 ## Numbers
 
 ```javascript
@@ -137,6 +141,7 @@ ReferenceError: number is not defined
 > [1, 2, 100].sort() // Alphanumeric sorting of numers
 [ 1, 100, 2 ]
 ```
+
 
 ## Arrays
 
@@ -169,6 +174,7 @@ true
 > x
 [ <1 empty item>, 'foo', <8 empty items>, y: 'baz' ]
 ```
+
 
 ## Object work
 
