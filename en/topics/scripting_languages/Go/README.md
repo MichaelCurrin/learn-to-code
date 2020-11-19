@@ -122,12 +122,12 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
             $ wget <url>
             $ # OR
             $ curl -O <url>
-        1.  Unzip - this is a directory which is a re.
+        1.  Unzip - this is a directory w
             ```sh
-            $ # Create as `/usr/local/go`
+            $ # Created as `/usr/local/go/`
             $ sudo tar -C /usr/local -xzf <filename>
             
-            $ # OR as ~/.local/
+            $ # OR use a user director as ~/.local/go/
             $ tar -C ~/.local/ -xzf <filename>
             ```
         1. Setup path in `.profile` or `.bashrc`/`.zshrc`. There is a `go` executable in the `bin` directory which must be accessible.
