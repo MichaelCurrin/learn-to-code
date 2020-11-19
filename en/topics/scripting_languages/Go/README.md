@@ -8,7 +8,7 @@ Info to help you understand what Go is and how to build some basic things with i
 
 - A modern language which started in 2009 at Google.
 - Feels similar to Java/JavaScript/C syntax.
-- Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start. 
+- Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start.
 - **Compiled**
     - Go code compiles to a binary executable file (machine code), making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
 - **Strongly and statically typed**
@@ -92,6 +92,10 @@ A task does not have to be finished before going to the next one - the program c
     * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
         > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
     * [Asynchronous Programming with Go](https://medium.com/@gauravsingharoy/asynchronous-programming-with-go-546b96cd50c1)
+    * These were recommended on dev.to and I still want to check them out.
+        * [Learn Golang by Solving Real World Problems](https://medium.com/golang-jedi-knight/learn-golang-by-solving-real-world-problems-955c609ff0db) on Medium.
+        * [Primitive data types in Golang](https://medium.com/golang-jedi-knight/primitive-data-types-in-golang-35a291df3bbe) on Medium.
+        * [Zero values and complex data types in Golang](https://medium.com/golang-jedi-knight/zero-values-and-complex-data-types-in-golang-20ec177d11a2) on Medium.
 - Online playgrounds
     * [play.golang.org](https://play.golang.org/)
     * [Go on repl.it](https://repl.it/languages/go)
@@ -126,14 +130,14 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
             ```sh
             $ # Created as `/usr/local/go/`
             $ sudo tar -C /usr/local -xzf <filename>
-            
+
             $ # OR use a user director as ~/.local/go/
             $ tar -C ~/.local/ -xzf <filename>
             ```
         1. Setup path in `.profile` or `.bashrc`/`.zshrc`. There is a `go` executable in the `bin` directory which must be accessible.
             ```sh
             $ export PATH=/usr/local/go/bin
-            
+
             $ # OR
             $ export PATH="$HOME/.local/go/bin
             ```
@@ -174,7 +178,7 @@ $ go env GOPATH
 You can replace it as per the [docs](https://golang.org/doc/gopath_code.html#GOPATH).
 
 > For convenience, add the workspace's bin subdirectory to your `PATH`:
-> 
+>
 > ```sh
 > $ export PATH=$PATH:$(go env GOPATH)/bin
 > ```
@@ -285,7 +289,7 @@ Usage:
 go get [-d] [-t] [-u] [-v] [-insecure] [build flags] [packages]
 ```
 
-This resolves and adds dependencies to the current development module and then builds and installs them. 
+This resolves and adds dependencies to the current development module and then builds and installs them.
 
 
 Example:
@@ -307,9 +311,9 @@ Usage:
 go install [-i] [build flags] [packages]
 ```
 
-This compiles and installs the packages named by the import paths. 
+This compiles and installs the packages named by the import paths.
 
- The `-i` flag installs the dependencies of the named packages as well. 
+ The `-i` flag installs the dependencies of the named packages as well.
 
 ### List packages
 
@@ -319,13 +323,13 @@ Usage:
 go list [-f format] [-json] [-m] [list flags] [build flags] [packages]
 ```
 
-This lists the named packages, one per line. The most commonly-used flags are -f and -json, which control the form of the output printed for each package. Other list flags, documented below, control more specific details. 
+This lists the named packages, one per line. The most commonly-used flags are -f and -json, which control the form of the output printed for each package. Other list flags, documented below, control more specific details.
 
 
 ### Recommended packages
 
 - List of packages
-    - [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post 
+    - [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post
     - [Awesome go](https://github.com/avelino/awesome-go)
        > A curated list of awesome Go frameworks, libraries and software
     - [Web scraping packages](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md) guide
