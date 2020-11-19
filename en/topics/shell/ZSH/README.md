@@ -20,7 +20,7 @@ Jump to [Setup](#setup) section below to follow the links here to some articles 
     - [Table of contents](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html) for the docs
 - [Jazz Up Your “ZSH” Terminal In Seven Steps — A Visual Guide](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 - [10 Zsh Tips & Tricks: Configuration, Customization & Usage](https://www.sitepoint.com/zsh-tips-tricks/)
-- [ZSH Configuration](https://github.com/topics/zsh-configuration) topic on _Github_.
+- [ZSH Configuration](https://github.com/topics/zsh-configuration) topic on _GitHub_.
 - [What is the best .zshrc config you have seen?](https://dev.to/manan30/what-is-the-best-zshrc-config-you-have-seen-14id) - blog post
 - macOS
     - [How to Configure your macOs Terminal with Zsh like a Pro](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
@@ -32,7 +32,7 @@ Jump to [Setup](#setup) section below to follow the links here to some articles 
 
 - [Oh my zsh](https://ohmyz.sh/) official site
   > Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout...
-- [Github](https://github.com/ohmyzsh/ohmyzsh)
+- [GitHub](https://github.com/ohmyzsh/ohmyzsh)
 
 #### Install Oh my ZSH
 

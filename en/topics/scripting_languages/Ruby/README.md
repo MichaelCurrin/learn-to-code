@@ -55,7 +55,7 @@ $ sudo apt-get upgrade ruby-full
 
 ##### Make the gems available to run
 
-If you do a gem install with the `--user-install` flag, you'll install for your user only - which avoids using `sudo`. You'll see a message that the gem path is not in your path. 
+If you do a gem install with the `--user-install` flag, you'll install for your user only - which avoids using `sudo`. You'll see a message that the gem path is not in your path.
 
 So add the following, replacing `X.X.0` with your Ruby version always ending in `0`. e.g. `2.3.0` (even if your actual version is `2.3.3`).
 
@@ -104,7 +104,7 @@ export PATH="$RUBY_HOME:$PATH"
 
 ##### Make the custom Ruby's gems runable
 
-If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path. 
+If you do a gem install with the `--user-install` flag, you'll install for your user only. However, you'll see a message that the gem path is not in your path.
 
 So add the following. Replace `X.X.0` with your own Ruby version e.g. `2.6.0` (always end with `0`).
 
@@ -179,11 +179,11 @@ irb(main):004:0> Math.sqrt(123)
 ## Resources
 
 - [ruby-lang.org](https://www.ruby-lang.org/) Ruby homepage.
-- [ruby/ruby](https://github.com/ruby/ruby) on Github.
+- [ruby/ruby](https://github.com/ruby/ruby) on GitHub.
 - Tutorials for starting Ruby.
     - [Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/) on _Ruby Monstas_ site - the preface recommends a few resources.
     - [First Ruby Program](http://rubylearning.com/satishtalim/first_ruby_program.html) on [rubylearning.com](http://rubylearning.com). There are also tutorials on that site by topic or concept, but I found the site not so friendly so read.
-    - [ruby-lang.org](www.ruby-lang.org) 
+    - [ruby-lang.org](www.ruby-lang.org)
         - [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) - quickstart guide from the Ruby docs.
         - [To Ruby from Python](https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/)
     - [Learn Ruby in Y Minutes](https://learnxinyminutes.com/docs/ruby/)
@@ -192,7 +192,7 @@ irb(main):004:0> Math.sqrt(123)
     - [culttt.com](https://culttt.com) blog.
         - [Structs in Ruby](https://culttt.com/2015/04/15/working-with-structs-in-ruby/)
         - [Symbols in Ruby](https://culttt.com/2015/04/22/what-are-symbols-in-ruby/)
-    - [rubyguides.com](https://www.rubyguides.com) 
+    - [rubyguides.com](https://www.rubyguides.com)
         - Covers topics like how to use queues, how to use methods and from Java to Ruby.
         - [HTTP request with Ruby](https://www.rubyguides.com/2018/08/ruby-http-request/)
     - [Mastering ruby blocks](https://mixandgo.com/learn/mastering-ruby-blocks-in-less-than-5-minutes) on _Mix and Go_ site.
@@ -214,9 +214,9 @@ Also known as "gems".
         > Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
     - [Bundler Gemfile](https://bundler.io/gemfile.html) guide.
     - [How to install gems from git repositories](https://bundler.io/guides/git.html)
-- [Github packages documentation](https://help.github.com/en/packages)
-    - [Configuring RubyGems for use with Github pacakges](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages). From list of packages in the Github ecosystem [here](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem).
- 
+- [GitHub packages documentation](https://help.github.com/en/packages)
+    - [Configuring RubyGems for use with GitHub pacakges](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages). From list of packages in the GitHub ecosystem [here](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem).
+
 ### Recommended gems
 
 - [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.

@@ -8,7 +8,7 @@ It can be used for functional and object-oriented programming.
 
 In Python, to separate logical blocks in conditionals and loops we use indentation (typically 4 spaces at a time) rather than curly brackets as in C, Java or JavaScript.
 
-Python has a rich friendly growing community. 
+Python has a rich friendly growing community.
 
 > Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. Source: [Tutorial on the Python docs](https://docs.python.org/3/tutorial/index.html)
 
@@ -31,7 +31,7 @@ There are many Python libraries available for download for free. You can use som
 
 Python can even be used for mobile apps and build a static website.
 
-One web server appoach is Wordpress style - generate HTML from templates and use a database for fetching and store user data. 
+One web server appoach is Wordpress style - generate HTML from templates and use a database for fetching and store user data.
 
 Another approach is create an API which processes web requests and return serves JSON data for use by a web frontend or mobile apps.
 
@@ -40,9 +40,9 @@ Another approach is create an API which processes web requests and return serves
 
 Some detailed notes on _typing_ in the languages itself.
 
-Python is a **dynamically** typed language. This means that a variable can change data types (though this can cause headaches when catching bugs, so adding type checking is useful). 
+Python is a **dynamically** typed language. This means that a variable can change data types (though this can cause headaches when catching bugs, so adding type checking is useful).
 
-It is also a **strongly** typed language. Youu do not need to specify the data type of a variable explicily as it can be inferred - this check is done at runtime, unlike languages like _Java_ and _C++_ which check types at a compile time. 
+It is also a **strongly** typed language. Youu do not need to specify the data type of a variable explicily as it can be inferred - this check is done at runtime, unlike languages like _Java_ and _C++_ which check types at a compile time.
 
 Since Python is dynamically typed, some people incorrectly think Python is weakly typed. But it is strongly typed - if you add an `int` and `str` together or try run a `str` method on an `int` object, you will get an error. Contrast with JavaScript which is "weakly typed" or "untyped" such that `1 + '1'` is allowed and `'11'`. Resource on [types](https://hackernoon.com/actually-understand-statically-dynamically-strongly-weakly-typed-languages-axbpi3za2).
 
@@ -58,7 +58,7 @@ Extract from Typing heading on [Wikipedia page](https://en.wikipedia.org/wiki/Py
 See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/python.md).
 
 - [python.org](https://python.org) official site.
-- [Python topic](https://github.com/topics/python) on Github.
+- [Python topic](https://github.com/topics/python) on GitHub.
 - [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Python 3 Documentation](https://docs.python.org/3/)
 - [Python Package Index](https://pypi.org/) for downloading libraries.
@@ -67,15 +67,15 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
     - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
 - Ebooks
     - [Automate the Boring Stuff](https://automatetheboringstuff.com/) ebook - available to view on the website or to buy as a book or Ebook
-    - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) ebook - downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com). 
+    - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) ebook - downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com).
         - This is a great way to start doing something useful within Python even if you are just a beginner. It takes you from the basics to doing data science tasks with Python, such as reading from a database, posting a tweet or visualizing data. The sections contain info and practical code and they aren't tool detailed or long. Also, you don't have to read it in sequence - you can skip to a later section that interests you if you want to build that thing.
 - PEP (Python Enhancement Proposal) documents and other style guides
     - [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
     - [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-    - [PyGuide](https://google.github.io/styleguide/pyguide.html) page by Google on Github.
+    - [PyGuide](https://google.github.io/styleguide/pyguide.html) page by Google on GitHub.
 - Cheatsheets
     - [Python](https://devhints.io/python) on _devhints.io_.
-    - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) on Github.
+    - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) on GitHub.
     - [8 Best Python Cheat Sheets for Beginners and Intermediate Learners](https://sinxloud.com/python-cheat-sheet-beginner-advanced/).
 - Courses
     - Get certified using Google, edX, Coursera or other courses. [blog post](https://www.thecoderworld.com/how-to-become-a-certified-python-programmer/)
@@ -83,7 +83,7 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
     - Udemy - [Python courses](https://www.udemy.com/topic/python/).
     - Udacity - see [courses](https://www.udacity.com/courses/all) then search for _Python_.
     - Coursera - [Python courses](https://www.coursera.org/courses?query=python).
-- [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on Github.
+- [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on GitHub.
 - Blogs
     - [Real Python](https://realpython.com/) blog - I really enjoy this site, which has a few authors writing Python tutorials. Subscribe to their mailing list for regularly updates on a few posts.
     - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) post - examples of using Python basics including classes, lambdas, conditional statements and loops.
@@ -91,12 +91,12 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
 - Type checking MyPY
     - [Recipes](https://github.com/MichaelCurrin/code-cookbook/tree/master/recipes/python/mypy)
     - [Cheatsheet](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/cheatsheets/python/type-checks.md)
-    
+
 If you want to setup a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
 
 ### Design patterns
 
-- [Python Patterns](https://github.com/faif/python-patterns) - collection on Github with a great summary and links to code.
+- [Python Patterns](https://github.com/faif/python-patterns) - collection on GitHub with a great summary and links to code.
 - [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - another catalogue of Python examples in website format.
 - [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns) blog post.
 - [Python Patterns guide](https://python-patterns.guide/) website.
@@ -126,7 +126,7 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
                 > ... IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets
             * [PyLance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension - I haven't used this yet but this adds extra help. It claims to "supercharge your Python IntelliSense experience with rich type information".
         * Setup your user-level settings file - this applies to all projects and can be overridden with per-project settings. For example change formatting and linting settings.
-        * Setup files in each project. 
+        * Setup files in each project.
             - Create workspace-specific settings file in your project as `.vscode/settings.json`. See this template [settings.json](https://github.com/MichaelCurrin/py-project-template/blob/master/.vscode/settings.json) file. Note that this should be done per-project.
             - A dotenv file - use this to add your app folder and virtual environment folder to the `PYTHONPATH` value. Otherwise VS Code will complain that it cannot do imports when it is checking a file. See this template [.env](https://github.com/MichaelCurrin/py-project-template/blob/master/.env) file. Unfortunately, this value does not seem to be possible to set in `settings.json` so you must create a separate `.env` file of just one line.
     * There is only a free version of this. It is open source and by MicroSoft.
@@ -148,7 +148,7 @@ Alternatives - I don't use or recommend these but they are provided for complete
     * [Homepage](https://www.spyder-ide.org/)
 - Sublime Text
     * "A sophisticated text editor for code, markup and prose."
-    * I used to use this in my early days but found it was not convenient for things like virtual environments, Python versions, extensions 
+    * I used to use this in my early days but found it was not convenient for things like virtual environments, Python versions, extensions
     * The free version occasionally gives a message to ask you to buy the paid version, but there is no other difference in functionality.
     * [Homepage](https://www.sublimetext.com/)
 - Atom
@@ -160,8 +160,8 @@ Alternatives - I don't use or recommend these but they are provided for complete
 - For Visual Studio Code. Follow the download URLs or use lookup by name in the VS Code Extension tab.
     * Python extension.
         + "Linting, Debugging (multi-threaded, remote), Intellisense, code formatting, refactoring, unit tests, snippets, and more."
-        + [Download page](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
-    * Python Indent extension. 
+        + [Download page](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+    * Python Indent extension.
         + "Correct Python indentation"
         + [Download page](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent).
 
@@ -190,12 +190,12 @@ _Not to be confused with **pyvenv** which shows a deprecated message when used i
 
 - You are now unable to make changes to the system Python 2 (in order to use `pip` or `virtualenv`).
 - And `python@2` is no longer available in `brew`.
-- So PyEnv is a good solution to install a custom Python 2 for your user. 
+- So PyEnv is a good solution to install a custom Python 2 for your user.
 
 #### Links
 
-- [pyenv/pyenv](https://github.com/pyenv/pyenv) repo on Github.
-- [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) repo on Github.
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) repo on GitHub.
+- [pyenv/pyenv-installer](https://github.com/pyenv/pyenv-installer) repo on GitHub.
 - [Intro to pyenv](https://realpython.com/intro-to-pyenv/) tutorial on RealPython.
 
 
@@ -239,7 +239,7 @@ Example usage for installing a custom version of Python 3:
 - Create a virtual environment for that Python version.
     ```sh
     $ $(pyenv root)/versions/3.8-dev/bin/python -m venv <NEW_ENV_NAME>
-    
+
     $ source <NEW_ENV_NAME>/bin/activate
     $ python -V
     3.8.dev
@@ -254,7 +254,7 @@ Example usage for installing a custom version of Python 2:
 - Install Python version `2.7.15`. This must be done before any of the commands below.
     ```sh
     $ pyenv install -v 2.7.15
-    
+
     $ # On macOS Catalina, set flag as per https://github.com/pyenv/pyenv/wiki/common-build-problems
     $ CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install -v 2.7.15
     ```

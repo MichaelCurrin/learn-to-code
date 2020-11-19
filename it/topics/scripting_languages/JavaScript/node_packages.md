@@ -110,12 +110,12 @@ $ npm list -g --depth 0
 
 ### NPM CI
 
-NPM ha un comando `ci`, che viene usato in Github Actions.
+NPM ha un comando `ci`, che viene usato in GitHub Actions.
 
 - [npm-ci](https://docs.npmjs.com/cli/ci.html)
     > Installa un progetto con una lavagna pulita
 
-Passaggi di esempio dal flusso di lavoro di esempio di azioni Github:
+Passaggi di esempio dal flusso di lavoro di esempio di azioni GitHub:
 
 ```yaml
       steps:
@@ -128,7 +128,7 @@ Passaggi di esempio dal flusso di lavoro di esempio di azioni Github:
 
 Nota: richiede il file `package-lock.json` o il pacchetto termoretraibile. Non funziona con `yarn.lock`.
 
-Azioni Github: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
+Azioni GitHub: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
 
 ## Yarn
@@ -162,12 +162,12 @@ Yarn è costruito su NPM, quindi per lo più puoi trattarlo allo stesso modo.
 
 ### Yarn CI
 
-[Github Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
+[GitHub Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
 
 
 ## NVM
 
-Se si desidera installare più versioni di Node e NPM sul proprio computer, considerare l'utilizzo di NVM. 
+Se si desidera installare più versioni di Node e NPM sul proprio computer, considerare l'utilizzo di NVM.
 
 Questo non sostituisce `npm` ma consente di alternare tra le versioni di` npm`. Alcuni progetti potrebbero non funzionare con una versione precedente o più recente di `node` o` npm`.
 
@@ -183,7 +183,7 @@ Se si esegue `npm install PACKAGE` con una determinata versione, i pacchetti and
 
 Segui le istruzioni qui:
 
-- [nvm-sh / nvm](https://github.com/nvm-sh/nvm) repository Github
+- [nvm-sh / nvm](https://github.com/nvm-sh/nvm) repository GitHub
 - [NVM, il modo più semplice per passare da un ambiente all'altro Node.js sulla tua macchina](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your -machine-in-a-flash-17babb7d5f1b? gi = 74712a4b1ad)
 
 Nota che dovrai installare il comando `nvm` e anche aggiornare il tuo file RC della shell per assicurarti che venga prelevato.
@@ -213,6 +213,6 @@ Visualizza le versioni disponibili:
         v12.1.0
  ->    v13.11.0
          system
- ```   
+ ```
 
 È possibile passare dalla versione al terminale e impostare un valore predefinito globale.

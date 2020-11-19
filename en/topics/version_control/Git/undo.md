@@ -43,7 +43,7 @@ Changes to be committed:
 ...
 Changes not staged for commit:
         modified:   modified.txt
-        
+
 $ git checkout .
 $ git status
 Changes to be committed:
@@ -89,7 +89,7 @@ https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
 ## Tree
 
-Use reset point `HEAD` at a specific commit. 
+Use reset point `HEAD` at a specific commit.
 
 The default command uses the `--soft` flag such that any changes you have committed will be **kept**, you can choose to edit or commit those changes. If you are happy to jump back at lose any changes you have committed between that commit and now, then use the `--hard` flag, but be careful.
 
@@ -103,7 +103,7 @@ $ git checkout .
 ```
 
 ```bash
-$ # Restore files to a certain commit. 
+$ # Restore files to a certain commit.
 $ git reset <COMMIT> --hard
 
 $ # Step back one commit, keeping your changes.
@@ -129,7 +129,7 @@ git reset <COMMIT> --hard
 git stash pop
 ```
 
-If you have messed up your local branch and haven't pushed yet, you can make your local branch reflect the remote on Github and lose any local commits. For example:
+If you have messed up your local branch and haven't pushed yet, you can make your local branch reflect the remote on GitHub and lose any local commits. For example:
 
 ```bash
 $ git reset origin/master --hard

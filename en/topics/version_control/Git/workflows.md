@@ -27,7 +27,7 @@ The rebasing covered here is focused on relatively simple re-ordering. If you wa
 
 ```sh
 $ # e.g. Replace REMOTE_BRANCH with origin/master
-$ git rebase REMOTE_BRANCH 
+$ git rebase REMOTE_BRANCH
 
 $ # Rebase a feature branch (or master) on the remote content.
 $ git pull --rebase
@@ -79,7 +79,7 @@ The latter is a safer option that makes sure do not override any work on the rem
 
 ## Merge and cleanup
 
-First, merge your feature branch in master on Github.
+First, merge your feature branch in master on GitHub.
 
 Go to your master branch.
 
@@ -130,7 +130,7 @@ $ git fetch --tags && git push --tags
 
 ## Iterate
 
-Run a command over a directory of _git_ repos. 
+Run a command over a directory of _git_ repos.
 
 You can replace the `CMD` value with a sync command from one of the sections.
 

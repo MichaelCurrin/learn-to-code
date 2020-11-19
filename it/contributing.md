@@ -17,7 +17,7 @@ Se vuoi prima avere una conversazione sulle modifiche, crea una Issue e possiamo
     - Facoltativamente, utilizza [StackEdit](https://stackedit.io/) per modificare il contenuto. Esso ti consente di visualizzare in anteprima l'output di rendering nel browser. Funziona molto bene sui file markdown e in repository più grandi.
 3. Controlla le tue modifiche.
     - Assicurati che file e directory seguano la convenzione nel resto del progetto.
-    - Markdown: assicurati che le pagine modificate vengano visualizzate in Github e i collegamenti funzionino.
+    - Markdown: assicurati che le pagine modificate vengano visualizzate in GitHub e i collegamenti funzionino.
     - Script: assicurati che vengano eseguiti correttamente.
 4. Aggiungi il tuo nome all'elenco nella sezione successiva.
 5. Crea una pull request per il repository originale. Non esiste un modello per una richiesta pull.

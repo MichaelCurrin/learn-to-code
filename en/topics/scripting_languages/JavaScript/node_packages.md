@@ -114,12 +114,12 @@ $ npm list -g --depth 0
 
 ### NPM CI
 
-NPM has a `ci` command, which is used in Github Actions.
+NPM has a `ci` command, which is used in GitHub Actions.
 
 - [npm-ci](https://docs.npmjs.com/cli/ci.html)
     > Install a project with a clean slate
 
-Example steps from the Github Actions sample workflow:
+Example steps from the GitHub Actions sample workflow:
 
 ```yaml
     steps:
@@ -132,7 +132,7 @@ Example steps from the Github Actions sample workflow:
 
 Note: Requires `package-lock.json` or shrink wrap file. It does not work with `yarn.lock`.
 
-Github Actions: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
+GitHub Actions: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
 ### Security
 
@@ -192,12 +192,12 @@ Follow my [Install Yarn](https://gist.github.com/MichaelCurrin/bdc34c554fa3023ee
 
 ### Yarn CI
 
-[Github Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
+[GitHub Action for Yarn](https://github.com/marketplace/actions/github-action-for-yarn)
 
 
 ## NVM
 
-If you want to install multiple versions of Node and NPM on your machine, consider using NVM. 
+If you want to install multiple versions of Node and NPM on your machine, consider using NVM.
 
 This does not replace `npm` but allows you to switch between versions of `npm`. Some projects may not work with an older or newer version of `node` or `npm`.
 
@@ -213,7 +213,7 @@ If you run `npm install PACKAGE` with a certain version, packages will go here f
 
 Follow the instructions here:
 
-- [nvm-sh/nvm](https://github.com/nvm-sh/nvm) Github repo
+- [nvm-sh/nvm](https://github.com/nvm-sh/nvm) GitHub repo
 - [NVM, the Easiest Way to Switch Node.js Environments on Your Machine in a Flas](https://itnext.io/nvm-the-easiest-way-to-switch-node-js-environments-on-your-machine-in-a-flash-17babb7d5f1b?gi=74712a4b1ad)
 
 Note you will have to install `nvm` command and also update your shell RC file to ensure it is picked up.
@@ -243,6 +243,6 @@ View available versions:
         v12.1.0
 ->     v13.11.0
          system
- ```   
+ ```
 
 You can switch between version in the terminal and set a global default.

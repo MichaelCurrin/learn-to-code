@@ -28,10 +28,10 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 
 ### Info about React
 
-- It is used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA). 
+- It is used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA).
 - This scales well for high volume traffic.
 - This works well for dynamic data such as reading or storing from a backend or database or querying other API services.
-- It is very popular (5th most starred JS library on Github) and used on major sites Facebook, Netflix, and Khan Academy.
+- It is very popular (5th most starred JS library on GitHub) and used on major sites Facebook, Netflix, and Khan Academy.
 - React does not call itself a "framework" but just a "library". It is easy to extend, not opinionated and it is modular (you can use just a part you need without the whole thing).
 - React is a library for building _user interfaces_. If an environment such as the web browser can run plain JavaScript, then you can build an interface for it using React.
 - React will compiled to optimized low-level JavaScript code.
@@ -49,7 +49,7 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 		- [Main concepts](https://reactjs.org/docs/hello-world.html), starting at Hello world.
 		- [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 - NPM: [react](https://www.npmjs.com/package/react) package
-- GitHub: [Github repo: facebook/react](https://github.com/facebook/react).
+- GitHub: [GitHub repo: facebook/react](https://github.com/facebook/react).
     > A declarative, efficient, and flexible JavaScript library for building user interfaces.
 - [NPM package: react](https://www.npmjs.com/package/react)
 - Create React App
@@ -81,7 +81,7 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 	- [React snippet](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-react-snippet)
 	- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/itemdetails?itemName=dsznajder.es7-react-js-snippets)
 		- Featured in [The Best React Extension](https://scotch.io/tutorials/the-best-react-extension-for-vs-code) article on Scotch.io site.
-	
+
 ### React root
 
 React runs off of a single `index.html` file with a `div` like this. Sometimes just `"root"`.
@@ -122,7 +122,7 @@ You'll get a project setup like this:
 
 <details>
 <summary>File tree</summary>
-	
+
 ```
 my-app
 ├── README.md
@@ -164,7 +164,7 @@ Here is a quickstart for that.
 
 <details>
 <summary>Script</summary>
-	
+
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
@@ -188,7 +188,7 @@ See a [basic example](https://reacttraining.com/react-router/web/example/basic) 
 
 <details>
 <summary>Script</summary>
-	
+
 ```jsx
 import React from "react";
 import {
@@ -302,13 +302,13 @@ https://reactnative.dev/docs/0.60/getting-started
 	- Includes an interactive example,
 - Tutorials
     - [Learn the basics](https://facebook.github.io/react-native/docs/tutorial).
-- [Github repo](https://github.com/facebook/react-native)
+- [GitHub repo](https://github.com/facebook/react-native)
 - Online IDE
 	- [expo.io](https://expo.io/)
 		> With Expo tools, services, and React, you can build, deploy, and quickly iterate on native Android, iOS, and web apps from the same JavaScript codebase.
 		- Create and run apps. Even run on your mobile device.
 		- See in particular [snack.expo.io](https://snack.expo.io/)
-		
+
 ### Hello world
 
 - `App.js`
@@ -410,7 +410,7 @@ Copied from the https://snack.expo.io/ example app.
 	  },
 	});
 	```
-	
+
 ### Package
 
 Example `package.json`.
@@ -486,7 +486,7 @@ It is an open source project used by Google.
 - [Official site](https://angular.io/).
     > One framework. Mobile & desktop.
 - [Quickstart](https://angular.io/start) to get started in 5 minutes.
-- [Github repo](https://github.com/angular/angular).
+- [GitHub repo](https://github.com/angular/angular).
     > Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages.
 - Courses
     - [Egghead](https://egghead.io/)
@@ -545,7 +545,7 @@ If you are looking for a multi-page Vue app template, see this repo - [MichaelCu
 
 ### Resources
 
-- Vue homepage - [vuejs.org](https://vuejs.org) 
+- Vue homepage - [vuejs.org](https://vuejs.org)
 - Official site [vuejs.org](https://vuejs.org)
 	- [Installation](https://vuejs.org/v2/guide/installation.html)
 	- [Introduction](https://vuejs.org/v2/guide/index.html)
@@ -569,7 +569,7 @@ If you are looking for a multi-page Vue app template, see this repo - [MichaelCu
 - VS Code extensions
 	- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for `.vue` file syntax highlighting and other tooling.
 - Vue CLI
-    - CLI homepage [cli.vuejs.org](https://cli.vuejs.org/) 
+    - CLI homepage [cli.vuejs.org](https://cli.vuejs.org/)
     - [Creating a Project](https://cli.vuejs.org/guide/creating-a-project.html) doc page, for if you want to start a fresh project.
         - [Create app](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) command
             ```sh
@@ -608,7 +608,7 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 
 <details>
 <summary>Script</summary>
-	
+
 ```html
 <html>
 
@@ -709,7 +709,7 @@ A React framework for speed, scaling and security. Created by Vercel.
 
 - https://nextjs.org/
 	> The React Framework
-	> 
+	>
 	> - Visit https://nextjs.org/learn to get started with Next.js.
 	> - Visit https://nextjs.org/docs to view the full documentation.
 - https://github.com/vercel/next.js
@@ -719,7 +719,7 @@ A React framework for speed, scaling and security. Created by Vercel.
 
 - Homepage: https://nuxtjs.org/
 	> The Intuitive Vue Framework
-	> 
+	>
 	> Build your next Vue.js application with confidence using NuxtJS. An open source framework making web development simple and powerful.
 - Repo: https://github.com/nuxt/nuxt.js
 	> Build your next Vue.js application with confidence using Nuxt.js: a framework making web development simple and powerful.
@@ -727,4 +727,3 @@ A React framework for speed, scaling and security. Created by Vercel.
 	> Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js. The framework is advertised as a "meta-framework for universal applications"
 - Courses
 	- https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/
-	

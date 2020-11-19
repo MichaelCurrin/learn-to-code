@@ -4,9 +4,9 @@
 
 > Rust combines low-level control over performance with high-level convenience and safety guarantees. It achieves these goals without requiring a garbage collector or runtime, making it possible to use Rust libraries as a "drop-in replacement" for C.
 
-Rust uses a new paradigm of memory management - variables are owned by one process (can be changed by it and read-only by others), but other processes can "borrow" a variable. 
+Rust uses a new paradigm of memory management - variables are owned by one process (can be changed by it and read-only by others), but other processes can "borrow" a variable.
 
-Rust is compiled language - it creates a binary executable. 
+Rust is compiled language - it creates a binary executable.
 
 Types are checked at compile time. Types must be specified in the code inputs and outputs, but can be inferred for variables in functions allowing lighter code that doesn't need types specified everywhere. Rust allows a null type, but requires at compile time that you handle the null case - this avoids errors where you code tries to perform actions on a null object.
 
@@ -35,7 +35,7 @@ Types are checked at compile time. Types must be specified in the code inputs an
     > Rust’s rich type system and ownership model guarantee memory-safety and thread-safety — and enable you to eliminate many classes of bugs at compile-time.
 - Productivity
     > Rust has great documentation, a friendly compiler with useful error messages, and top-notch tooling — an integrated package manager and build tool, smart multi-editor support with auto-completion and type inspections, an auto-formatter, and more.
-    
+
 Source: [link](https://www.rust-lang.org/)
 
 
@@ -51,9 +51,9 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 ## Resources
 
 - Official Rust site - https://www.rust-lang.org/
-- Learn Rust - https://www.rust-lang.org/learn 
+- Learn Rust - https://www.rust-lang.org/learn
     - You get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs below work
-- Rust reference docs 
+- Rust reference docs
     - Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/
     - Online book "The Rust Programming Language" - https://doc.rust-lang.org/book/
 - Tutorials
@@ -90,7 +90,7 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
     - [This Week in Programming: Rust Versus Go? Why Not Both!](https://thenewstack.io/this-week-in-programming-rust-versus-go-why-not-both/)
         > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
     - [Why Go and not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
-    
+
 ## Installation
 
 Install [Rustup](https://rustup.rs/) - the Rust toolchain manager.
@@ -178,7 +178,7 @@ $ rustc file.rs && ./file
 
 ## Examples
 
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) on the docs. 
-    - Learn Rust with examples (live code editor included). This site runs on the Github repo [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example).
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) on the docs.
+    - Learn Rust with examples (live code editor included). This site runs on the GitHub repo [rust-lang/rust-by-example](https://github.com/rust-lang/rust-by-example).
 - [Fibonacci sequence](https://gist.github.com/mjs/d5770f0b0f440eb67687100929f1335a) as a gist.
-- [Rust examples](https://github.com/eliovir/rust-examples) repo on Github.
+- [Rust examples](https://github.com/eliovir/rust-examples) repo on GitHub.

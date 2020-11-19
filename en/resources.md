@@ -126,7 +126,7 @@ Learn how to write code that follows the style guide for the language or project
 Learn to review other developers' code.
 
 - [Code review skills for people](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
-- [Code review](https://github.com/features/code-review/) feature guide Github.
+- [Code review](https://github.com/features/code-review/) feature guide GitHub.
 
 
 ## Shell programming on Linux

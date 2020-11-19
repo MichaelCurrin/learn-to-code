@@ -17,7 +17,7 @@ Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente
 
 ## Argomenti
 
-### 💡 Concetti di software design 
+### 💡 Concetti di software design
 
 - Sistemi operativi
   - Unix
@@ -36,14 +36,14 @@ Non è necessario conoscere effettivamente tutti questi argomenti, ma idealmente
     - Principio di sostituzione di Liskov
     - Principio di segregazione dell'interfaccia
     - Principio di inversione di dipendenza
-- Filosofia Linux 
+- Filosofia Linux
     - [I 9 principi principali e come ti influenzano](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
     - La lista
         - Piccolo è bello
         - Ogni programma fa bene una cosa
         - Prototipo il più presto possibile
         - Scegli Portabilità piuttosto che efficienza
-        - Archivia i dati in file di testo 
+        - Archivia i dati in file di testo
         - Usa la leva del software
         - Utilizzare gli script Shell per aumentare la leva e la portabilità
         - Evitare le interfacce utente Captive
@@ -104,7 +104,7 @@ Argomenti:
 Guarda anche, programma "Hello, world" su [Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program).
 
 
-### 📏 Sviluppo Test Driven 
+### 📏 Sviluppo Test Driven
 
 - [sviluppo Test-driven](https://en.wikipedia.org/wiki/Test-driven_development) su Wikipedia.
 - [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps) - Se sei interessato a scrivere unit test, potresti trovare del codice bootstrap qui per un determinato linguaggio.
@@ -125,4 +125,4 @@ Scopri come scrivere codice che segue la style guide per il linguaggio o il prog
 Impara a revisionare il codice di altri sviluppatori.
 
 - [Abilità di revisione del codice per le persone](https://speakerdeck.com/nnja/code-review-skills-for-people) slide deck.
-- [Revisione del codice](https://github.com/features/code-review/) guida alle funzionalità di Github.
+- [Revisione del codice](https://github.com/features/code-review/) guida alle funzionalità di GitHub.

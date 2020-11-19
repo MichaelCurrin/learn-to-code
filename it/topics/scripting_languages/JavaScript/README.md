@@ -54,7 +54,7 @@ Ecco alcuni casi tipici per JavaScript. Alcuni sono nel browser, altri sul lato 
 
 Riassunto dall'articolo [qui](https://medium.com/duomly-blockchain-online-courses/why-learn-javascript-5-good-reasons-42aa0d021b4f).
 
-1. Iniziale facilità di apprendimento  
+1. Iniziale facilità di apprendimento
 2. Grandi opportunità di carriera
 3. Ampia gamma di utilizzo
 4. Una grande comunità
@@ -198,7 +198,7 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
     - [Pagina ufficiale](https://handlebarsjs.com/)
         > Templating minimo sugli steroidi
     - [npm](https://www.npmjs.com/package/handlebars)
-    - [Github repo](https://github.com/wycats/handlebars.js)
+    - [GitHub repo](https://github.com/wycats/handlebars.js)
 
 ### Librerie Dataviz
 
@@ -206,7 +206,7 @@ Le librerie JavaScript possono essere caricate ed eseguite nel browser e anche s
 - [ApexCharts.js](https://apexcharts.com/)
 - [Highcharts](https://www.highcharts.com/)
 - roughViz
-    - [jwilber / roughViz](https://github.com/jwilber/roughViz) su Github.
+    - [jwilber / roughViz](https://github.com/jwilber/roughViz) su GitHub.
     - [roughviz](https://pypi.org/project/roughviz/) come pacchetto _Python_.
     - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) post del blog.
 

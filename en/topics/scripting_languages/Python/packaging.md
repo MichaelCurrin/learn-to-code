@@ -8,7 +8,7 @@
 
 ## How to package your project
 
-Make your project installable using `pip`. Through a downloaded directory, zip file, PyPI name or Github URL.
+Make your project installable using `pip`. Through a downloaded directory, zip file, PyPI name or GitHub URL.
 
 Links:
 
@@ -34,4 +34,3 @@ And put your configs, database and logs in there. Those can be used by the app a
 That directory setup can be created automatically on installation.
 
 But persist it on uninstall - this means that you can upgrade the package or reinstall it and the app data will remain.
-

@@ -3,23 +3,23 @@
 
 **TD;DR**
 
-1. Create a new repo locally with git. 
+1. Create a new repo locally with git.
 1. Add a remote for old repo A
-1. Merge it into the new repo, but with a flag to allow unrelated histories (since their initial commits are different but we are happy to stick the merged in repo's history on top of the current history. 
+1. Merge it into the new repo, but with a flag to allow unrelated histories (since their initial commits are different but we are happy to stick the merged in repo's history on top of the current history.
 1 Repeat steps 2 and 3 for old repo B etc.
 
 
-(oldRepoA and oldRepoB) 
+(oldRepoA and oldRepoB)
 Note: this lesson requires git version 2.11 or higher, for access to the `--allow-unrelated-histories` flag on git merge. This is fine on Debian. But Linux lite and certain Ubuntu distributions only have older versions of git at time of writing, so you might want to add alternative sources for your package updates.
 
 With thanks to these articles for the approach and commands which I based this lesson on:
  - [Merging Two Git Repositories Into One Repository Without Losing File History](https://saintgimp.org/2013/01/22/merging-two-git-repositories-into-one-repository-without-losing-file-history/)
  - [Merging Two Git Repositories](https://blog.doismellburning.co.uk/merging-two-git-repositories/) - in particular for `--allow-unrelated-histories` flag
- 
+
 There is probably a way to do the same thing in the lesson using rebase to make two repos appear to share a sequential history when merged. But I am wary of doing a rebase without any experience with that.
 
 
-1. Create the newRepo on Github/Bitbucket and create a REAMD.md file there.
+1. Create the newRepo on GitHub/Bitbucket and create a REAMD.md file there.
 
 2. Get a local copy of it.
 
@@ -40,7 +40,7 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     $ cd oldRepoA
     # Create a dir of the same name
     $ mkdir oldRepoA
-    # Move everything in oldRepoA/ to oldRepoA/oldRepoA/, though you will get a harmless error 
+    # Move everything in oldRepoA/ to oldRepoA/oldRepoA/, though you will get a harmless error
     # saying the dir could not be moved into itself.
     $ git mv * oldRepoA/
     # Hidden files need to moved separately.
@@ -60,7 +60,7 @@ There is probably a way to do the same thing in the lesson using rebase to make 
 5. Merge oldRepoA into newRepo
 
     ```bash
-    # You could get an error that the histories are different with no commits in common, therefore 
+    # You could get an error that the histories are different with no commits in common, therefore
     # add a flag to ignore this.
     $ git merge oldRepoA/master --allow-unrelated-histories
     ```
@@ -72,11 +72,11 @@ There is probably a way to do the same thing in the lesson using rebase to make 
 7. Optionally view the commit history tree visually.
 
     Example ouput:
-    
+
     ```bash
     $  log --graph --decorate --pretty=oneline --abbrev-commit
     *   10473f8 (HEAD -> master, origin/master) Merge remote-tracking branch 'oldRepoB/master'
-    |\  
+    |\
     | * e21ea58 (oldRepoB/master) Move all objects in oldRepoB to oldRepoB dir.
     | * 3498d95 Create myFile.py
     | * 1fd7a6c Initial commit # oldRepoB
@@ -94,7 +94,7 @@ There is probably a way to do the same thing in the lesson using rebase to make 
     In newRepo you can continue to update files, do commits and push.
 
     You will probably want to combine the README.md, LICENCE and .gitignore files from the subdirectories into single files for the new repo.
-    
+
     ```bash
     $ git push -u origin master
     ```

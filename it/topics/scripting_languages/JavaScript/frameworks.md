@@ -26,7 +26,7 @@ Vedi [Perchè React?](https://jscomplete.com/learn/why-react) sul sito JSComplet
 - Viene utilizzato per sviluppare un'interfaccia utente dinamica in modo che il DOM sia basato sul _client side_ - come applicazione a pagina singola (SPA).
 - Questo si adatta bene per il traffico ad alto volume.
 - Funziona bene con dati dinamici come la lettura o l'archiviazione da un back-end o database o l'interrogazione di altri servizi API.
-- È molto popolare (la quinta libreria JS più famosa su Github) e utilizzata sui principali siti Facebook, Netflix e Khan Academy.
+- È molto popolare (la quinta libreria JS più famosa su GitHub) e utilizzata sui principali siti Facebook, Netflix e Khan Academy.
 - React non si definisce un "framework" ma solo una "libreria". È facile da estendere, non supponente ed è modulare (puoi usare solo una parte di cui hai bisogno senza tutto).
 - React è una libreria per la creazione di _user interfaces_. Se un ambiente come il browser Web può eseguire JavaScript semplice, è possibile creare un'interfaccia per esso utilizzando React.
 - React verrà compilato in codice JavaScript di basso livello ottimizzato.
@@ -43,7 +43,7 @@ Vedi [Perchè React?](https://jscomplete.com/learn/why-react) sul sito JSComplet
 		- [Guida introduttiva](https://reactjs.org/docs/getting-started.html) guida all'installazione.
 		- [Concetti principali](https://reactjs.org/docs/hello-world.html), a partire da Hello world.
 		- [Presentazione di JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Repository Github:facebook/react](https://github.com/facebook/react).
+- [Repository GitHub:facebook/react](https://github.com/facebook/react).
     > Una libreria JavaScript dichiarativa, efficiente e flessibile per la creazione di interfacce utente.
 - [Pacchetto NPM: react](https://www.npmjs.com/package/react)
 - Tutorial
@@ -129,7 +129,7 @@ ReactDOM.render(
     > Questa pagina ti aiuterà a installare e creare la tua prima app React Native.
 - Tutorials
     - [Impara le basi](https://facebook.github.io/react-native/docs/tutorial).
-- [Github repo](https://github.com/facebook/react-native)
+- [GitHub repo](https://github.com/facebook/react-native)
 
 ### Hello world
 
@@ -182,7 +182,7 @@ Consente l'uso di una sintassi simile all'HTML nell'applicazione e consente l'in
 - [Sito Ufficiale](https://angular.io/).
     > Un framework. Mobile & desktop.
 - [Quickstart](https://angular.io/start) per iniziare in 5 minuti.
-- [Github repo](https://github.com/angular/angular).
+- [GitHub repo](https://github.com/angular/angular).
     > Angular è una piattaforma di sviluppo per la creazione di applicazioni Web mobili e desktop utilizzando TypeScript/JavaScript e altre linguaggi.
 - Corsi
     - [Egghead](https://egghead.io/)
@@ -233,7 +233,7 @@ Un framework progressivo per la creazione di interfacce utente. Ha usato per lo 
 - [Installazione](https://vuejs.org/v2/guide/installation.html)
 - [Introduzione](https://vuejs.org/v2/guide/index.html)
 - [Esempi](https://vuejs.org/v2/examples/)
-- [Github repo](https://github.com/vuejs/vue)
+- [GitHub repo](https://github.com/vuejs/vue)
 - Video
     - _Vue.js: Il Documentario_
         - [Trailer](https://www.youtube.com/watch?v=2EmYw-O-WLI)
@@ -253,7 +253,7 @@ Un framework progressivo per la creazione di interfacce utente. Ha usato per lo 
 	- [Plugins guide](https://vuejs.org/v2/guide/plugins.html) su Vue docs. Visualizza argomenti come routing, gestione dello stato e rendering sul lato server.
 	- [Vuex](https://vuex.vuejs.org/)
 		- Per memorizzare e gestire lo stato. Simile a Flux o Redux of React.
-	
+
 ### Hello world
 
 In questo esempio semplificato, tutti i CSS e JS si trovano nel singolo file HTML.

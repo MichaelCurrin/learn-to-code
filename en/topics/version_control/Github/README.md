@@ -1,8 +1,8 @@
-# Github
+# GitHub
 
-## What is Github?
+## What is GitHub?
 
-From [Wikipedia](https://en.wikipedia.org/wiki/GitHub): 
+From [Wikipedia](https://en.wikipedia.org/wiki/GitHub):
 
 > GitHub, Inc. is a US-based global company that provides hosting for software development version control using Git. ... It offers the distributed version control and source code management (SCM) functionality of Git, plus its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
 >
@@ -19,19 +19,19 @@ What can you do with it? Here are a few things, copied from [Quickstart](https:/
 
 ## Resources
 
-- Github docs.
+- GitHub docs.
     - Home page - [help.github.com](help.github.com). See docs by product below.
-    - Github
-        - [Getting started with Github](https://help.github.com/en/github/getting-started-with-github)
+    - GitHub
+        - [Getting started with GitHub](https://help.github.com/en/github/getting-started-with-github)
         - [Creating, cloning and archiving](https://help.github.com/en/github/creating-cloning-and-archiving-repositories)
         - [Issues and pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
         - [Using git](https://help.github.com/en/github/using-git)
         - [Managing your work](https://help.github.com/en/github/managing-your-work-on-github)
           - Using issues, labels and project boards.
-        - [Github Pages](https://help.github.com/en/github/working-with-github-pages)
+        - [GitHub Pages](https://help.github.com/en/github/working-with-github-pages)
     - Actions
         - [GitHub Actions Documentation](https://help.github.com/en/actions)
     - Packages
-        - [Github Packages Documentation](https://help.github.com/en/packages)
-- [Github Status](https://www.githubstatus.com/)
-    - Look for errors or degraded services such as Github Pages.
+        - [GitHub Packages Documentation](https://help.github.com/en/packages)
+- [GitHub Status](https://www.githubstatus.com/)
+    - Look for errors or degraded services such as GitHub Pages.

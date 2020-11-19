@@ -1,4 +1,4 @@
-# Programmazione in C 
+# Programmazione in C
 
 Punti chiave:
 
@@ -24,13 +24,13 @@ Che cos'è il linguaggio di programmazione C? Introduzione, storia e nozioni di 
 
 La maggior parte dei linguaggi di programmazione che incontrerai come Bash, Python o Java saranno **implementati** in _C_.
 
-Ad esempio, la versione comunemente usata di Python conosciuta come CPython e può essere trovata qui Github come ([python / cpython](https://github.com/python/cpython)). Questo è Python implementato in _C_. Vedrai molti file scritti in _C_ con estensioni `.c` o` .h`. Quando si esegue il codice Python o si importa una libreria integrata, è possibile che si stia eseguendo la directory di codice _C_ compilata o che si stia eseguendo il codice _Python_ che esegue internamente il codice _C_. L'esecuzione diretta di _C_ è in genere più veloce, poiché l'esecuzione del codice Python richiede interpretazione e compilazione in fase di esecuzione.
+Ad esempio, la versione comunemente usata di Python conosciuta come CPython e può essere trovata qui GitHub come ([python / cpython](https://github.com/python/cpython)). Questo è Python implementato in _C_. Vedrai molti file scritti in _C_ con estensioni `.c` o` .h`. Quando si esegue il codice Python o si importa una libreria integrata, è possibile che si stia eseguendo la directory di codice _C_ compilata o che si stia eseguendo il codice _Python_ che esegue internamente il codice _C_. L'esecuzione diretta di _C_ è in genere più veloce, poiché l'esecuzione del codice Python richiede interpretazione e compilazione in fase di esecuzione.
 
 Esistono alternative come Jython implementata in Java e IronPython implementata in C#.
 
 ## Aiuto
 
-Chiedi aiuto per sapere come utilizzare il compilatore GNU C 
+Chiedi aiuto per sapere come utilizzare il compilatore GNU C
  direttamente da riga di comando.
 
 ```

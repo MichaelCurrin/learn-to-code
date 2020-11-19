@@ -12,4 +12,4 @@
 <!-- closes #1 -->
 
 
-<!--  Please also add labels to the PR using Github's labelling e.g. enhancement, bug, translation
+<!--  Please also add labels to the PR using GitHub's labelling e.g. enhancement, bug, translation

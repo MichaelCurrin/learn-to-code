@@ -10,7 +10,7 @@ Librerie Python comunemente utilizzate per la scienza dei dati. Molti di questi 
 
 - Elaborazione dati
 	- Numpy
-		- Per lavorare con array e strutture dati 
+		- Per lavorare con array e strutture dati
 	- Pandas
 		- Particularly used for its dataframes, which actually come from the [R](topics/scripting_languages/R) language.
         - Utilizzato in particolare per i suoi frame di dati, che in realtà provengono dal linguaggio [R](topics/scripting_languages​​/R).
@@ -111,7 +111,7 @@ GETTING HELP
 - Come funziona:
     - Jupyter esegue un server Jupyter con un kernel Python in un ambiente specifico (come uno per il tuo progetto) - funziona localmente.
     - Esegui e modifica il notebook nel browser.
-    - Il risultato può essere salvato come file `.ipnb`, quindi quando riavvii mantieni il codice e l'output. Il file del notebook può anche essere visualizzato come formato HTML non interattivo in un IDE (come PyCharm) o su Github, semplificando la condivisione dell'output senza la configurazione di Python per visualizzare il notebook.
+    - Il risultato può essere salvato come file `.ipnb`, quindi quando riavvii mantieni il codice e l'output. Il file del notebook può anche essere visualizzato come formato HTML non interattivo in un IDE (come PyCharm) o su GitHub, semplificando la condivisione dell'output senza la configurazione di Python per visualizzare il notebook.
 - Utilizzare con IDE
     - PyCharm - consultare il [Supporto per notebook Jupyter](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html).
     - VS Code - consultare la documentazione [Supporto per Jupyter](https://code.visualstudio.com/docs/python/jupyter-support).
@@ -174,7 +174,7 @@ Esiste una versione aziendale e una versione gratuita nota come "Anaconda Distri
 
 Come installare Anaconda Distribution
 
-- Documentazione [Installazione](https://docs.anaconda.com/anaconda/install/) 
+- Documentazione [Installazione](https://docs.anaconda.com/anaconda/install/)
 
 
 ## Conda

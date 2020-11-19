@@ -43,7 +43,7 @@ You can consume a GraphQL in various ways on the client side.
 - Web application (HTML + JavaScript) or mobile application (Android / iOS)
     - Do a request and then show data on the frontend. The original usecase for GraphQL passing the Facebook newsfeed in for the Facebook iOS app.
     - Libraries
-        - You can use a general requests **library** do to a POST request to the GraphQL endpoint (using query text and optionap parameters as data payload). 
+        - You can use a general requests **library** do to a POST request to the GraphQL endpoint (using query text and optionap parameters as data payload).
         - Or you can use a more specialized GraphQL client library for additional features like error handling and schema validation (check the query is valid before doing the request).
 
 
@@ -52,7 +52,7 @@ You can consume a GraphQL in various ways on the client side.
 - [graphql.org](https://graphql.org/) homepage
 - _GraphQL: The Documentary_
     - Watch on [Youtube](https://www.youtube.com/watch?v=783ccP__No8) or [Honeypot.io](https://videos.honeypot.io/graphql-documentary-2019/)
-    - This covers the history of GraphQL starting in Facebook, around 2012 when they had to keep up with a major shift of their audience to mobile. 
+    - This covers the history of GraphQL starting in Facebook, around 2012 when they had to keep up with a major shift of their audience to mobile.
     - I'd highly recommend this video for frontend developers as it makes API queries in React and mobile apps much easier. Or anyone looking to build a REST or GraphQL API.
 - Tutorials
     - [graphql.org](graphql.org/)
@@ -66,14 +66,14 @@ You can consume a GraphQL in various ways on the client side.
         - [Client-side GraphQL with React](https://frontendmasters.com/courses/client-graphql-react/)
     - [How to GraphQL](https://www.howtographql.com/)
         - [Introduction](https://www.howtographql.com/basics/0-introduction/) course on fundamentals.
-        - See also their menu for topics like advanced GraphQL, frontend or backend courses. 
+        - See also their menu for topics like advanced GraphQL, frontend or backend courses.
     - [GraphQL scalable APIs](https://www.pluralsight.com/courses/graphql-scalable-apis) on PluralSight
 
 ## Libraries
 
 ### Python
 
-- [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) on Github. GraphQL library for Python.
+- [strawberry-graphql/strawberry](https://github.com/strawberry-graphql/strawberry) on GitHub. GraphQL library for Python.
 
 ### Ruby
 

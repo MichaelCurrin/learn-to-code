@@ -1,4 +1,4 @@
-# Guida al Python packaging 
+# Guida al Python packaging
 
 
 - [packaging.python.org/](https://packaging.python.org/)
@@ -8,7 +8,7 @@
 
 ## Come creare un pacchetto del progetto
 
-Rendere il progetto installabile utilizzando `pip`. Tramite una directory scaricata, un file zip, un nome PyPI o un URL Github.
+Rendere il progetto installabile utilizzando `pip`. Tramite una directory scaricata, un file zip, un nome PyPI o un URL GitHub.
 
 Links:
 

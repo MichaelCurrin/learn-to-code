@@ -2,7 +2,7 @@
  * @(#)TimesTableGame.java
  *
  * I wrote this in over a year after I finished high-school, which is when
- * I learnt Java. But adding this to Github to preserve it for myself as an early
+ * I learnt Java. But adding this to GitHub to preserve it for myself as an early
  * record.
  *
  * @author Michael Currin
@@ -13,20 +13,20 @@ import java.text.*;
 import java.util.*;
 
 public class TimesTableGame {
-        
+
     /**
      * Creates a new instance of <code>TimesTableGame</code>.
      */
     public TimesTableGame() {
     }
-    
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException
     	{
-       
-           
+
+
 	//Multiplication game
 	// Test user times table within the limit they set
 
@@ -43,12 +43,12 @@ int totalq = 0;
 try
 	{
 		// Single timestable option
-		/* 
+		/*
 		 *
 		System.outprintln("Focus on single timestable Y/N? />");
 		if (reader.readLine().equals("Y"))
 		{									// a: 2=>x		b: x=>x			e.g. 2 to 14 times by 14
-		a1 = 2;								
+		a1 = 2;
 		a2 = Integer.parseInt(reader.readLine());
 		b1 = a2;
 		b2 = a2;
@@ -81,7 +81,7 @@ while((secondno<b1)||(secondno>b2))
 secondno =(int)(Math.random())*30+1;
 */
 
-// Question 		
+// Question
 // Q1) 2 x 14 = />
 System.out.print("Q"+(totalq+1)+ ") " + firstno + " x " + secondno + " = />");
 
@@ -95,8 +95,8 @@ catch (IOException e)
 	{
 		break; // break on text
 	}
-		
-	
+
+
 if (intInput == (firstno*secondno))
 	{
 	score++;
@@ -106,7 +106,7 @@ else
 	{
 	System.out.print(" Incorrect. A: " + firstno*secondno);
 	}
-		
+
 		totalq++;
 }
 
@@ -115,6 +115,6 @@ else
 	System.out.println("Press the Any key to exit");
 	reader.readLine();
 	System.exit(0);
-       
+
     }
 }

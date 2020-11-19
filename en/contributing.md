@@ -17,7 +17,7 @@ If you want to have a conversation about changes first, create an issue and we c
     - Optionally use [StackEdit](https://stackedit.io/) to edit content. It let's you preview the rendered output in the browser. It works great on markdown files and in larger repos.
 3. Check your changes.
     - Make sure files and directories follow the convention in the rest of the project.
-    - Markdown - Make sure your changed pages render in Github and links work.
+    - Markdown - Make sure your changed pages render in GitHub and links work.
     - Scripts - Make sure they run.
 4. Add your name to the list in the next section.
 5. Create a Pull Request for the original repo. There is no template for a Pull Request.

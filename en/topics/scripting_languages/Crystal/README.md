@@ -38,7 +38,7 @@ From the [reference](https://crystal-lang.org/reference/) page on the Crystal we
 
 ### Is it production ready?
 
-Note that according to the homepage, the language is **not yet** production ready. 
+Note that according to the homepage, the language is **not yet** production ready.
 
 It has not reached version `1.0`. The latest version is on the homeage. However, some organizations are using in production.
 
@@ -47,7 +47,7 @@ As listed on the Crystal Wiki - [Used in production](https://github.com/crystal-
 
 ## Why Crystal?
 
-From this blog post - [Why Crystal is the most promising programming language of 2018](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f). It explains the pros and cons of the language and compares it to others. 
+From this blog post - [Why Crystal is the most promising programming language of 2018](https://medium.com/@DuroSoft/why-crystal-is-the-most-promising-programming-language-of-2018-aad669d8344f). It explains the pros and cons of the language and compares it to others.
 
 These are summarized here:
 
@@ -81,7 +81,7 @@ These are summarized here:
 - No parallelism
     - But coming soon as of 2018.
 - Not mature
-    - Some breaking changes are happening until `1.0` (see [releases](https://github.com/crystal-lang/crystal/releases)). 
+    - Some breaking changes are happening until `1.0` (see [releases](https://github.com/crystal-lang/crystal/releases)).
     - But "That said there are plenty of companies using Crystal in production".
 - REPL support was limited (at least in 2018). See this [issue](https://github.com/crystal-lang/crystal/issues/681)
 
@@ -93,8 +93,8 @@ These are summarized here:
     - [Introduction](https://crystal-lang.org/reference/) - summarizes the language.
     - [Getting started](https://crystal-lang.org/reference/getting_started/) in the docs/reference. Includes the CLI help.
 - [Crystal](https://en.wikipedia.org/wiki/Crystal_(programming_language)) on Wikipedia
-- [crystal-lang/crystal](https://github.com/crystal-lang/crystal) on Github
-- [Releases](https://github.com/crystal-lang/crystal/releases) on Github.
+- [crystal-lang/crystal](https://github.com/crystal-lang/crystal) on GitHub
+- [Releases](https://github.com/crystal-lang/crystal/releases) on GitHub.
 - [Learn X in Y](https://learnxinyminutes.com/docs/crystal/)
 - Run code online
     - [Official playground](https://play.crystal-lang.org/#/cr)
@@ -173,7 +173,7 @@ For more info, see [HTTP server](https://crystal-lang.org/reference/getting_star
 
 ### Deployment
 
-I discovered Crystal through seeing it listed under Github Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml). Use something like that for CI/CI.
+I discovered Crystal through seeing it listed under GitHub Actions starter workflows - [crystal.yml](https://github.com/actions/starter-workflows/blob/master/ci/crystal.yml). Use something like that for CI/CI.
 
 See also [Commands available](#commands-available) section on this page for how to use the CLI for releases.
 

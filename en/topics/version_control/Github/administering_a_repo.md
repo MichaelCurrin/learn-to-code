@@ -2,7 +2,7 @@
 
 ## Releases
 
-- [About releases](https://help.github.com/en/github/administering-a-repository/about-releases) on Github docs.
+- [About releases](https://help.github.com/en/github/administering-a-repository/about-releases) on GitHub docs.
 - [Git tag basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 A release is a way of bundling a snapshot of your software and packaging and distributing it for other people to use.
@@ -28,4 +28,4 @@ When a renaming a repo, the following will be maintained:
 
 Using the _old_ repo name will redirect to the new one (unless you actually create a new repo which fills the space of the old name). Any forks will continue to point to the old repo name.
 
-Github docs recommending updating any local repo's remote URLs to point to the new URL.
+GitHub docs recommending updating any local repo's remote URLs to point to the new URL.

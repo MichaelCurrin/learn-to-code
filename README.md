@@ -19,8 +19,8 @@ Jump straight to the [Scripting languages :gb:](/en/topics/scripting_languages/)
 [![English contributing](https://img.shields.io/badge/English-blue?style=for-the-badge)](/en/contributing.md)
 [![Italian contributing](https://img.shields.io/badge/Italian-blue?style=for-the-badge)](/it/contributing.md)
 
-First time contributing to any Github repo and want to know how it works? Follow this guide:
- 
+First time contributing to any GitHub repo and want to know how it works? Follow this guide:
+
 - [Syknapse/Contribute-To-This-Project](https://github.com/Syknapse/Contribute-To-This-Project)
 
 Available to translate? Help is wanted to add more translated pages so the Italian section can match the main English section (especially since the repo owner is not Italian). Add another language if you want.

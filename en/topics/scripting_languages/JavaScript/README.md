@@ -1,9 +1,9 @@
 # JavaScript
 > aka "JS" or "ECMAScript"
 
-This section of the guide is aimed at JavaScript beginners or experienced devs looking for more details. 
+This section of the guide is aimed at JavaScript beginners or experienced devs looking for more details.
 
-The material in this page and directory is to help you understand the motivation for learning JavaScript, how to run browser-based JS, how to install and run command-line JS ("Node.js"), how to manage Node packages and some info on popular frameworks. Also I provide some links to tutorials and courses. 
+The material in this page and directory is to help you understand the motivation for learning JavaScript, how to run browser-based JS, how to install and run command-line JS ("Node.js"), how to manage Node packages and some info on popular frameworks. Also I provide some links to tutorials and courses.
 
 
 - [What is JavaScript?](#what-is-javascript)
@@ -213,7 +213,7 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
     - [Official page](https://handlebarsjs.com/)
         > Minimal templating on steroids
     - [npm](https://www.npmjs.com/package/handlebars)
-    - [Github repo](https://github.com/wycats/handlebars.js)
+    - [GitHub repo](https://github.com/wycats/handlebars.js)
 
 ### Dataviz libraries
 
@@ -221,7 +221,7 @@ JavaScript libraries can be loaded and run in the browser and also on the comman
 - [ApexCharts.js](https://apexcharts.com/)
 - [Highcharts](https://www.highcharts.com/)
 - roughViz
-    - [jwilber/roughViz](https://github.com/jwilber/roughViz) on Github.
+    - [jwilber/roughViz](https://github.com/jwilber/roughViz) on GitHub.
     - [roughviz](https://pypi.org/project/roughviz/) as a _Python_ package.
     - [Tutorial](https://medium.com/better-programming/visualize-your-data-with-hand-drawn-charts-with-the-roughviz-charting-library-a3a9f3ee4f84) blog post.
 
