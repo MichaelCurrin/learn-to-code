@@ -98,7 +98,7 @@ async function foo() {
 foo()
 ```
 
-Note `await` only works in functions and only if they have `async` keyword.
+Note `await` only works in functions (not in the main body, like in Python) and only if they have `async` keyword.
 
 Example from [Async/await](https://javascript.info/async-await) on JavaScript Info.
 
@@ -107,7 +107,8 @@ Example from [Async/await](https://javascript.info/async-await) on JavaScript In
 let response = await fetch('/article/promise-chaining/user.json');
 let user = await response.json();
 ```
-Place inside an [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE).
+
+Placed inside an [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE).
 
 ```javascript
 (async () => {
