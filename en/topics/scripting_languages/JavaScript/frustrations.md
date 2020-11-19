@@ -37,8 +37,8 @@ Onto my list.
 ## The language and standard lib
 
 - Firstly, JavaScript is not a language. ECMAScript is the language and JavaScript is a standard, kind of. It's complicated. Each browser type e.g. Chrome, will use a certain version. And older browser versions will never support certain JS. This means that you have to use a tool like Babel to compile your modern JS to older code.
-- Modern JS in the last few years has added some useful things, but some where in Python for early on. For example, use the spread operator `[... myArray]` compared with `*args` in Python (both for functions and unpacking). Similarly JS supports merging of dictionaries like this `{ 'foo': 'bar', x }` where `x` is a dict. In Python you do `'foo': 'bar', **x}`.
-- Imports are confusing. `require('foo')` and `import * as foo from 'foo'` and `import {foo } from 'foo'` are all similar and mostly the same.
+- Modern JS in the last few years has added some useful things, but some where in Python for early on. For example, use the spread operator `[... myArray]` compared with `*args` in Python (both for functions and unpacking). Similarly JS supports merging of dictionaries like this `{ 'foo': 'bar', x }` where `x` is a dict. In Python you do `{'foo': 'bar', **x}`.
+- Imports are confusing. `require('foo')` and `import * as foo from 'foo'` and `import { foo } from 'foo'` are all similar and mostly the same.
 - Exports are confusing. In Python, everything is public and can be imported (you don't even need `__init__.py` anymore generally for modules). In JS you need to do one of the following, which I have only gotten my head around recently but not completely:
     ```javascript
     export function foo() {}
