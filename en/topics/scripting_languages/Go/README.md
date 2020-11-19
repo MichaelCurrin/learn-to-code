@@ -70,11 +70,11 @@ A task does not have to be finished before going to the next one - the program c
 
 - Official site - [golang.org](https://golang.org/)
     * [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code.
-        ```bash
+        ```sh
         $ go fmt
         ````
     * Note on indentation:
-        > We use tabs for indentation and gofmt emits them by default. Use spaces only if you must.
+        > We use _tabs_ for indentation and `gofmt` emits them by default. Use spaces only if you must.
 - Github repo - [golang/go](https://github.com/golang/go)
     * [Wiki](https://github.com/golang/go/wiki) - see the table of contents for tutorials.
 - Go Packages index - [golang.org/pkg/](https://golang.org/pkg/)
