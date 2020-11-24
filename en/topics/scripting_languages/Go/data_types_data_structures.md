@@ -10,6 +10,7 @@ import (
 )
 ```
 
+
 ## Array
 
 List of elements, with fixed length.
@@ -17,29 +18,40 @@ List of elements, with fixed length.
 ```go
 // Initialize to four zeroes.
 var my_array [4]int
+```
 
+```go
 // Infer the size. Still fixed length.
 my_array2 = [...]int{1, 2, 3, 4}
 my_array2[0] = -1
 ```
 
+### Copying
+
 Arrays have _value_ semantics so values are kept separate.
 
-```
+```go
 // Copy to new instance.
 array_copy := my_array
-// Update value (in copy only).
-array_copy[0] = 100
-// false
-fmt.Println(my_array[0] == array_copy[0]
 ```
 
+```go
+// Update value (in copy only).
+array_copy[0] = 100
+
+// false
+fmt.Println(my_array[0] == array_copy[0])
+```
+
+
 ## Slice
+
+
+### Create
 
 List of elements. Slices have dynamic length and are more commonly used than arrays.
 
 ```go
-// No ellipsis.
 my_slice = []int{1, 2, 3, 4}
 
 my_slice2 = make([]int, 4)
@@ -47,17 +59,21 @@ my_slice2 = make([]int, 4)
 var float_slice = [][]float64
 ```
 
+### Copying
+
 Slices have _reference_ semantics, so values are shared across instances.
 
 ```go
 slice_copy := my_slice
+
 // Update value (in both). 
 slice_copy[0] = 100
+
 // true
-fmt.Println(my_slice[0] = slice_copy[0]
+fmt.Println(my_slice[0] == slice_copy[0])
 ```
 
-You can append to a slice.
+### Append
 
 ```go
 slice3 := []int{1, 2, 3}
