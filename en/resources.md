@@ -51,7 +51,16 @@ You do not have to actually code in all of these topics, but ideally you should 
 - Databases
     - SQL
     - NoSQL
+    - RDBMS
+    	- Relational Database Managemen Service. See [Tutorial point](https://www.tutorialspoint.com/sql/sql-rdbms-concepts.htm)
     - ORM
+    	- You can use [ORM (Object Relational Mapping)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) to put an object-oriented code abstraction your database. 
+	- Your tables are defined using Python/JS/Ruby classes for example and when you get a row from the database, you get an object instance with methods.
+	- The ORM will generate the code for you to setup the schema and any queries, so you don't have to write SQL but you can when you need to.
+	- The ORM means your database schema is in version control and you can setup a migration to move between schema versions.
+	- The ORM handles connecting to the database for you. Your Python server for instance will have connections to the database and any triggered web requests get to use the connections.
+	- A single ORM like SQLAlchemy or SQLObject can support Postgres, MySQL, SQLite etc. as it understands the syntax for each. his allows you to reuse the library across projects. You can also move between database types while keeping your code the same.
+	- An ORM also means that you can interact with a SQL or NoSQL database using the same API.
 - Web application design
     - RESTful API
     - [GraphQL](GraphQL/) API
