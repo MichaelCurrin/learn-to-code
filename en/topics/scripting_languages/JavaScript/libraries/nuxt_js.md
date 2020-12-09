@@ -1,5 +1,4 @@
-
-## Nuxt.js
+# Nuxt.js
 
 - Homepage: https://nuxtjs.org/
 	> The Intuitive Vue Framework

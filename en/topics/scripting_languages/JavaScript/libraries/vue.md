@@ -1,11 +1,11 @@
-
-## Vue
+# Vue
 
 A progressive framework for building user interfaces. It used for developing Single Page Applications (SPA).
 
 > Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
 
-### What is Vue?
+
+## What is Vue?
 
 Vue is a JavaScript framework for building web interfaces. If you've heard of React - Vue is similar to React, but Vue is newer, more popular (in GH stars) and easier to learn.
 
@@ -18,7 +18,7 @@ Or follow the [Create a fresh quickstart](#create-a-fresh-quickstart) section to
 If you are looking for a multi-page Vue app template, see this repo - [MichaelCurrin/vue-router-quickstart](https://github.com/MichaelCurrin/vue-router-quickstart).
 
 
-### Resources
+## Resources
 
 - Vue homepage - [vuejs.org](https://vuejs.org)
 - Official site [vuejs.org](https://vuejs.org)
@@ -119,13 +119,13 @@ Based on [tutorial](https://scrimba.com/p/pXKqta/cQ3QVcr).
 </details>
 
 
-### Vue CLI
+## Vue CLI
 
 You can build and run a Vue app without local dependencies - as Vue and plugins can be loaded in the browser.
 
 However, it is common to use the Vue CLI as it has a lot of features useful for development.
 
-#### Install Vue CLI
+### Install Vue CLI
 
 Install this NPM package globally:
 
@@ -146,7 +146,7 @@ $ vue create
 $ vue ui
 ```
 
-#### Use the GUI
+### Use the GUI
 
 You can create and manage projects using a graphical interface this this command.
 
@@ -156,7 +156,7 @@ $ npx @vue/cli ui
 
 The above command will open a browser window with a GUI that guides you through the project creation process.
 
-#### Create a fresh quickstart
+### Create a fresh quickstart
 
 - [Creating a project](https://cli.vuejs.org/guide/creating-a-project.html) in the CLI docs
 
@@ -169,4 +169,5 @@ Use this is install and run the vue CLI to create a new project.
 ```sh
 $ npx @vue/cli create --default my-project
 ```
+
 NPX will use packages that are installed or download packages needed (without persisting them).

@@ -4,6 +4,7 @@ Build user interfaces. Such as games, forms and websites.
 
 React was originally made for the web but it has been extended to mobile with [React Native](#react-native) and desktop with [Node GUI](https://blog.bitsrc.io/building-native-desktop-application-with-react-node-gui-2ce1b2a2164?gi=8336751480b).
 
+
 ## Why React?
 
 The main reason is that React has a declarative language to model UI and state.
@@ -16,6 +17,7 @@ React's purpose:
 
 See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 
+
 ## Info about React
 
 - It is used to develop a dynamic user interface so the DOM is built on the _client side_ - as a Single-Page Application (SPA).
@@ -26,6 +28,7 @@ See [Why React?](https://jscomplete.com/learn/why-react) on JSComplete site.
 - React is a library for building _user interfaces_. If an environment such as the web browser can run plain JavaScript, then you can build an interface for it using React.
 - React will compiled to optimized low-level JavaScript code.
 - React is "just JavaScript" - yes you have to learn the React API but you can use plain JavaScript inside React and the result is JavaScript. i.e. After compiling to a build directory, you can serve the application _without_ React installed. And you don't have to load React on the browser side, just the bundled JavaScript file (webpack helps for this).
+
 
 ## Resources
 

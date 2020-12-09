@@ -1,11 +1,11 @@
-
-## Angular
+# Angular
 
 This allows use of HTML-like syntax in the application and allows interpreting of attributes for data binding. It is used for developing Single Page Applications (SPA).
 
 It is an open source project used by Google.
 
-### Links
+
+## Links
 
 - [Official site](https://angular.io/).
     > One framework. Mobile & desktop.
@@ -19,7 +19,8 @@ It is an open source project used by Google.
         - [Angular path](https://frontendmasters.com/learn/angular/).
 - [Cheatsheet](https://angular.io/guide/cheatsheet)
 
-### Hello world
+
+## Hello world
 
 From [AngularJS Hello World Application: Your First Example Program ](https://www.guru99.com/angularjs-first-program.html).
 

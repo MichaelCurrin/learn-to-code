@@ -1,8 +1,9 @@
-## Electron
+# Electron
 
 Build desktop apps with [Electron.js](https://www.electronjs.org/).
 
-### What can I build with Electron?
+
+## What can I build with Electron?
 
 See the [10 Most Popular Electron Apps of 2019](https://wiredelta.com/10-most-popular-electron-apps-2019/).
 
@@ -20,7 +21,8 @@ See the [10 Most Popular Electron Apps of 2019](https://wiredelta.com/10-most-po
 
 See the [apps](https://www.electronjs.org/apps) list on the Electron site where you can find those and hundreds more.
 
-### Resources
+
+## Resources
 
 - [Official homepage](https://www.electronjs.org/)
 	- > Build cross-platform desktop apps with JavaScript, HTML, and CSS

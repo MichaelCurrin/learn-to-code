@@ -1,9 +1,8 @@
-
-## Proton Native
+# Proton Native
 
 Build desktop applications - based on React Native.
 
-### Resources
+## Resources
 
  - [Official homepage](https://proton-native.js.org/#/)
 	 - > Proton Native - React Native for the desktop, cross compatible

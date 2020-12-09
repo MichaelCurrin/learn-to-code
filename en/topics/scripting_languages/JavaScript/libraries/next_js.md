@@ -1,5 +1,4 @@
-
-## Next.js
+# Next.js
 
 A React framework for speed, scaling and security. Created by Vercel.
 

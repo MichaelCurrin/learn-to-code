@@ -1,4 +1,4 @@
-## React Native
+# React Native
 
 Use a single JavaScript codebase that runs on Node and compiles to _native_ Android and iOS mobile apps, with great performance and native elements. And it also runs as a desktop web app.
 
@@ -6,7 +6,8 @@ Knowing some React first course will make React Native easier.
 
 As an alternative, see the [Dart](/en/topics/scripting_languages/Dart) language (similar to JavaScript and created by Google), where the "Flutter" library is used to make native mobile apps.
 
-### Resources
+
+## Resources
 
 - [reactnative.dev](https://reactnative.dev) homepage
 	> Learn once, write anywhere.
