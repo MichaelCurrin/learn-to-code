@@ -1,4 +1,4 @@
-# Patterns
+# Extending
 > Libraries to extend other libraries or frameworks
 
 See the [Frameworks](frameworks.md) page if you are looking for React or Vue.
@@ -6,19 +6,18 @@ See the [Frameworks](frameworks.md) page if you are looking for React or Vue.
 
 ## Vue-based
 
-## Vuex
+### Vuex
 
 State management for Vue, using a central store. This is not so much a framework as a library to extend Vue.
 
 - [vuex.vuejs.org/](https://vuex.vuejs.org/) homepage.
 
----
 
 ## React-based
 
 ### Redux
 
-A predictable state container for JavaScript apps - typicall React. This is not so much a framework as a library to extend React.
+A predictable state container for JavaScript apps - typically React. This is not so much a framework as a library to extend React.
 
 > Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly. [source](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
 
@@ -72,7 +71,7 @@ store.dispatch({ type: 'DECREMENT' })
 
 ### Flux
 
-Flux is a pattern for managing your architecure in React. It is similar to Redux.
+Flux is a pattern for managing your architecture in React. It is similar to Redux.
 
 From the homepage:
 
@@ -90,4 +89,4 @@ From the homepage:
 - Posts
 	- [Getting To Know Flux, the React.js Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
 		> Flux is an architecture that Facebook uses internally when working with React. It is not a framework or a library. It is simply a new kind of architecture that complements React and the concept of Unidirectional Data Flow.
-- [What is Flux?)(http://fluxxor.com/what-is-flux.html) on Fluxxor site.
+- [What is Flux?)(http://fluxxor.com/what-is-flux.html) on the Fluxxor site.
