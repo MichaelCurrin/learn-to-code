@@ -1,4 +1,4 @@
-# Node packages
+# Managing Node packages
 > How to manage your Node environment and Node packages
 
 Command-line tools covered here:
