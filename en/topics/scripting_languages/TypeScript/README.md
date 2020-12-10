@@ -98,11 +98,16 @@ Hello, world!
 * Online IDE
     - [TypeScript website's playground](https://www.typescriptlang.org/play)
 * Tutorials
-    - [Hello world in TypeScript Language](https://www.geeksforgeeks.org/hello-world-in-typescript-language/)
+    - Official site
+        - [Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+        - [Docs](https://www.typescriptlang.org/docs)
+        - [TSConfig](https://www.typescriptlang.org/tsconfig) reference.
+    - [TypeScriptTutorial.net](https://www.typescripttutorial.net/) homepage.
+    - [Hello world in TypeScript Language](https://www.geeksforgeeks.org/hello-world-in-typescript-language/) on GeeksForGeeks site.
 * Posts
     - [What are the major frameworks which uses typescript as a language?](https://www.quora.com/What-are-the-major-frameworks-which-uses-typescript-as-a-language) answer on Quora.
     - [When should I use TypeScript?](https://www.freecodecamp.org/news/when-should-i-use-typescript-311cb5fe801b/)
     - [Why TypeScript is the best way to write Front-end in 2019–2020+](https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164)
     - [Why I no longer use TypeScript with React and why you shouldn’t either](https://hackernoon.com/why-i-no-longer-use-typescript-with-react-and-why-you-shouldnt-either-e744d27452b4)
 
-See also this [Tasks](https://code.visualstudio.com/docs/editor/tasks) tutorial on VS Code codes for setting up TypeScript and other tasks.
+See also this [Tasks](https://code.visualstudio.com/docs/editor/tasks) tutorial on VS Code docs for setting up TypeScript and other tasks.
