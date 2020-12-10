@@ -117,8 +117,12 @@ Note that you cannot simply open an HTML page in your browser without a server f
     - Jump to [Node](node.md) doc.
 - Tutorials
     - [JavaScript.com](https://www.javascript.com/) by [Pluralsite](https://www.pluralsight.com/)
-    - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools.
-    - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools.
+    - [JavacriptTutorial.net](https://www.javascripttutorial.net/).
+        - [What is JavaScript](https://www.javascripttutorial.net/what-is-javascript/)
+        - [ES6 Tutorial](https://www.javascripttutorial.net/es6/)
+    - W3 Schools
+        - [What is JavaScript?](https://www.w3schools.com/whatis/whatis_js.asp) quickstart on W3 Schools.
+        - [JS tutorial](https://www.w3schools.com/js/default.asp) on W3 Schools.
     - Mozilla docs
         - [Tutorials](https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials). See also on that page _Tools and resources_.
         - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). This starts with the basics and is a good reminder for experienced devs as well.
