@@ -57,5 +57,9 @@ See also the Vue 2 [Testing](https://vuejs.org/v2/guide/testing.html) guide.
 
 ### Puppeteer
 
+- [Puppeteer](https://developers.google.com/web/tools/puppeteer) docs
+- [pptr.dev](https://pptr.dev/)
+- Made by Google.
 - For high-level browser control.
 - Easy to use for automated UI tests, form submissions and keyboard inputs.
+- [Using Jest with Puppeteer](https://jestjs.io/docs/en/puppeteer)
