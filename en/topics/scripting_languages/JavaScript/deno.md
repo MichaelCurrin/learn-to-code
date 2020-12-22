@@ -21,3 +21,31 @@ Pros:
 
 
 See my [Deno cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/deno/).
+
+Deno has its own registry.
+
+- https://deno.land/x
+
+Not all the packages on NPM's registry are available on Deno's registry.
+
+For example, React is not there. But you can use an approach which is not tied to a runtime.
+
+You can loads from [JSPM](https://jspm.org/).
+
+> jspm provides a module CDN allowing any package from npm to be directly loaded
+in the browser and other JS environments as a fully optimized native JavaScript module.
+
+e.g.
+
+```javascript
+import React from "https://dev.jspm.io/react";
+```
+
+The content of the requested file is:
+
+```javascript
+import { dew } from "/npm:react@17.0.1/index.dew.js";
+export default dew();
+import "/npm:react@17.0.1/cjs/react.development.dew.js";
+import "/npm:object-assign@4?dew";
+```
