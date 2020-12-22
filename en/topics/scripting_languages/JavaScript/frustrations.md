@@ -1,19 +1,18 @@
 # Frustrations
-> Things that bother me about JavaScript
+> Quirks that bother me about JavaScript
 
 
 ## Disclaimer
 
-Note this is an opinion piece, based on my experiences and knowledge. You don't have to agree with me.
-
-Also this is not just about me - many others also dislike JS or parts of JS. It was famously written in 9 (or 10) days and some things about early JS or early Node stuck and were hard to undo (hence tools like Deno coming out).
+Note this is an opinion piece, based on my experiences and knowledge.
+Also this is not just about me - many others also dislike JS or parts of JS. JS was famously written in 9 (or 10) days and some things about early JS or early Node stuck and were hard to undo (hence tools like Deno coming out).
 
 This is a way of storing my thoughts so when I decide to user language as a long term tool or I decide to create a repo in a language, I have this as a reminder of my JS frustrations.
 
 
 ## Intro
 
-I like what JS can do. I don't know how it does it and the things I have to do to get what I want. Yes I get more productive with JS as I learn its quicks, but there is still friction which makes it often frustrating or not intuitive to work with.
+I like what JS can do. I don't know how it does it and the things I have to do to get what I want. Yes I get more productive with JS as I learn its quirks, but there is still friction which makes it often frustrating or not intuitive to work with. It has surpises, many choices and things that are stable or don't exist in other languages change regularly.
 
 My comments mostly compare to what I see as the easy of working with Python in contrast to JS. I have worked with JS on the frontend and backend for a few years and with a bunch of frameworks and CI flows.
 
@@ -25,8 +24,8 @@ Onto my list.
 ## Builds
 
 - JS projects typically minify output to smaller files that are less readable. This makes sense for browser usage but is not a thing that server-side languages like Python care about.
-- JS projects typically also concatenate scripts. This makes sense for frontend projects when you want to combine 100 JS scripts (internal for downloaded from NPM) into a single JS script that is correctly scoped. But again this is not something that a Python dev has to worry about.
-- There are also many ways to do these tasks. Using Bundle, Webpack and many others. I even made a repo covering each of these. An article I read on the topic pointed out the frustrations the author had with learning the ins and outs of each there being not standard, so I am not alone here.
+- JS projects typically also concatenate scripts. This makes sense for frontend projects when you want to combine 100 JS scripts (internal for downloaded from NPM) into a single JS script that is correctly scoped. But then you have one large script, so the newer approach is to bundle and then split into chunks, so these can be loaded separately and only the parts that are needed on a page are loaded. MBut again this is not something that a Python dev has to worry about.
+- There are also many ways to do these tasks. Using libraries like Bundle, Webpack, Rollup, Snowpack and many others. I even made a repo covering some of these. An article I read on the topic pointed out the frustrations the author had with learning the ins and outs of each there being not standard, so I am not alone here.
 
 
 ## Packages
@@ -39,12 +38,15 @@ Onto my list.
 - Firstly, JavaScript is not a language. ECMAScript is the language and JavaScript is a standard, kind of. It's complicated. Each browser type e.g. Chrome, will use a certain version. And older browser versions will never support certain JS. This means that you have to use a tool like Babel to compile your modern JS to older code.
 - Modern JS in the last few years has added some useful things, but some where in Python for early on. For example, use the spread operator `[... myArray]` compared with `*args` in Python (both for functions and unpacking). Similarly JS supports merging of dictionaries like this `{ 'foo': 'bar', x }` where `x` is a dict. In Python you do `{'foo': 'bar', **x}`.
 - Imports are confusing. `require('foo')` and `import * as foo from 'foo'` and `import { foo } from 'foo'` are all similar and mostly the same.
-- Exports are confusing. In Python, everything is public and can be imported (you don't even need `__init__.py` anymore generally for modules). In JS you need to do one of the following, which I have only gotten my head around recently but not completely:
+- **Exports** are confusing. In Python, everything is public and can be imported (you don't even need `__init__.py` anymore generally for modules). In JS you need to use either the older `require` syntax or the newer `import` syntax. Neither work in the browser without extra work. Here are several ways to do an export in the newer syntax.
     ```javascript
+    // Export directly.
     export function foo() {}
 
+    // Or export later.
     function bar() {}
 
+    // Using.
     export bar
     // OR
     exports.bar = bar
@@ -58,7 +60,7 @@ Onto my list.
     const foo = () => 'bar'
     ```
 - JS doesn't have classes. Yes `class` syntax was added recently but it is just nice syntax to build an `Object` type.
-- JS, like PHP and Java, has confusing objects. These are similar but different in JS.
+- JS, like PHP and Java, has confusing objects. These are similar but different in JS. For example, Vue uses the titlecase one for components and TypeScript uses the lowercase one.
     - `Number`, `number` (also there is no `float` and `int`, just `number`)
     - `String`, `string`
     - `Object`, `object`
@@ -81,6 +83,12 @@ Onto my list.
             hello
         - There is also a `Map` type which is more like an array but I've not had to use it.
 - There are frequently functions that I use in Python that are not available in JS unless you install a package (further bloating node packages) or write your own function. See also my [JS wat](wat.md) page - I cover how there is no `sum` function in JS.
+- Aliases
+    - What makes using NPM annoying is that there are many ways to do things and therefore the instructions people use also diverge making things inconsistent and harder to follow. Sometimes it helps with a typo, sometimes it is a different word.
+    - e.g. aliases for
+        - `npm install` - `i, isntall, add`. Note in yarn, `install` and `add` cannot be used interchangeably anymore.
+        - `npm update` - `up, upgrade, udpate`
+
 
 ## Undefined
 
@@ -149,6 +157,6 @@ const bazz = await foo('bar')
 console.log(bazz.toUpperCase());
 ```
 
-Note the last case must be used inside an `async` function only.
+The last case used to only work inside an `async` function - but with an update it can now be used at the top-level.
 
 See more details in [Async](async.md) page.
