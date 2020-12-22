@@ -112,14 +112,16 @@ console.log(y)
 // undefined.
 ```
 
-Also the way to check a type is not using the type but the name of the type as string.
-
-See example. Note `typeof('undefined')` is valid too but my IDE converts to the style without brackets.
+And this how you check if a value is undefined as a variable of key-value pair. The first doesn't look like function but is actually preferred.
 
 ```javascript
 > y === typeof 'undefined'
 true
+> y === typeof('undefined')
+true
 ```
+
+Note using brackets is valid too, but my IDE converts to the preferred style without brackets (which is also weird for a function call).
 
 In Python, you get an error on a missing attribute or dictionary key, but you can use a default such as `None` or `0`.
 
@@ -130,8 +132,9 @@ In Python, you get an error on a missing attribute or dictionary key, but you ca
 True
 ```
 
+Note the style of checking a variable in Python using `is None` instead of `typeof 'undefined'`.
 
-And typeof is a function and works like `typeof(value)` but it is generally used as `typeof value`.
+More info on type checking - in Python you also have `type(x) is str` or for more robustness `isinstance(x, str)`.
 
 
 ## Async
@@ -160,3 +163,13 @@ console.log(bazz.toUpperCase());
 The last case used to only work inside an `async` function - but with an update it can now be used at the top-level.
 
 See more details in [Async](async.md) page.
+
+
+## Well-known frustrations
+
+Some issues are so widely spread in JS that they become phrases.
+
+- "callback hell"
+- "promise hell" (you escaped callback hell and now have to deal with promise hell until you use `async` syntax)
+- "dependency hell" (not exclusive to JS, but prominent because of the large and complex dependecy trees, partly due to the standard lib which is kept light so the Node team can focus on security)
+- "framework fatigue"
