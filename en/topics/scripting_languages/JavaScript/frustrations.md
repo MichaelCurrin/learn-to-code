@@ -165,6 +165,59 @@ The last case used to only work inside an `async` function - but with an update 
 See more details in [Async](async.md) page.
 
 
+## Servers
+
+Python has this to start a web server. It is builtin.
+
+```sh
+$ python3 -m http.server
+```
+
+For JS, you have to write a file to add to the project and using the builtin `http` module. Or install and use one of many packages. See my [gist](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95).
+
+
+## Fetching
+
+There are many ways to do a web request in JS.
+
+The old way was to use `XMLHttpRequest`.
+
+From [Ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) tutorial.
+
+```javascript
+if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+ ...
+    httpRequest = new XMLHttpRequest();
+} else if (window.ActiveXObject) { // IE 6 and older
+    httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+}
+```
+
+The newer builtin way is using the [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) function.
+
+```javascript
+fetch(url)
+```
+
+Though, you need a polyfill like [node-fetch](https://www.npmjs.com/package/node-fetch) NPM package so you can use it in Node.
+
+Or you use an HTTP library like:
+
+- [request](https://www.npmjs.com/package/request) (deprecated as of 2020)
+- jquery
+    ```javascript
+    jQuery.ajax(url)
+    ```
+- [axios](https://www.npmjs.com/package/axios)
+- [got](https://www.npmjs.com/package/got)
+- [needle](https://github.com/tomas/needle)
+- [SuperAgent](https://github.com/visionmedia/superagent)
+
+Tutorials which compare approaches
+
+- [The Top Node.js HTTP Libraries in 2020](https://blog.bearer.sh/top-node-request-libraries/)
+- [7 Ways to Make HTTP Requests in Node.js](https://attacomsian.com/blog/http-requests-in-nodejs)
+
+
 ## Well-known frustrations
 
 Some issues are so widely spread in JS that they become phrases.
