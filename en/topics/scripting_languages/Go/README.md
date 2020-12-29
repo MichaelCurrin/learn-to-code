@@ -3,6 +3,8 @@
 
 Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
 
+For links on learning Go, see [Go](https://michaelcurrin.github.io/dev-resources/resources/go/) on Dev Resources.
+
 
 ## What is _Go_?
 
@@ -26,7 +28,6 @@ A well-known example of a Go application is the Hugo static site generator.
 The Go official site at [golang.org](https://golang.org/) says:
 
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-
 
 The [Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language)) page says:
 
@@ -64,44 +65,6 @@ A task does not have to be finished before going to the next one - the program c
 #### Pointers
 
 > Most modern languages do not provide pointers, however I do feel pointers help solve a lot of common issues and play a far more important role when it comes to memory layout and building low level system tools.
-
-
-## Resources
-
-- Official site - [golang.org](https://golang.org/)
-    * [Go fmt](https://blog.golang.org/go-fmt-your-code) - the builtin tool to format your code.
-        ```sh
-        $ go fmt
-        ````
-    * Note on indentation:
-        > We use _tabs_ for indentation and `gofmt` emits them by default. Use spaces only if you must.
-- GitHub repo - [golang/go](https://github.com/golang/go)
-    * [Wiki](https://github.com/golang/go/wiki) - see the table of contents for tutorials.
-- Go Packages index - [golang.org/pkg/](https://golang.org/pkg/)
-- Tutorials
-    * [Go cheatsheet](https://devhints.io/go) on DevHints site.
-    * [Learn Go by Example](https://gobyexample.com/) site.
-    * [Learn Go in Y Minutes](https://learnxinyminutes.com/docs/go/)
-    * [Effective Go](https://golang.org/doc/effective_go.html) - tutorial on the official site. That covers examples, formatting guide and how to do many things in the language such as errors, functions and concurrency.
-    * [Tutorials Point](https://www.tutorialspoint.com/go/index.htm)
-    * [Learn Go: Top 30 Go Tutorials for Programmers Of All Levels](https://stackify.com/learn-go-tutorials/)
-    * [Golang Cookbook](https://golangcookbook.com/)
-        * [Cross-compiling](https://golangcookbook.com/chapters/running/cross-compiling/) - making binaries for Linux, macOS and Windows.
-    * [Understanding data types in Go](https://www.digitalocean.com/community/tutorials/understanding-data-types-in-go)
-- Blog posts
-    * [Using Go modules](https://blog.golang.org/using-go-modules)
-    * [Lessons learned from programming in Go](https://opensource.com/article/19/12/go-common-pitfalls)
-        > Prevent future concurrent processing headaches by learning how to address these common pitfalls.
-    * [Asynchronous Programming with Go](https://medium.com/@gauravsingharoy/asynchronous-programming-with-go-546b96cd50c1)
-    * These were recommended on dev.to and I still want to check them out.
-        * [Learn Golang by Solving Real World Problems](https://medium.com/golang-jedi-knight/learn-golang-by-solving-real-world-problems-955c609ff0db) on Medium.
-        * [Primitive data types in Golang](https://medium.com/golang-jedi-knight/primitive-data-types-in-golang-35a291df3bbe) on Medium.
-        * [Zero values and complex data types in Golang](https://medium.com/golang-jedi-knight/zero-values-and-complex-data-types-in-golang-20ec177d11a2) on Medium.
-- Online playgrounds
-    * [play.golang.org](https://play.golang.org/)
-    * [Go on repl.it](https://repl.it/languages/go)
-    * [Tutorials Point](https://www.tutorialspoint.com/execute_golang_online.php)
-- [Go category on Rosetta code](http://rosettacode.org/wiki/Category:Go)
 
 
 ## Installation
