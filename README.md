@@ -7,12 +7,13 @@
 
 ## Translations of this guide
 
-[![English homepage](https://img.shields.io/badge/English-green?style=for-the-badge)](/en)
-[![Italian homepage](https://img.shields.io/badge/Italian-green?style=for-the-badge)](/it)
+[![English homepage](https://img.shields.io/badge/English-2ea44f?style=for-the-badge)](/en/)
+[![Italian homepage](https://img.shields.io/badge/Italian-2ea44f?style=for-the-badge)](/it/)
 
 _Note: The Italian guide is incomplete and it can go out of date when changes are made to the English guide only._
 
 Jump straight to the [Scripting languages :gb:](/en/topics/scripting_languages/) section.
+
 
 ## Contributing
 
@@ -28,7 +29,7 @@ Available to translate? Help is wanted to add more translated pages so the Itali
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
 - Use and modify the content. If you like, contribute back to this repo using [Contributing](#contributing) notes above.
 - The original license must be included in your project.
