@@ -1,5 +1,6 @@
 # Is Python compiled or interpreted?
 
+
 ## Summary
 
 Python is not compiled to machine code like C, C++, Java, Rust or Go.
@@ -29,6 +30,6 @@ This is a complex topic. I thought Java must be compiled because it won't compil
 
 This article covers Java Interpreter Compiler. Note the diagram from high level to byte code to machine code.
 
-codespeedy.com/why-java-is-called-...
+https://www.codespeedy.com/why-java-is-called-compiler-interpreter-language/
 
 I don't know about Java anymore - is it both compiled and interpreted? Python compile step is optional and it doesnt have compile time checks so I'd say Python is interpreted. But I don't know how the actual interpreter works to discuss further
