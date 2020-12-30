@@ -34,6 +34,8 @@ $ ruby -v
 ruby 2.3.3p222 (2016-11-21) [x86_64-linux-gnu]
 ```
 
+In 2020, I was using 2.6 and 2.7 and then in December version 3 was [released](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/).
+
 Install Ruby using one of the commands below or follow this [installation guide](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems).
 
 #### Debian/Ubuntu
@@ -74,7 +76,6 @@ Notes:
 - Untested prior to Catalina. Running the steps below may cause problems on **older** versions of macOS, if you end up upgrading your core Ruby rather installing a second Ruby.
 - Instructions are based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7).
 - For Jekyll, see the [macOS setup](https://jekyllrb.com/docs/installation/macos/) page on Jekyll docs for installing Ruby and Jekyll. In particular, note setting of `PATH` values which is covered here but there will be more details on the Jekyll docs.
-
 
 ##### Install or upgrade Ruby
 
@@ -220,7 +221,7 @@ Also known as "gems".
 ### Recommended gems
 
 - [Ruby on Rails](https://rubyonrails.org/) - the most popular web development framework for Ruby.
-- [Jekyll](https://jekyllrb/com) - static site generator.
+- [Jekyll](https://jekyllrb.com) - static site generator.
 
 
 ## Syntax
