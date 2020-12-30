@@ -3,14 +3,17 @@
 
 Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
 
-For links on learning Go, see [Go](https://michaelcurrin.github.io/dev-resources/resources/go/) on Dev Resources.
+For links on learning Go, see [Go](https://michaelcurrin.github.io/dev-resources/resources/go/) on my Dev Resources.
+
+See [Go](https://github.com/MichaelCurrin/code-cookbook/recipes/go/) recipes in my Code Cookbook.
 
 
-## What is _Go_?
+## What is Go?
 
 - A modern language which started in 2009 at Google.
-- Feels similar to Java/JavaScript/C syntax.
-- Go excels at high performance as it is a compiled language and supports asynchronous / concurrent programming. It is famous for its _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start.
+- Feels similar to Java/JavaScript/C syntax. Its design was influenced by Python for speed.
+- Go excels at high performance as it is a compiled language.
+- It supports asynchronous / concurrent programming - it was built to handle multicore processing and distributed processing across machines. Go has the _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start.
 - **Compiled**
     - Go code compiles to a binary executable file (machine code), making it very portable. Just download a file for OS and run. No installation of Go itself or any project dependencies (which are bundled).
 - **Strongly and statically typed**
@@ -18,10 +21,12 @@ For links on learning Go, see [Go](https://michaelcurrin.github.io/dev-resources
     - Statically typed - variable types are fixed.
     - Strongly typed checked at compile time give additional safety especially for large projects.
 - **Garbage collected**
-- Includes a file formatter to avoid style arguments among devs.
-
-A well-known example of a Go application is the Hugo static site generator.
-
+- **Memory safety**
+    - Influenced by C.
+    - Go may be compiled and fast but it is not magical. Bad Go code won't be safe. I watched a Go conference where they demonstrated that GB of memory were allocated and not deallocated in the life of the program which lead to 10x allocation of memory even though the application was only using a small amount at each point. So optimizing code is still needed.
+- **Structural typing**
+- Go includes a file formatter, to avoid style arguments among devs.
+- Some examples of Go applications are Docker, Terraform (and other HashiCorp tools) and Hugo the static site generator.
 
 ### Definitions
 
@@ -200,11 +205,25 @@ Run the build step to compile and then output binary executable file named `hell
 $ go build hello.go
 ```
 
-Then run the binary (no extension).
+Then run the binary (no extension, but on Windows it would be `.exe`).
 
 ```sh
 $ ./hello
 Hello, world!
+```
+
+### Install your package globally
+
+Run this in your project to create a compiled file in your user's Go bin.
+
+```sh
+$ go install
+```
+
+Then you can run it from anywhere.
+
+```sh
+$ hello
 ```
 
 
@@ -300,8 +319,3 @@ This lists the named packages, one per line. The most commonly-used flags are -f
 - [Colly](https://github.com/gocolly/colly) web scraping library
 - [gocui](https://github.com/jroimartin/gocui) for user interface
 - [color](https://github.com/fatih/color) for colored text
-
-
-## Examples
-
-See Go recipes in my cookbook - https://github.com/MichaelCurrin/code-cookbook/blob/master/recipes/go/README.md
