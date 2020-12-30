@@ -13,13 +13,13 @@ Python is compiled to **byte code**. That is then executed by the Python **inter
 
 Based on this article, Python has both compiled and interpreted parts to it. But the compiled part is minor I think and its still useful to think of Python and interpreted
 
-geeksforgeeks.org/python-compiled-...
+https://www.geeksforgeeks.org/python-compiled-or-interpreted/
 
 Yes Python does compile to `.pyc` files. They are not used immediately - they are only used when running the application a second time and if the modified date of the .py and .pyc file is the same then it does not recompile the files. So performance is a bit faster on repeat runs. (If you view your `.pyc` file it will look garbled to you but docstrings actually get preserved as plain text, for interest)
 
-These files are only created when doing module imports (python - m foo or imports within a script) and not when running a script directly (python foo.py). You can also give the python command a flag to disable creating .pyc files.
+These files are only created when doing module imports (`python - m foo` or imports within a script) and not when running a script directly (`python foo.py`). You can also give the `python` command a flag to disable creating `.pyc` files.
 
-Yes those byte code `.pyc` files are compiled files but they still get sent to the python interpreter as machine code. So .pyc files only get us partway there.
+Yes those byte code `.pyc` files are compiled files but they still get sent to the Python interpreter which generates machine code. So `.pyc` files only get us part of the way there.
 
 Using `.pyc` files improves performance a bit, as they can be reused on repeat runs. But those compiled files will not give you the performance of  machine code compiled languages like C.
 
