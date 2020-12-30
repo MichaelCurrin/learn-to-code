@@ -100,21 +100,24 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
             $ wget <url>
             $ # OR
             $ curl -O <url>
-        1.  Unzip - this is a directory w
-            ```sh
-            $ # Created as `/usr/local/go/`
-            $ sudo tar -C /usr/local -xzf <filename>
-
-            $ # OR use a user director as ~/.local/go/
-            $ tar -C ~/.local/ -xzf <filename>
-            ```
+        1.  Unzip as `go/` directory.
+            - Shared directory.
+                ```sh
+                $ sudo tar -C /usr/local -xzf <filename>
+                ```
+            - Or a user directory.
+                ```sh
+                $ tar -C ~/.local/ -xzf <filename>
+                ```
         1. Setup path in `.profile` or `.bashrc`/`.zshrc`. There is a `go` executable in the `bin` directory which must be accessible.
-            ```sh
-            $ export PATH=/usr/local/go/bin
-
-            $ # OR
-            $ export PATH="$HOME/.local/go/bin
-            ```
+            - Shared directory.
+                ```sh
+                $ export PATH=/usr/local/go/bin
+                ```
+            - Or a user directory.
+                ```sh
+                $ export PATH="$HOME/.local/go/bin
+                ```
 - macOS
     1. Install with [Brew](https://brew.sh/).
         ```sh
@@ -122,7 +125,7 @@ Follow the steps below, based on the [install guide](https://golang.org/doc/inst
         ```
 
 
-Setup access to user-level packages by updating the profile config (`.bash_profile` or `.profile`.)
+Setup access to user-level packages in `~/go/bin` by updating your profile config (`.bash_profile` or `.profile`.)
 
 ```sh
 export PATH="$HOME/go/bin:$PATH"
