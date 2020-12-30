@@ -10,7 +10,7 @@ See [Go](https://github.com/MichaelCurrin/code-cookbook/recipes/go/) recipes in 
 
 ## What is Go?
 
-- A modern language which started in 2009 at Google.
+- A modern language which started in 2009 (same as Node) and had the first stable release in 2011. It was created at Google.
 - Feels similar to Java/JavaScript/C syntax. Its design was influenced by Python for speed.
 - Go excels at high performance as it is a compiled language.
 - It supports asynchronous / concurrent programming - it was built to handle multicore processing and distributed processing across machines. Go has the _goroutine_ which is like using async or promises in other languages, except Go was designed with this from the start.
@@ -27,6 +27,7 @@ See [Go](https://github.com/MichaelCurrin/code-cookbook/recipes/go/) recipes in 
 - **Structural typing**
 - Go includes a file formatter, to avoid style arguments among devs.
 - Some examples of Go applications are Docker, Terraform (and other HashiCorp tools) and Hugo the static site generator.
+- Go has cleaner error handling than try/catch of JavaScript.
 
 ### Definitions
 
@@ -54,6 +55,10 @@ What does [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_scie
 A task does not have to be finished before going to the next one - the program can run parts in parallel and to partial completion. This can be great for performance. Example cases are running two tasks at once (such as the user interface and also processing or fetching data in the background, or fetching data from 100 webpages at once and processing them in the order that they finish.
 
 > Go offers some great concurrency primitives and makes it extremely easy to implement a concurrent system. Go offers some great concurrency primitives and makes it extremely easy to implement a concurrent system. Go supports this at the language level and concurrency is a first class citizen. The fundamental unit for this in Go is a go routine. Go routines are cheap, lightweight threads of execution. Spawning a go routine is as simple as adding the go keyword before a function. For example:
+
+From [Node vs Go comparison](https://yalantis.com/blog/golang-vs-nodejs-comparison/)
+
+> Rob Pike, the creator of Go, says that Go is an excellent tool for large software projects. With channels and goroutines, concurrency is a strong side of Go. Goroutines are methods or functions that run in parallel with other methods or functions. Goroutines are lightweight: their initial size is only 4 KB, compared to operating system threads, which are initially 1 MB. The Go environment allows developers to run thousands of goroutines simultaneously without using too much RAM. Information between two Goroutines is passed via channels that hide the complexity and let you structure your programs in a maintainable way.
 
 #### Simplicity and Consistency
 
