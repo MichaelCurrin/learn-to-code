@@ -28,9 +28,9 @@ Deno has its own registry.
 
 Not all the packages on NPM's registry are available on Deno's registry.
 
-For example, React is not there. But you can use an approach which is not tied to a runtime.
+For example, React is not there. But you can use an approach below which is not tied to a runtime.
 
-You can load a script from [JSPM](https://jspm.org/), which provides a few line so you can import the packages you need from say NPM.
+You can load a script from [JSPM](https://jspm.org/), which provides a few lines so you can import the packages you need from say NPM.
 
 > jspm provides a module CDN allowing any package from npm to be directly loaded
 in the browser and other JS environments as a fully optimized native JavaScript module.
@@ -51,3 +51,5 @@ export default dew();
 import "/npm:react@17.0.1/cjs/react.development.dew.js";
 import "/npm:object-assign@4?dew";
 ```
+
+So you can use any NPM registry package in Deno if it supported on JSPM. Without using the `npm` command.
