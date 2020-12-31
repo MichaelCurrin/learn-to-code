@@ -30,18 +30,20 @@ Not all the packages on NPM's registry are available on Deno's registry.
 
 For example, React is not there. But you can use an approach which is not tied to a runtime.
 
-You can loads from [JSPM](https://jspm.org/).
+You can load a script from [JSPM](https://jspm.org/), which provides a few line so you can import the packages you need from say NPM.
 
 > jspm provides a module CDN allowing any package from npm to be directly loaded
 in the browser and other JS environments as a fully optimized native JavaScript module.
 
-e.g.
+e.g. I learnt this in a tutorial on Deno.
 
 ```javascript
 import React from "https://dev.jspm.io/react";
 ```
 
-The content of the requested file is:
+If you go to that URL [dev.jspm.io/react](https://dev.jspm.io/react), you'll see a few lines of JS content. Which is suitable for Deno or running on an HTML page (see the instructions on the JSPM site).
+
+When I visited that URL, the content of that requested file was:
 
 ```javascript
 import { dew } from "/npm:react@17.0.1/index.dew.js";
