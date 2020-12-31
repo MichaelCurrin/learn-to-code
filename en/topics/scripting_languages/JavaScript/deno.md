@@ -52,4 +52,4 @@ import "/npm:react@17.0.1/cjs/react.development.dew.js";
 import "/npm:object-assign@4?dew";
 ```
 
-So you can use any NPM registry package in Deno if it supported on JSPM. Without using the `npm` command.
+So you can use any NPM registry package in Deno if it supported on JSPM. Without using the `npm` command. Also, this more secure, as when Deno installs the package is only uses the access you give it. While an NPM package with a post-install script command might be doing something system wide that is insecure or even malicious and the permissions are not restricted.
