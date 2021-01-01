@@ -112,7 +112,7 @@ console.log(y)
 // undefined.
 ```
 
-And this how you check if a value is undefined as a variable of key-value pair. The first doesn't look like function but is actually preferred.
+And this how you check if a value is `undefined` as a variable of key-value pair. The first doesn't look like function but is actually preferred.
 
 ```javascript
 > y === typeof 'undefined'
@@ -132,9 +132,22 @@ In Python, you get an error on a missing attribute or dictionary key, but you ca
 True
 ```
 
-Note the style of checking a variable in Python using `is None` instead of `typeof 'undefined'`.
+Note the style of checking a variable in Python using simply `is None` instead of `typeof 'undefined'`.
 
-More info on type checking - in Python you also have `type(x) is str` or for more robustness `isinstance(x, str)`.
+
+## Instance of
+
+In JS, you have [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof), but the syntax looks weird.
+
+```javascript
+apple instanceof Fruit
+```
+
+In Python you have a normal function call.
+
+```pythob
+isinstance(apple, Fruit)
+```
 
 
 ## Async
