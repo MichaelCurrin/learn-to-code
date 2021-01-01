@@ -315,15 +315,3 @@ go list [-f format] [-json] [-m] [list flags] [build flags] [packages]
 ```
 
 This lists the named packages, one per line. The most commonly-used flags are -f and -json, which control the form of the output printed for each package. Other list flags, documented below, control more specific details.
-
-
-### Recommended packages
-
-- List of packages
-    - [Best Golang Libraries and Packages](https://dev.to/cathysmith/best-golang-libraries-and-packages-3hj1) blog post
-    - [Awesome go](https://github.com/avelino/awesome-go)
-       > A curated list of awesome Go frameworks, libraries and software
-    - [Web scraping packages](https://github.com/lorien/awesome-web-scraping/blob/master/golang.md) guide
-- [Colly](https://github.com/gocolly/colly) web scraping library
-- [gocui](https://github.com/jroimartin/gocui) for user interface
-- [color](https://github.com/fatih/color) for colored text
