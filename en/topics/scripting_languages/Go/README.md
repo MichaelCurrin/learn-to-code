@@ -79,71 +79,13 @@ From [Node vs Go comparison](https://yalantis.com/blog/golang-vs-nodejs-comparis
 
 ## Installation
 
-### Install Go
-
-Follow the steps below, based on the [install guide](https://golang.org/doc/install#install) from the Go docs.
-
-- Debian/Ubuntu
-    - Using a package manager
-        1. Install with `apt` to `/usr/bin/go`. NB. Requires root privileges.
-            ```sh
-            $ sudo apt install golang-go
-            ```
-    - Download from the Go website.
-        1. Get download URL from [Downloads](https://golang.org/dl/) page.
-            - Pattern `go$VERSION.$OS-$ARCH.tar.gz`
-            - e.g. `go1.14.2.linux-amd64.tar.gz` or full URL: `https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz`
-        1. Download.
-            ```sh
-            $ cd ~/Downloads
-
-            $ wget <url>
-            $ # OR
-            $ curl -O <url>
-        1.  Unzip as `go/` directory.
-            - Shared directory.
-                ```sh
-                $ sudo tar -C /usr/local -xzf <filename>
-                ```
-            - Or a user directory.
-                ```sh
-                $ tar -C ~/.local/ -xzf <filename>
-                ```
-        1. Setup path in `.profile` or `.bashrc`/`.zshrc`. There is a `go` executable in the `bin` directory which must be accessible.
-            - Shared directory.
-                ```sh
-                $ export PATH=/usr/local/go/bin
-                ```
-            - Or a user directory.
-                ```sh
-                $ export PATH="$HOME/.local/go/bin
-                ```
-- macOS
-    1. Install with [Brew](https://brew.sh/).
-        ```sh
-        $ brew install go
-        ```
-
-
-Setup access to user-level packages in `~/go/bin` by updating your profile config (`.bash_profile` or `.profile`.)
-
-```sh
-export PATH="$HOME/go/bin:$PATH"
-```
-
-
-### Test it
-
-```sh
-$ go version
-$ go env
-```
+Follow the instructions in my [Install Go](https://gist.github.com/MichaelCurrin/ca6b3b955172ff993184d39807dd68d4) gist.
 
 ### Setting Go path
 
-The `GOPATH` is not where go is installed but where packages are.
+The `GOPATH` is where packages get installed.
 
-The default value for `GOPATH` is `~/go`.
+The default value for `GOPATH` is the user `~/go`. But you can setup paths specific to a project, to isolate your environment.
 
 > The command `go env GOPATH` prints the effective current `GOPATH`; it prints the default location if the environment variable is unset.
 
@@ -166,7 +108,6 @@ You can replace it as per the [docs](https://golang.org/doc/gopath_code.html#GOP
 > $ export GOPATH=$(go env GOPATH)
 > ```
 
-
 ### Install extra versions
 
 From [Extra versions](https://golang.org/doc/install#extra_versions) section of install doc.
@@ -186,7 +127,7 @@ go version go1.10.7 linux/amd64
 ```
 
 
-## Run
+## Run Go
 
 For reference, see [Hello World](https://gobyexample.com/hello-world) in Go docs - you can also the run code directly there by clicking the icon in the top right of the code block.
 
