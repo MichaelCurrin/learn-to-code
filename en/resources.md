@@ -37,6 +37,12 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Interface segregation principle
     - Dependency inversion principle
 - [Code review](https://en.m.wikipedia.org/wiki/Code_review)
+- Testing
+    - [Unit testing](https://en.m.wikipedia.org/wiki/Unit_testing)
+    - Integration testing
+    - End-to-end testing
+    - User acceptance testing
+    - Smoke testing
 - Linux philosophy
     - [The 9 major tenets and how they affect you](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
     - The list
