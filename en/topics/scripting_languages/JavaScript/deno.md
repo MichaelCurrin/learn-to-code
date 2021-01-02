@@ -3,9 +3,14 @@
 - Name: Deno
 - Homepage: https://deno.land/
 - Install: https://deno.land/#installation
-   ```sh
-   $ curl -fsSL https://deno.land/x/install/install.sh | sh
-   ```
+    - Linux
+        ```sh
+        $ curl -fsSL https://deno.land/x/install/install.sh | sh
+        ```
+    - macOS
+        ```sh
+        $ brew install deno
+        ```
 - Getting started: https://deno.land/#getting-started
 - Tagline:
     > A secure runtime for JavaScript and TypeScript.
@@ -29,6 +34,8 @@ See my [Deno cheatsheet](https://michaelcurrin.github.io/dev-cheatsheets/cheatsh
 
 ## Packages
 
+### Denoland
+
 Deno has its own packages registry.
 
 - https://deno.land/x
@@ -36,6 +43,8 @@ Deno has its own packages registry.
 Not all the packages on NPM's registry are available on Deno's registry.
 
 For example, React is not there. But you can use an approach below which is not tied to a runtime.
+
+### JSPM
 
 You can load a script from [JSPM](https://jspm.org/), which provides a few lines so you can import the packages you need from say NPM.
 
@@ -60,3 +69,23 @@ import "/npm:object-assign@4?dew";
 ```
 
 So you can use any NPM registry package in Deno if it supported on JSPM. Without using the `npm` command. Also, this more secure, as when Deno installs the package is only uses the access you give it. While an NPM package with a post-install script command might be doing something system wide that is insecure or even malicious and the permissions are not restricted.
+
+### Skypack
+
+An alternative to JSPM.
+
+- [skypack.dev](https://www.skypack.dev/)
+
+> Skypack is the world’s first CDN designed and optimized for modern JavaScript applications. To use it, just use a Skypack URL whenever you want to load a package:
+
+```javascript
+import React from 'https://cdn.skypack.dev/react';
+```
+
+Specifically for Deno, use `?dts` in the URL.
+
+e.g.
+
+```typescript
+import confetti from "https://cdn.skypack.dev/confetti?dts"
+```
