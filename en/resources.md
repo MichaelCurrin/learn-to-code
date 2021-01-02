@@ -36,6 +36,7 @@ You do not have to actually code in all of these topics, but ideally you should 
     - Liskov substitution principle
     - Interface segregation principle
     - Dependency inversion principle
+- [Code review](https://en.m.wikipedia.org/wiki/Code_review)
 - Linux philosophy
     - [The 9 major tenets and how they affect you](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
     - The list
