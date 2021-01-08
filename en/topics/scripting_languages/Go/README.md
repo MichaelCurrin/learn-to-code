@@ -110,7 +110,7 @@ You can replace it as per the [docs](https://golang.org/doc/gopath_code.html#GOP
 
 ### Install extra versions
 
-From [Extra versions](https://golang.org/doc/install#extra_versions) section of install doc.
+From [Multiple versions](https://golang.org/doc/manage-install#installing-multiple) section of install doc.
 
 Use the `get` command once Go is installed to fetch another version.
 
@@ -119,7 +119,7 @@ $ go get golang.org/dl/go1.10.7
 $ go1.10.7 download
 ```
 
-Test it.
+Use it.
 
 ```sh
 $ go1.10.7 version
