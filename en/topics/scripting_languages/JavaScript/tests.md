@@ -1,5 +1,5 @@
 # Tests
-> Guide to tests in JavaScript
+> Guide to test frameworks in JavaScript
 
 Consider 3 areas:
 
