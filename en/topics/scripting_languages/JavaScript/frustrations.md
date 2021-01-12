@@ -175,7 +175,7 @@ console.log(bazz.toUpperCase());
 
 The last case used to only work inside an `async` function - but with an update it can now be used at the top-level.
 
-See more details in [Async](async.md) page.
+See more details in my [Promises](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/general/promises/) guide.
 
 
 ## Servers
