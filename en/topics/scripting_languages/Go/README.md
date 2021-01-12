@@ -79,7 +79,9 @@ From [Node vs Go comparison](https://yalantis.com/blog/golang-vs-nodejs-comparis
 
 ## Installation
 
-Follow the instructions in my [Install Go](https://gist.github.com/MichaelCurrin/ca6b3b955172ff993184d39807dd68d4) gist.
+Follow the instructions here to install one or multiple versions of go
+
+- [Install Go](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/go/install-go.html) cheatsheets.
 
 ### Setting Go path
 
@@ -107,24 +109,6 @@ You can replace it as per the [docs](https://golang.org/doc/gopath_code.html#GOP
 > ```sh
 > $ export GOPATH=$(go env GOPATH)
 > ```
-
-### Install extra versions
-
-From [Multiple versions](https://golang.org/doc/manage-install#installing-multiple) section of install doc.
-
-Use the `get` command once Go is installed to fetch another version.
-
-```sh
-$ go get golang.org/dl/go1.10.7
-$ go1.10.7 download
-```
-
-Use it.
-
-```sh
-$ go1.10.7 version
-go version go1.10.7 linux/amd64
-```
 
 
 ## Run Go
