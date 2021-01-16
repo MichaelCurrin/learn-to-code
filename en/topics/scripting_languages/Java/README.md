@@ -71,3 +71,57 @@ Technical features
 ## Install
 
 [Download](https://www.java.com/en/download/) from Java homepage.
+
+
+## Looping
+
+The `while` loop.
+
+```java
+int i = 0;
+
+while (i < 3){
+    // statement
+    i++; 
+}
+`
+
+The `for` loop.
+
+```java
+for (int i = 0; i < 3; i++) {
+    System.out.println("Index: ", i);
+}
+```
+
+
+Using `.forEach`.
+
+```java
+myArray.forEach(element -> {
+  // Multiple statements
+});
+
+myArray.foreach(element -> statement);
+```
+
+e.g.
+
+```java
+List<String> nameList = new ArrayList<String>();
+
+nameList.add("Java");
+nameList.add("Kotlin");
+nameList.add("Android");
+
+nameList.forEach(name -> System.out.println(name) );
+
+nameList.forEach(name -> {
+    if (name.equals("Android")) {
+        System.out.println(name + " is a framework.");  
+    } else {
+        System.out.println(name + " is a programming language.");
+    }
+});
+```
+ 
