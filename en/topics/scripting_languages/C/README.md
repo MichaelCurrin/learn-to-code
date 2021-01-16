@@ -3,13 +3,16 @@
 Key points:
 
 - _C_ is a general-purpose language which started in 1972.
-- It is known for its high performance and low-level control.
+- It is known for its high performance and control of low-level areas such as managing memory.
 - _C_ is not so beginner-friendly - you need verbose code compared with other languages, even to do something simple.
 - However, the advantage is that gives a high degree of control which means you can optimize memory management at a low-level.
-- Strongly and statically typed. You have to explicitly set the type (e.g. 32-bit signed integer) in most cases and objects cannot change type.
-- It has variables and functions.
-- There are no classes and there is no string type (though you can have an array of characters).
+- Strongly and statically typed. You have to explicitly set the type (e.g. 32-bit signed integer) in most cases and objects cannot change type. The types are checked at compile time.
+- You compile your scripts into binary executables specific to an OS.
+- By having the compile step, there is an initial cost in time. But then the compiled code can run much faster later than interpreted code such as in JavaScript, Ruby or Python.
+- C has variables and functions.
+- There are no classes. There is no string type (though you can have an array of characters). There is no boolean - instead you use `0` for false and `1` for true.
 - It makes use of pointers - a function can operate on a pointer of a variable and modify it in place, without making a copy of the value which would use extra memory.
+
 
 ## Resources
 
@@ -17,6 +20,7 @@ Key points:
     - > C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations
 - [What is C Programming Language? Basics, Introduction and History](https://www.guru99.com/c-programming-language.html)
 - [C language introduction](https://www.geeksforgeeks.org/c-language-set-1-introduction/)
+
 
 ## Implementation
 
@@ -30,8 +34,14 @@ There are alternatives such as Jython implemented in Java and IronPython impleme
 
 Get help on the GNU C Compiler
 
-```
+```sh
 $ man cc
 $ info cc
 $ cc --help
+```
+
+See also:
+
+```sh
+$ gcc
 ```
