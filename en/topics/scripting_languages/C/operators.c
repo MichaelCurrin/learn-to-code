@@ -56,14 +56,14 @@ void relational_operators(){
     int e = (a > b) ? 20 : 30;
 
     // Check equal to.
-    if(a == b) {
+    if (a == b) {
        printf("Line 1 - a is equal to b\n" );
     } else {
        printf("Line 1 - a is not equal to b\n" );
     }
 
     // Check not equal to.
-    if(a != b) {
+    if (a != b) {
        printf("Line 1 - a is equal to b\n" );
     } else {
        printf("Line 1 - a is not equal to b\n" );
@@ -90,14 +90,14 @@ void logic_operators() {
     int b = 10;
 
     // AND
-    if((a >= b) && (a == 21)) {
+    if ((a >= b) && (a == 21)) {
        printf("Line 1 - a is greater b and a equal to 21\n" );
     } else {
        printf("Line 1 - a is not greater b or a not equal to 2\n" );
     }
 
     // OR
-    if((a >= b) || (a == 21)) {
+    if ((a >= b) || (a == 21)) {
        printf("Line 1 - a is greater b or a is equal to 21\n" );
     } else {
        printf("Line 1 - a is not greater a or b is equal to 2\n" );
