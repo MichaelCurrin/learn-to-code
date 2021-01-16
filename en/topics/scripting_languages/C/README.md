@@ -45,3 +45,9 @@ See also:
 ```sh
 $ gcc
 ```
+
+For C++ and C code:
+
+```sh
+$ g++
+```
