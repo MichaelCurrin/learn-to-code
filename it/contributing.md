@@ -30,8 +30,3 @@ Se vuoi contribuire a questo progetto, potresti:
 - Aggiungere nuove sezioni
 - Correggere collegamenti o bug nel codice.
 - Aggiungere traduzioni.
-
-
-## Contributori
-
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.

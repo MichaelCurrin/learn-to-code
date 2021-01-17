@@ -17,20 +17,28 @@ Jump straight to the [Scripting languages :gb:](/en/topics/scripting_languages/)
 
 ## Contributing
 
-[![English contributing](https://img.shields.io/badge/English-blue?style=for-the-badge)](/en/contributing.md)
-[![Italian contributing](https://img.shields.io/badge/Italian-blue?style=for-the-badge)](/it/contributing.md)
+### How to contribute to a GitHub repo
 
-First time contributing to any GitHub repo and want to know how it works? Follow this guide:
+If it is your first time contributing to any GitHub repo and want to know how it works, follow this guide:
 
 - [Syknapse/Contribute-To-This-Project](https://github.com/Syknapse/Contribute-To-This-Project)
 
+### How to contribute to this project
+
+- [![English contributing](https://img.shields.io/badge/English-blue?style=for-the-badge)](/en/contributing.md)
+- [![Italian contributing](https://img.shields.io/badge/Italian-blue?style=for-the-badge)](/it/contributing.md)
+
 Available to translate? Help is wanted to add more translated pages so the Italian section can match the main English section (especially since the repo owner is not Italian). Add another language if you want.
+
+### Special thanks to contributors
+
+- [@alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.
 
 
 ## License
 
 Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
 
-- Use and modify the content. If you like, contribute back to this repo using [Contributing](#contributing) notes above.
-- The original license must be included in your project.
+- Use and modify the content. If you like, contribute back to this repo by following [Contributing](#contributing) instructions above.
+- The original license must be included in your project if you use a significant portion of the content.
 - Please link back to the original repo if copy and reuse any content.

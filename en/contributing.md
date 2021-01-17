@@ -30,8 +30,3 @@ If you want to contribute to this project, these kind of things would help.
 - Add new sections
 - Fix links or facts or bugs in code.
 - Add translations.
-
-
-## Contributors
-
-- [alessiobenvenuti](https//github.com/alessiobenvenuti) - created Italian translations.
