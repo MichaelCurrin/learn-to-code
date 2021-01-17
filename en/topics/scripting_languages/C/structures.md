@@ -20,6 +20,8 @@ struct [structure tag] {
 
 ## Examples
 
+### Declare
+
 Here we declare a null structure variable `book` with type `Book`.
 
 ```c
@@ -30,6 +32,8 @@ struct Books {
    int   book_id;
 } book;
 ```
+
+### Edit and print
 
 Here we declare a type globally, then declare an instance and update and print it.
 
@@ -57,4 +61,20 @@ void main( ) {
    printf( "Book 1 subject : %s\n", Book1.subject);
    printf( "Book 1 book_id : %d\n", Book1.book_id);
 }
+```
+
+### Pointer 
+
+If using a pointer to a structure, use an arrow instead.
+
+
+```c
+void printBook( struct Book *book ) {
+   printf( "Book title : %s\n", book->title);
+   printf( "Book author : %s\n", book->author);
+   printf( "Book subject : %s\n", book->subject);
+   printf( "Book book_id : %d\n", book->book_id);
+}
+
+printBook( &book1 );
 ```
