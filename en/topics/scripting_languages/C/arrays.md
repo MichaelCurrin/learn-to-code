@@ -1,5 +1,7 @@
 # Arrays 
 
+An array is a fixed-size collection of elements.
+
 See [C Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm) tutorial.
 
 
