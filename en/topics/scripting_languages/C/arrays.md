@@ -1,6 +1,6 @@
 # Arrays 
 
-An array is a fixed-size collection of elements.
+An array is a **fixed length** collection of elements. There is no dynamic length array builtin into C but you can use `malloc` as per this [guide](https://www.cprogrammingbasics.com/dynamic-array-in-c/).
 
 See [C Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm) tutorial.
 
