@@ -55,16 +55,9 @@ Extract from Typing heading on [Wikipedia page](https://en.wikipedia.org/wiki/Py
 
 ## Resources
 
-See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blob/master/cheatsheets/python.md).
+See my [Python](https://michaelcurrin.github.io/dev-resources/resources/python/) Dev Resources page for more links.
 
-- [python.org](https://python.org) official site.
 - [Python topic](https://github.com/topics/python) on GitHub.
-- [Wikipedia page](https://en.wikipedia.org/wiki/Python_(programming_language))
-- [Python 3 Documentation](https://docs.python.org/3/)
-- [Python Package Index](https://pypi.org/) for downloading libraries.
-- Tutorials
-    - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html) on the Python Documentation site
-    - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
 - Ebooks
     - [Automate the Boring Stuff](https://automatetheboringstuff.com/) ebook - available to view on the website or to buy as a book or Ebook
     - [Python for Informatics](http://www.pythonlearn.com/book_007.pdf) ebook - downloadable as PDF from [pythonlearn.com](https://www.pythonlearn.com).
@@ -74,7 +67,6 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
     - [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
     - [PyGuide](https://google.github.io/styleguide/pyguide.html) page by Google on GitHub.
 - Cheatsheets
-    - [Python](https://devhints.io/python) on _devhints.io_.
     - [wilfredinni/python-cheatsheet](https://github.com/wilfredinni/python-cheatsheet) on GitHub.
     - [8 Best Python Cheat Sheets for Beginners and Intermediate Learners](https://sinxloud.com/python-cheat-sheet-beginner-advanced/).
 - Courses
@@ -83,7 +75,6 @@ See also my [Python cheatsheet](https://github.com/MichaelCurrin/cheatsheets/blo
     - Udemy - [Python courses](https://www.udemy.com/topic/python/).
     - Udacity - see [courses](https://www.udacity.com/courses/all) then search for _Python_.
     - Coursera - [Python courses](https://www.coursera.org/courses?query=python).
-- [Python topic](https://github.com/topics/python?l=python&o=desc&s=stars) on GitHub.
 - Blogs
     - [Real Python](https://realpython.com/) blog - I really enjoy this site, which has a few authors writing Python tutorials. Subscribe to their mailing list for regularly updates on a few posts.
     - [Do you speak Python?](https://towardsdatascience.com/do-you-speak-python-5dcfa9bb1fbe) post - examples of using Python basics including classes, lambdas, conditional statements and loops.
@@ -247,7 +238,7 @@ Example usage for installing a custom version of Python 3:
 
 ### Python 2
 
-Only if you _really_ need to use it, since Python 2 was deprecated on 1 Jan 2020.
+Only if you _really_ need to use thid, since Python 2 was deprecated on 1 Jan 2020 (after it was first sort-of deprecated in 2015).
 
 Example usage for installing a custom version of Python 2:
 
@@ -312,15 +303,3 @@ $ cd ~/Downloads
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python get-pip.py
 ```
-
-## Run
-
-### Online
-
-- Online code playgrounds
-    - [repl.it](https://repl.it/languages/python3)
-    - [Tutorials Point](https://www.tutorialspoint.com/execute_python_online.php)
-- Jupyter notebooks
-    - [Jupyter](https://jupyter.org/try) for a choice notebooks through My Binder
-    - [My binder](https://mybinder.org/)
-    - [Google Colab](https://colab.research.google.com/)
