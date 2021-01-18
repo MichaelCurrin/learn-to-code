@@ -8,10 +8,33 @@ For more info, see this blog post [The WHY behind the WAT: An explanation of Jav
 
 ```javascript
 > typeof {}
-'object'
+'object' // Why not hash or map?
+```
 
+```javascript
 > typeof []
-'object'
+'object' // Why not array?
+```
+
+You can use the uncommon `Array` constructor, but you'll get an object, not an array.
+
+```javascript
+> var y = Array()
+[]
+> typeof y
+'object' // Why not Array?
+```
+
+```javascript
+> typeof null
+'object' // Why not 'null'?
+```
+
+```javascript
+> var z = Object()
+[]
+> typeof z
+'object' // Why not 'Object'?
 ```
 
 Surprising combinations when adding objects together.
@@ -54,6 +77,23 @@ So you need to use `[].concat`.
 [ 1, 2, 3 ]
 ```
 
+Methods on `Object` are not available to instances of it.
+
+```javascript
+> typeof {}
+'object'
+
+> Object.keys
+[Function: keys]
+
+> {a: 1}.keys
+undefined // or an error if you try to use it
+
+> // So you have to do this:
+> Object.keys({a: 1})
+[ 'a' ]
+```
+
 
 ## Maps
 
@@ -73,7 +113,8 @@ JavaScript has `{}` which is an associative array i.e. key-value pairs.
 'baz'
 ```
 
-Though is can only have strings as keys.
+Though it can only have strings as keys.
+
 ```javascript
 > x[4] = 'fizz'
 
@@ -81,7 +122,7 @@ Though is can only have strings as keys.
 { foo: 100, bar: 200, 3: 'baz', '4': 'fizz' }
 ```
 
-If you want a proper map which can handle other types, use a [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Examples).
+Mostly that is what people use, but there is also a `Map` type. It can have other types as keys and is more specialized than `Object` type. See [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Examples) in Mozilla docs.
 
 ```javascript
 > var x = new Map()
@@ -192,3 +233,73 @@ To get an associativate array's keys, there is no method on the object. You need
 > Object.entries(x)
 [ [ 'a', 'foo' ], [ 'b', 'buzz' ] ]
 ```
+
+
+## Checking types
+
+The way to check null is using `===`.
+
+```javascript
+> var x = null
+> x === null
+true
+> typeof x
+'object'
+```
+
+But the way to check `undefined` is `typeof`.
+
+```javascript
+> var y
+> typeof y
+'undefined'
+> typeof y === 'undefined'
+true
+```
+
+It also works if a key or a variable does not exist.
+
+```javascript
+> typeof {}.foo
+'undefined'
+
+> typeof randomVar
+'undefined'
+```
+
+
+## Instances
+
+In JS, you use a function to create a builtin time.
+
+```javascript
+> typeof Array
+'function'
+
+> Array
+[Function: Array]
+
+> Object
+[Function: Object]
+> Set
+[Function: Set]
+> Map
+[Function: Map]
+> Number
+[Function: Number]
+```
+
+And sometimes you need the `new` keyword. At least for classes.
+ 
+In Python, the builtins are classes.
+
+```python
+>>> x = dict() # or x = {}
+>>> type(x)
+<class 'dict'>
+
+>>> y = set() # or y = {1, 2}
+>>> type(y)
+<class 'set'>
+```
+
