@@ -44,10 +44,10 @@ Surprising combinations when adding objects together.
 ''
 
 > [] + {}
-'[object Object]'
+'[object Object]' // Why not error? Why lowercase and uppercase mixed?
 
 > {} + []
-0
+0 // Why not error? Why different to [] + {} result?
 
 > {} + {}
 NaN
@@ -163,16 +163,11 @@ false
 
 ## Numbers
 
+The type of not-a-number is number.
+
 ```javascript
 > typeof NaN
 'number'
-
-> number // This is not a thing.
-Thrown:
-ReferenceError: number is not defined
-
-> Number // But this is a thing. But it is a function, not a class.
-[Function: Number]
 ```
 
 ```javascript
