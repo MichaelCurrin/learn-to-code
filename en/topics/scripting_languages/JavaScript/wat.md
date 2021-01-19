@@ -270,7 +270,7 @@ It also works if a key or a variable does not exist.
 
 ## Instances
 
-In JS, you use a function to create a builtin time.
+In JS, you use a function to create an instance of a builtin type. Because classes did not exist at that point (in fact, `class` is just a work around for making an `Object` with scoped functions that works like a class in other languages.
 
 ```javascript
 > typeof Array
