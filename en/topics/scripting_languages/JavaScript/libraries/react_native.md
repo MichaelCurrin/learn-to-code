@@ -69,17 +69,13 @@ You'll be give instructions in the CLI to run one of these commands. Notes are a
 > - `yarn android` -- (`react-native run-android`) Build the Android App.
 > - `yarn web` -- (`expo start:web`) Run the website in your browser.
 
-For the last command - note that you'll be give a prompt. Despite `expo` already being in `dependencies` and installed with `yarn`.
+For the last command - note that you'll be give a prompt to install `expo-cli` globally. This is separate from `expo` which is in dependencies.
 
 ```
 This command requires Expo CLI.
 Do you want to install it globally [Y/n]? n
 error Command failed with exit code 1.
 ```
-
-So you'll want to either install it globally using `Y` or manual instally I guess.
-
-Note using `npx expo start:web` didn't do anything.
 
 
 ## Samples
