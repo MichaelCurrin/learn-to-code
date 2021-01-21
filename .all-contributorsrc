@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alessiobenvenuti",
+      "name": "Alessio Benvenuti",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/63036268?v=4",
+      "profile": "https://github.com/alessiobenvenuti",
+      "contributions": [
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "learn-to-code",
+  "projectOwner": "MichaelCurrin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
