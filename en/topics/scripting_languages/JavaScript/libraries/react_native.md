@@ -4,7 +4,7 @@ Use a single JavaScript codebase that runs on Node and compiles to _native_ Andr
 
 Knowing some React first course will make React Native easier.
 
-As an alternative, see the [Dart](/en/topics/scripting_languages/Dart) language (similar to JavaScript and created by Google), where the "Flutter" library is used to make native mobile apps.
+As an alternative, see the [Dart](/en/topics/scripting_languages/Dart/) language (similar to JavaScript and created by Google), where the "Flutter" library is used to make native mobile apps.
 
 
 ## Resources
@@ -27,6 +27,21 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart) language 
 		> With Expo tools, services, and React, you can build, deploy, and quickly iterate on native Android, iOS, and web apps from the same JavaScript codebase.
 		- Create and run apps. Even run on your mobile device.
 		- See in particular [snack.expo.io](https://snack.expo.io/)
+
+
+## Create app
+
+Repo: [expo/create-react-native-app](https://github.com/expo/create-react-native-app)
+
+From usage section:
+
+> - `npx create-react-native-app` Create a new native React app.
+> - `yarn ios` -- (react-native run-ios) Build the iOS App (requires a MacOS computer).
+> - `yarn android` -- (react-native run-android) Build the Android App.
+> - `yarn web` -- (expo start:web) Run the website in your browser.
+
+
+## Samples
 
 ### Hello world
 
@@ -141,3 +156,10 @@ Example `package.json`.
   }
 }
 ```
+
+
+## Frameworks
+
+- [React Native Paper](https://callstack.github.io/react-native-paper/) homepage
+    > Cross-platform Material Design for React Native.
+- Repo: [callstack/react-native-paper](https://github.com/callstack/react-native-paper)
