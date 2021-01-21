@@ -1,4 +1,7 @@
 # Learn to Code
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 > Tutorials, scripts, code snippets and resources to help you learn about various languages and become a better dev
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/learn-to-code.svg)](https://GitHub.com/MichaelCurrin/learn-to-code/tags/)
@@ -42,3 +45,23 @@ Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCur
 - Use and modify the content. If you like, contribute back to this repo by following [Contributing](#contributing) instructions above.
 - The original license must be included in your project if you use a significant portion of the content.
 - Please link back to the original repo if copy and reuse any content.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/alessiobenvenuti"><img src="https://avatars2.githubusercontent.com/u/63036268?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alessio Benvenuti</b></sub></a><br /><a href="#translation-alessiobenvenuti" title="Translation">🌍</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
