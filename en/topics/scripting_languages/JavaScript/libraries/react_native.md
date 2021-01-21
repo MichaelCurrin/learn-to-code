@@ -17,9 +17,8 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart) language 
 	>
 	> React Native is like React, but it uses native components instead of web components as building blocks.
 - [Getting Started](https://reactnative.dev/docs/getting-started)
-https://reactnative.dev/docs/0.60/getting-started
     > This page will help you install and build your first React Native app.
-	- Includes an interactive example,
+	- Includes an interactive example.
 - Tutorials
     - [Learn the basics](https://facebook.github.io/react-native/docs/tutorial).
 - [GitHub repo](https://github.com/facebook/react-native)
