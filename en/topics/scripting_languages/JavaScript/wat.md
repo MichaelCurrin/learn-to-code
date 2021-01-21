@@ -182,8 +182,10 @@ The type of not-a-number is number.
 ## Arrays
 
 ```javascript
-> var x = [] // This is an array.
+> var x = [] // This is an array, well actually an `Object` because there is no array type.
+```
 
+```javascript
 > x[1] = 'foo' // Yes, you can skip assigning item 0
 'foo'
 > x
@@ -192,24 +194,51 @@ The type of not-a-number is number.
 'bar'
 > x
 [ 'bar', 'foo' ]
+```
 
+```javascript
 > x.y = 'baz' // Yes, you can add an attribute as a value or function an array.
 'baz'
 > x
 [ 'bar', 'foo', y: 'baz' ]
 > x.y
 'baz'
+```
 
+```javascript
 > x.length = 10 // Yes you can assign a new length to array.
 10
 > x
 [ 'bar', 'foo', <8 empty items>, y: 'baz' ]
+```
 
+```javascript
 > delete(x[0]) // You can delete an item in place without affecting the others.
 true
 > x
 [ <1 empty item>, 'foo', <8 empty items>, y: 'baz' ]
 ```
+
+Initialize an array.
+
+```javascript
+> Array(10)
+[<10 empty items>]
+> Array(10, 13)
+[10, 13]
+```
+
+Python:
+
+```python
+>>> [None]*10
+[None, None, None, None, None, None, None, None, None, None]
+>>> [10, 13]
+[10, 13]
+>>> list([10, 13])
+[10, 13]
+```
+
 
 
 ## Object work
