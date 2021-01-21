@@ -29,8 +29,8 @@ If it is your first time contributing to any GitHub repo and want to know how it
 
 ### How to contribute to this project
 
-- [![English contributing](https://img.shields.io/badge/English-blue?style=for-the-badge)](/en/contributing.md)
-- [![Italian contributing](https://img.shields.io/badge/Italian-blue?style=for-the-badge)](/it/contributing.md)
+- [![English contributing](https://img.shields.io/badge/Contributing-English-blue?style=for-the-badge)](/en/contributing.md)
+- [![Italian contributing](https://img.shields.io/badge/Contributing-Italian-blue?style=for-the-badge)](/it/contributing.md)
 
 Available to translate? Help is wanted to add more translated pages so the Italian section can match the main English section (especially since the repo owner is not Italian). Add another language if you want.
 
