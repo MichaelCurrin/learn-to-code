@@ -29,24 +29,45 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart/) language
 		- See in particular [snack.expo.io](https://snack.expo.io/)
 
 
-## Create app
+## Setup a project app
 
 Repo: [expo/create-react-native-app](https://github.com/expo/create-react-native-app)
 
-From usage section:
+### Create
 
-> - `npx create-react-native-app` Create a new native React app.
-> - `yarn ios` -- (react-native run-ios) Build the iOS App (requires a MacOS computer).
-> - `yarn android` -- (react-native run-android) Build the Android App.
-> - `yarn web` -- (expo start:web) Run the website in your browser.
+Create a new app.
+
+```sh
+$ npx create-react-native-app
+```
+
+Run that in a directory like `repos`. When running the command, you will be prompted for an app name and it will create in a subdirectory for you.
+
+### Options
+
+If you don't supply a template, you'll be prompted to use the default setup or a template.
+
+Or you can run with a known template.
 
 ```sh
 $ npx create-react-native-app -t with-typescript
 ```
 
-Examples - see [expo/examples](https://github.com/expo/examples) repo.
+The default is to use `yarn`. You can also supply a flag for NPM as `--use-npm`.
+
+See more templates here: [expo/examples](https://github.com/expo/examples) repo.
 
 > Example projects that demonstrate how to use Expo APIs and integrate Expo with other popular tools
+
+### Use
+
+The project will have dependencies installed already.
+
+You'll be give instructions in the CLI to run one of these commands. Notes are as copied from the docs.
+
+> - `yarn ios` -- (`react-native run-ios`) Build the iOS App (requires a MacOS computer).
+> - `yarn android` -- (`react-native run-android`) Build the Android App.
+> - `yarn web` -- (`expo start:web`) Run the website in your browser.
 
 
 ## Samples
