@@ -40,6 +40,14 @@ From usage section:
 > - `yarn android` -- (react-native run-android) Build the Android App.
 > - `yarn web` -- (expo start:web) Run the website in your browser.
 
+```sh
+$ npx create-react-native-app -t with-typescript
+```
+
+Examples - see [expo/examples](https://github.com/expo/examples) repo.
+
+> Example projects that demonstrate how to use Expo APIs and integrate Expo with other popular tools
+
 
 ## Samples
 
