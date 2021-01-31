@@ -61,6 +61,9 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 - Rust reference docs
     - Rust by Example - https://doc.rust-lang.org/stable/rust-by-example/
     - Online book "The Rust Programming Language" - https://doc.rust-lang.org/book/
+- Cheatsheets
+    - [cheats.rs](https://cheats.rs/#cargo)
+    - Surprisingly not on DevHints yet.
 - Tutorials
     - [What the fork is Rust?](https://illustrated.dev/wtfrust) illustrated intro to Rust on [illustrated.dev](https://illustrated.dev).
     - [Getting Started](https://www.rust-lang.org/learn/get-started) guide on Rust site
