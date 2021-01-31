@@ -53,6 +53,10 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 
 - Official Rust site - https://www.rust-lang.org/
 - [Installation](https://www.rust-lang.org/tools/install) doc.
+- Releases
+    - The latest release is announced on their homepage with a linked blog post e.g. https://blog.rust-lang.org/2020/12/31/Rust-1.49.0.html
+    - [RELEASES.md](https://github.com/rust-lang/rust/blob/master/RELEASES.md) doc on GitHub.
+    - [Releases](https://github.com/rust-lang/rust/releases) tab on the Rust repo.
 - Rustup
     - [Rustup](https://rustup.rs/) homepage
     - [Repo](https://github.com/rust-lang/rustup)
