@@ -51,6 +51,8 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 ## Resources
 
 - Official Rust site - https://www.rust-lang.org/
+- [Installation](https://www.rust-lang.org/tools/install) doc.
+- [Rustup](https://rustup.rs/) homepage
 - Learn Rust - https://www.rust-lang.org/learn
     - You get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs below work
 - Rust reference docs
@@ -91,26 +93,36 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
         > Go vs Rust discussions are ridiculous. It should be more like: When to use Go. When to use Rust. When to use X...
     - [Why Go and not Rust?](https://kristoff.it/blog/why-go-and-not-rust/)
 
+
 ## Installation
 
-Install [Rustup](https://rustup.rs/) - the Rust toolchain manager.
+From the [Install](https://www.rust-lang.org/tools/install) doc:
 
-```sh
-# On Unix
-$ curl https://sh.rustup.rs -sSf | sh
-```
+- Unix (macOS and Linux)
+    ```sh
+    $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    $ # Previously the guide just said this:
+    $ curl https://sh.rustup.rs -sSf | sh
+    ```
+- Windows
+    - Download the `.exe` installer on the doc.
+
+That will install the following commands and add them to Cargo's bin so you can execute them from anywhere.
+
+- `rustup`
+- `cargo`
+- `rustc`
+
+See below for more details.
+
+
+## Rust tools
+
+### Rustup
+
+Install is Rust toolchain manager.
 
 Rustup allows switching between and updating stable, beta or nightly compilers.
-
-On installation it will add the `cargo`, `rustc`, `rustup` and other commands to Cargo's bin.
-
-
-To uninstall:
-
-```sh
-$ rustup self uninstall
-```
-
 
 ### Cargo
 
@@ -125,14 +137,24 @@ $ cargo -V
 cargo 1.32.0-beta (1b6702f22 2018-12-06)
 ```
 
-
 ### Rustc
 
-Check your _Rustc_ version
+From [What is Rustc?](https://doc.rust-lang.org/rustc/what-is-rustc.html):
+
+> rustc is the compiler for the Rust programming language, provided by the project itself. Compilers take your source code and produce binary code, either as a library or executable.
+
+Check your _Rustc_ version.
 
 ```sh
 $ rustc -V
 rustc 1.31.1 (b6c32da9b 2018-12-18)
+```
+
+
+## Uninstall
+
+```sh
+$ rustup self uninstall
 ```
 
 
@@ -163,7 +185,7 @@ $ # On Unix.
 $ ./file
 ```
 
-```
+```console
 > # On Windows.
 > file.exe
 ```
