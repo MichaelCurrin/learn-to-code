@@ -1,5 +1,6 @@
 # Rust
 
+
 ## What is Rust?
 
 > Rust combines low-level control over performance with high-level convenience and safety guarantees. It achieves these goals without requiring a garbage collector or runtime, making it possible to use Rust libraries as a "drop-in replacement" for C.
@@ -52,7 +53,9 @@ There are 3 main ways: according to the [Learn Rust](https://www.rust-lang.org/l
 
 - Official Rust site - https://www.rust-lang.org/
 - [Installation](https://www.rust-lang.org/tools/install) doc.
-- [Rustup](https://rustup.rs/) homepage
+- Rustup
+    - [Rustup](https://rustup.rs/) homepage
+    - [Repo](https://github.com/rust-lang/rustup)
 - Learn Rust - https://www.rust-lang.org/learn
     - You get forwarded here from the https://doc.rust-lang.org homepage but subpaths on the docs below work
 - Rust reference docs
@@ -106,6 +109,8 @@ From the [Install](https://www.rust-lang.org/tools/install) doc:
     ```
 - Windows
     - Download the `.exe` installer on the doc.
+
+If you like, you can download save the install script yourself by going to [sh.rustup.rs/](https://sh.rustup.rs/) or view the source on GitHub at [rustup-init.sh](https://github.com/rust-lang/rustup/blob/master/rustup-init.sh).
 
 That will install the following commands and add them to Cargo's bin so you can execute them from anywhere.
 
