@@ -20,7 +20,7 @@ $ cargo doc
 ```
 
 
-The commands in the section below were done from within the [package_management](package_management) directory, if you want to see the result.
+The commands in the section below were done from within the [my_package](my_package/) directory, if you want to see the result.
 
 
 ## Create
