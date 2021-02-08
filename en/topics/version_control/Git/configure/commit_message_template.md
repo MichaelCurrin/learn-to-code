@@ -54,27 +54,29 @@ The template file should not be added to version control, as you will change it 
 
 Therefore you should `_COMMIT_MESSAGE` to your an ignore file
 
-Add `_COMMIT_MESSAGE` to your user's [Global ignore file](global_ignore_file.md). This takes a bit more effort than a local repo file, but you only have to do it once and it gets applied _all_ your repos. Also you don't have to add `_COMMIT_MESSAGE` to each repo's ignore file.
+Add the ptah `_COMMIT_MESSAGE` to your user's [Global ignore file](global_ignore_file.md). 
+
+This takes a bit more effort than a local repo file, But, you only have to do it **once** and then it gets applied _all_ your repos. Also you don't have to add `_COMMIT_MESSAGE` to each repo's ignore file.
 
 ### 3. Configure the repo to use the template
 
 Navigate to a repo.
 
-Then add to the repo's config using an approach below. Note that if you omit the `--global` flag, then the `--local` flag is implied.
+Then add to the repo's config using one of the approaches below. 
 
-- Do it in one line.
+- Do it in one line. Note that if you omit the `--global` flag, then the `--local` flag is implied.
 	```sh
 	$ git config commit.template _COMMIT_MESSAGE
 	```
-- Or, open the local config edit view.
+- Open local config edit view.
 	1. Edit.
 		```sh
 		$ git config -e
 		```
-	2. Add content.
+	2. Add content and save.
 		```ini
 		[commit]
-			template = _COMMIT_MESSAGE
+		  template = _COMMIT_MESSAGE
 		```
 
 
