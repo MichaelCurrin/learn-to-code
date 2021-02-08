@@ -1,12 +1,26 @@
 # Commit message template
 
-Configure your `git` repo to use a pre-filled commit message prefix for every commit. 
+## What this is about
+
+This guide helps you to make a local template file in a repo, using a text like:
+
+```
+[ABC-1234]
+```
+
+This gets prefilled in each commit message for you so you can easily, just write the part you need.
+
+```
+[ABC-1234] Create foo in the bar
+```
 
 ## Summary
 
-- All new commits in the terminal or IDE can be made to start with a prefix template, only in the context of a repo.
-- You can use an unversioned text file in a repo to set a commit message prefix.
+- All new commits in the terminal or IDE (e.g. VSCode) can be made to start with a prefix that you set.
+- This is scoped only to the current repo.
+- Use an _unversioned_ text file in a repo to set a commit message prefix.
 - This can be used to associate all commits on a branch with a label such as ticket number.
+- You can delete the prefix for the current commit and it will be added back on the next commit.
 - See [Setup](#setup) steps.
 - See [Usage](#usage)for sample screenshots of committing with the template.
 
