@@ -1,7 +1,15 @@
-# JavaScript Wat
-> What? Quirks of JavaScript.
+# JavaScript Wat?!
+> A look at the confusing and surprising quirks of JavaScript
 
-For more info, see this blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db), watch the second half the video [here](https://www.destroyallsoftware.com/talks/wat) or search "js wat" on Youtube.
+The "JS Wat" idea is a comical look at the annoyances and design flaws around JavaScript and also serves a reminder of pitfalls to avoid.
+
+For more info on JS wat, see these resources:
+
+- Blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db)
+- Watch the second half the video [here](https://www.destroyallsoftware.com/talks/wat) or 
+- Search "js wat" on Youtube.
+
+Some of these quirks I cover below where probably due to the fact that JavaScript was famously written in 10 days and these are areas never got corrected because it would break code that relies on the quirks to continue to exist.
 
 
 ## Types and objects
