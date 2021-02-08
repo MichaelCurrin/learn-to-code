@@ -2,13 +2,13 @@
 
 ## What this is about
 
-This guide helps you to make a local template file in a repo, using a text like:
+This guide helps you to make a local template file in a repo, using text like:
 
 ```
 [ABC-1234]
 ```
 
-This gets prefilled in each commit message for you so you can easily, just write the part you need.
+Each time you commit, you only have to write the text that comes after the prefix.
 
 ```
 [ABC-1234] Create foo in the bar
