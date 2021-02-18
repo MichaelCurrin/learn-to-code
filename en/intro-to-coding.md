@@ -22,8 +22,8 @@ Below are some departments or careers within tech that I am familiar with. These
 	- [PHP](topics/scripting_languages/PHP) - also Fullstack or Backend.
 	- C# (C Sharp) - also Fullstack or Backend.
 	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
-	- [Python](topics/scripting_languages/Python) - as above for Java, but with particular growing interest in recent years around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT).
-	- C++ (C Plus Plus) - often used for games or high-performance computing.
+	- [Python](topics/scripting_languages/Python) - as above for Java, but with particular growing interest in recent decades around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT) like using a Raspberry Pi.
+	- C++ (C Plus Plus) - often used for games, or high-performance time-sensitive computing like computers for machinery and vehicles.
 	- [JavaScript](topics/scripting_languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using [Electron](topics/scripting_languages/JavaScript/frameworks.md#electron)) or mobile applications (such using [React Native](topics/scripting_languages/JavaScript/frameworks.md#react-native)).
 
 ### Web development
@@ -32,14 +32,16 @@ Below are some departments or careers within tech that I am familiar with. These
 
 #### Backend
 
-- Backend development might be developer's focus.
+- Backend development might be a developer's focus.
 - The logic that happens on the server and the database that the user can't see. This is where your business logic and security can be handled, to keep it private.
-- One might work on tasks around database queries, serving requests to users or handling users signing up and changing their details.
-- Programming skills are varied but here are some popular choices:
-	- C# (C sharp)
+- In a web dev role, one might work on tasks around database queries, serving requests to users or handling users signing up and changing their details.
+- I'd say most languages can be used for a backend system. Since they just need to run on a machine without dealing with frontend browser display.
+- For a visual route outside of web dev, you can of course build a terminal tool that takes commands or is interactive. Or even make a full application can be installed and run on desktop or mobile.
+- Here are some popular choices:
+	- C# (C sharp). Traditional associated with .NET (Dotnet) in the Microsoft ecosystem, so my guess is you'll work on building enterprise applications for larger corporations (such as a billing tool or data management tool, something only used by the company's own employees). And not making web apps or mobile apps or work in a startup.
 	- Java
-	- [Python](topics/scripting_languages/Python)
-	- Node ([JavaScript](topics/scripting_languages/JavaScript) that runs on a server).
+	- [Python](topics/scripting_languages/Python) - for API web servers, automation tools and data science.
+	- Node ([JavaScript](topics/scripting_languages/JavaScript) that runs on a server) - for API web servers and desktop and mobile applications (which is kind of fullstack but without a browser).
 
 #### Frontend
 
