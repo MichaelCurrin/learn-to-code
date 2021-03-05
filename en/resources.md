@@ -30,19 +30,24 @@ You do not have to actually code in all of these topics, but ideally you should 
 	- PowerShell
 - Functional programming
 - [Object-orientated programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [SOLID](https://en.wikipedia.org/wiki/SOLID) principles for Object-orientated programming
-    - Single responsibility principle
-    - Open-close principle
-    - Liskov substitution principle
-    - Interface segregation principle
-    - Dependency inversion principle
+- [SOLID](https://en.wikipedia.org/wiki/SOLID) principles
+    -  Intended Object-Orientated Programming and classes, but you can use for Functional Programming too.
+    -  This principles will help keep your code well-structured and easy to read, modify test and reuse.
+    - Principles
+        - **S** - Single responsibility principle
+        - **O** - Open-close principle
+        - **L** - Liskov substitution principle
+        - **I** - Interface segregation principle
+        - **D** - Dependency inversion principle
 - [Code review](https://en.m.wikipedia.org/wiki/Code_review)
 - [Software testing](https://en.m.wikipedia.org/wiki/Software_testing)
-    - Testing levels
+    - Testing levels:
         1. [Unit testing](https://en.m.wikipedia.org/wiki/Unit_testing)
         1. Integration testing
         1. [System testing](https://en.m.wikipedia.org/wiki/System_testing) aka End-to-end testing
-        1. User acceptance testing
+        1. User-acceptance testing
+    - > Broadly speaking, there are at least three levels of testing: unit testing, integration testing, and system testing. However, a fourth level, acceptance testing, may be included by developers. 
+    - See also [Functional Testing](https://www.tutorialspoint.com/software_testing_dictionary/functional_testing.htm) which covers the topics above and more detaield levels.
 - Linux philosophy
     - [The 9 major tenets and how they affect you](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
     - The list
