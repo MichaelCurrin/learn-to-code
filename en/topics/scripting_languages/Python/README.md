@@ -20,21 +20,25 @@ There are many Python libraries available for download for free. You can use som
 
 ### Common usecases for Python
 
+ Python is a great multi-purpose language. For data data science, m, games, web apps...
+
+But Python doesn't shine so much in mobile apps. 
+
+And of course you can't run Python directly in the browser. But these days, with WebAssembly, you can get Python to run in the browser.
+
 - Once-off short scripts
 - Automating repetive tasks
 - Web servers (website, API, CMS)
 - Web scraping
 - Data Science (fetching, processing and visualizing data)
 - Machine Learning
-- Games
-- Special effects
+- Games 
 
-Python can even be used for mobile apps and build a static website.
+Python can even be used for mobile apps (`kivy` library) and building a static website (`mkdocs` or `hyde`).
 
-One web server appoach is Wordpress style - generate HTML from templates and use a database for fetching and store user data.
+One kind of Python web server appoach is like the Wordpress style - generate HTML from templates and use a database for fetching and store user data.
 
 Another approach is create an API which processes web requests and return serves JSON data for use by a web frontend or mobile apps.
-
 
 ### Typing
 
@@ -82,6 +86,9 @@ See my [Python](https://michaelcurrin.github.io/dev-resources/resources/python/)
 - Type checking MyPY
     - [Recipes](https://github.com/MichaelCurrin/code-cookbook/tree/master/recipes/python/mypy)
     - [Cheatsheet](https://github.com/MichaelCurrin/dev-cheatsheets/blob/master/cheatsheets/python/type-checks.md)
+- Gaming
+    - See [PyGame](https://www.pygame.org/) homepage or [Getting Started](https://www.pygame.org/wiki/GettingStarted)
+    - See [Pyxel](https://github.com/kitao/pyxel) for retro.
 
 If you want to setup a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
 
