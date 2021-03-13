@@ -103,6 +103,45 @@ undefined // or an error if you try to use it
 ```
 
 
+## Weird string and number operations
+
+JavaScript is **loosely-typed**. Loosely typed means that JavaScript will sometimes cast values for you.
+
+Adding two numbers or concatenating two strings is straightforward.
+
+```javascript
+> 1 + 1
+2
+> "1" + "1"
+'11'
+```
+
+But here you get casting so the number becomes a string.
+
+```javascript
+> "11" + 1
+'111'
+```
+
+Use a minus sign and now the string becomes a number.
+
+```javascript
+> "11" - 1
+10
+```
+
+Python on the other hand is **strongly-typed**. If you try and mix add a string and number or do a maths operation on a string, you'll get a type error. 
+
+```python
+>>> "1" + 1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+```
+
+There is different to **statically typed** and **dynamically typed**. That distinction is about whether the type is fixed (like in C or Go) or can change (like in JS or Python) during execution. Static typing is also enforced at compile time.
+
+
 ## Maps
 
 JavaScript has `{}` which is an associative array i.e. key-value pairs.
