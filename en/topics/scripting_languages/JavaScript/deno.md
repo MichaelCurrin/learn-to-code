@@ -38,3 +38,15 @@ See my [Deno Project Template](https://github.com/MichaelCurrin/deno-project-tem
 - Install Deno as a single binary.
 - You can compile your project to a single JS (to be run with Deno) or a single binary executable (Deno v1.6+).
 
+
+## Security
+
+Deno prides itself on being secure. You have to be explicit with permissions. I guess this comes up because of a poor history of NPM packages that have vulnerabilities or were malicious.
+
+Before, you might install an NPM package with `npm i` and have its `postscript` section run some malicious code on your machine. Even worse if installing with `sudo npm i -g`.
+
+But, an argument against the need for Deno is that the communtinity should be responsible for figuring out security issue like this. Then again, there are a huge amount of packages on NPM, many not intentionally malicious but just not maintained or with vulnerabilities. And it is work to be constantly updating the packages list of a project regularly - especially hard if a subdependency is vulnernable and there is no clear path to update the parent package which is the direct dependency.
+
+Also, look at other languages. Go and Rust are similar to Deno (in fact Deno was built on Go and then on Rust). But Go and Rust don't mention security as one of their advantages. It is just expected.
+
+Another comment I saw was that Deno lets you install from any URL, not just their registry.
