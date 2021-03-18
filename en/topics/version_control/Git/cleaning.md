@@ -163,7 +163,8 @@ remotes/origin/feature_branch_F
 remotes/origin/master
 ```
 
-Note that `-d` is a safe option which may raise an error like this and can be overridden using `-D`.
+If you use `-d` you'll get warnings on unmerged branches and `-D` will delete it anyway.
+
 ```
 error: The branch 'feature_branch_A' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D feature_branch_A'.
