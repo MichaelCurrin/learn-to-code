@@ -1,12 +1,12 @@
 # C++
 
-<img src="https://en.wikipedia.org/wiki/File:ISO_C%2B%2B_Logo.svg" width="50"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="50"/>
 
 
 ## Resources
 
 - [C++](https://www.geeksforgeeks.org/c-plus-plus/) tutorial on Geeks for Geeks.
-
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B) on Wikipedia.
 
 ## Hello world example
 
