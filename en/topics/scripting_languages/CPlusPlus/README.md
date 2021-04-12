@@ -9,6 +9,8 @@
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B) on Wikipedia.
     > C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".
 
+See also [C](../C/) language section.
+
 
 ## Hello world example
 
@@ -80,17 +82,16 @@ You can use `if`, `else` and `else if` as in C.
 
 You can use `printf` from C and now `cout`.
 
-```cpp
-#include <iostream>
-    
-using namespace std;
+- `main.cpp`
+    ```cpp
+    #include <iostream>
 
-int main() {
-   int a = 123;
+    using namespace std;
 
-   cout<< "The value of a : " << a;
-   printf("\nThe value of a : %d", a);
-   
-   return 0;
-}
-```
+    int main() {
+       int a = 123;
+
+       cout<< "The value of a : " << a;
+       printf("\nThe value of a : %d", a);
+    }
+    ```
