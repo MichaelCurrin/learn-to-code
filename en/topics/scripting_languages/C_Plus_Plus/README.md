@@ -34,3 +34,63 @@ If you need to process CLI arguments., use this:
     int main(int argc, char* argv[]) {
     }
     ```
+
+
+## Data types
+
+Data types in C++ is mainly divided into three types: 
+ 
+### Primitive
+
+- Boolean.
+- Integer - available as long and short, signed and unsigned. e.g. `signed long int`
+- Floating point - `float`, 4 bytes.
+- Double floating point - `double`, 8 bytes.
+- Character - `char`, 8 bits.
+- Wide Character - `wchar_t`, 2 or 4 bytes.
+- Void
+ 
+### Derived
+ 
+- Function
+- Array
+- Pointer
+- Reference
+
+### Abstract or user-defined data types
+
+- Class
+- Structure
+- Union
+- Enumeration
+- Typedef defined DataType
+
+
+## Looping
+
+You can use `for` and `while` loops as in C.
+
+
+## Conditionals
+
+You can use `if`, `else` and `else if` as in C.
+
+
+## Printing
+
+You can use `printf` from C and now `cout`.
+
+```cpp
+#include <iostream>
+    
+using namespace std;
+
+int main() {
+   int a = 123;
+
+   cout<< "The value of a : " << a;
+   printf("\nThe value of a : %d", a);
+   
+   return 0;
+}
+```
