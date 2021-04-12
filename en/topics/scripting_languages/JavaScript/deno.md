@@ -57,6 +57,8 @@ Look at other languages. Go and Rust are similar to Deno (in fact Deno was built
 
 I also saw an argument point that if you want security for your Node app, then put it in a **container**. It adds some overhead to the project, but it does address security concerns well. Putting your Node app in a container limits how much damage a package can do, even when used with `sudo`, because it runs in an isolated scope. If it tries to delete or spy on your files or install something, there's a limited area for it to act inside a container. Of course, if the package is mining crytocurrency, that is still going to happen.
 
+See my [Docker Node](https://github.com/MichaelCurrin/docker-quickstarts/tree/master/examples/node_app) example app.
+
 ### Installing from anywhere
 
 Another comment I saw was that Deno lets you install from any URL, not just their registry. 
