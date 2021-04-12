@@ -7,6 +7,8 @@
 
 - [C++](https://www.geeksforgeeks.org/c-plus-plus/) tutorial on Geeks for Geeks.
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B) on Wikipedia.
+    > C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".
+
 
 ## Hello world example
 
