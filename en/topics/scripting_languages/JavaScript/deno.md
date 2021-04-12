@@ -45,8 +45,26 @@ Deno prides itself on being secure. You have to be explicit with permissions. I 
 
 Before, you might install an NPM package with `npm i` and have its `postscript` section run some malicious code on your machine. Even worse if installing with `sudo npm i -g`.
 
-But, an argument against the need for Deno is that the communtinity should be responsible for figuring out security issue like this. Then again, there are a huge amount of packages on NPM, many not intentionally malicious but just not maintained or with vulnerabilities. And it is work to be constantly updating the packages list of a project regularly - especially hard if a subdependency is vulnernable and there is no clear path to update the parent package which is the direct dependency.
+### Maintaining packages
 
-Also, look at other languages. Go and Rust are similar to Deno (in fact Deno was built on Go and then on Rust). But Go and Rust don't mention security as one of their advantages. It is just expected.
+An argument against the need for Deno is that the community should be responsible for figuring out security issue like this. Then again, there are a **huge** number of packages on NPM, many not intentionally malicious but just not maintained around functionality or vulnerabilities. And no every package will be verified by a human to see that it is not malicious - so finding trusted and well-known packages helps for security but it reduces the number of packages to use (especially for a newer tool like Deno). Plus, it is work to be constantly updating the packages list of a project regularly - especially hard if a subdependency is vulnernable and there is no clear path to update the parent package which is the direct dependency.
 
-Another comment I saw was that Deno lets you install from any URL, not just their registry.
+### Other tools
+
+Look at other languages. Go and Rust are similar to Deno (in fact Deno was built on Go and then on Rust). But Go and Rust don't mention security as one of their advantages. It is just expected. Maybe JS, Node and NPM have more of reputation for security issues over the decades so that is why it was brought up here.
+
+### Containers for security
+
+I also saw an argument point that if you want security for your Node app, then put it in a **container**. It adds some overhead to the project, but it does address security concerns well. Putting your Node app in a container limits how much damage a package can do, even when used with `sudo`, because it runs in an isolated scope. If it tries to delete or spy on your files or install something, there's a limited area for it to act inside a container. Of course, if the package is mining crytocurrency, that is still going to happen.
+
+### Installing from anywhere
+
+Another comment I saw was that Deno lets you install from any URL, not just their registry. 
+
+This adds flexibility.
+
+But adds risk. As it is harder for automated scans and the community to verify packages if they are not in the known registry space. Someone might put a package on their website or S3.
+
+Even if you only install from Deno land or GitHub, one of those packages might install from some other external URL.
+
+Though, Python and Ruby let you specify custom registries, so maybe the risk is there too.
