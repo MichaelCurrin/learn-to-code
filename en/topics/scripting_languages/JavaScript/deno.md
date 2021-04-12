@@ -1,6 +1,5 @@
 # Deno
 
-- Name: Deno
 - Homepage: https://deno.land/
 - Install: https://deno.land/#installation
     - Linux
@@ -37,6 +36,8 @@ See my [Deno Project Template](https://github.com/MichaelCurrin/deno-project-tem
 - Fewer packages and decisions are needed - it supports Typescript, testing, bundling and linting already.
 - Install Deno as a single binary.
 - You can compile your project to a single JS (to be run with Deno) or a single binary executable (Deno v1.6+).
+
+Deno has its own challenges to setup and use. And people seem to be using it weirdly like using it alongside Node or using it to make server-side rendered React apps. It also has some features which are marked as unstable or that are missing (like minification).
 
 
 ## Security
