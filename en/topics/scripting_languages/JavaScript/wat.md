@@ -24,7 +24,7 @@ Some of these quirks I cover below where probably due to the fact that JavaScrip
 'object' // Why not array?
 ```
 
-You can use the uncommon `Array` constructor, but you'll get an object, not an array.
+You can use the uncommon `Array` constructor, but you'll get an object type, not an array.
 
 ```javascript
 > var y = Array()
@@ -44,6 +44,8 @@ You can use the uncommon `Array` constructor, but you'll get an object, not an a
 > typeof z
 'object' // Why not 'Object'?
 ```
+
+### Adding
 
 Surprising combinations when adding objects together.
 
@@ -66,16 +68,14 @@ NaN
 'NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN Batman'
 ```
 
-There is no `sum` function. You have to implement your own using `.reduce` method on an array.
-
-If you try and add to arrays, you get a string.
+If you try to add two arrays, you will a string, which is unexpected.
 
 ```javascript
 > [1, 2] + [3]
 '1,23'
 ```
 
-So you need to use `[].concat`.
+So you need to use `[].concat` to join them.
  
 ```javascript
 > [1, 2].concat([3])
@@ -85,6 +85,17 @@ So you need to use `[].concat`.
 [ 1, 2, 3 ]
 ```
 
+This syntax is verbose.
+
+In Python you would do this, on a list or tuple.
+
+```python
+>>> [1, 2] + [3]
+[1, 2, 3]
+```
+
+### Methods
+
 Methods on `Object` are not available to instances of it.
 
 ```javascript
@@ -93,13 +104,53 @@ Methods on `Object` are not available to instances of it.
 
 > Object.keys
 [Function: keys]
+```
 
-> {a: 1}.keys
-undefined // or an error if you try to use it
+You'd expect this would work, but you get an `undefined` value.
 
-> // So you have to do this:
-> Object.keys({a: 1})
+```javascript
+> const myObject = {a: 1}
+> myObject.keys
+undefined 
+```
+
+So you have to do be verbose and use `Object`.
+
+```javascript
+> const myObject = {a: 1}
+> Object.keys(myObject)
 [ 'a' ]
+```
+
+
+## Missing behavior
+
+### Adding
+
+There is no `sum` function, like in other languages. 
+
+You have to implement your own in a function of a few liens, such as using `.reduce` method on an array. There are plenty of approaches on StackOverflow. 
+
+Or you find a library which supports it.
+
+Fortunately, there is still `Math.min` and `Math.max`.
+
+### Rounding
+
+There is a `Math.round` function, but it doesn't let you round to a level of precision. A second param just gets ignored.
+
+So you have to multiply by something then divide by it.
+
+```javascript
+> Math.round(1234.123 * 100) / 100
+1234.12
+```
+
+Python is easy:
+
+```python
+>>> round(1234.123, 2)
+1234.12
 ```
 
 
@@ -285,7 +336,6 @@ Python:
 >>> list([10, 13])
 [10, 13]
 ```
-
 
 
 ## Object work
