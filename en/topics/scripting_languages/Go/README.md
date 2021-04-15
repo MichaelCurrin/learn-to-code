@@ -1,7 +1,7 @@
 # Go
 > Guide to learning the Go programming language
 
-Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that setup and run Go in the browser immediately using one of the online playground links.
+Info to help you understand what Go is and how to build some basic things with it. There is material here to install and run Go. You can skip that set up and run Go in the browser immediately using one of the online playground links.
 
 For links on learning Go, see [Go](https://michaelcurrin.github.io/dev-resources/resources/go/) on my Dev Resources.
 
@@ -87,7 +87,7 @@ Follow the instructions here to install one or multiple versions of go
 
 The `GOPATH` is where packages get installed.
 
-The default value for `GOPATH` is the user `~/go`. But you can setup paths specific to a project, to isolate your environment.
+The default value for `GOPATH` is the user `~/go`. But you can set up paths specific to a project, to isolate your environment.
 
 > The command `go env GOPATH` prints the effective current `GOPATH`; it prints the default location if the environment variable is unset.
 

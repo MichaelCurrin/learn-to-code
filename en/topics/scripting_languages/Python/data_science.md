@@ -110,7 +110,7 @@ GETTING HELP
 - How it works:
     - Jupyter runs a Jupyter server with a Python kernel in a specific environment (such as one for your project) - this works locally.
     - Run and edit the notebook in the browser.
-    - The result can be saved as as `.ipnb` file, so when you start up again you keep the code and output. The notebook file can also be viewed as non-interactive HTML format in an IDE (such as PyCharm) or on GitHub, making it easy to share your output without needing Python setup to view the notebook.
+    - The result can be saved as as `.ipnb` file, so when you start up again you keep the code and output. The notebook file can also be viewed as non-interactive HTML format in an IDE (such as PyCharm) or on GitHub, making it easy to share your output without needing Python set up to view the notebook.
 - Use with IDEs
     - PyCharm - see the [Jupyter notebook support](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) doc.
     - VS Code - see the [Jupyter support](https://code.visualstudio.com/docs/python/jupyter-support) doc.
@@ -144,7 +144,7 @@ Here is the Spyder Wiki page which address this - [Working with packages and env
 
 ### What is Anaconda?
 
-Anaconda is a platform which makes it easy to setup an environment for running Python (and other languages like R).
+Anaconda is a platform which makes it easy to set up an environment for running Python (and other languages like R).
 
 It includes things to save you time:
 

@@ -1,4 +1,4 @@
-# Repo configuration 
+# Repo configuration
 > How to add config files to your git repo and what they do
 
 
@@ -6,7 +6,7 @@
 
 Add a `.gitattributes` file at the root.
 
-One setup approach can let you prevent certain files from showing up with `git diff` but still actually version the file. Such as a `package.lock.json` or `Gemfile.lock`.
+One set up approach can let you prevent certain files from showing up with `git diff` but still actually version the file. Such as a `package.lock.json` or `Gemfile.lock`.
 
 - [Customizing git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes)
 
@@ -22,7 +22,7 @@ Example:
 
 - https://editorconfig.org
 
-Create `.editorconfig` at the root. 
+Create `.editorconfig` at the root.
 
 This is a way of setting IDE config values centrally so that all contributors follow them, overriding any IDE settings that already exist.
 

@@ -1,5 +1,5 @@
 # Read Cron Mails in a GUI
-> Tutorial to setup cron job from scratch and view run log emails in Thunderbird mail client.
+> Tutorial to set up cron job from scratch and view run log emails in Thunderbird mail client.
 
 ## Summary
 
@@ -81,7 +81,7 @@ e.g.
   * *  *   *   *     echo 'Test!'
 ```
 
-You can leave that job running while you get mail setup next.
+You can leave that job running while you get mail set up next.
 
 For further details on crontab usage, see `$ man crontab` or [How Do I Set up A Cron Job?](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job).
 
@@ -96,7 +96,7 @@ Install `mail` (this appeared to not be a default on Debian or Ubuntu).
 $ sudo apt-get install mailutils
 ```
 
-The `postfix` configuration prompts appear. From setup types, I recommend choosing the "local" mail option if you only need to deliver mail on the local machine. Then when choosing domain name, you can leave it as the default value provided.
+The `postfix` configuration prompts appear. From set up types, I recommend choosing the "local" mail option if you only need to deliver mail on the local machine. Then when choosing domain name, you can leave it as the default value provided.
 
 If you need to get back to the configuration later, enter:
 
@@ -250,7 +250,7 @@ Or, don't use the `mail` command to read the mail. So you can leave it held in `
 
 ## 3 Set up mail client
 
-I found that Thunderbird Mail on Ubuntu was straightforward to setup but I haven't figured out Kmail on Debian yet.
+I found that Thunderbird Mail on Ubuntu was straightforward to set up but I haven't figured out Kmail on Debian yet.
 
 ### 3.1 Install mail client
 
@@ -321,7 +321,7 @@ X-Original-To: michael
 ...
 ```
 
-If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I needed to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user. Or possibly better, setup  `/etc/aliases` to forward mails to root to my user, as I have seen that recommended at least twice.
+If you still can't see anything in `mail` or Thunderbird, consider that you forgot to send the mail to your user, like I did. In mail 7 below, there is output from two executables as `/etc/cron.hourly`. So I needed to set `MAIL=michael` at the top of those bash scripts to mail them to my user, or I need to change the crontab or anacron settings to send to my user. Or possibly better, set up  `/etc/aliases` to forward mails to root to my user, as I have seen that recommended at least twice.
 
 ```bash
 $ sudo mail

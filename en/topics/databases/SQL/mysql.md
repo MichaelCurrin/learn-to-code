@@ -82,7 +82,7 @@ Check your databases and users at any time.
 
 ### Create a database and user
 
-Create setup script in the repo. Note this method of providing password is not secure and should be only used for local development.
+Create set up script in the repo. Note this method of providing password is not secure and should be only used for local development.
 
 - `setup_db.sql`
     ```sql

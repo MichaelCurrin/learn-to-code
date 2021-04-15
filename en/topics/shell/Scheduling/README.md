@@ -20,7 +20,7 @@ Wikipedia definition:
 
 > The software utility cron is a time-based job scheduler in Unix-like computer operating systems. Users that set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration—though its general-purpose nature makes it useful for things like downloading files from the Internet and downloading email at regular intervals. [source](https://en.wikipedia.org/wiki/Cron)
 
-Cron.d is the "daemon" or background process which runs cron tasks. These tasks can be setup using approaches covered below:
+Cron.d is the "daemon" or background process which runs cron tasks. These tasks can be set up using approaches covered below:
 
 ### Crontab
 

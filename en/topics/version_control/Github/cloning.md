@@ -22,8 +22,8 @@ $ git clone https://github.com/MichaelCurrin/learn-to-code.git
 - For creating the clone of a public repo (yours or someone elses) and later pulling in updates, no credentials are needed.
 - If the repo is private, you'll need to use your GitHub username and password.
 - When you _push_ changes, each time you'll need to supply your GitHub username and password.
-- It is recommended to setup [two-factor authentication](#two-factor-authentication) for you account - you'll then need to use a one-time pin when you do updates.
-- This approach can get annoying as it interrupts your workflow. So you can setup `git` to cache the credentials for a period such as 5 minutes. Or go with [SSH](#ssh) approach below.
+- It is recommended to set up [two-factor authentication](#two-factor-authentication) for you account - you'll then need to use a one-time pin when you do updates.
+- This approach can get annoying as it interrupts your workflow. So you can set up `git` to cache the credentials for a period such as 5 minutes. Or go with [SSH](#ssh) approach below.
 
 
 ### SSH
@@ -62,11 +62,11 @@ And unzip the file.
 
 ## Two-factor authentication
 
-When you setup two-factor authentication (_2FA_), you will use your mobile device and a short-lived access code to control access to your account.
+When you set up two-factor authentication (_2FA_), you will use your mobile device and a short-lived access code to control access to your account.
 
-This is recommended to setup - it means that even if someone knows your username and uses your password by brute-force trial and error or stealing in, they still can't get into your GitHub account or push to your repos with HTTPS URLs unless they actually have your mobile device.
+This is recommended to set up - it means that even if someone knows your username and uses your password by brute-force trial and error or stealing in, they still can't get into your GitHub account or push to your repos with HTTPS URLs unless they actually have your mobile device.
 
-Once you setup 2FA, your account will be more secure including HTTPS pushes. So at the point HTTPS and SSH URLs are both secure but SSH URLs is just more convenient to use.
+Once you set up 2FA, your account will be more secure including HTTPS pushes. So at the point HTTPS and SSH URLs are both secure but SSH URLs is just more convenient to use.
 
 
 ## Change remote

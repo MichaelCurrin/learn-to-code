@@ -94,7 +94,7 @@ See my [Python](https://michaelcurrin.github.io/dev-resources/resources/python/)
     - You can use libraries like `requests` and `beautifulsoup` or `xml` to handle HTML and XML data.
     - Or `selenium` library, to drive automated clicks in a browser (to simulate a real user) and even send JS to the JS console. This is useful for automated testing of websites but can also be used to spider a site and scrape data where an API approach is not feasible.
 
-If you want to setup a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
+If you want to set up a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
 
 ### Design patterns
 

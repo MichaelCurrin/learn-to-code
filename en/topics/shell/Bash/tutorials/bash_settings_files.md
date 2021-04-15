@@ -14,7 +14,7 @@ From article [here](https://serverfault.com/questions/261802/what-are-the-functi
 ### Purpose
 
 - `.bashrc` - Configure bash interactive shell usage.
-- `.profile` - One time setup for shell, not `bash` specific - this existed before bash. Contains environment variables like `PATH`.
+- `.profile` - One time set up for shell, not `bash` specific - this existed before bash. Contains environment variables like `PATH`.
 - `.bash_profile` - Can be used to load `.profile` and `.bashrc`.
     e.g.
     ```bash
@@ -35,4 +35,4 @@ The RC file is for a subshell.
 
 ## Root files
 
-Read before `.profile`: `/etc/bash_profile` (fallback `/etc/profile`) 
+Read before `.profile`: `/etc/bash_profile` (fallback `/etc/profile`)

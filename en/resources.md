@@ -46,7 +46,7 @@ You do not have to actually code in all of these topics, but ideally you should 
         1. Integration testing
         1. [System testing](https://en.m.wikipedia.org/wiki/System_testing) aka End-to-end testing
         1. User-acceptance testing
-    - > Broadly speaking, there are at least three levels of testing: unit testing, integration testing, and system testing. However, a fourth level, acceptance testing, may be included by developers. 
+    - > Broadly speaking, there are at least three levels of testing: unit testing, integration testing, and system testing. However, a fourth level, acceptance testing, may be included by developers.
     - See also [Functional Testing](https://www.tutorialspoint.com/software_testing_dictionary/functional_testing.htm) which covers the topics above and more detaield levels.
 - Linux philosophy
     - [The 9 major tenets and how they affect you](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
@@ -66,10 +66,10 @@ You do not have to actually code in all of these topics, but ideally you should 
     - RDBMS
     	- Relational Database Managemen Service. See [Tutorial point](https://www.tutorialspoint.com/sql/sql-rdbms-concepts.htm)
     - ORM
-    	- You can use [ORM (Object Relational Mapping)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) to put an object-oriented code abstraction your database. 
+    	- You can use [ORM (Object Relational Mapping)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) to put an object-oriented code abstraction your database.
 	- Your tables are defined using Python/JS/Ruby classes for example and when you get a row from the database, you get an object instance with methods.
-	- The ORM will generate the code for you to setup the schema and any queries, so you don't have to write SQL but you can when you need to.
-	- The ORM means your database schema is in version control and you can setup a migration to move between schema versions.
+	- The ORM will generate the code for you to set up the schema and any queries, so you don't have to write SQL but you can when you need to.
+	- The ORM means your database schema is in version control and you can set up a migration to move between schema versions.
 	- The ORM handles connecting to the database for you. Your Python server for instance will have connections to the database and any triggered web requests get to use the connections.
 	- A single ORM like SQLAlchemy or SQLObject can support Postgres, MySQL, SQLite etc. as it understands the syntax for each. his allows you to reuse the library across projects. You can also move between database types while keeping your code the same.
 	- An ORM also means that you can interact with a SQL or NoSQL database using the same API.

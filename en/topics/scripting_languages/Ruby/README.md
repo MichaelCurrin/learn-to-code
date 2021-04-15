@@ -72,7 +72,7 @@ export PATH="$GEM_PATH:$PATH"
 Notes:
 
 - From Catalina and onwards, the system Ruby's dependencies are **locked**.
-- Running this below will install a **separate** version of Ruby with its own dependencies and this will work fine, provided you setup `PATH` properly and use `gem install --user-install` or Bundler to install gems. A separate Ruby version is not needed but it allows you to upgrade to latest Ruby whenever you want without breaking system Ruby or relying on what the system makes available.
+- Running this below will install a **separate** version of Ruby with its own dependencies and this will work fine, provided you set up `PATH` properly and use `gem install --user-install` or Bundler to install gems. A separate Ruby version is not needed but it allows you to upgrade to latest Ruby whenever you want without breaking system Ruby or relying on what the system makes available.
 - Untested prior to Catalina. Running the steps below may cause problems on **older** versions of macOS, if you end up upgrading your core Ruby rather installing a second Ruby.
 - Instructions are based on this [article](https://medium.com/faun/macos-catalina-xcode-homebrew-gems-developer-headaches-cf7b1edf10b7).
 - For Jekyll, see the [macOS setup](https://jekyllrb.com/docs/installation/macos/) page on Jekyll docs for installing Ruby and Jekyll. In particular, note setting of `PATH` values which is covered here but there will be more details on the Jekyll docs.

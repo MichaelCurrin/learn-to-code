@@ -111,7 +111,7 @@ $ npx create-react-app my-app
 $ cd my-app
 ```
 
-You'll get a project setup like this:
+You'll get a project set up like this:
 
 <details>
 <summary>File tree</summary>

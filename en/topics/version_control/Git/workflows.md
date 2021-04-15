@@ -12,7 +12,7 @@ Simple commands can be added to `.gitconfig` as such:
     st = status -s
 ```
 
-But chained commands that need shell syntax should be setup using a bang (`!`). For example, this alias is two commands.
+But chained commands that need shell syntax should be set up using a bang (`!`). For example, this alias is two commands.
 
 ```
 [alias]

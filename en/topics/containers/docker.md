@@ -28,9 +28,9 @@
     - Youtube video: [you need to learn Docker RIGHT NOW!! // Docker Containers 101](https://www.youtube.com/watch?v=eGz9DS-aIeY)
     - [Docker for beginners](https://github.com/docker/labs/tree/master/beginner/) (found through Docker docs)
     - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-        
 
-See also my own project with setup intructions, commands to run and sample projects.
+
+See also my own project with set up intructions, commands to run and sample projects.
 
 - [MichaelCurrin/docker-quickstart](https://github.com/MichaelCurrin/docker-quickstart)
 

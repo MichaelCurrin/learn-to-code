@@ -15,8 +15,8 @@
     > A secure runtime for JavaScript and TypeScript.
 - Description: Deno is a JS runtime to replace Node. It is a modern and more secure way of distributing and running JavaScript apps - without a package file in development (packages are inferred from imports). "Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust." Version [1.0](https://deno.land/v1) was released in 2020. It is a runtime environment for running JavaScript and TypeScript and Deno can be downloaded as a single binary executable using curl or your OS package manager. I can recommend this 15 min intro video. https://youtu.be/zFf_fcn0cI0
 - 100 second intro: https://youtu.be/F0G9lZ7gecE
-- Deno was originally written in Go and then in Rust. 
-- Deno's CLI commands and approach to installing modules is much like Go. The Deno docs make reference to how the Deno standard lib matches the Go standard lib. This all makes sense given the Go origin. 
+- Deno was originally written in Go and then in Rust.
+- Deno's CLI commands and approach to installing modules is much like Go. The Deno docs make reference to how the Deno standard lib matches the Go standard lib. This all makes sense given the Go origin.
 
 
 ## Resources
@@ -37,7 +37,7 @@ See my [Deno Project Template](https://github.com/MichaelCurrin/deno-project-tem
 - Install Deno as a single binary.
 - You can compile your project to a single JS (to be run with Deno) or a single binary executable (Deno v1.6+).
 
-Deno has its own challenges to setup and use. And people seem to be using it weirdly like using it alongside Node or using it to make server-side rendered React apps. It also has some features which are marked as unstable or that are missing (like minification).
+Deno has its own challenges to set up and use. And people seem to be using it weirdly like using it alongside Node or using it to make server-side rendered React apps. It also has some features which are marked as unstable or that are missing (like minification).
 
 
 ## Security
@@ -62,7 +62,7 @@ See my [Docker Node](https://github.com/MichaelCurrin/docker-quickstarts/tree/ma
 
 ### Installing from anywhere
 
-Another comment I saw was that Deno lets you install from any URL, not just their registry. 
+Another comment I saw was that Deno lets you install from any URL, not just their registry.
 
 This adds flexibility.
 
