@@ -132,7 +132,7 @@ Example steps from the GitHub Actions sample workflow:
 
 Note: Requires `package-lock.json` or shrink wrap file. It does not work with `yarn.lock`.
 
-GitHub Actions: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
+GitHub Actions: [Set up Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
 ### Security
 

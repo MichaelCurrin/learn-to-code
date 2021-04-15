@@ -22,7 +22,7 @@ There are many Python libraries available for download for free. You can use som
 
  Python is a great multi-purpose language. For data data science, m, games, web apps...
 
-But Python doesn't shine so much in mobile apps. 
+But Python doesn't shine so much in mobile apps.
 
 And of course you can't run Python directly in the browser. But these days, with WebAssembly, you can get Python to run in the browser.
 
@@ -32,7 +32,7 @@ And of course you can't run Python directly in the browser. But these days, with
 - Web scraping
 - Data Science (fetching, processing and visualizing data)
 - Machine Learning
-- Games 
+- Games
 
 Python can even be used for mobile apps (`kivy` library) and building a static website (`mkdocs` or `hyde`).
 
@@ -91,7 +91,7 @@ See my [Python](https://michaelcurrin.github.io/dev-resources/resources/python/)
     - See [Pyxel](https://github.com/kitao/pyxel) for retro.
 - Browser
     - Python can't run in the browser directly like JS can. We actually you can use WebAssembly to run Python in the browser but that is only a modern addition.
-    - You can use libraries like `requests` and `beautifulsoup` or `xml` to handle HTML and XML data. 
+    - You can use libraries like `requests` and `beautifulsoup` or `xml` to handle HTML and XML data.
     - Or `selenium` library, to drive automated clicks in a browser (to simulate a real user) and even send JS to the JS console. This is useful for automated testing of websites but can also be used to spider a site and scrape data where an API approach is not feasible.
 
 If you want to setup a Python environment for Data Science work, see my [Python for Data Science](data_science.md) guide.
@@ -127,8 +127,8 @@ These IDEs are free and available on Windows, Mac and Linux and I recommend them
             * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension - this is currently VS Code's most popular extension overall by number of installs. You can't do much without this. See features below:
                 > ... IntelliSense, linting, debugging, code navigation, code formatting, Jupyter notebook support, refactoring, variable explorer, test explorer, snippets
             * [PyLance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extension - I haven't used this yet but this adds extra help. It claims to "supercharge your Python IntelliSense experience with rich type information".
-        * Setup your user-level settings file - this applies to all projects and can be overridden with per-project settings. For example change formatting and linting settings.
-        * Setup files in each project.
+        * Set up your user-level settings file - this applies to all projects and can be overridden with per-project settings. For example change formatting and linting settings.
+        * Set up files in each project.
             - Create workspace-specific settings file in your project as `.vscode/settings.json`. See this template [settings.json](https://github.com/MichaelCurrin/py-project-template/blob/master/.vscode/settings.json) file. Note that this should be done per-project.
             - A dotenv file - use this to add your app folder and virtual environment folder to the `PYTHONPATH` value. Otherwise VS Code will complain that it cannot do imports when it is checking a file. See this template [.env](https://github.com/MichaelCurrin/py-project-template/blob/master/.env) file. Unfortunately, this value does not seem to be possible to set in `settings.json` so you must create a separate `.env` file of just one line.
     * There is only a free version of this. It is open source and by MicroSoft.

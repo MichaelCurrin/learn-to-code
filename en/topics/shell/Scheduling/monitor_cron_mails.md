@@ -14,7 +14,7 @@ This tutorial covers how to:
 If you have a cron job running, you can probably skip step 1 and get to the part about mails.
 
 
-## 1. Setup crontab
+## 1. Set up crontab
 
 Note that you do not necessarily have to use `crontab`. You can put scripts in `/etc/cron.daily` and they will run daily, provided they are executable and have no extension.
 
@@ -73,7 +73,7 @@ MAILTO=michael
 MAILTO=abc@gmail.com
 ```
 
-Setup a test job in the crontab file to print the phase "Test" every minute and every hour.
+Set up a test job in the crontab file to print the phase "Test" every minute and every hour.
 
 e.g.
 ```bash
@@ -83,10 +83,10 @@ e.g.
 
 You can leave that job running while you get mail setup next.
 
-For further details on crontab usage, see `$ man crontab` or [How Do I Setup A Cron Job?](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job).
+For further details on crontab usage, see `$ man crontab` or [How Do I Set up A Cron Job?](https://askubuntu.com/questions/2368/how-do-i-set-up-a-cron-job).
 
 
-## 2. Setup mail utility
+## 2. Set up mail utility
 
 ### 2.1 Install
 
@@ -189,7 +189,7 @@ Or the mail for other users like this.
 $ sudo mail -u someotheruser
 ```
 
-You can also do this, according to [Setup A Mail Server](http://www.linuxintro.org/wiki/Set_up_a_mail_server).
+You can also do this, according to [Set up A Mail Server](http://www.linuxintro.org/wiki/Set_up_a_mail_server).
 
 ```bash
 $ sudo cat /var/spool/mail/michael
@@ -248,7 +248,7 @@ Or, don't use the `mail` command to read the mail. So you can leave it held in `
  I found that if I send to `michael@localhost`, then the _To_ address is the same. And if i send to `michael`, then when reading the mail the _To_ address includes the machine's full name e.g. `michael@compaq-lite`.
 
 
-## 3 Setup mail client
+## 3 Set up mail client
 
 I found that Thunderbird Mail on Ubuntu was straightforward to setup but I haven't figured out Kmail on Debian yet.
 

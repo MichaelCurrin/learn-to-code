@@ -17,7 +17,7 @@ Follow the _mysqlclient-python_ [prerequisites](https://github.com/PyMySQL/mysql
 Due to updates in 2018 this may be sufficient.
 
 ```bash
-$ sudo apt install mysql-server 
+$ sudo apt install mysql-server
 ```
 
 The previous instructions are still shown below.
@@ -35,7 +35,7 @@ $ rm mysql-apt-config_0.8.9-1_all.deb
 Install MySQL server (fails to install without the community server installed first).
 
 ```bash
-$ sudo apt install mysql-community-server mysql-server 
+$ sudo apt install mysql-community-server mysql-server
 ```
 
 ### macOS
@@ -110,7 +110,7 @@ $ mysql foo -u bar -psecret
 
 ### Populate the database
 
-Setup scripts to create tables.
+Set up scripts to create tables.
 
 - `create_tables.sql`
     ```sql
@@ -126,7 +126,7 @@ Setup scripts to create tables.
     );
     ```
 
-Setup script to insert data.
+Set up script to insert data.
 
 - `load_data.sql`
     ```sql

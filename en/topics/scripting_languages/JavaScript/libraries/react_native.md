@@ -29,7 +29,7 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart/) language
 		- See in particular [snack.expo.io](https://snack.expo.io/)
 
 
-## Setup a project app
+## Set up a project app
 
 Repo: [expo/create-react-native-app](https://github.com/expo/create-react-native-app)
 

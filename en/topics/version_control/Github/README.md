@@ -11,7 +11,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/GitHub):
 
 What can you do with it? Here are a few things, copied from [Quickstart](https://help.github.com/en/github/getting-started-with-github/quickstart) docs:
 
-> - **Setup git** - At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer.
+> - **Set up git** - At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer.
 > - **Create a repo** - To put your project up on GitHub, you'll need to create a repository for it to live in.
 > - **Fork a repo** - A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 > - **Be social** - You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your personal dashboard.

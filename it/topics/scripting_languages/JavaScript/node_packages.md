@@ -128,7 +128,7 @@ Passaggi di esempio dal flusso di lavoro di esempio di azioni GitHub:
 
 Nota: richiede il file `package-lock.json` o il pacchetto termoretraibile. Non funziona con `yarn.lock`.
 
-Azioni GitHub: [Setup Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
+Azioni GitHub: [Set up Node.js Environment](https://github.com/marketplace/actions/setup-node-js-environment)
 
 
 ## Yarn
