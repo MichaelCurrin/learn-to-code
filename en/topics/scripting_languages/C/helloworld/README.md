@@ -29,20 +29,20 @@ Options:
   ...
 ```
 
-Create executable named `hello`, using existing file `hello.c`.
+Using the script [hello.c](hello.c), we create an executable named `hello` (no extension) using the `-o` flag.
 
 ```bash
 $ cc -o hello hello.c
 $ gcc -o hello hello.c
 ```
 
-Then you can execute the compiled file:
+Then execute the compiled file:
 
 ```bash
 $ ./hello
 ```
 
-Default behaviour, without specifying the output filename, will create `a.out` file.
+Without specifying the output filename with `-o`, the default behaviour is to create `a.out` file. That is a rather generic name.
 
 ```bash
 $ gcc hello.c
@@ -57,6 +57,7 @@ $ ./a.out
 Based on [tutorial](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=vs-2019)
 
 Compile the script.
+
 ```sh
 > cl hello.c
 ```
