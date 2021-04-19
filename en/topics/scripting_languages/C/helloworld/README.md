@@ -1,7 +1,12 @@
 # Hello World
 > Compile and run a C script, using a Hello World example
 
-Use the C Compiler in the command-line to make executable binary files from the `.c` scripts (which are plain text). Note that that the compiled file will only run on the same OS, so often C projects will run a make command on set up to create all the binary files.
+Use the C Compiler in the command-line to make executable binary files from the `.c` scripts (which are plain text). 
+
+You _can_ add the compiled file to version control, but is no generally the case. A compiled file will only run on the same OS and archtitecture, so often C projects will provide a `Makefile` command, so that a machine can run `make` to compile all files.
+
+Sometimes, you might choose to compile several versions of your application (such as for macOS, Linux and Windows) using C (or another language like Go or Rust). And then distributed those multiple pre-built files on GitHub Releases or for access to download on your website.
+
 
 ## Linux and macOS
 
