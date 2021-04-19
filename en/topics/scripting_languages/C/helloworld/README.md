@@ -1,4 +1,5 @@
-# Compile
+# Hello World
+> Compile and run a C script, using a Hello World example
 
 Use the C Compiler in the command-line to make executable binary files from the `.c` scripts (which are plain text). Note that that the compiled file will only run on the same OS, so often C projects will run a make command on set up to create all the binary files.
 
@@ -15,7 +16,6 @@ Use either `cc` or `gcc` commands in bash. `gcc` is the GNU C Compiler from the 
     >
     > There are various differences observed as regards to using the GNU compiler collection and the CC compiler. These differences can generally be grouped into two main groups. One of these is more specific while the other group is more generic.
 
-
 ### How to compile and execute
 
 ```bash
@@ -28,7 +28,6 @@ Options:
   -o <file>                Place the output into <file>.
   ...
 ```
-
 
 Create executable named `hello`, using existing file `hello.c`.
 
