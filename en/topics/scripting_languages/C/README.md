@@ -20,9 +20,10 @@
 - There are no classes. There is no string type (though you can have an array of characters). There is no boolean - instead you use `0` for false and `1` for true.
 - It makes use of pointers - a function can operate on a pointer of a variable and modify it in place, without making a copy of the value which would use extra memory.
 - Extensions:
-    - `.c` source code file.
-    - `.h` header file. It may contain constants, function prototypes and external variable definitions.
-    - `.o` compiled object file.
+    - `.c` - source code file.
+    - `.h` - header file. It may contain constants, function prototypes and external variable definitions.
+    - `.o` - compiled object file.
+    - `.so` - shared object file.
 
 
 ## Resources
@@ -40,6 +41,11 @@ Most programming language you come across such as Bash, Python or Java will be *
 For example, the commonly used version of Python known as CPython and can be found here GitHub as ([python/cpython](https://github.com/python/cpython)). That is Python implemented in _C_. You will see many files there written in _C_ with `.c` or `.h` extensions. When you run Python code or import a builtin library, you might be running compiled _C_ code directory or you might be running _Python_ code which internally runs _C_ code. Running _C_ directly is typically much faster, as running Python code requires interpretation and compilation at runtime.
 
 There are alternatives such as Jython implemented in Java and IronPython implemented in C#.
+
+
+## Compile and run
+
+See the [helloworld](helloworld) section for instructions and a script.
 
 
 ## Help
