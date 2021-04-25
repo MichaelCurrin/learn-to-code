@@ -106,7 +106,8 @@ Get the first time in a list.
 This takes on parameter `x` and calculates the result as `3x + 1`.
 
 ```cj
-(defn f [x] (+ (* 3 x) 1))
+(defn f [x]
+    (+ (* 3 x) 1))
 ```
 
 Create a sum function.
@@ -114,7 +115,10 @@ Create a sum function.
 The hard way:
 
 ```cj
-(defn sum [l] (if (empty? l) 0 (+ (first l) (sum (rest l)))))
+(defn sum [l]
+    (if (empty? l) 0 
+        (+ (first l) (sum (rest l))))
+)
 ```
 
 Use the `apply` function to call `+`.
