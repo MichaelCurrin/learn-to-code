@@ -1,6 +1,15 @@
 # Clojure
 
+## Resources 
+
+[Homepage](https://clojure.org/)
+
 For an intro, see Uncle Bob's [A Little Clojure](https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html) post.
+
+And [A Little More Clojure](https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html).
+
+
+## About
 
 Clojure is a Functional Programming.
 
@@ -48,6 +57,8 @@ These are functions that you use at the start of a list.
 
 ## Data structures 
 
+Both lists and vectors can change size.
+
 ### Lists
 
 A list is implemented as a link-listed, making it fast for insertions but slow to get item N. Good for stacks.
@@ -71,7 +82,7 @@ In the REPL, you avoid a error, you need to explicitly define a list.
 
 ### Vectors
 
-A vector is implemented as an array. It is fast to add to the end of the array and to index it (and get an item anywhere at a given index). Good for queues.
+A vector is implemented as a resizable array. It is fast to add to the end of the array and to index it (and get an item anywhere at a given index). Good for queues.
 
 ```cj
 [1 2 3]
