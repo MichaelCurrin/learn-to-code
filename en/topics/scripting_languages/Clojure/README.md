@@ -30,6 +30,8 @@ This will do `1 + 2`.
 3
 ```
 
+These are functions that you use at the start of a list.
+
 ```cj
 => (+ 1 2 3 4)
 10
@@ -39,6 +41,8 @@ This will do `1 + 2`.
 336
 => (/ 5 6 9)
 5/54
+=> (/ 3)
+1/3
 ```
 
 
@@ -69,7 +73,7 @@ In the REPL, you avoid a error, you need to explicitly define a list.
 
 A vector is implemented as an array. It is fast to add to the end of the array and to index it (and get an item anywhere at a given index). Good for queues.
 
-```
+```cj
 [1 2 3]
 ```
 
@@ -94,7 +98,30 @@ This takes on parameter `x` and calculates the result as `3x + 1`.
 (defn f [x] (+ (* 3 x) 1))
 ```
 
-Create factorial function.
+Create a sum function.
+
+The hard way:
+
+```cj
+(defn sum [l] (if (empty? l) 0 (+ (first l) (sum (rest l)))))
+```
+
+Use the `apply` function to call `+`.
+
+```cj
+(defn sum [l] (apply + l))
+```
+
+```cj
+(defn sum [l] (reduce + l))
+```
+
+```cj
+=> (sum [1 2 3 4 5])
+15
+```
+
+Create a factorial function.
 
 ```cj
 (defn fac [x] (if (= x 1) 1 (* x (fac (dec x)))))
