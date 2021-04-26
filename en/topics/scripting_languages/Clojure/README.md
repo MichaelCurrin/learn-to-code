@@ -4,7 +4,7 @@
 
 [Homepage](https://clojure.org/)
 
-Install - see [Getting Started](https://clojure.org/guides/getting_started
+Install - see [Getting Started](https://clojure.org/guides/getting_started)
 
 Online playground https://repl.it/languages/clojure
 
@@ -15,7 +15,7 @@ And [A Little More Clojure](https://blog.cleancoder.com/uncle-bob/2020/04/09/ALi
 
 ## About
 
-Clojure is a Functional Programming.
+Clojure is a Functional Programming. It encourages immutable data and no side effects, but it also allows mutable data and imports from Java when needed.
 
 Shift the first bracket one character left and you understand function calls.
 
