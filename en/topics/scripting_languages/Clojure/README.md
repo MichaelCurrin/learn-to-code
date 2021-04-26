@@ -4,6 +4,10 @@
 
 [Homepage](https://clojure.org/)
 
+Install - see [Getting Started](https://clojure.org/guides/getting_started
+
+Online playground https://repl.it/languages/clojure
+
 For an intro, see Uncle Bob's [A Little Clojure](https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html) post.
 
 And [A Little More Clojure](https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html).
