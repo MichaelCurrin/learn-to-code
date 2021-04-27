@@ -425,6 +425,67 @@ In Python, the builtins are classes.
 ```
 
 
+## Exports
+
+In Python, everything is exported by default. And you use a leading underscore to indicate and object shouldn't be imported unless you really need it.
+
+In JS you have to do this. Sometimes missing named and default imports.
+
+```javascript
+export default function foo () {
+}
+
+export bar () {
+}
+```
+
+Or after creating without exporting.
+
+```javascript
+function foo () {
+}
+
+bar () {
+}
+
+export default foo
+export bar
+```
+
+This approach in JS is to export every function and every variable under its own name and then import as that. Which can get to unwieldly export and import statements which are hard to read and change. I regularly work with multi-line imports from a signle modle. And you have the risk of colliding as different modules might export the same variable name. And if all the imports are in the same global scope, it's hard to see which module someting comes from.
+
+JavaScript:
+
+```javascript
+import { myFunc, myOtherFunc } from "./bar/foo"
+import { MY_CONFIG_VALUE, MY_OTHER_CONFIG_VALUE } from "./constants"
+
+myFunct(MY_CONFIG_VALUE)
+myOtherFunc(MY_OTHER_CONFIG_VALUE)
+```
+
+While in Python, the norm is to import a module and use its elements, to show the context. And you are encourage to put variables on a variable to keep things light. This is a better programming style I think, but I can't apply it so easily to JavaScript as it breaks the pattern of what other JS developers would expect my code to do. Similarly, I prefer snakecase names to camelcase, but the JS community uses camelCase so I must use that.
+
+Python:
+
+```python
+import bar
+from constants import config
+
+
+bar.foo.my_func(config.MY_CONFIG_VALUE)
+bar.foo.my_other_func(config.MY_OTHER_CONFIG_VALUE)
+```
+
+Then if add another variable to `config` object, you don't have to add to exports in `constants` and to imports in the other script. You just starting using it.
+
+Or you could do:
+
+```python
+from bar import foo
+```
+
+
 ## Is JavaScript beginner-friendly?
 
 Although many beginners start with JavaScript, I would not say it is beginner-friendly. Yes, it is less verbose than C or Java because you don't have to be explicit with types or choosing choosing data types (do I want a signed 32-bit integer or an unsigned 8-bit integer?). And you don't have to worry about memory management like in C++.
@@ -436,14 +497,6 @@ This page covers surprises which beginners and experienced programmers will be s
 JavaScript has overhead of things to learn and you can't forget or skip learning the old styles, because you'll work across projects that use old or new styles or mix them together. I've covered some of these in the rest of this page.
 
 You have to know how to use `require` and `import` styles of imports.
-
-In Python, everything is exported by default. And you use a leading underscore to indicate and object shouldn't be imported unless you really need it.
-
-In JS you have to do this.
-
-```javascript
-export default
-```
 
 You have to know callbacks, promises and async syntax.
 
