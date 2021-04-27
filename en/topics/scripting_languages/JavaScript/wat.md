@@ -424,3 +424,51 @@ In Python, the builtins are classes.
 <class 'set'>
 ```
 
+
+## Is JavaScript beginner-friendly?
+
+Although many beginners start with JavaScript, I would not say it is beginner-friendly. Yes, it is less verbose than C or Java because you don't have to be explicit with types or choosing choosing data types (do I want a signed 32-bit integer or an unsigned 8-bit integer?). And you don't have to worry about memory management like in C++.
+
+But JavaScript is less friendly than Python.
+
+This page covers surprises which beginners and experienced programmers will be surprised by and will have to cope with.
+
+JavaScript has overhead of things to learn and you can't forget or skip learning the old styles, because you'll work across projects that use old or new styles or mix them together. I've covered some of these in the rest of this page.
+
+You have to know how to use `require` and `import` styles of imports.
+
+In Python, everything is exported by default. And you use a leading underscore to indicate and object shouldn't be imported unless you really need it.
+
+In JS you have to do this.
+
+```javascript
+export default
+```
+
+You have to know callbacks, promises and async syntax.
+
+You have to know `function` and arrow-function syntax. You have to know how to use these alone and on a class.
+
+You have to know how to work with items load CSVs and databases and also how to interact with the DOM.
+
+You have to know how to use `this`, which works differently in other languages.
+
+You have to know how to use `const`, `let` and `var` (also you don't need `var` anymore) and understand block scope. Ruby and Python don't use these keywords. Plus `const` doesn't actually freeze a variable, it only prevents reassignment, so you can still make updates to an array for example that is a `const` value.
+
+The lack of classes historically in JS means that functions in functions were the norm. This was done not just to namespace functions (which can be solved by other methods like IFFE or using a hash to store functions). But it was done to implicitly use variables from the other function in the inner function. Which makes state hard to reason about. And its harder to write unit tests agains the inner function.
+
+```javascript
+function foo() {
+  let x = 123
+  
+  function increment() {
+    x++
+  }
+  
+  increment()
+  console.log(x)
+}
+
+foo()
+// 124
+```
