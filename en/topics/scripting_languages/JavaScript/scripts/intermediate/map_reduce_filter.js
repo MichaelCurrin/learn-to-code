@@ -1,5 +1,7 @@
 /**
  * Demo of map, filter and reduce methods.
+ *
+ * See this page for more info https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/javascript/general/map-reduce-filter.html
  */
 
 console.log('Base data');
@@ -27,7 +29,7 @@ console.log(total);
 
 console.log('\nChaining');
 
-//Note order of map and filter matters.
+// Note order of map and filter matters.
 var mapFilter = numbers.map(x => x*2).filter(x => x > 5);
 console.log(mapFilter);
 
