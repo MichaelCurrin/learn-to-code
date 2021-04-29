@@ -9,20 +9,29 @@ Create the file first if it does not exist then open it to edit.
 $ open ~/.gitconfig
 ```
 
-Add the following to your config then save.
+Run this:
 
+```sh
+$ git config --global core.excludesfile '~/.gitignore'
 ```
+
+Note the quotes to prevent tilde expansion.
+
+Or add the following to your config directly, then save it.
+
+```toml
 [core]
 	excludesfile = ~/.gitignore
 ```
 
-## 2. Create ignore file
+
+## 2. Create the ignore file
 
 ```sh
 $ touch ~/.gitignore
-
-$ open ~/.gitignore
 ```
+
+Edit it.
 
 Add any rules to it. For example:
 
@@ -37,13 +46,13 @@ Add any rules to it. For example:
 Save and exit.
 
 
-## 3. Test
+## 3. Test the ignoring
 
 Navigate to a repo.
 
 Create a file or folder which is in your ignore list.
 
-Then run
+Then run:
 
 ```sh
 $ git status
