@@ -3,7 +3,7 @@
 ## Resources 
 
 - [Homepage](https://clojure.org/)
-- [Overview](https://clojure.org/about/rationale) - why Clojure. Lisp-based and Functional Programming. 
+- [Overview](https://clojure.org/about/rationale) - "Why Clojure?" rationale, info on Lisp and info on Functional Programming. 
 - Install - see [Getting Started](https://clojure.org/guides/getting_started)
 - Online playground https://repl.it/languages/clojure
 - Reference
@@ -29,18 +29,20 @@ Shift the first bracket one character left and you understand function calls.
 In other languages:
 
 ```
-f(1, 2)
+f(1, 2)          # Some function f taking two params
+sum(1, 2, 3, 4)  # Some function sum taking an iterable or list.
 ```
 
 In Clojure:
 
 ```clj
 (f 1 2)
+(+ 1 2 3 4)
 ```
 
 The first item in a list is the function to apply.
 
-Functions are first-class objects that you can pass around.
+Functions are first-class objects that you can pass them around.
 
 
 ## Operations
