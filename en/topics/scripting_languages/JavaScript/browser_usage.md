@@ -1,10 +1,12 @@
 # Running JS in the browser
 
+
 ## Resources
 
 - [JavaScript and HTML DOM Reference](https://www.w3schools.com/jsref/default.asp) on W3 Schools.
 - [JS global](https://www.w3schools.com/jsref/jsref_obj_global.asp) function docs on W3 Schools.
 - JS [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)  docs Mozilla. Covers to work with areas like DOM, Geolocation API, Push API and Fetch API.
+
 
 ## Run
 
@@ -87,65 +89,8 @@ Place script after content in the body.
 </body>
 ```
 
-If you want to keep the script in scope, then use an [IIFE](#immediately-invoked-function-expression).
+If you want to keep the script in scope, then use an IIFE.
 
-## Immediately Invoked Function Expression
-
-Also known as _IIFE_. This is a function that executes immediately and keeps all its objects limited to its scope, which avoids polluting or overwriting in global namespace. These functions are typically not named.
-
-- Plain function
-    ```js
-    function () {}
-    ```
-- Adding a call at the end will give a syntax error.
-    ```js
-    function () {}()
-    ```
-- Surround the function in brackets before calling it will work.
-    ```js
-    (function () {})()
-    ```
-- Or instead of brackets, use use the not `!` operator at the start. This will treat the function as an expression and return `true` (since the opposite of `!undefined` is `true`).
-    ```js
-    !function () {}()
-    ```
-
-The examples below using the bracket style.
-
-From [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) doc on Mozilla site. See also [IIFE on Wikipedia](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression).
-
-## Syntax
-
-```js
-(function () {
-    statements
-})();
-```
-
-### Examples
-
-> The function becomes a function expression which is immediately executed. The variable within the expression can not be accessed from outside it.
-
-```js
-(function () {
-    var aName = "Barry";
-})();
-
-// Variable aName is not accessible from the outside scope
-aName // throws "Uncaught ReferenceError: aName is not defined"
-```
-
-> Assigning the IIFE to a variable stores the function's return value, not the function definition itself.
-
-```js
-var result = (function () {
-    var name = "Barry";
-    return name;
-})();
-
-// Immediately creates the output:
-result; // "Barry">
-```
 
 ## URL query strings
 
