@@ -98,6 +98,10 @@ Usage notes:
 https://leetcode.com/
 
 
+### Coding projects
+
+https://www.codementor.io/projects
+
 ### Mentoring
 
 > Exercism logoExercism
