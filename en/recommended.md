@@ -95,21 +95,21 @@ Usage notes:
 
 ### Code challenges
 
-https://leetcode.com/
+- [leetcode.com](https://leetcode.com/)
+    - Complete coding challenges online in your chosen language. To help you with alogorithms and interviews.
+    - > LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
 
 ### Mentoring
 
-> Exercism logoExercism
+- [exercism.io/](https://exercism.io/)
 
 > Code practice and mentorship for everyone
 >
->Level up your programming skills with 3,423 exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors. Exercism is 100% free forever.
-
-https://exercism.io/
+> Level up your programming skills with 3,423 exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors. Exercism is 100% free forever.
 
 
-### Freecodecamp
+### Free Code Camp
 
 - Learn to code at home.
 - Build projects.
@@ -117,9 +117,22 @@ https://exercism.io/
 
 > Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including:
 
-- Homepage https://www.freecodecamp.org
-- Curriculum of tutorials by language and topic https://www.freecodecamp.org/learn
+- [freecodecamp.org](https://www.freecodecamp.org) homepage.
+- [Learn](https://www.freecodecamp.org/learn) page - Curriculum of tutorials by language and topic 
 
+
+## Database GUI tools
+
+- Postgres
+    - Postico
+        - [Homepage](https://eggerapps.at/postico/)
+        - > A Modern PostgreSQL Client for the Mac
+    - pgAdmin 
+    - See also [article](https://retool.com/blog/best-postgresql-guis-in-2020/).
+- MySQL
+    - MySQLWorkbench
+        - [Homepage](https://www.mysql.com/products/workbench/)
+        
 
 ## API testing
 
@@ -131,6 +144,7 @@ Easy way to do GET or POST request with data through an application with a user-
 - [Postman](https://www.postman.com/)
 	- Downloadable
 	- Do API requests from the application.
+
 
 ## Public URL testing with Ngrok
 
