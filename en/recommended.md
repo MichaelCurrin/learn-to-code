@@ -99,22 +99,22 @@ Usage notes:
     - Complete coding challenges online in your chosen language. To help you with alogorithms and interviews.
     - > LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 
+### Mentoring
 
-### Coding projects
+#### Coding projects
 
 - Code Mentor
     - [codementor.io/](https://www.codementor.io/) homepage
     - [Projects](https://www.codementor.io/projects)
     - DevProjects is a community with free real-world projects in multiple coding languages and tech stacks. The website also includes solutions from other developers and discussion board for all users to participate in. Apart from the projects, solutions, and discussion board, users can also reach out to mentors on Code Mentor for paid help. However, the latter bit is not compulsory or forced.
 
-### Mentoring
+#### Exercism
 
 - [exercism.io/](https://exercism.io/)
 
 > Code practice and mentorship for everyone
 >
 > Level up your programming skills with 3,423 exercises across 52 languages, and insightful discussion with our dedicated team of welcoming mentors. Exercism is 100% free forever.
-
 
 ### Free Code Camp
 
