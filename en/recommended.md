@@ -85,7 +85,7 @@ Usage notes:
 - For help, select Table of Contents from the menu on the right.
 - You do not have save - it autosaves for you. Auto sync defaults to 90 seconds and the minimum is 60 seconds. Every sync which contains changes causes a commit, so you might want to make this less frequent like every 5 minutes. You can also click the sync button in the top right to force a sync, in case you need to view the results on GitHub.
 - Click Settings in the right menu. You can override default settings.
-- Use `CTRL+SHIFT+V` in the docs to paste *without* formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using a codeblock, you may want to keep the pasted line breaks, as the double spacing is needed for line breaks to render in Markdown.
+- Use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>V</kbd> in the docs to paste _without_ formatting - I found this necessary to avoid unnecessary open lines when copying code from an IDE into a markdown codeblock. When not using a codeblock, you may want to keep the pasted line breaks, as the double spacing is needed for line breaks to render in Markdown.
 
 
 ### Screen sharing
@@ -154,9 +154,12 @@ Easy way to do GET or POST request with data through an application with a user-
 - VS Code extensions
     - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
     - [Postman Runner](https://marketplace.visualstudio.com/items?itemName=eridem.vscode-postman) - Run Postman tests directly from your VSCode. There are similar "Postman" extensions in the marketplace.
-    
+    - [reVerb](https://marketplace.visualstudio.com/items?itemName=reverb-api.reverb) - "it's like Postman"
 
-## Public URL testing with Ngrok
+
+## Host your local server on temporary public IP 
+
+Using Ngrok
 
 Use Ngrok to access your web server publically on a temporary, public, random URL on the Ngrok domain.
 
