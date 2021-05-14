@@ -105,8 +105,8 @@ Usage notes:
 
 - Code Mentor
     - [codementor.io/](https://www.codementor.io/) homepage
-    - [Projects](https://www.codementor.io/projects)
-    - DevProjects is a community with free real-world projects in multiple coding languages and tech stacks. The website also includes solutions from other developers and discussion board for all users to participate in. Apart from the projects, solutions, and discussion board, users can also reach out to mentors on Code Mentor for paid help. However, the latter bit is not compulsory or forced.
+    - [Dev Projects](https://www.codementor.io/projects)
+        - Dev Projects is a community with free real-world projects in multiple coding languages and tech stacks. The website also includes solutions from other developers and discussion board for all users to participate in. Apart from the projects, solutions, and discussion board, users can also reach out to mentors on Code Mentor for paid help. However, the latter bit is not compulsory or forced.
 
 #### Exercism
 
@@ -151,7 +151,10 @@ Easy way to do GET or POST request with data through an application with a user-
 - [Postman](https://www.postman.com/)
 	- Downloadable
 	- Do API requests from the application.
-
+- VS Code extensions
+    - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+    - [Postman Runner](https://marketplace.visualstudio.com/items?itemName=eridem.vscode-postman) - Run Postman tests directly from your VSCode. There are similar "Postman" extensions in the marketplace.
+    
 
 ## Public URL testing with Ngrok
 
@@ -184,7 +187,6 @@ Ngrok runs as an application locally and connects with the Ngrok servers, then a
 
 There are some limitations, especially on the free tier - like the URL is random each time and only one user can connect at a time.
 
-
 ### Setup
 
 1. [Signup](https://ngrok.com) for an account.
@@ -196,7 +198,6 @@ There are some limitations, especially on the free tier - like the URL is random
 		ngrok authtoken <YOUR_AUTHTOKEN>
 		```
 	- See the [Configuration docs](https://ngrok.com/docs#config-location). This describes the OS-specific location of the one-line config file set using the command above.
-
 
 ### Usage
 
@@ -223,7 +224,7 @@ There are some limitations, especially on the free tier - like the URL is random
 	```
 4. <kbd>CTRL+C</kbd> to stop the server.
 
-Command help sample:
+A sample of the CLI help:
 
 ```sh
 $ ngrok
