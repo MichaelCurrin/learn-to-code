@@ -9,19 +9,6 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart/) language
 
 ## Resources
 
-- [reactnative.dev](https://reactnative.dev) homepage
-	> Learn once, write anywhere.
-	> Create native apps for Android and iOS using React.
-	>
-	> Written in JavaScript - rendered with native code.
-	>
-	> React Native is like React, but it uses native components instead of web components as building blocks.
-- [Getting Started](https://reactnative.dev/docs/getting-started)
-    > This page will help you install and build your first React Native app.
-	- Includes an interactive example.
-- Tutorials
-    - [Learn the basics](https://facebook.github.io/react-native/docs/tutorial).
-- [GitHub repo](https://github.com/facebook/react-native)
 - Online IDE
 	- [expo.io](https://expo.io/)
 		> With Expo tools, services, and React, you can build, deploy, and quickly iterate on native Android, iOS, and web apps from the same JavaScript codebase.
