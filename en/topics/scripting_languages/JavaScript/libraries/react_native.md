@@ -9,6 +9,7 @@ As an alternative, see the [Dart](/en/topics/scripting_languages/Dart/) language
 
 ## Resources
 
+- [React Native](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/react-native/) on Dev Resources.
 - Online IDE
 	- [expo.io](https://expo.io/)
 		> With Expo tools, services, and React, you can build, deploy, and quickly iterate on native Android, iOS, and web apps from the same JavaScript codebase.
