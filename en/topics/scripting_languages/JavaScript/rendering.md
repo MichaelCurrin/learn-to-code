@@ -1,17 +1,23 @@
 # Rendering
 
+## Approaches
 
-You have two options if you want to make your SPA to discoverable on search engines:
-
+- [Single-Page Application](#single-page-application)
 - [Server-Side Rendering](#server-side-rendering)
 - [Pre-rendering](#pre-rendering)
+
+### Which approach to use?
+
+The Server-Side Rendering may not be right for you. If you want to improve the performance of your app or improve SEO rankings, considering adding a pre-rendering tool at built time like `presite`, or use a static site generator that is built on React.
 
 The SSR approach is more complex - it needs restructuring of your app and then you need to have a Node server running.
 
 he pre-rendering approach can be done easily by checking an option or adding a step in your deploy pipeline, without rewriting your app. And it works great with static hosting.
 
 
-## Traditional SPA flow
+## Single-Page Application
+
+The traditional flow - using a build step but without pre-rendering or generatic a static site.
 
 A React app typically just an empty div tag in HTML and a JavaScript file that hasn't run yet. 
 
