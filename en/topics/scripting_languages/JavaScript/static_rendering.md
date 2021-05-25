@@ -59,9 +59,11 @@ I like this prerender approach a lot. You might need to specify routes on the si
 
 ## Pre-render using prerender package
 
-Homepage:
+Homepage for rendering service.
 
 https://prerender.io/
+
+See also https://prerender.com crawler.
 
 Repo: 
 
@@ -71,6 +73,10 @@ Repo:
 
 > Node server that uses Headless Chrome to render a javascript-rendered page as HTML. To be used in conjunction with prerender middleware. 
 
+[![prerender - prerender-node](https://img.shields.io/static/v1?label=prerender&message=prerender-node&color=blue&logo=github)](https://github.com/prerender/prerender-node)
+[![stars - prerender-node](https://img.shields.io/github/stars/prerender/prerender-node?style=social)](https://github.com/prerender/prerender-node)
+[![forks - prerender-node](https://img.shields.io/github/forks/prerender/prerender-node?style=social)](https://github.com/prerender/prerender-node)
+
 Note that this is a paid service. See [Billing](https://docs.prerender.io/article/30-how-does-prerender-bill).
 
 - [Getting Started](https://docs.prerender.io/article/15-getting-started) docs.
@@ -78,4 +84,4 @@ Note that this is a paid service. See [Billing](https://docs.prerender.io/articl
     > 
     > If it is a request from a crawler, the middleware will send a request to Prerender.io for the static HTML of that page. If not, the request will continue on to your normal server routes. The crawler never knows that you are using Prerender.io since the response always goes through your server. The Prerender.io middleware that you install on your server will check each request to see if it's a request from a crawler. If it is a request from a crawler, the middleware will send a request to Prerender.io for the static HTML of that page. If not, the request will continue on to your normal server routes. The crawler never knows that you are using Prerender.io since the response always goes through your server.
 
-You can also run prerender directly using GitHub clone or maybe NPM package, so maybe just use that at build time like presite.
+You could mabybe run prerender directly, so just use that at build time like presite.
