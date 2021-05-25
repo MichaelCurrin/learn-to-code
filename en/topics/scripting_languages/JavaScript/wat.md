@@ -525,3 +525,29 @@ function foo() {
 foo()
 // 124
 ```
+
+
+## Naming
+
+Other languages are consistent.
+
+In Python, you use lowercase names for your scripts. 
+
+Names are underscores and never dots or hyphens. This is enforced at a language level not just convention. Since a dot is meaningful in module structure and hyphens are not allowed outside of quotes.
+
+But JavaScript switches between these:
+
+- `myModule.js`
+- `MyModule.js` - in the case of components like in Rect.
+- `my-module.js` - e.g. the most common you'll see is `package-lock.json`.
+- `my.module.js` - In particular for tests, like `myModule.spec.js`. But also sometimes in other places.
+
+Similarly, imports must be done from those names, in a string like:
+
+```
+import { foo } from './my-module.js';
+```
+
+Also, you have to use dot forward slash for a local module or it will break.
+
+In Python, you don't have to use the dot forward slash. The convention is your external imports go at the top and the local imports at the bottom of the imports. Tools can even apply this ordering for you.
