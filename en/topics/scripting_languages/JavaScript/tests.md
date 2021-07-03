@@ -95,6 +95,13 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     
 ### Vue
 
+Both of these seem focussed on testing components and not views. 
+
+And also focus on behavior and not implementation details. 
+
+What is missing is how I set up a unit test for testing a method alone in component or a view. Note that if the method changes state on the instance, then the scope goes beyond just the method and this becomes harder to test. And then you have to considered mounting / rendering and not just calling a method.
+Perhaps testing is a method is not allowed or desirable according to both libraries. Still, how do I test a method or computed method with no side effects? Put it outside the instance? Even put it outside the .vue file and in a plain JS file?
+
 - Vue Testing Library 
     - https://testing-library.com/docs/vue-testing-library/intro
     - https://github.com/testing-library/vue-testing-library
