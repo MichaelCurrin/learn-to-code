@@ -110,5 +110,9 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     - Low-level component testing.
     - Official Vue library.
     - If you are new to Vue, rather use Vue Testing.
+    - What you can test - from https://next.vue-test-utils.vuejs.org/guide/essentials/easy-to-test
+        > Notice how this list does not include elements such as internal methods, intermediate states or even data.
+        >
+        > The rule of thumb is that a test should not break on a refactor, that is, when we change its internal implementation without changing its behavior. If that happens, the test might rely on implementation details.
 - End to End tests
     - https://v3.vuejs.org/guide/testing.html#end-to-end-e2e-testing
