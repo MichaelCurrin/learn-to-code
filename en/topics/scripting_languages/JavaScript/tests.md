@@ -95,7 +95,7 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     
 ### Vue
 
-- Vue Testing Library (VTU)
+- Vue Testing Library 
     - https://testing-library.com/docs/vue-testing-library/intro
     - https://github.com/testing-library/vue-testing-library
     - Guiding principle
@@ -105,7 +105,7 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     - Test components without relying on implementation details.
     - High-level component testing. Used Vue Test Utils internally.
     - You can't access component methods or the component instance. This is intentional. They want you to focus on testing the output and functionality of the component as it is observed by the user and to avoid worrying about the implementation details.
-- Vue Test Utils
+- Vue Test Utils (VTU)
     - https://next.vue-test-utils.vuejs.org/guide/ 
     - Low-level component testing.
     - Official Vue library.
