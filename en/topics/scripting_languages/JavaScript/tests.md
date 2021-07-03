@@ -101,7 +101,7 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     - Test components without relying on implementation details.
     - High-level component testing. Used Vue Test Utils internally.
 - Vue Test Utils
-    - https://vue-test-utils.vuejs.org/
+    - https://next.vue-test-utils.vuejs.org/guide/ 
     - Low-level component testing.
     - If you are new to Vue, rather use Vue Testing.
 - End to End tests
