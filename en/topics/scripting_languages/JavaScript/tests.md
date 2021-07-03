@@ -24,24 +24,24 @@ Here is an overview.
 
 See this [Top 5 JS Testing Frameworks](https://www.browserstack.com/guide/top-javascript-testing-frameworks) guide.
 
-See also the Vue 2 [Testing](https://vuejs.org/v2/guide/testing.html) guide.
+See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
 
 ### Mocha
 
 - [mochajs.org](https://mochajs.org/)
 - Backend and frontend support.
-- Flexible. Allows choosing of libraries for common features - like Chai for assertions.
-- [Assertions](https://mochajs.org/#assertions)
+    > it can also execute tests in the browser in addition to Node.js.
+- Flexible. Requires you to choose libraries to install for common features - like Chai for assertions.
+- [Assertions](https://mochajs.org/#assertions) page of the docs
     > Mocha allows you to use any assertion library you wish. In the above example, we’re using Node.js’ built-in `assert` module — but generally, if it throws an Error, it will work! This means you can use libraries...
-
 
 ### Jest
 
 - [jestjs.io](https://jestjs.io/)
-- Simple, light and fast.
+- Focussed on simplicity. Simple, light and fast.
 - Works with zero configuration.
 - Preferred for React.
-- Allows use of snapshots.
+- Allows taking of snapshots of tests as alternative means of verifying units.
 
 ### Jasmine
 
@@ -73,10 +73,9 @@ See also the Vue 2 [Testing](https://vuejs.org/v2/guide/testing.html) guide.
 
 ## Low-level tesing
 
-
 ### Assertions
 
-- [assertion](https://nodejs.org/api/assert.html) module - builtin to Node.js.
+- [assert](https://nodejs.org/api/assert.html) module - builtin to Node.js.
 - `should.js` - BDD style shown throughout these docs
 - `expect.js` - `expect()` style assertions
 - [chai](https://www.chaijs.com/) - `expect()`, `assert()` and `should`-style assertions
@@ -86,9 +85,24 @@ See also the Vue 2 [Testing](https://vuejs.org/v2/guide/testing.html) guide.
 
 ## Testing for frameworks
 
+### React
+
 - React Testing Library
     - [@testing-library/react](https://www.npmjs.com/package/@testing-library/react) on NPM
     - [Intro](https://testing-library.com/docs/react-testing-library/intro/) guide.
         > React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components.
     - This gets used in a new `create-react-app` - see [react-quickstart](https://github.com/MichaelCurrin/react-quickstart/blob/master/package.json).
     
+### Vue
+
+- Vue Testing
+    - https://testing-library.com/docs/vue-testing-library/intro
+    - Tests software the way it is used, to build confidence.
+    - Test components without relying on implementation details.
+    - High-level component testing. Used Vue Test Utils internally.
+- Vue Test Utils
+    - https://vue-test-utils.vuejs.org/
+    - Low-level component testing.
+    - If you are new to Vue, rather use Vue Testing.
+- End to End tests
+    - https://v3.vuejs.org/guide/testing.html#end-to-end-e2e-testing
