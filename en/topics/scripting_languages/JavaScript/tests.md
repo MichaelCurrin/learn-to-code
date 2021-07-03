@@ -95,14 +95,16 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
     
 ### Vue
 
-- Vue Testing
+- Vue Testing Library
     - https://testing-library.com/docs/vue-testing-library/intro
+    - https://github.com/testing-library/vue-testing-library
     - Tests software the way it is used, to build confidence.
     - Test components without relying on implementation details.
     - High-level component testing. Used Vue Test Utils internally.
 - Vue Test Utils
     - https://next.vue-test-utils.vuejs.org/guide/ 
     - Low-level component testing.
+    - Official Vue library.
     - If you are new to Vue, rather use Vue Testing.
 - End to End tests
     - https://v3.vuejs.org/guide/testing.html#end-to-end-e2e-testing
