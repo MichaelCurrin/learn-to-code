@@ -98,8 +98,10 @@ See also the Vue 3 [Testing](https://v3.vuejs.org/guide/testing.html) guide.
 - Vue Testing Library
     - https://testing-library.com/docs/vue-testing-library/intro
     - https://github.com/testing-library/vue-testing-library
-    - Guiding principle is to test software the way it is used, to build confidence.
+    - Guiding principle
+       > The more your tests resemble the way your software is used, the more confidence they can give you
     - > we want is for this library to be pretty light-weight, simple, and understandable.
+    - > You can write unit, integration, and end-to-end tests with this library.
     - Test components without relying on implementation details.
     - High-level component testing. Used Vue Test Utils internally.
 - Vue Test Utils
