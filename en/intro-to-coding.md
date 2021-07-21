@@ -18,14 +18,14 @@ Below are some departments or careers within tech that I am familiar with. These
 - More modern languages are usually "object-oriented", which can make them more natural to conceptualize (the objects might map to real-world entities like users and images). These are usually easier to pick-up.
 - Note that there are over 200 programming languages and they can generally are do similar tasks. Some just make it easier or convenient to do certain things. Some have a lot of support in terms of meetups, online forums and documentation and continued development (fixes and features). An important part of choosing a language is knowing if there are open-source libraries for you to download and use in your application to save you having to write it yourself. Newer languages or those with a smaller following usually have fewer libraries.
 - Here are some popular or commonly used modern languages are:
-	- [Ruby](topics/scripting_languages/Ruby) - for Fullstack or Backend development.
-	- [PHP](topics/scripting_languages/PHP) - also Fullstack or Backend.
-	- C# (C Sharp) - also Fullstack or Backend.
 	- Java - for Fullstack or  Backend development. Server-side applications and desktop user interfaces, also for web servers and APIs.
-	- [Python](topics/scripting_languages/Python) - as above for Java, but with particular growing interest in recent decades around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT) like using a Raspberry Pi.
+	- C# (C Sharp) - also Fullstack or Backend. This is based on Java but with some more features.
+    - [Python](topics/scripting_languages/Python) - as above for Java, but with particular growing interest in recent decades around Data Science, web scraping, automation, Machine Learning and the Internet of Things (IoT) like using a Raspberry Pi.
 	- C++ (C Plus Plus) - often used for games, or high-performance time-sensitive computing like computers for machinery and vehicles.
 	- [JavaScript](topics/scripting_languages/JavaScript) - This started as a language that can only run in the browser, but now developers are using JavaScript on the server side, known as Node or NodeJS. So now JavaScript can be used on the backend, or frontend, or both. It can also be used for desktop applications (such as using [Electron](topics/scripting_languages/JavaScript/frameworks.md#electron)) or mobile applications (such using [React Native](topics/scripting_languages/JavaScript/frameworks.md#react-native)).
-
+	- [Ruby](topics/scripting_languages/Ruby) - for Fullstack or Backend development. Rails or "Ruby on Rails" is the most famous Ruby package or "gem".
+	- [PHP](topics/scripting_languages/PHP) - also Fullstack or Backend. WordPress is the typical case here.
+	
 ### Web development
 
 - This includes building websites and mobile apps.
@@ -153,6 +153,11 @@ Below are some departments or careers within tech that I am familiar with. These
 	- See links:
 		- [AWS Lambda](https://aws.amazon.com/lambda/) - event-driven serverless computing.
 		- [Backend as a Service](https://backendless.com/)
+		- [FaunaDB](https://fauna.com/)
+		- [Hasura](https://hasura.io/)
+		    > Instant realtime GraphQL on all your data
 		- [Serverless](https://serverless.com)
 		- [Backend as a service blog post](https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/) on [cloudflare.com](https://www.cloudflare.com)
-		- [Zeit](https://zeit.co/)
+		- [Vercel](https://vercel.com/) - previously known as "Zeit". Host your static site, Node app or Python app in the cloud for free. It will turn your backend server into a bunch of serverless endpoints, giving you speed and efficient resources and without having to rewrite your app as a ton of Lambdas.
+		
+ 
