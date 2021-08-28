@@ -4,6 +4,8 @@ Build user interfaces. Such as games, forms and websites.
 
 React was originally made for the web but it has been extended to mobile with [React Native](#react-native) and desktop with [Node GUI](https://blog.bitsrc.io/building-native-desktop-application-with-react-node-gui-2ce1b2a2164?gi=8336751480b).
 
+See [Dev Resources](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/react/).
+
 
 ## Why React?
 
