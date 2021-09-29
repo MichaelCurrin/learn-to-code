@@ -9,6 +9,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
+
 ## Translations of this guide
 
 [![English homepage](https://img.shields.io/badge/English-2ea44f?style=for-the-badge)](/en/)
@@ -17,6 +18,15 @@
 _Note: The Italian guide is incomplete and it can go out of date when changes are made to the English guide only._
 
 Jump straight to the [Scripting languages :gb:](/en/topics/scripting_languages/) section.
+
+
+## Related projects
+
+I'm not actively adding content here. I am gradually moving content to these static websites instead.
+
+- https://MichaelCurrin.github.io/dev-resources/ 
+- https://MichaelCurrin.github.io/dev-cheatsheets/
+- https://MichaelCurrin.github.io/code-cookbook/
 
 
 ## Contributing
