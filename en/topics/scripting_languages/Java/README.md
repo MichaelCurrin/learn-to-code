@@ -49,7 +49,7 @@ Technical features
     $ javac hello.java
     ```
 3. Execute the created binary file. In macOS/Linux, it will have no extension.
-    ```sh
+    ```console
     $ ./hello
     Hello, world!
     ```
@@ -81,10 +81,10 @@ The `while` loop.
 int i = 0;
 
 while (i < 3){
-    // statement
+    System.out.println("Index: ", i);
     i++; 
 }
-`
+```
 
 The `for` loop.
 
@@ -102,7 +102,7 @@ myArray.forEach(element -> {
   // Multiple statements
 });
 
-myArray.foreach(element -> statement);
+myArray.forEach(element -> statement);
 ```
 
 e.g.
