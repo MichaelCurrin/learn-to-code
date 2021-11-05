@@ -1,7 +1,0 @@
-[package]
-name = "my_package"
-version = "0.1.0"
-authors = ["YOUR_GIT_USER_NAME <YOUR_GIT_EMAIL>"]
-edition = "2018"
-
-[dependencies]
