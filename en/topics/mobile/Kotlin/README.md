@@ -1,6 +1,6 @@
 # Kotlin
 
-Kotlin is Google's version of Java. It arose out of legal issues when Google was using and extending Sun's Java code for Android.
+Kotlin is Google's version of Java and is officially preferred over Java for Android development. It arose out of legal issues when Google was using and extending Sun's Java code for Android.
 
 - [kotlinlang.org](https://kotlinlang.org)
     - > Why Kotlin? Concise. Drastically reduce the amount of boilerplate code.
@@ -11,4 +11,4 @@ Kotlin is Google's version of Java. It arose out of legal issues when Google was
       > Kotlin mainly targets the JVM, but also compiles to JavaScript or native code (via LLVM). Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.
     - Created in 2011.
     - Google added first-class support for it for Android in 2017.
-    
+- https://youtu.be/xT8oP0wy-A0
