@@ -72,7 +72,7 @@ Example:
 
 If you visit that in the browser, you'll get to a URL like this:
 
-- With parms: https://images.unsplash.com/photo-1502009285422-74e42ac2fd68?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&ixid=eyJhcHBfaWQiOjF9
+- With params: https://images.unsplash.com/photo-1502009285422-74e42ac2fd68?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&ixid=eyJhcHBfaWQiOjF9
 - Without parms: https://images.unsplash.com/photo-1502009285422-74e42ac2fd68
 
 #### Target dimensions
