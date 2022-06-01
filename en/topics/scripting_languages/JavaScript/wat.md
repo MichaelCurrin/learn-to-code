@@ -6,7 +6,9 @@ The "JS Wat" idea is a comical look at the annoyances and design flaws around Ja
 For more info on JS wat, see these resources:
 
 - Blog post [The WHY behind the WAT: An explanation of JavaScript’s type system](https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db)
-- Watch the second half the video [here](https://www.destroyallsoftware.com/talks/wat) or 
+- "WAT" JavaScript Talk Explained aka A lightning talk by Gary Bernhardt from CodeMash 2012. Watch the second half the video.
+    - [Wat on destroyallsoftware.com](https://www.destroyallsoftware.com/talks/wat)
+    - [Wat](https://www.youtube.com/watch?v=oK2vXWfCnt) on YouTube
 - Search "js wat" on Youtube.
 
 Some of these quirks I cover below where probably due to the fact that JavaScript was famously written in 10 days and these are areas never got corrected because it would break code that relies on the quirks to continue to exist.
@@ -24,7 +26,7 @@ Some of these quirks I cover below where probably due to the fact that JavaScrip
 'object' // Why not array?
 ```
 
-You can use the uncommon `Array` constructor, but you'll get an object type, not an array.
+You can use the less commonly used `Array` constructor, but you'll get an object type, not an array type.
 
 ```javascript
 > var y = Array()
@@ -34,15 +36,34 @@ You can use the uncommon `Array` constructor, but you'll get an object type, not
 ```
 
 ```javascript
-> typeof null
-'object' // Why not 'null'?
-```
-
-```javascript
 > var z = Object()
 []
 > typeof z
 'object' // Why not 'Object'?
+```
+
+```javascript
+> typeof null
+'object' // Why not 'null'?
+```
+
+
+Compare with Python:
+
+```python
+>>> []
+[]
+>>> list()
+[]
+>>> type(list())
+<class 'list'>
+```
+
+Also `list` and `dict` are separate types rather than in JS where they are both an `Object`.
+
+```python
+>>> type(None)
+# <class 'NoneType'>
 ```
 
 ### Adding
