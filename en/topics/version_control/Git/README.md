@@ -17,6 +17,10 @@ Commits means you can choose to deploy a certain version of your code (sometimes
 
 See the Reference section on [Git docs](https://git-scm.com/doc).
 
+[Working with branches in Git](https://www.git-tower.com/learn/cheat-sheets/git-branches) cheat sheet.
+
+Visual [Git cheat sheet](https://www.git-tower.com/learn/cheat-sheets/git).
+
 
 ## Branches
 
